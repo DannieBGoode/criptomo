@@ -37,7 +37,7 @@ layout: default
             </article><!-- .post -->
             <div class="author-box">
                 <div class="author-info">
-                    <div class="author-avatar" style="background-image: url({{ site.author_image }})"><span class="screen-reader-text">{{ site.author_name }}'s Picture</span></div>
+                    <div class="author-avatar" style="background-image: url({{ site.baseurl }}{{ site.author_image }})"><span class="screen-reader-text">{{ site.author_name }}'s Picture</span></div>
                     <div class="author-details">
                         <h2 class="author-title">Acerca de {{ site.author_name }}</h2>
                         <p class="author-bio">{{ site.author_bio }}</p>
@@ -52,7 +52,7 @@ layout: default
                 <div class="nav-previous">
                     <div class="nav-inside">
                         {% if page.previous.banner_image %}
-                        <a href="{{ site.baseurl }}{{page.previous.url}}" class="nav-thumb" style="background-image: url({{ "/images/posts/" | append: page.previous.banner_image }})"></a>
+                        <a href="{{ site.baseurl }}{{page.previous.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: page.previous.banner_image }})"></a>
                         {% endif %}
                         <div class="nav-before">Anterior</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></div>
@@ -64,7 +64,7 @@ layout: default
                 <div class="nav-next">
                     <div class="nav-inside">
                         {% if page.next.banner_image %}
-                        <a href="{{ site.baseurl }}{{page.next.url}}" class="nav-thumb" style="background-image: url({{ "/images/posts/" | append: page.next.banner_image }})"></a>
+                        <a href="{{ site.baseurl }}{{page.next.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: page.next.banner_image }})"></a>
                         {% endif %}
                         <div class="nav-before">Siguiente</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></div>
