@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "¿Cómo sacar Bitcoin Gold?"
+title:  "¿Cómo obtener Bitcoin Gold?"
 description: "Explicación básica de qué es Bitcoin Gold y qué hacer y que no hacer para obtenerlo."
 date:   2017-11-18
 banner_image: 201711/bitcoin-gold-logo.jpg
 tags: [bitcoin, criptomonedas]
 ---
 
-Una nueva criptomoneda denominada [Bitcoin Gold](https://bitcoingold.org/) (BTG) fue creada el 12 de Noviembre de 2017 mediante el proceso que se denomina *hard fork*, este proceso fija un punto en el *blockchain* de Bitcoin (BTC) y realiza una copia exacta de la historia de transacciones de la moneda original replicándola en una segunda cadena con normas diferentes. Esto se realizó en el bloque [491407](https://blockchain.info/block/000000000000000000e5438564434edaf41e63829a637521a96235adf4653e1b) que sucedió en la cadena de BTC el 25 de Octubre de 2017.
+Una nueva criptomoneda denominada [Bitcoin Gold](https://bitcoingold.org/) (BTG) fue creada el 12 de Noviembre de 2017 mediante el proceso que se denomina *hard fork*, este proceso fija un punto en el *blockchain* de Bitcoin (BTC) y realiza una copia exacta de la historia de transacciones de la moneda original replicándola en una segunda cadena con normas diferentes. Esto se realizó en el [bloque 491407](https://blockchain.info/block/000000000000000000e5438564434edaf41e63829a637521a96235adf4653e1b) que sucedió en la cadena de BTC el 25 de Octubre de 2017.
 
 A partir de este momento, todo el mundo que tuviera en su posesión BTC, automáticamente pasará a tener adicionalmente BTG.
 
@@ -16,11 +16,11 @@ A partir de este momento, todo el mundo que tuviera en su posesión BTC, automá
 
 ## ¿ Por qué ha sido necesario un fork ?
 
-El problema que este nuevo fork intenta resolver es la gran centralización que los equipos de minería de BTC. Se han realizado ciertos cambios en el mecanimos de verificación de los bloques que realizan los mineros, llamado *Proof of Work*, de SHA256 a Equihash (algoritmo utilizado por otras conocidas altocoins como [zCash](https://z.cash/) o [zenCash](https://zensystem.io/)) haciendo inservibles a estos equipos denominados ASICs. De esta manera, se intenta dar una oportunidad a la gente común de poder minar de nuevo BTC aunque hayan llegado tarde.
+El problema que este nuevo fork intenta resolver es la gran centralización que los equipos de minería de BTC. Se han realizado ciertos cambios en el mecanimos de verificación de los bloques que realizan los mineros, llamado *Proof of Work*, concretamente se ha cambiado de SHA256 a Equihash (algoritmo utilizado por otras conocidas altcoins como [zCash](https://z.cash/) o [zenCash](https://zensystem.io/)) haciendo inservibles a estos equipos denominados ASICs. De esta manera, se intenta dar una oportunidad a la gente común de poder minar de nuevo BTC a pesar de haber llegado tarde.
 
 Ahora lo que este fork ha decidido obviar que la centralización sigue siendo perfectamente posible con este nuevo mecanismo de *proof of work*, aquellas entidades que consigan centralizar suficientes GPUs podrán de nuevo destacar sobre la persona convencional.
 
-## ¿ Cómo sacar BTG y venderlo?
+## ¿ Cómo obtengo BTG y donde puedo venderlo?
 
 El precio de BTG es considerablemente inferior al de BTC y si lo tenemos en nuestra cartera debemos plantearnos qué hacer con ello.
 
