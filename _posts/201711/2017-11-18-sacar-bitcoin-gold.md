@@ -17,7 +17,7 @@ A partir de este momento, todo el mundo que tuviera en su posesión BTC, automá
 
 ## ¿ Por qué ha sido necesario un fork ?
 
-El problema que este nuevo fork intenta resolver es la gran centralización que los equipos de minería de BTC. Se han realizado ciertos cambios en el mecanimos de verificación de los bloques que realizan los mineros, llamado *Proof of Work*, de SHA256 a Equihash (algoritmo utilizado por otras conocidas altocoins como zCash o zenCash) haciendo inservibles a estos equipos denominados ASICs. De esta manera, se intenta dar una oportunidad a la gente común de poder minar de nuevo BTC aunque hayan llegado tarde.
+El problema que este nuevo fork intenta resolver es la gran centralización que los equipos de minería de BTC. Se han realizado ciertos cambios en el mecanimos de verificación de los bloques que realizan los mineros, llamado *Proof of Work*, de SHA256 a Equihash (algoritmo utilizado por otras conocidas altocoins como [zCash](https://z.cash/) o [zenCash](https://zensystem.io/)) haciendo inservibles a estos equipos denominados ASICs. De esta manera, se intenta dar una oportunidad a la gente común de poder minar de nuevo BTC aunque hayan llegado tarde.
 
 Ahora lo que este fork ha decidido obviar que la centralización sigue siendo perfectamente posible con este nuevo mecanismo de *proof of work*, aquellas entidades que consigan centralizar suficientes GPUs podrán de nuevo destacar sobre la persona convencional.
 

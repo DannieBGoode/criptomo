@@ -15,7 +15,7 @@ layout: default
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->
                     <div class="entry-meta">
-                        by <span class="post-author">{{site.author_name}}</span> on <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+                        por <span class="post-author">{{site.author_name}}</span> on <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
                     </div><!-- .entry-meta -->
                 </header><!-- .entry-header -->
                 <div class="entry-content">
@@ -39,7 +39,7 @@ layout: default
                 <div class="author-info">
                     <div class="author-avatar" style="background-image: url({{ site.author_image }})"><span class="screen-reader-text">{{ site.author_name }}'s Picture</span></div>
                     <div class="author-details">
-                        <h2 class="author-title">About {{ site.author_name }}</h2>
+                        <h2 class="author-title">Acerca de {{ site.author_name }}</h2>
                         <p class="author-bio">{{ site.author_bio }}</p>
                         <span class="author-location"><i class="fa-map-marker" aria-hidden="true"></i> {{ site.author_location }}</span>
                         <span class="author-website"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ site.author_url }}" target="_blank"> {{ site.author_url }}</a></span>
@@ -54,7 +54,7 @@ layout: default
                         {% if page.previous.banner_image %}
                         <a href="{{ site.baseurl }}{{page.previous.url}}" class="nav-thumb" style="background-image: url({{ "/images/posts/" | append: page.previous.banner_image }})"></a>
                         {% endif %}
-                        <div class="nav-before">Previous</div>
+                        <div class="nav-before">Anterior</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></div>
                         <div class="nav-date">{{page.previous.date | date: "%B %-d, %Y"}}</div>
                     </div><!-- .nav-inside -->
@@ -66,7 +66,7 @@ layout: default
                         {% if page.next.banner_image %}
                         <a href="{{ site.baseurl }}{{page.next.url}}" class="nav-thumb" style="background-image: url({{ "/images/posts/" | append: page.next.banner_image }})"></a>
                         {% endif %}
-                        <div class="nav-before">Next</div>
+                        <div class="nav-before">Siguiente</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></div>
                         <div class="nav-date">{{page.next.date | date: "%B %-d, %Y"}}</div>
                     </div><!-- .nav-inside -->
