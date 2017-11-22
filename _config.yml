@@ -1,0 +1,75 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title                    : "CRIPTOMO"
+# A description of your site for social meta tag, search engines, and feed.xml
+description              : "CRIPTOMO es un blog de tecnología, inversión, desarrollo personal y criptomonedas."
+# Tagline near the site title
+Tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+repository               : "DannieBGoode/opensx70"
+sass:
+  sass_dir               : _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: # "http://example.com"
+locale                   : "es"
+include:
+  - _pages
+exclude:
+  - package.json
+
+# The shortname for your Disqus site to enable comments.
+Disqus                   : opensx70-com
+
+# Author information - author info at the bottom of the post
+author_name              : "Daniel Calatayud"
+author_bio               : # "Daniel es un ingeniero, entusiasta de las tecnologías blockchain y el desarrollo personal."
+author_url               :  # "http://example.com"
+author_location          : "Madrid, Spain"
+author_image             : /images/authorimage.png
+
+# Sidebar Add banner
+banner_url               : # "http://example.com"
+banner_image             : images/banner.jpg
+
+# Sidebar newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: # "//example.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username         : "danniebgoode"
+facebook_username        : 
+googleplus_username      : "+DanielCalatayudFerrandez"
+github_username          : "danniebgoode"
+codepen_username         : 
+dribbble_uername         : 
+medium_username          : 
+instagram_username       : "danniebgoode"
+pinterest_username       : 
+linkedin_username        : "danielcalatayud"
+
+
+google_site_verification : "JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU"
+
+# http://jekyllrb.com/docs/pagination/
+paginate                 : 5
+paginate_path            : '/blog/page:num/'
+# gems                     : [jekyll-paginate]
+
+# permalink: pretty
+permalink                : /:categories/:title/
+markdown                 : kramdown
+kramdown                 :
+    auto_ids             : false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
