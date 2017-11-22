@@ -10,7 +10,7 @@ title                    : "CRIPTOMO"
 # A description of your site for social meta tag, search engines, and feed.xml
 description              : "CRIPTOMO es un blog de tecnología, inversión, desarrollo personal y criptomonedas."
 # Tagline near the site title
-Tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
+tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : "/criptomo"
