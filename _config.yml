@@ -13,8 +13,8 @@ description              : "CRIPTOMO es un blog de tecnología, inversión, desa
 Tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl:
-repository               : "DannieBGoode/opensx70"
+baseurl                  : #"/criptomo"
+repository               : "DannieBGoode/criptomo"
 sass:
   sass_dir               : _sass
 
