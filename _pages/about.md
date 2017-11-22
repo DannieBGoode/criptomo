@@ -14,6 +14,8 @@ redirect_from:
 
 En este blog se publicarán guías y explicaciones del mundo de las criptomonedas así como alguna noticia que encuentre de particular interés. También recomendaré libros que me han ayudado y hablaremos de oportunidades de inversión en el mundo de las criptodivisas.
 
+Todos los artículos del blog son selecciones de información que el autor ha encontrado especialmetne interesante y contarán con tanto datos empíricos como opiniones personales del autor.
+
 >Es una particularidad del hombre que solo puede vivir mirando al futuro - `sub specie aeternitatis`. Y ésta es su salvación en los momentos más difíciles de su existencia. <cite>Viktor E. Frankl</cite>
 
 

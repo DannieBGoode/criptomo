@@ -3,6 +3,7 @@ layout: post
 title:  "The Advantages & Disadvantages of Working from Home"
 date:   2016-03-01
 banner_image: Desk.jpg
+published: false
 tags: [tips, work]
 ---
 

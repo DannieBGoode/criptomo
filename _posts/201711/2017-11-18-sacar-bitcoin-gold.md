@@ -4,7 +4,6 @@ title:  "¿Cómo sacar Bitcoin Gold?"
 description: "Explicación básica de qué es Bitcoin Gold y qué hacer y que no hacer para obtenerlo."
 date:   2017-11-18
 banner_image: 201711/bitcoin-gold-logo.jpg
-
 tags: [bitcoin, criptomonedas]
 ---
 

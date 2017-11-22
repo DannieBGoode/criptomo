@@ -3,6 +3,7 @@ layout: post
 title:  "Graphic Designer On The Road"
 date:   2017-11-18
 banner_image: road.jpg
+published: false
 tags: [bitcoin, cryptocurrencies]
 ---
 
