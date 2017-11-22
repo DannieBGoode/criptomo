@@ -19,7 +19,7 @@ sass:
   sass_dir               : _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: # "http://example.com"
+url                      : "https://danniebgoode.github.io" # "http://example.com"
 locale                   : "es"
 include:
   - _pages

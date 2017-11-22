@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About this blog
+title: Acerca de este blog
 description: An optional about page
 banner_image: aboutPage.jpg
 permalink: /about/
