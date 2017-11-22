@@ -54,13 +54,13 @@
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
-{% assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.banner_image %}
+{% assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.banner_image | prepend: '/images/posts/' %}
 {% unless page_large_image contains '://' %}
   {% assign page_large_image = page_large_image | absolute_url %}
 {% endunless %}
 {% assign page_large_image = page_large_image | escape %}
 
-{% assign page_teaser_image = page.banner_image | default: site.og_image %}
+{% assign page_teaser_image = page.banner_image | default: site.og_image | prepend: '/images/posts/' %}
 {% unless page_teaser_image contains '://' %}
   {% assign page_teaser_image = page_teaser_image | absolute_url %}
 {% endunless %}
