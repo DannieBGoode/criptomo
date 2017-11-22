@@ -26,6 +26,9 @@ include:
 exclude:
   - package.json
 
+analytics:
+  google                 : "UA-110091733-1"
+
 # The shortname for your Disqus site to enable comments.
 Disqus                   : opensx70-com
 

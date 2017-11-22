@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de este blog
-description: An optional about page
+description: Acerca de este blog
 banner_image: aboutPage.jpg
 permalink: /about/
 redirect_from:
