@@ -86,7 +86,7 @@ Además estos dispositivos van con un código PIN, por lo que en caso de robo, s
 Precio Ledger Nano S: 70€
 Precio Ledger Blue: 275€
 
-{% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Criptomonedas" caption="Ledger Blue" %}
+{% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Ledger Blue" caption="Ledger Blue" %}
 	
 ### Trezor
 
@@ -94,7 +94,7 @@ Precio Ledger Blue: 275€
 
 Precio: 90€
 
-{% include image_caption.html imageurl="../images/posts/201711/trezor.jpg" title="Criptomonedas" caption="Ledger Blue" %}
+{% include image_caption.html imageurl="../images/posts/201711/trezor.jpg" title="Trezor" caption="Trezor" %}
 
 ## Paper Wallet
 
@@ -104,7 +104,7 @@ La idea de un paper wallet es poder almacenar fondos en lo que se denomina *cold
 
 Precio: Gratis
 
-
+{% include image_caption.html imageurl="../images/posts/201711/paper-wallet.jpg" title="Paper wallet" caption="Paper Wallet" %}
 
 Al final tiene que ser decisión de cada uno dónde considera que tiene sus puntos fuertes, si crees que tu caja fuerte es perfectamente fiable adelante, si por el contrario te fías más de tu gestor de contraseñas, podrías tener la clave privada almacenada ahí y no en papel.
 
