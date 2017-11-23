@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "¿Cómo obtener Bitcoin Gold?"
+title:  "Cómo obtener Bitcoin Gold"
 description: "Explicación básica de qué es Bitcoin Gold y qué hacer y que no hacer para obtenerlo."
 date:   2017-11-18
 banner_image: 201711/bitcoin-gold-logo.jpg
-tags: [criptomonedas]
+tags: [altcoins]
 redirect_from:
     - /sacar-bitcoin-gold
     - /sacar-bitcoin-gold/
