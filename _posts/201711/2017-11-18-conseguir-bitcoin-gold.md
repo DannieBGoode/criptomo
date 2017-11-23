@@ -42,7 +42,9 @@ Tanto TREZOR como Ledger han informado de que dan soporte a BTG por lo que si te
 
 ## ¿ Debería vender BTG ?
 
-En mi opinión cualquier criptodivisa debería tener un equipo muy fuerte de desarrolladores detrás, y a dia de hoy BTG apenas tiene desarrolladores activos. Cómo con casi todas las criptodivisas, el [código es open source](https://github.com/BTCGPU/BTCGPU) por lo que puede ser revisado por cualquiera, pero al mismo tiempo nos permite ver a los demás cuanto se está colaborando en el proyecto.
+En mi opinión cualquier criptodivisa debería tener un equipo muy fuerte de desarrolladores detrás, y a dia de hoy BTG apenas tiene desarrolladores activos. Cómo con casi todas las criptodivisas, el [código es open source](https://github.com/BTCGPU/BTCGPU) por lo que puede ser revisado por cualquiera, pero al mismo tiempo nos permite ver a los demás cuanto se está colaborando en el proyecto. Prácticamente todo el desarrollo está siendo realizado por un único desarrollador anónimo conocido como *h4x3rotab*.
+
+Además a modo de auto financiación se ha realizado [un pre-minado de 16000 BTG](https://github.com/BTCGPU/BTCGPU/pull/2) para los propios desarrolladores, es decir, 16000 monedas que jamás serán entregadas a los mineros y que al precio actual de BTG ya convierte en millonarios a los responsables del fork.
 
 La persona detrás del fork, Jack Liao es también el CEO de [Lightning ASIC](http://lightningasic.com/), una empresa que fabrica unidades de minería basados en GPU por lo que el éxito de esta moneda sin duda le enriquecería bastante.
 
