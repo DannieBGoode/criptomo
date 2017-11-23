@@ -48,4 +48,4 @@ Además a modo de auto financiación se ha realizado [un pre-minado de 16000 BTG
 
 La persona detrás del fork, Jack Liao es también el CEO de [Lightning ASIC](http://lightningasic.com/), una empresa que fabrica unidades de minería basados en GPU por lo que el éxito de esta moneda sin duda le enriquecería bastante.
 
-Por muy loable que parezca la idea, como con todo, existen intereses ocultos detrás, personalmente recomiendo vender esta divisa e invertir en otras más prometedoras.
+Por muy loable que inicialmente parezca la idea, como con todo, existen intereses ocultos detrás. Personalmente recomiendo vender esta divisa e invertir en otras más prometedoras.
