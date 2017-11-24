@@ -36,11 +36,11 @@ Existen ya cientas de criptomonedas similares a Bitcoin en mayor o menor medida.
 Durante los últimos meses de 2017 se crearon dos nuevas monedas denominadas Bitcoin Cash y Bitcoin Gold. Aunque tengan la palabra Bitcoin delante, realmente son nuevas monedas y no deben confundirse con el Bitcoin principal. La característica que tienen éstas dos últimas es que fueron creadas como copias del Bitcoin original manteniendo su historial de transacciones, copia que se denomina *fork*. Para entender esto volvamos al ejemplo anterior de los turnos donde todos están reunidos:
 
 Imaginemos ahora que una de las personas reunidas, llamemosla Mark, decide que no le gustan las reglas de la mesa, especificamente no le gusta el hecho de que los mediadores sean todos licenciados en psicología, que era una de las reglas que todos acordaron al empezar la reunión. Mark argumenta que si cualquier persona pudiera ser mediadora se podrían abaratar las comisiones de intercambio de turnos. 
-La mayor parte de la mesa prefiere no cambiar el sistema puesto que lleva meses funcionando correctamente y además considera que un licenciado en psicología garantiza calidad en los intercambios a pesar de incentivarse más. Mark entonces, muy educadamente se levanta y dice que va a crear su propia mesa de reuniones y que todos están invitados a venir a su mesa en cualquier momento si así lo desean. Además Mark les garantiza que vengan cuando vengan, se les guardarán los turnos que tienen en exactamente ese momento de bifurcación en la mesa original, y de la misma manera, sus compañeros le garantizan a Mark que si decide 2 días más tarde sentarse aunque sea temporalmente en la mesa original todavía podrá hacer uso de los turnos que dejó al levantarse, puesto que le siguen correspondiendo. De esta manera una persona que más adelante gaste sus turnos en la primera mesa, siempre podrá ir a la mesa de Mark y volverlos a gastar pero sujetos a las reglas de la segunda mesa y al revés. La única salvedad es que los turnos no son intercambiables de mesa a mesa puesto que se rigen por reglas distintas.
+La mayor parte de la mesa prefiere no cambiar el sistema puesto que lleva meses funcionando correctamente y además considera que un licenciado en psicología garantiza calidad en los intercambios a pesar de incentivarse más. Mark entonces, muy educadamente se levanta y dice que va a crear su propia mesa de reuniones y que todos los presentes están invitados a venir a su mesa en cualquier momento si así lo desean. Además Mark les garantiza que vengan cuando vengan, se les guardarán los turnos que tienen en exactamente ese momento de bifurcación de la mesa original, y de la misma manera, sus compañeros le garantizan a Mark que si decide 2 días más tarde sentarse aunque sea temporalmente en la mesa original todavía podrá hacer uso de los turnos que dejó al levantarse, puesto que le siguen correspondiendo. De esta manera una persona que más adelante gaste sus turnos en la primera mesa, siempre podrá ir a la mesa de Mark y volverlos a gastar pero sujetos a las reglas de la segunda mesa y al revés. La única salvedad es que los turnos no son intercambiables de mesa a mesa puesto que se rigen por reglas distintas.
 
 De esta manera hemos creado un *fork* del protocolo inicial a un segundo caso de uso pero con reglas distintas manteniendo el historial de transacciones pasadas.
 
-La mayor parte de las criptomonedas no son creadas de la misma manera sino que una vez deciden un conjunto de reglas nuevas, empiezan con el historial en blanco.
+La mayor parte de las criptomonedas no son creadas de esta misma manera sino que una vez deciden un conjunto de reglas nuevas, empiezan con el historial en blanco.
 
 # ¿ Es el Bitcoin una burbuja ?
 
@@ -48,7 +48,7 @@ Es posible. La innovación que trae Bitcon como moneda digital es incuestionable
 
 Teniendo en cuenta que ahora mismo cuenta con un mercado por el valor de más de 130.000 millones de dólares, [mayor incluso que el de McDonalds](https://finance.yahoo.com/quote/mcd?ltr=1) resulta inevitable pensar que más que probablemente se trate de una burbuja.
 
-Ahora bien, si consideramos el valor que esta y otras posibles criptomonedas va a traer al mundo en 5-15 años probablemente el valor acabe siendo mucho mayor.
+Ahora bien, si consideramos el valor que esta y otras posibles criptomonedas va a traer al mundo en los próximos 15 años probablemente el valor acabe siendo mucho mayor.
 
 # ¿ Dónde puedo comprar Bitcoins ?
 
@@ -56,4 +56,4 @@ Existen numerosas páginas webs denominadas exchanges donde es posible comprar B
 
 Una vez hayáis conseguido enviar dinero convencional a vuestras cuentas en estas webs, deberéis decidir qué moneda comprar y cuándo hacerlo, puesto que el precio de casi todas ellas oscila bastante.
 
-No recomiendo dejar las criptomonedas una vez compradas en estas páginas webs compradas, haré un artículo más adelante sobre los distintos wallets donde guardarlos de manera segura.
+No recomiendo dejar las criptomonedas una vez compradas en estas páginas webs compradas, he escrito otro artículo más adelante sobre [como guardar tus criptomonedas de manera segura](../como-guardar-criptomonedas/).
