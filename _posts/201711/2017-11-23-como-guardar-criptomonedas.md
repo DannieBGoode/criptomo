@@ -81,16 +81,17 @@ Además estos dispositivos van con un código PIN, por lo que en caso de robo, s
 
 ### Ledger Nano S / Ledger Blue
 
-[Ledger](https://www.ledgerwallet.com) Nano S es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. Su hermano mayor, Ledger Blue viene con una pantalla táctil y bluetooth a un precio considerablemente mayor.
+[Ledger Nano S](http://amzn.to/2i5kRoG) es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. Su hermano mayor, Ledger Blue viene con una pantalla táctil y bluetooth a un precio considerablemente mayor.
 
 Precio Ledger Nano S: 70€
+
 Precio Ledger Blue: 275€
 
 {% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Ledger Blue" caption="Ledger Blue" %}
 	
 ### Trezor
 
-[Trezor](https://trezor.io/) fue la primera hardware wallet del mercado aunque poco tiene que envidiar a su competidora Ledger. Ambas son perfectamente aceptables.
+[Trezor](http://amzn.to/2i72hMV) fue la primera hardware wallet del mercado aunque poco tiene que envidiar a su competidora Ledger. Ambas son perfectamente aceptables.
 
 Precio: 90€
 
