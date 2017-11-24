@@ -3,7 +3,7 @@ layout: post
 title:  "Qué es Bitcoin"
 seo_title: "que-es-bitcoin"
 description: "Explicación básica para principiantes de que es Bitcoin y cómo funciona"
-date:   2017-11-18
+date:   2017-11-10
 banner_image: 201711/bitcoin.jpg
 
 tags: [bitcoin]
@@ -33,7 +33,7 @@ Existen ya cientas de criptomonedas similares a Bitcoin en mayor o menor medida.
 
 {% include image_caption.html imageurl="../images/posts/201711/criptomonedas.jpg" title="Criptomonedas" caption="pequeña selección de criptomonedas en 2017" %}
 
-Durante los últimos meses de 2017 se crearon dos nuevas monedas denominadas Bitcoin Cash y Bitcoin Gold. Aunque tengan la palabra Bitcoin delante, realmente son nuevos monedas y no deben confundirse con el Bitcoin principal. La característica que tienen éstas dos últimas es que fueron creadas como copias del Bitcoin original manteniendo su historial de transacciones, copia que se denomina *fork*. Para entender esto volvamos al ejemplo anterior de los turnos donde todos están reunidos:
+Durante los últimos meses de 2017 se crearon dos nuevas monedas denominadas Bitcoin Cash y Bitcoin Gold. Aunque tengan la palabra Bitcoin delante, realmente son nuevas monedas y no deben confundirse con el Bitcoin principal. La característica que tienen éstas dos últimas es que fueron creadas como copias del Bitcoin original manteniendo su historial de transacciones, copia que se denomina *fork*. Para entender esto volvamos al ejemplo anterior de los turnos donde todos están reunidos:
 
 Imaginemos ahora que una de las personas reunidas, llamemosla Mark, decide que no le gustan las reglas de la mesa, especificamente no le gusta el hecho de que los mediadores sean todos licenciados en psicología, que era una de las reglas que todos acordaron al empezar la reunión. Mark argumenta que si cualquier persona pudiera ser mediadora se podrían abaratar las comisiones de intercambio de turnos. 
 La mayor parte de la mesa prefiere no cambiar el sistema puesto que lleva meses funcionando correctamente y además considera que un licenciado en psicología garantiza calidad en los intercambios a pesar de incentivarse más. Mark entonces, muy educadamente se levanta y dice que va a crear su propia mesa de reuniones y que todos están invitados a venir a su mesa en cualquier momento si así lo desean. Además Mark les garantiza que vengan cuando vengan, se les guardarán los turnos que tienen en exactamente ese momento de bifurcación en la mesa original, y de la misma manera, sus compañeros le garantizan a Mark que si decide 2 días más tarde sentarse aunque sea temporalmente en la mesa original todavía podrá hacer uso de los turnos que dejó al levantarse, puesto que le siguen correspondiendo. De esta manera una persona que más adelante gaste sus turnos en la primera mesa, siempre podrá ir a la mesa de Mark y volverlos a gastar pero sujetos a las reglas de la segunda mesa y al revés. La única salvedad es que los turnos no son intercambiables de mesa a mesa puesto que se rigen por reglas distintas.
