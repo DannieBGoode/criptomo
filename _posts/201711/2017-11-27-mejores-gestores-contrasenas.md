@@ -10,11 +10,11 @@ tags: [seguridad]
 
 **Una contraseña única es un desastre esperando a que ocurra**.
 
-Imaginad que hackean una web, ni siquiera es una web importante, tan solo es una web donde te hiciste una cuenta en una ocasión para poder preguntar una cosa rápida en un foro. El problema es que creaste la cuenta con tu email de siempre y con tu contraseña de siempre. Una vez los hackers obtuvieron estos datos no tuvieron más que ir probando en distintas webs que todo el mundo tenemos, desde facebook, gmail, dropbox, twitter, iCloud, etc. De repente tienen acceso a todos tus documentos, fotos, datos bancarios, twitter, web personal, etc...
+Imaginad que hackean una web, ni siquiera es una web importante, tan solo es una web donde te hiciste una cuenta en una ocasión para poder preguntar una cosa rápida en un foro. El problema es que creaste la cuenta con tu email de siempre y con tu contraseña de siempre. Una vez los hackers obtuvieron estos datos no tuvieron más que ir probando en distintas webs que todo el mundo tenemos, desde facebook, gmail, dropbox, twitter, iCloud, etc y de repente tienen acceso a todos tus documentos, fotos, datos bancarios, twitter, web personal, etc...
 
 <!--more-->
 
-Y no sólo eso, no sería la primera vez que una vez dentro deciden cambiarte la contraseña, y escribirte pidiendo un rescate ( un pago probablemente en criptomonedas por el tema de anonimidad) si te interesa recuperar tu información. Tampoco sería la primera vez que la persona que te hackea, puesto que te odia por las cosas que dices en twitter, decide borrarte inmediatamente años de fotos y videos familiares de tus cuentas, momentos muy preciados que ya nunca recuperarás.
+Tampoco sería la primera vez que una vez dentro deciden cambiarte la contraseña, y escribirte pidiendo un rescate ( un pago probablemente en criptomonedas por el tema de anonimidad) si te interesa recuperar tu información. Tampoco sería la primera vez que la persona que te hackea, puesto que te odia por las cosas que dices en twitter, decide borrarte inmediatamente años de fotos y videos familiares de tus cuentas, momentos muy preciados que ya nunca recuperarás.
 
 La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y ninguna se decidieron.
 
