@@ -13,13 +13,13 @@ description              : "CRIPTOMO es un blog de tecnología, inversión, desa
 tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
 
 # The subpath of your site, e.g. /blog, for generating urls
-baseurl                  : "/criptomo"
+baseurl                  : ""
 repository               : "DannieBGoode/criptomo"
 sass:
   sass_dir               : _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url                      : "https://danniebgoode.github.io" # "http://example.com"
+url                      : "https://criptomo.com" # "http://example.com"
 locale                   : "es"
 include:
   - _pages
