@@ -158,6 +158,8 @@ Precio: Gratis - 3$ una sola vez para alguna app móvil.
 Precio: Gratis
 
 
+El nivel de seguridad que cada uno quiera tener es una decisión personal, sobretodo dependiente del nivel de confianza que uno tiene en sí mismo a la hora de mantener un fichero seguro. Personalmente prefiero tener guardado mi base de datos guardada por mi localizable y con copia de seguridad en lugar de fiarme de un servicio externo que lo haga por mí.
+
 
 
 
