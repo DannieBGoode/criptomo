@@ -31,55 +31,55 @@ Existen varias consideraciones a tener en cuenta a la hora de elegir un wallet:
 
 Además de ello existen varios tipos de wallet que veremos a continuación, analicemoslas:
 
-# Hot wallets
+## Hot wallets
 
-## Software Wallets
+### Software Wallets
 
 Estas wallets son básicamente programas de ordenador que descargas e instalas en tu equipo. Es importante elegir un software wallet que sea open source o que tenga buena reputación. En cualquier caso siempre deberemos copiar y guardar en algún lugar seguro nuestra clave privada. Si elegimos un software wallet que no lo permita o no lo hacemos y nuestro ordenador se estropea habremos perdido nuestros fondos para siempre.
 
-### JAXX
+##### JAXX
 
 [Jaxx](https://jaxx.io/) está considerada de las mejores *hot-wallets* y permite hacer backup de tu clave privada. Además está disponible para prácticamente cualquier dispositivo.
 
 Precio: Gratis
 
-### Electrum
+#### Electrum
 
 [Electrum](https://electrum.org) permite almacenar la clave privada offline y se integra con *hardware wallets* como TREZOR o Ledger.
 
 Precio: Gratis
 
-## Web Wallets
+### Web Wallets
 
 Un web wallet es básicamente una página web que nos permite gestionar nuestras criptomonedas sin necesidad de instalar ningún programa. Es importante que tengamos dos aspectos en cuenta a la hora de elegir un web wallet. En primer lugar los niveles de seguridad que ofrezcan, como verificación en 2 pasos o confirmaciones por email.
 
-### Blockchain.info
+#### Blockchain.info
 
 [Blockchain.info](https://blockchain.info/) es una web que permite ver todas las transacciones que ocurren el mundo del Bitcoin. Adicionalmente ofrecen una cartera web bastante sencilla de usar y comparten contigo la clave privada desentendiendose de lo que pueda ocurrir si la pierdes.
 
 Precio: Gratis
 
-### Coinbase
+#### Coinbase
 
 Estrictamente hablando, [coinbase](https://www.coinbase.com/) es un exchange y no comparten contigo la clave privada. He decidido aun así incluirla en la lista por el motivo de que almacenan el 98% de sus fondos en sus propias *cold wallets*, tienen varios niveles de seguridad y además [sus fondos asegurados](https://support.coinbase.com/customer/es/portal/articles/1662379-how-is-coinbase-insured-). Únicamente lo recomendaría para aquellos usuarios que no se fían en absoluto de sí mismos con una clave privada y deciden entregarle ese poder a un tercero. Utilizar bajo la responsabilidad de cada uno.
 
 Precio: Gratis
 
-## Mobile wallets
+### Mobile wallets
 
 He leído ya varios reportes en internet de apps maliciosas que en cuanto metas fondos envían tus claves privadas, por lo que hay que tener mucho cuidado con qué app te bajas como wallet. Todas las mencionadas anteriormente tienen versión móvil y podrían considerarse aceptables.
 
 
-# Cold wallets
+## Cold wallets
 
-## Hardware Wallets
+### Hardware Wallets
 
 Una hardware wallet es un aparato que conectas al ordenador cuando quieres mover tus fondos y almacena tu clave privada por ti. De esta manera un virus en tu ordenador sería incapaz de robarte tus fondos. Además dan facilidades para suministrar al usuario con la clave privada, así que en el caso en que se pierda el dispositivo todavía podría recuperar sus fondos ya sea a otra hardware wallet o a cualquier otro que acepte importación.
 
 
 Además estos dispositivos van con un código PIN, por lo que en caso de robo, si el ladrón no conoce el PIN tampoco podrá hacer uso de la hardware wallet.
 
-### Ledger Nano S / Ledger Blue
+#### Ledger Nano S / Ledger Blue
 
 [Ledger Nano S](http://amzn.to/2i5kRoG) es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. Su hermano mayor, Ledger Blue viene con una pantalla táctil y bluetooth a un precio considerablemente mayor.
 
@@ -89,7 +89,7 @@ Precio Ledger Blue: 275€
 
 {% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Ledger Blue" caption="Ledger Blue" %}
 	
-### Trezor
+#### Trezor
 
 [Trezor](http://amzn.to/2i72hMV) fue la primera hardware wallet del mercado aunque poco tiene que envidiar a su competidora Ledger. Ambas son perfectamente aceptables.
 
@@ -97,7 +97,7 @@ Precio: 90€
 
 {% include image_caption.html imageurl="../images/posts/201711/trezor.jpg" title="Trezor" caption="Trezor" %}
 
-## Paper Wallet
+### Paper Wallet
 
 Un monedero de papel no es más que una clave privada impresa que no está guardada en ningún otro sitio. Es perfectamente posible imprimir tu clave privada de cualquiera de los anteriores wallets (exceptuando Coinbase), pero no estarías haciendo uso de la característica principal de seguridad de un Paper Wallet. Si la clave privada sólo existe en un papel y no está almacenada en ningún monedero estarías exento de fallos de seguridad en las carteras o viruses o carteras maliciosas, siempre y cuando nadie te robe el papel con la clave privada, momento en el cual serías totalmente vulnerable.
 

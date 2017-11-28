@@ -15,7 +15,7 @@ Se trata del primer ejemplo de la creciente categoría de dinero electrónico co
 
 <!--more-->
 
-# ¿ Cómo funciona el Bitcoin ?
+## ¿ Cómo funciona el Bitcoin ?
 
 Si nos ponemos estrictos podemos decir que el bitcoin en sí no existe, solo existen las transacciones que se realizan con él. De hecho, cuando cualquier poseedor de bitcoin mira su balance, lo que realmente está viendo es  su parte correspondiente de la suma de  todas las transacciones realizadas desde el principio de los tiempos (*el bloque génesis*). Hagamos una analogía más sencilla para explicar cómo funciona:
 
@@ -27,7 +27,7 @@ Nos encontramos entonces en un escenario donde existen varios turnos, que pueden
 
 De repente tenemos un ecosistema entero de turnos y fracciones de turnos y siempre y cuando haya consenso en cuanto a las reglas de intercambio de los mismos el ecosistema se mantendrá estable.
 
-# ¿ Por qué hay tantas criptomonedas ?
+## ¿ Por qué hay tantas criptomonedas ?
 
 Existen ya cientas de criptomonedas similares a Bitcoin en mayor o menor medida. Cada una de ella intenta resolver el mismo problema de maneras ligeramente distintas con el fin de mejorar la innovación que trajo consigo el Bitcoin. Algunas prometen más velocidad, otras más anonimidad, otras prometen precios de transacción más bajos, etc...
 
@@ -42,7 +42,7 @@ En conclusión hemos creado un *fork* del protocolo inicial a un segundo caso de
 
 La mayor parte de las criptomonedas no son creadas de esta misma manera sino que una vez deciden un conjunto de reglas nuevas, empiezan con el historial en blanco.
 
-# ¿ Es el Bitcoin una burbuja ?
+## ¿ Es el Bitcoin una burbuja ?
 
 Es posible. La innovación que trae Bitcon como moneda digital es incuestionable, y parece garantizado que va a cambiar el mundo pero no debemos olvidar de que a día de hoy el Bitcoin apenas está siendo utilizado como moneda, sino más bien como almacenamiento de valor o inversión especulativa.
 
@@ -50,7 +50,7 @@ Teniendo en cuenta que ahora mismo cuenta con un mercado por el valor de más de
 
 Ahora bien, si consideramos el valor que esta y otras posibles criptomonedas va a traer al mundo en los próximos 15 años probablemente el valor acabe siendo mucho mayor.
 
-# ¿ Dónde puedo comprar Bitcoins ?
+## ¿ Dónde puedo comprar Bitcoins ?
 
 Existen numerosas páginas webs denominadas exchanges donde es posible comprar Bitcoins y otras monedas. Muchas de ellas permiten pago con tarjeta de crédito y otras aceptan transacciones bancarias. Las más conocidas son [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/) y [Bitstamp](https://www.bitstamp.net/).
 
