@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Qué es Bitcoin"
+title:  "Qué es Bitcoin - Guia Básica"
 seo_title: "que-es-bitcoin"
 description: "Explicación básica para principiantes de que es Bitcoin y cómo funciona"
 date:   2017-11-10
