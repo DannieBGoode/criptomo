@@ -16,7 +16,7 @@ En general, únicamente se puede comprar con dinero convencional en los exchange
 
 <!--more-->
 
-A continuación os dejo una lista de las monedas que más interesantes me parecen. Antes de decidiros a invertir en alguna de ellas realizad vuestro propio estudio y llegad a vuestras propias conclusiones. Sobra decir que no invirtais nada que no os podais permitir perder.
+Antes de decidiros a invertir en alguna de ellas realizad vuestro propio estudio y llegad a vuestras propias conclusiones. Sobra decir que no invirtais nada que no os podais permitir perder.
 
 ## Ethereum
 
