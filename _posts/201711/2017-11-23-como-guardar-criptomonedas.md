@@ -14,11 +14,24 @@ Para inversión a largo plazo recomiendo sin duda lo que se denomina un *cold-wa
 
 <!--more-->
 
-Podría llegar a ser concluido por algunos que el *hot wallet* más inmediato que podemos pensar para invertir podría ser los exchanges mismos puestos que podríamos comprar y vender directamente sin necesidad de mover los fondos de una dirección a otra, y aunque existe cierta lógica en esto, y resultaría más fácil aprovechar dichas oportunidades es importante tener un concepto claro. **Si no controlas la clave privada de tu wallet no tienes control sobre tus monedas**, esto ocurre por ejemplo con los exchanges, en ningún momento tienes poder sobre tu clave privada por lo que se podría decir que ni siquiera en ese momento posees criptomonedas, solo tienes la promesa de la entidad en cuestión de que te devolverá tus monedas cuando así lo solicites. Promesa que en muchas ocasiones no se ha podido cumplir, ha habido casos donde muchos inversores han perdido sus fondos porque o bien el exchange en cuestión ha sido hackeado y sus monedas robadas (como fue el caso de MtGox), o porque era una tapadera desde el principio para aprovecharse de la gente que no sigue esta recomendación al pie de la letra.
+Podría llegar a ser concluido por algunos que el *hot wallet* más inmediato que podemos pensar para invertir podría ser los exchanges mismos puestos que podríamos comprar y vender directamente sin necesidad de mover los fondos de una dirección a otra. Aunque existe cierta lógica en esto y resultaría más fácil aprovechar dichas oportunidades es importante tener un concepto claro:
+
+* **Si no controlas la clave privada de tu wallet no tienes control sobre tus monedas, por lo cual no es un wallet**.
+
+En los exchanges, en ningún momento tienes poder sobre tu clave privada por lo que se podría decir que ni siquiera en ese momento posees criptomonedas, solo tienes la promesa de la entidad en cuestión de que te devolverá tus monedas cuando así lo solicites. Promesa que en muchas ocasiones no se ha podido cumplir. Ha habido casos donde muchos inversores han perdido sus fondos porque o bien el exchange en cuestión ha sido hackeado y sus monedas robadas (como fue el caso de MtGox), o porque era una tapadera desde el principio para aprovecharse de la gente que no sigue esta recomendación al pie de la letra.
+
+* **Mi recomendación es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet del cual poseeremos la clave privada.**
+
+Un ejemplo de una clave privada (también llamada seed) para Bitcoin es: 
+
+`witch collapse practice feed shame open despair creek road again ice least`.
+
+A otras criptomonedas les corresponden claves ligeramente distintas y puede que menos recordables que la del ejemplo pero siempre serán generadas por los wallets y debemos guardarlas bien.
+
+Si tenemos sospechas de que alguien ha conseguido copiar nuestra clave privada inmediatamente generaremos un nuevo wallet con una nueva dirección y seed y moveremos todos nuestros fondos. Mientras no lo hagamos, esta persona tendría acceso total a nuestras monedas y podría moverlas a otro wallet fuera de nuestro control. **Esta operación no sería reversible.**
 
 
 
-**Mi recomendación es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet.**
 
 Existen varias consideraciones a tener en cuenta a la hora de elegir un wallet:
 
@@ -29,7 +42,7 @@ Existen varias consideraciones a tener en cuenta a la hora de elegir un wallet:
 * Seguridad, ¿están mis criptodivisas seguras?
 * Criptomonedas soportadas. ¿Dan soporte para todas las monedas que tengo en cartera?
 
-Además de ello existen varios tipos de wallet que veremos a continuación, analicemoslas:
+Además de ello existen varios tipos de wallet que veremos a continuación, analicemoslos:
 
 ## Hot wallets
 
