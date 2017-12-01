@@ -56,4 +56,4 @@ Existen numerosas páginas webs denominadas exchanges donde es posible comprar B
 
 Una vez hayáis conseguido enviar dinero convencional a vuestras cuentas en estas webs, deberéis decidir qué moneda comprar y cuándo hacerlo, puesto que el precio de casi todas ellas oscila bastante.
 
-No recomiendo dejar las criptomonedas una vez compradas en estas páginas webs compradas, he escrito otro artículo sobre [como guardar tus criptomonedas de manera segura](../como-guardar-criptomonedas/).
+No recomiendo dejar las criptomonedas una vez compradas en estas páginas webs guardadas, he escrito otro artículo sobre [como guardar tus criptomonedas de manera segura](../como-guardar-criptomonedas/).

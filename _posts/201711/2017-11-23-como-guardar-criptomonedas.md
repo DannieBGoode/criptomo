@@ -18,7 +18,7 @@ Podría llegar a ser concluido por algunos que el *hot wallet* más inmediato qu
 
 
 
-Mi recomendación inicial es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet.
+**Mi recomendación es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet.**
 
 Existen varias consideraciones a tener en cuenta a la hora de elegir un wallet:
 
