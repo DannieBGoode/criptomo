@@ -2,6 +2,7 @@
 layout: default
 title: Post Archives
 permalink: /tags/
+sitemap: false
 ---
 <div class="site-content">
     <div class="inner">
