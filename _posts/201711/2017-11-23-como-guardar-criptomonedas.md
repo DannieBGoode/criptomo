@@ -40,7 +40,7 @@ Existen varias consideraciones a tener en cuenta a la hora de elegir un wallet:
 * Cómo de fácil es mover fondos y hacer pagos.
 * Movilidad, ¿es fácil moverla físicamente? ¿Qué ocurre si se me estropea el dispositivo donde la tengo instalada?
 * Seguridad, ¿están mis criptodivisas seguras?
-* Criptomonedas soportadas. ¿Dan soporte para todas las monedas que tengo en cartera?
+* Criptomonedas soportadas. No todos los wallets soportan todas las monedas. Enviar una moneda al wallet incorrecto podría ocasionarme perder mis fondos.
 
 Además de ello existen varios tipos de wallet que veremos a continuación, analicemoslos:
 
@@ -54,11 +54,21 @@ Estas wallets son básicamente programas de ordenador que descargas e instalas e
 
 [Jaxx](https://jaxx.io/) está considerada de las mejores *hot-wallets* y permite hacer backup de tu clave privada. Además está disponible para prácticamente cualquier dispositivo.
 
+Jaxx es de las carteras que más monedas soporta, entre ellas Bitcoin, Ethereum, Litecoin, Zcash y Dash. Podeis ver la lista entera [aquí](https://decentral.zendesk.com/hc/en-us/articles/218373867-Which-tokens-does-Jaxx-support-).
+
 Precio: Gratis
 
 #### Electrum
 
 [Electrum](https://electrum.org) permite almacenar la clave privada offline y se integra con *hardware wallets* como TREZOR o Ledger.
+
+Sólo soporta Bitcoin aunque existe una versión para Litecoin.
+
+Precio: Gratis
+
+### Exodus:
+
+[Exodus](http://www.exodus.io/#) se caracteriza por traer un exchange dentro de la aplicación que te permite diversificar tus fondos sin necesidad de moverlos a un exchange primero. Soporta entre otras Bitcoin, Ethereum, Litecoin, Dash, EOS y Golem. Podéis ver la lista entera [aquí](http://support.exodus.io/article/96-exodus-wallet-roadmap).
 
 Precio: Gratis
 
@@ -69,6 +79,8 @@ Un web wallet es básicamente una página web que nos permite gestionar nuestras
 #### Blockchain.info
 
 [Blockchain.info](https://blockchain.info/) es una web que permite ver todas las transacciones que ocurren el mundo del Bitcoin. Adicionalmente ofrecen una cartera web bastante sencilla de usar y comparten contigo la clave privada desentendiendose de lo que pueda ocurrir si la pierdes.
+
+Soporta únicamente Bitcoin y Ethereum.
 
 Precio: Gratis
 
@@ -94,27 +106,123 @@ Además estos dispositivos van con un código PIN, por lo que en caso de robo, s
 
 #### Ledger Nano S / Ledger Blue
 
-[Ledger Nano S](http://amzn.to/2i5kRoG) es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. Su hermano mayor, Ledger Blue viene con una pantalla táctil y bluetooth a un precio considerablemente mayor.
+[Ledger Nano S](http://amzn.to/2i5kRoG) es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. 
+
+Ledger Nano S soporta las siguientes criptomonedas:
+
+- Bitcoin
+- Ethereum
+- Litecoin
+- Dogecoin
+- Zcash
+- Dash
+- Stratis
+- Ripple
+- Hello
+- Bitcoin Cash
+- Komodo
+- Ethereum CLassic
+- POSW
+- ARK
+- Expanse
+- UBIQ
+- PIVX
+- VERTCOIN
+- VIACOIN
+- NEO
+- SEALTHCOIN
+- Bitcoin Gold
+- Stellar
+- H-Cash
+- Digibyte
+- QTUM
+
+
+{% include image_caption.html imageurl="../images/posts/201711/ledger-nano.png" title="Ledger Nano S" caption="Ledger Nano S" %}
 
 Precio Ledger Nano S: 70€
 
-Precio Ledger Blue: 275€
+Su hermano mayor, Ledger Blue viene con una pantalla táctil y bluetooth a un precio considerablemente mayor y soporta
+
+- Bitcoin
+- Ethereum
+- cualquier moneda ERC20.
+- Litecoin
+- Dogecoin
+- Zcash
+- Dash
+- Stratis
+- Ripple
+- Hello
+- Bitcoin Cash
+- Komodo
+- Ethereum CLassic
+- POSW
+- Expanse
+- UBIQ
+- PIVX
+- VERTCOIN
+- VIACOIN
+- NEO
+- SEALTHCOIN
+- Bitcoin Gold
+- H-Cash
+- Digibyte
+- QTUM
 
 {% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Ledger Blue" caption="Ledger Blue" %}
+
+
+
+Precio Ledger Blue: 275€
+
+
 	
 #### Trezor
 
 [Trezor](http://amzn.to/2i72hMV) fue la primera hardware wallet del mercado aunque poco tiene que envidiar a su competidora Ledger. Ambas son perfectamente aceptables.
 
+Trezor soporta:
+
+- Bitcoin
+- Litecoin
+- DASH
+- Zcash
+- Bitcoin Cash
+- Ethereum
+- Ethereum Classic
+- cualquier moneda ERC-20
+- Namecoin
+- Dogecoin.
+
 Precio: 90€
 
 {% include image_caption.html imageurl="../images/posts/201711/trezor.jpg" title="Trezor" caption="Trezor" %}
+
+### KeepKey
+
+[KeepKey](http://amzn.to/2ja1KHf) es una de las hardware wallets más atractivas visualmente que hay ahora mismo en el mercado.
+
+Todavía se tratade un wallet bastante nuevo pero poco a a poco van extendiendo su cobertura de altcoins. Por el momento sólo es compatible con:
+
+- Bitcoin
+- Ethereum
+- Litecoin
+- Namecoin
+- Dogecoin
+- Dash
+
+{% include image_caption.html imageurl="../images/posts/201711/keepkey.jpg" title="KeepKey" caption="KeepKey" %}
+
+Precio: 150€
 
 ### Paper Wallet
 
 Un monedero de papel no es más que una clave privada impresa que no está guardada en ningún otro sitio. Es perfectamente posible imprimir tu clave privada de cualquiera de los anteriores wallets (exceptuando Coinbase), pero no estarías haciendo uso de la característica principal de seguridad de un Paper Wallet. Si la clave privada sólo existe en un papel y no está almacenada en ningún monedero estarías exento de fallos de seguridad en las carteras o viruses o carteras maliciosas, siempre y cuando nadie te robe el papel con la clave privada, momento en el cual serías totalmente vulnerable.
 
 La idea de un paper wallet es poder almacenar fondos en lo que se denomina *cold storage* o básicamente una "cartera" desconectada de internet, pero para ello necesitamos fiarnos de nuestra capacidad de poder guardar una hoja de papel de manera segura. Hay quien va más allá y destruye el papel una vez memorizado (de qué modo afectará a la sociedad esta práctica con los altos casos de alzheimer de hoy en día será un experimento social bastante interesante).
+
+Absolutamente cualquier moneda puede ser guardada de esta manera.
 
 Precio: Gratis
 
