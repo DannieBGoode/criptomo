@@ -31,11 +31,11 @@ Hay que tener en cuenta que aunque lleve la palabra Bitcoin en el nombre, en rea
 
 Para poder obtener nuestro BTG seguiremos los siguientes pasos:
 
-1.  Localizar BTG: debemos identificar dónde teníamos guardado nuestro BTC el 25 de Octubre de 2017.
-2.  Localizar la clave privada: Una vez identificado la dirección o el wallet en cuestión, debemos mirar si poseemos la clave privada de la dirección. En la mayoría de los wallets es posibles exportar dicha clave.
-3.  Mover BTC/BCH: Puesto que vamos a importar nuestra clave privada en un wallet del que no necesariamente nos fiamos para poder sacar nuestro BTG, primero vamos a sacar nuestro Bitcoin y/o Bitcoin Cash de nuestro wallet enviándolo a una nueva dirección. Esta operación la tendremos que hacer una vez por moneda que queramos mover. Una vez completada nuestro wallet original solo contendrá BTG. Ha habido casos de gente que ha subido wallets maliciosas, como es el caso de [myBTGWallet](https://www.reddit.com/r/btc/comments/7dsmvd/my_analysis_of_the_1_million_usd_mybtgwalletcom/) que en cuanto metas tus claves privadas son envíadas a terceros que inmediatamente tiene acceso tanto a tu BTC como a tu BTG hasta que los muevas de nuevo.
-4.  Importar la clave privada a cualquier wallet que si soporte BTG. Por ejemplo [el wallet oficial de su página web](https://bitcoingold.org/downloads/).
-5.  Vender BTG: Si deseamos venderlo mueve tu BTG a un exchange que la venda, por citar alguno de los más famosos [Bitfinex](https://www.bitfinex.com/) o [Binance](https://www.binance.com/).
+1.  **Localizar BTG**: debemos identificar dónde teníamos guardado nuestro BTC el 25 de Octubre de 2017.
+2.  **Localizar la clave privada**: Una vez identificado la dirección o el wallet en cuestión, debemos mirar si poseemos la clave privada de la dirección. En la mayoría de los wallets es posibles exportar dicha clave.
+3.  **Mover BTC/BCH**: Puesto que vamos a importar nuestra clave privada en un wallet del que no necesariamente nos fiamos para poder sacar nuestro BTG, primero vamos a sacar nuestro Bitcoin y/o Bitcoin Cash de nuestro wallet enviándolo a una nueva dirección. Esta operación la tendremos que hacer una vez por moneda que queramos mover. Una vez completada nuestro wallet original solo contendrá BTG. Ha habido casos de gente que ha subido wallets maliciosas, como es el caso de [myBTGWallet](https://www.reddit.com/r/btc/comments/7dsmvd/my_analysis_of_the_1_million_usd_mybtgwalletcom/) que en cuanto metas tus claves privadas son envíadas a terceros que inmediatamente tiene acceso tanto a tu BTC como a tu BTG hasta que los muevas de nuevo.
+4.  **Importar la clave privada a cualquier wallet que si soporte BTG**. Por ejemplo [el wallet oficial de su página web](https://bitcoingold.org/downloads/).
+5. **Vender BTG**: Si deseamos venderlo mueve tu BTG a un exchange que la venda, por citar alguno de los más famosos [Bitfinex](https://www.bitfinex.com/) o [Binance](https://www.binance.com/).
 
 Ciertos exchanges como [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/) o [Bitstamp](https://www.bitstamp.net/) entre otros no suministran la clave privada a los usuarios, de tener tus fondos en uno de estos sitios, sólo ellos podrán darte las herramientas para obtener tu BTG y decidir entonces qué hacer con ellos.
 
