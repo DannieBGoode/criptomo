@@ -3,7 +3,7 @@ layout: post
 title:  "Las mejores criptomonedas de 2018"
 seo_title: "mejores-criptomonedas"
 description: "Las 16 criptomonedas más promotedoras de 2018"
-date:   2017-11-27
+date:   2017-11-28
 banner_image: 201711/altcoins.jpg
 tags: [altcoins]
 ---
