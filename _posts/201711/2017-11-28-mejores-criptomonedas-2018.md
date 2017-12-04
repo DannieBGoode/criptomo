@@ -44,9 +44,15 @@ Dejando de un lado el debate de cuál es el verdadero Bitcoin, lo que está clar
 
 {% include image_caption.html imageurl="../images/posts/201711/dash.png" title="Dash" style="max-width:40%" %}
 
-Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones y rebajado los costes. La particularidad que tiene es que está totalmente centralizada en el sentido de que de los desarrolladores obtienen un 10% de la recompensa de minar cada bloque.
+Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones y rebajado los costes. La particularidad que tiene es que una parte de la recompensa de cada bloque minado, en lugar de ir al minero integra como en las demás monedas, van a una cuenta distribuida que se usa para financiar al equipo de desarrollo en la dirección en la que todos los stakeholders (lease, poseedores de la moneda) voten.
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/dash/#markets)
+
+## Cardano
+
+{% include image_caption.html imageurl="../images/posts/201711/cardano.png" title="Dash" style="max-width:40%" %}
+
+[Cardano](https://www.cardanohub.org) es una plataforma diseñada por científicos reconocidos, entre ellos Charles Hoskinson (ex CEO de Ethereum). Cardano no pretende competir con BTC o ETH sino que quiere ser el puente entre todas las monedas y el sistmea clásico bancario saltándose la centralización que traen consigo los exchanges. Además han seguido el ejemplo de Dash implementado un sistema de financiación por minado y votación.
 
 ## OmiseGo
 

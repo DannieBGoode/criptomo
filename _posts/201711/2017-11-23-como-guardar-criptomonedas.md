@@ -137,12 +137,14 @@ Ledger Nano S soporta las siguientes criptomonedas:
 - Digibyte
 - QTUM
 
+Sólo permite tener cuatro wallets simultáneas al mismo tiempo, aunque es posible desinstalar/reinstalar wallets sin perder los fondos guardados.
+
 
 {% include image_caption.html imageurl="../images/posts/201711/ledger-nano.png" title="Ledger Nano S" caption="Ledger Nano S" %}
 
 Precio Ledger Nano S: 70€
 
-Su hermano mayor, Ledger Blue viene con una pantalla táctil y bluetooth a un precio considerablemente mayor y soporta
+Su hermano mayor, Ledger Blue viene con una pantalla táctil, bluetooth y espacio para ocho wallets simultáneas a un precio considerablemente mayor. Soporta:
 
 - Bitcoin
 - Ethereum
