@@ -36,7 +36,7 @@ Por motivos de seguridad recomiendo que activeis 2FA y tengáis contraseñas fue
 
 Dependiendo de cuánto dinero queramos invertir, algunos exchanges nos pedirán unos datos más que otros. Por ejemplo podrían pedirnos fotocopias del pasaporte, DNI, una factura de la luz, etc.
 
-Este proceso de verificación pensado para evitar blanqueo de capitales puede llevar varios días ya que es realizado por una persona física. Recomiendo que nos aseguremos de para cada caso hasta qué nivel debemos verificarnos en función de qué cantidad queramos invertir. Esta información la encontraremos en nuestras cuentas del exchange y debería ser fácilmente localizable.
+Este proceso de verificación pensado para evitar blanqueo de capitales puede llevar varios días ya que es realizado por una persona física. Recomiendo que nos aseguremos para cada caso hasta qué nivel debemos verificarnos en función de qué cantidad queramos invertir. Esta información la encontraremos en nuestras cuentas del exchange y debería ser fácilmente localizable.
 
 ## 4. Envíamos el dinero a invertir.
 
