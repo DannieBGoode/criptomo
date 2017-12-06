@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Los mejores gestores de contraseñas de 2018"
-seo_title: "gestores-contraseñas"
-description: "Explicación básica de cómo manejar mis contraseñas en la red"
+description: "Explicación básica de cómo manejar y guardar mis contraseñas en la red"
 date:   2017-11-27
 banner_image: 201711/lastpass.jpg
 tags: [seguridad]
