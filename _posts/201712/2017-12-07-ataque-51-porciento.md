@@ -16,7 +16,7 @@ Este ataque podría provocarse en cualquier blockchain que use Proof of Work, au
 
 El nombre del ataque se debe a que si una entidad consigue el 51% del poder computacional de la red (léase ordenadores suficientes como para que procesen transacciones/minen más rápido en sincronía que el resto de los ordenadores de los demás usuarios que minan la misma moneda) podría ser capaz de hundir la red entera y desprestigiar la tecnología.
 
-En primer lugar, para entender esto tenemos que explicar de qué modo resuelve la tecnología blockchain los conflictos si se enfrenta a dos cadenas distintas: La red siempre elegirá la cadena más larga, lo cual es un fundamento importantísimo que hace funcionar al protocolo de blockchain.
+En primer lugar, debemos entender de qué modo resuelve la tecnología blockchain los conflictos si se enfrenta a dos cadenas distintas: **La red siempre elegirá la cadena más larga, lo cual es un fundamento importantísimo que hace funcionar al protocolo de blockchain.**
 
 Si una entidad consigue el 51% del poder computacional, estadísticamente podrá minar más rápido que el resto de la red, lo cual le daría virtualmente todas las recompensas en criptomoneda del sistema, que a día de hoy para Bitcoin son de 25 BTC por bloque minado (cada 10 minutos).
 
