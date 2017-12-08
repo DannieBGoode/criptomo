@@ -18,7 +18,7 @@ El nombre del ataque se debe a que si una entidad consigue el 51% del poder comp
 
 En primer lugar, debemos entender de qué modo resuelve la tecnología blockchain los conflictos si se enfrenta a dos cadenas distintas: **La red siempre elegirá la cadena más larga, lo cual es un fundamento importantísimo que hace funcionar al protocolo de blockchain.**
 
-Si una entidad consigue el 51% del poder computacional, estadísticamente podrá minar más rápido que el resto de la red, lo cual le daría virtualmente todas las recompensas en criptomoneda del sistema, que a día de hoy para Bitcoin son de 25 BTC por bloque minado (cada 10 minutos).
+Si una entidad consigue el 51% del poder computacional, estadísticamente podrá minar más rápido que el resto de la red, lo cual le daría virtualmente todas las recompensas en criptomoneda del sistema, que a día de hoy para Bitcoin son de 25 BTC por bloque minado (cada 10 minutos). Además implicaría que el resto de los mineros dejarían de recibir sus recompensas de bloque (o recibirían muchas menos), lo cual les haría abandonar el sector subiendo el 51% del atacante a porcentajes superiores agravando el problema.
 
 Ahora bien, si en lugar de eso, esta entidad decide tumbar la red de Bitcoin procedería de la siguiente manera:
 -	**El atacante empezaría a minar sus propios bloques a escondidas**, ya que a diferencia del caso anterior, cada vez que se mina un bloque satisfactoriamente, NO se anunciaría públicamente al resto de la red. De esta manera tenemos dos cadenas paralelas, una en la que el atacante mina por su cuenta y añade bloques nuevos a su versión del blockchain y otra en la que el resto de la gente mina públicamente.
@@ -27,8 +27,6 @@ Ahora bien, si en lugar de eso, esta entidad decide tumbar la red de Bitcoin pro
 -	**El atacante decidirá entonces compartir su versión del blockchain con el resto del mundo**. El resto de la red se encontrará con una nueva versión del blockchain y por su protocolo de manejo de conflictos descartará la cadena más corta, de tal manera que el atacante podrá mantener sus compras ya en su posesión además de los BTCs con los que originalmente realizó dichas compras.
 
 Otro posible ataque que se podría realizar teniendo tal poder computacional sería censurar ciertas transacciones, puesto que los mineros tienen la capacidad de elegir las transacciones que permiten pasar y cuales ignorar, si digamos un gobierno consiguiese el 51% del poder computacional, podría decidir bloquear todas las transacciones realizadas a favor o en contra de las direcciones conocidas de otro país o individuo desconectándolo del sistema monetario general.
-
-Además, que una entidad consiguiese un 51% implicaría que el resto de los mineros dejarían de recibir sus recompensas de bloque (o recibirían muchas menos), lo cual les haría abandonar el sector subiendo el 51% del atacante a porcentajes superiores agravando el problema.
 
 Una de las claves de la tecnología blockchain según lo explicado en el whitepaper original escrito por Satoshi Nakamoto es la Teoría de juegos de John Nash, que básicamente apuesta porque si en algún momento un atacante decide realizar la enorme inversión que requiere tener el 51% del poder computacional, le va a interesar más jugar a favor del sistema para llevarse las recompensas de la red (que se seguirán entregando hasta el año 2100) que tirar el sistema.
 
