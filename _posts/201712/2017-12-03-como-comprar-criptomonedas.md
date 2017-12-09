@@ -51,7 +51,7 @@ En cualquier caso la manera más habitual es comprar al precio de mercado en ese
 
 Mucha gente se saltaría este paso y dejaría sus fondos en el exchange donde han realizado la compra. No serían los primeros que se despiertan un día y descubren que la página web ha desaparecido o ha sido hackeada y sus fondos robados. Cómo ya hemos mencionado más veces, si no poseemos la clave privada de la dirección dónde están guardados nuestras criptomonedas no tenemos control directo sobre ellos, por lo que es esencial que para evitar esto movamos nuestras criptomonedas a un wallet.
 
-Para Bitcoin y Ethereum el wallet más sencillo es [blockchain.info](https://blockchain.info/) y los más seguros serían Hardware wallets. Tenemos a vuestra disposición [una guía de los distintos wallets existentes](http://127.0.0.1:4000/como-guardar-criptomonedas/) que no deberías perderte.
+Para Bitcoin y Ethereum el wallet más sencillo es [blockchain.info](https://blockchain.info/) y los más seguros serían Hardware wallets. Tenemos a vuestra disposición [una guía de los distintos wallets existentes](../como-guardar-criptomonedas/) que no deberías perderte.
 
 Si en el futuro decidimos cambiar nuestras monedas por otras que nos parezcan más prometedoras o sencillamente queremos venderlas ya deberemos hacer el proceso inverso, empezando por moverlas del wallet al exchange.
 
