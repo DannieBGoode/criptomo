@@ -2,7 +2,7 @@
 layout: post
 title: Cómo funciona un ataque del 51 porciento
 description: El ataque del 51 por ciento explicado.
-date: 2017-12-03T00:00:00.000Z
+date: 2017-12-10T00:00:00.000Z
 banner_image: 201712/attack.jpg
 tags:
   - bitcoin
