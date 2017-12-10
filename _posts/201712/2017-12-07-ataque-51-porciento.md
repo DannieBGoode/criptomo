@@ -3,10 +3,9 @@ layout: post
 title: Cómo funciona un ataque del 51 porciento
 description: El ataque del 51 por ciento explicado.
 date: 2017-12-03T00:00:00.000Z
-banner_image: 201712/exchange.jpg
+banner_image: 201712/attack.jpg
 tags:
   - bitcoin
-published: false
 ---
 El ataque del 51 por ciento es altamente discutido entre la comunidad de las criptomonedas por las consecuencias catastróficas para la red que podría llegar a tener.
 
@@ -43,8 +42,8 @@ Una vez la radiación nuclear desaparece, los ocupantes deciden salir al exterio
 
 ¿ Qué ocurriría de manera automática cuando ambas redes (léase nodos de la red que operan con el Software actual de Bitcoin) conozcan la existencia de la otra?
 
-a)	Se crearía un FORK y pasaríamos a tener 2 Bitcoins distintos como ya ha ocurrido con Bitcoin Cash o Bitcoin Gold.
-b)	Puesto que los ocupantes de cada bunker sólo han intercambiado Bitcoins dentro de su propio bunker ambas redes resultan compatibles y pueden ser fusionadas sin conflictos.
-c)	Se descarta la cadena del bunker que menos bloques ha producido a lo largo de los 20 años y sus integrantes recuperarían su saldo inicial cuando empezó la bifurcación de las dos cadenas.
+- a)	Se crearía un FORK y pasaríamos a tener 2 Bitcoins distintos como ya ha ocurrido con Bitcoin Cash o Bitcoin Gold.
+- b)	Puesto que los ocupantes de cada bunker sólo han intercambiado Bitcoins dentro de su propio bunker ambas redes resultan compatibles y pueden ser fusionadas sin conflictos.
+- c)	Se descarta la cadena del bunker que menos bloques ha producido a lo largo de los 20 años y sus integrantes recuperarían su saldo inicial cuando empezó la bifurcación de las dos cadenas.
 
 Si has estado prestando atención habrás concluido que lo que ocurriría es lo descrito en la última opción de la lista. Desde luego las dos primeras opciones son soluciones perfectamente válidas para este problema desde una perspectiva humana, pero ambas requerirían una modificación del protocolo actual para llevarse a cabo.
