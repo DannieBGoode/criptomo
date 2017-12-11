@@ -36,7 +36,7 @@ Es por ello que en aquellas ocasiones donde ciertos pools de mineros (un pool de
 {% include image_caption.html imageurl="/images/posts/201712/pools.png" title="Pools" caption="Porcentajes de poder computacional de la red repartida entre pools de mineros" %}
 
 
-**La concepción general del ataque de 51 por ciento ahora mismo es que aunque resultaría técnicamente posible, no es algo que a priori nos debería preocupar demasiado a día de hoy.**
+**La concepción general del ataque de 51 por ciento ahora mismo es que aunque resultaría técnicamente posible, no es algo que a priori nos debería preocupar demasiado.**
 
 Ahora como ejercicio de lo explicado anteriormente, vamos a imaginar un escenario ficticio:
 Imaginemos que se produce una guerra nuclear, y un grupo de supervivientes decide refugiarse en un búnker convenientemente acondicionado para sobrevivir los próximos 20 años hasta que la radicación nuclear desaparezca. Los ocupantes deciden usar Bitcoin como método de pago entre ellos, y así lo hacen durante 20 años, los mineros consiguen sus recompensas por procesar las transacciones del resto de los usuarios que usan Bitcoins sin problemas.
