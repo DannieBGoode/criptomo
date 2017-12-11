@@ -33,6 +33,9 @@ Adicionalmente, tirar el sistema de la manera explicada, sería una acción tota
 
 Es por ello que en aquellas ocasiones donde ciertos pools de mineros (un pool de mineros es un conjunto de entidades que deciden juntar su poder computacional mediante un software para minar en sincronía y repartirse las recompensas) se han acercado a porcentajes altos, a ellos mismos les ha interesado repartir su potencia en grupos más pequeños.
 
+{% include image_caption.html imageurl="/images/posts/201712/pools.png" title="Pools" caption="Porcentajes de poder computacional de la red repartida entre pools de mineros" %}
+
+
 **La concepción general del ataque de 51 por ciento ahora mismo es que aunque resultaría técnicamente posible, no es algo que a priori nos debería preocupar demasiado a día de hoy.**
 
 Ahora como ejercicio de lo explicado anteriormente, vamos a imaginar un escenario ficticio:
