@@ -4,5 +4,7 @@
   url: /about/
 # - text: Style Guides
 #   url: /style-guide/
-- text: Archivos
+- text: Glosario
+  url: /glosario/
+- text: Archivo
   url: /tags/
