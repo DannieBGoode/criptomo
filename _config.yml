@@ -16,6 +16,7 @@ tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y de
 baseurl                  : ""
 repository               : "DannieBGoode/criptomo"
 sass:
+  style                  : compressed
   sass_dir               : _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed

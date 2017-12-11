@@ -23,9 +23,8 @@ Si deseáis elegir una moneda distinta deberéis ir a [coinmarketcap](https://co
 
 
 Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para los casos de Bitcoin o Ethereum yo recomiendo uno de los siguientes:
-- [Coinbase](https://www.coinbase.com/)
+- [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e)
 - [Bitstamp](https://www.bitstamp.net/)
-- [Kraken](https://www.kraken.com/)
 
 ## 2. Nos creamos una cuenta en el exchange elegido.
 
