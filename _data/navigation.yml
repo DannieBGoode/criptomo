@@ -1,8 +1,8 @@
-- text: Home
+- text: Inicio
   url: /
-- text: About
+- text: Autor
   url: /about/
 # - text: Style Guides
 #   url: /style-guide/
-- text: Archives
+- text: Archivos
   url: /tags/
