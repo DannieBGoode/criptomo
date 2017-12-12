@@ -22,13 +22,18 @@ En los exchanges, en ningún momento tienes poder sobre tu clave privada por lo 
 
 * **Mi recomendación es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet del cual poseeremos la clave privada.**
 
-Un ejemplo de una clave privada (también llamada seed) para Bitcoin es: 
+Es importante aclarar la diferencia entre un seed y una clave privada:
+
+- **clave privada**: contraseña con la cual podemos controlar los fondos de una dirección.
+- **seed**: contraseña con la cual podemos obtener las claves privadas de un conjunto de direcciones.
+
+En muchas ocasiones en lugar de clave privada se nos dará un seed lo cual es más que suficiente. Un ejemplo de un seed de un wallet podría ser:
 
 `witch collapse practice feed shame open despair creek road again ice least`.
 
 A otras criptomonedas les corresponden claves ligeramente distintas y puede que menos recordables que la del ejemplo pero siempre serán generadas por los wallets y debemos guardarlas bien.
 
-Si tenemos sospechas de que alguien ha conseguido copiar nuestra clave privada inmediatamente generaremos un nuevo wallet con una nueva dirección y seed y moveremos todos nuestros fondos. Mientras no lo hagamos, esta persona tendría acceso total a nuestras monedas y podría moverlas a otro wallet fuera de nuestro control. **Esta operación no sería reversible.**
+Si tenemos sospechas de que alguien ha conseguido copiar nuestra clave privada o seed inmediatamente generaremos un nuevo wallet con una nueva dirección y seed y moveremos todos nuestros fondos. Mientras no lo hagamos, esta persona tendría acceso total a nuestras monedas y podría moverlas a otro wallet fuera de nuestro control. **Esta operación no sería reversible.**
 
 
 
