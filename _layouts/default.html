@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 <head>
@@ -40,8 +43,8 @@
     {{content}}
     {% include footer.html %}
     {% include analytics.html %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/custom.js"></script>
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script async src="{{ site.baseurl }}/js/plugins.js"></script>
+    <script defer src="{{ site.baseurl }}/js/custom.js"></script>
 </body>
 </html>
