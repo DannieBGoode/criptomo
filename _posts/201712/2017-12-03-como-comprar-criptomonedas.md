@@ -15,7 +15,7 @@ En este artículo explicaremos los pasos básicos a seguir para empezar a invert
 
 ## 1. Elegimos qué criptomoneda queremos comprar.
 
-Un exchange es una página web donde podemos enviar dinero fiat (euros, dólares,etc...) y podremos usarlo para cambiarlo por criptomonedas.
+Un exchange es una página web donde podemos enviar dinero *fiat* (euros, dólares,etc...) y podremos usarlo para cambiarlo por criptomonedas.
 
 Así como no todos los exchanges venden las mismas monedas, no todas las monedas se pueden comprar con dinero fiat. Muchas de ellas únicamente pueden ser comparadas con Bitcoin ó Ethereum que es para las cuales se ha realizado esta guía ya que son las únicas monedas que se venden en absolutamente todos los exchanges.
 
@@ -42,9 +42,11 @@ Una vez logueamos le daremos a DEPOSITAR para ver los distintos métodos de pago
 
 ## 5. Compramos la criptomoneda deseada
 
-Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en nuestra cuenta en fiat. Es ahora cuando deberemos usar ese dinero para comprar la criptomoneda en cuestión. Muchos exchanges dan muchísimas opciones de compra, cómo esperar a que el precio llegue a ciertos valores, o realizar compras más pequeñas periódicamente.
+Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en nuestra cuenta en *fiat*. Es ahora cuando deberemos usar ese dinero para comprar la criptomoneda en cuestión. Muchos exchanges dan muchísimas opciones de compra, cómo esperar a que el precio llegue a ciertos valores, o realizar compras más pequeñas periódicamente.
 
 En cualquier caso la manera más habitual es comprar al precio de mercado en ese momento, compra que será prácticamente instantánea y veremos reflejada en nuestra cuenta al lado de dónde ponía cuánto dinero fiat teníamos en nuestra cuenta.
+
+No todas las criptomonedas se venden en los exchanges que hemos puesto de ejemplo más arriba, si estás interesado en comprar otras altcoins puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/).
 
 ## 6. Movemos nuestros fondos a un wallet
 
