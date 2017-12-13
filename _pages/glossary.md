@@ -105,6 +105,9 @@ Creador anónimo de Bitcoin.
 #### Satoshi
 Unidad más pequeña de un Bitcoin que se puede obtener. Concretamente es 0.00000001 ฿.
 
+#### Seed
+Contraseña capaz de generar todas las claves privadas de todas las direcciones de un wallet.
+
 #### SHA-256
 Algoritmo criptográfico usado por muchas criptomonedas que requiere de mucha energía y tiempo de procesamiento.
 
