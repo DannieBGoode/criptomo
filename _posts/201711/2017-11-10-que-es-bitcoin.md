@@ -51,8 +51,6 @@ Ahora bien, si consideramos el valor que esta y otras posibles criptomonedas va 
 
 ## ¿ Dónde puedo comprar Bitcoins ?
 
-Existen numerosas páginas webs denominadas exchanges donde es posible comprar Bitcoins y otras monedas. Muchas de ellas permiten pago con tarjeta de crédito y otras aceptan transacciones bancarias. Las más conocidas son [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/) y [Bitstamp](https://www.bitstamp.net/).
+Existen numerosas páginas webs denominadas exchanges donde es posible comprar Bitcoins y otras monedas. Muchas de ellas permiten pago con tarjeta de crédito y otras aceptan transacciones bancarias. Las más conocidas son [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/) y [Bitstamp](https://www.bitstamp.net/). 
 
-Una vez hayáis conseguido enviar dinero convencional a vuestras cuentas en estas webs, deberéis decidir qué moneda comprar y cuándo hacerlo, puesto que el precio de casi todas ellas oscila bastante.
-
-No recomiendo dejar las criptomonedas una vez compradas en estas páginas webs guardadas, he escrito otro artículo sobre [como guardar tus criptomonedas de manera segura](../como-guardar-criptomonedas/).
+Teneis aquí una guía de [cómo comprar criptomonedas](https://criptomo.com/como-comprar-criptomonedas/) más en detalle.
