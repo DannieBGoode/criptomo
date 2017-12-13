@@ -11,7 +11,7 @@ Esta entrada es la continuación del artículo [cómo comprar criptomonedas](../
 
 <!--more-->
 
-Para ello asumiremos que el usuario ha conseguido ya los siguientes pasos explicados en el artículo original:
+Asumiremos entonces los siguientes pasos explicados en el artículo original:
 
 * El usuario tiene cuenta en Coinbase.
 * El usuario ha conseguido comprar alguna moneda en Coinbase ya sea con tarjeta de crédito o transferencia.
