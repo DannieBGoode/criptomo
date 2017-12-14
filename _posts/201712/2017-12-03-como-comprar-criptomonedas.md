@@ -55,6 +55,8 @@ Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en
 
 En cualquier caso la manera más habitual es comprar al precio de mercado en ese momento, compra que será prácticamente instantánea y veremos reflejada en nuestra cuenta al lado de dónde ponía cuánto dinero fiat teníamos en nuestra cuenta.
 
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" %}
+
 No todas las criptomonedas se venden en los exchanges que hemos puesto de ejemplo más arriba, si estás interesado en comprar otras altcoins puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/).
 
 ## 6. Movemos nuestros fondos a un wallet
