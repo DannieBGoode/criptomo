@@ -56,4 +56,13 @@ Si ahora volvemos a la sección de `FUNDS` veremos que efectivamente ahora posee
 
 No se os ocurra dejar vuestro Dash o cualquier otra criptomoneda almacenada en Binance o cualquier otro exchange. Así es como mucha gente ha perdido muchísimo dinero, yo incluido (te odio [cryptsy](http://www.cryptsysettlement.com/)) por que los Exchanges desaparecen o son hackeados. He creado otra entrada de [cómo guardar vuestras criptomonedas de manera segura](../como-guardar-criptomonedas/), por favor echadle un vistazo.
 
+#### Vender las altcoins
 
+Ha llegado el momento y ahora quieres vender tus ganancias en altcoins y meterlas en tu cuenta bancaria corriente, para ello tendremos que hacer lo siguiente:
+
+* Envíamos nuestro DASH a Binance mediante el botón de `DEPOSIT`.
+* En la sección de `EXCHANGE > BASIC` elegimos `DASH/BTC` y le damos a `SELL DASH`.
+* En Coinbase le daremos a `RECEIVE BTC` y se nos dará una dirección.
+* En Binance lo enviamos de vuelta a Coinbase desde la sección `FUNDS > WITHDRAW` dándole a `WITHADRAWAL` para BTC y poniendo la dirección del paso anterior.
+* En Coinbase le damos a `SELL Bitcoin` y nos darán dinero fiat.
+* En Coinbase hacemos un withdraw de esos fondos a nuestra cuenta bancaria.
