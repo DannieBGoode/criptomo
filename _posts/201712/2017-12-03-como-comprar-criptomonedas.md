@@ -23,12 +23,17 @@ Si deseáis elegir una moneda distinta deberéis ir a [coinmarketcap](https://co
 
 
 Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para los casos de Bitcoin o Ethereum yo recomiendo uno de los siguientes:
-- [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e)
+- [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) , que es el que usaremos para este ejemplo.
 - [Bitstamp](https://www.bitstamp.net/)
 
 ## 2. Nos creamos una cuenta en el exchange elegido.
 
 Por motivos de seguridad recomiendo que activeis 2FA y tengáis contraseñas fuertes. Podéis aprender qué es esto en [la guía de gestores de contraseña](../mejores-gestores-contrasenas/).
+
+Nada más crearnos la cuenta veremos el siguiente mensaje que nos guiará por los pasos restantes:
+
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-account.png" %}
+
 
 ## 3. Verificamos nuestra identidad.
 
@@ -36,9 +41,13 @@ Dependiendo de cuánto dinero queramos invertir, algunos exchanges nos pedirán 
 
 Este proceso de verificación pensado para evitar blanqueo de capitales puede llevar varios días ya que es realizado por una persona física. Recomiendo que nos aseguremos para cada caso hasta qué nivel debemos verificarnos en función de qué cantidad queramos invertir. Esta información la encontraremos en nuestras cuentas del exchange y debería ser fácilmente localizable.
 
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-verify.png" %}
+
 ## 4. Envíamos el dinero a invertir.
 
 Una vez logueamos le daremos a DEPOSITAR para ver los distintos métodos de pago. Algunas webs permiten pagos con tarjeta de crédito pero lo normal es transferencia SEPA para la cual se nos dará un número de cuenta, un beneficiario y **un código que deberemos poner en la razón de la transferencia para poder ser identificados fácilmente**.
+
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-payment.png" %}
 
 ## 5. Compramos la criptomoneda deseada
 
@@ -53,6 +62,10 @@ No todas las criptomonedas se venden en los exchanges que hemos puesto de ejempl
 Mucha gente se saltaría este paso y dejaría sus fondos en el exchange donde han realizado la compra. No serían los primeros que se despiertan un día y descubren que la página web ha desaparecido o ha sido hackeada y sus fondos robados. Cómo ya hemos mencionado más veces, si no poseemos la clave privada de la dirección dónde están guardados nuestras criptomonedas no tenemos control directo sobre ellos, por lo que es esencial que para evitar esto movamos nuestras criptomonedas a un wallet.
 
 Para Bitcoin y Ethereum el wallet más sencillo es [blockchain.info](https://blockchain.info/) y los más seguros serían Hardware wallets. Tenemos a vuestra disposición [una guía de los distintos wallets existentes](../como-guardar-criptomonedas/) que no deberías perderte.
+
+Para moverlas desde Coinbase a un wallet deberemos ir a nuestra cuenta, darle a `SEND` y pegar la dirección que nos habrá generado nuestro wallet.
+
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" %}
 
 Si en el futuro decidimos cambiar nuestras monedas por otras que nos parezcan más prometedoras o sencillamente queremos venderlas ya deberemos hacer el proceso inverso, empezando por moverlas del wallet al exchange.
 

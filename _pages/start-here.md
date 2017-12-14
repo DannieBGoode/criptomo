@@ -11,14 +11,16 @@ permalink: /guias/
 ### Conceptos Básicos.
 Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin.
 * Empieza preguntándote [qué es Bitcoin](../que-es-bitcoin/), la primera criptomoneda.
-* Deseas empezar a invertir, aprende [cómo puedo comprar mis primeras criptomonedas](..//como-comprar-criptomonedas/).
 * Aprende a tener contraseñas seguras usando [gestores de contraseñas](../mejores-gestores-contrasenas/).
 * No pierdas todos tus fondos, [guía de cómo debería guardar mis criptomonedas](../como-guardar-criptomonedas/).
+* Deseas empezar a invertir, aprende [cómo puedo comprar mis primeras criptomonedas](../como-comprar-criptomonedas/).
+
 
 ### Profundizando en la teoría:
 ¿Te interesa entender mejor este mundo?
 * Qué es el [Ataque del 51%](../ataque-51-porciento/).
 * Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con tarjetas de crédito cripto (proximamente)
+* Consumo de energía de Proof of Work
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
