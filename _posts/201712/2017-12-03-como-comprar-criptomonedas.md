@@ -44,7 +44,7 @@ Por motivos de seguridad recomiendo que activeis 2FA y tengáis contraseñas fue
 
 Nada más crearnos la cuenta veremos el siguiente mensaje que nos guiará por los pasos restantes:
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-account.png" %}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-account.png" popup=true %}
 
 
 ## 3. Verificamos nuestra identidad.
@@ -53,13 +53,13 @@ Dependiendo de cuánto dinero queramos invertir, algunos exchanges nos pedirán 
 
 Este proceso de verificación pensado para evitar blanqueo de capitales puede llevar varios días ya que es realizado por una persona física. Recomiendo que nos aseguremos para cada caso hasta qué nivel debemos verificarnos en función de qué cantidad queramos invertir. Esta información la encontraremos en nuestras cuentas del exchange y debería ser fácilmente localizable.
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-verify.png" %}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-verify.png" popup=true %}
 
 ## 4. Envíamos el dinero a invertir.
 
 Una vez logueamos le daremos a DEPOSITAR para ver los distintos métodos de pago. Algunas webs permiten pagos con tarjeta de crédito pero lo normal es transferencia SEPA para la cual se nos dará un número de cuenta, un beneficiario y **un código que deberemos poner en la razón de la transferencia para poder ser identificados fácilmente**.
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-payment.png" %}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-payment.png" popup=true %}
 
 ## 5. Compramos la criptomoneda deseada
 
@@ -67,7 +67,7 @@ Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en
 
 En cualquier caso la manera más habitual es comprar al precio de mercado en ese momento, compra que será prácticamente instantánea y veremos reflejada en nuestra cuenta al lado de dónde ponía cuánto dinero fiat teníamos en nuestra cuenta.
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" %}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" popup=true %}
 
 ## 6. Movemos nuestros fondos a un wallet
 
@@ -77,7 +77,7 @@ Para Bitcoin y Ethereum el wallet más sencillo es [blockchain.info](https://blo
 
 Para moverlas desde Coinbase a un wallet deberemos ir a nuestra cuenta, darle a `SEND` y pegar la dirección que nos habrá generado nuestro wallet.
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" %}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" popup=true %}
 
 Si en el futuro decidimos cambiar nuestras monedas por otras que nos parezcan más prometedoras o sencillamente queremos venderlas ya deberemos hacer el proceso inverso, empezando por moverlas del wallet al exchange.
 

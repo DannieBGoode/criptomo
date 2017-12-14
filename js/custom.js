@@ -31,7 +31,7 @@
 
         // mgnific
         $('.image-link').magnificPopup({type:'image'});
-        $('.test-popup-link').magnificPopup({
+        $('.popup-link').magnificPopup({
           type: 'image'
           // other options
         });

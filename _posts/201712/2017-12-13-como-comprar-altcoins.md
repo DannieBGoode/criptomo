@@ -26,7 +26,7 @@ Llegados a este punto, el usuario pretende comprar otra criptomoneda, por ejempl
 
 Lo primero que deberá hacer es **investigar en qué Exchanges venden Dash**. Esto se puede hacer en [coinmarketcap](https://coinmarketcap.com/currencies/dash/#markets) haciendo click en la moneda en cuestión y pulsando en la pestaña de Markets.
 
-{% include image_caption.html imageurl="/images/posts/201712/dash-markets.png" title="Dash Markets" %}
+{% include image_caption.html imageurl="/images/posts/201712/dash-markets.png" title="Dash Markets" popup=true %}
 
 En este caso podemos ver que Binance vende Dash a cambio de BTC (DASH/BTC) por lo que sabemos que deberemos acabar teniendo BTC a Binance para poder comprarlo, pero si tenemos alguna otra moneda con la cual queramos pagar, siempre podemos enviar esa otra moneda a Binance y cambiarla por BTC allí.
 
@@ -40,13 +40,13 @@ Buscaremos BTC y le daremos a `DEPOSIT` puesto que vamos a depositar BTC en Bina
 
 **Nunca enviaremos monedas a una dirección perteneciente a otro tipo de moneda**. Si intentamos enviar BTC a una dirección de LTC perderemos las monedas para siempre. Mucho cuidado con esto.
 
-{% include image_caption.html imageurl="/images/posts/201712/binance-deposit.png"%}
+{% include image_caption.html imageurl="/images/posts/201712/binance-deposit.png" popup=true %}
 
 #### Enviar los fondos
 
 Una vez copiada la dirección iremos a Coinbase y le daremos a enviar BTC. Pondremos la dirección que hemos copiado y esperaremos a que la transferencia se realice que podría llevar unos minutos. Podemos ver el progreso de la transferencia en [este enlace](https://www.binance.com/userCenter/transactionHistory.html), aunque nuestros fondos no estarán disponibles hasta que no haya al menos dos confirmaciones en el blockchain.
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png"%}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" popup=true %}
 
 #### Comprar la criptomoneda
 
@@ -54,7 +54,7 @@ Volvemos a Binance y le damos a `EXCHANGE > BASIC`, en el buscador de la derecha
 
 Si por algún casual no tuvieramos BTC por que queremos vender otra moneda, por ejemplo Litecoin, elegiremos primero `LTC/BTC`, venderiamos nuestro LTC por BTC dandole a `SELL 100%`, y despues procedemos a comprar `DASH/BTC`.
 
-{% include image_caption.html imageurl="/images/posts/201712/binance-buy-dash.png"%}
+{% include image_caption.html imageurl="/images/posts/201712/binance-buy-dash.png" popup=true %}
 
 Si ahora volvemos a la sección de `FUNDS` veremos que efectivamente ahora poseemos DASH.
 

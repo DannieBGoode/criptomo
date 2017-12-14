@@ -20,7 +20,7 @@ Cualquier cambio de valor de las criptomonedas bloqueadas por SALT pertenece al 
 
 En la dirección del equipo podemos encontrar al millonario emprendedor Erik Voorhees que ya ha creado varias empresas exitosas en el mundo de las criptomonedas como Shapeshift o Satoshi's Dice.
 
-{% include image_caption.html imageurl="/images/posts/201712/salt-team.png" title="SALT Team" caption="Dirección de SALT" %}
+{% include image_caption.html imageurl="/images/posts/201712/salt-team.png" title="SALT Team" caption="Dirección de SALT" popup=true %}
 
 La plataforma se lanzará a finales de 2017 y funcionaría de al siguienta manera para un usuario que quisiera conseguir un préstamo:
 * Se registrará en la plataforma SALT
@@ -48,7 +48,7 @@ La seguridad de dichos smart contracts está siendo auditada por la empresa Spir
 
 En la página web también podemos ver el roadmap de progreso donde podemos destacar la inclusión de Ethereum en el primer cuatrimestre de 2018 y de Altcoins en general en el tercero.
 
-{% include image_caption.html imageurl="/images/posts/201712/salt-benchmarks.png" title="SALT Roadmap" caption="Roadmap de SALT" %}
+{% include image_caption.html imageurl="/images/posts/201712/salt-benchmarks.png" title="SALT Roadmap" caption="Roadmap de SALT" popup=true %}
 
 En principio la plataforma empieza únicamente en EEUU pero planea continuar expandiéndose al mercado europeo y después abrirse de manera global.
 

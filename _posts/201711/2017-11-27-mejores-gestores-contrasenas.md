@@ -98,7 +98,7 @@ Todas estas contraseñas aun así siguen siendo vulnerables ante la situación q
 
 #### LastPass
 
-{% include image_caption.html imageurl="../images/posts/201711/lastpass.png" title="LastPass" caption="LastPass" %}
+{% include image_caption.html imageurl="../images/posts/201711/lastpass.png" title="LastPass" caption="LastPass" popup=true %}
 
 [LastPass](https://www.lastpass.com/) cuenta con una versión gratuita que puede ser más que suficiente para la mayoría de los usuarios. Su versión de escritorio es en realidad una página web por lo que necesitamos tener acceso a internet para poder acceder a ella. También cuenta con aplicación de iOS, Android y Windows Phone.
 
@@ -108,7 +108,7 @@ Precio: Gratis - 6$ al mes dependiendo del plan.
 
 #### 1Password
 
-{% include image_caption.html imageurl="../images/posts/201711/1password.png" title="1 Password" caption="1 Password" %}
+{% include image_caption.html imageurl="../images/posts/201711/1password.png" title="1 Password" caption="1 Password" popup=true %}
 
 [1Password](https://1password.com/) es de una de mis favoritas aunque no cuenta con versión gratuita. Una de las cosas que más me gusta es que permite almacenar tu pequeña base de datos de contraseñas en tu propio Dropbox de tal manera que siempre tendrás acceso a él pase lo que pase. Cuenta con aplicación de Windows, Mac, iOS y Android.
 
@@ -116,7 +116,7 @@ Precio: 3-5$ al mes dependiendo del plan.
 
 #### Dashlane
 
-{% include image_caption.html imageurl="../images/posts/201711/dashlane.png" title="Dashlane" caption="Dashlane" %}
+{% include image_caption.html imageurl="../images/posts/201711/dashlane.png" title="Dashlane" caption="Dashlane" popup=true %}
 
 [Dashlane](https://www.dashlane.com) poco a poco se ha ido abriendo hueco entre las anteriores. La versión gratuita permite tener Dashlane en un solo dispositivo y la de pago en todos los que desees. Lo que más me gusta de Dashlane es su servicio de alertas de hackeo: si alguna de las webs que tienes registradas en Dashlane es hackeada, Dashlane te avisará para que te asegures de cambiar tu contraseña cuanto antes.
 
@@ -124,7 +124,7 @@ Precio: Gratis - 3$ al mes.
 
 #### Remembear
 
-{% include image_caption.html imageurl="../images/posts/201711/remembear.png" title="Remembear" caption="Remembear" %}
+{% include image_caption.html imageurl="../images/posts/201711/remembear.png" title="Remembear" caption="Remembear" popup=true %}
 
 [Remembear](https://www.remembear.com) es la nueva adición de la lista, por los creadores de Tunealbear VPN. Por el momento está en fase beta por lo que sería mejor abstenernos hasta que esté más rodada. Cuenta con aplicación de Windows, Mac, iOS y Android.
 
@@ -132,7 +132,7 @@ Precio: Gratis
 
 #### Enpass
 
-{% include video id="syVLV4n8oFM" provider="youtube" class="full"%}
+{% include video id="syVLV4n8oFM" provider="youtube" class="full" %}
 
 [Enpass](https://www.enpass.io/) sea posiblemente una de las prometedoras de este nuevo año. La versión de escritorio es gratis aunque las apps (iOS, Android y Windows Phone) son de pago. Lo más fundamental sin duda es que permite guardar la base de datos localmente o en las nubes más habituales para que gestiones tu propia seguridad.
 
@@ -140,7 +140,7 @@ Precio: Gratis - 10$ una sola vez.
 
 #### Password Safe
 
-{% include image_caption.html imageurl="../images/posts/201711/passwordsafe.png" title="Password Safe" caption="Password Safe" %}
+{% include image_caption.html imageurl="../images/posts/201711/passwordsafe.png" title="Password Safe" caption="Password Safe" popup=true %}
 
 [PWSafe](https://pwsafe.org/) no es la aplicación más atractiva del mercado, pero está creada por uno de los mayores expertos de seguridad del sector, Bruce Schneier. Cuenta con aplicación de iOS y Android de pago y una versión de escritorio gratuita.
 
@@ -150,7 +150,7 @@ Precio: Gratis - 3$ una sola vez para alguna app móvil.
 
 #### KeePass
 
-{% include image_caption.html imageurl="../images/posts/201711/keepass.png" title="keepass" caption="keepass" %}
+{% include image_caption.html imageurl="../images/posts/201711/keepass.png" title="keepass" caption="keepass" popup=true %}
 
 [KeePass](https://keepass.info/) siempre ha sido mi favorita de la lista, puesto que es open source el código ha sido colaboración de muchísima gente y ha sido auditado hasta la saciedad. Tiene varias capas de seguridad avanzadas, como poder añadir un segundo de penalización por contraseña incorrecta para evitar ataques de fuerza bruta o necesitar un clave aleatoria por USB para poder abrirse (es decir, deberías tener un USB con tu clave conectado a tu ordenador para poder abrir tu base de datos). Por desgracia no tiene apps móviles oficiales y aunque hay algunas por ahí, recomiendo usarlas con cuidado.
 

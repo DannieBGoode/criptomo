@@ -149,7 +149,7 @@ Ledger Nano S soporta las siguientes criptomonedas:
 Sólo permite tener cuatro wallets simultáneas al mismo tiempo, aunque es posible desinstalar/reinstalar wallets sin perder los fondos guardados.
 
 
-{% include image_caption.html imageurl="../images/posts/201711/ledger-nano.png" title="Ledger Nano S" caption="Ledger Nano S" %}
+{% include image_caption.html imageurl="../images/posts/201711/ledger-nano.png" title="Ledger Nano S" caption="Ledger Nano S" popup=true %}
 
 Precio Ledger Nano S: 70€
 
@@ -181,7 +181,7 @@ Su hermano mayor, Ledger Blue viene con una pantalla táctil, bluetooth y espaci
 - Digibyte
 - QTUM
 
-{% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Ledger Blue" caption="Ledger Blue" %}
+{% include image_caption.html imageurl="../images/posts/201711/ledger-blue.jpg" title="Ledger Blue" caption="Ledger Blue" popup=true %}
 
 
 
@@ -208,7 +208,7 @@ Trezor soporta:
 
 Precio: 90€
 
-{% include image_caption.html imageurl="../images/posts/201711/trezor.jpg" title="Trezor" caption="Trezor" %}
+{% include image_caption.html imageurl="../images/posts/201711/trezor.jpg" title="Trezor" caption="Trezor" popup=true %}
 
 ### KeepKey
 
@@ -223,7 +223,7 @@ Todavía se tratade un wallet bastante nuevo pero poco a a poco van extendiendo 
 - Dogecoin
 - Dash
 
-{% include image_caption.html imageurl="../images/posts/201711/keepkey.jpg" title="KeepKey" caption="KeepKey" %}
+{% include image_caption.html imageurl="../images/posts/201711/keepkey.jpg" title="KeepKey" caption="KeepKey" popup=true %}
 
 Precio: 150€
 
@@ -237,7 +237,7 @@ Absolutamente cualquier moneda puede ser guardada de esta manera.
 
 Precio: Gratis
 
-{% include image_caption.html imageurl="../images/posts/201711/paper-wallet.jpg" title="Paper wallet" caption="Paper Wallet" %}
+{% include image_caption.html imageurl="../images/posts/201711/paper-wallet.jpg" title="Paper wallet" caption="Paper Wallet" popup=true %}
 
 **Si la criptomodena en cuestión que queremos almacenar no está soportada por ninguno de estos wallets siempre podemos ir a la página web oficial y descargar el wallet oficial que ofrezcan.** Una vez descargado el wallet y guardado el seed, siempre podemos desinstalar el wallet sin problemas y volverlo a instalar en el futuro.
 

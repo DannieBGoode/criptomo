@@ -62,7 +62,7 @@ Cardano crecerá gradualmente hasta poder ofrecer funcionalidades cómo Smart Co
 
 El roadmap de desarrollo de Cardano se puede observar en [su página web](https://cardanoroadmap.com/). Alguna de las próximas mejores que prometen son tarjetas de crédito para uso cotidiano, sistemas de votaciones y *Firmas resistentes a la computación Cuántica* (que es un problema de seguridad que se discute en vistas al día en que tengamos ordenadores cuánticos que podrían ser capaces de vulnerar la red).
 
-{% include image_caption.html imageurl="/images/posts/201712/cardano-roadmap.png" title="Cardano Roadmap" %}
+{% include image_caption.html imageurl="/images/posts/201712/cardano-roadmap.png" title="Cardano Roadmap" popup=true %}
 
 Me encanta el hecho de que todos los desarrollos del roadmap cuentan al lado con las personas específicas que están a cargo de él con enlaces a sus githubs tanto personales cómo de los desarrollos en sí lo que permite a cualquier persona entendida en el sector entrar a ver de qué manera se están resolviendo los problemas y auditar el código.
 
