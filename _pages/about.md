@@ -14,3 +14,14 @@ En este blog se publicarán guías y explicaciones del mundo de las criptomoneda
 Todos los artículos del blog son selecciones de información que el autor ha encontrado especialmente interesante y contarán con tanto datos empíricos como opiniones personales del autor.
 
 >Es una particularidad del hombre que solo puede vivir mirando al futuro. Y ésta es su salvación en los momentos más difíciles de su existencia. <cite>Viktor E. Frankl</cite>
+
+Si te gusta el contenido del blog y te gustaría apoyar su continuación puedes donar en las siguientes direcciones:
+
+<img src="https://files.coinmarketcap.com/static/img/coins/64x64/bitcoin.png" alt="Bitcoin" class="small-image" title="Bitcoin"/>
+Bitcoin: `3CC14Qv9aMZU37CcBFgyQ5JNZmXrWEKdhY`
+
+<img src="/images/bch.png" alt="Bitcoin Cash" class="small-image" title="Bitcoin Cash"/>
+Bitcoin Cash: `18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q`
+
+<img src="https://files.coinmarketcap.com/static/img/coins/64x64/ethereum.png" alt="Ethereum" class="small-image" title="Ethereum"/>
+Ethereum: `0x77Ce99DF25cf2b40F5a27FBb550217f1294cd263`
