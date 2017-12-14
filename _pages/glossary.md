@@ -78,6 +78,9 @@ Se dice del fork que se realiza para poder cambiar las reglas de un blockchain m
 #### Hash
 Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
 
+#### HODL
+HOLD - No vender las monedas pase lo que pase.
+
 #### Gas
 Unidad de pasos computacionales que se requieren para realizar una operación en un smart contract. Puesto que el precio de las criptomonedas oscila enormemente mientras que el precio computacional de una operación es relativamente constante los smart contracts se basan en unidades de GAS a la hora de operar.
 
