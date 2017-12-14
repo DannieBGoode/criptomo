@@ -9,6 +9,8 @@ sitemap: false
 
 **Daniel** es un ingeniero especializado en tecnologías Frontend, nacido en Zaragoza pero residente en Madrid. Es un apasionado del mundo del blockchain, las nuevas tecnologías y el emprendimiento.
 
+El blog se creó siguiendo la filosofía de que si realmente quieres aprender algo deberías explicárselo al resto de la gente. Sólo así verás los agujerós en tu lógica lo que te llevará a profundizar todavía más en los temas.
+
 En este blog se publicarán guías y explicaciones del mundo de las criptomonedas así como alguna noticia que el autor encuentre de particular interés. También se recomendarán libros y se hablará de oportunidades de inversión en el mundo de las criptodivisas.
 
 Todos los artículos del blog son selecciones de información que el autor ha encontrado especialmente interesante y contarán con tanto datos empíricos como opiniones personales del autor.
