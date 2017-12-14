@@ -9,7 +9,7 @@ tags: [altcoins]
 
 Esta entrada es la continuación del artículo [cómo comprar criptomonedas](../como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas suponiendo que ya compramos alguna criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/) para ello.
 
-Ten en cuenta que si la mone
+Ten en cuenta que si la moneda que quieres comprar se vende en un exchange que si acepta transferencias bancarias (como Coinbase, Bitstamp o Kraken) no necesitas seguir esta guía para nada.
 
 <!--more-->
 
