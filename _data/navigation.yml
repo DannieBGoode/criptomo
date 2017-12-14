@@ -1,5 +1,7 @@
-- text: Inicio
+- text: Blog
   url: /
+- text: Empieza Aquí
+  url: /guias/
 - text: Autor
   url: /about/
 # - text: Style Guides
