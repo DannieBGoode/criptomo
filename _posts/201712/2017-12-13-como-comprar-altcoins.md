@@ -7,7 +7,7 @@ banner_image: 201712/coins.jpg
 tags: [altcoins]
 ---
 
-Esta entrada es la continuación del artículo [cómo comprar criptomonedas](../como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas a cambio de BTC suponiendo que ya  poseemos está u otra criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/) para ello.
+Esta entrada es la continuación del artículo [cómo comprar criptomonedas](../como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas a cambio de BTC suponiendo que ya  poseemos está u otra criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/) para ello. El motivo por el que haríamos esto es por que la mayor parte de los Exchanges que venden estas monedas no aceptan transferencias bancarias.
 
 Ten en cuenta que si la moneda que quieres comprar se vende en un exchange que si acepta transferencias bancarias (como Coinbase, Bitstamp o Kraken) no necesitas seguir esta guía para nada.
 
