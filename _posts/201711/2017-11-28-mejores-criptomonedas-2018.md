@@ -53,6 +53,16 @@ Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones 
 
 [Cardano](https://www.cardanohub.org) es una plataforma diseñada por científicos reconocidos, entre ellos Charles Hoskinson (uno de los fundadores de Ethereum). Cardano no pretende competir con BTC o ETH sino que quiere ser el puente entre todas las monedas y el sistema clásico bancario saltándose la centralización que traen consigo los exchanges. Además han seguido el ejemplo de Dash implementado un sistema de financiación por minado y votación. Más información en [Qué es Cardano](../que-es-cardano).
 
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/cardano/#markets)
+
+## SALT
+
+{% include image_caption.html imageurl="../images/posts/201711/salt.png" title="Dash" style="max-width:40%" %}
+
+[SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. La plataforma haría de intermediario entre el prestatario y aquella gente que no quiere manejar criptomonedas directamente. Más información en [Qué es Salt](../que-es-salt).
+
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/salt/#markets)
+
 ## OmiseGo
 
 {% include image_caption.html imageurl="../images/posts/201711/omisego.png" title="OmiseGo" style="max-width:40%" %}
