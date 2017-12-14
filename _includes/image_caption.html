@@ -1,6 +1,8 @@
 <figure class="caption">
-    <img src="{{ include.imageurl }}" alt="{{ include.title }}" style="{{ include.style }}"/>
-    {% if include.caption %}
-    <figcaption class="caption-text">{{ include.caption }}</figcaption> 
-    {% endif %}
+	<!-- <a class="test-popup-link" href="{{ include.imageurl }}"> -->
+	    <img src="{{ include.imageurl }}" alt="{{ include.title }}" style="{{ include.style }}" class="test-popup-link" href="{{ include.imageurl }}"/>
+	    {% if include.caption %}
+	    <figcaption class="caption-text">{{ include.caption }}</figcaption> 
+	    {% endif %}
+	<!-- </a> -->
 </figure>

@@ -28,6 +28,13 @@
             $('html, body').animate({'scrollTop': 0});
             e.preventDefault();
         });
+
+        // mgnific
+        $('.image-link').magnificPopup({type:'image'});
+        $('.test-popup-link').magnificPopup({
+          type: 'image'
+          // other options
+        });
     });
 
 }(jQuery));
