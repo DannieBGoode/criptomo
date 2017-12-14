@@ -73,7 +73,7 @@ Un fork es una bifurcación de un blockchain dejando dos redes paralelas e incom
 Fear, Uncertainty and Doubt. Miedo, incertidumbre y duda. Cuando se extiende FUD de una moneda, la gente tiene a vender.
 
 #### Hard Fork
-Se dice del fork que se realiza para poder cambiar las reglas de un blockchain. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum-Ethereum Classic o el de Bitcoin - Bitcoin Cash.
+Se dice del fork que se realiza para poder cambiar las reglas de un blockchain manteniendo el historial de transacciones hasta el momento. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum-Ethereum Classic o el de Bitcoin - Bitcoin Cash.
 
 #### Hash
 Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
