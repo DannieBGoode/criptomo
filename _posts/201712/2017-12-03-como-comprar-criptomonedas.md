@@ -22,9 +22,21 @@ Así como no todos los exchanges venden las mismas monedas, no todas las monedas
 Si deseáis elegir una moneda distinta deberéis ir a [coinmarketcap](https://coinmarketcap.com/), pulsar en la moneda que os interesa y mirar en que Exchange la venden. Tened en cuenta que casi seguro deberéis comprar primero Bitcoins/Ethereum para poder comprarlas.
 
 
-Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para los casos de Bitcoin o Ethereum yo recomiendo uno de los siguientes:
-- [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) , que es el que usaremos para este ejemplo.
-- [Bitstamp](https://www.bitstamp.net/)
+Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para empezar enviando dinero fiat recomiendo uno de los siguientes:
+* [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e), que es el que usaremos para este ejemplo y vende:
+	* Bitcoin
+	* Bitcoin Cash
+	* Ethereum
+	* Ethereum Classic
+	* Litecoin
+* [Bitstamp](https://www.bitstamp.net/) que vende:
+	* Bitcoin
+	* Bitcoin Cash
+	* Ethereum
+	* Litecoin
+	* Ripple
+
+No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar primero fiat a criptomoneda, y sólo después podrás comprar las demás monedas.
 
 ## 2. Nos creamos una cuenta en el exchange elegido.
 
@@ -56,8 +68,6 @@ Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en
 En cualquier caso la manera más habitual es comprar al precio de mercado en ese momento, compra que será prácticamente instantánea y veremos reflejada en nuestra cuenta al lado de dónde ponía cuánto dinero fiat teníamos en nuestra cuenta.
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" %}
-
-No todas las criptomonedas se venden en los exchanges que hemos puesto de ejemplo más arriba, si estás interesado en comprar otras altcoins puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/).
 
 ## 6. Movemos nuestros fondos a un wallet
 

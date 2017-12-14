@@ -18,7 +18,7 @@ Podría llegar a ser concluido por algunos que el *hot wallet* más inmediato qu
 
 * **Si no controlas la clave privada de tu wallet no tienes control sobre tus monedas, por lo cual no es un wallet**.
 
-En los exchanges, en ningún momento tienes poder sobre tu clave privada por lo que se podría decir que ni siquiera en ese momento posees criptomonedas, solo tienes la promesa de la entidad en cuestión de que te devolverá tus monedas cuando así lo solicites. Promesa que en muchas ocasiones no se ha podido cumplir. Ha habido casos donde muchos inversores han perdido sus fondos porque o bien el exchange en cuestión ha sido hackeado y sus monedas robadas (como fue el caso de MtGox), o porque era una tapadera desde el principio para aprovecharse de la gente que no sigue esta recomendación al pie de la letra.
+En los exchanges, en ningún momento tienes poder sobre tu clave privada por lo que se podría decir que ni siquiera en ese momento posees criptomonedas, solo tienes la promesa de la entidad en cuestión de que te devolverá tus monedas cuando así lo solicites. Promesa que en muchas ocasiones no se ha podido cumplir. Ha habido casos donde muchos inversores han perdido sus fondos porque o bien el exchange en cuestión ha sido hackeado y sus monedas robadas (como fue el caso de MtGox), o porque era una tapadera desde el principio para aprovecharse de la gente que no sigue esta recomendación al pie de la letra (como [Criptsy](http://www.cryptsysettlement.com/) dónde yo mismo perdí bastante dinero).
 
 * **Mi recomendación es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet del cual poseeremos la clave privada.**
 

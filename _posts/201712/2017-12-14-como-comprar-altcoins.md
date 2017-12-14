@@ -7,7 +7,9 @@ banner_image: 201712/coins.jpg
 tags: [altcoins]
 ---
 
-Esta entrada es la continuación del artículo [cómo comprar criptomonedas](../como-comprar-criptomonedas) dónde explicabamos cómo comprar Ether o Bitcoin que son las primeras monedas que deberemos comprar para iniciarnos en este mundo. En este artículo haremos más hincapie en cómo comprar otras criptomonedas suponiendo que ya compramos Bitcoin/Ether/Litecoin en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/) para ello.
+Esta entrada es la continuación del artículo [cómo comprar criptomonedas](../como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas suponiendo que ya compramos alguna criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/) para ello.
+
+Ten en cuenta que si la mone
 
 <!--more-->
 
