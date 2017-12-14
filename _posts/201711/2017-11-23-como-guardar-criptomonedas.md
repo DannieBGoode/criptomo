@@ -102,6 +102,10 @@ He leído ya varios reportes en internet de apps maliciosas que en cuanto metas 
 
 ## Cold wallets
 
+Un *cold wallet* básicamente es una "cartera" cuya clave privada está desconectada de internet. Si instalásemos cualquiera de los wallets anteriores en un ordenador **sin conexión a internet** estaríamos haciendo uso de Cold Storage.
+
+Existen maneras un poco más prácticas aun así de hacer uso de cold storage. Veamos algunas de ellas.
+
 ### Hardware Wallets
 
 Una hardware wallet es un aparato que conectas al ordenador cuando quieres mover tus fondos y almacena tu clave privada por ti. De esta manera un virus en tu ordenador sería incapaz de robarte tus fondos. Además dan facilidades para suministrar al usuario con la clave privada, así que en el caso en que se pierda el dispositivo todavía podría recuperar sus fondos ya sea a otra hardware wallet o a cualquier otro que acepte importación.
@@ -225,15 +229,17 @@ Precio: 150€
 
 ### Paper Wallet
 
-Un monedero de papel no es más que una clave privada impresa que no está guardada en ningún otro sitio. Es perfectamente posible imprimir tu clave privada de cualquiera de los anteriores wallets (exceptuando Coinbase), pero no estarías haciendo uso de la característica principal de seguridad de un Paper Wallet. Si la clave privada sólo existe en un papel y no está almacenada en ningún monedero estarías exento de fallos de seguridad en las carteras o viruses o carteras maliciosas, siempre y cuando nadie te robe el papel con la clave privada, momento en el cual serías totalmente vulnerable.
+Un monedero de papel no es más que una clave privada impresa que no está guardada en ningún otro sitio. Es perfectamente posible imprimir tu clave privada de cualquiera de los anteriores wallets (exceptuando Coinbase), pero no estarías haciendo uso de la característica principal de seguridad de un Paper Wallet hasta que no desinstalases el wallet en cuestión. La idea es que la clave privada sólo exista en un papel y no está almacenada en ningún ordenador, de esta manera estarías exento de fallos de seguridad en las carteras o viruses o carteras maliciosas, siempre y cuando nadie te robe el papel con la clave privada, momento en el cual serías totalmente vulnerable.
 
-La idea de un paper wallet es poder almacenar fondos en lo que se denomina *cold storage* o básicamente una "cartera" desconectada de internet, pero para ello necesitamos fiarnos de nuestra capacidad de poder guardar una hoja de papel de manera segura. Hay quien va más allá y destruye el papel una vez memorizado (de qué modo afectará a la sociedad esta práctica con los altos casos de alzheimer de hoy en día será un experimento social bastante interesante).
+Para hacer uso de un Paper Wallet es imprescindible que tengamos la capacidad de poder guardar una hoja de papel de manera segura. Hay quien va más allá y destruye el papel una vez memorizado (de qué modo afectará a la sociedad esta práctica con los altos casos de alzheimer de hoy en día será un experimento social bastante interesante).
 
 Absolutamente cualquier moneda puede ser guardada de esta manera.
 
 Precio: Gratis
 
 {% include image_caption.html imageurl="../images/posts/201711/paper-wallet.jpg" title="Paper wallet" caption="Paper Wallet" %}
+
+**Si la criptomodena en cuestión que queremos almacenar no está soportada por ninguno de estos wallets siempre podemos ir a la página web oficial y descargar el wallet oficial que ofrezcan.** Una vez descargado el wallet y guardado el seed, siempre podemos desinstalar el wallet sin problemas y volverlo a instalar en el futuro.
 
 Al final tiene que ser decisión de cada uno dónde considera que tiene sus puntos fuertes, si crees que tu caja fuerte es perfectamente fiable adelante, si por el contrario te fías más de tu gestor de contraseñas, podrías tener la clave privada almacenada ahí y no en papel.
 
