@@ -13,10 +13,10 @@ Se dice de cualquier criptomoneda que no es Bitcoin.
 Dispositivos preparados para una específica tarea, en el mundo de las criptomonedas eso es para minar de la manera más efectiva posible.
 
 #### Ataque del 51%
-Cuando el 51% o más de la fuerza computacional de la red es controlada por una sola entidad y lo utiliza para dañar la confianza en el sistema.
+Cuando el 51% o más de la fuerza computacional de la red que mantiene un blockchain es controlada por una sola entidad y lo utiliza para dañar la confianza en el sistema.
 
 #### Bitcoin
-La primera criptomoneda creada y propuesta por Satoshi Nakamoto en su whitepaper.
+La primera criptomoneda creada y propuesta por Satoshi Nakamoto en su [whitepaper](https://bitcoin.org/bitcoin.pdf).
 
 #### Bloque
 Conjunto de transacciones ocurridas en el mismo intervalo tiempo recogidas por los mineros y añadidas al blockchain.
@@ -129,10 +129,10 @@ Método de financiación del desarrollo donde un porcentaje de la recompensa de 
 
 #### Transacciones por Segundo (TPS)
 Número de transacciones que la red puede soportar. Por referencia:
-PayPal – 193 tps
-Visa – 56000 tps
-Ethereum - 30 tps
-Bitcoin - 10 tps
+- PayPal – 193 tps
+- Visa – 56000 tps
+- Ethereum - 30 tps
+- Bitcoin - 10 tps
 
 #### Token
 Unidad digital de algo.
