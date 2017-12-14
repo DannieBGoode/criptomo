@@ -63,8 +63,14 @@ Centro de intercambio donde se pueden intercambiar dinero convencional y criptod
 #### Fiat
 Dícese del dinero aprobado por las entidades gubernamentales, como el euro o el dólar.
 
+#### FOMO
+Fear of Missing Out. miedo entre inversores de dejar pasar una oportunidad que les lanza a invertir en ocasiones sin analizar bien el producto.
+
 #### Fork
 Un fork es una bifurcación de un blockchain dejando dos redes paralelas e incompatibles.
+
+#### FUD
+Fear, Uncertainty and Doubt. Miedo, incertidumbre y duda. Cuando se extiende FUD de una moneda, la gente tiene a vender.
 
 #### Hard Fork
 Se dice del fork que se realiza para poder cambiar las reglas de un blockchain. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum-Ethereum Classic o el de Bitcoin - Bitcoin Cash.

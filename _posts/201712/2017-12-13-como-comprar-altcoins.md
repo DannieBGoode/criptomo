@@ -2,7 +2,7 @@
 layout: post
 title:  "Cómo comprar altcoins"
 description: "Ejemplo práctico de como comprar altcoins en Binance y Coinbase"
-date:   2017-12-14
+date:   2017-12-13
 banner_image: 201712/coins.jpg
 tags: [altcoins]
 ---
