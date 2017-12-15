@@ -64,7 +64,7 @@ Centro de intercambio donde se pueden intercambiar dinero convencional y criptod
 Dícese del dinero aprobado por las entidades gubernamentales, como el euro o el dólar.
 
 #### FOMO
-Fear of Missing Out. miedo entre inversores de dejar pasar una oportunidad que les lanza a invertir en ocasiones sin analizar bien el producto.
+Fear of Missing Out. Miedo entre inversores de dejar pasar una oportunidad que les lanza a invertir en ocasiones sin analizar bien el producto.
 
 #### Fork
 Un fork es una bifurcación de un blockchain dejando dos redes paralelas e incompatibles.
