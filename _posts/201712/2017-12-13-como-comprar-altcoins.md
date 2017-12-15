@@ -40,7 +40,7 @@ Buscaremos BTC y le daremos a `DEPOSIT` puesto que vamos a depositar BTC en Bina
 
 **Nunca enviaremos monedas a una dirección perteneciente a otro tipo de moneda**. Si intentamos enviar BTC a una dirección de LTC perderemos las monedas para siempre. Mucho cuidado con esto.
 
-{% include image_caption.html imageurl="/images/posts/201712/binance-deposit.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201712/binance-deposit.png" title="Binance Deposit" popup=true %}
 
 #### Enviar los fondos
 
@@ -54,7 +54,7 @@ Volvemos a Binance y le damos a `EXCHANGE > BASIC`, en el buscador de la derecha
 
 Si por algún casual no tuvieramos BTC por que queremos vender otra moneda, por ejemplo Litecoin, elegiremos primero `LTC/BTC`, venderiamos nuestro LTC por BTC dandole a `SELL 100%`, y despues procedemos a comprar `DASH/BTC`.
 
-{% include image_caption.html imageurl="/images/posts/201712/binance-buy-dash.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201712/binance-buy-dash.png" title="Binance Buy Dash" popup=true %}
 
 Si ahora volvemos a la sección de `FUNDS` veremos que efectivamente ahora poseemos DASH.
 
