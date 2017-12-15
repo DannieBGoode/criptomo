@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Qué es SALT"
-description: "Explicación básica de qué es SALT"
+description: SALT ofrece un potencialmente lucrativo puente entre el mundo de los prestamos y el de las criptomonedas.
 banner_image: 201712/salt.jpg
 tags: [altcoins]
 ---

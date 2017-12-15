@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guías
-description: Guía de como empezar a entender el mundo de las criptomonedas
+description: Guía de como empezar a entender el mundo de las criptomonedas. Explicaciones para principiantes de las diferentes criptomonedas y cómo comprarlas.
 banner_image: guides.jpg
 permalink: /guias/
 ---

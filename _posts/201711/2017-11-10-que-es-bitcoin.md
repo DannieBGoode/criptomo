@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Qué es Bitcoin - Guia Básica"
-description: "Explicación básica para principiantes de que es Bitcoin y cómo funciona"
+title:  Qué es Bitcoin - Guia Básica
+description: Explicación básica para principiantes de qué es y cómo funciona Bitcoin, la primera criptomoneda.
 date:   2017-11-10
 banner_image: 201711/bitcoin.jpg
 

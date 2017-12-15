@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Cómo comprar altcoins"
-description: "Ejemplo práctico de como comprar altcoins en Binance y Coinbase"
+title:  Cómo comprar altcoins
+description: Guía de cómo comprar criptomonedas más allá de Bitcoin con imágenes y explicado paso a paso.
 date:   2017-12-13
 banner_image: 201712/coins.jpg
 tags: [altcoins]
@@ -46,7 +46,7 @@ Buscaremos BTC y le daremos a `DEPOSIT` puesto que vamos a depositar BTC en Bina
 
 Una vez copiada la dirección iremos a Coinbase y le daremos a enviar BTC. Pondremos la dirección que hemos copiado y esperaremos a que la transferencia se realice que podría llevar unos minutos. Podemos ver el progreso de la transferencia en [este enlace](https://www.binance.com/userCenter/transactionHistory.html), aunque nuestros fondos no estarán disponibles hasta que no haya al menos dos confirmaciones en el blockchain.
 
-{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" title="Coinbase Send" popup=true %}
 
 #### Comprar la criptomoneda
 

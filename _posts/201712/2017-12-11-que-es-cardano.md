@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qué es Cardano
-description: Explicación general de la criptomoneda Cardano.
+description: Cardano podría ser el nuevo rival de Ethereum y su cotización todavía es muy inferior. Veamosla en detalle.
 date: 2017-12-11T00:00:00.000Z
 banner_image: 201712/cardano.jpg
 tags: [altcoins]

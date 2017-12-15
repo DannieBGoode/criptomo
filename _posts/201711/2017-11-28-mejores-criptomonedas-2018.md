@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Las mejores criptomonedas de 2018"
-description: "Las 16 criptomonedas más promotedoras de 2018"
+description: Dejando a un lado Bitcoin, vemos cuáles podrían ser 18 criptomonedas más economicamente rentables de 2018
 date:   2017-11-28
 banner_image: 201711/altcoins.jpg
 tags: [altcoins]
