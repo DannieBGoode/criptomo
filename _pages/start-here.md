@@ -6,7 +6,9 @@ banner_image: guides.jpg
 permalink: /guias/
 ---
 
-¿No sabes dónde empezar? Aquí os dejo un pequeño indice de algunos de los artículos que he ido creando ordenados de una manera que resulten coherentes a los principiantes. No todos los artículos que escriba aparecerán aquí y la lista será actualizada según lo vea oportuno.
+**¿No sabes dónde empezar?**
+
+Aquí os dejo un pequeño indice de algunos de los artículos que he ido creando ordenados de una manera que resulten coherentes a los principiantes a modo de guías y tutoriales. No todos los artículos que escriba aparecerán aquí y la lista será actualizada según lo vea oportuno.
 
 ### Conceptos Básicos.
 Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin.
