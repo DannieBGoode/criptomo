@@ -22,7 +22,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ¿Te interesa entender mejor este mundo?
 * Qué es el [Ataque del 51%](../ataque-51-porciento/).
 * Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con tarjetas de crédito cripto (proximamente)
-* [Proof of Work - Cómo funciona y por qué consume tanta energía](que-es-proof-of-work/).
+* [Proof of Work - Cómo funciona y por qué consume tanta energía](../que-es-proof-of-work/).
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
