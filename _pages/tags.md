@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Post Archives
+title: Archivo
 permalink: /tags/
 sitemap: false
 ---
