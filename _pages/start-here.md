@@ -22,13 +22,13 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ¿Te interesa entender mejor este mundo?
 * Qué es el [Ataque del 51%](../ataque-51-porciento/).
 * Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con tarjetas de crédito cripto (proximamente)
-* Proof of Work - Cómo funciona y por qué consume tanta energía.
+* [Proof of Work - Cómo funciona y por qué consume tanta energía](que-es-proof-of-work/).
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
 * [Las Altcoins más prometedoras de 2018](../mejores-criptomonedas-2018/)
 * [Qué es Cardano](../que-es-cardano/)
 * Qué es Bitcoin Cash (proximamente)
-* [Qué es SALT](../que-es-salt/)
+* [Qué es SALT](../que-es-salt/) (proximamente)
 * Qué es IOTA (proximamente)
 * [Cómo comprar Altcoins](../como-comprar-altcoins/)
