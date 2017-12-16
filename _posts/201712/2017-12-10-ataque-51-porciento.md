@@ -6,6 +6,7 @@ date: 2017-12-10T00:00:00.000Z
 banner_image: 201712/attack.jpg
 tags:
   - bitcoin
+  - blockchain
 ---
 El ataque del 51 por ciento es altamente discutido entre la comunidad de las criptomonedas por las consecuencias catastróficas para la red que podría llegar a tener.
 
