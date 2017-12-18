@@ -32,8 +32,8 @@ Cuando se realiza una transacción esto es lo que ocurre por debajo:
 * La transacción se agrupa con otras transacciones ocurridas en ese mismo instante en un bloque.
 * Los mineros verifican que efectivamente cada transacción es válida y que nadie está pagando una cantidad mayor que su balance.
 * Los mineros observan la dificultad del bloque, para este ejemplo digamos que la dificultad es 6.
-* Los mineros añaden un string al final del bloque llamado *nonce* y cifran todo el bloque entero con el método SHA256 lo cual nos dará un código alfanumérico, por ejemplo `2341bdd2d99b46318f363e09fbbcdf9d76817a2f6810c4b00b83fa9106f05570`.
-* Si el resultado del cifrado no tiene 6 o más ceros delante el bloque se considera no resuelto y se prueba con otro *nonce* totalmente aleatorio lo que les generará un hash totalmente nuevo. Esto llevará millones de intentos. Un ejemplo de un hash correcto sería por ejemplo: `000000318f363e09fbbcdf1d4b00b83fa91768zX32f6810c06f055702d99b46`.
+* Los mineros añaden un string al final del bloque llamado *nonce* y cifran todo el bloque entero con el método SHA256 lo cual nos dará un código alfanumérico, por ejemplo `2341bdd2d99b 46318f363e09fbbcdf9d7 6817a2f6810c4b00b8 3fa9106f05570`.
+* Si el resultado del cifrado no tiene 6 o más ceros delante el bloque se considera no resuelto y se prueba con otro *nonce* totalmente aleatorio lo que les generará un hash totalmente nuevo. Esto llevará millones de intentos. Un ejemplo de un hash correcto sería por ejemplo: `000000318f3 3e09fbbcdf1d4b00b83fa91768zX32f 6810c06f05570 2d99b46`.
 * Si un minero averigua el *nonce* correcto antes que los demás, lo anunciará al sistema. Verificar si efectivamente este nonce es correcto es una operación muy rápida.
 * Si el nonce es dado como bueno por la red el minero en cuestión es recompensado con +25BTC así como por las tasas de transacción que el emisor debe pagar y el bloque se añade al blockchain.
 * Se procede al siguiente bloque.

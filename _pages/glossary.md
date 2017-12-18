@@ -81,6 +81,9 @@ Conjunto alfanumérico creado a partir de información legible. Se utiliza para 
 #### HODL
 HOLD - No vender las monedas pase lo que pase.
 
+#### IOT
+Internet of Things - Internet de las cosas, se dice de la red de en la cual participan dispositivos de manera autónoma y automática como neveras, satélites, drones, etc... con poca intervención humana.
+
 #### Gas
 Unidad de pasos computacionales que se requieren para realizar una operación en un smart contract. Puesto que el precio de las criptomonedas oscila enormemente mientras que el precio computacional de una operación es relativamente constante los smart contracts se basan en unidades de GAS a la hora de operar.
 
@@ -148,6 +151,9 @@ Unidad digital de algo.
 
 #### Wallet
 Un programa que almacena claves privadas y permite realizar transacciones.
+
+#### Whitepaper
+Documento inicial donde se proyecta un proyecto de tecnología sin entrar demasiado en detalle en la solución técnica.
 
 #### zk-SNARK
 Concepto matemático que permite a una tercera entidad validar una transacción entre otras dos sin necesidad de conocer los detalles de dicha transacción. Es utilizada por Z-Cash como mecanismo de privacidad.

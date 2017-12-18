@@ -85,7 +85,7 @@ Un web wallet es básicamente una página web que nos permite gestionar nuestras
 
 [Blockchain.info](https://blockchain.info/) es una web que permite ver todas las transacciones que ocurren el mundo del Bitcoin. Adicionalmente ofrecen una cartera web bastante sencilla de usar y comparten contigo la clave privada desentendiendose de lo que pueda ocurrir si la pierdes.
 
-Soporta únicamente Bitcoin y Ethereum.
+Soporta únicamente Bitcoin, Bitcoin Cash y Ethereum.
 
 Precio: Gratis
 
