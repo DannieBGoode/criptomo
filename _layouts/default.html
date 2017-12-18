@@ -51,9 +51,7 @@ layout: compress
     {{content}}
     {% include footer.html %}
     {% include analytics.html %}
-    <!-- temp jquery -->
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script defer src="{{ site.baseurl }}/js/plugins.js"></script>
-    <script defer src="{{ site.baseurl }}/js/custom.js"></script>
+    <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+    <script defer src="{{ site.baseurl }}/js/custom.js?{{site.time | date: '%s%N'}}"></script>
 </body>
 </html>
