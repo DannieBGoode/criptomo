@@ -15,6 +15,9 @@ Dispositivos preparados para una específica tarea, en el mundo de las criptomon
 #### Ataque del 51%
 Cuando el 51% o más de la fuerza computacional de la red que mantiene un blockchain es controlada por una sola entidad y lo utiliza para dañar la confianza en el sistema.
 
+#### ATH
+All Time High - Precio histórico más alto al que ha estado una criptodivisa.
+
 #### Bitcoin
 La primera criptomoneda creada y propuesta por Satoshi Nakamoto en su [whitepaper](https://bitcoin.org/bitcoin.pdf).
 
@@ -104,6 +107,9 @@ Dicese de aquella persona que no tiene criptomonedas e insiste en que todo es un
 
 #### Open-Source
 Dícese de aquel proyecto de software cuyo código es público y puede ser auditado, revisado o copiado por cualquiera. Github es una web de proyectos open-source.
+
+#### Paper Wallet
+Trozo de papel con la clave privada de una dirección escrita.
 
 #### Proof of Work
 Algoritmo de consenso que considera válidas aquellas transacciones incluidas en los bloques cuya Dificultad de Bloque ha sido resuleta por un minero el cual es recompensado por su trabajo. Consume muchísima electricidad puesto que los mineros están calculando millones de combinaciones para dar con la solución correcta.

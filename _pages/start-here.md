@@ -24,7 +24,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ¿Te interesa entender mejor este mundo?
 * Qué es el [Ataque del 51%](../ataque-51-porciento/).
 * [Proof of Work - Cómo funciona y por qué consume tanta energía](../que-es-proof-of-work/).
-* Cómo sacar una clave privada de un seed de wallet
+* [Claves Privadas y Seeds - Conceptos básicos](../clave-privada-vs-seed/)
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
