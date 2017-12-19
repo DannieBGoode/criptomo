@@ -99,6 +99,9 @@ Evento en el que los creadores de una criptomoneda venden unidades de ésta ante
 #### Minado
 Acción de validación de las transacciones de un blockchain que normalmente es recompensado con tasas por transacción o nuevas monedas generadas mediante inflación controlada.
 
+#### Nocoiner
+Dicese de aquella persona que no tiene criptomonedas e insiste en que todo es una burburja que estallará en algún momento.
+
 #### Open-Source
 Dícese de aquel proyecto de software cuyo código es público y puede ser auditado, revisado o copiado por cualquiera. Github es una web de proyectos open-source.
 
