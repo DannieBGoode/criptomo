@@ -70,7 +70,7 @@ layout: default
                 </div><!-- .nav-next -->
                 {% endif %}
             </nav><!-- .post-navigation -->
-            {% if site.disqus %}
+            {% if site.disqus and page.comments != false %}
                 {% include disqus.html %}
             {% endif %}
         </main><!-- .site-main -->
