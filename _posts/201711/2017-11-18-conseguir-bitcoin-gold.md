@@ -27,15 +27,16 @@ Ahora lo que este fork ha decidido obviar que la centralización sigue siendo pe
 
 El precio de BTG es considerablemente inferior al de BTC y si lo tenemos en nuestra cartera debemos plantearnos qué hacer con ello.
 
-Hay que tener en cuenta que aunque lleve la palabra Bitcoin en el nombre, en realidad entraría en la categoría de las *altcoins*.
+Hay que tener en cuenta que aunque lleve la palabra Bitcoin en el nombre, en realidad entraría en la categoría de las *altcoins* ya que es otra moneda totalmente distinta.
 
-Para poder obtener nuestro BTG seguiremos los siguientes pasos:
+Algunos wallets han dado soporte nativo a BTG por lo que tenerlo localizado o venderlo resulta muy fácil. En el caso en que nuestro wallet no lo soporte la cosa se complica. Para poder obtenerlo entonces, seguiremos los siguientes pasos:
 
-1.  En primer lugar debemos localizar nuestro BTG, para ello debemos identificar dónde teníamos guardado nuestro BTC el 25 de Octubre de 2017.
-2.  Una vez identificado la dirección o el wallet en cuestión, debemos mirar si poseemos la clave privada de la dirección.
-3.  Si tenemos clave privada podemos importarla a cualquier wallet que si soporte BTG. Por ejemplo Electrum ó Exodus.
-4.  En el momento en que importes tu clave privada, inmediatamente recomiendo sacar tu BTC de esa dirección a tu wallet de siempre. Ha habido casos de gente que ha subido wallets maliciosas, como es el caso de [myBTGWallet](https://www.reddit.com/r/btc/comments/7dsmvd/my_analysis_of_the_1_million_usd_mybtgwalletcom/) que en cuanto metas tus claves privadas son envíadas a terceros que inmediatamente tiene acceso tanto a tu BTC como a tu BTG hasta que los muevas de nuevo.
-5.  Si deseamos venderlo mueve tu BTG a un exchange que la venda, por citar alguno de los más famosos [Bitfinex](https://www.bitfinex.com/) o [Binance](https://www.binance.com/).
+1.  **Localizar BTG**: debemos identificar dónde teníamos guardado nuestro BTC el 25 de Octubre de 2017. Podemos utilizar la web [BTGExplorer](https://btgexplorer.com) para dar con la dirección en la que tenemos nuestros fondos almacenados. Tendremos que probar con las distintas direcciones de BTC que tenemos en nuestro wallet hasta encontrar aquella que contiene los BTG.
+2.  **Localizar la clave privada**: Una vez identificado la dirección o el wallet en cuestión, debemos mirar si poseemos la clave privada de la dirección o el seed del wallet. En la mayoría de los wallets es posibles exportar dicha clave.
+**Si tuvieramos el seed del wallet pero no la clave privada** de la dirección específica podemos obtener la clave privada usando la herramienta [Bip39](https://github.com/iancoleman/bip39). Tenéis a vuestra disposición una guía de como hacer esto en [Claves Privadas y Seeds - Conceptos Básicos](/clave-privada-vs-seed/).
+3.  **Mover BTC/BCH**: Puesto que vamos a importar nuestra clave privada en un wallet del que no necesariamente nos fiamos para poder sacar nuestro BTG, primero vamos a sacar nuestro Bitcoin y/o Bitcoin Cash de nuestro wallet enviándolo a una nueva dirección. Esta operación la tendremos que hacer una vez por moneda que queramos mover. Una vez completada nuestro wallet original solo contendrá BTG. Ha habido casos de gente que ha subido wallets maliciosas, como es el caso de [myBTGWallet](https://www.reddit.com/r/btc/comments/7dsmvd/my_analysis_of_the_1_million_usd_mybtgwalletcom/) que en cuanto metas tus claves privadas son envíadas a terceros que inmediatamente tiene acceso tanto a tu BTC como a tu BTG hasta que los muevas de nuevo.
+4.  **Importar la clave privada a cualquier wallet que si soporte BTG**. Por ejemplo [Coinomi](https://coinomi.com/). Para ello deberemos buscar la opción de *sweep wallet* donde se nos pedirá nuestra clave privada. Para aquellos que no tengan un dispositivo Android siempre pueden bajarse un emulador y descargar la aplicación desde dentro del emulador (no se necesitaría trastear con ficheros apks).  Recomiendo [Bluestacks](https://www.bluestacks.com/es/index.html) como emulador.
+6. **Vender BTG**: Si deseamos venderlo mueve tu BTG a un exchange que la venda, por citar alguno de los más famosos [Bitfinex](https://www.bitfinex.com/) o [Binance](https://www.binance.com/).
 
 Ciertos exchanges como [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/) o [Bitstamp](https://www.bitstamp.net/) entre otros no suministran la clave privada a los usuarios, de tener tus fondos en uno de estos sitios, sólo ellos podrán darte las herramientas para obtener tu BTG y decidir entonces qué hacer con ellos.
 
@@ -50,6 +51,7 @@ Además a modo de auto financiación se ha realizado [un pre-minado de 16000 BTG
 La persona detrás del fork, Jack Liao es también el CEO de [Lightning ASIC](http://lightningasic.com/), una empresa que fabrica unidades de minería basados en GPU por lo que el éxito de esta moneda sin duda le enriquecería bastante.
 
 Por muy loable que inicialmente parezca la idea, como con todo, existen intereses ocultos detrás. Personalmente recomiendo vender esta divisa e invertir en otras más prometedoras.
+
 
 
 

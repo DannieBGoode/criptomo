@@ -1,8 +1,12 @@
-- text: Home
+- text: Blog
   url: /
-- text: About
+- text: Empieza Aquí
+  url: /guias/
+- text: Autor
   url: /about/
 # - text: Style Guides
 #   url: /style-guide/
-- text: Archives
+- text: Glosario
+  url: /glosario/
+- text: Archivo
   url: /tags/

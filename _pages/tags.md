@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Post Archives
+title: Archivo
 permalink: /tags/
+sitemap: false
 ---
 <div class="site-content">
     <div class="inner">
@@ -27,7 +28,7 @@ permalink: /tags/
                         <li><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark" title="Permanent Link to {{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span></li>
                         {% endfor %}
                     </ul>
-                    <p><a href="#top" class="archive-top-link" title="Back to Top">Return to top</a></p>
+                    <p><a href="#top" class="archive-top-link" title="Back to Top">Volver arriba</a></p>
                     {% endfor %}
                 </div><!-- .entry-content -->
             </article><!-- .post -->

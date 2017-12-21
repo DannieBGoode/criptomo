@@ -19,6 +19,9 @@ layout: default
                     {{content}}
                 </div><!-- .entry-content -->
             </article><!-- .post -->
+            {% if site.disqus and page.comments %}
+                {% include disqus.html %}
+            {% endif %}
         </main><!-- .site-main -->
         {% include sidebar.html %}
     </div><!-- .inner -->

@@ -1,10 +1,18 @@
 ---
 layout: default
+redirect_from:
+    - /criptomo
 ---
+
 <div class="site-content">
     <div class="inner">
         <main class="site-main"> 
             {% for post in paginator.posts %}
+                {% if post.author %}
+                    {% assign writer = site.data.authors[post.author] %}
+                {% else %}
+                    {% assign writer = site.data.authors.daniel %}
+                {% endif %}
             <article class="post">
                 <header class="entry-header"> 
                     <div class="entry-header-wrap">
@@ -14,7 +22,26 @@ layout: default
                         <h2 class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{post.title}}</a></h2>
                     </div><!-- .entry-header-wrap -->
                     <div class="entry-meta">
-                        por <span class="post-author">{{ site.author_name }}</span> el <time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                        por <span class="post-author">{{ writer.author_name }}</span> el 
+                        <time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">
+                            {{ post.date | date: "%-d" }} de 
+                            {% assign m = post.date | date: "%-m" %}
+                            {% case m %}
+                              {% when '1' %}Enero
+                              {% when '2' %}Febrero
+                              {% when '3' %}Marzo
+                              {% when '4' %}Abril
+                              {% when '5' %}Mayo
+                              {% when '6' %}Junio
+                              {% when '7' %}Julio
+                              {% when '8' %}Agosto
+                              {% when '9' %}Septiembre
+                              {% when '10' %}Octubre
+                              {% when '11' %}Noviembre
+                              {% when '12' %}Diciembre
+                            {% endcase %} de
+                            {{ post.date | date: "%Y" }}
+                        </time>
                     </div><!-- .entry-meta -->
                 </header><!-- .entry-header -->
                 <div class="entry-content">

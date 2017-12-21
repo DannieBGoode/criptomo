@@ -13,4 +13,21 @@ code {
 }
 figure {
 	text-align: center;
+	a {
+		text-decoration: none;
+	}
+}
+ins {
+	background-color: $mine-shaft !important;
+}
+.imgur-embed {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.small-image {
+	height: 50px;
+}
+.site-title {
+	font-weight: bold;
 }

@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
 <head>
@@ -5,10 +8,19 @@
     {% include seo.html %}    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic" /> -->
+    <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Lato:400,400italic,700,700italic']
+        }
+      });
+    </script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" />
     <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    {% include adsense.html %}
 </head>
 <body>
     <nav id="top" class="site-navigation">
@@ -27,21 +39,19 @@
                 {% endfor %}
                 </ul>        
             </div><!-- .nav-menu -->
-            <a class="subscribe-button fa-feed square fill-horizontal" href="{{site.baseurl}}/feed.xml"><span class="screen-reader-text">Suscribete</span></a>
+            <a class="subscribe-button fa-feed square fill-horizontal" href="{{site.baseurl}}/feed.xml"><span class="screen-reader-text">Suscríbete</span></a>
         </div><!-- .inner -->
     </nav><!-- .site-navigation -->
     <header class="site-header">
         <div class="inner">
-            <h1 class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></h1>
+            <span class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></span>
             <p class="site-description">{{site.tagline}}</p>
         </div><!-- .inner -->
     </header>
     {{content}}
     {% include footer.html %}
     {% include analytics.html %}
-    {% include adsense.html %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js"></script>
-    <script type="text/javascript" src="{{ site.baseurl }}/js/custom.js"></script>
+    <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+    <script defer src="{{ site.baseurl }}/js/custom.js?{{site.time | date: '%s%N'}}"></script>
 </body>
 </html>
