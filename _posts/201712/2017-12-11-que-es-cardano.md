@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qué es Cardano
-description: La criptomoneda Cardano podría ser el nuevo rival de Ethereum y su cotización todavía es muy inferior. Veamosla en detalle.
+description: La criptomoneda Cardano ADA podría ser el nuevo rival de Ethereum y durante los últimos meses se ha revalorizado un 400%.
 date: 2017-12-11T00:00:00.000Z
 banner_image: 201712/cardano.jpg
 tags: [altcoins]
@@ -76,7 +76,7 @@ El código sigue una filosofía Hack-Proof, que es el método que utiliza el ej�
 
 Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no siguen esta filosofía. No hay más que mirar al DAO, donde un simple error de programación al poner una línea de código antes que otra ocasionó semejante catástrofe en el mundo de Ethereum que se tuvo que crear una nueva moneda (Ethereum) que solucionara este problema y se intentó meter debajo de la alfombra a la moneda original (que se pasó a llamar Ethereum Classic y sigue siendo cotizada a un precio muy inferior).
 
-## Dónde Comprar
+## Dónde Comprar Cardano (ADA)
 
 Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de [Binance](https://www.binance.com/?ref=11317062).
 
