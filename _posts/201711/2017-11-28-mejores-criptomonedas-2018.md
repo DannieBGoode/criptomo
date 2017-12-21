@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Las mejores criptomonedas de 2018"
-description: Dejando a un lado Bitcoin, vemos cuáles podrían ser 18 criptomonedas más economicamente rentables de 2018
+description: Las criptomonedas altcoins que más podrían subir en 2018. Algunas de ellas han tenido subidas de más del 1000%, revisemos cuales podrían interesarnos durante este nuevo año y cuales podrían ser más rentables economicamente.
 date:   2017-11-28
 banner_image: 201711/altcoins.jpg
 tags: [altcoins]
