@@ -3,10 +3,16 @@ layout: default
 redirect_from:
     - /criptomo
 ---
+
 <div class="site-content">
     <div class="inner">
         <main class="site-main"> 
             {% for post in paginator.posts %}
+                {% if post.author %}
+                    {% assign writer = site.data.authors[post.author] %}
+                {% else %}
+                    {% assign writer = site.data.authors.daniel %}
+                {% endif %}
             <article class="post">
                 <header class="entry-header"> 
                     <div class="entry-header-wrap">
@@ -16,7 +22,7 @@ redirect_from:
                         <h2 class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{post.title}}</a></h2>
                     </div><!-- .entry-header-wrap -->
                     <div class="entry-meta">
-                        por <span class="post-author">{{ site.author_name }}</span> el 
+                        por <span class="post-author">{{ writer.author_name }}</span> el 
                         <time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">
                             {{ post.date | date: "%-d" }} de 
                             {% assign m = post.date | date: "%-m" %}

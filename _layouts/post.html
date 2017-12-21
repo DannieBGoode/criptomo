@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+
+{% if page.author %}
+    {% assign writer = site.data.authors[page.author] %}
+{% else %}
+    {% assign writer = site.data.authors.daniel %}
+{% endif %}
+
+
 <div class="site-content">
     <div class="inner">
         <main class="site-main">
@@ -15,7 +23,7 @@ layout: default
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->
                     <div class="entry-meta">
-                        por <span class="post-author">{{site.author_name}}</span> on <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+                        por <span class="post-author">{{writer.author_name}}</span> on <time class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
                     </div><!-- .entry-meta -->
                 </header><!-- .entry-header -->
                 <div class="entry-content">
@@ -32,17 +40,19 @@ layout: default
                     {% endif %}
                 </footer><!-- .entry-footer -->
             </article><!-- .post -->
+
             <div class="author-box">
                 <div class="author-info">
-                    <div class="author-avatar" style="background-image: url({{ site.baseurl }}{{ site.author_image }})"><span class="screen-reader-text">{{ site.author_name }}'s Picture</span></div>
+                    <div class="author-avatar" style="background-image: url({{ site.baseurl }}{{ writer.author_image }})"><span class="screen-reader-text">{{ writer.author_name }}'s Picture</span></div>
                     <div class="author-details">
-                        <h2 class="author-title">Acerca de {{ site.author_name }}</h2>
-                        <p class="author-bio">{{ site.author_bio }}</p>
-                        <span class="author-location"><i class="fa-map-marker" aria-hidden="true"></i> {{ site.author_location }}</span>
-                        <span class="author-website"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ site.author_url }}" target="_blank"> {{ site.author_url }}</a></span>
+                        <h2 class="author-title">Acerca de {{ writer.author_name }}</h2>
+                        <p class="author-bio">{{ writer.author_bio }}</p>
+                        <span class="author-location"><i class="fa-map-marker" aria-hidden="true"></i> {{ writer.author_location }}</span>
+                        <span class="author-website"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ writer.author_url }}" target="_blank"> {{ writer.author_url }}</a></span>
                     </div><!-- .author-details -->
                 </div><!-- .author-info -->
             </div><!-- .author-box -->
+
             <nav class="post-navigation">
                 <h2 class="screen-reader-text">Post navigation</h2>
                 {% if page.previous.url %}

@@ -26,4 +26,4 @@ Bitcoin: `3CC14Qv9aMZU37CcBFgyQ5JNZmXrWEKdhY`
 Bitcoin Cash: `18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q`
 
 <img src="https://files.coinmarketcap.com/static/img/coins/64x64/ethereum.png" alt="Ethereum" class="small-image" title="Ethereum"/>
-Ethereum: `0x77Ce99DF25cf2b40F5a27FBb550217f1294cd263`
+Ethereum: `0xB3853f0F930B6386e11bE4A605d9e444F27eB7F4`
