@@ -78,7 +78,7 @@ Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no
 
 ## Dónde Comprar
 
-Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de [Binance](https://www.binance.com/) aunque en [Bitrex](https://bittrex.com/) también se puede.
+Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de [Binance](https://www.binance.com/?ref=11317062).
 
 ## Conclusión
 

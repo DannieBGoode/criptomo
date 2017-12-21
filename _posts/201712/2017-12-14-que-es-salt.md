@@ -61,7 +61,7 @@ La membresía tiene coste periódico que empieza en 1 SALT al año aunque estos 
 
 #### Dónde comprar
 
-Cómo siempre podemos ver qué exchanges venden qué moneda en [coinmarketcap](https://coinmarketcap.com/currencies/salt/#markets). Yo recomiendo [Binance](https://www.binance.com/).
+Cómo siempre podemos ver qué exchanges venden qué moneda en [coinmarketcap](https://coinmarketcap.com/currencies/salt/#markets). Yo recomiendo [Binance](https://www.binance.com/?ref=11317062).
 
 #### Conclusión
 

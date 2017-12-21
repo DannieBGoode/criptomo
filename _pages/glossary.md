@@ -18,6 +18,9 @@ Cuando el 51% o más de la fuerza computacional de la red que mantiene un blockc
 #### ATH
 All Time High - Precio histórico más alto al que ha estado una criptodivisa.
 
+#### Bearish
+Sentimiento de que algo va a bajar de precio.
+
 #### Bitcoin
 La primera criptomoneda creada y propuesta por Satoshi Nakamoto en su [whitepaper](https://bitcoin.org/bitcoin.pdf).
 
@@ -26,6 +29,9 @@ Conjunto de transacciones ocurridas en el mismo intervalo tiempo recogidas por l
 
 #### Blockchain
 Base de datos distribuida que no puede ser modificada formada por un conjunto de bloques consecutivos encadenados entre ellos mediante firmas criptográficas. El blockchain es almacenado en todos los nodos de la red y es modificado conforme a unas reglas preestablecidas. También denominada cadena de bloques.
+
+#### Bullish
+Sentimiento de que algo va a subir de precio.
 
 ####  Clave Privada
 Conjunto de caracteres que dan acceso a un wallet específico. Actúan como contraseñas.
