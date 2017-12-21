@@ -7,17 +7,21 @@ permalink: /guias/
 comments: true
 ---
 
+#### ¿ Qué es una criptomoneda ?
+
+Una criptomoneda es una divisa digital que se basa en principios matemáticos de criptografía para asegurarse de que las monedas no pueden ser copiadas y controlar los ratios de inflación. Aunque existe mucha especulación detrás, nadie puede negar que la innovación que trae consigo la tecnología blockchain que caracteriza a estas monedas va a cambiar el mundo. No son pocas las personas que están intentando sacar partido a esta tecnología e ideando posibles aplicaciones de ella.
+
 **¿No sabes dónde empezar?**
 
 Aquí os dejo un pequeño indice de algunos de los artículos que he ido creando ordenados de una manera que resulten coherentes a los principiantes a modo de guías y tutoriales. No todos los artículos que escriba aparecerán aquí y la lista será actualizada según lo vea oportuno.
 
 ### Conceptos Básicos.
-Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin.
+Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin u otras criptomonedas.
 * Empieza preguntándote [qué es Bitcoin](../que-es-bitcoin/), la primera criptomoneda.
 * Aprende a tener contraseñas seguras usando [gestores de contraseñas](../mejores-gestores-contrasenas/).
 * No pierdas todos tus fondos, [guía de cómo debería guardar mis criptomonedas](../como-guardar-criptomonedas/).
 * Deseas empezar a invertir, aprende [cómo puedo comprar mis primeras criptomonedas](../como-comprar-criptomonedas/).
-* Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con tarjetas de crédito cripto (proximamente)
+* Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con tarjetas de crédito cripto (próximamente)
 
 
 ### Profundizando en la teoría:
@@ -30,14 +34,14 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
 * [Las Altcoins más prometedoras de 2018](../mejores-criptomonedas-2018/)
 * [Qué es Cardano](../que-es-cardano/)
-* Qué es Bitcoin Cash (proximamente)
+* Qué es Bitcoin Cash (próximamente)
 * [Qué es Bitcoin Gold y cómo obtenerlo](../conseguir-bitcoin-gold/)
 * [Qué es SALT](../que-es-salt/)
 * [Qué es IOTA](../que-es-iota/)
-* Qué es Ethereum (proximamente)
-* Qué es Ripple (proximamente)
-* Qué es Litecoin (proximamente)
-* Qué es Z-Cash (proximamente)
-* Qué es Dash (proximamente)
-* Qué es Monero (proximamente)
+* Qué es Ethereum (próximamente)
+* Qué es Ripple (próximamente)
+* Qué es Litecoin (próximamente)
+* Qué es Z-Cash (próximamente)
+* Qué es Dash (próximamente)
+* Qué es Monero (próximamente)
 * [Cómo comprar Altcoins](../como-comprar-altcoins/)
