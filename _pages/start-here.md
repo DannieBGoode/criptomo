@@ -9,7 +9,7 @@ comments: true
 
 #### ¿ Qué es una criptomoneda ?
 
-Una criptomoneda es una divisa digital que se basa en principios matemáticos de criptografía para asegurarse de que las monedas no pueden ser copiadas y controlar los ratios de inflación. Aunque existe mucha especulación detrás, nadie puede negar que la innovación que trae consigo la tecnología blockchain que caracteriza a estas monedas va a cambiar el mundo. No son pocas las personas que están intentando sacar partido a esta tecnología e ideando posibles aplicaciones de ella.
+Una criptomoneda es una divisa digital que se basa en principios matemáticos de criptografía para controlar los ratios de inflación y asegurarse de que las monedas no pueden ser copiadas. Aunque existe mucha especulación detrás, nadie puede negar que la innovación que trae consigo la tecnología blockchain que caracteriza a estas monedas va a cambiar el mundo. No son pocas las personas que están intentando sacar partido a esta tecnología e ideando posibles aplicaciones de ella.
 
 **¿No sabes dónde empezar?**
 
