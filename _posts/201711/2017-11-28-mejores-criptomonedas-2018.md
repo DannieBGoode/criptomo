@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Las mejores criptomonedas de 2018"
-description: Las criptomonedas altcoins que más podrían subir en 2018. Algunas de ellas han tenido subidas de más del 1000%, revisemos cuales podrían interesarnos durante este nuevo año y cuales podrían ser más rentables economicamente.
+description: Las criptomonedas altcoins más prometedoras y que más podrían subir en 2018. Revisemos cuales podrían interesarnos durante este nuevo año y previsión de cuales podrían ser más rentables economicamente.
 date:   2017-11-28
 banner_image: 201711/altcoins.jpg
 tags: [altcoins]
