@@ -7,3 +7,6 @@ banner_image: 201712/exchange.jpg
 tags: [altcoins]
 published: false
 ---
+
+aqui explica segwit:
+https://blockgeeks.com/guides/what-is-bitcoin-cash/
