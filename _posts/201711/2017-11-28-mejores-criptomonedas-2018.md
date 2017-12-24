@@ -37,6 +37,8 @@ Aunque todavía no haya aplicaciones importantes realizadas sobre Ethereum, su p
 
 Dejando de un lado el debate de cuál es el verdadero Bitcoin, lo que está claro es que todavía va a dar mucha guerra al menos hasta que Bitcoin arregle sus problemas de escalabilidad y costes.
 
+Teneis una guía más completa en [Qué es Bitcoin Cash](../que-es-bitcoin-cash).
+
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/bitcoin-cash/#markets)
 
 ## Dash
