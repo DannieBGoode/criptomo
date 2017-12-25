@@ -33,11 +33,11 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
 * [Las Altcoins más prometedoras de 2018](../mejores-criptomonedas-2018/)
-* [Qué es Cardano](../que-es-cardano/)
-* Qué es Bitcoin Cash (próximamente)
+* [Cardano](../que-es-cardano/)
+* [Bitcoin Cash](../que-es-bitcoin-cash)
 * [Qué es Bitcoin Gold y cómo obtenerlo](../conseguir-bitcoin-gold/)
-* [Qué es SALT](../que-es-salt/)
-* [Qué es IOTA](../que-es-iota/)
+* [SALT](../que-es-salt/)
+* [IOTA](../que-es-iota/)
 * Qué es Ethereum (próximamente)
 * Qué es Ripple (próximamente)
 * Qué es Litecoin (próximamente)
