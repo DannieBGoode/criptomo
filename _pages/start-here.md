@@ -35,7 +35,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 * [Las Altcoins más prometedoras de 2018](../mejores-criptomonedas-2018/)
 * [Cardano](../que-es-cardano/)
 * [Bitcoin Cash](../que-es-bitcoin-cash)
-* [Qué es Bitcoin Gold y cómo obtenerlo](../conseguir-bitcoin-gold/)
+* [Bitcoin Gold](../conseguir-bitcoin-gold/)
 * [SALT](../que-es-salt/)
 * [IOTA](../que-es-iota/)
 * Qué es Ethereum (próximamente)
