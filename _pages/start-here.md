@@ -38,7 +38,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 * [Bitcoin Gold](../conseguir-bitcoin-gold/)
 * [SALT](../que-es-salt/)
 * [IOTA](../que-es-iota/)
-* Qué es Ethereum (próximamente)
+* [Ethereum](../que-es-ethereum)
 * Qué es Ripple (próximamente)
 * Qué es Litecoin (próximamente)
 * Qué es Z-Cash (próximamente)

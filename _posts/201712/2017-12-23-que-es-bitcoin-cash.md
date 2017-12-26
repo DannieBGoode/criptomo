@@ -19,18 +19,18 @@ Al ser un fork del protocolo original lo que realmente está sucediendo es que s
 La salvedad es que al haber copiado todo el historial de transacciones de la cadena original, todo el mundo que tuviera Bitcoins en su wallet en la fecha del fork, automáticamente pasa a tener también Bitcoin Cash, lo cual ha sido considerado por muchos cómo dinero gratis, puesto que el precio de BTC ni pestañeó en el momento del fork y BCH se valoró de partida en casi 2000$. Para información más básica de qué es exactamete un hard fork podeis leer el artículo [Qué es Bitcoin](../que-es-bitcoin).
 
 
-{% include image_caption.html imageurl="/images/posts/201712/hard-fork.png" title="Bitcoin Cash Hardfork" caption="Bitcoin Cash se generó a partir de un HARD FORK de Bitcoin" %}
+{% include image_caption.html imageurl="/images/posts/201712/hard-fork.png" title="Bitcoin Cash Hardfork" caption="Bitcoin Cash se generó a partir de un HARD FORK de Bitcoin" popup=true %}
 
 #### El tamaño de bloque
 
 Para que una transacción sea válida debe ser añadida a un bloque que será posteriormente añadido al blockchain por los mineros. BTC soporta bloques de hasta 1MB de tamaño y además la dificultad de minado se ajusta automáticamente para que los bloques sean minados cada 10 minutos. Esto ha sido manjeable hasta recientemente, pero en cuanto BTC explotó en popularidad y se empezó a utilizar los bloques de 1 MB resultaron totalmente insuficientes para encapsular todas las transacciones de la red, lo que ocasionabá o bien retrasos a medida que las transacciones se iban acumulando, o bien tasas de transferencia más altas puesto que los mineros tienen el poder de elegir las transacciones que quieran.
 
 
-{% include image_caption.html imageurl="/images/posts/201712/btc-transactions.png" title="BTC Transactions Increase" caption="Transacciones de la red de Bitcoin" %}
+{% include image_caption.html imageurl="/images/posts/201712/btc-transactions.png" title="BTC Transactions Increase" caption="Transacciones de la red de Bitcoin" popup=true %}
 
 A medida que Bitcoin ha ido incrementando en popularidad se han dado más y más transacciones lo que ha llevado a que haya más transacciones pendientes de ser validadas esperando en el [mempool](https://blockchain.info/charts/mempool-size). 
 
-{% include image_caption.html imageurl="/images/posts/201712/btc-mempool.png" title="BTC Mempool" caption="Transacciones pendientes por validar" %}
+{% include image_caption.html imageurl="/images/posts/201712/btc-mempool.png" title="BTC Mempool" caption="Transacciones pendientes por validar" popup=true %}
 
 Como podeis ver, el número de transacciones mensuales sigue incrementándose y con el límite de bloque mencionado apenas se pueden manejar 4.4 transacciones por segundo.
 
@@ -64,3 +64,7 @@ Para demostrar sus argumentos, Roger Ver frecuentemente regala dinero online ens
 En resumen, no podemos estar seguro de que ocurrirá con el debate de la escalabilidad y que repercusiones podría tener esto sobre el mundo de las criptomonedas. Lo que si que sabemos de primera mano es que BCH no deja de crecer en valor y a diferencia de BTC puede ser utilizada en el día a día. Por otro lado, si BCH acaba triunfando y se llenasen los bloques de 8MB podríamos encontrarnos en exactamente el mismo escenario y necesitar de nuevo realizar un HARD FORK o implementar ciertas mejoras como SEGWIT o Lightning Network para arreglarlos, que es precisamente lo que el equipo de BTC está intentando resolver a contra reloj.
 
 Por el momento es absurdo enviar BTC entre wallets, mucha gente que quiere comprar altcoins, y para ello necesita enviar BTC de por ejemplo, Coinbase a Binance, está optando por vender primero en Coinbase su BTC por Litecoin, enviar el LTC, y luego en Binance vender el LTC por Bitcoins para poder comprar las altcoins. Hasta que estos problemas estén resueltos el valor de BCH y LTC no va a hacer más que subir puesto que ofrecen alternativas mucho más económicas a la hora de mover fondos.
+
+#### ¿ Dónde comprar Bitcoin Cash ?
+
+Tenemos una guía de donde comprar Bitcoin Cash en el artículo [cómo comprar criptomonedas](../como-comprar-criptomonedas).
