@@ -23,7 +23,7 @@ Si deseáis elegir una moneda distinta deberéis ir a [coinmarketcap](https://co
 
 
 Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para empezar enviando dinero fiat recomiendo uno de los siguientes:
-* [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e), que es el que usaremos para este ejemplo y vende:
+* [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) (si usais este enlace os darán 10$  gratis por los primeros 100$ gastados), que es el que usaremos para este ejemplo y vende:
 	* Bitcoin
 	* Bitcoin Cash
 	* Ethereum
