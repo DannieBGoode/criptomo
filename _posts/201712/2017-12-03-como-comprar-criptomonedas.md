@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cómo empezar a comprar criptomonedas"
-description: Guía para principiantes de cómo comprar criptomonedas, dónde enviar tu dinero y qué deberías hacer para no perderlo o pagar tasas de más.
+description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Ethereum Classic (ETC), Litecoin (LTC), Ripple (XRP), dónde enviar tu dinero y qué deberías hacer para no perderlo o pagar tasas de más.
 date:   2017-12-03
 banner_image: 201712/exchange.jpg
 tags: [altcoins]
