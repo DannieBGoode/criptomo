@@ -59,6 +59,19 @@ Por otro lado Gavin Wood argumentó que un blockchain está creado para servir a
 
 No obstante lo que todo el mundo si concluyó fue que se necesitan mejores herramientas para testear los DApps y de hecho durante los próximos años las empresas auditoras de smart contracts van a crecer mucho en consecuencia.
 
+#### Otros casos de uso
+
+Ya son muchas las compañías que han empezado a construir sus propios productos sobre Ethereum, veamos unas pocas de ellas:
+
+* **uPort**: Pretende crear tarjetas digitales de identidad internacionales sobre la cual tengas total control. Podría usarse como llave para entrar en distintas instalaciones a la que estés autorizado, identificarte en una biblioteca o mostarlo en las fronteras.
+* **Filecoin**: Se trata de un dropbox descentralizado donde los demás usuarios guardan trozos de tu información (¡pero no pueden leerla por que está cifrada!) de tal manera que siempre estará online.
+* **Golem**: Alquiler de poder computacional de otros usuarios que no estén utilizando sus ordenadores.
+* **Akasha**: Se trata de una red social descentralizada. No existen servidores específicos que la mantengan por lo que es inmune a la censura. Construir algo así sobre Ethereum permite también que se incentive a la gente con recompensas económicas por crear contenido o comentarios que resulten de valor a la comunidad.
+* **Aragon**: Se trata de uno de los proyectos que con más ganas espero, la posibilidad de automatizar las tareas básicas de contabilidad, nóminas, votaciones de accionistas, etc.. de manera digital. Reduciría enormemente el número de personas necesarias para tener una empresa funcional.
+* **SingularDTV**: Manejo de derechos del mundo del entretenimiento para la distribución de fondos de manera transparente.
+
+Todas estas aplicacines tienen sus propios tokens, y como tal pueden ser comprados y cotizados exactamente igual que el Ether.
+
 #### Pagos, tasas y gas
 
 Un concepto muy importante de Ethereum es el concepto de las tasas. Cada computación que ocurre como resultado de una transacción en la red implica un pago de tasas. Estas tasas son pagadas en una denominación llamada *gas*. Definamos rápidamente varios conceptos:
