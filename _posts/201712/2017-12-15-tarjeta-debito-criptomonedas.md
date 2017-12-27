@@ -3,7 +3,6 @@ layout: post
 title:  "Cómo usar tarjetas de débito pagando en criptomonedas"
 seo_title: "como-guradar-criptomonedas"
 description: "Explicación básica"
-date:   2017-11-23
 banner_image: 201711/bitcoin-wallet.jpg
 tags: [bitcoin, altcoins]
 published: false

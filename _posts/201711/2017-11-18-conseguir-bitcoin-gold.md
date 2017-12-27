@@ -38,7 +38,7 @@ Algunos wallets han dado soporte nativo a BTG por lo que tenerlo localizado o ve
 4.  **Importar la clave privada a cualquier wallet que si soporte BTG**. Por ejemplo [Coinomi](https://coinomi.com/). Para ello deberemos buscar la opción de *sweep wallet* donde se nos pedirá nuestra clave privada. Para aquellos que no tengan un dispositivo Android siempre pueden bajarse un emulador y descargar la aplicación desde dentro del emulador (no se necesitaría trastear con ficheros apks).  Recomiendo [Bluestacks](https://www.bluestacks.com/es/index.html) como emulador.
 6. **Vender BTG**: Si deseamos venderlo mueve tu BTG a un exchange que la venda, por citar alguno de los más famosos [Bitfinex](https://www.bitfinex.com/) o [Binance](https://www.binance.com/?ref=11317062).
 
-Ciertos exchanges como [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/) o [Bitstamp](https://www.bitstamp.net/) entre otros no suministran la clave privada a los usuarios, de tener tus fondos en uno de estos sitios, sólo ellos podrán darte las herramientas para obtener tu BTG y decidir entonces qué hacer con ellos.
+Ciertos exchanges como [Kraken](https://www.kraken.com/), [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) o [Bitstamp](https://www.bitstamp.net/) entre otros no suministran la clave privada a los usuarios, de tener tus fondos en uno de estos sitios, sólo ellos podrán darte las herramientas para obtener tu BTG y decidir entonces qué hacer con ellos.
 
 Tanto TREZOR como Ledger han informado de que dan soporte a BTG por lo que si teníamos nuestros fondos en estos dispositivos ya es posible exportarlos a un exchange sin peligro alguno.
 
