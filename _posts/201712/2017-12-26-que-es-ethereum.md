@@ -45,7 +45,7 @@ Como las DApps corren en el blockchain se caracterizan por todas las propiedas d
 Aunque todo podría sonar demasiado perfecto, las DApps tienen un problema muy grande: los humanos.
 Una DApp sólo podrá ser tan perfecta cómo el código del humano que la escribió. Puesto que las DApps una vez desplegadas al blockchain no pueden ser fácilmente modificadas, un bug en el código podría ser fatal para una DAO
 
-Esto fue precisamente el caso del primero DAO construido, bautizado sencillamente DAO. Se trataba de una plataforma de financiación tipo Kickstarter donde inversores podrían colaborar financiando proyectos y en función de si se llegaba a la cantidad requerida por el proyecto, los fondos se movían automáticamente ya sea de vuelta a los inversores o a los dueños del proyecto financiado. Se trataba de una plataforma totalmente autónoma capaz de mover grandes cantidades de dinero y financiar proyectos sin la intervención de una sola persona trabajando en nombre de la asociación. Por desgracia un hacker identificó un fallo en el código del DAO que le permitía lentamente ir sacando fondos de la organización.
+Esto fue precisamente el caso del primero DAO construido, bautizado sencillamente DAO. Se trataba de una plataforma de financiación tipo Kickstarter donde inversores podrían colaborar financiando proyectos y en función de si se llegaba a la cantidad requerida por el proyecto, los fondos se movían automáticamente ya sea de vuelta a los inversores o a los dueños del proyecto financiado. Se trataba de una plataforma totalmente autónoma capaz de mover grandes cantidades de dinero y financiar proyectos sin la intervención de una sola persona trabajando en nombre de la asociación y había recaudado hasta la fecha 160 millones de dólares. Por desgracia un hacker identificó un fallo en el código del DAO que le permitía lentamente ir sacando fondos de la organización.
 
 Esto planteó un gran problema entre la comunidad de Ethereum y se discutieron tres posibles alternativas:
 
@@ -72,6 +72,10 @@ Ya son muchas las compañías que han empezado a construir sus propios productos
 
 Todas estas aplicacines tienen sus propios tokens, y como tal pueden ser comprados y cotizados exactamente igual que el Ether.
 
+Además otro uso que Ethereum permite, es la creación de ICOs para financiar las distintas monedas realizadas sobre ella.
+
+{% include image_caption.html imageurl="/images/posts/201712/ethereum-icos.png" title="Ethereum ICOs" caption="Distintos tokens y cantidades financiadas" popup=true %}
+
 #### Pagos, tasas y gas
 
 Un concepto muy importante de Ethereum es el concepto de las tasas. Cada computación que ocurre como resultado de una transacción en la red implica un pago de tasas. Estas tasas son pagadas en una denominación llamada *gas*. Definamos rápidamente varios conceptos:
@@ -87,10 +91,6 @@ Para cada transacción u operación ejecutada por un DApp, el emisor decide el l
 Por ejemplo si un emisor decide un límite de 50000 gas a un precio de 20gwei, implicaría que está dispuesto a pagar 50,000 x 20 gwei = 1,000,000,000,000,000 Wei = 0.001 Ether para ejecutar dicha transacción.
 
 El motivo por el cual existen las tasas de transacción de la red es para evitar bucles infinitos o que la red se utilice para usos demasiado caros computacionalmente hablando que puedan colapsar la red.
-
-#### Proof of Work vs Proof of Stake
-
-
 
 #### Roadmap
 Ethereum tiene un roadmap muy bien definido separado en distintas fases.
