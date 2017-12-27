@@ -36,7 +36,7 @@ Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.
 	* Litecoin
 	* Ripple
 
-No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar primero fiat a criptomoneda, y sólo después podrás comprar las demás monedas.
+No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar fiat a criptomoneda, y sólo después podrás comprar las demás monedas.
 
 ## 2. Nos creamos una cuenta en el exchange elegido.
 

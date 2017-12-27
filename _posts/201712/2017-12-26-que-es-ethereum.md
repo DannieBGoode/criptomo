@@ -70,7 +70,7 @@ Ya son muchas las compañías que han empezado a construir sus propios productos
 * **Aragon**: Se trata de uno de los proyectos que con más ganas espero, la posibilidad de automatizar las tareas básicas de contabilidad, nóminas, votaciones de accionistas, etc.. de manera digital. Reduciría enormemente el número de personas necesarias para tener una empresa funcional.
 * **SingularDTV**: Manejo de derechos del mundo del entretenimiento para la distribución de fondos de manera transparente.
 
-Todas estas aplicacines tienen sus propios tokens, y como tal pueden ser comprados y cotizados exactamente igual que el Ether.
+Todas estas aplicaciones tienen sus propios tokens, y como tal pueden ser comprados y cotizados exactamente igual que el Ether.
 
 Además otro uso que Ethereum permite, es la creación de ICOs para financiar las distintas monedas realizadas sobre ella.
 
