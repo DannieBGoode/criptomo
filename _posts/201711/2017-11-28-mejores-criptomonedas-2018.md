@@ -17,6 +17,8 @@ En general, únicamente se puede comprar con dinero convencional en los exchange
 
 Antes de decidiros a invertir en alguna de ellas realizad vuestro propio estudio y llegad a vuestras propias conclusiones. Sobra decir que no invirtais nada que no os podais permitir perder.
 
+Tenéis una gúia de [cómo comprar criptomonedas](../como-comprar-criptomonedas) a vuestra disposición.
+
 ## Ethereum
 
 {% include image_caption.html imageurl="../images/posts/201711/ethereum.png" title="Ethereum" style="max-width:40%" %}
@@ -173,7 +175,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [Steem](https://steemit.com) es una red social basada en blockchain. Aquellas personas que den más valor a la red social ya sea mediante creación original de contenidos o mediante curación de los mismos reciben recompensas monetarias. Además ha sido identificada como la blockchain con más movimiento del sector a pesar de ser todavía bastante desconocida.
 
-[Exchages ](https://coinmarketcap.com/currencies/steem/#markets)
+[Exchages](https://coinmarketcap.com/currencies/steem/#markets)
 
 
 ¿ Echas de menos alguna? ¿ Te gustaría que hablaramos de alguna más a fondo?
