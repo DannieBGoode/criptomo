@@ -152,12 +152,17 @@ Precio: Gratis - 3$ una sola vez para alguna app móvil.
 
 {% include image_caption.html imageurl="../images/posts/201711/keepass.png" title="keepass" caption="keepass" popup=true %}
 
-[KeePass](https://keepass.info/) siempre ha sido mi favorita de la lista, puesto que es open source el código ha sido colaboración de muchísima gente y ha sido auditado hasta la saciedad. Tiene varias capas de seguridad avanzadas, como poder añadir un segundo de penalización por contraseña incorrecta para evitar ataques de fuerza bruta o necesitar un clave aleatoria por USB para poder abrirse (es decir, deberías tener un USB con tu clave conectado a tu ordenador para poder abrir tu base de datos). Por desgracia no tiene apps móviles oficiales y aunque hay algunas por ahí, recomiendo usarlas con cuidado.
+[KeePass](https://keepass.info/) siempre ha sido mi favorita de la lista, puesto que es open source el código ha sido colaboración de muchísima gente y ha sido auditado hasta la saciedad. Tiene varias capas de seguridad avanzadas, como poder añadir un segundo de penalización por contraseña incorrecta para evitar ataques de fuerza bruta o necesitar un clave aleatoria por USB para poder abrirse (es decir, deberías tener un USB con tu clave conectado a tu ordenador para poder abrir tu base de datos). Por desgracia no tiene apps móviles oficiales y aunque hay algunas por ahí, recomiendo usarlas con cuidado puesto que no sabemos si están grabando nuestras contraseñas por detrás.
 
 Precio: Gratis
 
 
 El nivel de seguridad que cada uno quiera tener es una decisión personal, sobretodo dependiente del nivel de confianza que uno tiene en sí mismo a la hora de mantener un fichero seguro. Personalmente prefiero tener guardado mi base de datos guardada por mi localizable y con copia de seguridad en lugar de fiarme de un servicio externo que lo haga por mí.
+
+**¿ Quieres que elija por ti?**
+
+Si no vas a necesitar aplicación móvil usa KeePass, asegurate de tener copias de seguridad de la base de datos que será un fichero kdbx. Si en cambio vas a necesitar app móvil usa 1Password ó Empass.
+
 
 
 
