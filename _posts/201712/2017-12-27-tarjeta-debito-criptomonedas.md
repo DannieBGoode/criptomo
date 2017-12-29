@@ -149,18 +149,21 @@ Por ahora hay lista de espera para conseguir cualquiera de la tarjetas, incluyen
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
 {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-|               | TenX                   | Monaco             | Wirex    | Xapo    | Shift | Bitpay | SpectroCoin | Bitwala  |
-|:-------------:|:----------------------:|:------------------:|:--------:|:-------:|:-----:|:------:|:-----------:|:--------:|
-| Criptos       | BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |Shapeshift|  BTC    |  BTC  | BTC    |   BTC       |Shapeshift|
-| Tipo Tarjeta  | Mastercard / VISA      |  VISA              |  VISA    |  VISA   | VISA  | VISA   |   VISA      |  VISA    |
-| Tipo          | Débito                 |  Débito            |pre-pago  | Débito  | Débito|pre-pago|   pre-pago  | pre-pago |
-| Costes de Trx |    Gratis              |  Gratis            |  Gratis  | Gratis  | Gratis|   1%   |    Gratis   | 0.5%     |
-| Coste de tarj | 15$                    |  Gratis            | 17+1€/mes|20+1€/mes| 10$   |  10$   | 8€+1€/mes   | 8+1€/mes |
-| Wallet        |     No                 |         No         |    Si    |   No    |  No   |   Si   |   No        |  No      |
+|                   | TenX                   | Monaco             | Xapo    | Shift | Wirex    | Bitpay | SpectroCoin | Bitwala  |
+|:-----------------:|:----------------------:|:------------------:|:-------:|:-----:|:--------:|:------:|:-----------:|:--------:|
+| Criptos Soportadas| BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |  BTC    |  BTC  |Shapeshift| BTC    |   BTC       |Shapeshift|
+| Tipo Tarjeta      | Mastercard / VISA      |  VISA              |  VISA   | VISA  |  VISA    | VISA   |   VISA      |  VISA    |
+| Tipo              | Débito                 |  Débito            | Débito  | Débito|Pre-pago  |Pre-pago|   Pre-pago  | Pre-pago |
+|Tasa de uso/trans  |    Gratis              |  Gratis            | Gratis  | Gratis|  Gratis  |   1%   |    Gratis   | 0.5%     |
+|Coste Tarj. Física | 15$                    |  Gratis            |20€      | 10$   | 17€      |  10$   | 8€          | 8€       |
+|Coste Tarj. Virtual|        -               |  -                 |   -     |   -   |  Gratis  | -      |    0.5€     |  2€      |
+|Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | Gratis| 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
+|Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |  -    |    2.5€  |   3€   |   2.75€     |  2.25€   |
+| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      |
 
 ### Conclusión
 
-Tras el análisis la tarjeta de débito que más prometedora veo en estos momentos es Monaco y TenX seguido de cerca por Xapo.
+Tras el análisis la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
 
 Cómo tarjeta de pre-pago la clara ganadora es Bitwalla por su capacidad de realizar transferencias SEPA.
 
