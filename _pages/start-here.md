@@ -21,7 +21,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 * Aprende a tener contraseñas seguras usando [gestores de contraseñas](../mejores-gestores-contrasenas/).
 * No pierdas todos tus fondos, [guía de cómo debería guardar mis criptomonedas](../como-guardar-criptomonedas/).
 * Deseas empezar a invertir, aprende [cómo puedo comprar mis primeras criptomonedas](../como-comprar-criptomonedas/).
-* Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con tarjetas de crédito cripto (próximamente)
+* Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con [tarjetas de crédito cripto](../tarjeta-debito-criptomonedas/).
 
 
 ### Profundizando en la teoría:
