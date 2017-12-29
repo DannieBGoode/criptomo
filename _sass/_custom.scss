@@ -36,3 +36,15 @@ ins {
 		margin-bottom: 15px;
 	}
 }
+.table {
+	tr {
+		td {
+			font-size: 80%;
+		}
+	}
+}
+@media only screen and (max-width: 700px) {
+        .table-collapsable {
+            display: none;
+        }
+}
