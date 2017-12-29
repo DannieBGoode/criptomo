@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Cómo usar tarjetas de débito pagando en criptomonedas
-description: Funcionamiento de las tarjetas de crédito y débito de bitcoins y otras criptomonedas, como vivir e ir pagando el dia a dia sin necesidad de vender antes de tiempo.
+description: Funcionamiento de las tarjetas de crédito, débito y prepago de bitcoins y otras criptomonedas, como vivir e ir pagando el dia a dia sin necesidad de perder rentabilidad vendiendo antes de tiempo.
 banner_image: 201712/debit-cards.jpg
 tags: [bitcoin, altcoins]
 ---
