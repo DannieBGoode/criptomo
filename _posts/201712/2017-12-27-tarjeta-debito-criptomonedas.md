@@ -138,13 +138,13 @@ Aunque todavía no ha sido lanzada, Monaco parece ofrecer todo lo que podríamos
 * No ofrecen clave privada, aunque esto podría cambiar en el futuro.
 
 
-Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmente gratuita. A medida que subimos de categoría entre las tarjetas que ofrecen suben los límites de cantidades que se pueden gastar diarios y se dan ciertas ventajas extras como seguros de viaje o hasta un 2% de rendimiento sobre las compras que se realicen. Este rendimiento será generado en su criptomoneda MCO.
+Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmente gratuita, envío incluido. A medida que subimos de categoría entre las tarjetas que ofrecen suben los límites de cantidades que se pueden gastar diarios y se dan ciertas ventajas extras como seguros de viaje o hasta un 2% de rendimiento sobre las compras que se realicen. Este rendimiento será generado en su criptomoneda MCO.
 
 Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y guardarlos durante un cierto periodo de tiempo (6 meses).
 
-Por ahora hay lista de espera para conseguir cualquiera de la tarjetas, incluyendo la gratuita. Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) recibireis 10$ de crédito en vuestra tarjeta una vez enviadas. 
+Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) recibireis 10$ de crédito en vuestra tarjeta una vez enviadas. 
 
-### Resumen
+### Conclusión
 
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
@@ -160,8 +160,6 @@ Los precios comentados en el artículo podrían ir cambiando con el tiempo así 
 |Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | Gratis| 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
 |Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |  -    |    2.5€  |   3€   |   2.75€     |  2.25€   |
 | Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      |
-
-### Conclusión
 
 Tras el análisis la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
 

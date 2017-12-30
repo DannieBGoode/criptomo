@@ -2,7 +2,6 @@
 layout: post
 title: Qué es Cardano
 description: La criptomoneda Cardano ADA podría ser el nuevo rival de Ethereum y durante los últimos meses se ha revalorizado un 400%.
-date: 2017-12-11T00:00:00.000Z
 banner_image: 201712/cardano.jpg
 tags: [altcoins]
 ---
