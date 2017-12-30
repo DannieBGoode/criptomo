@@ -142,7 +142,7 @@ Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmen
 
 Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y guardarlos durante un cierto periodo de tiempo (6 meses).
 
-Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) recibireis 10$ de crédito en vuestra tarjeta una vez enviadas. 
+Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. **Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
 ### Conclusión
 
