@@ -13,11 +13,20 @@ A pesar de que en ocasiones se ha mencionado que Bitcoin es una tecnología anó
 
 Monero (XMR) ofrece una aplicación diferente al utilizar el blockchain de un modo que hace que las transacciones sean imposibles de rastrear y los balances estén ocultos. Sus niveles de anonimato la han llevado a ser la moneda elegida a dia de hoy por los mercados de drogas online, entidades financieras suizas y también cualquier persona preocupada por su anonimidad.
 
-A la hora de aceptar pagos en criptomonedas, los comerciantes ya no deberán preocuparse de la procedencia de los fondos que están aceptando. Es probable que como usuario no se desee que todo el mundo con quien haya realizado una transacción conozca su salario, balance y el historial de transacciones pasadas. Monero protege esta información personal haciendo que cada transacción sea totalmente privada de cara al mundo exterior.
-
-A diferencia de Z-Cash donde hay que pagar un extra por utilizar zk-Snarks para ocultar las transacciones, la privacidad de Monero es obligatoria desde el principio.
+Es probable que como usuario no se desee que todo el mundo con quien haya realizado una transacción conozca su salario, balance y el historial de transacciones pasadas. Monero protege esta información personal haciendo que cada transacción sea totalmente privada de cara al mundo exterior.
 
 {% include image_caption.html imageurl="/images/posts/201801/btc-wikileaks.png" title="Wikileaks address" popup=true caption="Todas las donaciones a Wikileaks mediante BTC son públicas y pueden ser trazadas a las direcciones donantes" %}
+
+#### Fungibilidad
+
+A diferencia de Z-Cash donde hay que pagar un extra por utilizar zk-Snarks para ocultar las transacciones, la privacidad de Monero es obligatoria desde el principio lo que la convierten en la primera moneda fungible.
+
+**Se conoce como fungibilidad la intercambiabilidad de un bien por otro del mismo tipo**. Para entender el concepto de fungibilidad veamos dos ejemplos:
+
+* Supongamos que una persona presta a un amigo 20€. Cuando se le devuelva el dinero, el billete devuelto tendrá exactamente el mismo valor que el billete original a pesar de no ser el mismo físicamente, por lo que se considera el dinero en efectivo fungible.
+* Supongamos que una persona presta a otra un coche durante el fin de semana, pero cuando le es devuelto, se le entrega el mismo modelo de coche pero con un color distinto, o el mismo coche con una avería, o sencillamente con más kilómetros encima. El valor devuelto no es el mismo que el valor original por lo que los coches no son un bien fungible.
+
+Las criptomonedas en general no son fungibles, porque como todas las transacciones son traceables, si esas monedas han sido utilizadas para fines ilegales son fácilmente marcables como ilegales. Esto es una de las grandes críticas contra Bitcoin, puesto que se argumenta que qué culpa tiene una persona que no ha hecho nada ilegal que alguien le haya pagado con dinero marcado. En cambio en Monero, como todas las transacciones son privadas, no se puede seguir el trayecto del dinero y por tanto a la hora de aceptar pagos en criptomonedas, los comerciantes ya no deberán preocuparse de la procedencia de los fondos que están aceptando. Ninguna otra moneda se caracteriza por esto.
 
 #### Tecnologia
 
