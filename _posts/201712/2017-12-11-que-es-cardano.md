@@ -43,7 +43,7 @@ La primera generación Bitcoin solo puede hacer transacciones simples P2P y toda
 Estos problemas son:
 
 #### Escalabilidad.
-**Poder realizar muchas más transacciones por segundo (TPS) sin necesidad de debilitar el protocolo** quitando funcionalidades o patrones de seguridad para logarlo (que es precisamente como la criptomoneda EOS ha conseguido tener tal volumen de TPS). BTC y Ethereum todavía soportan poquísimas transacciones por segundo (10 y 30 TPS respectivamente), mientras que VISA o Mastercard tienen capacidad para decenas de miles de transacciones. Si alguna vez las criptomonedas desean poder reemplazar a estos métodos convencionales de pago la escalabilidad deberá estar resuelta.
+**Poder realizar muchas más transacciones por segundo (TPS) sin necesidad de debilitar el protocolo** quitando funcionalidades o patrones de seguridad para logarlo (que es precisamente como la criptomoneda EOS ha conseguido tener tal volumen de tps). BTC y Ethereum todavía soportan poquísimas transacciones por segundo (10 y 30 tps respectivamente), mientras que VISA o Mastercard tienen capacidad para decenas de miles de transacciones. Si alguna vez las criptomonedas desean poder reemplazar a estos métodos convencionales de pago la escalabilidad deberá estar resuelta. Cardano soporta ahora mismo hasta 15 tps, pero está siendo creado de tal manera que cuanto más usuarios haya más tps será capaz de procesar y espera poder escalar sin problemas.
 
 #### Interoperabilidad.
 **Interactuar con otras blockchains**. Cardano no pretende sustituir a Bitcoin ya que prevé un mundo con muchísimas otras monedas en circulación y propone un escenario donde las monedas pueden operar entre ellas y adicionalmente con el sistema bancario clásico.
