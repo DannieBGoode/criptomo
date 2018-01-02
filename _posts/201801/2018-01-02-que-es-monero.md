@@ -26,7 +26,7 @@ A diferencia de Z-Cash donde hay que pagar un extra por utilizar zk-Snarks para 
 * Supongamos que una persona presta a un amigo 20€. Cuando se le devuelva el dinero, el billete devuelto tendrá exactamente el mismo valor que el billete original a pesar de no ser el mismo físicamente, por lo que se considera el dinero en efectivo fungible.
 * Supongamos que una persona presta a otra un coche durante el fin de semana, pero cuando le es devuelto, se le entrega el mismo modelo de coche pero con un color distinto, o el mismo coche con una avería, o sencillamente con más kilómetros encima. El valor devuelto no es el mismo que el valor original por lo que los coches no son un bien fungible.
 
-Las criptomonedas en general no son fungibles, porque como todas las transacciones son traceables, si esas monedas han sido utilizadas para fines ilegales son fácilmente marcables como ilegales. Esto es una de las grandes críticas contra Bitcoin, puesto que se argumenta que qué culpa tiene una persona que no ha hecho nada ilegal que alguien le haya pagado con dinero marcado. En cambio en Monero, como todas las transacciones son privadas, no se puede seguir el trayecto del dinero y por tanto a la hora de aceptar pagos en criptomonedas, los comerciantes ya no deberán preocuparse de la procedencia de los fondos que están aceptando. Ninguna otra moneda se caracteriza por esto.
+Las criptomonedas en general no son fungibles, porque como todas las transacciones son traceables, si esas monedas han sido utilizadas para fines ilegales son fácilmente marcables. Esto es una de las grandes críticas contra Bitcoin, puesto que se argumenta que qué culpa tiene una persona que no ha hecho nada ilegal que alguien le haya pagado con dinero marcado. En cambio en Monero, como todas las transacciones son privadas, no se puede seguir el trayecto del dinero y por tanto a la hora de aceptar pagos en criptomonedas, los comerciantes ya no deberán preocuparse de la procedencia de los fondos que están aceptando. Ninguna otra moneda se caracteriza por esto.
 
 #### Tecnologia
 
@@ -47,7 +47,7 @@ Además existen dos claves asociadas a cada transacción:
 * **Spend Key:** Utilizada para gastar los balances. Es equivalente a la contraseña que permite gastar los fondos.
 * **View Key:** Clave que el dueño de una cuenta puede compartir con otros usuarios para que conozcan cierta información de la transacción a modo de transparencia. Esta transparencia opcional puede resultar beneficiosa para permitir a una entidad realizar una auditoría o por temas de impuestos. Sería equivalente a un recibo bancario matemáticamente demostrable.
 
-El tiempo de bloque medio de Monero es de 2 minutos verificados mediante Proof of Work, y se prevé una inflación controlada de 0.3 XMR / minuto para siempre de modo que los mineros siempre tendrán incentivos para seguir procesando transacciones.
+El tiempo de bloque medio de Monero es de dos minutos verificados mediante Proof of Work (resistente a procesadores ASIC con la intención de evitar pools de mineros) y los bloques no tienen un tamaño fijo predefinido. Se ha definido una inflación controlada de 0.3 XMR / minuto para siempre de modo que los mineros siempre tendrán incentivos para seguir procesando transacciones.
 
 #### El Equipo
 
