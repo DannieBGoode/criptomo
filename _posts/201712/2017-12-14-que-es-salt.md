@@ -40,7 +40,7 @@ Los préstamos iniciales se moverán en los rangos desde 10.000 hasta un millón
 
 #### Tecnología
 
-El modo en que funcionará es que un smart contract denominado el SALT Oracle observará que todas las condiciones del contrato están siendo cumplidas según las condiciones concertadas. Las claves privadas del wallet donde se almacenarán los fondos bloqueados serán repartidas entre el prestamista, el prestatario, un custodio y un miembro del equipo de SALT. Se necesitarán al menos 3 de las llaves para poder acceder a los fondos.
+El modo en que funcionará es que un smart contract denominado el SALT Oracle observará que todas las condiciones del contrato están siendo cumplidas según las condiciones concertadas. Las claves privadas del wallet donde se almacenarán los fondos bloqueados serán repartidas entre el prestamista, el prestatario, un custodio y el Oracle de SALT. Se necesitarán al menos 3 de las llaves para poder acceder a los fondos.
 
 La seguridad de dichos smart contracts está siendo auditada por la empresa Spirent Communications que se concentraran en evitar un episodio como el del DAO de Ethereum.
 
@@ -61,7 +61,7 @@ La membresía tiene coste periódico que empieza en 1 SALT al año aunque estos 
 
 #### Dónde comprar
 
-Cómo siempre podemos ver qué exchanges venden qué moneda en [coinmarketcap](https://coinmarketcap.com/currencies/salt/#markets). Yo recomiendo [Binance](https://www.binance.com/?ref=11317062).
+Cómo siempre podemos ver qué exchanges venden qué moneda en [coinmarketcap](https://coinmarketcap.com/currencies/salt/#markets). Personalmente recomiendo [Binance](https://www.binance.com/?ref=11317062).
 
 #### Conclusión
 
