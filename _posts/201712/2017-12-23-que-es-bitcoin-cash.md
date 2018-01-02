@@ -52,7 +52,7 @@ Los principales argumentos a favor del incremento de tamaño de bloque:
  
 #### Roger Ver
 
-Roger Ver, conocido como *Bitcoin Jesus*, es el inversor millonario detrás del dominio [Bitcoin.com](https://www.bitcoin.com) y apoya enormemente la moneda Bitcoin Cash. Roger argumenta que para que algo sea usado como refugio de valor primero debe de tener otros usos, como es el caso del oro que se puede usar para la electrónica, joyería, usos dentales, etc...
+Roger Ver, conocido como *Bitcoin Jesus*, es el inversor millonario detrás del dominio [Bitcoin.com](https://www.bitcoin.com) y apoya enormemente la moneda Bitcoin Cash. Roger argumenta que para que algo sea usado como refugio de valor primero debe de tener otros usos, como es el caso del oro que se puede usar para la electrónica, joyería, usos dentales, etc... (Roger no ha debido oir hablar de las [piedras Rai](https://es.wikipedia.org/wiki/Piedras_rai) utilizadas como medio de pago por tribus indonesas).
 Defiende por ello que BTC nunca será aceptado como un refugio de valor por la gente y que cómo BTC ha sufrido tantas modificaciones menores (soft forks) como pueden ser el caso de Segwit o la inminente Lightning Network, que se ha distanciado de la idea original proyectada por Satoshi Nakamoto en su whitepaper y ya no debería ser llamado Bitcoin.
 
 {% include video.html provider="youtube" id="ycdSrwlDQuA" caption="Entrevista de Jimmy Song a Roger Ver" %}

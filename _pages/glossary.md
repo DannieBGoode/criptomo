@@ -167,6 +167,9 @@ Número de transacciones que la red puede soportar. Por referencia:
 #### Token
 Unidad digital de algo.
 
+#### TOR
+The Onion Ring: Se trata del internet oculto y anónimo. Se necesita un navegador especial para acceder. Muchas tiendas online ilegales son accesibles sólo por redes TOR.
+
 #### Wallet
 Un programa que almacena claves privadas y permite realizar transacciones.
 
