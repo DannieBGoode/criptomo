@@ -43,7 +43,7 @@ La primera generación Bitcoin solo puede hacer transacciones simples P2P y toda
 Estos problemas son:
 
 #### Escalabilidad.
-**Poder realizar muchas más transacciones por segundo (TPS) sin necesidad de debilitar el protocolo** quitando funcionalidades o patrones de seguridad para logarlo (que es precisamente como la criptomoneda EOS ha conseguido tener tal volumen de tps). BTC y Ethereum todavía soportan poquísimas transacciones por segundo (10 y 30 tps respectivamente), mientras que VISA o Mastercard tienen capacidad para decenas de miles de transacciones. Si alguna vez las criptomonedas desean poder reemplazar a estos métodos convencionales de pago la escalabilidad deberá estar resuelta. Cardano soporta ahora mismo hasta 15 tps, pero está siendo creado de tal manera que cuanto más usuarios haya más tps será capaz de procesar y espera poder escalar sin problemas.
+**Poder realizar muchas más transacciones por segundo (TPS) sin necesidad de debilitar el protocolo** quitando funcionalidades o patrones de seguridad para logarlo (que es precisamente como la criptomoneda EOS ha conseguido tener tal volumen de tps). BTC y Ethereum todavía soportan poquísimas transacciones por segundo (10 y 30 tps respectivamente), mientras que VISA o Mastercard tienen capacidad para decenas de miles de transacciones. Si alguna vez las criptomonedas desean poder reemplazar a estos métodos convencionales de pago la escalabilidad deberá estar resuelta. Cardano soporta ahora mismo hasta 15 tps, pero está siendo creado de tal manera que cuanto más usuarios haya más tps será capaz de procesar y espera poder escalar sin problemas del mismo modo que funciona una red de torrent.
 
 #### Interoperabilidad.
 **Interactuar con otras blockchains**. Cardano no pretende sustituir a Bitcoin ya que prevé un mundo con muchísimas otras monedas en circulación y propone un escenario donde las monedas pueden operar entre ellas y adicionalmente con el sistema bancario clásico.
@@ -74,6 +74,8 @@ El lenguaje de programación utilizado ha sido Haskell, que es un lenguaje muy e
 El código sigue una filosofía Hack-Proof, que es el método que utiliza el ejército o la NASA a la hora de realizar sus desarrollos asumiendo que un error de programación es totalmente inaceptable. Mientras que un error en facebook podría suponer un texto descolocado, un error en un cohete espacial podría significar vidas humanas. Por eso se llevan rigurosos reviews de calidad que aunque no lo hacen imposible de hackear o de fallar, al menos lo hacen bastante más complicado.
 
 Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no siguen esta filosofía. No hay más que mirar al DAO, donde un simple error de programación al poner una línea de código antes que otra ocasionó semejante catástrofe en el mundo de Ethereum que se tuvo que crear una nueva moneda (Ethereum) que solucionara este problema y se intentó meter debajo de la alfombra a la moneda original (que se pasó a llamar Ethereum Classic y sigue siendo cotizada a un precio muy inferior).
+
+{% include video.html provider="youtube" id="-zftnG6BYu4" caption="Entrevista a Charles Hoskinson" %}
 
 ## Dónde Comprar Cardano (ADA)
 
