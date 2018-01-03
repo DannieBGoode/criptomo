@@ -105,6 +105,9 @@ Repositorios de código públicos que nos permite ver el progreso línea por lí
 #### ICO
 Evento en el que los creadores de una criptomoneda venden unidades de ésta antes de que llegue a los exchanges con el fin de levantar capital.
 
+#### Insta-Minado
+Mecanismo de autofinanciación donde los primeros bloques de una moneda se minan muy fácilmente con recompensas muy altas.
+
 #### Mempool
 Espacio donde habitan las transacciones pendientes de verificar que serán recogidas por los mineros.
 
@@ -120,6 +123,9 @@ Dícese de aquel proyecto de software cuyo código es público y puede ser audit
 #### Paper Wallet
 Trozo de papel con la clave privada de una dirección escrita.
 
+#### Pre-Minado
+Obtención de los tokens de una moneda antes de lanzarla al público para que se empiece a minar libremente. Se suele hacer a modo de auto-financiación de proyectos. El preminado es tan sencillo como asignar balances iniciales a ciertas direcciones antes de subir el código al blockchain y que ya no sea modificable.
+
 #### Proof of Work
 Algoritmo de consenso que considera válidas aquellas transacciones incluidas en los bloques cuya Dificultad de Bloque ha sido resuleta por un minero el cual es recompensado por su trabajo. Consume muchísima electricidad puesto que los mineros están calculando millones de combinaciones para dar con la solución correcta.
 
@@ -134,6 +140,9 @@ Creador anónimo de Bitcoin.
 
 #### Satoshi
 Unidad más pequeña de un Bitcoin que se puede obtener. Concretamente es 0.00000001 ฿.
+
+#### Scam
+Timo o estafa. Un Scam-Coin sería una moneda creada y promovida para que las compren otras personas y enriquecerse vendiéndola a pesar de no ofrecer nada innovador. Una característica principal de las Scam-coins es que han sido pre-minadas o insta-minadas por los creadores.
 
 #### Seed
 Contraseña capaz de generar todas las claves privadas de todas las direcciones de un wallet.

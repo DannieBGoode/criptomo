@@ -40,7 +40,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 * [IOTA](../que-es-iota/)
 * [Ethereum](../que-es-ethereum)
 * [Monero](../que-es-monero)
-* Qué es Ripple (próximamente)
+* [Ripple](../que-es-ripple)
 * Qué es Litecoin (próximamente)
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
