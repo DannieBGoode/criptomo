@@ -8,14 +8,13 @@ layout: compress
     {% include seo.html %}    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic" /> -->
-    <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ['Lato:400,400italic,700,700italic']
-        }
-      });
+    <script async 
+            src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" 
+            onload="WebFont.load({
+                    google: {
+                      families: ['Lato:400,400italic,700,700italic']
+                    }
+            });">
     </script>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" />
     <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
