@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Los mejores gestores de contraseñas de 2018"
-description: Explicación básica de qué es una buena contraseña de cómo manejarlas y guardarlas en la mundo de internet
+description: Explicación básica de qué es una buena contraseña de cómo manejarlas y guardarlas en la mundo de internet con los mejores gestores de contraseñas gratis y de pago.
 date:   2017-11-27
 banner_image: 201711/lastpass.jpg
 tags: [seguridad]
