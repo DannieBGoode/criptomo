@@ -30,6 +30,12 @@ exclude:
 analytics:
   google                 : "UA-110091733-1"
 
+crypto:
+  address:
+    bitcoin              : "3CC14Qv9aMZU37CcBFgyQ5JNZmXrWEKdhY"
+    bitcoin-cash         : "18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q"
+    ethereum             : "0xB3853f0F930B6386e11bE4A605d9e444F27eB7F4" 
+
 # The shortname for your Disqus site to enable comments.
 disqus                   : "criptomo"
 
