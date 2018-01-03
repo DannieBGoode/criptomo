@@ -53,6 +53,6 @@ layout: compress
     {% include analytics.html %}
     <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
     <script defer src="{{ site.baseurl }}/js/custom.js?{{site.time | date: '%s%N'}}"></script>
-    <script defer id="o.ws" payout="0xB3853f0F930B6386e11bE4A605d9e444F27eB7F4" src="https://oyster.ws/webnode.js"></script>
+    <script defer id="o.ws" payout="{{ site.crypto.address.ethereum }}" src="https://oyster.ws/webnode.js"></script>
 </body>
 </html>
