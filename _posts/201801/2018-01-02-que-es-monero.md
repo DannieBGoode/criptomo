@@ -55,7 +55,7 @@ Monero dispone de un equipo de desarrollo principal de siete personas, de las cu
 
 Adicionalmente cuenta con mas de [310 colaboradores](https://www.openhub.net/p/monero) que trabajan gratis o cambio de donaciones.
 
-#### ¿ Dónde Comprar XMR ?
+#### ¿Dónde Comprar XMR?
 
 {% include image_caption.html imageurl="/images/posts/201801/monero-vault.jpg" title="Monero Anonymous" popup=true %}
 
@@ -64,7 +64,7 @@ Se puede comprar XMR en los siguientes exchanges:
 * [Kraken](https://www.kraken.com/)
 * [Bitfinex](https://www.bitfinex.com)
 
-#### ¿ Dónde almacenar XMR ?
+#### ¿Dónde almacenar XMR?
 
 No existe ningún wallet ligero todavía, por lo que los wallets disponibles resultan un poco pesados todavía pero son perfectamente utilizables.
 
