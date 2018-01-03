@@ -2,7 +2,7 @@
 	{% if include.popup %}
 	<a class="popup-link" href="{{ include.imageurl }}">
 	{% endif %}
-	    <img src="{{ include.imageurl }}" alt="{{ include.title }}" style="{{ include.style }}"/>
+	    <img src="{{ include.imageurl }}" alt="{{ include.title }}" style="{{ include.style }}" class="{{ include.class }}" />
 	    {% if include.caption %}
 	    <figcaption class="caption-text">{{ include.caption }}</figcaption> 
 	    {% endif %}

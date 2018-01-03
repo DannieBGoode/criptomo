@@ -20,13 +20,16 @@ figure {
 ins {
 	background-color: $mine-shaft !important;
 }
-.imgur-embed {
+.embedded {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .small-image {
 	height: 50px;
+}
+.small-banner {
+	max-width: 40%;
 }
 .site-title {
 	font-weight: bold;

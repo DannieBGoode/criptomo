@@ -1,0 +1,10 @@
+{% capture href %}{{ include.href }}{% endcapture %}
+{% capture caption %}{{ include.caption }}{% endcapture %}
+
+<div class="embedded">
+	<blockquote class="twitter-tweet" data-lang="en">
+		<a href="{{ href }}"></a>
+	</blockquote>
+</div>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<figcaption class="caption-text">{{ caption }}</figcaption>
