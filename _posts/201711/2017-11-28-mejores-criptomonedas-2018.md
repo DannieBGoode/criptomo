@@ -29,6 +29,8 @@ La particularidad que Ethereum tiene, es que una vez desplegado el código al bl
 
 Aunque todavía no haya aplicaciones importantes realizadas sobre Ethereum, su potencial es enorme y la ha convertido rápidamente en la segunda criptomoneda con más mercado además de poseer un equipo de desarrolladores muy fuerte. Mi previsión es que en cuanto la gente empiece a entender su potencial su precio se dispare.
 
+Teneis una guía más completa en [Qué es Ethereum](../que-es-ethereum).
+
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/ethereum/#markets)
 
 ## Bitcoin Cash
@@ -55,7 +57,9 @@ Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones 
 
 {% include image_caption.html imageurl="../images/posts/201711/cardano.png" title="Dash" style="max-width:40%" %}
 
-[Cardano](https://www.cardanohub.org) es una plataforma diseñada por científicos reconocidos, entre ellos Charles Hoskinson (uno de los fundadores de Ethereum). Cardano no pretende competir con BTC o ETH sino que quiere ser el puente entre todas las monedas y el sistema clásico bancario saltándose la centralización que traen consigo los exchanges. Además han seguido el ejemplo de Dash implementado un sistema de financiación por minado y votación. Más información en [Qué es Cardano](../que-es-cardano).
+[Cardano](https://www.cardanohub.org) es una plataforma diseñada por científicos reconocidos, entre ellos Charles Hoskinson (uno de los fundadores de Ethereum). Cardano no pretende competir con BTC o ETH sino que quiere ser el puente entre todas las monedas y el sistema clásico bancario saltándose la centralización que traen consigo los exchanges. Además han seguido el ejemplo de Dash implementado un sistema de financiación por minado y votación.
+
+Más información en [Qué es Cardano](../que-es-cardano).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/cardano/#markets)
 
@@ -63,7 +67,9 @@ Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones 
 
 {% include image_caption.html imageurl="../images/posts/201711/salt.png" title="Dash" style="max-width:40%" %}
 
-[SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. La plataforma haría de intermediario entre el prestatario y aquella gente que no quiere manejar criptomonedas directamente. Más información en [Qué es Salt](../que-es-salt).
+[SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. La plataforma haría de intermediario entre el prestatario y aquella gente que no quiere manejar criptomonedas directamente.
+
+Más información en [Qué es Salt](../que-es-salt).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/salt/#markets)
 
@@ -111,6 +117,8 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [Monero](https://getmonero.org/) ha pasado a ocupar el lugar de Bitcoin en lo que a compras ilegales se refiere. Se trata de una moneda con un nivel de anonimidad muy alto debido a que ofusca toda la información de lo que está ocurriendo. Al contrario que con Bitcoin, no se pueden ver los balances finales de las personas en el blockchain y todas las transacciones son confidenciales.
 
+Teneis una guía más completa en [Qué es Monero](../que-es-monero).
+
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/monero/#markets)
 
 ## Z-Cash
@@ -135,6 +143,8 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [IOTA](https://iota.org/) es la primera moneda que decide prescindir del blockchain para basarse en una nueva tecnología, el **Tangle**. IOTA ofrece una plataforma de mini pagos pensada para el Internet de las Cosas. Proyecta un futuro donde los distintos dispositivos que tenemos en nuestras viviendas realizan pagos de cantidades minúsculas que serían imposibles de realizar con Bitcoin u otras criptomonedas. Ejemplos de esto podrían ser pagos de electricidad puntuales en lugar de a fin de mes, alquileres de robots aspiradoras, etc...
 
+Teneis una guía más completa en [Qué es IOTA](../que-es-iota).
+
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/iota/#markets)
 
 ## Waves
@@ -143,7 +153,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [Waves](https://wavesplatform.com/) intenta hacer la distribución de tokens hiper sencilla y para todos los públicos al permitir que cualquier persona cree su propio token. Por ejemplo si se construye una urbanización nueva de 100 viviendas, por el precio de 1 Wave podrían crearse 100 tokens y distribuirse entre los propietarios de tal manera que la propiedad se justificaría con la posesión de cada token.
 
-[Exchanges](https://coinmarketcap.com/currencies/waves/#markets)
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/waves/#markets)
 
 ## ARK
 
@@ -151,7 +161,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [Ark](https://ark.io/) es una plataforma que pretende conectar todas las demás criptomonedas. Visionando un futuro donde existen demasiadas criptomonedas en circulación, ARK propone ser la aplicación para el consumidor final final que no entiende de criptomonedas.
 
-[Exchanges](https://coinmarketcap.com/currencies/ark/#markets)
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/ark/#markets)
 
 ## Golem
 
@@ -159,7 +169,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [Golem](https://golem.network/) es de las tecnologías más prometedoras del mundo de blockchain. Esta criptomoneda no compite para ser un sustitutivo del dinero convencional sino que se encarga de facilitar el alquiler de poder computacional de manera global. Pongamos un ejemplo, un diseñador de vídeo necesita compilar un video de alta calidad, realizar esta tarea con su ordenador le costaría unas 6 horas, Golem le permitirá alquilar otros ordenadores de la red que no estén siendo utilizados en ese momento para acelerar el proceso.
 
-[Exchanges](https://coinmarketcap.com/currencies/golem-network-tokens/#markets)
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/golem-network-tokens/#markets)
 
 ## EOS
 
@@ -167,7 +177,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [EOS](https://eos.io/) es un claro rival de Ethereum y NEO. Pretende ofrecer una librería de herramientas a la hora de creación de smart contracts. Ofrecen ya una plataforma con costes de transacción más baratos y más transacciones por segundo que Ethereum [a raíz de extirpar alguna de las propiedades](https://www.reddit.com/r/ethereum/comments/6qm0y2/is_the_ethereum_team_defending_their_ground/?st=J5V645OH&sh=fa4932e9) que hacen de Ethereum más auditable y accesible para el ciudadano de a pie.
 
-[Exchanges](https://coinmarketcap.com/currencies/eos/#markets)
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/eos/#markets)
 
 ## Steem
 
@@ -175,7 +185,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
 [Steem](https://steemit.com) es una red social basada en blockchain. Aquellas personas que den más valor a la red social ya sea mediante creación original de contenidos o mediante curación de los mismos reciben recompensas monetarias. Además ha sido identificada como la blockchain con más movimiento del sector a pesar de ser todavía bastante desconocida.
 
-[Exchages](https://coinmarketcap.com/currencies/steem/#markets)
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/steem/#markets)
 
 
 ¿ Echas de menos alguna? ¿ Te gustaría que hablaramos de alguna más a fondo?
