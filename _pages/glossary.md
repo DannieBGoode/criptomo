@@ -66,6 +66,9 @@ Grado de dificultad o tiempo que se necesita para minar el siguiente bloque de u
 #### Dirección Pública
 Hash de una clave pública que puede ser publicada con el fin de recibir fondos sólo accesibles con la clave privada.
 
+#### Dumb Money
+Dinero de la gente corriente que invierte sin entender.
+
 #### Exchange
 Centro de intercambio donde se pueden intercambiar dinero convencional y criptodivisas.
 
@@ -131,6 +134,9 @@ Algoritmo de consenso que considera válidas aquellas transacciones incluidas en
 
 #### Proof of Stake
 Algoritmo de consenso que recompensa/castiga al minero por validar correctamente una transacción en función de las monedas que posee.
+
+#### Pump and Dumps
+Cuando se sube el precio de una moneda comprando muchas unidades para que la gente normal empiece a comprarla también por FOMO y después se vende.
 
 #### Recompensa de Bloque
 Número de criptomonedas que un minero recibe generadas de la nada mediante inflación controlada por validar correctamente un bloque de transacciones.
