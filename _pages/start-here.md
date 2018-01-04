@@ -30,6 +30,11 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 * [Proof of Work - Cómo funciona y por qué consume tanta energía](../que-es-proof-of-work/).
 * [Claves Privadas y Seeds - Conceptos básicos](../clave-privada-vs-seed/)
 
+### Estrategias de inversión
+Aprendamos a invertir mejor
+* [Los 5 principales errores a la hora de invertir en criptomonedas](../principales-errores-traders/)
+* Estrategias de Inversión a Largo Plazo (proximamente)
+
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
 * [Las Altcoins más prometedoras de 2018](../mejores-criptomonedas-2018/)
