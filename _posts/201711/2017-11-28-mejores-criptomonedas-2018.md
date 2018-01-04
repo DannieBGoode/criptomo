@@ -109,6 +109,8 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
  Ripple actúa como un algoritmo de búsqueda de caminos para encontrar la ruta más económica en el mercado de convertir bienes de valor: de dólares a euro, de millas de avión en Bitcoin, etc.
 
+Teneis una guía más completa en [Qué es Ripple](../que-es-ripple).
+
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/ripple/#markets)
 
 ## Monero
