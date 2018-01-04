@@ -60,7 +60,7 @@ Más info de precios en su [web oficial](https://spectrocoin.com/en/bitcoin-debi
 
 {% include image_caption.html imageurl="/images/posts/201712/wirex.png" title="Wirex Card" popup=true %}
 
-[Wirex](https://wirexapp.com/card/) es de las opciones de prepago que más me gustan:
+[Wirex](https://wirexapp.com/card/) ofrece:
 
 * Dispone de tarjeta virtual.
 * Aceptan cuentas en euros, dólares y libras inglesas.
