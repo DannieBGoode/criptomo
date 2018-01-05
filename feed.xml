@@ -18,7 +18,7 @@ layout: null
                 <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
                 <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
                 <image>
-                    <url>{{ post.banner_image | xml_escape }}</url>
+                    <url>{{ post.banner_image | prepend: site.imageurl | prepend: site.baseurl | prepend: site.url | xml_escape }}</url>
                     <title>{{ post.title | xml_escape }}</title>
                     <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
                 </image>

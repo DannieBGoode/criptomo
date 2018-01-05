@@ -14,6 +14,8 @@ tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y de
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : ""
+# Paths for post images used in the feed.xml
+imageurl                 : "/images/posts/"
 repository               : "DannieBGoode/criptomo"
 sass:
   style                  : compressed
