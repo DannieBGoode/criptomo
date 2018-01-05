@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Los 5 principales errores a la hora de invertir a largo plazo en criptomonedas
-description: Los cinco principales errores que todos hemos cometido y tal vez seguimos cometiendo a la hora de invertir a largo plazo en criptomonedas.
+title: Los 5 errores básicos al invertir a largo plazo en criptomonedas
+description: Descubre los cinco principales errores que todos hemos cometido a la hora de invertir a largo plazo en criptomonedas y cómo evitarlos.
 banner_image: 201801/mistakes.jpg
 tags:
   - trading
