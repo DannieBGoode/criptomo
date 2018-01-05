@@ -20,7 +20,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 * Empieza preguntándote [qué es Bitcoin](../que-es-bitcoin/), la primera criptomoneda.
 * Aprende a tener contraseñas seguras usando [gestores de contraseñas](../mejores-gestores-contrasenas/).
 * No pierdas todos tus fondos, [guía de cómo debería guardar mis criptomonedas](../como-guardar-criptomonedas/).
-* Deseas empezar a invertir, aprende [cómo puedo comprar mis primeras criptomonedas](../como-comprar-criptomonedas/).
+* Deseas empezar a invertir, aprende [cómo puedo **comprar mis primeras criptomonedas**](../como-comprar-criptomonedas/).
 * Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con [tarjetas de crédito cripto](../tarjeta-debito-criptomonedas/), comparativa de las mejores tarjetas.
 
 
@@ -49,4 +49,4 @@ Aprendamos a invertir mejor
 * Qué es Litecoin (próximamente)
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
-* [Cómo comprar Altcoins](../como-comprar-altcoins/)
+* Guía de [cómo comprar Altcoins](../como-comprar-altcoins/)

@@ -167,3 +167,9 @@ Cómo tarjeta de pre-pago la clara ganadora es Bitwalla por su capacidad de real
 
 Existe otra tarjeta de crédito llamada [TokenCard](https://tokencard.io/) que también parece muy prometedora, y si permitirá al usuario guardar su propia clave privada pero por falta de información he decidido no ponerla todavía.
 
+
+
+**UPDATE 05/01/2017: Las visas de las siguientes tarjetas han sido desactivadas temporalmente después de que su proveedor de tarjetas interrumpiera repentinamente su servicio: Bitwala, TenX, Xapo, Wirex, Bitpay dejando únicamente operativa a Monaco.** Por lo que parece Monaco está llevando más allá su seriedad a la hora de gestionar sus tarjetas de débito.
+
+{% include tweet.html href="https://twitter.com/cryptomanran/status/949294877979766784?ref_src=twsrc%5Etfw" %}
+
