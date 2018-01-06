@@ -28,7 +28,7 @@ Vayamos directamente a ejemplos prácticos:
 
 Uno de los métodos de hackeo más típicos consiste en el ataque por diccionario. Básicamente existe una lista de las contraseñas más usadas globalmente, y estadísticamente es más que probable que alguien consiga entrar a una cuenta robada probando con alguna de la lista.
 
-Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la lista que se usa en estos ataques tiene miles de contraseñas que a una máquina le cuesta menos de un segundo probar, así que no cantes victoria si no ves tu contraseña aquí escrita:
+Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la lista que se usa en estos ataques tiene miles de contraseñas que a una máquina le cuesta menos de un segundo probar, así que no canteis victoria si no veis vuestra contraseña aquí escrita:
 
 - `123456`
 - `password`
@@ -70,7 +70,7 @@ Puestos a utilizar información personalizada y fácil de recordar al menos vamo
 
 ### Todavía mejor: `caballo redondo infierno reloj escaparate`
 
-Si combinamos los dos casos anteriores donde recomendamos contraseñas largas que además no tienen información personalizada llegamos a un escenario bastante bueno.
+Si combinamos los dos casos anteriores obtenemos contraseñas largas que además no tienen información personalizada lo cual es un escenario bastante bueno.
 
 Al principio puede parecer una locura recordar algo así, pero si hacemos uso de pequeños trucos mnemotécnicos (como imaginarnos a un caballo redondo en el infierno mirando un reloj en un escaparate) de repente nos damos cuenta de que ya la hemos memorizado.
 
