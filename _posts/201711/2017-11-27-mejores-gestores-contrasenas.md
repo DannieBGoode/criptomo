@@ -15,7 +15,7 @@ Imaginad que hackean una web, ni siquiera es una web importante, tan solo es una
 
 Tampoco sería la primera vez que una vez dentro deciden cambiarte la contraseña, y escribirte pidiendo un rescate ( un pago probablemente en criptomonedas por el tema de anonimidad) si te interesa recuperar tu información. Tampoco sería la primera vez que la persona que te hackea, puesto que te odia por las cosas que dices en twitter, decide borrarte inmediatamente años de fotos y videos familiares de tus cuentas, momentos muy preciados que ya nunca recuperarás.
 
-La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y ninguna se decidieron.
+La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y nunca se decidieron.
 
 Os animo a que con este artículo os animeis a por fin dar el paso.
 
@@ -28,7 +28,7 @@ Vayamos directamente a ejemplos prácticos:
 
 Uno de los métodos de hackeo más típicos consiste en el ataque por diccionario. Básicamente existe una lista de las contraseñas más usadas globalmente, y estadísticamente es más que probable que alguien consiga entrar a una cuenta robada probando con alguna de la lista.
 
-Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la lista que se usa en estos ataques tiene miles de contraseñas que a una máquina le cuesta menos de un segundo probar, así que no cantes victoria si no ves tu contraseña aquí escrita:
+Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la lista que se usa en estos ataques tiene miles de contraseñas que a una máquina le cuesta menos de un segundo probar, así que no canteis victoria si no veis vuestra contraseña aquí escrita:
 
 - `123456`
 - `password`
@@ -70,7 +70,7 @@ Puestos a utilizar información personalizada y fácil de recordar al menos vamo
 
 ### Todavía mejor: `caballo redondo infierno reloj escaparate`
 
-Si combinamos los dos casos anteriores donde recomendamos contraseñas largas que además no tienen información personalizada llegamos a un escenario bastante bueno.
+Si combinamos los dos casos anteriores obtenemos contraseñas largas que además no tienen información personalizada lo cual es un escenario bastante bueno.
 
 Al principio puede parecer una locura recordar algo así, pero si hacemos uso de pequeños trucos mnemotécnicos (como imaginarnos a un caballo redondo en el infierno mirando un reloj en un escaparate) de repente nos damos cuenta de que ya la hemos memorizado.
 

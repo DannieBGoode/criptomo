@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Qué es Ripple
-description: Ripple ha superado a Ethereum como la segunda criptomoneda con más capitalización del mercado aumentando un 400% su valor. Veamos qué ofrece exactamente y cual podría ser su previsión.
+description: La criptomoneda Ripple ha superado a Ethereum como la segunda con más capitalización del mercado aumentando un 400% su valor. Veamos qué ofrece exactamente y cual podría ser su previsión.
 banner_image: 201801/ripple-banks.jpg
 tags:
   - altcoins
