@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cómo guardar criptomonedas de manera segura
+title:  👜 Cómo guardar criptomonedas de manera segura
 description: La mejor manera de almacenar y guardar bitcoins y otras criptomonedas. Ranking de los mejores wallets / monederos para principiantes para no perder nuestra inversión y evitar robos
 date:   2017-11-23
 banner_image: 201711/bitcoin-wallet.jpg
