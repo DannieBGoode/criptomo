@@ -15,7 +15,7 @@ Imaginad que hackean una web, ni siquiera es una web importante, tan solo es una
 
 Tampoco sería la primera vez que una vez dentro deciden cambiarte la contraseña, y escribirte pidiendo un rescate ( un pago probablemente en criptomonedas por el tema de anonimidad) si te interesa recuperar tu información. Tampoco sería la primera vez que la persona que te hackea, puesto que te odia por las cosas que dices en twitter, decide borrarte inmediatamente años de fotos y videos familiares de tus cuentas, momentos muy preciados que ya nunca recuperarás.
 
-La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y ninguna se decidieron.
+La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y nunca se decidieron.
 
 Os animo a que con este artículo os animeis a por fin dar el paso.
 
