@@ -1,6 +1,3 @@
-- Por que debemos medir nuestras ganancias en satoshis y no USD o EUR
-https://www.youtube.com/watch?v=FkKYuoRg6jM
-
 - Inflación explicada.
 Cómo se financian guerras. Cada año somos más pobres. Tenemos más deuda. Bitcoin vale más cada vez. Es deflatorio. apoya a los ahorradores en lugar de la inflación que es un impuesto oculto con el que se penaliza a la gente que no participa en el capitalismo.
 
@@ -12,8 +9,12 @@ Halvening 50 BTC ahora estamos a 25
 Bitcoin no es anónimo es pseudónimo en contraposicion a otras monedas como zCash.
 Dash por ejemplo ofrece Instand Send
 
+- segwit https://segwit.org/my-vision-for-segwit-and-lightning-networks-on-litecoin-and-bitcoin-cf95a7ab656b
+
 - https://blockgeeks.com/guides/neo-blockchain/
+
 - https://blockgeeks.com/guides/what-is-raiden-lightning-protocol/
+https://www.reddit.com/r/Bitcoin/comments/7npeh6/lightning_network_megathread/
 
 - la historia de las criptomonedas
 
@@ -29,6 +30,7 @@ https://makerdao.com/
 - private vs public blockchains
 
 - estrategia a LP de inversion
+screenshot de 1 año
 
 - Replay attacks https://blockgeeks.com/guides/what-is-bitcoin-cash/
 
@@ -43,10 +45,67 @@ http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf
 - que es smart cash
 https://steemit.com/crypocurrency/@msg768/smartcash-what-is-it-and-why-you-should-care
 
-- que es monero
-https://www.youtube.com/watch?v=6DQb0cMvU7I
-https://www.youtube.com/channel/UCnjUpT9gGxyQ_lud7uKoTCg
-
 - eos
 https://www.youtube.com/watch?v=QxKqKVsLYLA
 eos uses DelegatedPoS
+
+- que es raiblocks
+https://www.youtube.com/watch?v=o8aLOAWiDio
+https://www.youtube.com/watch?v=CrkiVcxXfI4
+https://hackernoon.com/iota-vs-raiblocks-413679bb4c3e
+
+- que es oyster
+https://www.youtube.com/watch?v=WMvuQ1-x154
+monero coinhive mining
+
+- que es dogecoin
+
+- que es tron
+
+- siacoin vs storj vs filecoin vs oyster
+https://www.reddit.com/r/storj/comments/745hf5/siacoin_vs_storj/
+https://medium.com/tokenreport/filecoin-v-sia-storj-maidsafe-the-crowded-push-for-decentralized-storage-7157eb5060c9
+
+- docuementales recomendados
+requiem for the american dream
+the big short
+banking on bitcoin
+inside job
+
+- como montar un crypto folio con 500$
+https://www.youtube.com/watch?v=DGH76Nln9NI
+
+- translate blog
+
+- recompensas por minado a los autores
+explicarlo en una hoja de COLLABORATE WITH ME
+puedes colaborar con: noticias / explicaciones de criptomonedas / trucos / guías de trading / tecnología.
+Yo actuaré como editor, decidiré que contenido entra. En principio todo va a entrar si se hace con cabeza y pienso que tiene valor educativo.
+Los contenidos deben inspirar al usuario a estar unos minutos leyendo. Tiempos de visita cortos no lograran recompensas de minado importantes.
+Dad vuestros datos y vuestra dirección de Ethereum
+
+- blog post de GANA CRIPTOMONEDAS ESCRIBIENDO PARA EL BLOG! con una pequeña guía.
+
+- polls
+
+- pagina de personas que deberías conocer. antonolopoulos, jimmy song, roger ver
+
+- bitcoin diamond y guia para otros forks
+https://medium.com/@jimmysong/bitcoin-diamond-super-bitcoin-bitcore-what-you-need-to-know-f49c35688a39
+
+- tacticas de tradingf
+https://www.youtube.com/watch?v=embu6Vy-M78 (trading view, moving averages 50, 100, 200, alerts)
+https://www.youtube.com/watch?v=RQtvpNYtLfw
+https://www.youtube.com/watch?v=pYWdrn3JD40
+
+- sell the blog theme with CSS revamp
+* jekyll
+* free hosting
+* free cdn
+* free https
+* its responsive
+* google adsense support
+* seo optimized
+* tweets
+* crypto miners
+* multi language

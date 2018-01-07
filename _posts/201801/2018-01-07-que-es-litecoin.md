@@ -51,6 +51,8 @@ Charlie Lee es una celebridad bastante conocida en el mundo de las criptomonedas
 
  > Por esta razón, durante los últimos días he vendido y donado todos mis LTC. Litecoin se ha portado muy bien conmigo economicamente y me encuentro en una posición en la que no necesito atar mi éxito personal al de Litecoin. Por primera vez en 6+ años puedo decir que no poseo ni un solo LTC. <cite>Charlie Lee</cite>
 
+El resto del equipo tanto miembros oficiales como voluntarios puede ser consultado en la página web de la [Fundación Litecoin](https://litecoin-foundation.org/about-us/) registrada en Singapur.
+
 {% include video.html provider="youtube" id="U2KP8koYC3s" caption="Entrevista a Charlie Lee" %}
 
 #### ¿Dónde Comprar Litecoin?
