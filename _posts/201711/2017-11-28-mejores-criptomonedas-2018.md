@@ -29,7 +29,7 @@ La particularidad que Ethereum tiene, es que una vez desplegado el código al bl
 
 Aunque todavía no haya aplicaciones importantes realizadas sobre Ethereum, su potencial es enorme y la ha convertido rápidamente en la segunda criptomoneda con más mercado además de poseer un equipo de desarrolladores muy fuerte. Mi previsión es que en cuanto la gente empiece a entender su potencial su precio se dispare.
 
-Teneis una guía más completa en [Qué es Ethereum](../que-es-ethereum).
+Teneis una guía más completa en [Qué es Ethereum](/que-es-ethereum).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/ethereum/#markets)
 
@@ -41,7 +41,7 @@ Teneis una guía más completa en [Qué es Ethereum](../que-es-ethereum).
 
 Dejando de un lado el debate de cuál es el verdadero Bitcoin, lo que está claro es que todavía va a dar mucha guerra al menos hasta que Bitcoin arregle sus problemas de escalabilidad y costes.
 
-Teneis una guía más completa en [Qué es Bitcoin Cash](../que-es-bitcoin-cash).
+Teneis una guía más completa en [Qué es Bitcoin Cash](/que-es-bitcoin-cash).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/bitcoin-cash/#markets)
 
@@ -59,7 +59,7 @@ Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones 
 
 [Cardano](https://www.cardanohub.org) es una plataforma diseñada por científicos reconocidos, entre ellos Charles Hoskinson (uno de los fundadores de Ethereum). Cardano no pretende competir con BTC o ETH sino que quiere ser el puente entre todas las monedas y el sistema clásico bancario saltándose la centralización que traen consigo los exchanges. Además han seguido el ejemplo de Dash implementado un sistema de financiación por minado y votación.
 
-Más información en [Qué es Cardano](../que-es-cardano).
+Más información en [Qué es Cardano](/que-es-cardano).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/cardano/#markets)
 
@@ -69,7 +69,7 @@ Más información en [Qué es Cardano](../que-es-cardano).
 
 [SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. La plataforma haría de intermediario entre el prestatario y aquella gente que no quiere manejar criptomonedas directamente.
 
-Más información en [Qué es Salt](../que-es-salt).
+Más información en [Qué es Salt](/que-es-salt).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/salt/#markets)
 
@@ -88,6 +88,8 @@ Lo más importante a destacar de OmiseGo es que está recibiendo mucho apoyo en 
 {% include image_caption.html imageurl="../images/posts/201711/litecoin.png" title="Litecoin" class="small-banner" %}
 
 [Litecoin](https://litecoin.org/) es una versión mucho más ligera y rápida que Bitcoin creada por Charlie Lee. Existe la posibilidad de que en un futuro Bitcoin se acabe utilizando únicamente como modelo de almacenamiento de valor, en este escenario, monedas como Litecoin o Bitcoin Cash crecerían muchísimo en valor.
+
+Teneis una guía más completa en [Qué es Litecoin](/que-es-litecoin).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/litecoin/#markets)
 
@@ -109,7 +111,7 @@ NEO está respaldado por el gobierno chino (mientras que Ethereum no está respa
 
  Ripple actúa como un algoritmo de búsqueda de caminos para encontrar la ruta más económica en el mercado de convertir bienes de valor: de dólares a euro, de millas de avión en Bitcoin, etc.
 
-Teneis una guía más completa en [Qué es Ripple](../que-es-ripple).
+Teneis una guía más completa en [Qué es Ripple](/que-es-ripple).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/ripple/#markets)
 
@@ -119,7 +121,7 @@ Teneis una guía más completa en [Qué es Ripple](../que-es-ripple).
 
 [Monero](https://getmonero.org/) ha pasado a ocupar el lugar de Bitcoin en lo que a compras ilegales se refiere. Se trata de una moneda con un nivel de anonimidad muy alto debido a que ofusca toda la información de lo que está ocurriendo. Al contrario que con Bitcoin, no se pueden ver los balances finales de las personas en el blockchain y todas las transacciones son confidenciales.
 
-Teneis una guía más completa en [Qué es Monero](../que-es-monero).
+Teneis una guía más completa en [Qué es Monero](/que-es-monero).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/monero/#markets)
 
@@ -145,7 +147,7 @@ Teneis una guía más completa en [Qué es Monero](../que-es-monero).
 
 [IOTA](https://iota.org/) es la primera moneda que decide prescindir del blockchain para basarse en una nueva tecnología, el **Tangle**. IOTA ofrece una plataforma de mini pagos pensada para el Internet de las Cosas. Proyecta un futuro donde los distintos dispositivos que tenemos en nuestras viviendas realizan pagos de cantidades minúsculas que serían imposibles de realizar con Bitcoin u otras criptomonedas. Ejemplos de esto podrían ser pagos de electricidad puntuales en lugar de a fin de mes, alquileres de robots aspiradoras, etc...
 
-Teneis una guía más completa en [Qué es IOTA](../que-es-iota).
+Teneis una guía más completa en [Qué es IOTA](/que-es-iota).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/iota/#markets)
 
