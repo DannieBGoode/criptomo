@@ -64,7 +64,7 @@ Topología de organización que permite que no haya un solo punto central que se
 Grado de dificultad o tiempo que se necesita para minar el siguiente bloque de un blockchain. Normalmente es autorregulado por la red en función de la fuerza de minado presente en la red para que cada bloque tarde siempre lo mismo en ser resuelto.
 
 #### Dirección Pública
-Hash de una clave pública que puede ser publicada con el fin de recibir fondos sólo accesibles con la clave privada.
+Hash de una clave pública que puede ser publicada con el fin de recibir fondos sólo accesibles con la clave privada. Para Bitcoin una dirección tendría este formato: `3CC14Qv9aMZU37CcBFgyQ5JNZmXrWEKdhY`.
 
 #### Dumb Money
 Dinero de la gente corriente que invierte sin entender.
