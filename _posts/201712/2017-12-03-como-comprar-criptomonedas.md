@@ -73,6 +73,18 @@ En cualquier caso la manera más habitual es comprar al precio de mercado en ese
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" title="Coinbase Purchases" popup=true %}
 
+### GDAX
+
+Coinbase tiene una comisión por compra de **1.5%**, podemos optar a comisiones más bajas si usamos el segundo exchange de Coinbase llamado [GDAX](https://www.gdax.com). Podemos acceder a él con nuestra misma cuenta de Coinbase, ya que son en realidad la misma empresa, y se nos pedirá que utilicemos un segundo documento de verificación distinto al utilizado en el tercer paso de esta guía. GDAX ofrece comisiones del **0.25%**, por lo que recomiendo altamente realizar las compras ahí frente a Coinbase.
+
+Una vez verificada nuestra cuenta de GDAX, desde su página principal podemos acceder a los fondos que tenemos en Coinbase dándole a la opción de `DEPOSIT` y rellenando el siguiente formulario:
+
+{% include image_caption.html imageurl="/images/posts/201712/gdax.png" title="GDAX Deposit" popup=true %}
+
+Una vez llegados a este punto elegimos la moneda que queremos comprar. Por ejemplo si tenemos euros y queremos comprar Bitcoin elegiríamos `BTC/EUR`. Si en cambio tenemos Bitcoin y queremos comprar Ethereum seleccionaríamos `ETH/BTC`. Especificamos debajo la cantidad a gastar y le damos a `BUY`.
+
+{% include image_caption.html imageurl="/images/posts/201712/gdax2.png" title="GDAX Purchase" popup=true %}
+
 Llegados a este punto, si lo que deseamos es comprar monedas que no existen en el exchange principal, podéis continuar en el artículo [cómo comprar altcoins](../como-comprar-altcoins/).
 
 ## 6. Movemos nuestros fondos a un wallet
