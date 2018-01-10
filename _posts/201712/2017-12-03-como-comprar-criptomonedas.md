@@ -55,11 +55,15 @@ Este proceso de verificación pensado para evitar blanqueo de capitales puede ll
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-verify.png" title="Coinbase Verification" popup=true %}
 
+Para el caso de Coinbase podemos verificar inicialmente nuestra cuenta con DNI, pasaporte o carnet de conducir, y el proceso no debería llevar más de unas horas aunque dependerá del volumen de gente que esté registrándose en ese momento.
+
 ## 4. Envíamos el dinero a invertir.
 
 Una vez logueamos le daremos a DEPOSITAR para ver los distintos métodos de pago. Algunas webs permiten pagos con tarjeta de crédito pero lo normal es transferencia SEPA para la cual se nos dará un número de cuenta, un beneficiario y **un código que deberemos poner en la razón de la transferencia para poder ser identificados fácilmente**.
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-payment.png" title="Coinbase Payment Methods" popup=true %}
+
+Coinbase acepta tanto pagos con tarjeta de crédito como transferencias SEPA. Tened en cuenta que los pagos con tarjeta de crédito llevan una comisión extra asociada y además no se puede pagar más de 500€ a la semana. Si usamos transferencia SEPA, la transferencia tardará unos días hábiles pero podremos disponer de un límite de 15000€ a la semana y menores comisiones.
 
 ## 5. Compramos la criptomoneda deseada
 
@@ -68,6 +72,8 @@ Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en
 En cualquier caso la manera más habitual es comprar al precio de mercado en ese momento, compra que será prácticamente instantánea y veremos reflejada en nuestra cuenta al lado de dónde ponía cuánto dinero fiat teníamos en nuestra cuenta.
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" title="Coinbase Purchases" popup=true %}
+
+Llegados a este punto, si lo que deseamos es comprar monedas que no existen en el exchange principal, podéis continuar en el artículo [cómo comprar altcoins](../como-comprar-altcoins/).
 
 ## 6. Movemos nuestros fondos a un wallet
 
@@ -80,5 +86,4 @@ Para moverlas desde Coinbase a un wallet deberemos ir a nuestra cuenta, darle a 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" title="Coinbase Send" popup=true %}
 
 Si en el futuro decidimos cambiar nuestras monedas por otras que nos parezcan más prometedoras o sencillamente queremos venderlas ya deberemos hacer el proceso inverso, empezando por moverlas del wallet al exchange.
-
 
