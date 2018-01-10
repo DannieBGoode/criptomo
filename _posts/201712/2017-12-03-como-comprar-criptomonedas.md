@@ -73,7 +73,7 @@ En cualquier caso la manera más habitual es comprar al precio de mercado en ese
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" title="Coinbase Purchases" popup=true %}
 
-### GDAX
+##### GDAX
 
 Coinbase tiene una comisión por compra de **1.5%**, podemos optar a comisiones más bajas si usamos el segundo exchange de Coinbase llamado [GDAX](https://www.gdax.com). Podemos acceder a él con nuestra misma cuenta de Coinbase, ya que son en realidad la misma empresa, y se nos pedirá que utilicemos un segundo documento de verificación distinto al utilizado en el tercer paso de esta guía. GDAX ofrece comisiones del **0.25%**, por lo que recomiendo altamente realizar las compras ahí frente a Coinbase.
 
