@@ -1,54 +1,86 @@
 ---
 layout: post
-title:  Qué es Bitcoin - Guia Básica
-description: Explicación básica para principiantes de qué es y cómo funciona Bitcoin, la primera criptomoneda.
-date:   2017-11-10
+title:  Qué es Bitcoin
+description: Qué es Bitcoin, cómo funciona, quien la creo, es o no una burbuja. Explicaciones para principiantes. Guía básica.
 banner_image: 201711/bitcoin.jpg
-
 tags: [bitcoin]
 ---
 
 Bitcoin es una moneda electrónica creada digitalmente basándose en principios de criptografía. Nadie puede controlarla, no puede ser impresa, ni copiada y es generada mediante un procedimiento de inflación controlada que premia a los colaboradores (mineros) con más unidades.
-
 Se trata del primer ejemplo de la creciente categoría de dinero electrónico conocido como criptomonedas y su principal característica es que está descentralizada, es decir, fuera de cualquier posibilidad de regulación directa por cualquier entidad gubernamental
 
 <!--more-->
 
-## ¿ Cómo funciona el Bitcoin ?
+Para explicaciones más básicas podéis consultar el artículo [qué es una criptomoneda](/que-es-una-criptomoneda).
 
-Si nos ponemos estrictos podemos decir que el bitcoin en sí no existe, solo existen las transacciones que se realizan con él. De hecho, cuando cualquier poseedor de bitcoin mira su balance, lo que realmente está viendo es  su parte correspondiente de la suma de  todas las transacciones realizadas desde el principio de los tiempos (*el bloque génesis*). Hagamos una analogía más sencilla para explicar cómo funciona:
+## Objetivo
+El objetivo original de Bitcoin, es devolver el poder financiero a las personas. Después de la crisis bancaria de 2009 y descontenta con los niveles de inflación y corrupción que existen, Bitcoin pretende acabar con los sistemas bancarios tradicionales arrebatandoles el poder de imprimir dinero a sus anchas convirtiendo a cada persona en su propio banco. **La red de Bitcoin jamás podrá ser desconectada mientras existan usuarios dispuestos a utilizarlo y jamás podrán imprimirse más tokens que los que se acordaron inicialmente**.
 
-Imaginaros por un momento que estáis reunidos con otras personas en una oficina todos sentados mirándoos los unos a otros. Una persona del grupo tiene el turno para poder hablar (1 bitcoin), el turno es suyo y todos los demás están de acuerdo. Ahora cuando esa persona gaste su turno dirigiéndose a cualquier otra persona, esa segunda persona pasará a tener el turno. El turno no es algo tangible, ni físico, no puede ser pintado ni movido fuera de las reglas que todo el grupo entiende y acepta. Si alguien decide saltarse las reglas y hablar fuera de turno, el resto del grupo le ignorará. Si otra persona decide irse al baño y volver, siempre puede preguntar al resto quien tiene ahora el turno.
+Adicionalmente, pretende dotar de poderes de pago a las cientas de millones de personas en el tercer mundo que no disponen siquiera de cuenta bancaria. Lo que en inglés llaman *Banking the Unbanked*. Un usuario con un dispositivo móvil y la capacidad de recordar su contraseña tendría todo lo que necesita para formar parte de la economía internacional, recibiendo y transmitiendo pagos a nivel internacional y sin fronteras.
 
-Ahora imaginad que el intercambio de turnos requiere de mediadores que se aseguren de que el turno se traspase correctamente (mineros). Estos mediadores que también pueden poseer turnos ellos mismos además de cobrar una minúscula comisión por sus servicios, serán recompensados con nuevos turnos en agradecimiento por su labor. Estos nuevos turnos serán generados de la nada de manera controlada y conocida (hasta que haya exactamente 21 millones de turnos allá por el año 2100, momento tras el cual se dejarán de generar más Bitcoins) y todo el mundo sentado en la mesa acepta que un mediador que haga su labor correctamente sea provisto de nuevos turnos.
+## Origen
 
-Nos encontramos entonces en un escenario donde existen varios turnos, que pueden ser poseídos por la misma o distinta personas, y para hacerlo más complicado imaginemos también que se puede gastar solo medio turno, u otras fracciones del mismo. Obviamente para un ser humano sería más complicado seguir el ritmo de todos los intercambios de turnos que están ocurriendo, pero cuando delegamos la cuenta de todos estos registros (blockchain) a una máquina este problema desaparece.
+Bitcoin fue creado por una persona anónima de la cual sólo se conoce su pseudónimo, Satoshi Nakamoto. Satoshi frecuentaba unos foros de criptografía donde publicó en 2008 un <a rel="nofollow" href="https://bitcoin.org/bitcoin.pdf" target="_blank">whitepaper</a> donde en tan sólo siete páginas explicó el funcionamiento de todo el sistema. Además estuvo a cargo del desarrollo hasta que desapareció misteriosamente en 2010.
 
-De repente tenemos un ecosistema entero de turnos y fracciones de turnos y siempre y cuando haya consenso en cuanto a las reglas de intercambio de los mismos el ecosistema se mantendrá estable.
+## Tecnología
 
-## ¿ Por qué hay tantas criptomonedas ?
+Bitcoin está diseñado para que sólo existan 21 millones de monedas en circulación, que habrán sido distribuidas a todos los mineros para el año 2140.
 
-Existen ya cientas de criptomonedas similares a Bitcoin en mayor o menor medida. Cada una de ella intenta resolver el mismo problema de maneras ligeramente distintas con el fin de mejorar la innovación que trajo consigo el Bitcoin. Algunas prometen más velocidad, otras más anonimidad, otras prometen precios de transacción más bajos, etc...
+{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+|                      | Bitcoin                |
+|:--------------------:|:----------------------:|
+| Monedas Totales      | 21 millones            |
+| Algoritmo PoW        | SHA-256                |
+| Tiempo de Bloque     | 10 minutos             |
+| Tamaño de Bloque     |     1MB                |
+|Recalculo Dificultad  | cada 2016 bloques      |
+|Recompensa Inicial    |   50 BTC               |
+|Recompensa Actual     |   25 BTC               |
+|Cambio de Recompensa  | cada 210000 bloques    |
+|Explorador de Bloques | www.blockchain.info    |
+| Creador              | Satoshi Nakamoto       |
+| Fecha creación       | 3 de Enero de 2009     |
+| Capitalización       | $288,002,717,905	    |
 
-{% include image_caption.html imageurl="../images/posts/201711/criptomonedas.jpg" title="Criptomonedas" caption="pequeña selección de criptomonedas en 2017" %}
+#### Minería
 
-Durante los últimos meses de 2017 se crearon dos nuevas monedas denominadas Bitcoin Cash y Bitcoin Gold. Aunque tengan la palabra Bitcoin delante, realmente son monedas nuevas y no deben confundirse con el Bitcoin principal. La característica que tienen éstas dos últimas es que fueron creadas como copias del Bitcoin original manteniendo su historial de transacciones pero con reglas ligeramente distintas, copia que se denomina *fork*. Para entender esto volvamos al ejemplo anterior de los turnos donde todos están reunidos:
+Cualquier persona puede además operar como minero encargándose de verificar las transacciones del resto mediante el algoritmo [Proof of Work](/que-es-proof-of-work). Aproximadamente cada 10 minutos un minero valida con éxito transacciones pasadas y es recompensado con más bitcoins (actualmente 25BTC). Este mecanismo de repartir riqueza reemplaza la necesidad de tener una entidad bancaria central.
 
-Imaginemos ahora que una de las personas reunidas, llamémosla Mark, decide que no le gustan las reglas de la mesa, especificamente no le gusta el hecho de que los mediadores sean todos licenciados en psicología, que era una de las reglas que todos acordaron al empezar la reunión. Mark argumenta que si cualquier persona pudiera ser mediadora se podrían abaratar las comisiones de intercambio de turnos. 
-La mayor parte de la mesa prefiere no cambiar el sistema puesto que lleva meses funcionando correctamente y además considera que un licenciado en psicología garantiza calidad en los intercambios a pesar de incentivarse más. Mark entonces, muy educadamente se levanta y dice que va a crear su propia mesa de reuniones y que todos los presentes están invitados a venir a su mesa en cualquier momento si así lo desean. Además Mark les garantiza que vengan cuando vengan, se les respetarán los turnos que tienen en exactamente ese momento de bifurcación de la mesa original, y de la misma manera, sus compañeros le garantizan a Mark que si decide más tarde sentarse aunque sea temporalmente en la mesa original todavía podrá hacer uso de los turnos que dejó al levantarse, puesto que le siguen correspondiendo. De esta manera una persona que más adelante gaste sus turnos en la primera mesa, siempre podrá ir a la mesa de Mark y volverlos a gastar pero sujeto a las reglas de la segunda mesa y al revés. La única salvedad es que los turnos no son intercambiables de mesa a mesa puesto que se rigen por reglas distintas.
+Cada vez que un minero valida con éxito un bloque (conjunto de transacciones pasadas) el bloque será añadido al blockchain y propagado entre todos los usuarios.
 
-En conclusión hemos creado un *fork* del protocolo inicial a un segundo caso de uso pero con reglas distintas manteniendo el historial de transacciones pasadas. Esto explica porque aquellas personas que tuvieran Bitcoin en los momentos de fork, automáticamente obtuvieron también Bitcoin Cash y Bitcoin Gold.
+El protocolo de Bitcoin está pensado para que se ajuste la dificultad de resolver un bloque de tal manera que haya uno resuelto cada 10 minutos. Si aumenta el poder computacional de los mineros porque meten más ordenadores para calcular las transacciones, la dificultad aumentará dejando los 10 minutos constantes. Además el protocolo divide por dos la recompensa de los mineros cada cuatro años.
 
-La mayor parte de las criptomonedas no son creadas de esta misma manera sino que una vez deciden un conjunto de reglas nuevas, empiezan con el historial en blanco.
+#### Transacciones
+
+Una transacción recién emitida figurará como *Unconfirmed*. Esto quiere decir que todavía no ha sido validada por los mineros ni añadida al blockchain, pero si ha sido validada como correcta en cuanto a si tenemos balance suficiente para poder emitirla.
+
+Cuando los mineros la recojan, la meterán a un bloque junto a otras transacciones y minarán con el fin de validar el bloque mediante Proof of Work. Una vez resuelto, el bloque se situará en el blockchain y otros bloques serán montados encima según se vayan confirmando. **Cuantos más bloques confirmados encima tenga una transacción, más definitiva se considera**. Después de 6 confirmaciones (60 minutos) la transacción se considerará totalmente confirmada.
+
+Esto es debido a problemas que pueden suceder si dos mineros validan sus bloques simultáneamente. Supongamos que un bloque con unas transacciones es validado por un minero en España y otro bloque con otras transacciones es validado en Australia. A media que los nodos van propagando su versión del blockchain por el mundo de repente los nodos que se encuentren a medio camino recibirán dos versiones, ambas perfectamente válidas.
+
+El modo en que el protocolo de Bitcoin resuelve este conflicto es esperando a que se valide el siguiente bloque. Los mineros de Australia seguirán minando para la primera versión del blockchain que han recibido, y si son más rápidos que los del otro lado del mundo validando, de repente su versión del blockchain ya estará 1 bloque por delante de la versión española. **Ante conflictos el protocolo de blockchain siempre descartará la versión más corta del blockchain** por lo que se quedará con la australiana.
+Es por esto que transacciones que inicialmente parecian confirmadas en el blockchain español de repente ya no lo estarán, aunque serán validadas en un siguiente bloque un poco más tarde.
+
+Un error habitual es que como una transacción puede tardar 10 minutos en ser añadida a un bloque y luego hasta 50 más para que más bloques se monten encima y la transacción se considerar totalmente confirmada, Bitcoin jamás podrá ser utilizado en la vida cotidiana, pero para el uso del dia a dia sería perfectamente posible para un comerciante aceptar pagos con transacciones marcadas por la red como no confirmadas en unos pocos segundos. Si el comprador no tuviera fondos su transacción jamás llegaría a ese punto. No tendría más riesgo que el de cobrar con una tarjeta de crédito y no pedir un carnet de identidad o una firma como rutinariamente los comerciantes ya aceptan.
+
+## Dificultades
+
+Bitcoin se ha encontrado con la gran dificultad de que no consigue escalar correctamente. Bitcoin es capaz de procesar 7tps, que frente a las decenas de miles de transacciones que valida VISA resulta totalmente insuficiente.
+
+Muchas otras criptomonedas intentan mejorar Bitcoin solucionando este problema, pero todavía ninguna ha conseguido dar con la solución perfecta.
+
+Las principales soluciones propuestas por la comunidad de Bitcoin son *SEGWIT* y *Lightning Network*. Se espera que ambas estén funcionando al 100% de sus posibilidades a lo largo de 2018. Si estas mejoras solucionan la escalabilidad, es probable que muchas criptomonedas acaben desapareciendo.
+
+## Forks de Bitcoin
+
+Durante los últimos meses de 2017 se crearon dos nuevas monedas denominadas [Bitcoin Cash](/que-es-bitcoin-cash) y [Bitcoin Gold](/conseguir-bitcoin-gold). Aunque tengan la palabra Bitcoin delante, realmente son monedas nuevas y no deben confundirse con el Bitcoin principal. La característica que tienen éstas dos últimas es que fueron creadas como copias del Bitcoin original manteniendo su historial de transacciones pero con reglas ligeramente distintas, copia que se denomina *fork*.
 
 ## ¿ Es el Bitcoin una burbuja ?
 
-Es posible. La innovación que trae Bitcon como moneda digital es incuestionable, y parece garantizado que va a cambiar el mundo pero no debemos olvidar de que a día de hoy el Bitcoin apenas está siendo utilizado como moneda, sino más bien como almacenamiento de valor o inversión especulativa.
-
-Teniendo en cuenta que ahora mismo cuenta con un mercado por el valor de más de 130.000 millones de dólares, [mayor incluso que el de McDonalds](https://finance.yahoo.com/quote/mcd?ltr=1) resulta inevitable pensar que más que probablemente se trate de una burbuja.
-
+Es posible. La innovación que trae Bitcoin como moneda digital es incuestionable, y parece garantizado que va a cambiar el mundo pero no debemos olvidar de que a día de hoy el Bitcoin apenas está siendo utilizado como moneda, sino más bien como almacenamiento de valor o inversión especulativa.
+Teniendo en cuenta que ahora mismo cuenta con un mercado por el valor de más de 130.000 millones de dólares, <a rel="nofollow" href="https://finance.yahoo.com/quote/mcd?ltr=1">mayor incluso que el de McDonalds</a> resulta inevitable pensar que más que probablemente se trate de una burbuja.
 Ahora bien, si consideramos el valor que esta y otras posibles criptomonedas va a traer al mundo en los próximos 15 años probablemente el valor acabe siendo mucho mayor.
 
 ## ¿ Dónde puedo comprar Bitcoins ?
 
-Existen numerosas páginas webs denominadas exchanges donde es posible comprar Bitcoins y otras monedas. Muchas de ellas permiten pago con tarjeta de crédito y otras aceptan transacciones bancarias. Aquí teneis una guía de [cómo comprar criptomonedas](https://criptomo.com/como-comprar-criptomonedas/) más en detalle.
+Existen numerosas páginas webs denominadas exchanges donde es posible comprar Bitcoins y otras monedas. Muchas de ellas permiten pago con tarjeta de crédito y otras aceptan transacciones bancarias. Aquí tenéis una guía de [cómo comprar criptomonedas](/como-comprar-criptomonedas/) más en detalle.

@@ -17,7 +17,8 @@ Aquí os dejo un pequeño indice de algunos de los artículos que he ido creando
 
 ### Conceptos Básicos.
 Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin u otras criptomonedas.
-* Empieza preguntándote [qué es Bitcoin](../que-es-bitcoin/), la primera criptomoneda.
+* Empieza preguntándote [qué es una criptomoneda](../que-es-una-criptomoneda/).
+* Revisemos [qué es Bitcoin](../que-es-bitcoin/), la primera criptomoneda.
 * Aprende a tener contraseñas seguras usando [gestores de contraseñas](../mejores-gestores-contrasenas/).
 * No pierdas todos tus fondos, [guía de cómo debería guardar mis criptomonedas](../como-guardar-criptomonedas/).
 * Deseas empezar a invertir, aprende a [**comprar tus primeras criptomonedas**](../como-comprar-criptomonedas/).
