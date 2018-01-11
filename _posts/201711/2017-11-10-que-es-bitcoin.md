@@ -22,6 +22,8 @@ Adicionalmente, pretende dotar de poderes de pago a las cientas de millones de p
 
 Bitcoin fue creado por una persona anónima de la cual sólo se conoce su pseudónimo, Satoshi Nakamoto. Satoshi frecuentaba unos foros de criptografía donde publicó en 2008 un <a rel="nofollow" href="https://bitcoin.org/bitcoin.pdf" target="_blank">whitepaper</a> donde en tan sólo siete páginas explicó el funcionamiento de todo el sistema. Además estuvo a cargo del desarrollo hasta que desapareció misteriosamente en 2010.
 
+{% include image_caption.html imageurl="/images/posts/201801/nakamoto.png" title="Satoshi Nakamoto" popup=true %}
+
 ## Tecnología
 
 Bitcoin está diseñado para que sólo existan 21 millones de monedas en circulación, que habrán sido distribuidas a todos los mineros para el año 2140.
