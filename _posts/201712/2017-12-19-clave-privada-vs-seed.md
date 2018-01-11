@@ -33,6 +33,7 @@ Por ello vamos a explorar los **pasos que nos permitirán obtener una clave priv
 
 {% include image_caption.html imageurl="/images/posts/201712/bip39-2.png" title="BIP39 direcciones derivadas" caption="Podemos ver el listado de todas las direcciones derivadas a partir del seed con su clave pública y privada" popup=true %}
 
+> A partir de un seed podemos derivar un conjunto de claves privadas y a partir de una clave privada podemos derivar su clave pública. En cambio a partir de una clave pública jamás podremos obtener una clave privada, ni a partir de una clave privada un seed.
 
 A la hora de recuperar fondos existen dos maneras de recuperar fondos a partir de una clave privada:
 
