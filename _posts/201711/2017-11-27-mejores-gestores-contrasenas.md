@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Los mejores gestores de contraseñas de 2018"
-description: Explicación básica de qué es una buena contraseña de cómo manejarlas y guardarlas en la mundo de internet
+description: Explicación básica de qué es una buena contraseña de cómo manejarlas y guardarlas en la mundo de internet con los mejores gestores de contraseñas gratis y de pago.
 date:   2017-11-27
 banner_image: 201711/lastpass.jpg
 tags: [seguridad]
@@ -15,7 +15,7 @@ Imaginad que hackean una web, ni siquiera es una web importante, tan solo es una
 
 Tampoco sería la primera vez que una vez dentro deciden cambiarte la contraseña, y escribirte pidiendo un rescate ( un pago probablemente en criptomonedas por el tema de anonimidad) si te interesa recuperar tu información. Tampoco sería la primera vez que la persona que te hackea, puesto que te odia por las cosas que dices en twitter, decide borrarte inmediatamente años de fotos y videos familiares de tus cuentas, momentos muy preciados que ya nunca recuperarás.
 
-La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y ninguna se decidieron.
+La mayor parte de la gente decide que aún así van a seguir usando sus contraseñas de siempre, puesto que es casi imposible que este escenario les ocurra a ellos, además les es más conveniente acordarse siempre al instante de su contraseña. Con un poco de suerte tendrán razón y vivirán una vida sin sustos en este campo, pero aquellos que si se vean afectados se darán de cabezazos por no haber hecho las cosas correctamente, sobretodo aquellos que siempre han sabido que tenían que hacerlo y nunca se decidieron.
 
 Os animo a que con este artículo os animeis a por fin dar el paso.
 
@@ -28,7 +28,7 @@ Vayamos directamente a ejemplos prácticos:
 
 Uno de los métodos de hackeo más típicos consiste en el ataque por diccionario. Básicamente existe una lista de las contraseñas más usadas globalmente, y estadísticamente es más que probable que alguien consiga entrar a una cuenta robada probando con alguna de la lista.
 
-Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la lista que se usa en estos ataques tiene miles de contraseñas que a una máquina le cuesta menos de un segundo probar, así que no cantes victoria si no ves tu contraseña aquí escrita:
+Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la lista que se usa en estos ataques tiene miles de contraseñas que a una máquina le cuesta menos de un segundo probar, así que no canteis victoria si no veis vuestra contraseña aquí escrita:
 
 - `123456`
 - `password`
@@ -70,7 +70,7 @@ Puestos a utilizar información personalizada y fácil de recordar al menos vamo
 
 ### Todavía mejor: `caballo redondo infierno reloj escaparate`
 
-Si combinamos los dos casos anteriores donde recomendamos contraseñas largas que además no tienen información personalizada llegamos a un escenario bastante bueno.
+Si combinamos los dos casos anteriores obtenemos contraseñas largas que además no tienen información personalizada lo cual es un escenario bastante bueno.
 
 Al principio puede parecer una locura recordar algo así, pero si hacemos uso de pequeños trucos mnemotécnicos (como imaginarnos a un caballo redondo en el infierno mirando un reloj en un escaparate) de repente nos damos cuenta de que ya la hemos memorizado.
 
@@ -132,7 +132,7 @@ Precio: Gratis
 
 #### Enpass
 
-{% include video id="syVLV4n8oFM" provider="youtube" class="full" %}
+{% include video.html id="syVLV4n8oFM" provider="youtube" class="full" %}
 
 [Enpass](https://www.enpass.io/) sea posiblemente una de las prometedoras de este nuevo año. La versión de escritorio es gratis aunque las apps (iOS, Android y Windows Phone) son de pago. Lo más fundamental sin duda es que permite guardar la base de datos localmente o en las nubes más habituales para que gestiones tu propia seguridad.
 
@@ -152,12 +152,17 @@ Precio: Gratis - 3$ una sola vez para alguna app móvil.
 
 {% include image_caption.html imageurl="../images/posts/201711/keepass.png" title="keepass" caption="keepass" popup=true %}
 
-[KeePass](https://keepass.info/) siempre ha sido mi favorita de la lista, puesto que es open source el código ha sido colaboración de muchísima gente y ha sido auditado hasta la saciedad. Tiene varias capas de seguridad avanzadas, como poder añadir un segundo de penalización por contraseña incorrecta para evitar ataques de fuerza bruta o necesitar un clave aleatoria por USB para poder abrirse (es decir, deberías tener un USB con tu clave conectado a tu ordenador para poder abrir tu base de datos). Por desgracia no tiene apps móviles oficiales y aunque hay algunas por ahí, recomiendo usarlas con cuidado.
+[KeePass](https://keepass.info/) siempre ha sido mi favorita de la lista, puesto que es open source el código ha sido colaboración de muchísima gente y ha sido auditado hasta la saciedad. Tiene varias capas de seguridad avanzadas, como poder añadir un segundo de penalización por contraseña incorrecta para evitar ataques de fuerza bruta o necesitar un clave aleatoria por USB para poder abrirse (es decir, deberías tener un USB con tu clave conectado a tu ordenador para poder abrir tu base de datos). Por desgracia no tiene apps móviles oficiales y aunque hay algunas por ahí, recomiendo usarlas con cuidado puesto que no sabemos si están grabando nuestras contraseñas por detrás.
 
 Precio: Gratis
 
 
 El nivel de seguridad que cada uno quiera tener es una decisión personal, sobretodo dependiente del nivel de confianza que uno tiene en sí mismo a la hora de mantener un fichero seguro. Personalmente prefiero tener guardado mi base de datos guardada por mi localizable y con copia de seguridad en lugar de fiarme de un servicio externo que lo haga por mí.
+
+**¿ Quieres que elija por ti?**
+
+Si no vas a necesitar aplicación móvil usa KeePass, asegurate de tener copias de seguridad de la base de datos que será un fichero kdbx. Si en cambio vas a necesitar app móvil usa 1Password ó Empass.
+
 
 
 

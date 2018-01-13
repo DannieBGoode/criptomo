@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Cómo empezar a comprar criptomonedas"
-description: Guía para principiantes de cómo comprar criptomonedas, dónde enviar tu dinero y qué deberías hacer para no perderlo o pagar tasas de más.
+title:  Cómo comprar Bitcoin y otras criptomonedas
+description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Ethereum Classic (ETC), Litecoin (LTC), Ripple (XRP), dónde enviar tu dinero y cómo invertir en criptomonedas.
 date:   2017-12-03
 banner_image: 201712/exchange.jpg
 tags: [altcoins]
@@ -23,7 +23,7 @@ Si deseáis elegir una moneda distinta deberéis ir a [coinmarketcap](https://co
 
 
 Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para empezar enviando dinero fiat recomiendo uno de los siguientes:
-* [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e), que es el que usaremos para este ejemplo y vende:
+* [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) (si usais este enlace os darán 10$  gratis por los primeros 100$ gastados), que es el que usaremos para este ejemplo y vende:
 	* Bitcoin
 	* Bitcoin Cash
 	* Ethereum
@@ -36,7 +36,7 @@ Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.
 	* Litecoin
 	* Ripple
 
-No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar primero fiat a criptomoneda, y sólo después podrás comprar las demás monedas.
+No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar fiat a criptomoneda, y sólo después podrás comprar las demás monedas.
 
 ## 2. Nos creamos una cuenta en el exchange elegido.
 
@@ -55,11 +55,15 @@ Este proceso de verificación pensado para evitar blanqueo de capitales puede ll
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-verify.png" title="Coinbase Verification" popup=true %}
 
+Para el caso de Coinbase podemos verificar inicialmente nuestra cuenta con DNI, pasaporte o carnet de conducir, y el proceso no debería llevar más de unas horas aunque dependerá del volumen de gente que esté registrándose en ese momento.
+
 ## 4. Envíamos el dinero a invertir.
 
 Una vez logueamos le daremos a DEPOSITAR para ver los distintos métodos de pago. Algunas webs permiten pagos con tarjeta de crédito pero lo normal es transferencia SEPA para la cual se nos dará un número de cuenta, un beneficiario y **un código que deberemos poner en la razón de la transferencia para poder ser identificados fácilmente**.
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-payment.png" title="Coinbase Payment Methods" popup=true %}
+
+Coinbase acepta tanto pagos con tarjeta de crédito como transferencias SEPA. Tened en cuenta que los pagos con tarjeta de crédito llevan una comisión extra asociada y además no se puede pagar más de 500€ a la semana. Si usamos transferencia SEPA, la transferencia tardará unos días hábiles pero podremos disponer de un límite de 15000€ a la semana y menores comisiones.
 
 ## 5. Compramos la criptomoneda deseada
 
@@ -68,6 +72,20 @@ Cuando nuestra transferencia haya llegado correctamente, la veremos reflejada en
 En cualquier caso la manera más habitual es comprar al precio de mercado en ese momento, compra que será prácticamente instantánea y veremos reflejada en nuestra cuenta al lado de dónde ponía cuánto dinero fiat teníamos en nuestra cuenta.
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-buy.png" title="Coinbase Purchases" popup=true %}
+
+##### GDAX
+
+Coinbase tiene una comisión por compra de **1.5%**, podemos optar a comisiones más bajas si usamos el segundo exchange de Coinbase llamado [GDAX](https://www.gdax.com). Podemos acceder a él con nuestra misma cuenta de Coinbase, ya que son en realidad la misma empresa, y se nos pedirá que utilicemos un segundo documento de verificación distinto al utilizado en el tercer paso de esta guía. GDAX ofrece comisiones del **0.25%**, por lo que recomiendo altamente realizar las compras ahí frente a Coinbase.
+
+Una vez verificada nuestra cuenta de GDAX, desde su página principal podemos acceder a los fondos que tenemos en Coinbase dándole a la opción de `DEPOSIT` y rellenando el siguiente formulario:
+
+{% include image_caption.html imageurl="/images/posts/201712/gdax.png" title="GDAX Deposit" popup=true %}
+
+Una vez llegados a este punto elegimos la moneda que queremos comprar. Por ejemplo si tenemos euros y queremos comprar Bitcoin elegiríamos `BTC/EUR`. Si en cambio tenemos Bitcoin y queremos comprar Ethereum seleccionaríamos `ETH/BTC`. Especificamos debajo la cantidad a gastar y le damos a `BUY`.
+
+{% include image_caption.html imageurl="/images/posts/201712/gdax2.png" title="GDAX Purchase" popup=true %}
+
+Llegados a este punto, si lo que deseamos es comprar monedas que no existen en el exchange principal, podéis continuar en el artículo [cómo comprar altcoins](../como-comprar-altcoins/).
 
 ## 6. Movemos nuestros fondos a un wallet
 
@@ -80,5 +98,4 @@ Para moverlas desde Coinbase a un wallet deberemos ir a nuestra cuenta, darle a 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" title="Coinbase Send" popup=true %}
 
 Si en el futuro decidimos cambiar nuestras monedas por otras que nos parezcan más prometedoras o sencillamente queremos venderlas ya deberemos hacer el proceso inverso, empezando por moverlas del wallet al exchange.
-
 

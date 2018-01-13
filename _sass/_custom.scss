@@ -20,7 +20,7 @@ figure {
 ins {
 	background-color: $mine-shaft !important;
 }
-.imgur-embed {
+.embedded {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -28,6 +28,26 @@ ins {
 .small-image {
 	height: 50px;
 }
+.small-banner {
+	max-width: 40%;
+}
 .site-title {
 	font-weight: bold;
+}
+.responsive-video-container {
+	figcaption {
+		margin-bottom: 15px;
+	}
+}
+.table {
+	tr {
+		td {
+			font-size: 80%;
+		}
+	}
+}
+@media only screen and (max-width: 700px) {
+        .table-collapsable {
+            display: none;
+        }
 }

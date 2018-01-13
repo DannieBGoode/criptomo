@@ -8,12 +8,14 @@
 # Site title
 title                    : "CRIPTOMO"
 # A description of your site for social meta tag, search engines, and feed.xml
-description              : "CRIPTOMO es un blog de tecnología, inversión, desarrollo personal y criptomonedas."
+description              : "Aprende de Criptomonedas, inversión, seguridad. Guías de cómo y dónde comprar. Tutoriales para invertir en criptomonedas para principiantes y discusiones para niveles avanzados."
 # Tagline near the site title
 tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
 
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : ""
+# Paths for post images used in the feed.xml
+imageurl                 : "/images/posts/"
 repository               : "DannieBGoode/criptomo"
 sass:
   style                  : compressed
@@ -29,6 +31,12 @@ exclude:
 
 analytics:
   google                 : "UA-110091733-1"
+
+crypto:
+  address:
+    bitcoin              : "3CC14Qv9aMZU37CcBFgyQ5JNZmXrWEKdhY"
+    bitcoin-cash         : "18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q"
+    ethereum             : "0xB3853f0F930B6386e11bE4A605d9e444F27eB7F4" 
 
 # The shortname for your Disqus site to enable comments.
 disqus                   : "criptomo"
@@ -66,7 +74,12 @@ google_site_verification : "JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU"
 
 # http://jekyllrb.com/docs/pagination/
 paginate                 : 5
-paginate_path            : '/blog/page:num/'
+paginate_path            : "/page/:num"
+defaults: 
+  - scope:
+      path               : "page"
+    values:
+      sitemap            : false
 # gems                     : [jekyll-paginate]
 
 # permalink: pretty

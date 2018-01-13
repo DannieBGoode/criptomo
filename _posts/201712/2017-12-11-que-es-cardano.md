@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Qué es Cardano
-description: La criptomoneda Cardano podría ser el nuevo rival de Ethereum y su cotización todavía es muy inferior. Veamosla en detalle.
-date: 2017-12-11T00:00:00.000Z
+description: La criptomoneda Cardano ADA podría ser el nuevo rival de la criptodivisa Ethereum y durante los últimos meses se ha revalorizado un 400%.
 banner_image: 201712/cardano.jpg
 tags: [altcoins]
 ---
@@ -44,7 +43,7 @@ La primera generación Bitcoin solo puede hacer transacciones simples P2P y toda
 Estos problemas son:
 
 #### Escalabilidad.
-**Poder realizar muchas más transacciones por segundo (TPS) sin necesidad de debilitar el protocolo** quitando funcionalidades o patrones de seguridad para logarlo (que es precisamente como la criptomoneda EOS ha conseguido tener tal volumen de TPS). BTC y Ethereum todavía soportan poquísimas transacciones por segundo (10 y 30 TPS respectivamente), mientras que VISA o Mastercard tienen capacidad para decenas de miles de transacciones. Si alguna vez las criptomonedas desean poder reemplazar a estos métodos convencionales de pago la escalabilidad deberá estar resuelta.
+**Poder realizar muchas más transacciones por segundo (TPS) sin necesidad de debilitar el protocolo** quitando funcionalidades o patrones de seguridad para logarlo (que es precisamente como la criptomoneda EOS ha conseguido tener tal volumen de tps). BTC y Ethereum todavía soportan poquísimas transacciones por segundo (10 y 30 tps respectivamente), mientras que VISA o Mastercard tienen capacidad para decenas de miles de transacciones. Si alguna vez las criptomonedas desean poder reemplazar a estos métodos convencionales de pago la escalabilidad deberá estar resuelta. Cardano soporta ahora mismo hasta 15 tps, pero está siendo creado de tal manera que cuanto más usuarios haya más tps será capaz de procesar y espera poder escalar sin problemas del mismo modo que funciona una red de torrent.
 
 #### Interoperabilidad.
 **Interactuar con otras blockchains**. Cardano no pretende sustituir a Bitcoin ya que prevé un mundo con muchísimas otras monedas en circulación y propone un escenario donde las monedas pueden operar entre ellas y adicionalmente con el sistema bancario clásico.
@@ -76,9 +75,11 @@ El código sigue una filosofía Hack-Proof, que es el método que utiliza el ej�
 
 Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no siguen esta filosofía. No hay más que mirar al DAO, donde un simple error de programación al poner una línea de código antes que otra ocasionó semejante catástrofe en el mundo de Ethereum que se tuvo que crear una nueva moneda (Ethereum) que solucionara este problema y se intentó meter debajo de la alfombra a la moneda original (que se pasó a llamar Ethereum Classic y sigue siendo cotizada a un precio muy inferior).
 
-## Dónde Comprar
+{% include video.html provider="youtube" id="-zftnG6BYu4" caption="Entrevista a Charles Hoskinson" %}
 
-Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de [Binance](https://www.binance.com/) aunque en [Bitrex](https://bittrex.com/) también se puede.
+## Dónde Comprar Cardano (ADA)
+
+Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de [Binance](https://www.binance.com/?ref=11317062).
 
 ## Conclusión
 

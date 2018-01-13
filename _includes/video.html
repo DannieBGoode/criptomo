@@ -1,5 +1,6 @@
 {% capture video_id %}{{ include.id }}{% endcapture %}
 {% capture video_provider %}{{ include.provider }}{% endcapture %}
+{% capture video_caption %}{{ include.caption }}{% endcapture %}
 
 <!-- Courtesy of embedresponsively.com //-->
 <div class="responsive-video-container">
@@ -8,4 +9,5 @@
 {% elsif video_provider == "youtube" %}
   <iframe src="https://www.youtube.com/embed/{{ video_id }}" frameborder="0" allowfullscreen></iframe>
 {% endif %}
+  <figcaption class="caption-text">{{ video_caption }}</figcaption>
 </div>

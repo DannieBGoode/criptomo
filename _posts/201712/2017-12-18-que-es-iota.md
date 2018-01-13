@@ -5,7 +5,6 @@ description: La criptomoneda IOTA explicada, en qué consiste, dónde comprarla 
 banner_image: 201712/iota.jpg
 tags:
   - altcoins
-
 ---
 
 [IOTA](https://iota.org/) es una de las altcoins que más ha subido de precio durante las últimas semanas, cuenta con un mercado de 11000 millones de dólares. Aunque permite comunicación económica entre wallets de la misma manera que BTC o Ethereum, este no es su principal propósito, lo que pretende es ofrecer una plataforma para la economía entre dispositivos en el Internet Of Things.
@@ -100,7 +99,7 @@ Resulta también obvio que con Google y Tesla haciendo experimentos con vehícul
 
 #### Dónde comprar IOTA
 
-En los exchanges lo que venden como IOTAS son realmente Mi-IOTAS. Mi exchange de preferencia para comprarlos es [Binance](https://www.binance.com).
+En los exchanges lo que venden como IOTAS son realmente Mi-IOTAS. Mi exchange de preferencia para comprarlos es [Binance](https://www.binance.com/?ref=11317062).
 
 #### Dónde guardar IOTA
 
