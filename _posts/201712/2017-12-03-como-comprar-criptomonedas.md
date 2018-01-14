@@ -5,6 +5,8 @@ description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BT
 date:   2017-12-03
 banner_image: 201712/exchange.jpg
 tags: [altcoins]
+rating: 4
+totalVotes: 6
 ---
 
 Con tantas noticias de robos, hackeos y blanqueo de dinero puede resultar un poco desafiante empezar en el mundo de las criptomonedas.

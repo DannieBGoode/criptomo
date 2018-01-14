@@ -4,6 +4,8 @@ title:  Cómo comprar altcoins
 description: Guía de cómo comprar criptomonedas altcoins con Bitcoin con imágenes y explicado paso a paso. Cómo depositar en Binance desde Coinbase o Bitstamp.
 banner_image: 201712/coins.jpg
 tags: [altcoins]
+rating: 4
+totalVotes: 3
 ---
 
 Esta entrada es la continuación del artículo [cómo comprar criptomonedas](/como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas a cambio de BTC suponiendo que ya  poseemos está u otra criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/?ref=11317062) para ello. El motivo por el que haríamos esto es por que la mayor parte de los Exchanges que venden estas monedas no aceptan transferencias bancarias.

@@ -5,6 +5,8 @@ description: Explicación básica de qué es una buena contraseña de cómo mane
 date:   2017-11-27
 banner_image: 201711/lastpass.jpg
 tags: [seguridad]
+rating: 4
+totalVotes: 5
 ---
 
 **Una contraseña única es un desastre esperando a que ocurra**.
