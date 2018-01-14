@@ -15,7 +15,9 @@ En el mundo financiero real una inversión de 12 meses jamás sería considerada
 
 En este experimento se realizó una inversión inicial de 10.000$ repartiendo 1000$ entre cada una de las 10 monedas con más cotización de mercado a fecha 1 de Enero de 2017 y se volvió a revisar el 14 de Diciembre del mismo año.
 
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+{% include image_caption.html imageurl="/images/posts/201801/long-term.png" title="Inversión a largo plazo" popup=true %}
+
+<!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 |        Nombre        | Símbolo  | Inversión ($)       | Precio 01/2017 |  Unidades   | Precio 12/2017 | Valor Final ($)                          |
 |:--------------------:|:--------:|:-------------------:|:--------------:|:-----------:|:--------------:|:----------------------------------------:|
 | Bitcoin              | BTC      |      1,000          | 963.06         | 1.03835     | 16638.90       | 17,173.28                                |
@@ -28,7 +30,7 @@ En este experimento se realizó una inversión inicial de 10.000$ repartiendo 10
 | MaidsafeCoin         | MAID     |      1,000          | 0.10           | 10082.271   | 0.56           | 5,646.02                                 |
 | Augur                | REP      |      1,000          | 3.79           | 263.852     | 35.67          | 9,411.61                                 |
 | Steem                | STEEM    |      1,000          | 0.17           | 5874.888    | 2.03           | 11,926.02                                |
-|                      |          |      **10,000$**    |                |             |                | <span class="profits">422,995.60$</span> |
+|                      |          |      **10,000$**    |                |             |                | <span class="profits">422,995.60$</span> | -->
 
 El incremento de valor del portfolio es de aproximadamente un **4200%** de donde **se han obtenido cerca de 413,000 dólares de beneficios**.
 He decidido dejar fuera la subida de Ripple de fin de año puesto que el pico ha sido demasiado breve, pero incluirla supondría un incremento adicional del portfolio de entre 100.000$ y 500.000$ dependiendo de que en momento hubiéramos tomado la medida.
