@@ -11,7 +11,7 @@ title                    : "CRIPTOMO"
 description              : "Aprende de Criptomonedas, inversión, seguridad. Guías de cómo y dónde comprar. Tutoriales para invertir en criptomonedas para principiantes y discusiones para niveles avanzados."
 # Tagline near the site title
 tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
-
+keywords                 : "criptomonedas bitcoin inversion"
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : ""
 # Paths for post images used in the feed.xml
@@ -24,6 +24,7 @@ sass:
 # The base hostname & protocol of your site for where absolute urls are needed
 url                      : "https://criptomo.com" # "http://example.com"
 locale                   : "es"
+language                 : "es"
 include:
   - _pages
 exclude:
@@ -42,7 +43,8 @@ crypto:
 disqus                   : "criptomo"
 
 # Author information - author info at the bottom of the post
-author_name              : "Daniel"
+# Complete Author Name is used in schema
+author_name              : "Daniel Calatayud"
 author_bio               : "Ingeniero de telecomunicaciones apasionado por la tecnología."
 author_url               :  # "http://example.com"
 author_location          : "Madrid, Spain"
