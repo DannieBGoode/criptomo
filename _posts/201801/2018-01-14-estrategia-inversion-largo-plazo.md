@@ -2,7 +2,7 @@
 layout: post
 title:  Estrategia de Inversión a Largo Plazo
 description: Como ganar dinero con criptomonedas invirtiendo a largo plazo
-banner_image: 201801/investments.jpg
+banner_image: 201801/investments.png
 tags: [altcoins]
 ---
 
