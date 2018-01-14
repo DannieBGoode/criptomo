@@ -5,7 +5,7 @@ description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BT
 date:   2017-12-03
 banner_image: 201712/exchange.jpg
 tags: [altcoins]
-rating: 4
+rating: 5
 totalVotes: 6
 ---
 
