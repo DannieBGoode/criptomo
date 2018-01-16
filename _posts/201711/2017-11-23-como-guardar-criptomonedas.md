@@ -19,7 +19,7 @@ Podría llegar a ser concluido por algunos que el *hot wallet* más inmediato qu
 
 * **Si no controlas la clave privada de tu wallet no tienes control sobre tus monedas, por lo cual no es un wallet**.
 
-En los exchanges, en ningún momento tienes poder sobre tu clave privada por lo que se podría decir que ni siquiera en ese momento posees criptomonedas, solo tienes la promesa de la entidad en cuestión de que te devolverá tus monedas cuando así lo solicites. Promesa que en muchas ocasiones no se ha podido cumplir. Ha habido casos donde muchos inversores han perdido sus fondos porque o bien el exchange en cuestión ha sido hackeado y sus monedas robadas (como fue el caso de MtGox), o porque era una tapadera desde el principio para aprovecharse de la gente que no sigue esta recomendación al pie de la letra (como [Criptsy](http://www.cryptsysettlement.com/) dónde yo mismo perdí bastante dinero).
+En los exchanges, en ningún momento tienes poder sobre tu clave privada por lo que se podría decir que ni siquiera en ese momento posees criptomonedas, solo tienes la promesa de la entidad en cuestión de que te devolverá tus monedas cuando así lo solicites. Promesa que en muchas ocasiones no se ha podido cumplir. Ha habido casos donde muchos inversores han perdido sus fondos porque o bien el exchange en cuestión ha sido hackeado y sus monedas robadas (como fue el caso de MtGox), o porque era una tapadera desde el principio para aprovecharse de la gente que no sigue esta recomendación al pie de la letra (como <a rel="nofollow" href="http://www.cryptsysettlement.com/">Criptsy</a> dónde yo mismo perdí bastante dinero).
 
 * **Mi recomendación es tener los menos fondos posibles en el exchange el menor tiempo posible. El resto del tiempo deberían estar en un wallet, idealmente un cold wallet del cual poseeremos la clave privada.**
 
@@ -58,15 +58,15 @@ Estas wallets son básicamente programas de ordenador que descargas e instalas e
 
 ##### JAXX
 
-[Jaxx](https://jaxx.io/) está considerada de las mejores *hot-wallets* y permite hacer backup de tu clave privada. Además está disponible para prácticamente cualquier dispositivo.
+<a rel="nofollow" href="https://jaxx.io/">Jaxx</a> está considerada de las mejores *hot-wallets* y permite hacer backup de tu clave privada. Además está disponible para prácticamente cualquier dispositivo.
 
-Jaxx es de las carteras que más monedas soporta, entre ellas Bitcoin, Ethereum, Litecoin, Zcash y Dash. Podeis ver la lista entera [aquí](https://decentral.zendesk.com/hc/en-us/articles/218373867-Which-tokens-does-Jaxx-support-).
+Jaxx es de las carteras que más monedas soporta, entre ellas Bitcoin, Ethereum, Litecoin, Zcash y Dash. Podeis ver la lista entera <a rel="nofollow" href="https://decentral.zendesk.com/hc/en-us/articles/218373867-Which-tokens-does-Jaxx-support-">aquí</a>.
 
 Precio: Gratis
 
 #### Electrum
 
-[Electrum](https://electrum.org) permite almacenar la clave privada offline y se integra con *hardware wallets* como TREZOR o Ledger.
+<a rel="nofollow" href="https://electrum.org">Electrum</a> permite almacenar la clave privada offline y se integra con *hardware wallets* como TREZOR o Ledger.
 
 Sólo soporta Bitcoin aunque existe una versión para Litecoin.
 
@@ -74,7 +74,7 @@ Precio: Gratis
 
 ### Exodus:
 
-[Exodus](http://www.exodus.io/#) se caracteriza por traer un exchange dentro de la aplicación que te permite diversificar tus fondos sin necesidad de moverlos a un exchange primero. Soporta entre otras Bitcoin, Ethereum, Litecoin, Dash, EOS y Golem. Podéis ver la lista entera [aquí](http://support.exodus.io/article/96-exodus-wallet-roadmap).
+<a rel="nofollow" href="http://www.exodus.io/#">Exodus</a> se caracteriza por traer un exchange dentro de la aplicación que te permite diversificar tus fondos sin necesidad de moverlos a un exchange primero. Soporta entre otras Bitcoin, Ethereum, Litecoin, Dash, EOS y Golem. Podéis ver la lista entera <a rel="nofollow" href="http://support.exodus.io/article/96-exodus-wallet-roadmap">aquí</a>
 
 Precio: Gratis
 
@@ -84,7 +84,7 @@ Un web wallet es básicamente una página web que nos permite gestionar nuestras
 
 #### Blockchain.info
 
-[Blockchain.info](https://blockchain.info/) es una web que permite ver todas las transacciones que ocurren el mundo del Bitcoin. Adicionalmente ofrecen una cartera web bastante sencilla de usar y comparten contigo la clave privada desentendiendose de lo que pueda ocurrir si la pierdes.
+<a rel="nofollow" href="https://blockchain.info/">Blockchain.info</a> es una web que permite ver todas las transacciones que ocurren el mundo del Bitcoin. Adicionalmente ofrecen una cartera web bastante sencilla de usar y comparten contigo la clave privada desentendiendose de lo que pueda ocurrir si la pierdes.
 
 Soporta únicamente Bitcoin, Bitcoin Cash y Ethereum.
 
@@ -92,7 +92,7 @@ Precio: Gratis
 
 #### Coinbase
 
-Estrictamente hablando, [coinbase](https://www.coinbase.com/) es un exchange y no comparten contigo la clave privada. He decidido aun así incluirla en la lista por el motivo de que almacenan el 98% de sus fondos en sus propias *cold wallets*, tienen varios niveles de seguridad y además [sus fondos asegurados](https://support.coinbase.com/customer/es/portal/articles/1662379-how-is-coinbase-insured-). Únicamente lo recomendaría para aquellos usuarios que no se fían en absoluto de sí mismos con una clave privada y deciden entregarle ese poder a un tercero. Utilizar bajo la responsabilidad de cada uno.
+Estrictamente hablando, <a rel="nofollow" href="https://www.coinbase.com/join/52f9eda19f27be821400004e">Coinbase</a> es un exchange y no comparten contigo la clave privada. He decidido aun así incluirla en la lista por el motivo de que almacenan el 98% de sus fondos en sus propias *cold wallets*, tienen varios niveles de seguridad y además <a rel="nofollow"  href="https://support.coinbase.com/customer/es/portal/articles/1662379-how-is-coinbase-insured-">sus fondos asegurados</a>. Únicamente lo recomendaría para aquellos usuarios que no se fían en absoluto de sí mismos con una clave privada y deciden entregarle ese poder a un tercero. Utilizar bajo la responsabilidad de cada uno.
 
 Precio: Gratis
 
@@ -116,7 +116,7 @@ Además estos dispositivos van con un código PIN, por lo que en caso de robo, s
 
 #### Ledger Nano S / Ledger Blue
 
-[Ledger Nano S](http://amzn.to/2i5kRoG) es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. 
+<a rel="nofollow" href="http://amzn.to/2i5kRoG">Ledger Nano S</a> es sin duda una de mis favoritas, da soporte a varias monedas y es fácilmente transportable en el bolsillo de ser necesario. 
 
 Ledger Nano S soporta las siguientes criptomonedas:
 
@@ -192,7 +192,7 @@ Precio Ledger Blue: 275€
 	
 #### Trezor
 
-[Trezor](http://amzn.to/2i72hMV) fue la primera hardware wallet del mercado aunque poco tiene que envidiar a su competidora Ledger. Ambas son perfectamente aceptables.
+<a rel="nofollow" href="http://amzn.to/2i72hMV">Trezor</a> fue la primera hardware wallet del mercado aunque poco tiene que envidiar a su competidora Ledger. Ambas son perfectamente aceptables.
 
 Trezor soporta:
 
@@ -213,7 +213,7 @@ Precio: 90€
 
 ### KeepKey
 
-[KeepKey](http://amzn.to/2ja1KHf) es una de las hardware wallets más atractivas visualmente que hay ahora mismo en el mercado.
+<a rel="nofollow" href="http://amzn.to/2ja1KHf">KeepKey</a> es una de las hardware wallets más atractivas visualmente que hay ahora mismo en el mercado.
 
 Todavía se tratade un wallet bastante nuevo pero poco a a poco van extendiendo su cobertura de altcoins. Por el momento sólo es compatible con:
 
