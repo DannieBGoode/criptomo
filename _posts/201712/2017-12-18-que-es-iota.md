@@ -3,6 +3,8 @@ layout: post
 title: Qué es IOTA
 description: La criptomoneda IOTA explicada, en qué consiste, dónde comprarla y cómo almancerla de manera segura.
 banner_image: 201712/iota.jpg
+rating: 5
+totalVotes: 1
 tags:
   - altcoins
 ---

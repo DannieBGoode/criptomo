@@ -3,6 +3,8 @@ layout: post
 title: Qué es Ethereum
 description: La criptomoneda Ethereum explicada, qué es, qué diferencias tiene con Bitcoin y dónde comprarla
 banner_image: 201712/ethereum.jpg
+rating: 5
+totalVotes: 2
 tags:
   - altcoins
 ---
