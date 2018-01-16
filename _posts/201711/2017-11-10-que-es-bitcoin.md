@@ -4,6 +4,8 @@ title:  Qué es Bitcoin
 description: Qué es Bitcoin, cómo funciona, quien la creo, es o no una burbuja. Explicaciones para principiantes. Guía básica.
 banner_image: 201711/bitcoin.png
 date: 2018-01-12
+rating: 4.75
+totalVotes: 3
 tags: [bitcoin]
 ---
 
