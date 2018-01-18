@@ -34,7 +34,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ### Estrategias de inversión
 Aprendamos a invertir mejor
 * [Los 5 principales errores a la hora de invertir en criptomonedas](/principales-errores-traders/)
-* Estrategias de Inversión a Largo Plazo (proximamente)
+* [Estrategias de Inversión a Largo Plazo](/estrategia-inversion-largo-plazo/)
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
