@@ -68,6 +68,12 @@ Es por esto que transacciones que inicialmente parecian confirmadas en el blockc
 
 Un error habitual es que como una transacción puede tardar 10 minutos en ser añadida a un bloque y luego hasta 50 más para que más bloques se monten encima y la transacción se considerar totalmente confirmada, Bitcoin jamás podrá ser utilizado en la vida cotidiana, pero para el uso del dia a dia sería perfectamente posible para un comerciante aceptar pagos con transacciones marcadas por la red como no confirmadas en unos pocos segundos. Si el comprador no tuviera fondos su transacción jamás llegaría a ese punto. No tendría más riesgo que el de cobrar con una tarjeta de crédito y no pedir un carnet de identidad o una firma como rutinariamente los comerciantes ya aceptan.
 
+## Privacidad
+
+Cuando Bitcoin empezó a extenderse, fue utilizado en el mercado negro para adquirir productos de dudosa legalidad con el pretexto de que era una moneda anónima. En realidad se trata de una moneda pseudónima puesto que todas las direcciones son públicas. Sería equivalente a que podemos ver todas las cuentas bancarias que existen solo que no sabemos a quien pertenece cada una, pero en el momento en que alguien nos solicita un pago a su cuenta podemos asociar su cuenta a su nombre y a partir de ese momento podriamos conocer su balance en todo momento.
+
+{% include image_caption.html imageurl="/images/posts/201801/btc-wikileaks.png" title="Wikileaks address" popup=true caption="Todas las donaciones a Wikileaks mediante BTC son públicas y pueden ser trazadas a las direcciones donantes" %}
+
 ## Dificultades
 
 Bitcoin se ha encontrado con la gran dificultad de que no consigue escalar correctamente. Bitcoin es capaz de procesar 7tps, que frente a las decenas de miles de transacciones que valida VISA resulta totalmente insuficiente.
