@@ -48,6 +48,7 @@ Aprendamos a invertir mejor
 * [Monero](/que-es-monero)
 * [Ripple](/que-es-ripple)
 * [Litecoin](/que-es-litecoin/)
+* [Aragon](/que-es-aragon/)
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
