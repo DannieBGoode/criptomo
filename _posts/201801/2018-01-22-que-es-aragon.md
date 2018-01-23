@@ -93,6 +93,26 @@ La posesión del token ANT es lo que permite a los usuarios tener derechos de vo
 
 El roadmap completo del proyecto se puede encontrar en <a rel="nofollow" href="https://wiki.aragon.one/documentation/Development_Plan/">su página web</a>, como siempre con un nivel de  transparencia altísimo.
 
+## Dónde comprar ANT
+
+Por el momento ANT solo está disponible en los siguientes exchanges:
+
+* Liqui
+* Bittrex
+
+Esperamos verla proximamente en Binance y Bitfinex.
+
+## Dónde almacenar ANT
+
+Al tratarse de una monera ERC20, ANT se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas.
+
+Entre las posibilidades destacamos:
+
+* <a rel="nofollow" href="https://www.myetherwallet.com">MyEtherWallet</a>
+* [Ledger Nano S](http://amzn.to/2i5kRoG)
+* [Trezor](http://amzn.to/2i72hMV)
+* [KeepKey](http://amzn.to/2ja1KHf)
+
 ## Conclusión
 
 Es muy gratificante poder encontrar proyectos con aplicaciones que puedan ser fácilmente entendibles y utilizables por todo el mundo, y sin duda Aragon es uno de ellos. Os invito a que echeis un vistazo a <a rel="nofollow" href="">su página web</a> que además de explicar todo su propósito y motivación, incluye documentación suficiente como para que cualquier persona pueda participar en el proyecto así como tutoriales de como utilizar su herramienta.
