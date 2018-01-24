@@ -2,7 +2,7 @@
 layout: post
 title:  Qué es Aragon
 description: Explicación de qué es la criptomoneda Aragon, su equipo, ICO, por qué fue creado y un repaso general de su tecnología.
-banner_image: 201801/aragon.jpeg
+banner_image: 201801/aragon.png
 rating: 5
 totalVotes: 1
 tags: [altcoins]
