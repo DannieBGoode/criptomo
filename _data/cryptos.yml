@@ -340,175 +340,175 @@
 
 - name: Bytom (BTM)
   icon: bytom.png
-  website:
-  description:
+  website: http://bytom.io/
+  description: Building a system to let digital data, smart contracts, and digital assets interact with each other, using Blockchain technology. The Bytom token is used for these interactions.
 
 - name: DigiByte (DGB)
   icon: digibyte.jpg
   website: http://www.digibyte.io/
-  description:
+  description: A Blockchain designed to securely store digital assets like cryptocurrency, information, and data. The goal is to forever store information without the possibility of change.
 
 - name: Gnosis (GNO)
   icon: gnosis.png
-  website:
-  description:
+  website: https://gnosis.pm/
+  description: Decentralized prediction market based on Ethereum. A prediction market is like a gambling site that allows bets on the outcome of real events. Creates crowd-sourced predictions.
 
 - name: GXShares (GXS)
   icon: gxshares.jpg
-  website:
-  description:
+  website: https://gxs.gxb.io/
+  description: Customer information and credit-verification service in China that uses big-data technology. Customer data is stored in the Blockchain to reduce the risk of hacks.
 
 - name: Bancor (BNT)
   icon: bancor.jpg
-  website:
-  description:
+  website: https://www.bancor.network/
+  description: Bancor is trying to solve liquidity issues for people and companies that are exchanging different digital tokens. Makes it possible to trade any two digital currencies.
 
 - name: Blocknet (BLOCK)
   icon: blocknet.png
-  website:
-  description:
+  website: http://blocknet.co/
+  description: Creating a service that enables different Blockchains to communicate with each other over Blocknet. Plans to become the inter-Blockchain system for all decentralized applications.
 
 - name: Cryptonex (CNX)
   icon: cryptonex.png
-  website:
-  description:
+  website: https://cryptonex.org/
+  description: Building a system to exchange any of the world's currencies for any cryptocurrencies. Working on services to pay with cryptocurrencies using phones and payment cards.
 
 - name: Ethos (ETHOS)
   icon: ethos.png
-  website:
-  description:
+  website: https://www.ethos.io/
+  description: Formerly known as Bitquence, Ethos is building a multi-cryptocurrency phone wallet. The team is also building an investment diversification tool and a social network.
 
 - name: Civic (CVC)
   icon: civic.png
-  website:
-  description:
+  website: https://www.civic.com/
+  description: Uses Blocklchain technology combined with smartphone biometrics to build a secure, digital identity. Tries to become the replacement for traditional passwords and IDs.
 
 - name: 0x (ZRX)
   icon: 0x.png
-  website:
-  description:
+  website: https://0xproject.com/
+  description: Decentralized digital asset exchange, built in the Ethereum Blockchain. The system is free to use and doesn’t require any signup or permission. Also plans to offer P2P lending.
 
 - name: Pura (PURA)
   icon: pura.png
-  website:
-  description:
+  website: http://www.pura.one/
+  description: Cryptocurrency that financially incentivizes people to use their computers to process transactions. Participants are called “Master Nodes” and are paid interest. 10% goes to charity.
 
 - name: Metal (MTL)
   icon: metal.png
-  website:
-  description:
+  website: https://www.metalpay.com/
+  description: Digital currency and wallet that lets you send money using your phone number. Connects directly with traditional bank accounts and uses loyalty points to incentivize participation.
 
 - name: Einsteinium (EMC2)
   icon: einsteinium.png
-  website:
-  description:
+  website: https://www.emc2.foundation/
+  description: Smart contract crowdfunding platform designed to support research, education, and technology projects. The system generates a pool of money that’s used as grants.
 
 - name: Lykke (LKK)
   icon: lykke.png
-  website:
-  description:
+  website: https://www.lykke.com/
+  description: Digital asset exchange app with zero commission trading and immediate settlement. Supports Bitcoin, Ethereum, and traditional currencies. Offers a digital wallet and ICO platform.
 
 - name: Verge (XVG)
-  icon:
-  website:
-  description:
+  icon: verge.png
+  website: https://vergecurrency.com/
+  description: Privacy-focused cryptocurrency for both individuals and businesses. The platform features tools to support larger-scale commercial transactions with fast transfers.
 
 - name: Peercoin (PPC)
-  icon: verge.png
-  website:
-  description:
+  icon: peercoin.png
+  website: https://peercoin.net/
+  description: Cryptocurrency that allows for decentralized decision-making and voting based on coin ownership (“Proof of Stake”). Users of Peercoin can earn a one percent yearly interest rate.
 
 - name: Streamr (DATA)
   icon: streamr.png
-  website:
-  description:
+  website: https://www.streamr.com/
+  description: Building a way for future smart devices to buy and sell streaming data with each other. For example, smart cars can automatically get data like real-time traffic and weather.
 
 - name: SingularDTV (SNGLS)
   icon: singularDTV.png
-  website:
-  description:
+  website: https://singulardtv.com/
+  description: Platform to remove the traditional entertainment industry as middlemen between artists and fans. Decentralized system for digital rights management, funding, and distribution.
 
 - name: Santiment (SAN)
   icon: santiment.png
-  website:
-  description:
+  website: https://santiment.net/
+  description: Trading platform for cryptocurrencies that includes market data feeds, news, and crowd sentiment information for different coins. Plans to offer a database of Blockchain projects.
 
 - name: Storj (STORJ)
   icon: storj.png
-  website:
-  description:
+  website: https://storj.io/
+  description: Decentralized cloud storage that removes middlemen like Dropbox. Similar to Siacoin, it puts encrypted files on private computers, whose owners get paid for their disk space.
 
 - name: VeChain (VEN)
   icon: vechain.png
-  website:
-  description:
+  website: https://www.vechain.com/
+  description: Singapore-based project that’s building a business enterprise platform and inventory tracking system. Examples are verifying genuine luxury goods and food supply chains.
 
 - name: Nexus (NXS)
   icon: nexus.jpg
-  website:
-  description:
+  website: http://www.nexusearth.com/
+  description: A cryptocurrency that is trying to build next-level decentralization by creating a network of satellites to live-stream Blockchain data globally, even where there is no internet.
 
 - name: ZenCash (ZEN)
   icon: zencash.png
-  website:
-  description:
+  website: https://zensystem.io/
+  description: Privacy-focused cryptocurrency that offers the ability to anonymously publish content online. People can add posts without revealing their identity. Based on Bitcoin and ZCash.
 
 - name: MinexCoin (MNX)
   icon: minexcoin.png
-  website:
-  description:
+  website: https://minexcoin.com/
+  description: Creating a global payments system that’s based on a stable exchange rate between the Minex cryptocurrency and traditional fiat currencies. Also offers a digital wallet and marketplace.
 
 - name: Quantstamp (QSP)
   icon: quantstamp.png
-  website:
-  description:
+  website: https://quantstamp.com/
+  description: Security-audit system for smart contracts. The goal is to check all smart contracts and put verified results on the Blockchain so that nobody can manipulate them.
 
 - name: Substratum (SUB)
   icon: substratum.png
-  website:
-  description:
+  website: https://substratum.net/
+  description: Decentralized internet hosting system. Uses a global network of private computers to create the free and open internet of the future. Participants earn cryptocurrency.
 
 - name: Counterparty (XCP)
   icon: counterparty.png
-  website:
-  description:
+  website: https://counterparty.io/
+  description: Cryptocurrency that is extending the functionality of Bitcoin. Allows anybody to create smart contracts and cryptocurrency tokens and run them on the Bitcoin blockchain.
 
 - name: Particl (PART)
   icon: particl.jpg
-  website:
-  description:
+  website: https://particl.io/
+  description: Privacy-focused Blockchain that includes its own currency, app platform, marketplace, and encrypted chat. Coin holders can earn interest for participating in the system.
 
 - name: NAV Coin (NAV)
   icon: navcoin.png
-  website:
-  description:
+  website: http://www.navcoin.org/
+  description: Based on Bitcoin, NAV is a decentralized cryptocurrency that adds optional privacy protection to transfers. It also offers “Proof of Stake” which allows users to earn interest.
 
 - name: PotCoin (POT)
   icon: potcoin.png
-  website:
-  description:
+  website: http://www.potcoin.com/
+  description: A cryptocurrency, payment network, and banking platform designed for the global legal marijuana industry. Cannabis sellers can use the digital currency, instead of cash.
 
 - name: AdEx (ADX)
   icon: adex.png
-  website:
-  description:
+  website: https://www.adex.network/
+  description: Blockchain-based advertising exchange that’s trying to disrupt the online ad industry. Aims to increase privacy, reduced ad fraud, and manage consent for sponsored messages.
 
 - name: Ubiq (UBQ)
-  icon:
-  website:
-  description:
+  icon: ubiq.png
+  website: https://ubiqsmart.com/
+  description: Ethereum-based platform for running decentralized enterprise applications and smart contracts. Forms a peer-to-peer network of computers that act as a global supercomputer.
 
 - name: Aragon (ANT)
-  icon: ubiq.png
-  website:
-  description:
+  icon: aragon.png
+  website: https://aragon.one/
+  description: System for managing the governance of decentralized organizations on the Ethereum Blockchain. Acts as a digital jurisdiction and a decentralized court system across countries.
 
 - name: ATMChain (ATM)
   icon: atm.png
-  website:
-  description:
+  website: https://www.atmchain.io/
+  description: Asian ad platform that removes traditional advertising networks as middlemen. Offers deeper ad data, better targeting, and content hosting. Somewhat similar to SingularDTV.
 
 - name: Edgeless (EDG)
   icon: edgeless.jpg
-  website:
-  description:
+  website: https://edgeless.io/
+  description: An online casıno platform that uses no “house edge” (the casino’s statıstıcal advantage). Edgeless plans to make money only from player mistakes and from sports bettıng.
