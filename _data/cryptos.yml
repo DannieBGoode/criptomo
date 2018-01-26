@@ -96,7 +96,7 @@
 - name: Qtum (QTUM)
   icon: qtum.png
   website: https://www.reddit.com/r/Qtum/
-  description:
+  description: Qtum is building a hybrid version of Bitcoin and Ethereum, designed for business smart contracts. It’s competing with Ethereum to become a platform for decentralized apps.
 
 - name: Hshare (HSR)
   icon: hshare.png
@@ -135,208 +135,208 @@
 
 - name: Stratis (STRAT)
   icon: stratis.png
-  website:
-  description:
+  website: http://stratisplatform.com/
+  description: Development platform for creating business smart contract applications written in the C# language. Also offers Blockchain management and consulting services.
 
 - name: Ark (ARK)
   icon: ark.png
-  website:
-  description:
+  website: http://ark.io/
+  description: Plans on connecting all existing cryptocurrencies, like a switchboard. The goal is to create a linked ecosystem that shares applications across Blockchains for quicker mass adoption.
 
 - name: Komodo (KMD)
   icon: komodo.png
-  website:
-  description:
+  website: https://komodoplatform.com/
+  description: Decentralized crowdfunding (ICO) platform to remove middlemen from project funding. Offers services for startups to create and manage their own Blockchains.
 
 - name: Bitshares (BTS)
   icon: bitshares.png
-  website:
-  description:
+  website: https://bitshares.org/
+  description: A decentralized exchange that offers financial services, including banking. Planning features that allow anyone to create custom digital assets on the Blockchain.
 
 - name: Steem (STEEM)
   icon: steem.png
-  website:
-  description:
+  website: https://steem.io/
+  description: Rewards platform that lets content creators and curators monetize their work. Can also be used by publishers to create incentives to encourage certain user behavior.
 
 - name: Golem (GNT)
   icon: golem.png
-  website:
-  description:
+  website: https://golem.network/
+  description: Decentralized supercomputer system that anybody can use. People worldwide can rent out their computers to the network and get paid for that service with Golem tokens.
 
 - name: Ardor (ARDR)
   icon: ardor.png
-  website:
-  description:
+  website: https://www.ardorplatform.org/
+  description: ffers companies and governments Blockchain-as-a-service. The Ardor Blockchain system can be used to create additional sub-Blockchains with custom features.
 
 - name: Bytecoin (BCN)
   icon: bytecoin.png
-  website:
-  description:
+  website: https://bytecoin.org/
+  description: First privacy-focused cryptocurrency with anonymous transactions. Bytecoin’s code was later adapted to create Monero, the more well-known anonymous cryptocurrency.
 
 - name: Decred (DCR)
   icon: decred.png
-  website:
-  description:
+  website: https://www.decred.org/
+  description: Similar to Bitcoin but with built-in community voting for decisions. Decentralized decision-making and self-funding are used to stay independent of third-party influence.
 
 - name: Augur (REP)
   icon: augur.png
-  website:
-  description:
+  website: http://www.augur.net/
+  description: Platform to forecast and make wagers on the outcome of real-world events (AKA decentralized predictions). Uses predictions for a “wisdom of the crowd” search engine.
 
 - name: Salt (SALT)
   icon: salt.jpg
-  website:
-  description:
+  website: https://www.saltlending.com/
+  description: Plans to offer cash loans in traditional currencies, backed by your cryptocurrency assets. Allows lenders worldwide to skip credit checks for easier access to affordable loans.
 
 - name: MaidSafeCoin (MAID)
   icon: maidsafecoin.png
-  website:
-  description:
+  website: http://maidsafe.net/
+  description: Rent out hard drive disk space with a Blockchain-based storage solutions. It’s an autonomous network that automatically sets prices and distributes data.
 
 - name: Factom (FCT)
   icon: factom.jpg
-  website:
-  description:
+  website: http://factom.org/
+  description: Secure recordkeeping system that allows companies to store their data directly on the Blockchain. The goal is to make records more transparent and trustworthy.
 
 - name: Vertcoin (VTC)
   icon: vertcoin.png
-  website:
-  description:
+  website: http://vertcoin.org/
+  description: Bitcoin clone designed to decentralize the community more by making the Blockchain verification process (called “Proof of Work” mining) easier and therefore more spread out.
 
 - name: PIVX (PIVX)
   icon: pivx.png
-  website:
-  description:
+  website: http://www.pivx.org/
+  description: Based on DASH but with a different vision. Designed to be completely private with instant transactions. Designed with a controlled but constant new supply of coins.
 
 - name: TenX (PAY)
   icon: tenx.png
-  website:
-  description:
+  website: https://www.tenx.tech/
+  description: Offers cryptocurrency-linked credit cards that let you spend virtual money in real life. Developing a series of payment platforms to make spending cryptocurrency easier.
 
 - name: Veritaseum (VERI)
   icon: veritaseum.png
-  website:
-  description:
+  website: http://veritas.veritaseum.com/
+  description: Allegedly will allow people to trade stocks and other investments without banks and brokerages. The Veritaseum token would be used to reflect the value of these assets.
 
 - name: Gas (GAS)
   icon: gas.jpg
-  website:
-  description:
+  website: https://neo.org/
+  description: GAS is the currency used for the NEO Blockchain system and represents an ownership share of NEO. NEO is China’s first Blockchain platform, focused on smart contracts.
 
 - name: Basic Attention Token (BAT)
   icon: bat.png
-  website:
-  description:
+  website: https://basicattentiontoken.org/
+  description: An Ethereum-based token that can be exchanged between content creators, users, and advertisers. Decentralized ad-network that pays based on engagement and attention.
 
 - name: MonaCoin (MONA)
   icon: monacoin.png
-  website:
-  description:
+  website: http://monacoin.org/
+  description: The first Japanese cryptocurrency. Focused on microtransactions and based on a popular internet meme of a type-written cat. This makes it similar to Dogecoin.
 
 - name: Byteball (GBYTE)
   icon: byteball.png
-  website:
-  description:
+  website: https://byteball.org/
+  description: Platform for smart contracts that can be used to create conditional payments. For example, if an event happens the payee receives money, otherwise there is a refund.
 
 - name: Dogecoin (DOGE)
   icon: dogecoin.png
-  website:
-  description:
+  website: http://dogecoin.com/
+  description: Litecoin clone that’s both a decentralized, peer-to-peer digital currency and based on the popular internet meme dog. Used for "tipping" fellow internet-users.
 
 - name: Bitcoin Dark (BTCD)
   icon: bitcoin-dark.png
-  website:
-  description:
+  website: http://bitcoindark.com/
+  description: Cryptocurrency that offers a decentralized digital asset exchange. The project is focused on privacy and financial freedom as well as the open flow of information.
 
 - name: Gamecredits (GAME)
   icon: game.png
-  website:
-  description:
+  website: http://gamecredits.com/
+  description: A digital currency designed for video game players and developers. Let’s people buy and sell in-game items and other virtual goods with privacy protection.
 
 - name: Siacoin (SC)
   icon: siacoin.png
-  website:
-  description:
+  website: http://sia.tech/
+  description: Decentralized cloud file storage that removes middlemen like Dropbox. Distributes encrypted files to thousands of private users who get paid for renting out their disk space.
 
 - name: Metaverse (ETP)
   icon: metaverse.jpg
-  website:
-  description:
+  website: https://mvs.org/
+  description: Chinese Ethereum clone with a built-in reputation system. Focused on building a smart contract platform for financial services, digital identity, and digital assets.
 
 - name: Walton (WTC)
   icon: walton.png
-  website:
-  description:
+  website: http://www.waltonchain.org/
+  description: Blockchain system designed for the Internet of Things (IoT) in business supply chains. Similar to IOTA, but uses Blockchain and real-world RFID tags to monitor inventory.
 
 - name: Iconomi (ICN)
   icon: iconomi.png
-  website:
-  description:
+  website: https://www.iconomi.net/
+  description: Allows individuals and investment professionals to create cryptocurrency funds. Anybody can share their portfolio’s performance, and others can invest in the portfolio.
 
 - name: Syscoin (SYS)
   icon: syscoin.png
-  website:
-  description:
+  website: http://syscoin.org/
+  description: A cryptocurrency with a decentralized marketplace that lets people buy and sell products directly without third parties. Trying to remove middlemen like eBay and Amazon.
 
 - name: TRON (TRX)
   icon: tron.jpg
-  website:
-  description:
+  website: https://tronlab.com/
+  description: Chinese smart contract platform connecting entertainment creators with consumers, without middlemen like Google and Apple. Supports other Blockchains like Bitcoin.
 
 - name: Exchange Union (XUC)
   icon: exchange.png
-  website:
-  description:
+  website: https://www.exchangeunion.com/
+  description: Platform to enable digital asset transfers between professional cryptocurrency exchanges. Exchange Union is working on providing exchange companies more liquidity.
 
 - name: Digix DAO (DGD)
   icon: digix.png
-  website:
-  description:
+  website: https://digix.global/
+  description: Users can purchase physical gold bullion. Purchases are recorded and audited using Blockchain. Aims to create more transparency for precious metal ownership.
 
 - name: Power Ledger (POWR)
   icon: power.png
-  website:
-  description:
+  website: https://powerledger.io/
+  description: Building an open electricity-trading systems for houses with solar panels and future smart homes. The platform aims to offer automated energy buying and selling in the future.
 
 - name: Raiden (RDN)
   icon: raiden.png
-  website:
-  description:
+  website: https://raiden.network/
+  description: Raiden is a technology designed to improve the speed of Ethereum transactions. It offers faster, cheaper, and more scalable transfers for Ethereum and Ethereum-based coins.
 
 - name: Binance Coin (BNB)
   icon: binance.jpg
-  website:
-  description:
+  website: https://www.binance.com/
+  description: Chinese digital asset exchange - short for Binary Finance. The exchange focuses on trading speed and liquidity. Users that pay fees in Binance coins get discounts.
 
 - name: NXT (NXT)
   icon: nxt.png
-  website:
-  description:
+  website: https://nxtplatform.org/
+  description: Open source blockchain platform that offers built-in features such as a decentralized digital asset exchange, a marketplace, and a community voting system.
 
 - name: Status (SNT)
   icon: status.png
-  website:
-  description:
+  website: https://status.im/
+  description: Ethereum is a decentralized world computer and Status is building the operating system for that computer. It’s a user-friendly interface for Ethereum applications. Browser and messaging platform.
 
 - name: Kyber (KNC)
   icon: kyber.png
-  website:
-  description:
+  website: https://kyber.network/
+  description: Platform for digital asset exchange and transfer. Features automatic coin conversions for payments. Also offers payment tools for developers and a cryptocurrency wallet.
 
 - name: ZCoin (XZC)
   icon: zcoin.png
-  website:
-  description:
+  website: https://zcoin.io/
+  description: ZCoin is a cryptocurrency that is focused on private money transactions. It claims to offer an auditable supply of coins to prevent developers from endlessly creating new coins.
 
 - name: Aeternity (AE)
   icon: aeternity.jpg
-  website:
-  description:
+  website: https://www.aeternity.com/
+  description: Smart contract platform that processes transactions “off” the Blockchain. For disputes, the Blockchain is used to choose a winner. The goal is to solve Blockchain speed and governance issues.
 
 - name: FunFair (FUN)
   icon: fun.png
-  website:
-  description:
+  website: https://funfair.io/
+  description: A platform that allows anyone to run their own online smart contract casino. Uses Ethereum Blockchain technology to create transparent game code that protects players.
 
 - name: Bytom (BTM)
   icon: bytom.png
@@ -345,7 +345,7 @@
 
 - name: DigiByte (DGB)
   icon: digibyte.jpg
-  website:
+  website: http://www.digibyte.io/
   description:
 
 - name: Gnosis (GNO)
