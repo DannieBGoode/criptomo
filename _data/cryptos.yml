@@ -1,0 +1,514 @@
+# cryptocurrencies. faltarían Monaco , Request
+- name: Bitcoin (BTC)
+  icon: bitcoin.png
+  website: https://bitcoin.org
+  class: currency
+  description: The first cryptocurrency, created 2008. Lets you send and receive money without any middlemen like banks. It is community managed, without a central authority or control.
+  article: /que-es-bitcoin/
+
+- name: Bitcoin Cash (BCH)
+  icon: bch.png
+  website: www.bitcoin.com
+  class: currency
+  description: A fork of Bitcoin that focuses on processing high volumes of transactions differently. Created because of disagreements about how to best grow digital currency.
+
+- name: Ethereum (ETH)
+  icon: ethereum.jpg
+  website: https://www.ethereum.org/
+  class: dapps
+  description: A platform for creating and running smart contracts. These are programmable applications that run exactly as promised - without downtime, censorship, or interference.
+
+- name: DASH (DASH)
+  icon: dash.png
+  website: https://www.dash.org/
+  description: Digital money system designed for fast and secure transactions with optional privacy. Dash is trying to become the default digital cash for the internet, hence the name.
+
+- name: Cardano (ADA)
+  icon: cardano.png
+  website: https://www.cardanohub.org/
+  description: A security-focused Blockchain based on peer-reviewed research. A platform for decentralized applications and smart contracts which allows for formal code verification.
+
+- name: Litecoin (LTC)
+  icon: litecoin.png
+  website: https://litecoin.com/
+  description: An offshoot of Bitcoin with very similar features. However, this cryptocurrency is designed for very cheap and fast transaction. Same goal as Bitcoin - to become digital money.
+
+- name: IOTA (IOTA)
+  icon: iota.png
+  website: https://iota.org/
+  description: Third-generation cryptocurrency offering free, real-time microtransactions between Internet of Things (IoT) devices. Allows future technology to transact without humans.
+
+- name: Ripple (XRP)
+  icon: ripple.png
+  website: https://ripple.com/
+  description: A Blockchain payment system for banks, payment providers, digital asset exchanges, and other companies. Designed to move large amounts of money more quickly and reliably.
+
+- name: Stellar Lumens
+  icon: stellar.png
+  website: https://www.stellar.org/
+  description: A nonprofit organization that’s building an open system where people of all income levels can access financial services. Working with banks to enable text message money transfer.
+
+- name: EOS (EOS)
+  icon: eos.png
+  website: https://eos.io/
+  description: Developing an operating-system like platform upon which decentralized applications can be built. Provides a scalable, plug-and-play toolkit for smart contract developers.
+
+- name: NEM (XEM)
+  icon: nem.png
+  website: http://nem.io/
+  description: A platform for businesses and developers that want to build smart contract applications and connect them to the Blockchain. Offers pre-made tools and functionality for this.
+
+- name: Bitcoin Gold (BTG)
+  icon: bitcoin-gold.png
+  website: https://bitcoingold.org/
+  description: Decentralized application platform that's building communities in partnership with banks,  insurance providers, hospitals, and universities. Focused on ID verification and payments.
+
+- name: ICON (ICX)
+  icon: icon.png
+  website: https://www.icon.foundation/
+  description: Decentralized application platform that's building communities in partnership with banks,  insurance providers, hospitals, and universities. Focused on ID verification and payments.
+
+- name: NEO (NEO)
+  icon: neo.jpg
+  website: https://neo.org/
+  description: Formerly known as Antshares, NEO is China’s first Blockchain platform. It’s inspired by Ethereum, also focuses on smart contracts, but adds digital identity features.
+
+- name: RaiBlocks (XRB)
+  icon: raiblocks.png
+  website: https://raiblocks.net/
+  description: Designed for very fast, zero-fee transactions. Allows for unlimited scaling and no-fee micro-transactions by using a block-lattice architecture (each user has their own blockchain).
+
+- name: Monero (XMR)
+  icon: monero.png
+  website: https://getmonero.org/
+  description: A secure, private, and untraceable cryptocurrency. Monero is focused on being anonymous internet money, hiding your accounts and transactions from anybody but you.
+
+- name: Ethereum Classic (ETC)
+  icon: ethereum-classic.png
+  website: https://ethereumclassic.github.io/
+  description: A clone of Ethereum created because of ideological differences in the community. After a 2016 hack, Ethereum Classic split off to maintain the technology’s status quo.
+
+- name: LISK (LSK)
+  icon: lisk.png
+  website: https://lisk.io/
+  description: Based on a modified version of the Crypti code. Lisk is an early-stage platform for developers to create their own Blockchains and Javascript smart contract applications.
+
+- name: Qtum (QTUM)
+  icon: qtum.png
+  website: https://www.reddit.com/r/Qtum/
+  description:
+
+- name: Hshare (HSR)
+  icon: hshare.png
+  website: https://h.cash/
+  description: Hshare (AKA HCash) is being developed to send both value (money) and data (information) between Blockchain systems. It allows for transactions across Blockchains.
+
+- name: OmiseGO (OMG)
+  icon: omisego.png
+  website: https://omg.omise.co/
+  description: Omise is designed to enable financial services for people without bank accounts. It works worldwide and with both traditional money and cryptocurrencies.
+
+- name: Zcash (ZEC)
+  icon: zcash.png
+  website: https://z.cash/
+  description: A decentralized and open-source cryptocurrency that hide the sender, recipient, and value of transactions. Offers users the option to make transactions public later for auditing.
+
+- name: Tether (USDT)
+  icon: tether.png
+  website: https://tether.to/
+  description: Designed to offer digital currency exchanges a never-changing 1-to-1 exchange rate with U.S. dollars. Allegedly, all Tether coins in circulation are backed by real money.
+
+- name: BitConnect (BCC)
+  icon: bitconnect.png
+  website: https://bitconnectcoin.co/
+  description: Now defunct platform that let users lend out Bitcoin to a trading bot to earn interest. Allegedly, participants earn daily returns. Used multi-level affiliate marketing promotion.
+
+- name: Waves (WAVES)
+  icon: waves.png
+  website: https://wavesplatform.com/
+  description: Decentralized digital currency exchange and crowdfunding platform. Let’s companies and projects to issue and manage their own digital coin tokens to raise money.
+
+- name: Populous (PPT)
+  icon: populous.jpg
+  website: http://populous.co/
+  description: Decentralized digital currency exchange and crowdfunding platform. Let’s companies and projects to issue and manage their own digital coin tokens to raise money.
+
+- name: Stratis (STRAT)
+  icon: stratis.png
+  website:
+  description:
+
+- name: Ark (ARK)
+  icon: ark.png
+  website:
+  description:
+
+- name: Komodo (KMD)
+  icon: komodo.png
+  website:
+  description:
+
+- name: Bitshares (BTS)
+  icon: bitshares.png
+  website:
+  description:
+
+- name: Steem (STEEM)
+  icon: steem.png
+  website:
+  description:
+
+- name: Golem (GNT)
+  icon: golem.png
+  website:
+  description:
+
+- name: Ardor (ARDR)
+  icon: ardor.png
+  website:
+  description:
+
+- name: Bytecoin (BCN)
+  icon: bytecoin.png
+  website:
+  description:
+
+- name: Decred (DCR)
+  icon: decred.png
+  website:
+  description:
+
+- name: Augur (REP)
+  icon: augur.png
+  website:
+  description:
+
+- name: Salt (SALT)
+  icon: salt.jpg
+  website:
+  description:
+
+- name: MaidSafeCoin (MAID)
+  icon: maidsafecoin.png
+  website:
+  description:
+
+- name: Factom (FCT)
+  icon: factom.jpg
+  website:
+  description:
+
+- name: Vertcoin (VTC)
+  icon: vertcoin.png
+  website:
+  description:
+
+- name: PIVX (PIVX)
+  icon: pivx.png
+  website:
+  description:
+
+- name: TenX (PAY)
+  icon: tenx.png
+  website:
+  description:
+
+- name: Veritaseum (VERI)
+  icon: veritaseum.png
+  website:
+  description:
+
+- name: Gas (GAS)
+  icon: gas.jpg
+  website:
+  description:
+
+- name: Basic Attention Token (BAT)
+  icon: bat.png
+  website:
+  description:
+
+- name: MonaCoin (MONA)
+  icon: monacoin.png
+  website:
+  description:
+
+- name: Byteball (GBYTE)
+  icon: byteball.png
+  website:
+  description:
+
+- name: Dogecoin (DOGE)
+  icon: dogecoin.png
+  website:
+  description:
+
+- name: Bitcoin Dark (BTCD)
+  icon: bitcoin-dark.png
+  website:
+  description:
+
+- name: Gamecredits (GAME)
+  icon: game.png
+  website:
+  description:
+
+- name: Siacoin (SC)
+  icon: siacoin.png
+  website:
+  description:
+
+- name: Metaverse (ETP)
+  icon: metaverse.jpg
+  website:
+  description:
+
+- name: Walton (WTC)
+  icon: walton.png
+  website:
+  description:
+
+- name: Iconomi (ICN)
+  icon: iconomi.png
+  website:
+  description:
+
+- name: Syscoin (SYS)
+  icon: syscoin.png
+  website:
+  description:
+
+- name: TRON (TRX)
+  icon: tron.jpg
+  website:
+  description:
+
+- name: Exchange Union (XUC)
+  icon: exchange.png
+  website:
+  description:
+
+- name: Digix DAO (DGD)
+  icon: digix.png
+  website:
+  description:
+
+- name: Power Ledger (POWR)
+  icon: power.png
+  website:
+  description:
+
+- name: Raiden (RDN)
+  icon: raiden.png
+  website:
+  description:
+
+- name: Binance Coin (BNB)
+  icon: binance.jpg
+  website:
+  description:
+
+- name: NXT (NXT)
+  icon: nxt.png
+  website:
+  description:
+
+- name: Status (SNT)
+  icon: status.png
+  website:
+  description:
+
+- name: Kyber (KNC)
+  icon: kyber.png
+  website:
+  description:
+
+- name: ZCoin (XZC)
+  icon: zcoin.png
+  website:
+  description:
+
+- name: Aeternity (AE)
+  icon: aeternity.jpg
+  website:
+  description:
+
+- name: FunFair (FUN)
+  icon: fun.png
+  website:
+  description:
+
+- name: Bytom (BTM)
+  icon: bytom.png
+  website:
+  description:
+
+- name: DigiByte (DGB)
+  icon: digibyte.jpg
+  website:
+  description:
+
+- name: Gnosis (GNO)
+  icon: gnosis.png
+  website:
+  description:
+
+- name: GXShares (GXS)
+  icon: gxshares.jpg
+  website:
+  description:
+
+- name: Bancor (BNT)
+  icon: bancor.jpg
+  website:
+  description:
+
+- name: Blocknet (BLOCK)
+  icon: blocknet.png
+  website:
+  description:
+
+- name: Cryptonex (CNX)
+  icon: cryptonex.png
+  website:
+  description:
+
+- name: Ethos (ETHOS)
+  icon: ethos.png
+  website:
+  description:
+
+- name: Civic (CVC)
+  icon: civic.png
+  website:
+  description:
+
+- name: 0x (ZRX)
+  icon: 0x.png
+  website:
+  description:
+
+- name: Pura (PURA)
+  icon: pura.png
+  website:
+  description:
+
+- name: Metal (MTL)
+  icon: metal.png
+  website:
+  description:
+
+- name: Einsteinium (EMC2)
+  icon: einsteinium.png
+  website:
+  description:
+
+- name: Lykke (LKK)
+  icon: lykke.png
+  website:
+  description:
+
+- name: Verge (XVG)
+  icon:
+  website:
+  description:
+
+- name: Peercoin (PPC)
+  icon: verge.png
+  website:
+  description:
+
+- name: Streamr (DATA)
+  icon: streamr.png
+  website:
+  description:
+
+- name: SingularDTV (SNGLS)
+  icon: singularDTV.png
+  website:
+  description:
+
+- name: Santiment (SAN)
+  icon: santiment.png
+  website:
+  description:
+
+- name: Storj (STORJ)
+  icon: storj.png
+  website:
+  description:
+
+- name: VeChain (VEN)
+  icon: vechain.png
+  website:
+  description:
+
+- name: Nexus (NXS)
+  icon: nexus.jpg
+  website:
+  description:
+
+- name: ZenCash (ZEN)
+  icon: zencash.png
+  website:
+  description:
+
+- name: MinexCoin (MNX)
+  icon: minexcoin.png
+  website:
+  description:
+
+- name: Quantstamp (QSP)
+  icon: quantstamp.png
+  website:
+  description:
+
+- name: Substratum (SUB)
+  icon: substratum.png
+  website:
+  description:
+
+- name: Counterparty (XCP)
+  icon: counterparty.png
+  website:
+  description:
+
+- name: Particl (PART)
+  icon: particl.jpg
+  website:
+  description:
+
+- name: NAV Coin (NAV)
+  icon: navcoin.png
+  website:
+  description:
+
+- name: PotCoin (POT)
+  icon: potcoin.png
+  website:
+  description:
+
+- name: AdEx (ADX)
+  icon: adex.png
+  website:
+  description:
+
+- name: Ubiq (UBQ)
+  icon:
+  website:
+  description:
+
+- name: Aragon (ANT)
+  icon: ubiq.png
+  website:
+  description:
+
+- name: ATMChain (ATM)
+  icon: atm.png
+  website:
+  description:
+
+- name: Edgeless (EDG)
+  icon: edgeless.jpg
+  website:
+  description:

@@ -19,11 +19,11 @@ Todos los artículos del blog son selecciones de información que el autor ha en
 
 Si te gusta el contenido del blog y te gustaría apoyar su continuación puedes donar en las siguientes direcciones:
 
-<img src="https://files.coinmarketcap.com/static/img/coins/64x64/bitcoin.png" alt="Bitcoin" class="small-image" title="Bitcoin"/>
+<img src="/images/general/cryptocurrencies/bitcoin.png" alt="Bitcoin" title="Bitcoin"/>
 Bitcoin: `{{ site.crypto.address.bitcoin }}`
 
-<img src="/images/bch.png" alt="Bitcoin Cash" class="small-image" title="Bitcoin Cash"/>
+<img src="/images/general/cryptocurrencies/bch.png" alt="Bitcoin Cash" class="small-image" title="Bitcoin Cash"/>
 Bitcoin Cash: `{{ site.crypto.address.bitcoin-cash }}`
 
-<img src="https://files.coinmarketcap.com/static/img/coins/64x64/ethereum.png" alt="Ethereum" class="small-image" title="Ethereum"/>
+<img src="/images/general/cryptocurrencies/ethereum.jpg" alt="Ethereum" title="Ethereum"/>
 Ethereum: `{{ site.crypto.address.ethereum }}`

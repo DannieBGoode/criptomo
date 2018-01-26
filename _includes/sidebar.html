@@ -20,7 +20,7 @@
 
         <script async src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
 
-        {% for currency in site.data.currencies limit:5 %}
+        {% for currency in site.data.sidebar-currencies limit:5 %}
 
         <div title="{{currency.name}}" class="coinmarketcap-currency-widget" data-currency="{{currency.name}}" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
 
