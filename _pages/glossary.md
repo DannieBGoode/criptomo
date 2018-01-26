@@ -6,6 +6,10 @@ banner_image: dictionary.jpg
 permalink: /glosario/
 ---
 
+{:.corporate-blue}
+## A
+<hr/>
+
 #### Altcoin
 Se dice de cualquier criptomoneda que no es Bitcoin.
 
@@ -17,6 +21,10 @@ Cuando el 51% o más de la fuerza computacional de la red que mantiene un blockc
 
 #### ATH
 All Time High - Precio histórico más alto al que ha estado una criptodivisa.
+
+{:.corporate-blue}
+## B
+<hr/>
 
 #### Bearish
 Sentimiento de que algo va a bajar de precio.
@@ -33,6 +41,10 @@ Base de datos distribuida que no puede ser modificada formada por un conjunto de
 #### Bullish
 Sentimiento de que algo va a subir de precio.
 
+{:.corporate-blue}
+## C
+<hr/>
+
 ####  Clave Privada
 Conjunto de caracteres que dan acceso a un wallet específico. Actúan como contraseñas.
 
@@ -47,6 +59,10 @@ Pequeñas tasas impuestas a las transacciones de las redes normalmente entregada
 
 #### Criptomoneda
 Es una forma de divisa digital basada en matemáticas donde se utilizan técnicas de cifrado para regular la generación de nuevas monedas así como la validación de las transacciones de la red. No requieren de ninguna entidad central o bancaria que la administre.
+
+{:.corporate-blue}
+## D
+<hr/>
 
 #### DApp
 Una aplicación descentralizada es un programa open-source que reside en un blockchain y que se ejecuta automáticamente. Un DApp no puede ser modificado una vez subido al blockchain.
@@ -69,8 +85,16 @@ Hash de una clave pública que puede ser compartida con el fin de recibir fondos
 #### Dumb Money
 Dinero de la gente corriente que invierte sin entender.
 
+{:.corporate-blue}
+## E
+<hr/>
+
 #### Exchange
 Centro de intercambio donde se pueden intercambiar dinero convencional y criptodivisas.
+
+{:.corporate-blue}
+## F
+<hr/>
 
 #### Fiat
 Dícese del dinero aprobado por las entidades gubernamentales, como el euro o el dólar.
@@ -84,17 +108,9 @@ Un fork es una bifurcación de un blockchain dejando dos redes paralelas e incom
 #### FUD
 Fear, Uncertainty and Doubt. Miedo, incertidumbre y duda. Cuando se extiende FUD de una moneda, la gente tiene a vender.
 
-#### Hard Fork
-Se dice del fork que se realiza para poder cambiar las reglas de un blockchain manteniendo el historial de transacciones hasta el momento. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum-Ethereum Classic o el de Bitcoin - Bitcoin Cash. Podemos comparar un Hard Fork a como no es posible jugar a juegos de la PS3 en la PS4. 
-
-#### Hash
-Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
-
-#### HODL
-HOLD - No vender las monedas pase lo que pase.
-
-#### IOT
-Internet of Things - Internet de las cosas, se dice de la red de en la cual participan dispositivos de manera autónoma y automática como neveras, satélites, drones, etc... con poca intervención humana.
+{:.corporate-blue}
+## G
+<hr/>
 
 #### Gas
 Unidad de pasos computacionales que se requieren para realizar una operación en un smart contract. Puesto que el precio de las criptomonedas oscila enormemente mientras que el precio computacional de una operación es relativamente constante los smart contracts se basan en unidades de GAS a la hora de operar.
@@ -105,11 +121,36 @@ El primer bloque de un blockchain.
 #### Github
 Repositorios de código públicos que nos permite ver el progreso línea por línea de todo lo que se está realizando, con un historial detallado así como información de los desarrolladores, cuánto tiempo llevan programando, en qué otros proyectos públicos han participado, etc…
 
+{:.corporate-blue}
+## H
+<hr/>
+
+#### Hard Fork
+Se dice del fork que se realiza para poder cambiar las reglas de un blockchain manteniendo el historial de transacciones hasta el momento. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum-Ethereum Classic o el de Bitcoin - Bitcoin Cash. Podemos comparar un Hard Fork a como no es posible jugar a juegos de la PS3 en la PS4. 
+
+#### Hash
+Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
+
+#### HODL
+HOLD - No vender las monedas pase lo que pase.
+
+{:.corporate-blue}
+## I
+<hr/>
+
+#### IOT
+Internet of Things - Internet de las cosas, se dice de la red de en la cual participan dispositivos de manera autónoma y automática como neveras, satélites, drones, etc... con poca intervención humana.
+
+
 #### ICO
 Evento en el que los creadores de una criptomoneda venden unidades de ésta antes de que llegue a los exchanges con el fin de levantar capital.
 
 #### Insta-Minado
 Mecanismo de autofinanciación donde los primeros bloques de una moneda se minan muy fácilmente con recompensas muy altas.
+
+{:.corporate-blue}
+## M
+<hr/>
 
 #### Mempool
 Espacio donde habitan las transacciones pendientes de verificar que serán recogidas por los mineros.
@@ -117,11 +158,23 @@ Espacio donde habitan las transacciones pendientes de verificar que serán recog
 #### Minado
 Acción de validación de las transacciones de un blockchain que normalmente es recompensado con tasas por transacción o nuevas monedas generadas mediante inflación controlada.
 
+{:.corporate-blue}
+## N
+<hr/>
+
 #### Nocoiner
 Dicese de aquella persona que no tiene criptomonedas e insiste en que todo es una burburja que estallará en algún momento.
 
+{:.corporate-blue}
+## O
+<hr/>
+
 #### Open-Source
 Dícese de aquel proyecto de software cuyo código es público y puede ser auditado, revisado o copiado por cualquiera. Github es una web de proyectos open-source.
+
+{:.corporate-blue}
+## P
+<hr/>
 
 #### Paper Wallet
 Trozo de papel con la clave privada de una dirección escrita.
@@ -138,8 +191,16 @@ Algoritmo de consenso que recompensa/castiga al minero por validar correctamente
 #### Pump and Dumps
 Cuando se sube el precio de una moneda comprando muchas unidades para que la gente normal empiece a comprarla también por FOMO y después se vende.
 
+{:.corporate-blue}
+## R
+<hr/>
+
 #### Recompensa de Bloque
 Número de criptomonedas que un minero recibe generadas de la nada mediante inflación controlada por validar correctamente un bloque de transacciones.
+
+{:.corporate-blue}
+## S
+<hr/>
 
 #### Satoshi Nakamoto
 Creador anónimo de Bitcoin.
@@ -166,6 +227,10 @@ Este tipo de fork requiere que la mayor parte de los mineros actualicen su softw
 #### Solidity
 Lenguaje de programación para crear smart contracts para Ethereum.
 
+{:.corporate-blue}
+## T
+<hr/>
+
 #### Tangle
 Alternativa a la tecnología blockchain diseñada por el equipo de la criptomoneda IOTA.
 
@@ -185,11 +250,19 @@ Unidad digital de algo.
 #### TOR
 The Onion Ring: Se trata del internet oculto y anónimo. Se necesita un navegador especial para acceder. Muchas tiendas online ilegales son accesibles sólo por redes TOR.
 
+{:.corporate-blue}
+## W
+<hr/>
+
 #### Wallet
 Un programa que almacena claves privadas y permite realizar transacciones.
 
 #### Whitepaper
 Documento inicial donde se proyecta un proyecto de tecnología sin entrar demasiado en detalle en la solución técnica.
+
+{:.corporate-blue}
+## Z
+<hr/>
 
 #### zk-SNARK
 Concepto matemático que permite a una tercera entidad validar una transacción entre otras dos sin necesidad de conocer los detalles de dicha transacción. Es utilizada por Z-Cash como mecanismo de privacidad.
