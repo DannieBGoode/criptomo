@@ -26,82 +26,82 @@
 - name: Cardano (ADA)
   icon: cardano.png
   website: https://www.cardanohub.org/
-  description: Blockchain enfocada en capas independientesA security-focused Blockchain based on peer-reviewed research. A platform for decentralized applications and smart contracts which allows for formal code verification.
+  description: Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revision academicos.
 
 - name: Litecoin (LTC)
   icon: litecoin.png
   website: https://litecoin.com/
-  description: An offshoot of Bitcoin with very similar features. However, this cryptocurrency is designed for very cheap and fast transaction. Same goal as Bitcoin - to become digital money.
+  description: Fork de Bitcoin más ligero y rápido.
 
 - name: IOTA (IOTA)
   icon: iota.png
   website: https://iota.org/
-  description: Third-generation cryptocurrency offering free, real-time microtransactions between Internet of Things (IoT) devices. Allows future technology to transact without humans.
+  description: Plataforma para dispositivos del Internet of Things que promete microtransacciones gratuitas que funcionen sin intervención humana.
 
 - name: Ripple (XRP)
   icon: ripple.png
   website: https://ripple.com/
-  description: A Blockchain payment system for banks, payment providers, digital asset exchanges, and other companies. Designed to move large amounts of money more quickly and reliably.
+  description: Un sistema de pagos para los bancos y otros proveedores de pagos. Diseñado para mover grandes cantidades de dinero de manera rápida y eficiente.
 
 - name: Stellar Lumens
   icon: stellar.png
   website: https://www.stellar.org/
-  description: A nonprofit organization that’s building an open system where people of all income levels can access financial services. Working with banks to enable text message money transfer.
+  description: Asocicación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
 
 - name: EOS (EOS)
   icon: eos.png
   website: https://eos.io/
-  description: Developing an operating-system like platform upon which decentralized applications can be built. Provides a scalable, plug-and-play toolkit for smart contract developers.
+  description: Plataforma para construir aplicaciones descentralizadas, escalables y con librerías conjuntas.
 
 - name: NEM (XEM)
   icon: nem.png
   website: http://nem.io/
-  description: A platform for businesses and developers that want to build smart contract applications and connect them to the Blockchain. Offers pre-made tools and functionality for this.
+  description: Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.
 
 - name: Bitcoin Gold (BTG)
   icon: bitcoin-gold.png
   website: https://bitcoingold.org/
-  description: Decentralized application platform that's building communities in partnership with banks,  insurance providers, hospitals, and universities. Focused on ID verification and payments.
+  description: Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado.
 
 - name: ICON (ICX)
   icon: icon.png
   website: https://www.icon.foundation/
-  description: Decentralized application platform that's building communities in partnership with banks,  insurance providers, hospitals, and universities. Focused on ID verification and payments.
+  description: Plataforma Sur-Coreana de aplicaciones descentralizadas que construye comunidades entre bancos, hospitales, universidades y  aseguradoras. Se enfoca en verificaciones de identidad y pagos.
 
 - name: NEO (NEO)
   icon: neo.jpg
   website: https://neo.org/
-  description: Formerly known as Antshares, NEO is China’s first Blockchain platform. It’s inspired by Ethereum, also focuses on smart contracts, but adds digital identity features.
-
+  description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
+  
 - name: RaiBlocks (XRB)
   icon: raiblocks.png
   website: https://raiblocks.net/
-  description: Designed for very fast, zero-fee transactions. Allows for unlimited scaling and no-fee micro-transactions by using a block-lattice architecture (each user has their own blockchain).
-
+  description: Plataforma no basada en el Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
+  
 - name: Monero (XMR)
   icon: monero.png
   website: https://getmonero.org/
-  description: A secure, private, and untraceable cryptocurrency. Monero is focused on being anonymous internet money, hiding your accounts and transactions from anybody but you.
+  description: Plataforam de pagos muy segura, totalmente privada y no traceable. A diferencia de con Bitcoin no se pueden conocer los balances de las cuentas o los detalles de las transacciones.
 
 - name: Ethereum Classic (ETC)
   icon: ethereum-classic.png
   website: https://ethereumclassic.github.io/
-  description: A clone of Ethereum created because of ideological differences in the community. After a 2016 hack, Ethereum Classic split off to maintain the technology’s status quo.
-
+  description: Fork de Ethereum creado despues del hack del DAO (en realidad es el código original de Ethereum) por una comunidad que asegura que el código de un smart contract debe ser inmutable.
+  
 - name: LISK (LSK)
   icon: lisk.png
   website: https://lisk.io/
-  description: Based on a modified version of the Crypti code. Lisk is an early-stage platform for developers to create their own Blockchains and Javascript smart contract applications.
+  description: Plataforma que permite crear apicaciones descentralizadas con Javascript.
 
 - name: Qtum (QTUM)
   icon: qtum.png
   website: https://www.reddit.com/r/Qtum/
-  description: Qtum is building a hybrid version of Bitcoin and Ethereum, designed for business smart contracts. It’s competing with Ethereum to become a platform for decentralized apps.
+  description: Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.
 
 - name: Hshare (HSR)
   icon: hshare.png
   website: https://h.cash/
-  description: Hshare (AKA HCash) is being developed to send both value (money) and data (information) between Blockchain systems. It allows for transactions across Blockchains.
+  description: Plataforma que permite intercambio de fondos o información entre distintos blockchains.
 
 - name: OmiseGO (OMG)
   icon: omisego.png
