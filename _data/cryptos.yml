@@ -3,30 +3,30 @@
   icon: bitcoin.png
   website: https://bitcoin.org
   class: currency
-  description: The first cryptocurrency, created 2008. Lets you send and receive money without any middlemen like banks. It is community managed, without a central authority or control.
+  description: La primera criptomoneda creada en 2008. Permite enviar y recibir fondos sin intermidiarios. No tiene un punto de control centralizado puesto que está dirigida por la comunidad.
   article: /que-es-bitcoin/
 
 - name: Bitcoin Cash (BCH)
   icon: bch.png
   website: www.bitcoin.com
   class: currency
-  description: A fork of Bitcoin that focuses on processing high volumes of transactions differently. Created because of disagreements about how to best grow digital currency.
+  description: Un fork de Bitcoin creado para intentar solucionar el probema de escabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
 
 - name: Ethereum (ETH)
   icon: ethereum.jpg
   website: https://www.ethereum.org/
   class: dapps
-  description: A platform for creating and running smart contracts. These are programmable applications that run exactly as promised - without downtime, censorship, or interference.
+  description: Plataforma para crear y ejectuar contratos inteligentes, es decir, aplicaciones que se autoejecutan sin posibilidad de censura o interferencia cuando se cumplen ciertas condiciones.
 
 - name: DASH (DASH)
   icon: dash.png
   website: https://www.dash.org/
-  description: Digital money system designed for fast and secure transactions with optional privacy. Dash is trying to become the default digital cash for the internet, hence the name.
+  description: Dinero digital diseñado para ser rápido, seguro y con privacidad adicional.
 
 - name: Cardano (ADA)
   icon: cardano.png
   website: https://www.cardanohub.org/
-  description: A security-focused Blockchain based on peer-reviewed research. A platform for decentralized applications and smart contracts which allows for formal code verification.
+  description: Blockchain enfocada en capas independientesA security-focused Blockchain based on peer-reviewed research. A platform for decentralized applications and smart contracts which allows for formal code verification.
 
 - name: Litecoin (LTC)
   icon: litecoin.png
