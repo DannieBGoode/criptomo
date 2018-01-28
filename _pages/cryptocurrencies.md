@@ -3,7 +3,6 @@ layout: default
 title: +100 criptomonedas explicadas
 description: Explicación breve de más de 100 criptomonedas
 permalink: /criptomonedas/
-sitemap: false
 ---
 
 <div class="site-content">
@@ -28,7 +27,7 @@ sitemap: false
 							{% if currency.article %}
 				            <span class="coin-article"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ currency.article }}"> En detalle</a></span>
 							{% endif %}
-							<span class="coin-website"><i class="fa fa-home" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> web oficial</a></span>
+							<span class="coin-website"><i class="fa-chevron-right" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> web oficial</a></span>
 						</span>
 			        </div><!-- .coinlist-details -->
 			    </div><!-- .coinlist-info -->
