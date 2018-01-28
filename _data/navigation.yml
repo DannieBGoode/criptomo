@@ -2,13 +2,13 @@
   url: /
 - text: Empieza Aquí
   url: /guias/
-- text: Autor
-  url: /about/
 # - text: Style Guides
 #   url: /style-guide/
 - text: Criptomonedas
   url: /criptomonedas/
 - text: Glosario
   url: /glosario/
+- text: Autor
+  url: /about/
 - text: Archivo
   url: /tags/
