@@ -34,7 +34,7 @@
   article: /que-es-cardano/
 
 - name: Litecoin (LTC)
-  icon: litecoin.png
+  icon: ltc.png
   website: https://litecoin.com/
   class: currency
   description: Fork de Bitcoin más ligero y rápido.
@@ -164,7 +164,7 @@
   description: Plataforma que permite crear y distribuir tokens a cualquier persona aunque no tenga conocimientos técnicos.
 
 - name: Populous (PPT)
-  icon: populous.jpg
+  icon: ppt.png
   website: http://populous.co/
   class: crowdfunding
   description: Plataforma de crowdfunding.
@@ -291,7 +291,7 @@
   description: Moneda japonesa basada en un meme para microtransacciones. Similar a Dogecoin.
 
 - name: Byteball (GBYTE)
-  icon: byteball.png
+  icon: gbyte.png
   website: https://byteball.org/
   description: Plataforma para contratos inteligentes que permite pagos condicionales - si una acción ocurre se realiza un pago, si no ocurre se hace una devolución.
 
@@ -321,7 +321,7 @@
   description: Blockchain para el internet de las cosas, similar a IOTA pero usa tecnología de RFID para monitorizar inventario.
 
 - name: Iconomi (ICN)
-  icon: iconomi.png
+  icon: icn.png
   website: https://www.iconomi.net/
   description: Permite creación de fondos de inversión basados en criptomonedas.
 
