@@ -29,7 +29,7 @@
   description: Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revision academicos.
 
 - name: Litecoin (LTC)
-  icon: litecoin.png
+  icon: ltc.png
   website: https://litecoin.com/
   description: Fork de Bitcoin más ligero y rápido.
 
@@ -129,7 +129,7 @@
   description: Decentralized digital currency exchange and crowdfunding platform. Let’s companies and projects to issue and manage their own digital coin tokens to raise money.
 
 - name: Populous (PPT)
-  icon: populous.jpg
+  icon: ppt.png
   website: http://populous.co/
   description: Decentralized digital currency exchange and crowdfunding platform. Let’s companies and projects to issue and manage their own digital coin tokens to raise money.
 
@@ -234,7 +234,7 @@
   description: The first Japanese cryptocurrency. Focused on microtransactions and based on a popular internet meme of a type-written cat. This makes it similar to Dogecoin.
 
 - name: Byteball (GBYTE)
-  icon: byteball.png
+  icon: gbyte.png
   website: https://byteball.org/
   description: Platform for smart contracts that can be used to create conditional payments. For example, if an event happens the payee receives money, otherwise there is a refund.
 
@@ -269,7 +269,7 @@
   description: Blockchain system designed for the Internet of Things (IoT) in business supply chains. Similar to IOTA, but uses Blockchain and real-world RFID tags to monitor inventory.
 
 - name: Iconomi (ICN)
-  icon: iconomi.png
+  icon: icn.png
   website: https://www.iconomi.net/
   description: Allows individuals and investment professionals to create cryptocurrency funds. Anybody can share their portfolio’s performance, and others can invest in the portfolio.
 
