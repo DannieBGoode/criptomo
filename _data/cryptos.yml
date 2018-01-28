@@ -118,6 +118,11 @@
   description: Tarjeta de débito que transforma cryptomonedas en fiat en el momento del pago.
   article: /tarjeta-debito-criptomonedas/
 
+- name: Qtum (QTUM)
+  icon: qtum.png
+  website: https://www.reddit.com/r/Qtum/
+  description: Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.
+
 - name: Hshare (HSR)
   icon: hshare.png
   website: https://h.cash/
