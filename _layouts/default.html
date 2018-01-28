@@ -22,6 +22,9 @@ layout: compress
     {% include adsense.html %}
 </head>
 <body>
+    {% if page.progress %}
+    <progress value="0"></progress>                
+    {% endif %}
     <nav id="top" class="site-navigation">
         <div class="inner">
             <button id="menu-toggle" aria-expanded="false">Menu</button>
