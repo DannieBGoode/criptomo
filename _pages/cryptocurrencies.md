@@ -3,6 +3,7 @@ layout: default
 title: +100 criptomonedas explicadas
 description: Explicación breve de más de 100 criptomonedas
 permalink: /criptomonedas/
+progress: true
 ---
 
 <div class="site-content">

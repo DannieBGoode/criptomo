@@ -82,6 +82,12 @@ defaults:
       path               : "page"
     values:
       sitemap            : false
+  - scope:
+      path               : ""
+      type               : "posts"
+    values:
+      progress           : true
+
 # gems                     : [jekyll-paginate]
 
 # permalink: pretty
