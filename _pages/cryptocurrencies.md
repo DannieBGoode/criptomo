@@ -7,8 +7,13 @@ sitemap: false
 ---
 
 <div class="site-content">
-    {% include schema_post.html %}
+
     <div class="inner">
+		<header class="entry-header">
+	    	<div class="entry-header-wrap">  
+	        	<h1 class="entry-title">{{page.title}}</h1>
+		    </div>
+		</header><!-- .entry-header -->
         <main class="site-main">
 			{% for currency in site.data.cryptos %}
 			<div class="coinlist-box">
@@ -19,10 +24,12 @@ sitemap: false
 					</div>
 					<div class="coinlist-info-2">
 			            <p>{{ currency.description }}</p>
-						<span class="author-website"><i class="fa fa-home" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> {{ currency.website }}</a></span>
-						{% if currency.article %}
-			            <span class="author-website"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ currency.article }}" target="_blank"> {{ currency.article }}</a></span>
-						{% endif %}
+			            <span class="coin-links">
+							{% if currency.article %}
+				            <span class="coin-article"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ currency.article }}"> En detalle</a></span>
+							{% endif %}
+							<span class="coin-website"><i class="fa fa-home" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> web oficial</a></span>
+						</span>
 			        </div><!-- .coinlist-details -->
 			    </div><!-- .coinlist-info -->
 			</div><!-- .coinlist-box -->

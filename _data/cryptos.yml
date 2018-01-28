@@ -11,12 +11,14 @@
   website: www.bitcoin.com
   class: currency
   description: Un fork de Bitcoin creado para intentar solucionar el probema de escabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
+  article: /que-es-bitcoin-cash/
 
 - name: Ethereum (ETH)
   icon: eth.png
   website: https://www.ethereum.org/
   class: dapps
   description: Plataforma para crear y ejectuar contratos inteligentes, es decir, aplicaciones que se autoejecutan sin posibilidad de censura o interferencia cuando se cumplen ciertas condiciones.
+  article: /que-es-ethereum/
 
 - name: DASH (DASH)
   icon: dash.png
@@ -27,21 +29,25 @@
   icon: ada.png
   website: https://www.cardanohub.org/
   description: Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revision academicos.
+  article: /que-es-cardano/
 
 - name: Litecoin (LTC)
   icon: litecoin.png
   website: https://litecoin.com/
   description: Fork de Bitcoin más ligero y rápido.
+  article: /que-es-litecoin/
 
 - name: IOTA (IOTA)
   icon: iota.png
   website: https://iota.org/
   description: Plataforma para dispositivos del Internet of Things que promete microtransacciones gratuitas que funcionen sin intervención humana.
+  article: /que-es-iota/
 
 - name: Ripple (XRP)
   icon: ripple.png
   website: https://ripple.com/
   description: Un sistema de pagos para los bancos y otros proveedores de pagos. Diseñado para mover grandes cantidades de dinero de manera rápida y eficiente.
+  article: /que-es-ripple/
 
 - name: Stellar Lumens
   icon: stellar.png
@@ -62,6 +68,7 @@
   icon: bitcoin-gold.png
   website: https://bitcoingold.org/
   description: Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado.
+  article: /conseguir-bitcoin-gold/
 
 - name: ICON (ICX)
   icon: icon.png
@@ -82,6 +89,7 @@
   icon: monero.png
   website: https://getmonero.org/
   description: Plataforam de pagos muy segura, totalmente privada y no traceable. A diferencia de con Bitcoin no se pueden conocer los balances de las cuentas o los detalles de las transacciones.
+  article: /que-es-monero/
 
 - name: Ethereum Classic (ETC)
   icon: ethereum-classic.png
@@ -93,10 +101,22 @@
   website: https://lisk.io/
   description: Plataforma que permite crear apicaciones descentralizadas con Javascript.
 
+- name: Aragon (ANT)
+  icon: aragon.png
+  website: https://aragon.one/
+  description: System for managing the governance of decentralized organizations on the Ethereum Blockchain. Acts as a digital jurisdiction and a decentralized court system across countries.
+  article: /que-es-aragon/
+
 - name: Qtum (QTUM)
   icon: qtum.png
-  website: https://www.reddit.com/r/Qtum/
+  website: https://qtum.org/en/
   description: Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.
+
+- name: MONACO (MCO)
+  icon: monaco.png
+  website: https://mona.co
+  description: Tarjeta de débito que transforma cryptomonedas en fiat en el momento del pago.
+  article: /tarjeta-debito-criptomonedas/
 
 - name: Hshare (HSR)
   icon: hshare.png
@@ -173,6 +193,11 @@
   website: https://bytecoin.org/
   description: First privacy-focused cryptocurrency with anonymous transactions. Bytecoin’s code was later adapted to create Monero, the more well-known anonymous cryptocurrency.
 
+- name: Request (REQ)
+  icon: request.png
+  website: https://request.network/
+  description: Plataforma para solicitar pagos en cualquier criptomoneda.
+
 - name: Decred (DCR)
   icon: decred.png
   website: https://www.decred.org/
@@ -187,6 +212,7 @@
   icon: salt.jpg
   website: https://www.saltlending.com/
   description: Plans to offer cash loans in traditional currencies, backed by your cryptocurrency assets. Allows lenders worldwide to skip credit checks for easier access to affordable loans.
+  article: /que-es-salt/
 
 - name: MaidSafeCoin (MAID)
   icon: maidsafecoin.png
@@ -211,7 +237,8 @@
 - name: TenX (PAY)
   icon: tenx.png
   website: https://www.tenx.tech/
-  description: Offers cryptocurrency-linked credit cards that let you spend virtual money in real life. Developing a series of payment platforms to make spending cryptocurrency easier.
+  description: Tarjeta de débito para pagar con criptomonedas. Competidora de Monaco.
+  article: /tarjeta-debito-criptomonedas/
 
 - name: Veritaseum (VERI)
   icon: veritaseum.png
@@ -497,11 +524,6 @@
   icon: ubiq.png
   website: https://ubiqsmart.com/
   description: Ethereum-based platform for running decentralized enterprise applications and smart contracts. Forms a peer-to-peer network of computers that act as a global supercomputer.
-
-- name: Aragon (ANT)
-  icon: aragon.png
-  website: https://aragon.one/
-  description: System for managing the governance of decentralized organizations on the Ethereum Blockchain. Acts as a digital jurisdiction and a decentralized court system across countries.
 
 - name: ATMChain (ATM)
   icon: atm.png
