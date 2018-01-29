@@ -9,12 +9,13 @@ progress: true
 <div class="site-content">
 
     <div class="inner">
-		<header class="entry-header">
-	    	<div class="entry-header-wrap">  
-	        	<h1 class="entry-title">{{page.title}}</h1>
-		    </div>
-		</header><!-- .entry-header -->
+
         <main class="site-main">
+			<header class="entry-header">
+		    	<div class="entry-header-wrap">  
+		        	<h1 class="entry-title">{{page.title}}</h1>
+			    </div>
+			</header><!-- .entry-header -->
 			{% for currency in site.data.cryptos %}
 			<div class="coinlist-box">
 			    <div class="coinlist-info">
