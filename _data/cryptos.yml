@@ -249,6 +249,11 @@
   website: https://storj.io/
   description: Dropbox descentralizado, competidor de Siacoin y MaidSafeCoin.
 
+- name: Oyster (PRL)
+  icon: oyster.png
+  website: https://oysterprotocol.com/
+  description: Dropbox descentralizado con publicidad por minado.
+
 - name: Factom (FCT)
   icon: factom.jpg
   website: http://factom.org/
