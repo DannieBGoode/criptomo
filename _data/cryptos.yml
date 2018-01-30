@@ -252,7 +252,7 @@
 - name: Oyster (PRL)
   icon: oyster.png
   website: https://oysterprotocol.com/
-  description: Dropbox descentralizado con publicidad por minado.
+  description: Dropbox descentralizado y alternativa a la publicidad web.
 
 - name: Factom (FCT)
   icon: factom.jpg
