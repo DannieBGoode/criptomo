@@ -104,14 +104,16 @@ Esperamos verla proximamente en Binance y Bitfinex.
 
 ## Dónde almacenar ANT
 
-Al tratarse de una monera ERC20, ANT se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas.
+Al tratarse de una monera ERC20, ANT se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas. Puede parecer que algunos wallets, como blockchain.info, no soportan monedas ERC20 a pesar de soportar Ethereum. En realidad si enviarais vuestros fondos allí no los perderíais, estarían correctamente guardados, pero no los podríais visualizar desde la web a día de hoy, para hacerlo deberíais importar la clave privada de blockchain.info a un wallet que si lo soporte.
 
-Entre las posibilidades destacamos:
+Entre las posibilidades más prácticas de wallets destacamos:
 
 * <a rel="nofollow" href="https://www.myetherwallet.com">MyEtherWallet</a>
+* <a rel="nofollow" href="https://metamask.io/">MetaMask</a>
 * [Ledger Nano S](http://amzn.to/2i5kRoG)
 * [Trezor](http://amzn.to/2i72hMV)
 * [KeepKey](http://amzn.to/2ja1KHf)
+* <a rel="nofollow" href="https://jaxx.io/">Jaxx</a>
 
 ## Conclusión
 

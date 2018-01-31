@@ -18,16 +18,20 @@
     <section class="widget widget-text">
         <h2 class="widget-title">Marketcaps</h2>
 
-        <script async src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-
         {% for currency in site.data.sidebar-currencies limit:5 %}
 
-        <div title="{{currency.name}}" class="coinmarketcap-currency-widget" data-currency="{{currency.name}}" data-base="USD" data-secondary="" data-ticker="true" data-rank="false" data-marketcap="false" data-volume="false" data-stats="USD" data-statsticker="false"></div>
+        <div title="{{ currency.id }}" class="sidebar-ticker" data-currency="{{ currency.id }}">
+            <div class="ticker-icon" style="background-image: url(/images/general/cryptocurrencies/{{ currency.icon }});"></div>
+            <span id="sidebar-ticker-{{currency.id}}" class="coinmarketcap-currency-widget">
+                <span class="ticker-price"></span>
+                <span class="{{ currency.id }}-ticker-price-change"></span>
+            </span>
+        </div>
 
-         {% endfor %}
+        {% endfor %}
 
          <div style="text-align:right;font-size:14px">
-            <a href="https://coinmarketcap.com/" style="text-decoration: none">más marketcaps</a>
+            <a href="https://coinmarketcap.com/" rel="nofollow" style="text-decoration: none">más marketcaps</a>
         </div>
     </section>
 
