@@ -1,4 +1,4 @@
-# cryptocurrencies. faltarían Monaco , Request
+# cryptocurrencies.
 - name: Bitcoin (BTC)
   icon: bitcoin.png
   website: https://bitcoin.org
@@ -125,13 +125,6 @@
   icon: qtum.png
   website: https://qtum.org/en/
   description: Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.
-
-- name: MONACO (MCO)
-  icon: monaco.png
-  website: https://mona.co
-  class: card
-  description: Tarjeta de débito que transforma criptomonedas en fiat en el momento del pago.
-  article: /tarjeta-debito-criptomonedas/
 
 - name: Hshare (HSR)
   icon: hshare.png
@@ -269,6 +262,13 @@
   website: http://www.pivx.org/
   description: Clon de DASH con inflación constante y controlada.
 
+- name: MONACO (MCO)
+  icon: monaco.png
+  website: https://mona.co
+  class: card
+  description: Tarjeta de débito que transforma criptomonedas en fiat en el momento del pago.
+  article: /tarjeta-debito-criptomonedas/
+
 - name: TenX (PAY)
   icon: tenx.png
   website: https://www.tenx.tech/
@@ -288,7 +288,7 @@
 - name: Basic Attention Token (BAT)
   icon: bat.png
   website: https://basicattentiontoken.org/
-  description: Plataforma descentralizada de publicidad online.
+  description: Plataforma descentralizada de publicidad online utilizada por el navegador Brave.
 
 - name: MonaCoin (MONA)
   icon: monacoin.png
