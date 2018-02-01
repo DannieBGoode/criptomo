@@ -240,11 +240,11 @@
 }
 
 .post-thumbnail {
-	width: 100%;
-	height: 360px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    width: 100%;
+    height: 360px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .entry-title {
@@ -895,9 +895,9 @@ a.archive-top-link:hover {
         content: "\f00d";
     } 
 
-	.post-thumbnail {
-		height: 300px;
-	}
+    .post-thumbnail {
+        height: 300px;
+    }
 	
 }
 
@@ -934,10 +934,10 @@ a.archive-top-link:hover {
     .entry-meta {
         padding: 15px 15px 15px 20px;
     }
-	
-	.post-thumbnail {
-		height: 240px;
-	}
+
+    .post-thumbnail {
+        height: 240px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1070,7 +1070,7 @@ a.archive-top-link:hover {
         position: static;
     }
 	
-	.post-thumbnail {
-		height: 180px;
-	}
+    .post-thumbnail {
+        height: 180px;
+    }
 }
