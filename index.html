@@ -18,10 +18,12 @@ redirect_from:
             <article class="post">
                 <header class="entry-header"> 
                     <div class="entry-header-wrap">
-                        {% if post.banner_image %}
-                        <a href="{{site.baseurl}}{{post.url}}" class="post-thumbnail"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="post-thumbnail" style="background-image: url({{ "/images/posts/" | append: post.banner_image | prepend: site.baseurl }});" alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}"></a>
-                        {% endif %}
-                        <h2 class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{post.title}}</a></h2>
+                        <a href="{{site.baseurl}}{{post.url}}" title="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
+							{% if post.banner_image %}
+							<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="post-thumbnail" style="background-image: url({{ "/images/posts/" | append: post.banner_image | prepend: site.baseurl }});">
+							{% endif %}
+							<h2 class="entry-title">{{post.title}}</h2>
+						</a>
                     </div><!-- .entry-header-wrap -->
                     <div class="entry-meta">
                        {% include signature.html author=writer.author_name date=post.date %}
