@@ -247,6 +247,10 @@
     background-size: cover;
 }
 
+.post-thumbnail-full {
+    width: 100%;
+}
+
 .entry-title {
     background-color: $picton-blue;
     clear: both;
@@ -264,6 +268,12 @@
     bottom: 0px;
     left: 0px;
     position: absolute;    
+}
+
+.post-thumbnail-full + .entry-title {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
 }
 
 .entry-title a {    

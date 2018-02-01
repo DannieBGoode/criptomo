@@ -7,8 +7,10 @@ layout: default
             <article class="post">
                 <header class="entry-header">
                     <div class="entry-header-wrap">  
-                        {% if page.banner_image %}
-                        <img class="post-thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" style="background-image: url({{ "/images/" | append: page.banner_image | prepend: site.baseurl }});" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                        {% if page.thumbnail_full %}
+                            <img class="post-thumbnail-full" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                        {% else %}
+                            <img class="post-thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" style="background-image: url({{ "/images/" | append: page.banner_image | prepend: site.baseurl }});" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
                         {% endif %}
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->
