@@ -55,3 +55,4 @@ Aprendamos a invertir mejor
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
+* [Qué es una ICO](/que-es-una-ico/)

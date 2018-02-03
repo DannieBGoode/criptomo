@@ -5,6 +5,7 @@ description: Acerca de este blog
 banner_image: aboutPage.jpg
 permalink: /about/
 sitemap: false
+thumbnail_full: true
 ---
 
 **Daniel** es un ingeniero especializado en tecnologías Frontend, nacido en Zaragoza pero residente en Madrid. Es un apasionado del mundo del blockchain, las nuevas tecnologías y el emprendimiento.
