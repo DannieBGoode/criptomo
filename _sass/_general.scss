@@ -2,18 +2,32 @@
  * General
  * ----------------------------------------------------------------------------
  */
+ 
+@font-face {
+    font-family: system-stack;
+    src: local("-apple-system"), local("BlinkMacSystemFont"), local("Segoe UI"), local("Roboto"), local("Oxygen-Sans"), local("Ubuntu"), local("Cantarell"), local("Helvetica Neue"), local("sans-serif");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: monospace-stack;
+    src: local("Consolas"), local("Andale Mono WT"), local("Andale Mono"), local("Lucida Console"), local("Lucida Sans Typewriter"), local("DejaVu Sans Mono"), local("Bitstream Vera Sans Mono"), local("Liberation Mono"), local("Nimbus Mono L"), local("Monaco"), local("Courier New"), local("Courier"), local("monospace");
+    font-style: normal;
+    font-weight: normal;
+}
 
 html,
 button,
 input,
 select,
 textarea {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: "system-stack";
 }
 
 body {
     background-color: $mine-shaft;
-    color: #818181;
+    color: #585858;
     line-height: 1.66667;
 }
 
