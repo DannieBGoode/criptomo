@@ -113,8 +113,9 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
+    font-family: "monospace-stack";
     font-size: 1em;
+	word-wrap:break-word;
 }
 
 blockquote,
