@@ -1,91 +1,91 @@
 # cryptocurrencies.
 - name: Bitcoin (BTC)
-  icon: bitcoin.png
+  icon: bitcoin-64.png
   website: https://bitcoin.org
   class: currency
   description: La primera criptomoneda creada en 2008. Permite enviar y recibir fondos sin intermediarios. No tiene un punto de control centralizado puesto que está dirigida por la comunidad.
   article: /que-es-bitcoin/
 
 - name: Bitcoin Cash (BCH)
-  icon: bch.png
+  icon: bch-orange-64.png
   website: www.bitcoin.com
   class: currency
   description: Un fork de Bitcoin creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
   article: /que-es-bitcoin-cash/
 
 - name: Ethereum (ETH)
-  icon: eth.png
+  icon: eth-black-64.png
   website: https://www.ethereum.org/
   class: dapps
   description: Plataforma para crear y ejecutar contratos inteligentes, es decir, aplicaciones que se autoejecutan sin posibilidad de censura o interferencia cuando se cumplen ciertas condiciones.
   article: /que-es-ethereum/
 
 - name: DASH (DASH)
-  icon: dash.png
+  icon: dash-64.png
   website: https://www.dash.org/
   class: currency
   description: Dinero digital diseñado para ser rápido, seguro y con privacidad adicional.
 
 - name: Cardano (ADA)
-  icon: ada.png
+  icon: ada-64.png
   website: https://www.cardanohub.org/
   class: dapps
   description: Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revisión academicos.
   article: /que-es-cardano/
 
 - name: Litecoin (LTC)
-  icon: ltc.png
+  icon: ltc-64.png
   website: https://litecoin.com/
   class: currency
   description: Fork de Bitcoin más ligero y rápido.
   article: /que-es-litecoin/
 
 - name: IOTA (IOTA)
-  icon: iota.png
+  icon: iota-black-64.png
   website: https://iota.org/
   class: iot
   description: Plataforma para dispositivos del Internet of Things que promete microtransacciones gratuitas que funcionan sin intervención humana.
   article: /que-es-iota/
 
 - name: Ripple (XRP)
-  icon: ripple.png
+  icon: ripple-64.png
   website: https://ripple.com/
   class: banks
   description: Un sistema de pagos para los bancos y otros proveedores de pagos. Diseñado para mover grandes cantidades de dinero de manera rápida y eficiente.
   article: /que-es-ripple/
 
 - name: Stellar Lumens (XLM)
-  icon: stellar.png
+  icon: stellar-64.png
   website: https://www.stellar.org/
   class: banks
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
 
 - name: EOS (EOS)
-  icon: eos.png
+  icon: eos-black-64.png
   website: https://eos.io/
   class: dapps
   description: Plataforma para construir aplicaciones descentralizadas, escalables y con librerías conjuntas.
 
 - name: NEM (XEM)
-  icon: nem.png
+  icon: nem-black-64.png
   website: http://nem.io/
   description: Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.
 
 - name: Bitcoin Gold (BTG)
-  icon: bitcoin-gold.png
+  icon: bitcoin-gold-64.png
   website: https://bitcoingold.org/
   class: currency
   description: Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado.
   article: /conseguir-bitcoin-gold/
 
 - name: ICON (ICX)
-  icon: icon.png
+  icon: icx-64.png
   website: https://www.icon.foundation/
   class: dapps
   description: Plataforma Sur-Coreana de aplicaciones descentralizadas que construye comunidades entre bancos, hospitales, universidades y  aseguradoras. Se enfoca en verificaciones de identidad y pagos.
 
 - name: NEO (NEO)
-  icon: neo.jpg
+  icon: neo-64.png
   website: https://neo.org/
   class: dapps
   description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
@@ -173,7 +173,7 @@
   description: Plataforma para conectar todas las criptomonedas con una interfaz muy simple.
 
 - name: Komodo (KMD)
-  icon: komodo.png
+  icon: komodo-64.png
   website: https://komodoplatform.com/
   class: crowdfunding
   description: Plataforma de crowdfunding mediante ICOs para startups.
