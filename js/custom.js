@@ -35,6 +35,80 @@
           type: 'image'
           // other options
         });
+
+        // Scrolling progress coloring
+        var getMax = function(){
+        return $(document).height() - $(window).height();
+        }
+        
+        var getValue = function(){
+            return $(window).scrollTop();
+        }
+        
+        if('max' in document.createElement('progress')){
+            // Browser supports progress element
+            var progressBar = $('progress');
+            
+            // Set the Max attr for the first time
+            progressBar.attr({ max: getMax() });
+
+            $(document).on('scroll', function(){
+                // On scroll only Value attr needs to be calculated
+                progressBar.attr({ value: getValue() });
+            });
+          
+            $(window).resize(function(){
+                // On resize, both Max/Value attr needs to be calculated
+                progressBar.attr({ max: getMax(), value: getValue() });
+            });   
+        }
+        else {
+            var progressBar = $('.progress-bar'), 
+                max = getMax(), 
+                value, width;
+            
+            var getWidth = function(){
+                // Calculate width in percentage
+                value = getValue();            
+                width = (value/max) * 100;
+                width = width + '%';
+                return width;
+            }
+            
+            var setWidth = function(){
+                progressBar.css({ width: getWidth() });
+            }
+            
+            $(document).on('scroll', setWidth);
+            $(window).on('resize', function(){
+                // Need to reset the Max attr
+                max = getMax();
+                setWidth();
+            });
+        }
+
+
+        $.get( "https://api.coinmarketcap.com/v1/ticker/", function( response ) {
+            var displayedCurrencies = $('[data-currency]'),
+                result = '',
+                currencySelector = '';
+            $.each(displayedCurrencies, function(index, currency) {
+                result = response.filter(function( obj ) {
+                  return obj.id === currency.title;
+                });
+                currencySelector = $("." + currency.title + "-ticker-price-change");
+                $("#sidebar-ticker-" + currency.title + " .ticker-price").html(parseFloat(result[0].price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + '$');
+                if ( result[0].percent_change_24h > 0) {
+                    $(currencySelector).addClass('ticker-price-change-positive');
+                } else {
+                    $(currencySelector).addClass('ticker-price-change-negative');
+                }
+                $(currencySelector).html('(' + result[0].percent_change_24h + '%)');
+            });
+
+
+        });
+
     });
 
 }(jQuery));

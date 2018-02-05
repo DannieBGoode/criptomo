@@ -5,6 +5,7 @@ description: Guía de como empezar a entender el mundo de las criptomonedas. Exp
 banner_image: guides.jpg
 permalink: /guias/
 comments: true
+progress: true
 ---
 
 #### ¿ Qué es una criptomoneda ?
@@ -28,13 +29,15 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 ### Profundizando en la teoría:
 ¿Te interesa entender mejor este mundo?
 * Qué es el [Ataque del 51%](/ataque-51-porciento/).
-* [Proof of Work - Cómo funciona y por qué consume tanta energía](/que-es-proof-of-work/).
+* [Proof of Work - Cómo funciona y por qué consume tanta energía](/que-es-proof-of-work/)
+* [El problema de escalabilidad de Bitcoin](/problema-escalabilidad/)
 * [Claves Privadas y Seeds - Conceptos básicos](/clave-privada-vs-seed/)
 
 ### Estrategias de inversión
 Aprendamos a invertir mejor
+* [Cómo valorar criptomonedas](/como-valorar-criptomonedas/)
 * [Los 5 principales errores a la hora de invertir en criptomonedas](/principales-errores-traders/)
-* Estrategias de Inversión a Largo Plazo (proximamente)
+* [Estrategias de Inversión a Largo Plazo](/estrategia-inversion-largo-plazo/)
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
@@ -48,6 +51,8 @@ Aprendamos a invertir mejor
 * [Monero](/que-es-monero)
 * [Ripple](/que-es-ripple)
 * [Litecoin](/que-es-litecoin/)
+* [Aragon](/que-es-aragon/)
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
+* [Qué es una ICO](/que-es-una-ico/)

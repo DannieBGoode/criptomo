@@ -4,6 +4,8 @@ title:  💰 Las mejores criptomonedas altcoins de 2018
 description: Las mejores criptomonedas altcoins, más prometedoras y que más podrían subir en 2018. Revisemos cuales podrían interesarnos durante este nuevo año y previsión de cuales podrían ser más rentables economicamente.
 date:   2017-11-28
 banner_image: 201711/altcoins.jpg
+rating: 5
+totalVotes: 3
 tags: [altcoins]
 ---
 
@@ -62,6 +64,16 @@ Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones 
 Más información en [Qué es Cardano](/que-es-cardano).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/cardano/#markets)
+
+## Aragon
+
+{% include image_caption.html imageurl="../images/posts/201711/aragon-logo.png" title="Aragon" class="small-banner" %}
+
+<a rel="nofollow" href="https://aragon.one">Aragon</a> nos trae el mundo de organizaciones imparables por fronteras, leyes o gobiernos. Cualquier persona en cualquier lugar del mundo podría crear su propia empresa, tener ingresos, realizar pagos, repartir participaciones y realizar votaciones en función de ellas.
+
+Más información en [Qué es Aragon](/que-es-aragon).
+
+[¿Dónde comprar?](https://coinmarketcap.com/currencies/aragon/#markets)
 
 ## SALT
 

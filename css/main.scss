@@ -10,7 +10,8 @@
     "general",
     "tables",
     "custom",
-    "magnific-popup.scss"
+    "magnific-popup.scss",
+	"coinlist"
 ;
 
 /**
@@ -238,7 +239,15 @@
     position: relative;
 }
 
-.post-thumbnail img {
+.post-thumbnail {
+    width: 100%;
+    height: 360px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-thumbnail-full {
     width: 100%;
 }
 
@@ -259,6 +268,12 @@
     bottom: 0px;
     left: 0px;
     position: absolute;    
+}
+
+.post-thumbnail-full + .entry-title {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
 }
 
 .entry-title a {    
@@ -579,6 +594,7 @@ a.archive-top-link:hover {
     letter-spacing: 1px;
     margin-right: 240px;
     text-transform: uppercase;
+    color: $post-navigation-date;
 }
 
 .post-navigation .nav-before {
@@ -790,6 +806,7 @@ a.archive-top-link:hover {
         margin-right: auto;
         max-width: 500px;
     }
+	
 }
 
 @media only screen and (max-width: 800px) {
@@ -887,7 +904,12 @@ a.archive-top-link:hover {
 
     #menu-toggle.toggled-on:before {
         content: "\f00d";
-    }    
+    } 
+
+    .post-thumbnail {
+        height: 300px;
+    }
+	
 }
 
 @media only screen and (max-width: 640px) {
@@ -922,6 +944,10 @@ a.archive-top-link:hover {
 
     .entry-meta {
         padding: 15px 15px 15px 20px;
+    }
+
+    .post-thumbnail {
+        height: 240px;
     }
 }
 
@@ -1053,5 +1079,9 @@ a.archive-top-link:hover {
         display: block;
         margin: 30px auto 0;
         position: static;
+    }
+	
+    .post-thumbnail {
+        height: 180px;
     }
 }

@@ -1,17 +1,33 @@
 - Inflación explicada.
 Cómo se financian guerras. Cada año somos más pobres. Tenemos más deuda. Bitcoin vale más cada vez. Es deflatorio. apoya a los ahorradores en lugar de la inflación que es un impuesto oculto con el que se penaliza a la gente que no participa en el capitalismo.
+https://www.reddit.com/r/Bitcoin/comments/7qau9g/why_we_hodl/
 
+- que es una ICO
 
-- Bitcoin - Nivel Medio
-La primera criptomoneda.
-Los mineros se les compensa con criptomonedas.
-Halvening 50 BTC ahora estamos a 25
-Bitcoin no es anónimo es pseudónimo en contraposicion a otras monedas como zCash.
-Dash por ejemplo ofrece Instand Send
+- como vender todos los forks
+https://www.reddit.com/r/BitcoinMarkets/comments/7oekie/guide_how_to_redeem_and_sell_all_bitcoin_fork/
+https://medium.com/@jimmysong/bitcoin-diamond-super-bitcoin-bitcore-what-you-need-to-know-f49c35688a39
+
+- que es Telegram TON
+https://www.youtube.com/watch?v=OvidCgsbQ0A
+https://cryptovest.com/news/exclusive-telegram-ico-ton-leaked-whitepaper-reveals-ambitious-plans/
+https://www.genbeta.com/actualidad/se-filtra-el-white-paper-de-la-ico-de-telegram-una-de-las-criptomonedas-con-mas-potencial
+https://www.technologyreview.com/s/610055/telegrams-ico-give-us-2-billion-and-well-solve-all-of-blockchains-problems/
+
+- use medium font
 
 - segwit https://segwit.org/my-vision-for-segwit-and-lightning-networks-on-litecoin-and-bitcoin-cf95a7ab656b
+https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4
+https://segwit.org/understanding-segregated-witness-905cc712c692
+https://bitcointechtalk.com/atomic-swaps-d6ca26b680fe
+https://bitcointechtalk.com/transaction-malleability-explained-b7e240236fc7
+https://blog.bitmex.com/the-lightning-network/
 
-- https://blockgeeks.com/guides/neo-blockchain/
+- replay attacks
+https://bitcointechtalk.com/replay-attacks-explained-e3d6d2ea0ab2
+
+- que es NEO
+https://blockgeeks.com/guides/neo-blockchain/
 
 - https://blockgeeks.com/guides/what-is-raiden-lightning-protocol/
 https://www.reddit.com/r/Bitcoin/comments/7npeh6/lightning_network_megathread/
@@ -19,10 +35,10 @@ https://www.reddit.com/r/Bitcoin/comments/7npeh6/lightning_network_megathread/
 - la historia de las criptomonedas
 https://www.youtube.com/watch?v=khtCG_15bsY
 
-
 - https://makerdao.com/ vs tether
 https://www.youtube.com/watch?v=EGpayzaV2tw
 https://makerdao.com/
+http://www.tetherreport.com/
 
 -https://steemit.com/economics/@freeforever/roger-ver-just-tweeted-a-list-of-important-economic-books-he-have-read-during-the-years
 
@@ -32,12 +48,7 @@ https://makerdao.com/
 
 - diferencias entre gas y ether
 
-- estrategia a LP de inversion
-screenshot de 1 año
-
 - Replay attacks https://blockgeeks.com/guides/what-is-bitcoin-cash/
-
-- por que no se puede bajar el tiempo de bloque de BTC? aumentan los stale blocks. orphan blocks. https://www.youtube.com/watch?v=qUkZGRbsCe0
 
 - what is dash https://www.weusecoins.com/what-is-dash/
 
@@ -47,11 +58,6 @@ http://zerocash-project.org/media/pdf/zerocash-extended-20140518.pdf
 
 - que es smart cash
 https://steemit.com/crypocurrency/@msg768/smartcash-what-is-it-and-why-you-should-care
-
-- que es Telegram TON
-https://www.youtube.com/watch?v=OvidCgsbQ0A
-https://cryptovest.com/news/exclusive-telegram-ico-ton-leaked-whitepaper-reveals-ambitious-plans/
-https://www.genbeta.com/actualidad/se-filtra-el-white-paper-de-la-ico-de-telegram-una-de-las-criptomonedas-con-mas-potencial
 
 - eos
 https://www.youtube.com/watch?v=QxKqKVsLYLA
@@ -73,6 +79,9 @@ monero coinhive mining
 - siacoin vs storj vs filecoin vs oyster
 https://www.reddit.com/r/storj/comments/745hf5/siacoin_vs_storj/
 https://medium.com/tokenreport/filecoin-v-sia-storj-maidsafe-the-crowded-push-for-decentralized-storage-7157eb5060c9
+https://www.reddit.com/r/storj/comments/7p5vl1/is_storj_centralized/?st=jczxhd5i&sh=30b9bff8
+https://www.reddit.com/r/CryptoCurrency/comments/7t4o95/oyster_prl_is_going_to_change_the_internet_heres/
+https://www.youtube.com/watch?v=-LsUoHLorkk&feature=youtu.be
 
 - docuementales recomendados
 requiem for the american dream
@@ -83,8 +92,9 @@ inside job
 - que es QTUM
 https://www.youtube.com/watch?v=dR2kFlXxX9A
 
-- como vender todos los forks
-https://www.reddit.com/r/BitcoinMarkets/comments/7oekie/guide_how_to_redeem_and_sell_all_bitcoin_fork/
+
+- tributacion
+https://www.linkedin.com/pulse/tributación-de-criptomonedas-como-el-bitcoin-y-david/?trackingId=UxfnCWMjFfWlXwTWkQSdZA%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BCD2DDJ%2BtQbyTg0BvF2CWLw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-object
 
 please be careful, exposing one of the private keys of an address generated with a mnemonic could put all your funds of that seed at risk
 
@@ -125,3 +135,7 @@ https://www.youtube.com/watch?v=pYWdrn3JD40
 * tweets
 * crypto miners
 * multi language
+
+- lista de mini resumen de altcoins
+https://techcrunch.com/2017/11/19/100-cryptocurrencies-described-in-4-words-or-less/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BPA9AZ4YwRvueLF3KJvXqHw%3D%3D
+https://www.upfolio.com/100-coins-explained

@@ -1,0 +1,11 @@
+# cryptocurrencies.
+- id   : bitcoin
+  icon : bitcoin.png
+- id   : bitcoin-cash
+  icon : bch-orange.png
+- id   : ethereum
+  icon : eth.png
+- id   : dash
+  icon : dash.png
+- id   : iota
+  icon : iota-white.png
