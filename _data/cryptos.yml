@@ -157,18 +157,18 @@
   description: Plataforma que permite crear y distribuir tokens a cualquier persona aunque no tenga conocimientos técnicos.
 
 - name: Populous (PPT)
-  icon: ppt.png
+  icon: ppt-64.png
   website: http://populous.co/
   class: crowdfunding
   description: Plataforma de crowdfunding.
 
 - name: Stratis (STRAT)
-  icon: stratis.png
+  icon: strat-64.png
   website: http://stratisplatform.com/
   description: Plataforma para crear blockchain corporativas en C#.
 
 - name: Ark (ARK)
-  icon: ark.png
+  icon: ark-64.png
   website: http://ark.io/
   description: Plataforma para conectar todas las criptomonedas con una interfaz muy simple.
 
@@ -179,40 +179,40 @@
   description: Plataforma de crowdfunding mediante ICOs para startups.
 
 - name: Bitshares (BTS)
-  icon: bitshares.png
+  icon: bts-64.png
   website: https://bitshares.org/
   class: exchange
   description: Exchange descentralizado.
 
 - name: Steem (STEEM)
-  icon: steem.png
+  icon: steem-64.png
   website: https://steem.io/
   class: social
   description: Red social con recompensas monetarias por dar contenido de valor.
 
 - name: Golem (GNT)
-  icon: golem.png
+  icon: gnt-64.png
   website: https://golem.network/
   description: Alquiler de poder computacional a cambio de tokens.
 
 - name: Ardor (ARDR)
-  icon: ardor.png
+  icon: ardr-64.png
   website: https://www.ardorplatform.org/
   description: Blockchain para crear otras blockchains. Diseñado para organizaciones gubernamentales o empresas.
 
 - name: Bytecoin (BCN)
-  icon: bytecoin.png
+  icon: bcn-64.png
   website: https://bytecoin.org/
   description: Predecesor de Monero. Moneda enfocada en la privacidad.
 
 - name: Request (REQ)
-  icon: request.png
+  icon: req-64.png
   website: https://request.network/
   class: currency
   description: Plataforma para solicitar pagos en cualquier criptomoneda.
 
 - name: Decred (DCR)
-  icon: decred.png
+  icon: dcr-64.png
   website: https://www.decred.org/
   description: Bitcoin pero con sistema de votación para que la comunidad elija su trayectoria.
 
