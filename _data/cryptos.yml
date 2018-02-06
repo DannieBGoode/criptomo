@@ -91,68 +91,68 @@
   description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
   
 - name: RaiBlocks (XRB)
-  icon: raiblocks.png
+  icon: xrb-64.png
   website: https://raiblocks.net/
   class: currency
   description: Plataforma no basada en el Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
   
 - name: Monero (XMR)
-  icon: monero.png
+  icon: xmr-64.png
   website: https://getmonero.org/
   class: currency
   description: Plataforma de pagos muy segura, totalmente privada y no traceable. A diferencia de con Bitcoin no se pueden conocer los balances de las cuentas o los detalles de las transacciones.
   article: /que-es-monero/
 
 - name: Ethereum Classic (ETC)
-  icon: ethereum-classic.png
+  icon: etc-64.png
   website: https://ethereumclassic.github.io/
   class: dapps
   description: Fork de Ethereum creado despues del hack del DAO (en realidad es el código original de Ethereum) por una comunidad que asegura que el código de un smart contract debe ser inmutable.
   
 - name: LISK (LSK)
-  icon: lisk.png
+  icon: lsk-64.png
   website: https://lisk.io/
   class: dapps
   description: Plataforma que permite crear aplicaciones descentralizadas con Javascript.
 
 - name: Aragon (ANT)
-  icon: aragon.png
+  icon: ant-64.png
   website: https://aragon.one/
   description: Organizaciones imparables sin fronteras directamente en el blockchain.
   article: /que-es-aragon/
 
 - name: Qtum (QTUM)
-  icon: qtum.png
+  icon: qtum-64.png
   website: https://qtum.org/en/
   description: Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.
 
 - name: Hshare (HSR)
-  icon: hshare.png
+  icon: hsr-64.png
   website: https://h.cash/
   description: Plataforma que permite intercambio de fondos o información entre distintos blockchains.
 
 - name: OmiseGO (OMG)
-  icon: omisego.png
+  icon: omg-64.png
   website: https://omg.omise.co/
   description: Permite a la gente utilizar servicios financieros clásicos sin necesidad de tener un banco. Funciona tanto con fiat como con criptomonedas.
 
 - name: Zcash (ZEC)
-  icon: zcash.png
+  icon: zec-64.png
   website: https://z.cash/
   description: Plataforma de pagos que esconde al emisor, receptor y el valor de la transacción, aunque permite hacer la transacción pública más tarde opcionalmente.
 
 - name: Tether (USDT)
-  icon: tether.png
+  icon: usdt-64.png
   website: https://tether.to/
   description: Criptomoneda basada en el dólar, su valor es siempre de 1$.
 
 - name: BitConnect (BCC)
-  icon: bitconnect.png
+  icon: bcc-64.png
   website: https://bitconnectcoin.co/
   description: Ya extinta, plataforma que conseguía beneficios diarios a los usuarios por prestar su dinero.
 
 - name: Waves (WAVES)
-  icon: waves.png
+  icon: waves-64.png
   website: https://wavesplatform.com/
   description: Plataforma que permite crear y distribuir tokens a cualquier persona aunque no tenga conocimientos técnicos.
 
