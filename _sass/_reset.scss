@@ -113,8 +113,11 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
+    font-family: "Consolas", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Monaco", "Courier New", "Courier", "monospace";
     font-size: 1em;
+    word-break: break-all;
+    word-wrap: break-word;
+    display: inline-block;
 }
 
 blockquote,
