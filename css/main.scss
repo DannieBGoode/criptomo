@@ -138,23 +138,31 @@
     float: left;
     line-height: 1;
     margin-bottom: 12px;
-    margin-right: 20px;
+    margin-right: 8px;
     text-transform: uppercase;
-}
-
-.site-title a {
-    color: $white;
-    display: block;
-    text-decoration: none;
-}
-
-.site-title a:hover {
-    color: lighten( $picton-blue, 11% );
-}
-
-.site-title .logo-text {
-    border-left: 10px solid $picton-blue;
-    padding-left: 20px;
+    a {
+        color: $white;
+        display: block;
+        text-decoration: none;
+    }
+    a:hover {
+        color: lighten( $picton-blue, 11% );
+    }
+    .criptomo-logo {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("/images/general/criptomo-logo-white-1.png");
+    }
+    .logo-text {
+        border-right: 2px solid $picton-blue;
+        padding-right: 8px;
+        display: inline-block;
+    }
 }
 
 .site-description {
@@ -164,7 +172,7 @@
     font-style: italic;
     line-height: 1.5;
     margin-bottom: 0;
-    margin-top: 6px;
+    margin-top: 24px;
     max-width: 40%;
 }
 
