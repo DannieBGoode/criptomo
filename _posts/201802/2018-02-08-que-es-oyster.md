@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Qué es Oyster Protocol (PRL)
-description: Qué es Oyster Protocol y su token PRL. Comparativa con Storj, Filecoin y Siacoin. Predicciones de precio.
+description: Qué es Oyster Protocol y su token PRL, cómo utiliza el Tangle de IOTA. Comparativa con Storj, Filecoin y Siacoin. Predicciones de precio.
 banner_image: 201802/oyster.jpg
 rating: 5
 totalVotes: 1
