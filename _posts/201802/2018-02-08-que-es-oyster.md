@@ -107,7 +107,25 @@ Oyster tiene algo de competencia entre distintas monedas que también pretender 
 
 Aunque Storj almacena la información de manera descentralizada existe un único punto de entrada dependiente de ellos, que podría considerarse su punto débil. Storj es capaz de monitorizar los datos almacenados e incluso acceder a ellos. Oyster es totalmente anónimo y si la empresa desaparece el protocolo podrá seguir funcionando sin ella.
 
-Para utilizar Siacoin, un usuario debe descargarse todo su blockchain antes de poder utilizar la red. Tanto los usuarios de Sia como los de Filecoin deberán pagar por las descargas que realicen de los ficheros una vez subidos a sus respectivos blockchain.
+Para utilizar Siacoin, un usuario debe descargarse todo su blockchain (6GB y varias horas) antes de poder utilizar la red. Tanto los usuarios de Sia como los de Filecoin deberán pagar por las descargas que realicen de los ficheros una vez subidos a sus respectivos blockchain.
+
+En la siguiente tabla se puede ver comparativamente los diferentes servicios de la competencia de los que ya se conocen el precio. Aquellos que tienen un asterístico se debe a que no ofrecen los planes exactos que estamos comparando por lo que hemos cogido el precio del plan siguiente y calculado cuanto sería la cuantía. Se presupone que el precio de 1 PRL es de 0.75$ aunque hasta que la plataforma salga al mercado este irá variando por motivos especulativos.
+
+<!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+|   Almacenamiento     |  Oyster  |      Sia            | Storj          |  Dropbox    | Google Drive   | Amazon Cloud       |
+|:--------------------:|:--------:|:-------------------:|:--------------:|:-----------:|:--------------:|:------------------:|
+| 64 GB/mes            | $0.06    |     $0.13           | $0.96          | €0.63*      | €1.28*         | $0.64*             |
+| 64 GB/año            | $0.75    |     $1.53           | $11.52         | €7.5*       | €15.36*        | $7.68*             |
+| 512 GB/mes           | $0.06    |     $1.02           | $7.68          | €5*         | $5*            | $2.5*              |
+| 512 GB/año           | $0.75    |     $12.29          | $92.16         | €60*        | $50*           | $30*               |
+| Anónimo              | Si       |      Si             | No             | No          | No             | No                 |
+| Descentralizado      | Si       |      Si             | No             | No          | No             | No                 |
+| Downloads gratis     | Si       |      No             | No             | Si          | Si             | Si                 |
+| Modificaciones gratis| No       |      No             | No             | Si          | Si             | Si                 |
+| No Registro          | Si       |      Si             | No             | No          | No             | No                 |
+| Configuración fácil  | Si       |      No             | Si             | Si          | Si             | Si                 | -->
+
+{% include image_caption.html imageurl="/images/posts/201802/storage-pricing.png" title="Comparación de servicios de almacenamiento" popup=true %}
 
 ## Camino al futuro
 
