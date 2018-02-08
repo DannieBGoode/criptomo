@@ -75,7 +75,7 @@
   icon: bitcoin-gold-64.png
   website: https://bitcoingold.org/
   class: currency
-  description: Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado.
+  description: Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado, compite con Vertcoin.
   article: /conseguir-bitcoin-gold/
 
 - name: ICON (ICX)
@@ -246,6 +246,7 @@
   icon: oyster.png
   website: https://oysterprotocol.com/
   description: Dropbox descentralizado y alternativa a la publicidad web.
+  article: /que-es-oyster/
 
 - name: Factom (FCT)
   icon: factom.jpg
@@ -255,7 +256,7 @@
 - name: Vertcoin (VTC)
   icon: vertcoin.png
   website: http://vertcoin.org/
-  description: Clon de Bitcoin con modificaciones a su sistema de Proof of Work para que sea más descentralizado.
+  description: Clon de Bitcoin con modificaciones a su sistema de Proof of Work para que sea más descentralizado, compite con Bitcoin Gold.
 
 - name: PIVX (PIVX)
   icon: pivx.png

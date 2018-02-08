@@ -52,6 +52,7 @@ Aprendamos a invertir mejor
 * [Ripple](/que-es-ripple)
 * [Litecoin](/que-es-litecoin/)
 * [Aragon](/que-es-aragon/)
+* [Oyster Protocol](/que-es-oyster)
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
