@@ -111,6 +111,8 @@ Para utilizar Siacoin, un usuario debe descargarse todo su blockchain (6GB y var
 
 En la siguiente tabla se puede ver comparativamente los diferentes servicios de la competencia de los que ya se conocen el precio. Aquellos que tienen un asterístico se debe a que no ofrecen los planes exactos que estamos comparando por lo que hemos cogido el precio del plan siguiente y calculado cuanto sería la cuantía. Se presupone que el precio de 1 PRL es de 0.75$ aunque hasta que la plataforma salga al mercado este irá variando por motivos especulativos.
 
+He puesto el mismo precio en Oyster para 64GB y 512GB puesto que aún no se sabe cuánto va a ser el PEG, pero probablemente será uno de esos 2 valores.
+
 <!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 |   Almacenamiento     |  Oyster  |      Sia            | Storj          |  Dropbox    | Google Drive   | Amazon Cloud       |
 |:--------------------:|:--------:|:-------------------:|:--------------:|:-----------:|:--------------:|:------------------:|
