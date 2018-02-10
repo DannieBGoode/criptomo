@@ -91,11 +91,11 @@
   class: dapps
   description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
   
-- name: RaiBlocks (XRB)
+- name: Nano (XRB)
   icon: raiblocks.png
   website: https://raiblocks.net/
   class: currency
-  description: Plataforma no basada en el Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
+  description: Anteriormente  Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
   
 - name: Monero (XMR)
   icon: monero.png
