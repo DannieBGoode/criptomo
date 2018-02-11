@@ -15,9 +15,19 @@ progress: true
 		    	<div class="entry-header-wrap">  
 		        	<h1 class="entry-title">{{page.title}}</h1>
 			    </div>
-			</header><!-- .entry-header -->
+			</header>
+
+			<button href="#" tabindex="-1" data-filter="*">Todas</button>
+			<button href="#" tabindex="-1" data-filter="currency">Dinero</button>
+			<button href="#" tabindex="-1" data-filter="private">Privadas</button>
+			<button href="#" tabindex="-1" data-filter="dapps">Dapps</button>
+			<button href="#" tabindex="-1" data-filter="business">Empresarial</button>
+			<button href="#" tabindex="-1" data-filter="gaming">Gaming y Casinos</button>
+			<button href="#" tabindex="-1" data-filter="iot">Internet of Things</button>
+			<!-- https://isotope.metafizzy.co/filtering.html -->
+
 			{% for currency in site.data.cryptos %}
-			<div class="coinlist-box">
+			<div class="coinlist-box {{ currency.class }}" data-filter="{{ currency.class }}">
 			    <div class="coinlist-info">
 					<div class="coinlist-info-1">
 						<div class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/{{ currency.icon }});"></div>
@@ -35,7 +45,10 @@ progress: true
 			    </div><!-- .coinlist-info -->
 			</div><!-- .coinlist-box -->
 			 {% endfor %}
+
 		</main><!-- .site-main -->
         {% include sidebar.html %}
     </div><!-- .inner -->
 </div><!-- .site-content -->
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>

@@ -122,3 +122,36 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: $picton-blue;
 }
+
+a:focus[data-filter]{
+    opacity:.8;
+     outline:none;
+}
+
+button[data-filter="currency"]:focus ~ div.coinlist-box:not([data-filter="currency"]){
+  height:0px;
+  width:0px;
+  border:none;
+  margin:0;
+  display: none;
+}
+
+button[data-filter="private"]:focus ~ div.coinlist-box:not([data-filter="private"]){
+  height:0px;
+  width:0px;
+  border:none;
+  margin:0;
+  dispay: none;
+}
+
+button[data-filter="dapps"]:focus ~ div.coinlist-box:not([data-filter="dapps"]){
+  height:0px;
+  width:0px;
+  border:none;
+  margin:0;
+  dispay: none;
+}
+button:focus[data-filter]{
+    opacity:.8;
+     outline:none;
+}
