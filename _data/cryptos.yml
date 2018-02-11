@@ -168,8 +168,8 @@
 - name: Populous (PPT)
   icon: ppt-64.png
   website: http://populous.co/
-  class: crowdfunding
-  description: Plataforma de crowdfunding.
+  class: business finance
+  description: Plataforma de gestión de facturas para empresarios.
 
 - name: Stratis (STRAT)
   icon: strat-64.png
