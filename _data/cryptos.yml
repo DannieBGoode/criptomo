@@ -50,14 +50,14 @@
 - name: Ripple (XRP)
   icon: ripple.png
   website: https://ripple.com/
-  class: banks
+  class: finance
   description: Un sistema de pagos para los bancos y otros proveedores de pagos. Diseñado para mover grandes cantidades de dinero de manera rápida y eficiente.
   article: /que-es-ripple/
 
 - name: Stellar Lumens (XLM)
   icon: stellar.png
   website: https://www.stellar.org/
-  class: banks
+  class: finance
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
 
 - name: EOS (EOS)
