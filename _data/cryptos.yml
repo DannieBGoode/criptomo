@@ -222,7 +222,7 @@
   description: Plataforma descentralizada para hacer apuestas.
 
 - name: Salt (SALT)
-  icon: salt.jpg
+  icon: salt-64.png
   website: https://www.saltlending.com/
   description: Plataforma de préstamos basados en criptomonedas.
   article: /que-es-salt/
@@ -243,7 +243,7 @@
   description: Dropbox descentralizado, competidor de Siacoin y MaidSafeCoin.
 
 - name: Oyster (PRL)
-  icon: oyster.png
+  icon: prl-64.png
   website: https://oysterprotocol.com/
   description: Dropbox descentralizado y alternativa a la publicidad web.
   article: /que-es-oyster/
@@ -264,14 +264,14 @@
   description: Clon de DASH con inflación constante y controlada.
 
 - name: MONACO (MCO)
-  icon: monaco.png
+  icon: mco-64.png
   website: https://mona.co
   class: card
   description: Tarjeta de débito que transforma criptomonedas en fiat en el momento del pago.
   article: /tarjeta-debito-criptomonedas/
 
 - name: TenX (PAY)
-  icon: tenx.png
+  icon: pay-64.png
   website: https://www.tenx.tech/
   description: Tarjeta de débito para pagar con criptomonedas. Competidora de Monaco.
   article: /tarjeta-debito-criptomonedas/
@@ -287,7 +287,7 @@
   description: Usada para pagar tasas de la plataforma NEO.
 
 - name: Basic Attention Token (BAT)
-  icon: bat.png
+  icon: bat-64.png
   website: https://basicattentiontoken.org/
   description: Plataforma descentralizada de publicidad online utilizada por el navegador Brave.
 
@@ -322,7 +322,7 @@
   description: Ethereum chino enfocado en identidad digital.
 
 - name: Walton (WTC)
-  icon: walton.png
+  icon: wtc-64.png
   website: http://www.waltonchain.org/
   description: Blockchain para el internet de las cosas, similar a IOTA pero usa tecnología de RFID para monitorizar inventario.
 
@@ -337,17 +337,17 @@
   description: Marketplace descentralizado.
 
 - name: TRON (TRX)
-  icon: tron.jpg
+  icon: trx-64.png
   website: https://tronlab.com/
   description: Plataforma de contratos inteligentes que conecta a consumidores con creadores en el mundo del ocio.
 
 - name: Exchange Union (XUC)
-  icon: exchange.png
+  icon: xuc-64.png
   website: https://www.exchangeunion.com/
   description: Plataforma que permite transferir bienes digitales entre exchanges.
 
 - name: Digix DAO (DGD)
-  icon: digix.png
+  icon: dgd-64.png
   website: https://digix.global/
   description: Los usuarios pueden comprar oro que será representado mediante tokens.
 
@@ -362,7 +362,7 @@
   description: Tecnología que pretende incrementar la velocidad de la red de Ethereum.
 
 - name: Binance Coin (BNB)
-  icon: binance.jpg
+  icon: bnb-64.png
   website: https://www.binance.com/
   description: Moneda del exchange de Binance, se puede utilizar para pagar tasas de compra-venta de otras monedas en Binance.
 
@@ -423,17 +423,17 @@
   description: Mercado de predicciones descentralizado.
 
 - name: GXShares (GXS)
-  icon: gxshares.jpg
+  icon: gxs-64.png
   website: https://gxs.gxb.io/
   description: Plataforma de verificación de identidad descentralizada.
 
 - name: Bancor (BNT)
-  icon: bancor.jpg
+  icon: bnt-64.png
   website: https://www.bancor.network/
   description: Plataforma de intercambio de bienes digitales que todavía no han llegado a exchanges.
 
 - name: Blocknet (BLOCK)
-  icon: blocknet.png
+  icon: block-64.png
   website: http://blocknet.co/
   description: Sistema de comunicación entre blockchains.
 
@@ -468,7 +468,7 @@
   description: Pagos con el móvil con recompensas monetarias.
 
 - name: Einsteinium (EMC2)
-  icon: einsteinium.png
+  icon: emc2-64.png
   website: https://www.emc2.foundation/
   description: Plataforma de crowdfunding que ofrece becas con el dinero recaudado mediante comisiones.
 
@@ -488,7 +488,7 @@
   description: Criptomoneda que recompensa a sus usuarios en función de cuántas monedas tienen y sistema de votación de la comunidad.
 
 - name: Streamr (DATA)
-  icon: streamr.png
+  icon: data-64.png
   website: https://www.streamr.com/
   description: Intercambio de información entre dispositivos mediante steaming. Marketplace de información a tiempo real.
 
@@ -498,7 +498,7 @@
   description: Netflix descentralizado.
 
 - name: Santiment (SAN)
-  icon: santiment.png
+  icon: san-64.png
   website: https://santiment.net/
   description: Exchange con funciones adicionales de monitorización de mercado y análisis.
 
@@ -513,7 +513,7 @@
   description: Criptomoneda con blockchain permanente al ser transmitido mediante satelite. De esta manera aunque no hubiera internet seguiría funcionando.
 
 - name: ZenCash (ZEN)
-  icon: zencash.png
+  icon: zen-64.png
   website: https://zensystem.io/
   description: Criptomoneda basada en la privacidad que permite publicar contenido anónimo online.
 
@@ -528,7 +528,7 @@
   description: Auditorías de smart contracts con informes públicos.
 
 - name: Substratum (SUB)
-  icon: substratum.png
+  icon: sub-64.png
   website: https://substratum.net/
   description: Hosting web descentralizado. Ofrece un Internet sin posibilidad de censura.
 
@@ -568,7 +568,7 @@
   description: Red de publicidad asiática.
 
 - name: Edgeless (EDG)
-  icon: edgeless.jpg
+  icon: edg-64.png
   website: https://edgeless.io/
   class: casino
   description: Casino descentralizado.
