@@ -156,7 +156,7 @@
 - name: BitConnect (BCC)
   icon: bcc-64.png
   website: https://bitconnectcoin.co/
-  class: finance
+  class: gaming
   description: Ya extinta, plataforma que conseguía beneficios diarios a los usuarios por prestar su dinero.
 
 - name: Waves (WAVES)
