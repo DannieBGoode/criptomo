@@ -17,7 +17,7 @@ Oyster Protocol es una moneda que se caracteriza por ofrecer tres cosas distinta
 * Pretende **sustituir a la publicidad en las páginas webs** como modelo de beneficios de los dueños de las páginas. El plugin de monero llamado Coinhive también ofrece algo parecido.
 * **Ofrecerá una moneda con refugio de valor real**, al estar el precio del PRL mediado con el precio del mercado de almacenamiento. Tether ofrecía esto asegurando que por cada token de USDT en circulación, los creadores tenían 1$ guardado, pero estas garantías centralizadas son peligrosas.
 
-PRL es una moneda ERC-20, es decir basada en Ethereum, pero con la particularidad de que la información de los usuarios será almacenada en el Tangle de [IOTA](/que-es-IOTA). Tendrá un total de 500 millones de monedas en circulación y no se podrán imprimir más una vez alcanzado este límite.
+PRL es una moneda ERC-20, es decir basada en Ethereum, pero con la particularidad de que la información de los usuarios será almacenada en el Tangle de [IOTA](/que-es-iota/). Tendrá un total de 500 millones de monedas en circulación y no se podrán imprimir más una vez alcanzado este límite.
 
 Cuando un usuario gasta PRL en almacenaje descentralizado, ese token PRL queda "enterrado" en la red, y podrá ser vuelto a encontrar mediante su proceso de minado.
 
@@ -110,6 +110,8 @@ Aunque Storj almacena la información de manera descentralizada existe un único
 Para utilizar Siacoin, un usuario debe descargarse todo su blockchain (6GB y varias horas) antes de poder utilizar la red. Tanto los usuarios de Sia como los de Filecoin deberán pagar por las descargas que realicen de los ficheros una vez subidos a sus respectivos blockchain.
 
 En la siguiente tabla se puede ver comparativamente los diferentes servicios de la competencia de los que ya se conocen el precio. Aquellos que tienen un asterístico se debe a que no ofrecen los planes exactos que estamos comparando por lo que hemos cogido el precio del plan siguiente y calculado cuanto sería la cuantía. Se presupone que el precio de 1 PRL es de 0.75$ aunque hasta que la plataforma salga al mercado este irá variando por motivos especulativos.
+
+He puesto el mismo precio en Oyster para 64GB y 512GB puesto que aún no se sabe cuánto va a ser el PEG, pero probablemente será uno de esos 2 valores.
 
 <!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 |   Almacenamiento     |  Oyster  |      Sia            | Storj          |  Dropbox    | Google Drive   | Amazon Cloud       |

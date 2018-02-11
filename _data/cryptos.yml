@@ -8,7 +8,7 @@
 
 - name: Bitcoin Cash (BCH)
   icon: bch-orange-64.png
-  website: www.bitcoin.com
+  website: https://www.bitcoin.com
   class: currency
   description: Un fork de Bitcoin creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
   article: /que-es-bitcoin-cash/
@@ -69,6 +69,7 @@
 - name: NEM (XEM)
   icon: nem-black-64.png
   website: http://nem.io/
+  class: dapps business
   description: Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.
 
 - name: Bitcoin Gold (BTG)
@@ -90,16 +91,16 @@
   class: dapps
   description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
   
-- name: RaiBlocks (XRB)
+- name: Nano (XRB)
   icon: xrb-64.png
   website: https://raiblocks.net/
   class: currency
-  description: Plataforma no basada en el Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
+  description: Anteriormente  Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
   
 - name: Monero (XMR)
   icon: xmr-64.png
   website: https://getmonero.org/
-  class: currency
+  class: private currency
   description: Plataforma de pagos muy segura, totalmente privada y no traceable. A diferencia de con Bitcoin no se pueden conocer los balances de las cuentas o los detalles de las transacciones.
   article: /que-es-monero/
 
@@ -118,42 +119,50 @@
 - name: Aragon (ANT)
   icon: ant-64.png
   website: https://aragon.one/
+  class: business
   description: Organizaciones imparables sin fronteras directamente en el blockchain.
   article: /que-es-aragon/
 
 - name: Qtum (QTUM)
   icon: qtum-64.png
   website: https://qtum.org/en/
+  class: business dapps
   description: Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.
 
 - name: Hshare (HSR)
   icon: hsr-64.png
   website: https://h.cash/
+  class: currency exchange interblockchain
   description: Plataforma que permite intercambio de fondos o información entre distintos blockchains.
 
 - name: OmiseGO (OMG)
   icon: omg-64.png
   website: https://omg.omise.co/
+  class: currency finance
   description: Permite a la gente utilizar servicios financieros clásicos sin necesidad de tener un banco. Funciona tanto con fiat como con criptomonedas.
 
 - name: Zcash (ZEC)
   icon: zec-64.png
   website: https://z.cash/
+  class: private currency
   description: Plataforma de pagos que esconde al emisor, receptor y el valor de la transacción, aunque permite hacer la transacción pública más tarde opcionalmente.
 
 - name: Tether (USDT)
   icon: usdt-64.png
   website: https://tether.to/
+  class: finance
   description: Criptomoneda basada en el dólar, su valor es siempre de 1$.
 
 - name: BitConnect (BCC)
   icon: bcc-64.png
   website: https://bitconnectcoin.co/
+  class: finance
   description: Ya extinta, plataforma que conseguía beneficios diarios a los usuarios por prestar su dinero.
 
 - name: Waves (WAVES)
   icon: waves-64.png
   website: https://wavesplatform.com/
+  class: exchange crowdfunding
   description: Plataforma que permite crear y distribuir tokens a cualquier persona aunque no tenga conocimientos técnicos.
 
 - name: Populous (PPT)
@@ -165,11 +174,13 @@
 - name: Stratis (STRAT)
   icon: strat-64.png
   website: http://stratisplatform.com/
+  class: business
   description: Plataforma para crear blockchain corporativas en C#.
 
 - name: Ark (ARK)
   icon: ark-64.png
   website: http://ark.io/
+  class: interblockchain
   description: Plataforma para conectar todas las criptomonedas con una interfaz muy simple.
 
 - name: Komodo (KMD)
@@ -193,74 +204,87 @@
 - name: Golem (GNT)
   icon: gnt-64.png
   website: https://golem.network/
+  class: computing
   description: Alquiler de poder computacional a cambio de tokens.
 
 - name: Ardor (ARDR)
   icon: ardr-64.png
   website: https://www.ardorplatform.org/
+  class: business
   description: Blockchain para crear otras blockchains. Diseñado para organizaciones gubernamentales o empresas.
 
 - name: Bytecoin (BCN)
   icon: bcn-64.png
   website: https://bytecoin.org/
+  class: private currency
   description: Predecesor de Monero. Moneda enfocada en la privacidad.
 
 - name: Request (REQ)
   icon: req-64.png
   website: https://request.network/
-  class: currency
+  class: finance
   description: Plataforma para solicitar pagos en cualquier criptomoneda.
 
 - name: Decred (DCR)
   icon: dcr-64.png
   website: https://www.decred.org/
+  class: currency
   description: Bitcoin pero con sistema de votación para que la comunidad elija su trayectoria.
 
 - name: Augur (REP)
   icon: augur.png
   website: http://www.augur.net/
+  class: gaming
   description: Plataforma descentralizada para hacer apuestas.
 
 - name: Salt (SALT)
   icon: salt-64.png
   website: https://www.saltlending.com/
+  class: finance
   description: Plataforma de préstamos basados en criptomonedas.
   article: /que-es-salt/
 
 - name: MaidSafeCoin (MAID)
   icon: maidsafecoin.png
   website: http://maidsafe.net/
+  class: storage
   description: Alquiler de almacenamiento distribuido. Dropbox descentralizado.
 
 - name: Siacoin (SC)
   icon: siacoin.png
   website: http://sia.tech/
+  class: storage
   description: Dropbox descentralizado.
 
 - name: Storj (STORJ)
   icon: storj.png
   website: https://storj.io/
+  class: storage
   description: Dropbox descentralizado, competidor de Siacoin y MaidSafeCoin.
 
 - name: Oyster (PRL)
   icon: prl-64.png
   website: https://oysterprotocol.com/
+  class: storage ads
   description: Dropbox descentralizado y alternativa a la publicidad web.
   article: /que-es-oyster/
 
 - name: Factom (FCT)
   icon: factom.jpg
   website: http://factom.org/
+  class: storage
   description: Sistema de almacenamiento de archivos distribuido para empresas que busquen mayor transparencia.
 
 - name: Vertcoin (VTC)
   icon: vertcoin.png
   website: http://vertcoin.org/
+  class: currency
   description: Clon de Bitcoin con modificaciones a su sistema de Proof of Work para que sea más descentralizado, compite con Bitcoin Gold.
 
 - name: PIVX (PIVX)
   icon: pivx.png
   website: http://www.pivx.org/
+  class: currency
   description: Clon de DASH con inflación constante y controlada.
 
 - name: MONACO (MCO)
@@ -273,87 +297,104 @@
 - name: TenX (PAY)
   icon: pay-64.png
   website: https://www.tenx.tech/
+  class: card
   description: Tarjeta de débito para pagar con criptomonedas. Competidora de Monaco.
   article: /tarjeta-debito-criptomonedas/
 
 - name: Veritaseum (VERI)
   icon: veritaseum.png
   website: http://veritas.veritaseum.com/
+  class: finance
   description: Plataforma de inversión en bolsa sin necesidad de bancos o brokers.
 
 - name: Gas (GAS)
   icon: gas.jpg
   website: https://neo.org/
+  class: dapps
   description: Usada para pagar tasas de la plataforma NEO.
 
 - name: Basic Attention Token (BAT)
   icon: bat-64.png
   website: https://basicattentiontoken.org/
+  class: ads
   description: Plataforma descentralizada de publicidad online utilizada por el navegador Brave.
 
 - name: MonaCoin (MONA)
   icon: monacoin.png
   website: http://monacoin.org/
+  class: currency
   description: Moneda japonesa basada en un meme para microtransacciones. Similar a Dogecoin.
 
 - name: Byteball (GBYTE)
   icon: gbyte.png
   website: https://byteball.org/
+  class: dapps
   description: Plataforma para contratos inteligentes que permite pagos condicionales - si una acción ocurre se realiza un pago, si no ocurre se hace una devolución.
 
 - name: Dogecoin (DOGE)
   icon: dogecoin.png
   website: http://dogecoin.com/
+  class: currency
   description: Clon de Litecoin basado en un meme y usado para dar propinas.
 
 - name: Bitcoin Dark (BTCD)
   icon: bitcoin-dark.png
   website: http://bitcoindark.com/
+  class: exchange
   description: Exchange de bienes digitales enfocado en privacidad y libertad financiera.
 
 - name: Gamecredits (GAME)
   icon: game.png
   website: http://gamecredits.com/
+  class: currency gaming
   description: Moneda digital para desarrolladores de videojuegos y jugadores pensada para comercio de bienes digitales.
 
 - name: Metaverse (ETP)
   icon: metaverse.jpg
   website: https://mvs.org/
+  class: apps finance social
   description: Ethereum chino enfocado en identidad digital.
 
 - name: Walton (WTC)
   icon: wtc-64.png
   website: http://www.waltonchain.org/
+  class: iot business
   description: Blockchain para el internet de las cosas, similar a IOTA pero usa tecnología de RFID para monitorizar inventario.
 
 - name: Iconomi (ICN)
   icon: icn.png
   website: https://www.iconomi.net/
+  class: finance
   description: Permite creación de fondos de inversión basados en criptomonedas.
 
 - name: Syscoin (SYS)
   icon: syscoin.png
   website: http://syscoin.org/
+  class: marketplace
   description: Marketplace descentralizado.
 
 - name: TRON (TRX)
   icon: trx-64.png
   website: https://tronlab.com/
+  class: dapps gaming
   description: Plataforma de contratos inteligentes que conecta a consumidores con creadores en el mundo del ocio.
 
 - name: Exchange Union (XUC)
   icon: xuc-64.png
   website: https://www.exchangeunion.com/
+  class: exchange
   description: Plataforma que permite transferir bienes digitales entre exchanges.
 
 - name: Digix DAO (DGD)
   icon: dgd-64.png
   website: https://digix.global/
+  class: finance
   description: Los usuarios pueden comprar oro que será representado mediante tokens.
 
 - name: Power Ledger (POWR)
   icon: power.png
   website: https://powerledger.io/
+  class: iot
   description: Plataforma de comercio de electricidad para viviendas con paneles solares u otros mecanismos de abastecimiento.
 
 - name: Raiden (RDN)
@@ -364,213 +405,253 @@
 - name: Binance Coin (BNB)
   icon: bnb-64.png
   website: https://www.binance.com/
+  class: exchange
   description: Moneda del exchange de Binance, se puede utilizar para pagar tasas de compra-venta de otras monedas en Binance.
 
 - name: KuCoin Shares (KCS)
   icon: kucoin-shares.png
   website: https://www.kucoin.com/
+  class: exchange
   description: Moneda del exchange de Kucoin, se puede utilizar para pagar tasas de compra-venta de otras monedas en Kucoin.
 
 - name: NXT (NXT)
   icon: nxt.png
   website: https://nxtplatform.org/
+  class: exchange marketplace
   description: Plataforma que permite intercambio de bienes digitales, marketplaces y un sistema de votación para la comunidad.
 
 - name: Status (SNT)
   icon: status.png
   website: https://status.im/
-  description: Interfaz para aplicaciones basadas en Ethereum.
+  class: social dapps
+  description: Interfaz para aplicaciones basadas en Ethereum con navegador y sistema de mensajería instantánea.
 
 - name: Kyber (KNC)
   icon: kyber.png
   website: https://kyber.network/
+  class: interblockchain
   description: Exchange descentralizado.
 
 - name: ZCoin (XZC)
   icon: zcoin.png
   website: https://zcoin.io/
+  class: private currency
   description: Moneda para transacciones privada que permite auditorías por la comunidad.
 
 - name: SmartCash (SMART)
   icon: smartcash.png
   website: https://smartcash.cc/
+  class: private currency
   description: Clon de ZCoin con recompensas monetarias.
 
 - name: Aeternity (AE)
   icon: aeternity.jpg
   website: https://www.aeternity.com/
+  class: interblockchain
   description: Plataforma de contratos inteligentes que utiliza el Blockchain sólo para resolver disputas.
 
 - name: FunFair (FUN)
   icon: fun.png
   website: https://funfair.io/
-  class: casino
+  class: gaming
   description: Casino descentralizado.
 
 - name: Bytom (BTM)
   icon: bytom.png
   website: http://bytom.io/
+  class: interblockchain
   description: Plataforma para digitalizar documentos legales.
 
 - name: DigiByte (DGB)
   icon: digibyte.jpg
   website: http://www.digibyte.io/
-  description: Plataforma para almacenar información directamente en el blockchain.
+  class: storage
+  description: Plataforma para almacenar información directamente en el blockchain de manera permanente.
 
 - name: Gnosis (GNO)
   icon: gnosis.png
   website: https://gnosis.pm/
+  class: gaming
   description: Mercado de predicciones descentralizado.
 
 - name: GXShares (GXS)
   icon: gxs-64.png
   website: https://gxs.gxb.io/
+  class: finance
   description: Plataforma de verificación de identidad descentralizada.
 
 - name: Bancor (BNT)
   icon: bnt-64.png
   website: https://www.bancor.network/
+  class: interblockchain
   description: Plataforma de intercambio de bienes digitales que todavía no han llegado a exchanges.
 
 - name: Blocknet (BLOCK)
   icon: block-64.png
   website: http://blocknet.co/
+  class: interblockchain
   description: Sistema de comunicación entre blockchains.
 
 - name: Cryptonex (CNX)
   icon: cryptonex.png
   website: https://cryptonex.org/
+  class: exchange
   description: Exchange de intercambio de fiat a criptomonedas.
 
 - name: Ethos (ETHOS)
   icon: ethos.png
   website: https://www.ethos.io/
+  class: social
   description: Wallet móvil con red social incluída.
 
 - name: Civic (CVC)
   icon: civic.png
   website: https://www.civic.com/
+  class: private
   description: Manejo de identidades digitales. Pretende reemplazar a los carnets de identidad y contraseñas.
 
 - name: 0x (ZRX)
   icon: 0x.png
   website: https://0xproject.com/
+  class: exchange
   description: Exchange descentralizado.
 
 - name: Pura (PURA)
   icon: pura.png
   website: http://www.pura.one/
+  class: currency
   description: Criptomoneda que recompensa a sus usuarios y cede un 10% a caridad.
 
 - name: Metal (MTL)
   icon: metal.png
   website: https://www.metalpay.com/
+  class: finance
   description: Pagos con el móvil con recompensas monetarias.
 
 - name: Einsteinium (EMC2)
   icon: emc2-64.png
   website: https://www.emc2.foundation/
+  class: crowdfunding
   description: Plataforma de crowdfunding que ofrece becas con el dinero recaudado mediante comisiones.
 
 - name: Lykke (LKK)
   icon: lykke.png
   website: https://www.lykke.com/
+  class: exchange
   description: Exchange inmediato con cero comisiones.
 
 - name: Verge (XVG)
   icon: verge.png
   website: https://vergecurrency.com/
+  class: private currency
   description: Criptomoneda basada en la seguridad y la privacidad.
 
 - name: Peercoin (PPC)
   icon: peercoin.png
   website: https://peercoin.net/
+  class: currency
   description: Criptomoneda que recompensa a sus usuarios en función de cuántas monedas tienen y sistema de votación de la comunidad.
 
 - name: Streamr (DATA)
   icon: data-64.png
   website: https://www.streamr.com/
+  class: iot
   description: Intercambio de información entre dispositivos mediante steaming. Marketplace de información a tiempo real.
 
 - name: SingularDTV (SNGLS)
   icon: singularDTV.png
   website: https://singulardtv.com/
+  class: gaming business crowdfunding
   description: Netflix descentralizado.
 
 - name: Santiment (SAN)
   icon: san-64.png
   website: https://santiment.net/
+  class: exchange finance
   description: Exchange con funciones adicionales de monitorización de mercado y análisis.
 
 - name: VeChain (VEN)
   icon: vechain.png
   website: https://www.vechain.com/
+  class: iot business
   description: Sistema de manejo de inventario mediante blockchain.
 
 - name: Nexus (NXS)
   icon: nexus.jpg
   website: http://www.nexusearth.com/
+  class: currency
   description: Criptomoneda con blockchain permanente al ser transmitido mediante satelite. De esta manera aunque no hubiera internet seguiría funcionando.
 
 - name: ZenCash (ZEN)
   icon: zen-64.png
   website: https://zensystem.io/
+  class: currency private social
   description: Criptomoneda basada en la privacidad que permite publicar contenido anónimo online.
 
 - name: MinexCoin (MNX)
   icon: minexcoin.png
   website: https://minexcoin.com/
+  class: exchange marketplace
   description: Criptomoneda que pretende arreglar los problemas de volatilidad de precio.
 
 - name: Quantstamp (QSP)
   icon: quantstamp.png
   website: https://quantstamp.com/
+  class: dapps interblockchain
   description: Auditorías de smart contracts con informes públicos.
 
 - name: Substratum (SUB)
   icon: sub-64.png
   website: https://substratum.net/
+  class: web
   description: Hosting web descentralizado. Ofrece un Internet sin posibilidad de censura.
 
 - name: Counterparty (XCP)
   icon: counterparty.png
   website: https://counterparty.io/
+  class: dapps
   description: Smart contracts en el blockchain de Bitcoin.
 
 - name: Particl (PART)
   icon: particl.jpg
   website: https://particl.io/
+  class: private marketplace social
   description: Criptomoneda basada en la privacidad que ofrece marketplace y chat cifrado.
 
 - name: NAV Coin (NAV)
   icon: navcoin.png
   website: http://www.navcoin.org/
+  class: private currency
   description: Criptomoneda con privacidad opcional.
 
 - name: PotCoin (POT)
   icon: potcoin.png
   website: http://www.potcoin.com/
+  class: currency
   description: Plataforma de pagos para la industria de la marihuana.
 
 - name: AdEx (ADX)
   icon: adex.png
   website: https://www.adex.network/
+  class: ads exchange
   description: Exchange de publicidad online.
 
 - name: Ubiq (UBQ)
   icon: ubiq.png
   website: https://ubiqsmart.com/
+  class: dapps
   description: Plataforma de smart contracts donde todos los dispositivos de una red actúan como un único super-ordenador.
 
 - name: ATMChain (ATM)
   icon: atm.png
   website: https://www.atmchain.io/
+  class: ads
   description: Red de publicidad asiática.
 
 - name: Edgeless (EDG)
   icon: edg-64.png
   website: https://edgeless.io/
-  class: casino
+  class: gaming
   description: Casino descentralizado.
 
 
