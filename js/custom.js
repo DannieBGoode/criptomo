@@ -87,7 +87,16 @@
             });
         }
 
+        // scroll to element
+        $.fn.goTo = function(velocity) {
+            $('html, body').animate({
+                scrollTop: $(this).offset().top + 'px'
+            }, velocity);
+            return this; // for chaining...
+        }
 
+
+        // sidebar currencies marketcaps
         $.get( "https://api.coinmarketcap.com/v1/ticker/", function( response ) {
             var displayedCurrencies = $('[data-currency]'),
                 result = '',

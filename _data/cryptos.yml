@@ -247,7 +247,7 @@
 - name: MaidSafeCoin (MAID)
   icon: maidsafecoin.png
   website: http://maidsafe.net/
-  class: storage
+  class: storage computing
   description: Alquiler de almacenamiento distribuido. Dropbox descentralizado.
 
 - name: Siacoin (SC)
@@ -639,7 +639,7 @@
 - name: Ubiq (UBQ)
   icon: ubiq.png
   website: https://ubiqsmart.com/
-  class: dapps
+  class: computing dapps
   description: Plataforma de smart contracts donde todos los dispositivos de una red actúan como un único super-ordenador.
 
 - name: ATMChain (ATM)

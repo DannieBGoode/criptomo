@@ -23,7 +23,7 @@ progress: true
 				<button data-filter=".interblockchain">Conexión entre Blockchains</button>
 				<button data-filter=".crowdfunding">Crowdfunding</button>
 				<button data-filter=".dapps">Dapps</button>
-				<button data-filter=".currency">Dinero</button>		
+				<button data-filter=".currency">Dinero / Pagos</button>		
 				<button data-filter=".business">Empresarial</button>
 				<button data-filter=".exchanges">Exchanges</button>
 				<button data-filter=".gaming">Gaming y Gambling</button>
