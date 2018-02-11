@@ -17,7 +17,7 @@ Oyster Protocol es una moneda que se caracteriza por ofrecer tres cosas distinta
 * Pretende **sustituir a la publicidad en las páginas webs** como modelo de beneficios de los dueños de las páginas. El plugin de monero llamado Coinhive también ofrece algo parecido.
 * **Ofrecerá una moneda con refugio de valor real**, al estar el precio del PRL mediado con el precio del mercado de almacenamiento. Tether ofrecía esto asegurando que por cada token de USDT en circulación, los creadores tenían 1$ guardado, pero estas garantías centralizadas son peligrosas.
 
-PRL es una moneda ERC-20, es decir basada en Ethereum, pero con la particularidad de que la información de los usuarios será almacenada en el Tangle de [IOTA](/que-es-IOTA). Tendrá un total de 500 millones de monedas en circulación y no se podrán imprimir más una vez alcanzado este límite.
+PRL es una moneda ERC-20, es decir basada en Ethereum, pero con la particularidad de que la información de los usuarios será almacenada en el Tangle de [IOTA](/que-es-iota/). Tendrá un total de 500 millones de monedas en circulación y no se podrán imprimir más una vez alcanzado este límite.
 
 Cuando un usuario gasta PRL en almacenaje descentralizado, ese token PRL queda "enterrado" en la red, y podrá ser vuelto a encontrar mediante su proceso de minado.
 

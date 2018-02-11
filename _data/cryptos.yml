@@ -8,7 +8,7 @@
 
 - name: Bitcoin Cash (BCH)
   icon: bch.png
-  website: www.bitcoin.com
+  website: https://www.bitcoin.com
   class: currency
   description: Un fork de Bitcoin creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
   article: /que-es-bitcoin-cash/
