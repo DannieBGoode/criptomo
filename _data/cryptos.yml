@@ -48,14 +48,14 @@
   article: /que-es-iota/
 
 - name: Ripple (XRP)
-  icon: ripple-64.png
+  icon: xrp-64.png
   website: https://ripple.com/
   class: banks
   description: Un sistema de pagos para los bancos y otros proveedores de pagos. Diseñado para mover grandes cantidades de dinero de manera rápida y eficiente.
   article: /que-es-ripple/
 
 - name: Stellar Lumens (XLM)
-  icon: stellar-64.png
+  icon: xlm-64.png
   website: https://www.stellar.org/
   class: banks
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
@@ -73,7 +73,7 @@
   description: Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.
 
 - name: Bitcoin Gold (BTG)
-  icon: bitcoin-gold-64.png
+  icon: btg-64.png
   website: https://bitcoingold.org/
   class: currency
   description: Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado, compite con Vertcoin.
