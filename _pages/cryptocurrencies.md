@@ -22,13 +22,13 @@ progress: true
 				<button data-filter=".finance">Bancos y Finanzas</button>
 				<button data-filter=".interblockchain">Conexión entre Blockchains</button>
 				<button data-filter=".crowdfunding">Crowdfunding</button>
-				<button data-filter=".dapps">Dapps</button>
 				<button data-filter=".currency">Dinero / Pagos</button>		
 				<button data-filter=".business">Empresarial</button>
 				<button data-filter=".exchanges">Exchanges</button>
 				<button data-filter=".gaming">Gaming y Gambling</button>
 				<button data-filter=".iot">Internet of Things</button>
 				<button data-filter=".marketplace">Marketplace</button>
+				<button data-filter=".dapps">Plataforma de Aplicaciones Descentralizadas</button>
 				<button data-filter=".computing">Procesamiento de datos</button>
 				<button data-filter=".ads">Publicidad</button>
 				<button data-filter=".private">Seguridad y Anonimato</button>
@@ -41,7 +41,7 @@ progress: true
 
 			<div class="grid">
 				{% for currency in site.data.cryptos %}
-				<div class="coinlist-box item {{ currency.class }}" data-filter="{{ currency.class }}">
+				<div class="coinlist-box item {{ currency.class }}">
 				    <div class="coinlist-info">
 						<div class="coinlist-info-1">
 							<div class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/{{ currency.icon }});"></div>
