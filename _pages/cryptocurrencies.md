@@ -19,19 +19,19 @@ progress: true
 			<div id="filters" class="button-group">
 				<button data-filter="*">Todas</button>
 				<button data-filter=".storage">Almacenamiento</button>
+				<button data-filter=".dapps">Apps Descentralizadas</button>
 				<button data-filter=".finance">Bancos y Finanzas</button>
 				<button data-filter=".interblockchain">Conexión entre Blockchains</button>
 				<button data-filter=".crowdfunding">Crowdfunding</button>
 				<button data-filter=".currency">Dinero / Pagos</button>		
 				<button data-filter=".business">Empresarial</button>
 				<button data-filter=".exchanges">Exchanges</button>
-				<button data-filter=".gaming">Gaming y Gambling</button>
+				<button data-filter=".gaming">Gaming / Gambling</button>
 				<button data-filter=".iot">Internet of Things</button>
 				<button data-filter=".marketplace">Marketplace</button>
-				<button data-filter=".dapps">Plataforma de Aplicaciones Descentralizadas</button>
 				<button data-filter=".computing">Procesamiento de datos</button>
 				<button data-filter=".ads">Publicidad</button>
-				<button data-filter=".private">Seguridad y Anonimato</button>
+				<button data-filter=".private">Seguridad / Privacidad</button>
 				<button data-filter=".social">Social</button>
 				<button data-filter=".card">Tarjetas de Débito</button>
 				<button data-filter=".web">Web</button>

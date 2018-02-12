@@ -436,7 +436,7 @@
   icon: zcoin.png
   website: https://zcoin.io/
   class: private currency
-  description: Moneda para transacciones privada que permite auditorías por la comunidad.
+  description: Moneda para transacciones privadas que permite auditorías por la comunidad.
 
 - name: SmartCash (SMART)
   icon: smartcash.png
