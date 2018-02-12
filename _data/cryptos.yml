@@ -95,7 +95,8 @@
   icon: xrb-64.png
   website: https://raiblocks.net/
   class: currency
-  description: Anteriormente  Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
+  description: Anteriormente Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratuitas. Es fácilmente escalable.
+  article: /que-es-nano/
   
 - name: Monero (XMR)
   icon: xmr-64.png
