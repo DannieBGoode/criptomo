@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Qué es Nano (XRB)
-description: La criptomoneda Nano, anteriormente conocida como Raiblocks, XRB explicada de manera sencilla.
+description: La criptomoneda Nano, anteriormente conocida como Raiblocks, XRB explicada de manera sencilla. Diferencias con Bitcoin y Ethereum. Dónde comprar y guardar.
 banner_image: 201802/xrb.jpg
 rating: 5
 totalVotes: 2
@@ -16,7 +16,7 @@ Existen 133,248,290 tokens XRB en circulación que se repartieron de manera grat
 
 ## Tecnología
 
-Nano intenta resolver los problemas más graves de Bitcoin: Escalabilidad, costes de transacción, tiempos de tranferencia y consumo energético. La tecnología Block-lattice opera de manera similar al blockchain pero tiene ciertas diferencias:
+Nano intenta resolver los problemas más graves de Bitcoin: Escalabilidad, costes de transacción, tiempos de transferencia y consumo energético. La tecnología Block-lattice opera de manera similar al blockchain pero tiene ciertas diferencias:
 
 * Cada usuario que participe en la red XRB tendrá su propio blockchain que únicamente ellos podrán modificar.
 * Todos los fondos intercambiados en la red XRB requeriran de dos operaciones: una realizada por el emisor y otra por el receptor. La transacción quedará en pendiente hasta que el receptor firme el bloque confirmando los fondos envíados por el emisor.
@@ -43,7 +43,7 @@ Nano intenta resolver los problemas más graves de Bitcoin: Escalabilidad, coste
 
 - **Los nodos que resuelven incidencias no tienen ninguna motivación para mantenerse online** puesto que no hay tasas de transferencias. Estarían operando por amor a la red.
 
-- **El wallet se debe sincronizar con la red para funcionar, lo que puede llevar entre 12 y 24horas**. Los light wallets deberían arreglar este problema, suponiendo que hay suficientes full-nodos en la red.
+- **El wallet se debe sincronizar con la red para funcionar, lo que puede llevar entre 12 y 24 horas**. Los light wallets deberían arreglar este problema, suponiendo que hay suficientes full-nodos en la red.
 
 - Para que una transacción se considere completa, **tanto el emisor como el receptor deben estar online**. De no ser así, la transferencia quedará en PENDIENTE hasta que el receptor se conecte y sincronice su wallet. Las transacciones pendientes no expiran.
 
@@ -79,9 +79,10 @@ Nano está disponible en:
 
 ## Conclusión
 
-Aunque se trata de una tecnología muy prometedora, es importante preguntarnos para qué será usado. Si Bitcoin o Ethereum resuelven sus problemas de escalabilidad, y todo apunta a que lo terminarán haciendo, habrá que ver que ocurre con RaiBlocks y cual acaba siendo su uso.
+Aunque se trata de una tecnología muy prometedora, es importante preguntarnos para qué será usado. Si Bitcoin o Ethereum resuelven sus problemas de escalabilidad, y todo apunta a que lo terminarán haciendo, habrá que ver qué ocurre con RaiBlocks y cual acaba siendo su uso.
 
 
 > Para tener problemas de escalabilidad, primero hay que necesitar escalar. <cite>Andreas Antonopoulos</cite>
 
-Bitcoin fue en el pasado practicamente gratis ( o al menos muy barato) y podría perfectamente volver a serlo con Lightning Network. Si Nano no se ha adoptado masivamente para cuando esto ocurra, será complicado que consiga abrirse un hueco.
+Bitcoin fue en el pasado prácticamente gratis ( o al menos muy barato) y podría perfectamente volver a serlo con Lightning Network. Si Nano no se ha adoptado masivamente para cuando esto ocurra, será complicado que consiga abrirse un hueco.
+
