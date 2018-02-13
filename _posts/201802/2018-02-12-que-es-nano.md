@@ -14,6 +14,8 @@ Nano, anteriormente conocida como Raiblocks, es un proyecto bastante joven que f
 
 Existen 133,248,290 tokens XRB en circulación que se repartieron de manera gratuita hasta Octubre de 2017 entre personas que resolvieran sus captchas online para asegurar un reparto inicial equitativo. No hubo ICO y jamás se podrán generar más XRBs.
 
+{% include video.html provider="vimeo" id="253563861" %}
+
 ## Tecnología
 
 Nano intenta resolver los problemas más graves de Bitcoin: Escalabilidad, costes de transacción, tiempos de transferencia y consumo energético. La tecnología Block-lattice opera de manera similar al blockchain pero tiene ciertas diferencias:
