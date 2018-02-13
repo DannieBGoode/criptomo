@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Calculadora
-description: Calculadora
+description: Calculadora, cuanto dinero podrías haber ganado invirtiendo en Bitcoin a tiempo
 banner_image: calculator-2.jpg
 permalink: /calculadora/
 sitemap: true
 ---
+
+<!-- la  fecha más temprana que la API soporta es 2010-07-17 -->
 
 Si hubieras invertido 
 <input id="invest-quantity" type="number" value="1000">$ en Bitcoin en la fecha 
