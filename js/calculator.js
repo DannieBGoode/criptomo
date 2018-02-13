@@ -16,7 +16,7 @@ function calculateEarnings() {
                         currentValue    = parseFloat(currentPrice * boughtBitcoins).toFixed(2);
 
                     $("#number-bitcoins").html(boughtBitcoins);
-                    $("#valued-amount").html(currentValue);
+                    $("#valued-amount").html(currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
                     let percentage = parseFloat((currentValue - investedQuantity) / investedQuantity).toFixed(2)*100;
                     let change = '';
                     $("#gained-percentage").html(percentage +  "%");
@@ -28,7 +28,6 @@ function calculateEarnings() {
                     $("#gained-percentage").addClass("gained-percentage-" + change);
                     $("#calculator-results").show();
                 } else {
-                    console.log("error");
                     $("#results").hide();
                 }
             })
