@@ -7,7 +7,9 @@ permalink: /calculadora/
 sitemap: true
 ---
 
-Si hubieras invertido <input id="invest-quantity" type="number" value="1000">$ en Bitcoin en la fecha <input id="invest-date" type="date" value="2014-12-10"> ahora tendrías:
+Si hubieras invertido 
+<input id="invest-quantity" type="number" value="1000">$ en Bitcoin en la fecha 
+<input id="invest-date" type="date" value="2014-12-10" min="2010-07-16"> ahora tendrías:
 
 
 <div id="calculator-results">
