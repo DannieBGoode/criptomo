@@ -122,3 +122,7 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: $picton-blue;
 }
+
+input:focus, select:focus {
+	border-color: $picton-blue;
+}

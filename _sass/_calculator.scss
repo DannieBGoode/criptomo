@@ -1,6 +1,11 @@
 #calculator-results {
 	display: none;
-	font-weight: bold;
+	span {
+		font-weight: bold;
+	}
+}
+#invest-quantity {
+	width: 100px;
 }
 .gained-percentage-positive {
 	color: green;

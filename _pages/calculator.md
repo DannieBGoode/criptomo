@@ -10,15 +10,48 @@ sitemap: true
 <!-- la  fecha más temprana que la API soporta es 2010-07-17 -->
 
 Si hubieras invertido 
-<input id="invest-quantity" type="number" value="1000">$ en Bitcoin en la fecha 
-<input id="invest-date" type="date" value="2014-12-10" min="2010-07-16"> ahora tendrías:
+<input id="invest-quantity" type="number" value="1000">
+<select id="invest-fiat">
+	<option>EUR</option>
+	<option>USD</option>
+</select> en 
 
+<!-- <span class="normal-selector">
+	<select id="invest-currency" onchange="updateInputMinDate()">
+		<option value="BTC" min="2014-12-10">Bitcoin</option>
+		<option value="ETH" min="2015-08-08">Ethereum</option>
+		<option value="LTC" min="2013-09-15">Litecoin</option>
+		<option value="XMR" min="2015-01-27">Monero</option>
+		<option value="DASH" min="2014-02-04">Dash</option>
+		<option value="XRP" min="2015-01-30">Ripple</option>
+	</select>
+</span> -->
+
+<!-- datalists are not yet supported by safari, maybe if we can check whether its supported and load it only then https://stackoverflow.com/questions/7048102/check-if-html-element-is-supported --> 
+<span class="datalist-selector">
+	<input type="text" list="cryptocurrency" id="invest-currency" placeholder="Selecciona"/>
+	<datalist id="cryptocurrency">
+		<option value="BTC" min="2014-12-10">Bitcoin</option>
+		<option value="ETH" min="2015-08-08">Ethereum</option>
+		<option value="LTC" min="2013-09-15">Litecoin</option>
+		<option value="XMR" min="2015-01-27">Monero</option>
+		<option value="DASH" min="2014-02-04">Dash</option>
+		<option value="XRP" min="2015-01-30">Ripple</option>
+	</datalist>
+</span>
+
+el día:
+<input id="invest-date" type="date" value="2014-12-10" min="2011-08-27">
 
 <div id="calculator-results">
+	hubieras podido comprar a un precio de:
+	<span id="old-price"></span>
+	un total de:
 	<div>
-		<span id="number-bitcoins"></span> 
-		Bitcoins valorados en 
-		<span id="valued-amount"></span> $.</div>
+		<span id="number-tokens"></span> 
+		<span id="token"></span>
+		valorados a día de hoy en un total de
+		<span id="valued-amount"></span></div>
 
 	<div>Ganancias: <span id="gained-percentage"></span></div>
 
