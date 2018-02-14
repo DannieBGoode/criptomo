@@ -18,12 +18,12 @@ sitemap: true
 
 	<span class="normal-selector">
 		<select id="invest-currency" onchange="updateInputMinDate()">
-			<option value="BTC" min="2014-12-10">Bitcoin</option>
-			<option value="ETH" min="2015-08-08">Ethereum</option>
-			<option value="LTC" min="2013-09-15">Litecoin</option>
-			<option value="XMR" min="2015-01-27">Monero</option>
+			<option value="BTC"  min="2010-07-18">Bitcoin</option>
+			<option value="ETH"  min="2015-08-08">Ethereum</option>
+			<option value="LTC"  min="2013-09-15">Litecoin</option>
+			<option value="XMR"  min="2015-01-27">Monero</option>
 			<option value="DASH" min="2014-02-04">Dash</option>
-			<option value="XRP" min="2015-01-30">Ripple</option>
+			<option value="XRP"  min="2015-01-30">Ripple</option>
 			<option class="editable">otro</option>
 		</select>
 		<input class="editOption" autofocus/>
@@ -44,7 +44,7 @@ sitemap: true
 </span> -->
 
 el día:
-<input id="invest-date" type="date" value="2014-12-10" min="2011-08-27">
+<input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
 
 <div id="calculator-results">
 	hubieras podido comprar a un precio de:

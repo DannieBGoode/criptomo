@@ -16,43 +16,57 @@ function calculateEarnings() {
             newDate = myDate[0] + "/" + myDate[1] + "/" + myDate[2],
             timestamp = Math.floor(new Date(newDate).getTime() / 1000 );
 
-        $.get("https://min-api.cryptocompare.com/data/pricehistorical?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat + "&ts=" + timestamp)
+        $(".input-error").removeClass("input-error");
+
+        $.get("https://min-api.cryptocompare.com/data/price?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat)
             .success(function(response) {
-                $(".input-error").removeClass("input-error");
-                if ((response.Response !== 'Error') && (response[investment.tokenSymbol][investment.fiat] !== 0)) {
-                    investment.oldPrice     = response[investment.tokenSymbol][investment.fiat];
-                    $.get("https://min-api.cryptocompare.com/data/price?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat)
+                investment.currentPrice = response[investment.fiat];
+                // bitcoin api
+                if (investment.tokenSymbol === 'BTC') {
+                    console.log(investment);
+                    $.get( "https://api.coindesk.com/v1/bpi/historical/close.json?start=" + investment.date + "&end=" + investment.date + "&currency=" + investment.fiat)
                         .success(function(response) {
-                            investment.currentPrice = response[investment.fiat];
+                            console.log(response);
+                            investment.oldPrice = JSON.parse(response).bpi[investment.date];
+                            console.log(investment);
+                            paintResults(investment);
                         })
                         .error(function() {
-                            handleError();
-                        }).done(function() {
-                            investment.tokensBought = parseFloat(parseFloat(investment.oldValue) / parseFloat(investment.oldPrice)).toFixed(3);
-                            investment.currentValue = parseFloat(investment.currentPrice * investment.tokensBought).toFixed(2);
-                            investment.percentageGained = parseFloat((investment.currentValue - investment.oldValue) / investment.oldValue).toFixed(2)*100;
-                            paintResults(investment);                        
-                        })
-                    } else {
-                        if (response.Response === 'Error') {
-                            handleError('currency');
-                        } else {
                             handleError('date');
-                        }
-                        
-                    }
-
-
+                        });
+                } else {
+                    // altcoin api
+                    $.get("https://min-api.cryptocompare.com/data/pricehistorical?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat + "&ts=" + timestamp)
+                        .success(function(response) {
+                            if ((response.Response !== 'Error') && (response[investment.tokenSymbol][investment.fiat] !== 0)) {
+                                investment.oldPrice = response[investment.tokenSymbol][investment.fiat];
+                                paintResults(investment);
+                            } else {
+                                if (response.Response === 'Error') {
+                                    handleError('currency');
+                                } else {
+                                    handleError('date');
+                                }
+                            }
+                        })
+                        .error(function(response) {
+                            handleError('date');
+                        });
+                }
             })
-            .error(function(error) {
+            .error(function() {
                 handleError('date');
-            }); 
-    } else {
-        handleError('date');
-    }
-    // finish spinner gif
+            });
+            // finish spinner gif
+        } else {
+            handleError('date');           
+        }
+    
 
     function paintResults(investment) {
+        investment.tokensBought = parseFloat(parseFloat(investment.oldValue) / parseFloat(investment.oldPrice)).toFixed(3);
+        investment.currentValue = parseFloat(investment.currentPrice * investment.tokensBought).toFixed(2);
+        investment.percentageGained = parseFloat((investment.currentValue - investment.oldValue) / investment.oldValue).toFixed(2)*100;
         $("#number-tokens").html(investment.tokensBought);
         $("#old-price").html(investment.oldPrice + " " + investment.fiat + "/" + investment.tokenSymbol);
         $("#token").html(investment.tokenSymbol);
