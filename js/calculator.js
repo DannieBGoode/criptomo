@@ -18,27 +18,37 @@ function calculateEarnings() {
 
         $.get("https://min-api.cryptocompare.com/data/pricehistorical?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat + "&ts=" + timestamp)
             .success(function(response) {
-                investment.oldPrice     = response[investment.tokenSymbol][investment.fiat];
-                $.get("https://min-api.cryptocompare.com/data/price?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat)
-                    .success(function(response) {
-                        investment.currentPrice = response[investment.fiat];
-                    })
-                    .error(function() {
-                        handleError();
-                    }).done(function() {
-                        $("#invest-date").removeClass("input-error");                        
-                        investment.tokensBought = parseFloat(parseFloat(investment.oldValue) / parseFloat(investment.oldPrice)).toFixed(3);
-                        investment.currentValue = parseFloat(investment.currentPrice * investment.tokensBought).toFixed(2);
-                        investment.percentageGained = parseFloat((investment.currentValue - investment.oldValue) / investment.oldValue).toFixed(2)*100;
-                        paintResults(investment);                        
-                    })
+                $(".input-error").removeClass("input-error");
+                if ((response.Response !== 'Error') && (response[investment.tokenSymbol][investment.fiat] !== 0)) {
+                    investment.oldPrice     = response[investment.tokenSymbol][investment.fiat];
+                    $.get("https://min-api.cryptocompare.com/data/price?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat)
+                        .success(function(response) {
+                            investment.currentPrice = response[investment.fiat];
+                        })
+                        .error(function() {
+                            handleError();
+                        }).done(function() {
+                            investment.tokensBought = parseFloat(parseFloat(investment.oldValue) / parseFloat(investment.oldPrice)).toFixed(3);
+                            investment.currentValue = parseFloat(investment.currentPrice * investment.tokensBought).toFixed(2);
+                            investment.percentageGained = parseFloat((investment.currentValue - investment.oldValue) / investment.oldValue).toFixed(2)*100;
+                            paintResults(investment);                        
+                        })
+                    } else {
+                        if (response.Response === 'Error') {
+                            handleError('currency');
+                        } else {
+                            handleError('date');
+                        }
+                        
+                    }
+
 
             })
-            .error(function() {
-                handleError();
+            .error(function(error) {
+                handleError('date');
             }); 
     } else {
-        handleError();
+        handleError('date');
     }
     // finish spinner gif
 
@@ -59,9 +69,13 @@ function calculateEarnings() {
         $("#calculator-results").show();
     }
 
-    function handleError(){
-        $("#invest-date").addClass("input-error");
-        $("#results").hide();
+    function handleError(type){
+        if (type === "currency") {
+            $(".editOption").addClass("input-error");
+        } else {
+            $("#invest-date").addClass("input-error");    
+        }
+        $("#calculator-results").hide();
     }
 }
 
@@ -87,6 +101,34 @@ function updateInputMinDate() {
     }
 
 }
+
+function toggleField(hideObj,showObj) {
+  hideObj.disabled = true;        
+  hideObj.style.display = 'none';
+  showObj.disabled = false;   
+  showObj.style.display = 'inline';
+  showObj.focus();
+}
+
+// enable/disable dropdown with custom option
+$('#invest-currency').change(function() {
+    var selected = $('option:selected', this).attr('class');
+    var optionText = $('.editable').text();
+
+    if(selected === "editable") {
+      $('.editOption').show();
+
+      
+      $('.editOption').keyup(function() {
+          var editText = $('.editOption').val();
+          $('.editable').val(editText);
+          $('.editOption').focus();
+      });
+    } else {
+      $('.editOption').hide();
+      $('.editOption').val('');
+    }
+});
 
 function init() {
     document.getElementById("invest-date").setAttribute("max", Today());
