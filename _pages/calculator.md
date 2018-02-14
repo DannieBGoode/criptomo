@@ -62,5 +62,7 @@ el día:
 
 <button onclick="calculateEarnings()">Calcular</button>
 
+<span> Es posible que no todas las monedas estén soportadas por la API.</span>
+
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js"></script>
