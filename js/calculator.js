@@ -11,12 +11,13 @@ function calculateEarnings() {
         };
 
     if (investment.date) {
-        // start spinner gif
+        loading('on');
         var myDate = investment.date.split("-"),
             newDate = myDate[0] + "/" + myDate[1] + "/" + myDate[2],
             timestamp = Math.floor(new Date(newDate).getTime() / 1000 );
 
         $(".input-error").removeClass("input-error");
+        $(".error").hide();
 
         $.get("https://min-api.cryptocompare.com/data/price?fsym=" + investment.tokenSymbol + "&tsyms=" + investment.fiat)
             .success(function(response) {
@@ -57,7 +58,7 @@ function calculateEarnings() {
             .error(function() {
                 handleError('date');
             });
-            // finish spinner gif
+            loading('off');
         } else {
             handleError('date');           
         }
@@ -86,10 +87,22 @@ function calculateEarnings() {
     function handleError(type){
         if (type === "currency") {
             $(".editOption").addClass("input-error");
+            $(".coin-error").show();
         } else {
-            $("#invest-date").addClass("input-error");    
+            $("#invest-date").addClass("input-error");
+            $(".date-error").show();
         }
         $("#calculator-results").hide();
+    }
+
+    function loading(state) {
+        if (state === 'on') {
+            $(".calculate-button").hide();
+            $(".loader-calculator").show();
+        } else {
+            $(".loader-calculator").hide();
+            $(".calculate-button").show();
+        }
     }
 }
 
