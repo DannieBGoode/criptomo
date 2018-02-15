@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calculadora de beneficios
-description: Calculadora, cuanto dinero podrías haber ganado invirtiendo en Bitcoin u otras criptomonedas a tiempo
+description: Calculadora, calcula cuanto dinero podrías haber ganado invirtiendo en Bitcoin y otras criptomonedas a tiempo.
 banner_image: calculator-2.jpg
 permalink: /calculadora/
 comments: true
