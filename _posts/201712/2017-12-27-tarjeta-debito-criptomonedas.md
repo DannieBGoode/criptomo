@@ -150,7 +150,7 @@ Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluye
 
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+<!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 |                   | TenX                   | Monaco             | Xapo    | Shift | Wirex    | Bitpay | SpectroCoin | Bitwala  |
 |:-----------------:|:----------------------:|:------------------:|:-------:|:-----:|:--------:|:------:|:-----------:|:--------:|
 | Criptos Soportadas| BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |  BTC    |  BTC  |Shapeshift| BTC    |   BTC       |Shapeshift|
@@ -161,7 +161,9 @@ Los precios comentados en el artículo podrían ir cambiando con el tiempo así 
 |Coste Tarj. Virtual|        -               |  -                 |   -     |   -   |  Gratis  | -      |    0.5€     |  2€      |
 |Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | Gratis| 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
 |Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |  -    |    2.5€  |   3€   |   2.75€     |  2.25€   |
-| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      |
+| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      | -->
+
+{% include image_caption.html imageurl="/images/posts/201712/cards-comparison.png" title="Tarjetas de débito crypto comparadas" popup=true %}
 
 Tras el análisis la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
 
