@@ -20,16 +20,31 @@
 }
 .editOption {
     position: relative;
-    right: 117px;
+    right: 47px;
+    bottom: 46px;
     padding-left: 5px;
     width: 95px;
     display: none;
+    float: right;
 }
 .normal-selector {
 	display: inline-block;
+	max-height: 47px;
+	max-width: 142px;
 }
 @media only screen and (max-width: 700px) {
 	#invest-quantity {
 		margin-bottom: 24px;
+	}
+}
+.calculator-block {
+	select {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	@media only screen and (max-width: 700px) {
+		p {
+			text-align: center;
+		}
 	}
 }
