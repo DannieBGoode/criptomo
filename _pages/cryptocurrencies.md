@@ -16,7 +16,7 @@ progress: true
 		        	<h1 class="entry-title">{{page.title}}</h1>
 			    </div>
 			</header>
-			<div id="filters" class="button-group">
+			<div id="filters" class="coinlist-filter">
 				<button data-filter="*">Todas</button>
 				<button data-filter=".storage">Almacenamiento</button>
 				<button data-filter=".dapps">Apps Descentralizadas</button>
@@ -35,10 +35,8 @@ progress: true
 				<button data-filter=".social">Social</button>
 				<button data-filter=".card">Tarjetas de Débito</button>
 				<button data-filter=".web">Web</button>
-
 				<!-- https://isotope.metafizzy.co/filtering.html -->
 			</div>
-
 			<div class="grid">
 				{% for currency in site.data.cryptos %}
 				<div class="coinlist-box item {{ currency.class }}">

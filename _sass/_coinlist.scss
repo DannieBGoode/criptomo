@@ -95,6 +95,37 @@
 	}
 }
 
+.coinlist-filter {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.coinlist-filter button {
+  display: inline-block;
+  /* inline block hack for IE 6&7 */
+  zoom: 1;
+  *display: inline;
+  padding: 2px;
+  margin: 2px;
+  color: white;
+    width: 32%;
+    height: 70px;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: inherit;
+    background-color: #474747;
+    /*word-break: break-all;*/
+}
+
+
 
 @media only screen and (max-width: 480px) {
 	
@@ -154,5 +185,10 @@
 		font-size: 16px;
 		line-height: 1.5;
 	}
+    
+    .coinlist-filter button {
+        width: 48%;
+        padding: 32px 5px 0px 5px;
+    }
 	
 }
