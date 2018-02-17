@@ -14,7 +14,7 @@ var $grid = $('.grid').isotope({
 });
 
 // bind filter button click
-$('#filters').on( 'click', 'button', function() {
+$('#filters').on( 'click', 'a', function() {
   var filterValue = $( this ).attr('data-filter');
   $grid.isotope({ filter: filterValue });
   $(".grid").goTo('slow');
