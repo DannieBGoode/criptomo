@@ -48,6 +48,7 @@ sitemap: true
         </div>
     </div>
     <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
+    <div class="loader calculator-loader-container"></div>
     <div class="calculator-result-container">
         <div id="calculator-results">
             Si hubieras invertido <span id="result-invest"></span> en <span id="result-tokentype1"></span> el día <span id="result-date"></span> hubieras podido comprar a un precio de 
@@ -60,7 +61,7 @@ sitemap: true
             <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
             <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
         </p>
-</div>
+    </div>
 
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>

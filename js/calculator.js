@@ -34,6 +34,9 @@ function calculateEarnings() {
                         })
                         .error(function() {
                             handleError('date');
+                        })
+                        .always(function() {
+                            loading('off');
                         });
                 } else {
                     // altcoin api
@@ -52,13 +55,15 @@ function calculateEarnings() {
                         })
                         .error(function(response) {
                             handleError('date');
+                        })
+                        .always(function() {
+                            loading('off');
                         });
                 }
             })
             .error(function() {
                 handleError('date');
             });
-        loading('off');
     } else {
         handleError('date');           
     }
@@ -101,11 +106,11 @@ function calculateEarnings() {
 
     function loading(state) {
         if (state === 'on') {
-            $(".calculate-button").hide();
-            $(".loader-calculator").show();
+            $(".calculator-result-container").hide();
+            $(".calculator-loader-container").show();
         } else {
-            $(".loader-calculator").hide();
-            $(".calculate-button").show();
+            $(".calculator-loader-container").hide();
+            $(".calculator-result-container").show();
         }
     }
 }
@@ -130,7 +135,6 @@ function updateInputMinDate() {
     if ($("#invest-date").val() < minDate) {
         $("#invest-date").val(minDate);
     }
-
 }
 
 function toggleField(hideObj,showObj) {
