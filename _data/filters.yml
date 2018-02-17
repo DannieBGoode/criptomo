@@ -54,7 +54,7 @@
   image: ram.svg
 
 - name: Publicidad
-  filter: .megaphone
+  filter: .ads
   image: megaphone.svg
 
 - name: Seguridad / Privacidad
@@ -69,6 +69,6 @@
   filter: .card
   image: credit-card.svg
 
-- name: web
-  filter: .Web
+- name: Web
+  filter: .web
   image: internet.svg
