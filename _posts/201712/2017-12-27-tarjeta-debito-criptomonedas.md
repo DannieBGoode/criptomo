@@ -144,13 +144,13 @@ Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmen
 
 Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y guardarlos durante un cierto periodo de tiempo (6 meses).
 
-Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. **Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
+Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. **Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
 ### Conclusión
 
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+<!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 |                   | TenX                   | Monaco             | Xapo    | Shift | Wirex    | Bitpay | SpectroCoin | Bitwala  |
 |:-----------------:|:----------------------:|:------------------:|:-------:|:-----:|:--------:|:------:|:-----------:|:--------:|
 | Criptos Soportadas| BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |  BTC    |  BTC  |Shapeshift| BTC    |   BTC       |Shapeshift|
@@ -161,7 +161,9 @@ Los precios comentados en el artículo podrían ir cambiando con el tiempo así 
 |Coste Tarj. Virtual|        -               |  -                 |   -     |   -   |  Gratis  | -      |    0.5€     |  2€      |
 |Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | Gratis| 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
 |Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |  -    |    2.5€  |   3€   |   2.75€     |  2.25€   |
-| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      |
+| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      | -->
+
+{% include image_caption.html imageurl="/images/posts/201712/cards-comparison.png" title="Tarjetas de débito crypto comparadas" popup=true %}
 
 Tras el análisis la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
 
@@ -171,7 +173,7 @@ Existe otra tarjeta de crédito llamada [TokenCard](https://tokencard.io/) que t
 
 
 
-**UPDATE 05/01/2017: Las visas de las siguientes tarjetas han sido desactivadas temporalmente después de que su proveedor de tarjetas interrumpiera repentinamente su servicio: Bitwala, TenX, Xapo, Wirex, Bitpay dejando únicamente operativa a Monaco.** Por lo que parece Monaco está llevando más allá su seriedad a la hora de gestionar sus tarjetas de débito.
+**UPDATE 05/01/2017: Las visas de las siguientes tarjetas han sido desactivadas temporalmente después de que su proveedor de tarjetas interrumpiera repentinamente su servicio: Bitwala, TenX, Xapo, Wirex, Bitpay dejando únicamente "operativa" a Monaco.** No obstante como Monaco no ha salido todavía, sigue sin ser una opción válida.
 
 {% include tweet.html href="https://twitter.com/cryptomanran/status/949294877979766784?ref_src=twsrc%5Etfw" %}
 

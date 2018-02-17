@@ -14,6 +14,11 @@ https://www.technologyreview.com/s/610055/telegrams-ico-give-us-2-billion-and-we
 
 - use medium font
 
+- calculadora:
+if you had invested X $ on month Y of year Z you would have XX $$
+https://www.coindesk.com/api/ -> https://api.coindesk.com/v1/bpi/currentprice.json && https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-02-13&end=2018-02-02
+https://tools.bitcoin.com/
+
 - segwit https://segwit.org/my-vision-for-segwit-and-lightning-networks-on-litecoin-and-bitcoin-cf95a7ab656b
 https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4
 https://segwit.org/understanding-segregated-witness-905cc712c692
@@ -37,6 +42,9 @@ https://www.youtube.com/watch?v=khtCG_15bsY
 https://www.youtube.com/watch?v=EGpayzaV2tw
 https://makerdao.com/
 http://www.tetherreport.com/
+
+- iota misconceptions
+https://medium.com/@mistywind/iota-fud-answered-by-a-non-techie-enthusiast-2312325fddb6
 
 -https://steemit.com/economics/@freeforever/roger-ver-just-tweeted-a-list-of-important-economic-books-he-have-read-during-the-years
 

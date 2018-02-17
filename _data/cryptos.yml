@@ -95,7 +95,8 @@
   icon: xrb-64.png
   website: https://raiblocks.net/
   class: currency
-  description: Anteriormente  Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratis. Es fácilmente escalable.
+  description: Anteriormente Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratuitas. Es fácilmente escalable.
+  article: /que-es-nano/
   
 - name: Monero (XMR)
   icon: xmr-64.png
@@ -445,7 +446,7 @@
   description: Clon de ZCoin con recompensas monetarias.
 
 - name: Aeternity (AE)
-  icon: aeternity.jpg
+  icon: ae-64.png
   website: https://www.aeternity.com/
   class: interblockchain
   description: Plataforma de contratos inteligentes que utiliza el Blockchain sólo para resolver disputas.
@@ -571,13 +572,13 @@
   description: Exchange con funciones adicionales de monitorización de mercado y análisis.
 
 - name: VeChain (VEN)
-  icon: vechain.png
+  icon: ven-64.png
   website: https://www.vechain.com/
   class: iot business
   description: Sistema de manejo de inventario mediante blockchain.
 
 - name: Nexus (NXS)
-  icon: nexus.jpg
+  icon: nxs-64.png
   website: http://www.nexusearth.com/
   class: currency
   description: Criptomoneda con blockchain permanente al ser transmitido mediante satelite. De esta manera aunque no hubiera internet seguiría funcionando.
@@ -625,7 +626,7 @@
   description: Criptomoneda con privacidad opcional.
 
 - name: PotCoin (POT)
-  icon: potcoin.png
+  icon: pot-64.png
   website: http://www.potcoin.com/
   class: currency
   description: Plataforma de pagos para la industria de la marihuana.
@@ -637,7 +638,7 @@
   description: Exchange de publicidad online.
 
 - name: Ubiq (UBQ)
-  icon: ubiq.png
+  icon: ubq-64.png
   website: https://ubiqsmart.com/
   class: computing dapps
   description: Plataforma de smart contracts donde todos los dispositivos de una red actúan como un único super-ordenador.

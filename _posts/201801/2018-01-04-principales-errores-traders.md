@@ -43,7 +43,7 @@ La mayoría de las criptomonedas están sujetas a *pump and dumps* donde gente c
 
 He decidido dejar este punto para el final pero sin duda es el más importante y complejo de entender.
 
-Resulta muy intuitivo medir los beneficios de nuestras inversiones en criptomonedas en dólares o euros porque es la moneda que utilizamos, principalmente debido a la gran volatilidad que tiene el Bitcoin. Pero la realidad es que **debemos medir estos beneficios siempre en BTCs, concretamente en satoshis que es la fracción más pequeña de Bitcoin que se puede manejar**. Recordemos que un millón de satoshis son un BTC.
+Resulta muy intuitivo medir los beneficios de nuestras inversiones en criptomonedas en dólares o euros porque es la moneda que utilizamos, principalmente debido a la gran volatilidad que tiene el Bitcoin. Pero la realidad es que **debemos medir estos beneficios siempre en BTCs, concretamente en satoshis que es la fracción más pequeña de Bitcoin que se puede manejar**. Recordemos que cien millones de satoshis son un BTC.
 
 > Si algo vale BTC 0.00027200 se dice que su valor es de 27200 satoshis.
 

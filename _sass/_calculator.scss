@@ -1,0 +1,53 @@
+#calculator-results {
+	display: none;
+	span {
+		font-weight: bold;
+		display: unset;
+	}
+}
+#invest-quantity {
+	width: 100px;
+}
+.gained-percentage-positive {
+	color: green;
+}
+.gained-percentage-negative {
+	color: red;
+}
+.input-error {
+	border-color: red;
+	color: red;
+}
+.editOption {
+    position: relative;
+    right: 47px;
+    bottom: 46px;
+    padding-left: 5px;
+    width: 95px;
+    display: none;
+    float: right;
+}
+.normal-selector {
+	display: inline-block;
+	max-height: 47px;
+	max-width: 142px;
+}
+@media only screen and (max-width: 700px) {
+	#invest-quantity {
+		margin-bottom: 24px;
+	}
+}
+.calculator-block {
+	select {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	@media only screen and (max-width: 700px) {
+		p {
+			text-align: center;
+		}
+	}
+}
+.calculate-button {
+	margin-bottom: 15px;
+}

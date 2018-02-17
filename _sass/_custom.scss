@@ -122,3 +122,20 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
   background-color: $picton-blue;
 }
+
+input:focus, select:focus {
+	border-color: $picton-blue;
+}
+.loader {
+	background: url("../images/general/loading.gif");
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.error {
+	display: none;
+	color: red;
+}

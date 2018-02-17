@@ -3,8 +3,6 @@ layout: post
 title:  Películas Recomendadas
 description: Películas y documentales recomendados de criptomonedas, Bitcoin, economía, stock brokers, inversión, corrupción y finanzas.
 banner_image: 201802/rise-bitcoin.jpg
-rating: 5
-totalVotes: 4
 tags: [altcoins]
 ---
 

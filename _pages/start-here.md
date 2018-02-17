@@ -53,6 +53,7 @@ Aprendamos a invertir mejor
 * [Litecoin](/que-es-litecoin/)
 * [Aragon](/que-es-aragon/)
 * [Oyster Protocol](/que-es-oyster)
+* [Nano](/que-es-nano/)
 * Qué es Z-Cash (próximamente)
 * Qué es Dash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
