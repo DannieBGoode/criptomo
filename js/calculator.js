@@ -58,20 +58,24 @@ function calculateEarnings() {
             .error(function() {
                 handleError('date');
             });
-            loading('off');
-        } else {
-            handleError('date');           
-        }
+        loading('off');
+    } else {
+        handleError('date');           
+    }
     
-
     function paintResults(investment) {
         investment.tokensBought = parseFloat(parseFloat(investment.oldValue) / parseFloat(investment.oldPrice)).toFixed(3);
         investment.currentValue = parseFloat(investment.currentPrice * investment.tokensBought).toFixed(2);
         investment.percentageGained = parseFloat((investment.currentValue - investment.oldValue) / investment.oldValue).toFixed(2)*100;
-        $("#number-tokens").html(investment.tokensBought);
-        $("#old-price").html(investment.oldPrice + " " + investment.fiat + "/" + investment.tokenSymbol);
-        $("#token").html(investment.tokenSymbol);
-        $("#valued-amount").html(investment.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " " + investment.fiat);
+        $("#result-tokencount").html(investment.tokensBought);
+        $("#result-old-price").html(investment.oldPrice + " " + investment.fiat + "/" + investment.tokenSymbol);
+        $("#result-tokentype1").html(investment.tokenSymbol);
+        $("#result-tokentype2").html(investment.tokenSymbol);
+        $("#result-currentvalue").html(investment.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " " + investment.fiat);
+        
+        $("#result-date").html(investment.date);
+        $("#result-invest").html(investment.oldValue + " " + $("#invest-fiat").val());
+        
         
         let change = '';
         $("#gained-percentage").html(investment.percentageGained +  "%");
@@ -86,7 +90,7 @@ function calculateEarnings() {
 
     function handleError(type){
         if (type === "currency") {
-            $(".editOption").addClass("input-error");
+            $(".calculator-otramoneda").addClass("input-error");
             $(".coin-error").show();
         } else {
             $("#invest-date").addClass("input-error");
@@ -143,17 +147,17 @@ $('#invest-currency').change(function() {
     var optionText = $('.editable').text();
 
     if(selected === "editable") {
-      $('.editOption').show();
+      $('.calculator-otramoneda').show();
 
       
-      $('.editOption').keyup(function() {
-          var editText = $('.editOption').val();
+      $('.calculator-otramoneda').keyup(function() {
+          var editText = $('.calculator-otramoneda').val();
           $('.editable').val(editText);
-          $('.editOption').focus();
+          $('.calculator-otramoneda').focus();
       });
     } else {
-      $('.editOption').hide();
-      $('.editOption').val('');
+      $('.calculator-otramoneda').hide();
+      $('.calculator-otramoneda').val('');
     }
 });
 

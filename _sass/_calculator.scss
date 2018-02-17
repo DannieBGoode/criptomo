@@ -5,49 +5,80 @@
 		display: unset;
 	}
 }
-#invest-quantity {
-	width: 100px;
-}
+
 .gained-percentage-positive {
 	color: green;
 }
+
 .gained-percentage-negative {
 	color: red;
 }
+
 .input-error {
 	border-color: red;
 	color: red;
 }
-.editOption {
-    position: relative;
-    right: 47px;
-    bottom: 46px;
-    padding-left: 5px;
-    width: 95px;
+
+.calculator-otramoneda {
     display: none;
-    float: right;
 }
-.normal-selector {
-	display: inline-block;
-	max-height: 47px;
-	max-width: 142px;
+
+.calculator-form-row:after {
+    padding: 0;
+    margin: 0;
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 5px;
 }
-@media only screen and (max-width: 700px) {
-	#invest-quantity {
-		margin-bottom: 24px;
-	}
+
+.calculator-col-start {
+    float: left;
+    width: 30%;
 }
-.calculator-block {
-	select {
-		margin-right: 15px;
-		margin-left: 15px;
-	}
-	@media only screen and (max-width: 700px) {
-		p {
-			text-align: center;
-		}
-	}
+
+.calculator-col-end {
+    float: left;
+    width: 70%;
 }
-.calculate-button {
-	margin-bottom: 15px;
+
+.calculator-otramoneda span {
+    font-size: 80%;
+    font-style: italic;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.calculator-result-container p, .calculator-result-container span {
+    padding: 0;
+    margin: 0;
+}
+
+.calculator-result-container {
+    padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+    
+    .calculator-col-start {
+        width: 100%;
+    }
+    
+    .calculator-col-end {
+        width: 100%;
+    }
+    
+    .calculator-block select, .calculator-block input, .calculator-block button {
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    .calculator-block label {
+        margin-top: 15px;
+    }
+    
+    .calculator-form-row:after {
+        padding-bottom: 15px;
+    }
+    
 }
