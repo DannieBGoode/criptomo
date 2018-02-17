@@ -1,0 +1,73 @@
+# cryptocurrencies filters.
+
+- name: Todas
+  filter: "*"
+  image: undo.svg
+
+- name: Almacenamiento
+  filter: .storage
+  image: folder.svg
+
+- name: Apps Descentralizadas
+  filter: .dapps
+  image: smartphone.svg
+
+- name: Bancos y Finanzas
+  filter: .finance
+  image: bank.svg
+
+- name: Conexión Blockchains
+  filter: .interblockchain
+  image: unlink.svg
+
+- name: Crowdfunding
+  filter: .crowdfunding
+  image: teamwork.svg
+
+- name: Dinero / Pagos
+  filter: .currency
+  image: wallet.svg
+
+- name: Empresarial
+  filter: .business
+  image: briefcase.svg
+
+- name: Exchanges
+  filter: .exchange
+  image: exchange.svg
+
+- name: Gaming / Gambling
+  filter: .gaming
+  image: clover.svg
+
+- name: Internet of Things
+  filter: .iot
+  image: wifi.svg
+
+- name: Marketplace
+  filter: .marketplace
+  image: shopping-cart.svg
+
+- name: Procesamiento de Datos
+  filter: .computing
+  image: ram.svg
+
+- name: Publicidad
+  filter: .megaphone
+  image: megaphone.svg
+
+- name: Seguridad / Privacidad<
+  filter: .private
+  image: shield.svg
+
+- name: Social
+  filter: .social
+  image: users.svg
+
+- name: Tarjetas de Débito
+  filter: .card
+  image: credit-card.svg
+
+- name: web
+  filter: .Web
+  image: internet.svg

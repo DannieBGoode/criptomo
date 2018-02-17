@@ -16,81 +16,16 @@ progress: true
 		        	<h1 class="entry-title">{{page.title}}</h1>
 			    </div>
 			</header>
-			<div id="filters" class="coinlist-filter">
-                <a data-filter="*" href="#" style="background-color: #585858;">
-                    <div style="background-image: url(/images/general/coin-filters/undo.svg);"></div>
-					<span>Todas</span>
+
+            <div id="filters" class="coinlist-filter">
+            {% for filter in site.data.filters %}
+                <a data-filter="{{ filter.filter }}" href="#">
+                    <div style="background-image: url(/images/general/coin-filters/{{ filter.image }});"></div>
+                    <span>{{ filter.name }}</span>
                  </a>
-                <a data-filter=".storage" href="#">
-                    <div style="background-image: url(/images/general/coin-filters/folder.svg);"></div>
-					<span>Almacenamiento</span>
-                </a>
-                <a data-filter=".dapps" href="#">
-                    <div style="background-image: url(/images/general/coin-filters/smartphone.svg);"></div>
-					<span>Apps Descentralizadas</span>
-                </a>
-                <a data-filter=".finance" href="#">
-                    <div style="background-image: url(/images/general/coin-filters/bank.svg);"></div>
-					<span>Bancos y Finanzas</span>
-                </a>
-                <a data-filter=".interblockchain" href="#">
-                    <div style="background-image: url(/images/general/coin-filters/unlink.svg);"></div>
-					<span>Conexión Blockchains</span>
-                </a>
-                <a data-filter=".crowdfunding" href="#">
-                    <div style="background-image: url(/images/general/coin-filters/teamwork.svg);"></div>
-					<span>Crowdfunding</span>
-                </a>
-                <a data-filter=".currency"  href="#">
-                    <div style="background-image: url(/images/general/coin-filters/wallet.svg);"></div>
-					<span>Dinero / Pagos</span>                  
-                </a>                                             
-                <a data-filter=".business"  href="#">            
-                    <div style="background-image: url(/images/general/coin-filters/briefcase.svg);"></div>
-					<span>Empresarial</span>                      
-                </a>                                              
-                <a data-filter=".exchanges"  href="#">            
-                    <div style="background-image: url(/images/general/coin-filters/exchange.svg);"></div>
-					<span>Exchanges</span>                     
-                </a>                                           
-                <a data-filter=".gaming"  href="#">            
-                    <div style="background-image: url(/images/general/coin-filters/clover.svg);"></div>
-					<span>Gaming / Gambling</span>                
-                </a>                                             
-                <a data-filter=".iot"  href="#">                 
-                    <div style="background-image: url(/images/general/coin-filters/wifi.svg);"></div>
-					<span>Internet of Things</span>               
-                </a>                                              
-                <a data-filter=".marketplace"  href="#">          
-                    <div style="background-image: url(/images/general/coin-filters/shopping-cart.svg);"></div>
-					<span>Marketplace</span>                     
-                </a>                                             
-                <a data-filter=".computing"  href="#">           
-                    <div style="background-image: url(/images/general/coin-filters/ram.svg);"></div>
-					<span>Procesamiento de datos</span>              
-                </a>                                                 
-                <a data-filter=".ads"  href="#">                     
-                    <div style="background-image: url(/images/general/coin-filters/megaphone.svg);"></div>
-					<span>Publicidad</span>                           
-                </a>
-                <a data-filter=".private"  href="#">
-                    <div style="background-image: url(/images/general/coin-filters/shield.svg);"></div>
-					<span>Seguridad / Privacidad</span>
-                </a>
-                <a data-filter=".social"  href="#">
-                    <div style="background-image: url(/images/general/coin-filters/users.svg);"></div>
-					<span>Social</span>
-                </a>
-                <a data-filter=".card"  href="#">
-                    <div style="background-image: url(/images/general/coin-filters/credit-card.svg);"></div>
-					<span>Tarjetas de Débito</span>
-                </a>
-                <a data-filter=".web"  href="#">
-                    <div style="background-image: url(/images/general/coin-filters/internet.svg);"></div>
-					<span>Web</span>
-                </a>
-				<!-- https://isotope.metafizzy.co/filtering.html -->
-			</div>
+            {% endfor %}
+            </div>
+
 			<div class="grid">
 				{% for currency in site.data.cryptos %}
 				<div class="coinlist-box item {{ currency.class }}">
