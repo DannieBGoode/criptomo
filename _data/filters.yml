@@ -3,6 +3,7 @@
 - name: Todas
   filter: "*"
   image: undo.svg
+  class: filter-active
 
 - name: Almacenamiento
   filter: .storage
@@ -56,7 +57,7 @@
   filter: .megaphone
   image: megaphone.svg
 
-- name: Seguridad / Privacidad<
+- name: Seguridad / Privacidad
   filter: .private
   image: shield.svg
 

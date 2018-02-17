@@ -20,11 +20,9 @@ $('#filters').on( 'click', 'a', function() {
   $(".grid").goTo('slow');
 });
 
-// change is-checked class on buttons
-// $('.button-group').each( function( i, buttonGroup ) {
-//   var $buttonGroup = $( buttonGroup );
-//   $buttonGroup.on( 'click', 'button', function() {
-//     $buttonGroup.find('.is-checked').removeClass('is-checked');
-//     $( this ).addClass('is-checked');
-//   });
-// });
+// add active class when clicking on filter
+var setActiveFilter = function(element) {
+  $(".filter-active").removeClass("filter-active");
+  $(element).addClass("filter-active");
+
+} 
