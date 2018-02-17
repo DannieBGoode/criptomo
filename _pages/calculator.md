@@ -35,8 +35,8 @@ sitemap: true
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
-            <input class="calculator-otramoneda"/>
-            <div class="calculator-otramoneda"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
+            <input class="calculator-othercoins"/>
+            <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
         </div>
     </div>
     <div class="calculator-form-row">

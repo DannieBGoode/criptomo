@@ -90,7 +90,7 @@ function calculateEarnings() {
 
     function handleError(type){
         if (type === "currency") {
-            $(".calculator-otramoneda").addClass("input-error");
+            $(".calculator-othercoins").addClass("input-error");
             $(".coin-error").show();
         } else {
             $("#invest-date").addClass("input-error");
@@ -147,17 +147,17 @@ $('#invest-currency').change(function() {
     var optionText = $('.editable').text();
 
     if(selected === "editable") {
-      $('.calculator-otramoneda').show();
+      $('.calculator-othercoins').show();
 
       
-      $('.calculator-otramoneda').keyup(function() {
-          var editText = $('.calculator-otramoneda').val();
+      $('.calculator-othercoins').keyup(function() {
+          var editText = $('.calculator-othercoins').val();
           $('.editable').val(editText);
-          $('.calculator-otramoneda').focus();
+          $('.calculator-othercoins').focus();
       });
     } else {
-      $('.calculator-otramoneda').hide();
-      $('.calculator-otramoneda').val('');
+      $('.calculator-othercoins').hide();
+      $('.calculator-othercoins').val('');
     }
 });
 
