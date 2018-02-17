@@ -50,14 +50,14 @@
 - name: Ripple (XRP)
   icon: xrp-64.png
   website: https://ripple.com/
-  class: banks
+  class: finance
   description: Un sistema de pagos para los bancos y otros proveedores de pagos. Diseñado para mover grandes cantidades de dinero de manera rápida y eficiente.
   article: /que-es-ripple/
 
 - name: Stellar Lumens (XLM)
   icon: xlm-64.png
   website: https://www.stellar.org/
-  class: banks
+  class: finance
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
 
 - name: EOS (EOS)
@@ -157,7 +157,7 @@
 - name: BitConnect (BCC)
   icon: bcc-64.png
   website: https://bitconnectcoin.co/
-  class: finance
+  class: gaming
   description: Ya extinta, plataforma que conseguía beneficios diarios a los usuarios por prestar su dinero.
 
 - name: Waves (WAVES)
@@ -248,7 +248,7 @@
 - name: MaidSafeCoin (MAID)
   icon: maidsafecoin.png
   website: http://maidsafe.net/
-  class: storage
+  class: storage computing
   description: Alquiler de almacenamiento distribuido. Dropbox descentralizado.
 
 - name: Siacoin (SC)
@@ -437,7 +437,7 @@
   icon: zcoin.png
   website: https://zcoin.io/
   class: private currency
-  description: Moneda para transacciones privada que permite auditorías por la comunidad.
+  description: Moneda para transacciones privadas que permite auditorías por la comunidad.
 
 - name: SmartCash (SMART)
   icon: smartcash.png
@@ -640,7 +640,7 @@
 - name: Ubiq (UBQ)
   icon: ubq-64.png
   website: https://ubiqsmart.com/
-  class: dapps
+  class: computing dapps
   description: Plataforma de smart contracts donde todos los dispositivos de una red actúan como un único super-ordenador.
 
 - name: ATMChain (ATM)
