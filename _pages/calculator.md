@@ -14,7 +14,7 @@ sitemap: true
             <label>Inversión</label>
         </div>
         <div class="calculator-col-end">
-            <input id="invest-quantity" type="number" value="1000" autofocus>
+            <input id="invest-quantity" type="number" value="1000">
             <select id="invest-fiat">
                 <option>EUR</option>
                 <option>USD</option>
@@ -35,7 +35,7 @@ sitemap: true
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
-            <input class="calculator-othercoins"/>
+            <input class="calculator-othercoins" autofocus />
             <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
         </div>
     </div>

@@ -124,6 +124,7 @@ progress::-moz-progress-bar {
 }
 
 input:focus, select:focus {
+	outline: none;
 	border-color: $picton-blue;
 }
 .loader {

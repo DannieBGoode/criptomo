@@ -137,31 +137,22 @@ function updateInputMinDate() {
     }
 }
 
-function toggleField(hideObj,showObj) {
-  hideObj.disabled = true;        
-  hideObj.style.display = 'none';
-  showObj.disabled = false;   
-  showObj.style.display = 'inline';
-  showObj.focus();
-}
-
 // enable/disable dropdown with custom option
 $('#invest-currency').change(function() {
-    var selected = $('option:selected', this).attr('class');
-    var optionText = $('.editable').text();
+    var selected = $("option:selected", this).attr("class");
+    var optionText = $(".editable").text();
 
     if(selected === "editable") {
-      $('.calculator-othercoins').show();
-
+      $(".calculator-othercoins").show();
       
       $('.calculator-othercoins').keyup(function() {
-          var editText = $('.calculator-othercoins').val();
-          $('.editable').val(editText);
-          $('.calculator-othercoins').focus();
+          var editText = $(".calculator-othercoins").val();
+          $(".editable").val(editText);
+          $(".calculator-othercoins").focus();
       });
     } else {
-      $('.calculator-othercoins').hide();
-      $('.calculator-othercoins').val('');
+      $(".calculator-othercoins").hide();
+      $(".calculator-othercoins").val('');
     }
 });
 
