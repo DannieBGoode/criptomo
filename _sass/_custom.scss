@@ -124,16 +124,19 @@ progress::-moz-progress-bar {
 }
 
 input:focus, select:focus {
+	outline: none;
 	border-color: $picton-blue;
 }
 .loader {
-	background: url("../images/general/loading.gif");
+	background: url("/images/general/loading.gif");
 	background-size: 100px 100px;
 	height: 100px;
 	width: 100px;
 	display: none;
 	margin-left: auto;
 	margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .error {
 	display: none;

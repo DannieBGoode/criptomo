@@ -34,6 +34,9 @@ function calculateEarnings() {
                         })
                         .error(function() {
                             handleError('date');
+                        })
+                        .always(function() {
+                            loading('off');
                         });
                 } else {
                     // altcoin api
@@ -52,26 +55,32 @@ function calculateEarnings() {
                         })
                         .error(function(response) {
                             handleError('date');
+                        })
+                        .always(function() {
+                            loading('off');
                         });
                 }
             })
             .error(function() {
                 handleError('date');
             });
-            loading('off');
-        } else {
-            handleError('date');           
-        }
+    } else {
+        handleError('date');           
+    }
     
-
     function paintResults(investment) {
         investment.tokensBought = parseFloat(parseFloat(investment.oldValue) / parseFloat(investment.oldPrice)).toFixed(3);
         investment.currentValue = parseFloat(investment.currentPrice * investment.tokensBought).toFixed(2);
         investment.percentageGained = parseFloat((investment.currentValue - investment.oldValue) / investment.oldValue).toFixed(2)*100;
-        $("#number-tokens").html(investment.tokensBought);
-        $("#old-price").html(investment.oldPrice + " " + investment.fiat + "/" + investment.tokenSymbol);
-        $("#token").html(investment.tokenSymbol);
-        $("#valued-amount").html(investment.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " " + investment.fiat);
+        $("#result-tokencount").html(investment.tokensBought);
+        $("#result-old-price").html(investment.oldPrice + " " + investment.fiat + "/" + investment.tokenSymbol);
+        $("#result-tokentype1").html(investment.tokenSymbol);
+        $("#result-tokentype2").html(investment.tokenSymbol);
+        $("#result-currentvalue").html(investment.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " " + investment.fiat);
+        
+        $("#result-date").html(investment.date);
+        $("#result-invest").html(investment.oldValue + " " + $("#invest-fiat").val());
+        
         
         let change = '';
         $("#gained-percentage").html(investment.percentageGained +  "%");
@@ -86,7 +95,7 @@ function calculateEarnings() {
 
     function handleError(type){
         if (type === "currency") {
-            $(".editOption").addClass("input-error");
+            $(".calculator-othercoins").addClass("input-error");
             $(".coin-error").show();
         } else {
             $("#invest-date").addClass("input-error");
@@ -97,11 +106,11 @@ function calculateEarnings() {
 
     function loading(state) {
         if (state === 'on') {
-            $(".calculate-button").hide();
-            $(".loader-calculator").show();
+            $(".calculator-result-container").hide();
+            $(".calculator-loader-container").show();
         } else {
-            $(".loader-calculator").hide();
-            $(".calculate-button").show();
+            $(".calculator-loader-container").hide();
+            $(".calculator-result-container").show();
         }
     }
 }
@@ -126,34 +135,24 @@ function updateInputMinDate() {
     if ($("#invest-date").val() < minDate) {
         $("#invest-date").val(minDate);
     }
-
-}
-
-function toggleField(hideObj,showObj) {
-  hideObj.disabled = true;        
-  hideObj.style.display = 'none';
-  showObj.disabled = false;   
-  showObj.style.display = 'inline';
-  showObj.focus();
 }
 
 // enable/disable dropdown with custom option
 $('#invest-currency').change(function() {
-    var selected = $('option:selected', this).attr('class');
-    var optionText = $('.editable').text();
+    var selected = $("option:selected", this).attr("class");
+    var optionText = $(".editable").text();
 
     if(selected === "editable") {
-      $('.editOption').show();
-
+      $(".calculator-othercoins").show();
       
-      $('.editOption').keyup(function() {
-          var editText = $('.editOption').val();
-          $('.editable').val(editText);
-          $('.editOption').focus();
+      $('.calculator-othercoins').keyup(function() {
+          var editText = $(".calculator-othercoins").val();
+          $(".editable").val(editText);
+          $(".calculator-othercoins").focus();
       });
     } else {
-      $('.editOption').hide();
-      $('.editOption').val('');
+      $(".calculator-othercoins").hide();
+      $(".calculator-othercoins").val('');
     }
 });
 
