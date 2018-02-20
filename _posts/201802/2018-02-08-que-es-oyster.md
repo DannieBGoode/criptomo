@@ -135,6 +135,22 @@ Aunque el protocolo está todavía en un fase muy temprana, es fácil imaginar s
 
 Resulta obvio que una vez se lance la plataforma, una de las primeras aplicaciones que deberíamos ver es algo parecido a la app de escritorio de Dropbox, donde podemos modificar libremente ficheros y se sincronizan con la web. Será necesario explicar a los usuarios que aunque hayan pagado por 64GB/año, debido al funcionamiento del Tangle, sus modificaciones también cuentan de cara a ese límite, puesto que en realidad, tanto el fichero viejo como el nuevo convivirán en la red, lo cual va en contra de la concepción que tiene el mercado hoy en día. Realizar una aplicación que contenga el conjunto de todos los handlers de todos los ficheros de un usuario será otro reto que el equipo todavía tiene que explicar, puesto que hacer esto sin que se pierda la descentralización de la que tanto alardean no será fácil.
 
+### SHELL
+
+El equipo de Oyster ha anunciado una nueva moneda denominada SHELL, de la cual harán airdrop 1:1 a todos los wallets que contengan PRL, es decir, los usuarios que almacenen sus tokens en wallets recibirán un SHL por cada PRL que poesan.
+
+SHL será utilizado para pagar conectividad y operaciones de aplicaciones descentralizadas en la red de Oyster, y a diferencia de PRL, no estará fijado a un peg, por lo que su valor no estará acotado pero será vulnerable a las fluctuaciones de precio. En un futuro se podrían utilizar SHLs apra acceder a páginas web descentralizadas o esquivar totalmente a las operadoras de telecomunicaciones.
+
+{% include image_caption.html imageurl="/images/posts/201802/shell.png" title="Shell Token" popup=true class="small-banner" %}
+
+Algunos de los potenciales casos de uso sugeridos serían:
+
+* Un usuario quiere llamar a un amigo de una manera descentralizada y segura. Su dispositivo móvil buscaría conexiones P2P (por Bluetooth y Wifi) con otros teléfonos que participen en la red de Oyster y se realiza la llamada esquivando a las operadoras. SHL se usaría para pagar la conexión por segundos de uso en lugar de pagar a final de mes a la operadora. Las llamadas no podrían ser bloqueadas, ni intervenidas o traceadas. Obviamente para que esto pueda ocurrir se necesitaría una red lo suficientemente grande de usuarios que participen en la red de Oyster.
+
+* Oyster migra su chat de Telegram/Slack a una Dapp de chat. El equipo de Oyster paga a la red en SHL y PRL.
+
+* Un usuario desea acceder a contenido bloqueado por la operadora evitando ser detectado. Su ordenador se conectaría directamente a la red de Oyster por conexiones P2P.
+
 ## Conclusión
 
 PRL me resulta una de las monedas más interesantes del momento. El hecho de tener una moneda que afiance su valor en algo real como es el precio de almacenamiento es un experimento social que puede marcar la historia de las criptomonedas.
