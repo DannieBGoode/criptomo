@@ -25,6 +25,7 @@
   website: https://www.dash.org/
   class: currency
   description: Dinero digital diseñado para ser rápido, seguro y con privacidad adicional.
+  article: /que-es-dash/
 
 - name: Cardano (ADA)
   icon: ada-64.png
