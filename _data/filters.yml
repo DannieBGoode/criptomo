@@ -33,13 +33,13 @@
   filter: .business
   image: briefcase.svg
 
+- name: Entretenimiento
+  filter: .gaming
+  image: clover.svg
+
 - name: Exchanges
   filter: .exchange
   image: exchange.svg
-
-- name: Gaming / Gambling
-  filter: .gaming
-  image: clover.svg
 
 - name: Internet of Things
   filter: .iot

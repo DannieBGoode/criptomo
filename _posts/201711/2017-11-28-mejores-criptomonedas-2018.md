@@ -53,6 +53,8 @@ Teneis una guía más completa en [Qué es Bitcoin Cash](/que-es-bitcoin-cash).
 
 Dash ha resuelto mucho de los problemas de Bitcoin acelerando las transacciones y rebajado los costes. La particularidad que tiene es que una parte de la recompensa de cada bloque minado, en lugar de ir al minero integra como en las demás monedas, van a una cuenta distribuida que se usa para financiar al equipo de desarrollo en la dirección en la que todos los stakeholders (lease, poseedores de la moneda) voten.
 
+Teneis una guía más completa en [Qué es Ethereum](/que-es-dash).
+
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/dash/#markets)
 
 ## Cardano
