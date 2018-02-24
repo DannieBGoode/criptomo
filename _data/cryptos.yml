@@ -322,7 +322,7 @@
   description: Plataforma descentralizada de publicidad online utilizada por el navegador Brave.
 
 - name: MonaCoin (MONA)
-  icon: monacoin.png
+  icon: mona-64.png
   website: http://monacoin.org/
   class: currency
   description: Moneda japonesa basada en un meme para microtransacciones. Similar a Dogecoin.
@@ -370,7 +370,7 @@
   description: Permite creación de fondos de inversión basados en criptomonedas.
 
 - name: Syscoin (SYS)
-  icon: syscoin.png
+  icon: sys-64.png
   website: http://syscoin.org/
   class: marketplace
   description: Marketplace descentralizado.
@@ -400,7 +400,7 @@
   description: Plataforma de comercio de electricidad para viviendas con paneles solares u otros mecanismos de abastecimiento.
 
 - name: Raiden (RDN)
-  icon: raiden.png
+  icon: rdn-64.png
   website: https://raiden.network/
   description: Tecnología que pretende incrementar la velocidad de la red de Ethereum.
 
@@ -417,7 +417,7 @@
   description: Moneda del exchange de Kucoin, se puede utilizar para pagar tasas de compra-venta de otras monedas en Kucoin.
 
 - name: NXT (NXT)
-  icon: nxt.png
+  icon: nxt-64.png
   website: https://nxtplatform.org/
   class: exchange marketplace
   description: Plataforma que permite intercambio de bienes digitales, marketplaces y un sistema de votación para la comunidad.
@@ -459,19 +459,19 @@
   description: Casino descentralizado.
 
 - name: Bytom (BTM)
-  icon: bytom.png
+  icon: btm-64.png
   website: http://bytom.io/
   class: interblockchain
   description: Plataforma para digitalizar documentos legales.
 
 - name: DigiByte (DGB)
-  icon: digibyte.jpg
+  icon: dgb-64.png
   website: http://www.digibyte.io/
   class: storage
   description: Plataforma para almacenar información directamente en el blockchain de manera permanente.
 
 - name: Gnosis (GNO)
-  icon: gnosis.png
+  icon: gno-64.png
   website: https://gnosis.pm/
   class: gaming
   description: Mercado de predicciones descentralizado.
@@ -501,7 +501,7 @@
   description: Exchange de intercambio de fiat a criptomonedas.
 
 - name: Ethos (ETHOS)
-  icon: ethos.png
+  icon: ethos-64.png
   website: https://www.ethos.io/
   class: social
   description: Wallet móvil con red social incluída.
