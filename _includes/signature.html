@@ -1,7 +1,12 @@
 {% capture author %}{{ include.author }}{% endcapture %}
 {% capture date %}{{ include.date }}{% endcapture %}
 
+{% if include.author %}
 por <span class="post-author">{{author}}</span> el 
+{% endif %}
+
+{% if include.date %}
+
 <time class="published" datetime="{{ date | date: "%Y-%m-%d" }}">
   {{ date | date: "%-d" }} de 
   {% assign m = date | date: "%-m" %}
@@ -21,3 +26,5 @@ por <span class="post-author">{{author}}</span> el
   {% endcase %} de
   {{ date | date: "%Y" }}
 </time>
+
+{% endif %}

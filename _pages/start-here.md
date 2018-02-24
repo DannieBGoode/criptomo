@@ -54,7 +54,7 @@ Aprendamos a invertir mejor
 * [Aragon](/que-es-aragon/)
 * [Oyster Protocol](/que-es-oyster)
 * [Nano](/que-es-nano/)
+* [Qué es Dash](/que-es-dash)
 * Qué es Z-Cash (próximamente)
-* Qué es Dash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
 * [Qué es una ICO](/que-es-una-ico/)
