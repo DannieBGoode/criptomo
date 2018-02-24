@@ -19,7 +19,7 @@ progress: true
 
             <div id="filters" class="coinlist-filter">
             {% for filter in site.data.filters %}
-                <a data-filter="{{ filter.filter }}" href="#" class="{{ filter.class }}" onclick="setActiveFilter(this)">
+                <a data-filter="{{ filter.filter }}" href="javascript:;" class="{{ filter.class }}" onclick="setActiveFilter(this)">
                     <div style="background-image: url(/images/general/coin-filters/{{ filter.image }});"></div>
                     <span>{{ filter.name }}</span>
                  </a>
