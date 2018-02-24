@@ -62,7 +62,7 @@ layout: default
                         {% endif %}
                         <div class="nav-before">Anterior</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></div>
-                        <div class="nav-date">{{page.previous.date | date: "%B %-d, %Y"}}</div>
+                        <div class="nav-date">{% include signature.html date=page.previous.date %}</div>
                     </div><!-- .nav-inside -->
                 </div><!-- .nav-previous -->
                 {% endif %}
@@ -74,7 +74,7 @@ layout: default
                         {% endif %}
                         <div class="nav-before">Siguiente</div>
                         <div class="nav-title"><a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></div>
-                        <div class="nav-date">{{page.next.date | date: "%B %-d, %Y"}}</div>
+                        <div class="nav-date">{% include signature.html date=page.next.date %}</div>
                     </div><!-- .nav-inside -->
                 </div><!-- .nav-next -->
                 {% endif %}
