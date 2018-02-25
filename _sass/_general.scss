@@ -26,6 +26,10 @@ a {
     &:hover {
         color: lighten( $picton-blue, 11% );
     }
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all; /* IE */
+    display: inline-block; /* IE */
 }
 
 h1,
