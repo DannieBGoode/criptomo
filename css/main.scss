@@ -204,6 +204,13 @@
     margin-top: 0;
 }
 
+.entry-content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all; /* IE */
+    display: inline-block; /* IE */
+}
+
 /**
  * 3.1 Posts and Pages
  * ----------------------------------------------------------------------------
