@@ -1,0 +1,198 @@
+.coinlist-filter {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    border:none;
+    outline: none;
+}
+
+.coinlist-filter a {
+    display: inline-block;
+    zoom: 1; /* inline block hack for IE 6&7 */
+    *display: inline;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: inherit;
+    background-color: #474747;
+    border:none;
+    outline: none;
+    margin-left: 0;
+    margin-right: #{$coinlist-filter-spacing};
+    margin-bottom: #{$coinlist-filter-spacing};
+    margin-top: 0;
+    /* 5 columns */
+    width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 1px ) / 5 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+}
+
+.coinlist-filter a:last-child {
+    margin-right: 0;
+}
+
+.coinlist-filter a:nth-child(5n) {
+    margin-right: 0;
+}
+
+.coinlist-filter div {
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle; 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+    padding-top: 5px;
+}
+
+.coinlist-filter span {
+	display:inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (max-width: 1260px) {
+    
+    /* 5 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 5 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    .coinlist-filter a:nth-child(5n) {
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 1150px) {
+    
+    /* 4 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 4 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(5n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(4n) {
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 960px) {
+    
+    /* 5 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 5 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(4n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(5n) {
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    /* 4 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 4 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(5n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(4n) {
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    
+    /* 3 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 3 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(5n),.coinlist-filter a:nth-child(4n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    /* 3 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 3 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(5n),.coinlist-filter a:nth-child(4n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    /* 2 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 2 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(5n),.coinlist-filter a:nth-child(4n),.coinlist-filter a:nth-child(3n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(2n) {
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 330px) {
+    
+    /* 1 columns */
+    .coinlist-filter a {
+        width: calc( ( ( ( 100% + #{$coinlist-filter-spacing} ) - 0.5px ) / 1 ) - ( 2 * #{$coinlist-filter-spacing} ) );
+    }
+    
+    /* Reset previous nth-child */
+    .coinlist-filter a:nth-child(5n),.coinlist-filter a:nth-child(4n),.coinlist-filter a:nth-child(3n),.coinlist-filter a:nth-child(2n) {
+        margin-right: #{$coinlist-filter-spacing};
+    }
+    
+    .coinlist-filter a:nth-child(1n) {
+        margin-right: 0;
+    }
+    
+}
