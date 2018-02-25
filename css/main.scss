@@ -208,7 +208,8 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-all; /* IE */
-    display: inline-block; /* IE */
+    display: inline;
+    display: -ms-inline-flexbox; /* IE */
 }
 
 /**
