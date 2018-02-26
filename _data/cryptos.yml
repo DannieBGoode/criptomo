@@ -155,6 +155,12 @@
   class: finance
   description: Criptomoneda basada en el dólar, su valor es siempre de 1$.
 
+- name: Maker (MKR)
+  icon: maker.jpg
+  website: https://makerdao.com/
+  class: finance
+  description: Moneda estable frente al dólar mediante el uso de smart contracts.
+
 - name: BitConnect (BCC)
   icon: bcc-64.png
   website: https://bitconnectcoin.co/
@@ -249,8 +255,8 @@
 - name: MaidSafeCoin (MAID)
   icon: maidsafecoin.png
   website: http://maidsafe.net/
-  class: storage computing
-  description: Alquiler de almacenamiento distribuido. Dropbox descentralizado.
+  class: storage computing web
+  description: Alquiler de almacenamiento distribuido. Dropbox descentralizado y hosting web.
 
 - name: Siacoin (SC)
   icon: siacoin.png
@@ -458,6 +464,12 @@
   class: gaming
   description: Casino descentralizado.
 
+- name: Decentraland (MANA)
+  icon: mana.png
+  website: https://decentraland.org/
+  class: gaming
+  description: Juego virtual basado en blockchain del estilo de Second Life.
+
 - name: Bytom (BTM)
   icon: btm-64.png
   website: http://bytom.io/
@@ -584,6 +596,12 @@
   class: currency
   description: Criptomoneda con blockchain permanente al ser transmitido mediante satelite. De esta manera aunque no hubiera internet seguiría funcionando.
 
+- name: Reddcoin (RDD)
+  icon: reddcoin.png
+  website: https://www.reddcoin.com/
+  class: social currency
+  description: Moneda pensada para pagos en redes sociales.
+
 - name: ZenCash (ZEN)
   icon: zen-64.png
   website: https://zensystem.io/
@@ -601,6 +619,12 @@
   website: https://quantstamp.com/
   class: dapps interblockchain
   description: Auditorías de smart contracts con informes públicos.
+
+- name: Revain (R)
+  icon: revain.jpg
+  website: https://revain.org/
+  class: ads
+  description: Plataforma de reviews descentralizada.
 
 - name: Substratum (SUB)
   icon: sub-64.png
@@ -655,5 +679,11 @@
   website: https://edgeless.io/
   class: gaming
   description: Casino descentralizado.
+
+- name: Loopring (LRC)
+  icon: loopring.jpg
+  website: https://loopring.org
+  class: exchange
+  description: Exchange descentralizado y protocolo abierto.
 
 
