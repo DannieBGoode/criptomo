@@ -55,6 +55,7 @@ Aprendamos a invertir mejor
 * [Oyster Protocol](/que-es-oyster)
 * [Nano](/que-es-nano/)
 * [Qué es Dash](/que-es-dash)
+* [Qué es EOS](/que-es-eos)
 * Qué es Z-Cash (próximamente)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
 * [Qué es una ICO](/que-es-una-ico/)

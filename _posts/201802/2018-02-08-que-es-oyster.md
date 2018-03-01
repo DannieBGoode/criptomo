@@ -96,9 +96,9 @@ Por ello es mejor guardarlos en wallets que si soportan ERC-20, como por ejemplo
 
 * <a rel="nofollow" href="https://www.myetherwallet.com">MyEtherWallet</a>
 * <a rel="nofollow" href="https://metamask.io/">MetaMask</a>
-* [Ledger Nano S](http://amzn.to/2i5kRoG)
-* [Trezor](http://amzn.to/2i72hMV)
-* [KeepKey](http://amzn.to/2ja1KHf)
+* <a rel="nofollow" href="http://amzn.to/2i5kRoG">Ledger Nano S</a>
+* <a rel="nofollow" href="http://amzn.to/2i72hMV">Trezor</a>
+* <a rel="nofollow" href="http://amzn.to/2ja1KHf">KeepKey</a>
 * <a rel="nofollow" href="https://jaxx.io/">Jaxx</a>
 
 ## Competencia

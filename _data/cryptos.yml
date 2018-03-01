@@ -66,6 +66,7 @@
   website: https://eos.io/
   class: dapps
   description: Plataforma para construir aplicaciones descentralizadas, escalables y con librerías conjuntas.
+  article: /que-es-eos/
 
 - name: NEM (XEM)
   icon: nem-black-64.png
