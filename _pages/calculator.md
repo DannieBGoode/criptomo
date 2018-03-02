@@ -47,9 +47,11 @@ sitemap: true
             <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
         </div>
     </div>
-    <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
+
     <div class="loader calculator-loader-container"></div>
+    
     <div class="calculator-result-container">
+        <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         <div id="calculator-results">
             Si hubieras invertido <span id="result-invest"></span> en <span id="result-tokentype1"></span> el día <span id="result-date"></span> hubieras podido comprar a un precio de 
             <span id="result-old-price"></span> un total de 

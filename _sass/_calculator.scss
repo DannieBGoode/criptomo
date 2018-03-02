@@ -1,5 +1,6 @@
 #calculator-results {
 	display: none;
+    padding-top: 30px;
 	span {
 		font-weight: bold;
 		display: unset;
@@ -49,13 +50,11 @@
     padding-left: 5px;
 }
 
-.calculator-result-container p, .calculator-result-container span {
-    padding: 0;
-    margin: 0;
-}
-
 .calculator-result-container {
-    padding-top: 30px;
+    p, span {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .calculator-loader-container {
