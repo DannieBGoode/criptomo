@@ -11,11 +11,12 @@ sitemap: true
 <div >
 	<table>
 		<thead>
+			<th>#</th>
 			<th></th>
 			<th>Nombre</th>
 			<th>Cotización</th>
 			<th>Tokens en Circulación</th>
-			<th>Precio (USD)</th>
+			<th>Precio</th>
 			<th>% 1h</th>
 			<th>% 24h</th>
 		</thead>
