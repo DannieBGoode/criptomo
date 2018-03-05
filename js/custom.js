@@ -101,6 +101,25 @@
             var displayedCurrencies = $('[data-currency]'),
                 result = '',
                 currencySelector = '';
+            console.log(response);
+            // var aux = JSON.stringify(response);
+            // console.log(aux);
+            // localStorage.setItem('marketcaps', aux);
+
+            if (window.location.pathname === '/cotizaciones/') {
+                // lets try to have something like this https://www.livecoinwatch.com/
+                $.each(response, function(index, currency) {
+                    let templatedMarketcap  = '<div class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/' + currency.symbol.toLowerCase() + '.png);"></div>';
+                        templatedMarketcap += '<span>' + currency.name + '(' + currency.symbol + ')</span>';
+                        templatedMarketcap += '<span>' + currency.market_cap_usd + '</span>';
+                        templatedMarketcap += '<span>' + currency.available_supply + '</span>';
+                        templatedMarketcap += '<span>' + currency.price_usd + '</span>';
+                        templatedMarketcap += '<span>' + currency.percent_change_1h + '</span>';
+                        templatedMarketcap += '<span>' + currency.percent_change_24h + '</span><br/>';
+                    $("#marketcaps-panel").append(templatedMarketcap);
+                });
+            }
+
             $.each(displayedCurrencies, function(index, currency) {
                 result = response.filter(function( obj ) {
                   return obj.id === currency.title;
