@@ -109,13 +109,13 @@
             if (window.location.pathname === '/cotizaciones/') {
                 // lets try to have something like this https://www.livecoinwatch.com/
                 $.each(response, function(index, currency) {
-                    let templatedMarketcap  = '<div class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/' + currency.symbol.toLowerCase() + '.png);"></div>';
-                        templatedMarketcap += '<span>' + currency.name + '(' + currency.symbol + ')</span>';
-                        templatedMarketcap += '<span>' + currency.market_cap_usd + '</span>';
-                        templatedMarketcap += '<span>' + currency.available_supply + '</span>';
-                        templatedMarketcap += '<span>' + currency.price_usd + '</span>';
-                        templatedMarketcap += '<span>' + currency.percent_change_1h + '</span>';
-                        templatedMarketcap += '<span>' + currency.percent_change_24h + '</span><br/>';
+                    let templatedMarketcap  = '<tr><td class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/' + currency.symbol.toLowerCase() + '-64.png);"></td>';
+                        templatedMarketcap += '<td>' + currency.name + '(' + currency.symbol + ')</td>';
+                        templatedMarketcap += '<td>' + currency.market_cap_usd + '</td>';
+                        templatedMarketcap += '<td>' + currency.available_supply + '</td>';
+                        templatedMarketcap += '<td>' + currency.price_usd + '</td>';
+                        templatedMarketcap += '<td>' + currency.percent_change_1h + '</td>';
+                        templatedMarketcap += '<td>' + currency.percent_change_24h + '</td></tr>';
                     $("#marketcaps-panel").append(templatedMarketcap);
                 });
             }

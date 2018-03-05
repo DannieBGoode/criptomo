@@ -8,10 +8,22 @@ comments: true
 sitemap: true
 ---
 
-
-<div id="marketcaps-panel">
-
+<div >
+	<table>
+		<thead>
+			<th></th>
+			<th>Nombre</th>
+			<th>Cotización</th>
+			<th>Tokens en Circulación</th>
+			<th>Precio (USD)</th>
+			<th>% 1h</th>
+			<th>% 24h</th>
+		</thead>
+		<tbody id="marketcaps-panel">
+		</tbody>
+	</table>
 </div>
+
 <div style="text-align:right">
 	<a href="https://coinmarketcap.com/">Más Cotizaciones</a>
 </div>
