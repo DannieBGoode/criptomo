@@ -69,7 +69,7 @@
   article: /que-es-eos/
 
 - name: NEM (XEM)
-  icon: nem-black-64.png
+  icon: xem-64.png
   website: http://nem.io/
   class: dapps business
   description: Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.
@@ -93,8 +93,8 @@
   class: dapps
   description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
   
-- name: Nano (XRB)
-  icon: xrb-64.png
+- name: Nano (NANO)
+  icon: nano-64.png
   website: https://raiblocks.net/
   class: currency
   description: Anteriormente Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratuitas. Es fácilmente escalable.
