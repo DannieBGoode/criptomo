@@ -97,40 +97,10 @@
 
 
         // sidebar currencies marketcaps
-        $.get( "https://api.coinmarketcap.com/v1/ticker/", function( response ) {
+        $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20", function( response ) {
             var displayedCurrencies = $('[data-currency]'),
                 result = '',
                 currencySelector = '';
-            console.log(response);
-            // var aux = JSON.stringify(response);
-            // console.log(aux);
-            // localStorage.setItem('marketcaps', aux);
-
-            if (window.location.pathname === '/cotizaciones/') {
-                // lets try to have something like this https://www.livecoinwatch.com/ use caret-icons for price changes
-                $.each(response, function(index, currency) {
-                    let className = '';
-                    let templatedMarketcap  = '<tr><td>' + currency.rank + '</td>';
-                        templatedMarketcap += '<td class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/' + currency.symbol.toLowerCase() + '-64.png);"></td>';
-                        templatedMarketcap += '<td>' + currency.name + '(' + currency.symbol + ')</td>';
-                        templatedMarketcap += '<td>' + parseFloat(currency.market_cap_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,") + '$' + '</td>';
-                        templatedMarketcap += '<td>' + currency.available_supply.replace(/(\d)(?=(\d{3})+\.)/g, "$1,") + '</td>';
-                        templatedMarketcap += '<td>' + parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,") + '$' + '</td>';
-                        if ( currency.percent_change_1h > 0) {
-                            className = 'ticker-price-change-positive';
-                        } else {
-                            className = 'ticker-price-change-negative';
-                        }
-                        templatedMarketcap += '<td class=' + className + '>' + currency.percent_change_1h + '</td>';
-                        if ( currency.percent_change_24h > 0) {
-                            className = 'ticker-price-change-positive';
-                        } else {
-                            className = 'ticker-price-change-negative';
-                        }
-                        templatedMarketcap += '<td class=' + className + '>' + currency.percent_change_24h + '</td></tr>';
-                    $("#marketcaps-panel").append(templatedMarketcap);
-                });
-            }
 
             $.each(displayedCurrencies, function(index, currency) {
                 result = response.filter(function( obj ) {
