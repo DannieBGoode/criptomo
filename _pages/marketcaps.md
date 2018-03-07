@@ -9,7 +9,11 @@ sitemap: true
 loadsPlugins: true
 ---
 
-<div >
+<!-- table must allow to select either EUR or USD (both included in the response) -->
+
+<!-- we will receive 300 results from the API, and sort / filter them directly in the frontend -->
+
+<div>
 	<table data-order='[[ 1, "asc" ]]' data-page-length='25'>
 		<thead>
 			<th>#</th>

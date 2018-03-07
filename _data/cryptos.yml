@@ -7,14 +7,14 @@
   article: /que-es-bitcoin/
 
 - name: Bitcoin Cash (BCH)
-  icon: bch-orange-64.png
+  icon: bch-64.png
   website: https://www.bitcoin.com
   class: currency
   description: Un fork de Bitcoin creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
   article: /que-es-bitcoin-cash/
 
 - name: Ethereum (ETH)
-  icon: eth-black-64.png
+  icon: eth-64.png
   website: https://www.ethereum.org/
   class: dapps
   description: Plataforma para crear y ejecutar contratos inteligentes, es decir, aplicaciones que se autoejecutan sin posibilidad de censura o interferencia cuando se cumplen ciertas condiciones.
@@ -62,7 +62,7 @@
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
 
 - name: EOS (EOS)
-  icon: eos-black-64.png
+  icon: eos-64.png
   website: https://eos.io/
   class: dapps
   description: Plataforma para construir aplicaciones descentralizadas, escalables y con librerías conjuntas.

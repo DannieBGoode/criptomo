@@ -2,9 +2,9 @@
 - id   : bitcoin
   icon : bitcoin-64.png
 - id   : bitcoin-cash
-  icon : bch-orange-64.png
+  icon : bch-64.png
 - id   : ethereum
-  icon : eth-black-64.png
+  icon : eth-64.png
 - id   : dash
   icon : dash-64.png
 - id   : iota
