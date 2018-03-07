@@ -193,7 +193,7 @@
   description: Plataforma para conectar todas las criptomonedas con una interfaz muy simple.
 
 - name: Komodo (KMD)
-  icon: komodo-64.png
+  icon: kmd-64.png
   website: https://komodoplatform.com/
   class: crowdfunding
   description: Plataforma de crowdfunding mediante ICOs para startups.
