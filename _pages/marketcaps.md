@@ -6,6 +6,7 @@ banner_image: marketcaps.jpg
 permalink: /cotizaciones/
 comments: true
 sitemap: true
+loadsPlugins: true
 ---
 
 <div >
@@ -30,7 +31,10 @@ sitemap: true
 </div>
 
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
-<script defer src="{{ site.baseurl }}/js/marketcaps.js?{{site.time | date: '%s%N'}}"></script>
+<table id="example" class="display" width="100%"></table>
+
+<script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+
+<script type="text/javascript" src="{{ site.baseurl }}/js/marketcaps.js?{{site.time | date: '%s%N'}}"></script>

@@ -6,6 +6,7 @@ banner_image: calculator.jpg
 permalink: /calculadora/
 comments: true
 sitemap: true
+loadsPlugins: true
 ---
 
 <div class="calculator-block">
