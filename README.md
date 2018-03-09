@@ -3,11 +3,8 @@
 ## Windows Installation Guide
 
 * Download [Ruby 2.4.x version](http://rubyinstaller.org/downloads/).
-* Download [RubyDevKit](http://rubyinstaller.org/downloads/), for example: `DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe`
 * Run Ruby installer. When setup is finishing, choose to run the 'ridk install'.
 * When RubyInstaller2 for Windows CLI starts, press ENTER to install needed components automatically.
-* Extract RubyDevKit to `C:\RubyDevKit` (you can choose a different path if you want to)
-* Go to `cd C:\RubyDevKit` and run `ruby dk.rb init` and `ruby dk.rb install`
 * Run `gem install jekyll`
 * Run `gem install bundler`
 * Checkout the code source of this project
