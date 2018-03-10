@@ -42,7 +42,7 @@
   article: /que-es-litecoin/
 
 - name: IOTA (IOTA)
-  icon: iota-black-64.png
+  icon: miota-64.png
   website: https://iota.org/
   class: iot
   description: Plataforma para dispositivos del Internet of Things que promete microtransacciones gratuitas que funcionan sin intervención humana.
@@ -556,7 +556,7 @@
   description: Exchange inmediato con cero comisiones.
 
 - name: Verge (XVG)
-  icon: verge.png
+  icon: xvg-64.png
   website: https://vergecurrency.com/
   class: private currency
   description: Criptomoneda basada en la seguridad y la privacidad.
