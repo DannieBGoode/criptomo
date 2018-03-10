@@ -1,6 +1,7 @@
 // lets use this library https://datatables.net to create dynamic tables that can be sorted and paginated
 var table = $('#marketcaps-table').DataTable({
     responsive: true,
+    pageLength: 100,
     columns: [
         {
             responsivePriority: 3,
@@ -39,9 +40,9 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( data > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + " <span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + " <span class=\"carot-icon\">▼</span></div>";
                 }
             }
         },
@@ -51,9 +52,9 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( data > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + " <span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + " <span class=\"carot-icon\">▼</span></div>";
                 }
             }
         }
