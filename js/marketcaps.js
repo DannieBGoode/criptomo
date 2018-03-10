@@ -29,7 +29,8 @@ var table = $('#marketcaps-table').DataTable({
             title: "",
             render: function ( data, type, row, meta ) {
                 return "<div class=\"marketcaps-icon\"><img src=\"" + data + "\" onerror=\"this.src='/images/general/cryptocurrencies/unknown-64.png'\" /></div>";
-            }
+            },
+            orderable: false
         },
         {
             responsivePriority: 1,
