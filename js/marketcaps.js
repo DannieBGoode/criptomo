@@ -1,4 +1,60 @@
 // lets use this library https://datatables.net to create dynamic tables that can be sorted and paginated
+var table = $('#marketcaps-table').DataTable({
+    responsive: true,
+    //data: [[]],
+    columns: [
+        {
+            responsivePriority: 3,
+            title: "#"
+        },
+        { //Icono
+            responsivePriority: 2,
+            title: "",
+            render: function ( data, type, row, meta ) {
+                console.log(data);
+                return "<img src=\"" + data + "\" height=\"128\" width=\"128\" onerror=\"this.src='/images/general/cryptocurrencies/btc-64.png'\" />";
+            }
+        },
+        {
+            responsivePriority: 1,
+            title: "Nombre"
+        },
+        {
+            responsivePriority: 6,
+            title: "Cotización"
+        },
+        {
+            responsivePriority: 7,
+            title: "Tokens en Circulación"
+        },
+        {
+            responsivePriority: 2,
+            title: "Precio"
+        },
+        {
+            responsivePriority: 8,
+            title: "1h (%)",
+            render: function ( data, type, row, meta ) {
+                if ( data > 0) {
+                    return "<div class=\"ticker-price-change-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
+                } else {
+                    return "<div class=\"ticker-price-change-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
+                }
+            }
+        },
+        {
+            responsivePriority: 1,
+            title: "24h (%)",
+            render: function ( data, type, row, meta ) {
+                if ( data > 0) {
+                    return "<div class=\"ticker-price-change-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
+                } else {
+                    return "<div class=\"ticker-price-change-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
+                }
+            }
+        }
+    ]
+});
 var marketcapDataArray = new Array();
 $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", function( response ) {
     if (window.location.pathname === '/cotizaciones/') {
@@ -19,62 +75,8 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
 })
 .success(function(response) {
     $(document).ready(function() {
-        console.log("Adding marketcaps array data (length=" + marketcapDataArray.length + ")");
-        $('#marketcaps-table').DataTable( {
-            responsive: true,
-            data: marketcapDataArray,
-            columns: [
-                {
-                    responsivePriority: 3,
-                    title: "#"
-                },
-                { //Icono
-                    responsivePriority: 2,
-                    title: "",
-                    render: function ( data, type, row, meta ) {
-                        console.log(data);
-                        return "<img src=\"" + data + "\" height=\"128\" width=\"128\" onerror=\"this.src='/images/general/cryptocurrencies/btc-64.png'\" />";
-                    }
-                },
-                {
-                    responsivePriority: 1,
-                    title: "Nombre"
-                },
-                {
-                    responsivePriority: 6,
-                    title: "Cotización"
-                },
-                {
-                    responsivePriority: 7,
-                    title: "Tokens en Circulación"
-                },
-                {
-                    responsivePriority: 2,
-                    title: "Precio"
-                },
-                {
-                    responsivePriority: 8,
-                    title: "1h (%)",
-                    render: function ( data, type, row, meta ) {
-                        if ( data > 0) {
-                            return "<div class=\"ticker-price-change-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
-                        } else {
-                            return "<div class=\"ticker-price-change-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
-                        }
-                    }
-                },
-                {
-                    responsivePriority: 1,
-                    title: "24h (%)",
-                    render: function ( data, type, row, meta ) {
-                        if ( data > 0) {
-                            return "<div class=\"ticker-price-change-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
-                        } else {
-                            return "<div class=\"ticker-price-change-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
-                        }
-                    }
-                }
-            ]
-        } );
+        table.clear();
+        table.rows.add( marketcapDataArray );
+        table.draw();
     })
 });
