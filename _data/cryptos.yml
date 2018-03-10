@@ -157,7 +157,7 @@
   description: Criptomoneda basada en el dólar, su valor es siempre de 1$.
 
 - name: Maker (MKR)
-  icon: maker.jpg
+  icon: mkr-64.jpg
   website: https://makerdao.com/
   class: finance
   description: Moneda estable frente al dólar mediante el uso de smart contracts.
@@ -260,7 +260,7 @@
   description: Alquiler de almacenamiento distribuido. Dropbox descentralizado y hosting web.
 
 - name: Siacoin (SC)
-  icon: siacoin.png
+  icon: sc-64.png
   website: http://sia.tech/
   class: storage
   description: Dropbox descentralizado.
