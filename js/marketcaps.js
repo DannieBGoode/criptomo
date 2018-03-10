@@ -21,7 +21,8 @@ var table = $('#marketcaps-table').DataTable({
     columns: [
         {
             responsivePriority: 3,
-            title: "#"
+            title: "#",
+            className: "dt-center"
         },
         { //Icon
             responsivePriority: 2,
@@ -32,8 +33,7 @@ var table = $('#marketcaps-table').DataTable({
         },
         {
             responsivePriority: 1,
-            title: "Nombre",
-            className: "dt-right"
+            title: "Nombre"
         },
         {
             responsivePriority: 6,

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_nomargins
 title: Cotizaciones
 description: Cotizaciones de Bitcoin y otras criptomonedas
 banner_image: marketcaps.jpg

@@ -83,6 +83,14 @@ p {
 .entry-content hr {
 	background-color: $picton-blue;
 }
+
+.entry-content-nomargins {
+    margin: 0;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 .corporate-blue{
 	color: $picton-blue;
 }
