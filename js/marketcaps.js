@@ -23,7 +23,21 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
         $('#marketcaps-table').DataTable( {
             responsive: true,
             data: marketcapDataArray,
-            "pageLength": 100,
+            pageLength: 100,
+            language: {
+                lengthMenu: "Mostrar _MENU_ entradas",
+                zeroRecords: "No se han encontrado resultados",
+                info: "Página _PAGE_ de _PAGES_",
+                infoEmpty: "No records available",
+                search: "Buscar:",
+                infoFiltered: "(filtrado entre _MAX_ monedas)",
+                paginate: {
+                    "first":      "Primera",
+                    "last":       "Última",
+                    "next":       "Siguiente",
+                    "previous":   "Anterior"
+                }
+            },
             columns: [
                 {
                     responsivePriority: 3,
