@@ -32,7 +32,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
                     responsivePriority: 2,
                     title: "",
                     render: function ( data, type, row, meta ) {
-                        return "<img src=\""+data+"\" height=\"32\" width=\"32\" onerror=\"this.src='/images/general/cryptocurrencies/btc-64.png'\" />";
+                        return "<img src=\""+data+"\" height=\"32\" width=\"32\" onerror=\"this.src='/images/general/cryptocurrencies/unknown-64.png'\" />";
                     }
                 },
                 {
