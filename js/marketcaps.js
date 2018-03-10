@@ -99,5 +99,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
         table.clear();
         table.rows.add( marketcapDataArray );
         table.draw();
+        table.columns.adjust();
+        table.responsive.recalc();
     })
 });
