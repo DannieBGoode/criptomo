@@ -2,6 +2,22 @@
 var table = $('#marketcaps-table').DataTable({
     responsive: true,
     pageLength: 100,
+    language: {
+                lengthMenu: "Mostrar _MENU_ entradas",
+                zeroRecords: "No se han encontrado resultados",
+                info: "Página _PAGE_ de _PAGES_",
+                infoEmpty: "No records available",
+                search: "Buscar:",
+                infoFiltered: "(filtrado entre _MAX_ monedas)",
+                loadingRecords: "Cargando...",
+                emptyTable: "No hay información disponible",
+                paginate: {
+                    "first":      "Primera",
+                    "last":       "Última",
+                    "next":       "Siguiente",
+                    "previous":   "Anterior"
+                }
+            },
     columns: [
         {
             responsivePriority: 3,
