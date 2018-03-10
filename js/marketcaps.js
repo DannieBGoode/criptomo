@@ -31,6 +31,8 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
                 infoEmpty: "No records available",
                 search: "Buscar:",
                 infoFiltered: "(filtrado entre _MAX_ monedas)",
+                loadingRecords: "Cargando...",
+                emptyTable: "No hay información disponible",
                 paginate: {
                     "first":      "Primera",
                     "last":       "Última",
