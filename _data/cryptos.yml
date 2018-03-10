@@ -556,7 +556,7 @@
   description: Exchange inmediato con cero comisiones.
 
 - name: Verge (XVG)
-  icon: verge.png
+  icon: xvg-64.png
   website: https://vergecurrency.com/
   class: private currency
   description: Criptomoneda basada en la seguridad y la privacidad.
