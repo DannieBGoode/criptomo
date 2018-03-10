@@ -4,14 +4,14 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
     if (window.location.pathname === '/cotizaciones/') {
         // lets try to have something like this https://www.livecoinwatch.com/ use caret-icons for price changes
         $.each(response, function(index, currency) {
-            let colRank = ""+currency.rank;
+            let colRank = currency.rank;
             let colIcon = "/images/general/cryptocurrencies/" + currency.symbol.toLowerCase() + "-64.png";
-            let colName = currency.name+" (" + currency.symbol + ")";
+            let colName = currency.name + "<br/><span class='marketcap-symbol'>(" + currency.symbol + ")</span>";
             let colMarketCap = parseFloat(currency.market_cap_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
-            let colTokens = currency.available_supply.replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
+            let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colPrice = parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
-            let colChange1h = currency.percent_change_1h;
-            let colChange24h = currency.percent_change_24h;
+            let colChange1h = parseFloat(currency.percent_change_1h).toFixed(1);
+            let colChange24h = parseFloat(currency.percent_change_24h).toFixed(1);
             let marketcapDataRow = [colRank,colIcon,colName,colMarketCap,colTokens,colPrice,colChange1h,colChange24h];
             marketcapDataArray.push(marketcapDataRow);
         });
@@ -19,7 +19,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
 })
 .success(function(response) {
     $(document).ready(function() {
-        console.log("Adding marketcaps array data (length="+marketcapDataArray.length+")");
+        console.log("Adding marketcaps array data (length=" + marketcapDataArray.length + ")");
         $('#marketcaps-table').DataTable( {
             responsive: true,
             data: marketcapDataArray,
@@ -32,7 +32,8 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
                     responsivePriority: 2,
                     title: "",
                     render: function ( data, type, row, meta ) {
-                        return "<img src=\""+data+"\" height=\"32\" width=\"32\" onerror=\"this.src='/images/general/cryptocurrencies/btc-64.png'\" />";
+                        console.log(data);
+                        return "<img src=\"" + data + "\" height=\"128\" width=\"128\" onerror=\"this.src='/images/general/cryptocurrencies/btc-64.png'\" />";
                     }
                 },
                 {
@@ -53,23 +54,23 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
                 },
                 {
                     responsivePriority: 8,
-                    title: "1h",
+                    title: "1h (%)",
                     render: function ( data, type, row, meta ) {
                         if ( data > 0) {
-                            return "<div class=\"ticker-price-change-positive\">"+data+"</div>";
+                            return "<div class=\"ticker-price-change-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
                         } else {
-                            return "<div class=\"ticker-price-change-negative\">"+data+"</div>";
+                            return "<div class=\"ticker-price-change-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
                         }
                     }
                 },
                 {
                     responsivePriority: 1,
-                    title: "24h",
+                    title: "24h (%)",
                     render: function ( data, type, row, meta ) {
                         if ( data > 0) {
-                            return "<div class=\"ticker-price-change-positive\">"+data+"</div>";
+                            return "<div class=\"ticker-price-change-positive\">" + data + " <span class='carot-icon'>▲</span></div>";
                         } else {
-                            return "<div class=\"ticker-price-change-negative\">"+data+"</div>";
+                            return "<div class=\"ticker-price-change-negative\">" + data + " <span class='carot-icon'>▼</span></div>";
                         }
                     }
                 }
