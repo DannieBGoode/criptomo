@@ -341,7 +341,7 @@
   description: Plataforma para contratos inteligentes que permite pagos condicionales - si una acción ocurre se realiza un pago, si no ocurre se hace una devolución.
 
 - name: Dogecoin (DOGE)
-  icon: dogecoin.png
+  icon: doge-64.png
   website: http://dogecoin.com/
   class: currency
   description: Clon de Litecoin basado en un meme y usado para dar propinas.
