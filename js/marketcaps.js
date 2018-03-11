@@ -30,8 +30,8 @@ var table = $('#marketcaps-table').DataTable({
             responsivePriority: 2,
             title: "",
             render: function ( data, type, row, meta ) {
-                return "<div class=\"marketcaps-icon\"><img src=\"/images/general/cryptocurrencies/" + data + "-64.png\" onerror=\"this.src='https://www.livecoinwatch.com/images/icons32/" + data + ".png'\" /></div>";
-                // return "<div class=\"marketcaps-icon\"><img src=\"https://www.livecoinwatch.com/images/icons32/" + data + ".png\" /></div>";
+                // return "<div class=\"marketcaps-icon\"><img src=\"/images/general/cryptocurrencies/" + data + "-64.png\" onerror=\"this.onerror=null;this.src='https://www.livecoinwatch.com/images/icons32/" + data + ".png'\" /></div>";
+                return "<div class=\"marketcaps-icon\"><img src=\"https://www.livecoinwatch.com/images/icons32/" + data + ".png\" /></div>";
             },
             orderable: false
         },
@@ -49,7 +49,7 @@ var table = $('#marketcaps-table').DataTable({
             title: "Precio",
             className: "dt-right",
             render: function( data, type, row, meta) {
-                if ( data.colChange1h > 0) {
+                if ( data.positiveChange) {
                     return "<div class=\"marketcaps-pricechange-positive\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
                     return "<div class=\"marketcaps-pricechange-negative\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
@@ -97,7 +97,6 @@ var table = $('#marketcaps-table').DataTable({
 var marketcapDataArray = new Array();
 $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", function( response ) {
     if (window.location.pathname === '/cotizaciones/') {
-        // lets try to have something like this https://www.livecoinwatch.com/ use caret-icons for price changes
         $.each(response, function(index, currency) {
             let colSpacer = null;
             let colRank = currency.rank;
@@ -107,7 +106,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
             let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colPrice = {
                 price: parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
-                colChange1h: parseFloat(currency.percent_change_1h).toFixed(1)
+                positiveChange: (parseFloat(currency.percent_change_1h).toFixed(1) > 0)
             };
             let colChange1h = parseFloat(currency.percent_change_1h).toFixed(1);
             let colChange24h = parseFloat(currency.percent_change_24h).toFixed(1);
