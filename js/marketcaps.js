@@ -30,7 +30,7 @@ var table = $('#marketcaps-table').DataTable({
             responsivePriority: 2,
             title: "",
             render: function ( data, type, row, meta ) {
-                return "<div class=\"marketcaps-icon\"><img src=\"" + data + "\" onerror=\"this.src='/images/general/cryptocurrencies/unknown-64.png'\" /></div>";
+                return "<div class=\"marketcaps-icon\"><img src=\"/images/general/cryptocurrencies/" + data + "-64.png\" onerror=\"this.src='https://www.livecoinwatch.com/images/icons32/" + data + ".png'\" /></div>";
             },
             orderable: false
         },
@@ -59,9 +59,9 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( data > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
         },
@@ -71,9 +71,9 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( data > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
         },
@@ -93,7 +93,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
         $.each(response, function(index, currency) {
             let colSpacer = null;
             let colRank = currency.rank;
-            let colIcon = "/images/general/cryptocurrencies/" + currency.symbol.toLowerCase() + "-64.png";
+            let colIcon = currency.symbol.toLowerCase();
             let colName = currency.name + "<br/><span class='marketcap-symbol'>(" + currency.symbol + ")</span>";
             let colMarketCap = Math.floor(currency.market_cap_usd).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
