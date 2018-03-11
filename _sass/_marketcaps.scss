@@ -20,6 +20,11 @@
     margin: 0;
 }
 
+.marketcaps-table-bottom {
+    padding: 15px;
+    margin: 0;
+}
+
 .marketcaps-table-column-spacer {
     padding: 5px !important;
     margin: 0 !important;
@@ -70,6 +75,12 @@
     padding: 15px;
     margin: 0;
 }
+
+.marketcaps-table-footer{
+    text-align: right;
+    padding: 15px;
+}
+
 
 @media (max-width: 600px) {
     

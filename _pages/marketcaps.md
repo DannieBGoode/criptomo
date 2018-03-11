@@ -15,7 +15,7 @@ loadsPlugins: true
 
 <table id="marketcaps-table" class="display" width="100%"></table>
 
-<div style="text-align:right">
+<div class="marketcaps-table-footer">
 	<a href="https://coinmarketcap.com/">Más Cotizaciones</a>
 </div>
 
