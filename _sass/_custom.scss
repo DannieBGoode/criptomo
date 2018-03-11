@@ -84,14 +84,10 @@ p {
 	background-color: $picton-blue;
 }
 
-.entry-content-nomargins {
-    margin: 0px;
-    padding: 0px;
-}
-
-.entry-header-nomargins {
-    margin: 0px;
-    padding: 0px;
+.no-margins {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
 }
 
 .corporate-blue{

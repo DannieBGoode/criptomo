@@ -1,5 +1,5 @@
 ---
-layout: page_nomargins
+layout: page
 title: Cotizaciones
 description: Cotizaciones de Bitcoin y otras criptomonedas
 banner_image: marketcaps.jpg
@@ -7,6 +7,7 @@ permalink: /cotizaciones/
 comments: true
 sitemap: true
 loadsPlugins: true
+noMargins: true
 ---
 
 <!-- table must allow to select either EUR or USD (both included in the response) -->
