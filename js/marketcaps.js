@@ -16,8 +16,8 @@ var table = $('#marketcaps-table').DataTable({
                 paginate: {
                     "first":      "Primera",
                     "last":       "Última",
-                    "next":       "Siguiente",
-                    "previous":   "Anterior"
+                    "next":       "<span class=\"fa-chevron-right\"></span>",
+                    "previous":   "<span class=\"fa-chevron-left\"></span>"
                 }
             },
     columns: [
@@ -31,6 +31,7 @@ var table = $('#marketcaps-table').DataTable({
             title: "",
             render: function ( data, type, row, meta ) {
                 return "<div class=\"marketcaps-icon\"><img src=\"/images/general/cryptocurrencies/" + data + "-64.png\" onerror=\"this.src='https://www.livecoinwatch.com/images/icons32/" + data + ".png'\" /></div>";
+                // return "<div class=\"marketcaps-icon\"><img src=\"https://www.livecoinwatch.com/images/icons32/" + data + ".png\" /></div>";
             },
             orderable: false
         },
@@ -44,13 +45,20 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right"
         },
         {
-            responsivePriority: 7,
-            title: "Tokens en Circulación",
-            className: "dt-right"
-        },
-        {
             responsivePriority: 2,
             title: "Precio",
+            className: "dt-right",
+            render: function( data, type, row, meta) {
+                if ( data.colChange1h > 0) {
+                    return "<div class=\"marketcaps-pricechange-positive\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                } else {
+                    return "<div class=\"marketcaps-pricechange-negative\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                }
+            }
+        },
+        {
+            responsivePriority: 7,
+            title: "Tokens en Circulación",
             className: "dt-right"
         },
         {
@@ -97,10 +105,14 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
             let colName = currency.name + "<br/><span class='marketcap-symbol'>(" + currency.symbol + ")</span>";
             let colMarketCap = Math.floor(currency.market_cap_usd).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            let colPrice = parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
+            let colPrice = {
+                price: parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
+                colChange1h: parseFloat(currency.percent_change_1h).toFixed(1)
+            };
             let colChange1h = parseFloat(currency.percent_change_1h).toFixed(1);
             let colChange24h = parseFloat(currency.percent_change_24h).toFixed(1);
-            let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colTokens, colPrice, colChange1h, colChange24h, colSpacer];
+
+            let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
             marketcapDataArray.push(marketcapDataRow);
         });
     }
