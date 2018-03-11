@@ -97,10 +97,11 @@
 
 
         // sidebar currencies marketcaps
-        $.get( "https://api.coinmarketcap.com/v1/ticker/", function( response ) {
+        $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20", function( response ) {
             var displayedCurrencies = $('[data-currency]'),
                 result = '',
                 currencySelector = '';
+
             $.each(displayedCurrencies, function(index, currency) {
                 result = response.filter(function( obj ) {
                   return obj.id === currency.title;

@@ -45,7 +45,11 @@ layout: compress
     {{content}}
     {% include footer.html %}
     {% include analytics.html %}
-    <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+
+    {% unless page.loadsPlugins %}
+        <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+    {% endunless  %}
+
     <script defer src="{{ site.baseurl }}/js/custom.js?{{site.time | date: '%s%N'}}"></script>
 </body>
 </html>
