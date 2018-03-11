@@ -10,10 +10,6 @@ loadsPlugins: true
 noMargins: true
 ---
 
-<!-- table must allow to select either EUR or USD (both included in the response) -->
-
-<!-- we will receive 300 results from the API, and sort / filter them directly in the frontend -->
-
 <table id="marketcaps-table" class="display" width="100%"></table>
 
 <div class="marketcaps-table-footer">
