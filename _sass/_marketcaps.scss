@@ -30,6 +30,36 @@
     margin: 0 !important;
 }
 
+#marketcaps-table_paginate a.paginate_button {
+    background-color: #ededed;
+    background: #ededed;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    color: #333333 !important;
+    margin: 2px;
+}
+
+#marketcaps-table_paginate a.disabled {
+    background-color: #ededed;
+    background: #ededed;
+    color: #818181 !important;
+}
+
+#marketcaps-table_paginate a.current {
+    background-color: #22b3eb;
+    background: #22b3eb;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+#marketcaps-table th {
+    border-bottom: 1px solid #ddd;
+}
+
+table#marketcaps-table {
+    border-bottom: 1px solid #ddd;
+}
+
 #marketcaps-table_filter {
     float: left;
     width: 75%;
@@ -42,7 +72,6 @@
 #marketcaps-table_filter input {
     display: block;
     width: 100%;
-    /*padding: 0;*/
     margin: 0;
 }
 
@@ -81,7 +110,6 @@
     padding: 15px;
 }
 
-
 @media (max-width: 600px) {
     
     .marketcaps-table-top {
@@ -102,7 +130,6 @@
     #marketcaps-table_filter input {
         display: block;
         width: 100%;
-        /*padding: 0;*/
         margin: 0;
     }
     
@@ -126,7 +153,6 @@
     #marketcaps-table_length select {
         display: block;
         width: 100%;
-        /*padding: 0;*/
         margin: 0;
     }
     
