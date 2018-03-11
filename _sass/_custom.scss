@@ -89,6 +89,11 @@ p {
     padding: 0px;
 }
 
+.entry-header-nomargins {
+    margin: 0px;
+    padding: 0px;
+}
+
 .corporate-blue{
 	color: $picton-blue;
 }
@@ -133,6 +138,7 @@ input:focus, select:focus {
 	outline: none;
 	border-color: $picton-blue;
 }
+
 .loader {
 	background: url("/images/general/loading.gif");
 	background-size: 100px 100px;

@@ -2,8 +2,10 @@
 var table = $('#marketcaps-table').DataTable({
     responsive: true,
     pageLength: 100,
+    /* l (Length changing), f (Filtering input), t (The Table!), i(Information), p (Pagination), r (pRocessing) */
+    dom: '<"marketcaps-table-top"fl>rt<"marketcaps-table-bottom"ip>',
     language: {
-                lengthMenu: "Mostrar _MENU_ entradas",
+                lengthMenu: "Items _MENU_",
                 zeroRecords: "No se han encontrado resultados",
                 info: "Página _PAGE_ de _PAGES_",
                 infoEmpty: "No records available",
@@ -57,9 +59,9 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( data > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">" + data + " <span class=\"carot-icon\">▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">" + data + " <span class=\"carot-icon\">▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
         },
@@ -69,11 +71,18 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( data > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">" + data + " <span class=\"carot-icon\">▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">" + data + " <span class=\"carot-icon\">▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
+        },
+        { //Columna espaciadora
+            responsivePriority: 100,
+            width: "0px",
+            title: "",
+            orderable: false,
+            className: "marketcaps-table-column-spacer"
         }
     ]
 });
@@ -82,6 +91,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
     if (window.location.pathname === '/cotizaciones/') {
         // lets try to have something like this https://www.livecoinwatch.com/ use caret-icons for price changes
         $.each(response, function(index, currency) {
+            let colSpacer = null;
             let colRank = currency.rank;
             let colIcon = "/images/general/cryptocurrencies/" + currency.symbol.toLowerCase() + "-64.png";
             let colName = currency.name + "<br/><span class='marketcap-symbol'>(" + currency.symbol + ")</span>";
@@ -90,7 +100,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
             let colPrice = parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
             let colChange1h = parseFloat(currency.percent_change_1h).toFixed(1);
             let colChange24h = parseFloat(currency.percent_change_24h).toFixed(1);
-            let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colTokens, colPrice, colChange1h, colChange24h];
+            let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colTokens, colPrice, colChange1h, colChange24h, colSpacer];
             marketcapDataArray.push(marketcapDataRow);
         });
     }

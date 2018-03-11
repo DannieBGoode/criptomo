@@ -5,7 +5,7 @@ layout: default
     <div class="inner">
         <main class="site-main">
             <article class="post">
-                <header class="entry-header">
+                <header class="entry-header-nomargins">
                     <div class="entry-header-wrap">  
                         {% if page.thumbnail_full %}
                             <img class="post-thumbnail-full" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">

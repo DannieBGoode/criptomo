@@ -24,6 +24,12 @@
     display: none;
 }
 
+.calculator-form-row {
+    display: table;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
 .calculator-form-row:after {
     padding: 0;
     margin: 0;
@@ -34,12 +40,14 @@
 }
 
 .calculator-col-start {
-    float: left;
+    vertical-align: middle;
+    display: table-cell;
     width: 30%;
 }
 
 .calculator-col-end {
-    float: left;
+    vertical-align: middle;
+    display: table-cell;
     width: 70%;
 }
 
@@ -62,12 +70,18 @@
 }
 
 @media (max-width: 600px) {
+
+	.calculator-form-row {
+    	display: inline;
+	}
     
     .calculator-col-start {
+		display: inline;
         width: 100%;
     }
     
     .calculator-col-end {
+		display: inline;
         width: 100%;
     }
     

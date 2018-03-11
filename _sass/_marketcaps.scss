@@ -14,3 +14,116 @@
     max-width: 32px;
     max-height: 32px;
 }
+
+.marketcaps-table-top {
+    padding: 0px;
+    margin: 0;
+}
+
+.marketcaps-table-column-spacer {
+    padding: 5px !important;
+    margin: 0 !important;
+}
+
+#marketcaps-table_filter {
+    float: left;
+    width: 75%;
+    text-align: left;
+    display: block;
+    padding: 0px;
+    margin: 0;
+}
+
+#marketcaps-table_filter input {
+    display: block;
+    width: 100%;
+    /*padding: 0;*/
+    margin: 0;
+}
+
+#marketcaps-table_filter label {
+    display: block;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+#marketcaps-table_length {
+    float: right;
+    width: 25%;
+    text-align: left;
+    display: block;
+    padding: 0px;
+    margin: 0;
+}
+
+#marketcaps-table_length select {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+#marketcaps-table_length label {
+    display: block;
+    padding: 15px;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    
+    .marketcaps-table-top {
+        padding: 15px;
+        margin: 0;
+    }
+    
+    #marketcaps-table_filter {
+        float: none;
+        width: 100%;
+        text-align: left;
+        display: block;
+        padding: 0px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    
+    #marketcaps-table_filter input {
+        display: block;
+        width: 100%;
+        /*padding: 0;*/
+        margin: 0;
+    }
+    
+    #marketcaps-table_filter label {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #marketcaps-table_length {
+        float: none;
+        width: 100%;
+        text-align: left;
+        display: block;
+        padding: 0px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    
+    #marketcaps-table_length select {
+        display: block;
+        width: 100%;
+        /*padding: 0;*/
+        margin: 0;
+    }
+    
+    #marketcaps-table_length label {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+        
+}
