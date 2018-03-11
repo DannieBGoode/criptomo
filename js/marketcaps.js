@@ -87,7 +87,7 @@ var table = $('#marketcaps-table').DataTable({
     ]
 });
 var marketcapDataArray = new Array();
-$.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=500", function( response ) {
+$.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", function( response ) {
     if (window.location.pathname === '/cotizaciones/') {
         // lets try to have something like this https://www.livecoinwatch.com/ use caret-icons for price changes
         $.each(response, function(index, currency) {

@@ -658,7 +658,7 @@
   description: Plataforma de pagos para la industria de la marihuana.
 
 - name: AdEx (ADX)
-  icon: adex.png
+  icon: adx-64.png
   website: https://www.adex.network/
   class: ads exchange
   description: Exchange de publicidad online.
