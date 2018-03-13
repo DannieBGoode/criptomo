@@ -27,6 +27,12 @@ layout: default
                 </header><!-- .entry-header -->
                 <div class="entry-content">
                     {{content}}
+
+                    {% if page.source and page.sourceName %}
+                    <div class="news-source">
+                        Fuente: <a rel="nofollow" href="{{page.source}}">{{ page.sourceName }}</a> {% endif %}
+                    </div>
+
                 </div><!-- .entry-content -->
                 <footer class="entry-footer">
                     

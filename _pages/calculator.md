@@ -6,6 +6,7 @@ banner_image: calculator.jpg
 permalink: /calculadora/
 comments: true
 sitemap: true
+loadsPlugins: true
 ---
 
 <div class="calculator-block">
@@ -67,4 +68,4 @@ sitemap: true
 
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
-<script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>	
+<script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>

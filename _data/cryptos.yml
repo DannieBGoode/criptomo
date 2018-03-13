@@ -7,14 +7,14 @@
   article: /que-es-bitcoin/
 
 - name: Bitcoin Cash (BCH)
-  icon: bch-orange-64.png
+  icon: bch-64.png
   website: https://www.bitcoin.com
   class: currency
   description: Un fork de Bitcoin creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.
   article: /que-es-bitcoin-cash/
 
 - name: Ethereum (ETH)
-  icon: eth-black-64.png
+  icon: eth-64.png
   website: https://www.ethereum.org/
   class: dapps
   description: Plataforma para crear y ejecutar contratos inteligentes, es decir, aplicaciones que se autoejecutan sin posibilidad de censura o interferencia cuando se cumplen ciertas condiciones.
@@ -42,7 +42,7 @@
   article: /que-es-litecoin/
 
 - name: IOTA (IOTA)
-  icon: iota-black-64.png
+  icon: miota-64.png
   website: https://iota.org/
   class: iot
   description: Plataforma para dispositivos del Internet of Things que promete microtransacciones gratuitas que funcionan sin intervención humana.
@@ -62,14 +62,14 @@
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
 
 - name: EOS (EOS)
-  icon: eos-black-64.png
+  icon: eos-64.png
   website: https://eos.io/
   class: dapps
   description: Plataforma para construir aplicaciones descentralizadas, escalables y con librerías conjuntas.
   article: /que-es-eos/
 
 - name: NEM (XEM)
-  icon: nem-black-64.png
+  icon: xem-64.png
   website: http://nem.io/
   class: dapps business
   description: Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.
@@ -93,8 +93,8 @@
   class: dapps
   description: Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.
   
-- name: Nano (XRB)
-  icon: xrb-64.png
+- name: Nano (NANO)
+  icon: nano-64.png
   website: https://raiblocks.net/
   class: currency
   description: Anteriormente Raiblocks. Plataforma no basada en tecnología Blockchain diseñada para transacciones rápidas y gratuitas. Es fácilmente escalable.
@@ -157,7 +157,7 @@
   description: Criptomoneda basada en el dólar, su valor es siempre de 1$.
 
 - name: Maker (MKR)
-  icon: maker.jpg
+  icon: mkr-64.jpg
   website: https://makerdao.com/
   class: finance
   description: Moneda estable frente al dólar mediante el uso de smart contracts.
@@ -193,7 +193,7 @@
   description: Plataforma para conectar todas las criptomonedas con una interfaz muy simple.
 
 - name: Komodo (KMD)
-  icon: komodo-64.png
+  icon: kmd-64.png
   website: https://komodoplatform.com/
   class: crowdfunding
   description: Plataforma de crowdfunding mediante ICOs para startups.
@@ -260,7 +260,7 @@
   description: Alquiler de almacenamiento distribuido. Dropbox descentralizado y hosting web.
 
 - name: Siacoin (SC)
-  icon: siacoin.png
+  icon: sc-64.png
   website: http://sia.tech/
   class: storage
   description: Dropbox descentralizado.
@@ -341,7 +341,7 @@
   description: Plataforma para contratos inteligentes que permite pagos condicionales - si una acción ocurre se realiza un pago, si no ocurre se hace una devolución.
 
 - name: Dogecoin (DOGE)
-  icon: dogecoin.png
+  icon: doge-64.png
   website: http://dogecoin.com/
   class: currency
   description: Clon de Litecoin basado en un meme y usado para dar propinas.
@@ -556,7 +556,7 @@
   description: Exchange inmediato con cero comisiones.
 
 - name: Verge (XVG)
-  icon: verge.png
+  icon: xvg-64.png
   website: https://vergecurrency.com/
   class: private currency
   description: Criptomoneda basada en la seguridad y la privacidad.
@@ -658,7 +658,7 @@
   description: Plataforma de pagos para la industria de la marihuana.
 
 - name: AdEx (ADX)
-  icon: adex.png
+  icon: adx-64.png
   website: https://www.adex.network/
   class: ads exchange
   description: Exchange de publicidad online.
