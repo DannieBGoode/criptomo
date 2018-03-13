@@ -101,7 +101,7 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
             let colSpacer = null;
             let colRank = currency.rank;
             let colIcon = currency.symbol.toLowerCase();
-            let colName = currency.name + "<br/><span class='marketcap-symbol'>(" + currency.symbol + ")</span>";
+            let colName = "<span class='marketcap-symbol'>" + currency.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + currency.name + "</span>";
             let colMarketCap = Math.floor(currency.market_cap_usd).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colPrice = {
