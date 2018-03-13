@@ -45,7 +45,7 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right"
         },
         {
-            responsivePriority: 2,
+            responsivePriority: 1,
             title: "Precio",
             className: "dt-right",
             render: function( data, type, row, meta) {
@@ -74,7 +74,7 @@ var table = $('#marketcaps-table').DataTable({
             }
         },
         {
-            responsivePriority: 1,
+            responsivePriority: 2,
             title: "24h (%)",
             className: "dt-right",
             render: function ( data, type, row, meta ) {
