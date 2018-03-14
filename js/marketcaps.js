@@ -37,7 +37,11 @@ var table = $('#marketcaps-table').DataTable({
         },
         {
             responsivePriority: 1,
-            title: "Nombre"
+            title: "Nombre",
+            render: function( data, type, row, meta) {
+                if ( type !== "display" ) { return data.symbol; }
+                return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + data.name + "</span>";
+            }
         },
         {
             responsivePriority: 6,
@@ -49,6 +53,7 @@ var table = $('#marketcaps-table').DataTable({
             title: "Precio",
             className: "dt-right",
             render: function( data, type, row, meta) {
+                if ( type !== "display" ) { return data.price; }
                 if ( data.positiveChange) {
                     return "<div class=\"marketcaps-pricechange-positive\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
@@ -66,18 +71,21 @@ var table = $('#marketcaps-table').DataTable({
             title: "1h (%)",
             className: "dt-right",
             render: function ( data, type, row, meta ) {
+                if ( type !== "display" ) { return data; }
                 if ( data > 0) {
                     return "<div class=\"marketcaps-pricechange-positive\">" + data + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
                     return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
+            
         },
         {
             responsivePriority: 2,
             title: "24h (%)",
             className: "dt-right",
             render: function ( data, type, row, meta ) {
+                if ( type !== "display" ) { return data; }
                 if ( data > 0) {
                     return "<div class=\"marketcaps-pricechange-positive\">" + data + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
@@ -101,7 +109,10 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
             let colSpacer = null;
             let colRank = currency.rank;
             let colIcon = currency.symbol.toLowerCase();
-            let colName = "<span class='marketcap-symbol'>" + currency.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + currency.name + "</span>";
+            let colName = {
+                symbol: currency.symbol,
+                name: currency.name
+            };
             let colMarketCap = Math.floor(currency.market_cap_usd).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             let colPrice = {
