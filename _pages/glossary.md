@@ -150,6 +150,12 @@ Evento en el que los creadores de una criptomoneda venden unidades de ésta ante
 Mecanismo de autofinanciación donde los primeros bloques de una moneda se minan muy fácilmente con recompensas muy altas.
 
 {:.corporate-blue}
+## K
+
+#### KYC
+Know Your Clientes - Política de empresas por cual se obliga a sus usuarios a verificar sus identidades antes de permitirles operar.
+
+{:.corporate-blue}
 ## M
 <hr/>
 
