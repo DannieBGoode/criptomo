@@ -2,7 +2,7 @@
 layout: page
 title: Glosario
 description: Glosario de términos - Todos los acrónimos del mundo de las criptomonedas que deberías hacer conocer a la perfección.
-banner_image: dictionary.jpg
+banner_image: pages/dictionary.jpg
 permalink: /glosario/
 progress: true
 ---

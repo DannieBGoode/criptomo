@@ -2,7 +2,7 @@
 layout: page
 title: Acerca de este blog
 description: Acerca de este blog
-banner_image: aboutPage.jpg
+banner_image: pages/about.jpg
 permalink: /about/
 sitemap: false
 thumbnail_full: true
