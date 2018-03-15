@@ -36,10 +36,10 @@ loadsPlugins: true
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
-            <input class="calculator-othercoins" autofocus />
-            <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
+            <input width="150" class="calculator-othercoins" autofocus />
         </div>
     </div>
+    <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
             <label>Fecha de compra</label>
