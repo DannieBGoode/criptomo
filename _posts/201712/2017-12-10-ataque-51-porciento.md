@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Cómo funciona un ataque del 51 porciento
+title: Cómo funciona un ataque del 51 por 4+5ciento
 description: El ataque del 51% es una de las vulnerabilidades de las criptomonedas basadas en blockchain y proof of work.
 date: 2017-12-10T00:00:00.000Z
 banner_image: 201712/attack.jpg
-rating: 4.5
-totalVotes: 2
+rating: 4.75
+totalVotes: 4
 tags:
   - bitcoin
   - blockchain
