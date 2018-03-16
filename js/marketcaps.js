@@ -38,7 +38,14 @@ var table = $('#marketcaps-table').DataTable({
         {
             responsivePriority: 1,
             title: "Nombre",
-            render: marketcapsRenderNameColumn
+            render: function ( data, type, row, meta ) {
+                if ( type === "filter" ) { return data.symbol+" "+data.name; }
+                else if ( type === "sort" ) { return data.symbol; }
+                else if ( type === "display" ) {
+                    return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + data.name + "</span>";
+                    }
+                else return data.symbol; 
+            }
         },
         {
             responsivePriority: 6,
@@ -51,7 +58,11 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function( data, type, row, meta) {
                 if ( type !== "display" ) { return data.price; }
-                return marketcapsGeneratePriceHtml( data.price, data.positiveChange );
+                if ( data.positiveChange > 0) {
+                    return "<div class=\"marketcaps-pricechange-positive\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                } else {
+                    return "<div class=\"marketcaps-pricechange-negative\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                }
             }
         },
         {
@@ -65,7 +76,11 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( type !== "display" ) { return data; }
-                return marketcapsGeneratePriceChangeHtml( data );
+                if ( data > 0) {
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                } else {
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                }
             }
         },
         {
@@ -74,10 +89,14 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function ( data, type, row, meta ) {
                 if ( type !== "display" ) { return data; }
-                return marketcapsGeneratePriceChangeHtml( data );
+                if ( data > 0) {
+                    return "<div class=\"marketcaps-pricechange-positive\">" + data + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                } else {
+                    return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                }
             }
         },
-        { //Columna espaciadora
+        { // Spacer column
             responsivePriority: 100,
             width: "0px",
             title: "",
@@ -120,26 +139,3 @@ $.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", functio
         table.responsive.recalc();
     })
 });
-
-function marketcapsGeneratePriceChangeHtml( priceChange ) {
-    return marketcapsGeneratePriceHtml( priceChange, priceChange );
-}
-
-function marketcapsGeneratePriceHtml( price, priceChange ) {
-    if ( priceChange > 0) {
-        return "<div class=\"marketcaps-pricechange-positive\">" + price + "%&nbsp;<span class=\"carot-icon\">▲</span></div>";
-    } else {
-        return "<div class=\"marketcaps-pricechange-negative\">" + price + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
-    }
-}
-
-function marketcapsRenderNameColumn( data, type, row, meta ) {
-    if ( type === "filter" ) { return data.symbol+" "+data.name; }
-    else if ( type === "sort" ) { return data.symbol; }
-    else if ( type === "display" ) { return marketcapsGenerateNameColumnHtml( data.name, data.symbol ); }
-    else return data.symbol; 
-}
-
-function marketcapsGenerateNameColumnHtml( name, symbol ) {
-    return "<span class='marketcap-symbol'>" + symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + name + "</span>";
-}
