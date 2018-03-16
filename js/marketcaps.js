@@ -38,9 +38,13 @@ var table = $('#marketcaps-table').DataTable({
         {
             responsivePriority: 1,
             title: "Nombre",
-            render: function( data, type, row, meta) {
-                if ( type !== "display" ) { return data.symbol; }
-                return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + data.name + "</span>";
+            render: function ( data, type, row, meta ) {
+                if ( type === "filter" ) { return data.symbol+" "+data.name; }
+                else if ( type === "sort" ) { return data.symbol; }
+                else if ( type === "display" ) {
+                    return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + data.name + "</span>";
+                }
+                else return data.symbol; 
             }
         },
         {
@@ -54,7 +58,7 @@ var table = $('#marketcaps-table').DataTable({
             className: "dt-right",
             render: function( data, type, row, meta) {
                 if ( type !== "display" ) { return data.price; }
-                if ( data.positiveChange) {
+                if ( data.positiveChange > 0) {
                     return "<div class=\"marketcaps-pricechange-positive\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
                     return "<div class=\"marketcaps-pricechange-negative\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
@@ -78,7 +82,6 @@ var table = $('#marketcaps-table').DataTable({
                     return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
-            
         },
         {
             responsivePriority: 2,
@@ -93,7 +96,7 @@ var table = $('#marketcaps-table').DataTable({
                 }
             }
         },
-        { //Columna espaciadora
+        { // Spacer column
             responsivePriority: 100,
             width: "0px",
             title: "",
