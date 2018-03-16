@@ -43,7 +43,7 @@ var table = $('#marketcaps-table').DataTable({
                 else if ( type === "sort" ) { return data.symbol; }
                 else if ( type === "display" ) {
                     return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + data.name + "</span>";
-                    }
+                }
                 else return data.symbol; 
             }
         },
