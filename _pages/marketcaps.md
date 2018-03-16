@@ -2,7 +2,7 @@
 layout: page
 title: Cotizaciones
 description: Cotización de Bitcoin, Ethereum, Ripple y las principales criptomonedas en el mercado.
-banner_image: marketcaps.jpg
+banner_image: pages/marketcaps.jpg
 permalink: /cotizaciones/
 comments: true
 sitemap: true

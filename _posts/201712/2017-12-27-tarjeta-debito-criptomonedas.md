@@ -144,6 +144,8 @@ Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmen
 
 Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y guardarlos durante un cierto periodo de tiempo (6 meses).
 
+{% include video.html provider="youtube" id="sPPiRRZiFMI" caption="Adicionalmente la app de Monaco servirá de Exchange de criptomonedas para comprar directamente con la tarjeta de crédito" %}
+
 Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. **Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
 ### Conclusión

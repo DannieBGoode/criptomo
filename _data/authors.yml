@@ -4,10 +4,16 @@ daniel                      :
   author_bio                : "Ingeniero de telecomunicaciones apasionado por la tecnología."
   author_url                : "https://criptomo.com"
   author_location           : "Madrid, Spain"
-  author_image              : /images/authorimage.png
+  author_image              : /images/authors/daniel.png
 david                       :
   author_name               : "David"
   author_bio                : "Ingeniero de telecomunicaciones de Zaragoza."
   author_url                :  # "http://example.com"
   author_location           : "Zaragoza, Spain"
-  author_image              : /images/charles.jpg
+  author_image              : /images/authors/charles.jpg
+marisa                      :
+  author_name               : "Marisa"
+  author_bio                : "Periodista especializada en comunicación y marketing digital."
+  author_url                : "https://www.linkedin.com/in/marisa-badia/"
+  author_location           : "Zaragoza, Spain"
+  author_image              : /images/authors/marisa.jpg
