@@ -21,7 +21,7 @@ var table = $('#marketcaps-table').DataTable({
                     "next":       "<span class=\"fa-chevron-right\"></span>",
                     "previous":   "<span class=\"fa-chevron-left\"></span>"
                 },
-                processing: "Cargando..."
+                processing: "<div class='loader' style='display:block'></div>"
             },
     columns: [
         {
