@@ -1,24 +1,27 @@
-// lets use this library https://datatables.net to create dynamic tables that can be sorted and paginated
-var table = $('#marketcaps-table').DataTable({
+let marketcapDataArray = new Array(),
+    marketcapCurrency = '',
+    table = $('#marketcaps-table').DataTable({
     responsive: true,
     pageLength: 100,
+    processing: true,
     /* l (Length changing), f (Filtering input), t (The Table!), i(Information), p (Pagination), r (pRocessing) */
-    dom: '<"marketcaps-table-top"fl>rt<"marketcaps-table-bottom"ip>',
+    dom: 'rt<"marketcaps-table-bottom"ip>',
     language: {
                 lengthMenu: "Items _MENU_",
                 zeroRecords: "No se han encontrado resultados",
                 info: "Página _PAGE_ de _PAGES_",
-                infoEmpty: "No records available",
+                infoEmpty: "No hay información disponible",
                 search: "Buscar:",
                 infoFiltered: "(filtrado entre _MAX_ monedas)",
                 loadingRecords: "Cargando...",
-                emptyTable: "No hay información disponible",
+                emptyTable: "Tabla vacía",
                 paginate: {
                     "first":      "Primera",
                     "last":       "Última",
                     "next":       "<span class=\"fa-chevron-right\"></span>",
                     "previous":   "<span class=\"fa-chevron-left\"></span>"
-                }
+                },
+                processing: "<div class='loader' style='display:block'></div>"
             },
     columns: [
         {
@@ -50,7 +53,10 @@ var table = $('#marketcaps-table').DataTable({
         {
             responsivePriority: 6,
             title: "Cotización",
-            className: "dt-right"
+            className: "dt-right",
+            render: function (data) {
+                return generateCurrencyValueHtml( data, marketcapCurrency );
+            }
         },
         {
             responsivePriority: 1,
@@ -59,9 +65,9 @@ var table = $('#marketcaps-table').DataTable({
             render: function( data, type, row, meta) {
                 if ( type !== "display" ) { return data.price; }
                 if ( data.positiveChange > 0) {
-                    return "<div class=\"marketcaps-pricechange-positive\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
+                    return "<div class=\"marketcaps-pricechange-positive\">" + generateCurrencyValueHtml( data.price, marketcapCurrency ) + "&nbsp;<span class=\"carot-icon\">▲</span></div>";
                 } else {
-                    return "<div class=\"marketcaps-pricechange-negative\">$" + data.price + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
+                    return "<div class=\"marketcaps-pricechange-negative\">" + generateCurrencyValueHtml( data.price, marketcapCurrency ) + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
             }
         },
@@ -105,37 +111,121 @@ var table = $('#marketcaps-table').DataTable({
         }
     ]
 });
-var marketcapDataArray = new Array();
-$.get( "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300", function( response ) {
-    if (window.location.pathname === '/cotizaciones/') {
-        $.each(response, function(index, currency) {
-            let colSpacer = null;
-            let colRank = currency.rank;
-            let colIcon = currency.symbol.toLowerCase();
-            let colName = {
-                symbol: currency.symbol,
-                name: currency.name
-            };
-            let colMarketCap = Math.floor(currency.market_cap_usd).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            let colTokens = Math.floor(currency.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            let colPrice = {
-                price: parseFloat(currency.price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
-                positiveChange: (parseFloat(currency.percent_change_1h).toFixed(1) > 0)
-            };
-            let colChange1h = parseFloat(currency.percent_change_1h).toFixed(1);
-            let colChange24h = parseFloat(currency.percent_change_24h).toFixed(1);
+function marketcapTableLoad( currency ) {
+    table.processing( true );
+    marketcapCurrency = currency;
+    let getUrl = "https://api.coinmarketcap.com/v1/ticker/?convert="+ currency +"&limit=300"
+    marketcapDataArray = [];
 
-            let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
-            marketcapDataArray.push(marketcapDataRow);
-        });
-    }
-})
-.success(function(response) {
-    $(document).ready(function() {
+    $("#marketcaps-currency-select").val(currency);
+    $.get( getUrl, function( response ) {
+        if (window.location.pathname === '/cotizaciones/') {
+            $.each(response, function(index, coin) {
+                let colSpacer = null,
+                    priceLength = '',
+                    colRank = coin.rank,
+                    colIcon = coin.symbol.toLowerCase(),
+                    colName = {
+                        symbol: coin.symbol,
+                        name: coin.name
+                    },
+                    marketCapString = coin["market_cap_"+currency.toLowerCase()],
+                    colMarketCap = Math.floor(marketCapString).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","),
+                    colTokens = Math.floor(coin.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","),
+                    priceString = coin["price_"+currency.toLowerCase()];
+
+                if ((currency !== 'USD') && (currency !== 'EUR')) {
+                    priceLength = 10;
+                } else {
+                    priceLength = 2;  
+                }
+
+                let colPrice = {
+                    price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
+                    positiveChange: (parseFloat(coin.percent_change_1h).toFixed(1) > 0)
+                },
+                colChange1h = parseFloat(coin.percent_change_1h).toFixed(1),
+                colChange24h = parseFloat(coin.percent_change_24h).toFixed(1),
+                marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
+
+                marketcapDataArray.push(marketcapDataRow);
+            });
+        }
+    })
+    .success(function(response) {
         table.clear();
         table.rows.add( marketcapDataArray );
         table.draw();
         table.columns.adjust();
         table.responsive.recalc();
     })
+    .always(function() {
+        table.processing( false );
+    });
+}
+
+$('#marketcaps-filter-input').keyup(function(){
+      table.search($(this).val()).draw() ;
+})
+
+$('#marketcaps-currency-select').change(function() {
+    let selectedCurrency = $("#marketcaps-currency-select").val();
+
+    if (localStorageAvailable) {
+        let criptomo = {};
+        criptomo.currency = selectedCurrency;
+        localStorage.setItem('criptomo', JSON.stringify(criptomo));
+    }
+    marketcapTableLoad(selectedCurrency);
 });
+
+$('#marketcaps-pagelength-select').change(function() {
+    let selected = $("#marketcaps-pagelength-select").val(),
+        pageLength = parseInt(selected) || 100;
+    table.page.len( pageLength ).draw();
+});
+
+$(document).ready(function() {
+    let selectedCurrency = '';
+    if (localStorageAvailable) {
+        let criptomo = JSON.parse(localStorage.getItem('criptomo'))
+        if (criptomo && criptomo.currency) {
+            selectedCurrency = criptomo.currency
+
+        }
+    }
+    selectedCurrency = selectedCurrency || 'USD';
+    marketcapTableLoad(selectedCurrency);
+    
+});
+
+function generateCurrencyValueHtml( price, currency ) {
+    switch( currency ) {
+    case "EUR":
+        symbol = price+"&nbsp;€";
+        break;
+    case "USD":
+        symbol = "$"+price;
+        break;
+    case "BTC":
+        symbol = "₿"+price;
+        break;
+    case "ETH":
+        symbol = "Ξ"+price;
+        break;
+    default:
+        symbol = price+"&nbsp;"+currency.toUpperCase();
+    }
+    return symbol;
+}
+
+function localStorageAvailable() {
+    let test = 'test';
+    try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+    } catch(e) {
+        return false;
+    }
+}
