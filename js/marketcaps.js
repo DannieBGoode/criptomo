@@ -1,7 +1,6 @@
-let marketcapDataArray = new Array();
-let marketcapCurrency = '';
-
-let table = $('#marketcaps-table').DataTable({
+let marketcapDataArray = new Array(),
+    marketcapCurrency = '',
+    table = $('#marketcaps-table').DataTable({
     responsive: true,
     pageLength: 100,
     processing: true,
