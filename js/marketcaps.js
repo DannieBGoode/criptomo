@@ -114,8 +114,9 @@ function marketcapTableLoad( currency ) {
     marketcapCurrency = currency;
     marketcapDataArray = [];
     //e.g. https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300
+
     var getUrl = "https://api.coinmarketcap.com/v1/ticker/?convert="+ currency +"&limit=300"
-    console.log("getUrl="+getUrl);
+    $("#marketcaps-currency-select").val(currency);
     $.get( getUrl, function( response ) {
         if (window.location.pathname === '/cotizaciones/') {
             $.each(response, function(index, coin) {
@@ -158,8 +159,14 @@ $('#marketcaps-filter-input').keyup(function(){
 })
 
 $('#marketcaps-currency-select').change(function() {
-    var selected = $("#marketcaps-currency-select").val();
-    marketcapTableLoad( selected );
+    var selectedCurrency = $("#marketcaps-currency-select").val();
+
+    if (localStorageAvailable) {
+        var criptomo = {};
+        criptomo.currency = selectedCurrency;
+        localStorage.setItem('criptomo', JSON.stringify(criptomo));
+    }
+    marketcapTableLoad(selectedCurrency);
 });
 
 $('#marketcaps-pagelength-select').change(function() {
@@ -169,8 +176,18 @@ $('#marketcaps-pagelength-select').change(function() {
 });
 
 $(document).ready(function() {
-    marketcapTableLoad( "EUR" );
-})
+    var selectedCurrency = '';
+    if (localStorageAvailable) {
+        var criptomo = JSON.parse(localStorage.getItem('criptomo'))
+        if (criptomo && criptomo.currency) {
+            selectedCurrency = criptomo.currency
+
+        }
+    }
+    var selectedCurrency = selectedCurrency || 'USD';
+    marketcapTableLoad(selectedCurrency);
+    
+});
 
 function generateCurrencyValueHtml( price, currency ) {
     switch( currency ) {
@@ -184,4 +201,15 @@ function generateCurrencyValueHtml( price, currency ) {
         symbol = price+"&nbsp;"+currency.toUpperCase();
     }
     return symbol;
+}
+
+function localStorageAvailable() {
+    var test = 'test';
+    try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+    } catch(e) {
+        return false;
+    }
 }
