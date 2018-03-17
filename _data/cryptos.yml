@@ -438,7 +438,7 @@
 - name: Kyber (KNC)
   icon: kyber.png
   website: https://kyber.network/
-  class: interblockchain
+  class: exchange interblockchain
   description: Exchange descentralizado.
 
 - name: ZCoin (XZC)
