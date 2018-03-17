@@ -20,13 +20,23 @@ noMargins: true
     <div class="marketcaps-table-currency">
         <label>
             Moneda
-            <select id="marketcaps-currency-select"><option value="EUR">EUR</option><option value="USD">USD</option><option value="BTC">BTC</option><option value="ETH">ETH</option></select>
+            <select id="marketcaps-currency-select">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="BTC">BTC</option>
+                <option value="ETH">ETH</option>
+            </select>
         </label>
     </div>
     <div class="marketcaps-table-pagelength">
         <label>
             Items
-            <select id="marketcaps-pagelength-select"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option selected="selected" value="100">100</option></select>
+            <select id="marketcaps-pagelength-select">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option selected="selected" value="100">100</option>
+            </select>
         </label>
     </div>
 </div>

@@ -1,6 +1,7 @@
-var marketcapDataArray = new Array();
+let marketcapDataArray = new Array();
+let marketcapCurrency = '';
 
-var table = $('#marketcaps-table').DataTable({
+let table = $('#marketcaps-table').DataTable({
     responsive: true,
     pageLength: 100,
     processing: true,
@@ -114,37 +115,40 @@ var table = $('#marketcaps-table').DataTable({
 function marketcapTableLoad( currency ) {
     table.processing( true );
     marketcapCurrency = currency;
+    let getUrl = "https://api.coinmarketcap.com/v1/ticker/?convert="+ currency +"&limit=300"
     marketcapDataArray = [];
-    //e.g. https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=300
 
-    var getUrl = "https://api.coinmarketcap.com/v1/ticker/?convert="+ currency +"&limit=300"
     $("#marketcaps-currency-select").val(currency);
     $.get( getUrl, function( response ) {
         if (window.location.pathname === '/cotizaciones/') {
             $.each(response, function(index, coin) {
-                let colSpacer = null;
-                let colRank = coin.rank;
-                let colIcon = coin.symbol.toLowerCase();
-                let colName = {
-                    symbol: coin.symbol,
-                    name: coin.name
-                };
-                let marketCapString = coin["market_cap_"+currency.toLowerCase()];
-                let colMarketCap = Math.floor(marketCapString).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                let colTokens = Math.floor(coin.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                let priceString = coin["price_"+currency.toLowerCase()];
+                let colSpacer = null,
+                    priceLength = '',
+                    colRank = coin.rank,
+                    colIcon = coin.symbol.toLowerCase(),
+                    colName = {
+                        symbol: coin.symbol,
+                        name: coin.name
+                    },
+                    marketCapString = coin["market_cap_"+currency.toLowerCase()],
+                    colMarketCap = Math.floor(marketCapString).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","),
+                    colTokens = Math.floor(coin.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","),
+                    priceString = coin["price_"+currency.toLowerCase()];
+
                 if ((currency !== 'USD') && (currency !== 'EUR')) {
                     priceLength = 10;
                 } else {
                     priceLength = 2;  
                 }
+
                 let colPrice = {
                     price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
                     positiveChange: (parseFloat(coin.percent_change_1h).toFixed(1) > 0)
-                };
-                let colChange1h = parseFloat(coin.percent_change_1h).toFixed(1);
-                let colChange24h = parseFloat(coin.percent_change_24h).toFixed(1);
-                let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
+                },
+                colChange1h = parseFloat(coin.percent_change_1h).toFixed(1),
+                colChange24h = parseFloat(coin.percent_change_24h).toFixed(1),
+                marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
+
                 marketcapDataArray.push(marketcapDataRow);
             });
         }
@@ -166,10 +170,10 @@ $('#marketcaps-filter-input').keyup(function(){
 })
 
 $('#marketcaps-currency-select').change(function() {
-    var selectedCurrency = $("#marketcaps-currency-select").val();
+    let selectedCurrency = $("#marketcaps-currency-select").val();
 
     if (localStorageAvailable) {
-        var criptomo = {};
+        let criptomo = {};
         criptomo.currency = selectedCurrency;
         localStorage.setItem('criptomo', JSON.stringify(criptomo));
     }
@@ -177,21 +181,21 @@ $('#marketcaps-currency-select').change(function() {
 });
 
 $('#marketcaps-pagelength-select').change(function() {
-    var selected = $("#marketcaps-pagelength-select").val();
-    var pageLength = parseInt(selected) || 100;
+    let selected = $("#marketcaps-pagelength-select").val(),
+        pageLength = parseInt(selected) || 100;
     table.page.len( pageLength ).draw();
 });
 
 $(document).ready(function() {
-    var selectedCurrency = '';
+    let selectedCurrency = '';
     if (localStorageAvailable) {
-        var criptomo = JSON.parse(localStorage.getItem('criptomo'))
+        let criptomo = JSON.parse(localStorage.getItem('criptomo'))
         if (criptomo && criptomo.currency) {
             selectedCurrency = criptomo.currency
 
         }
     }
-    var selectedCurrency = selectedCurrency || 'USD';
+    selectedCurrency = selectedCurrency || 'USD';
     marketcapTableLoad(selectedCurrency);
     
 });
@@ -217,7 +221,7 @@ function generateCurrencyValueHtml( price, currency ) {
 }
 
 function localStorageAvailable() {
-    var test = 'test';
+    let test = 'test';
     try {
         localStorage.setItem(test, test);
         localStorage.removeItem(test);
