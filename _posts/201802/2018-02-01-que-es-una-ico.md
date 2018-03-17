@@ -62,7 +62,7 @@ La siguiente gráfica presenta una selección de monedas que han realizado ICOs.
 
 Telegram ha anunciado que van a realizar su propia ICO que pretende ser la más ambiciosa hasta la fecha. Aunque la fecha todavía no está definida pretenden recaudar entre mil y dos mil millones de dólares.
 
-## Conclusión
+## Opinión
 
 Como regla personal no invierto en ICOs. Sólo rompería esta regla si confiara especialmente en los responsables del proyecto, como con la ICO de PolkaDot, Telegram o si Bill Gates acabara haciendo la suya.
 

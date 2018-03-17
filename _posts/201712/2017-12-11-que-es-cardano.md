@@ -83,7 +83,7 @@ Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no
 
 Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>.
 
-## Conclusión
+## Opinión
 
 Al final como siempre será el mercado quien decida lo útil y valiosa que será la moneda, por muy buena o prometedora que sea si no se acaba utilizando morirá. El proyecto lleva muy poco activo y por el momento hay que aclarar que su utilidad es absolutamente nula y todo son promesas futuras.
 

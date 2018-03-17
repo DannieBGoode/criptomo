@@ -77,7 +77,7 @@ Las opciones disponibles son:
 * [Monero Web-Wallet](https://mymonero.com/)
 * [Offline Wallet Generator](https://moneroaddress.org/)
 
-#### Conclusión
+#### Opinión
 
 Hay muchas otras monedas que han identificado ese mismo problema y están intentando darle solución, como zCash, XVG o NAV, pero ninguna de ellas está tan avanzada ni desde luego basa su estructura principal en la privacidad siendo anónimo desde el principio.
 

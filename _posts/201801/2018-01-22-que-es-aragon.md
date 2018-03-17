@@ -115,7 +115,7 @@ Entre las posibilidades más prácticas de wallets destacamos:
 * [KeepKey](http://amzn.to/2ja1KHf)
 * <a rel="nofollow" href="https://jaxx.io/">Jaxx</a>
 
-## Conclusión
+## Opinión
 
 Es muy gratificante poder encontrar proyectos con aplicaciones que puedan ser fácilmente entendibles y utilizables por todo el mundo, y sin duda Aragon es uno de ellos. Os invito a que echeis un vistazo a <a rel="nofollow" href="">su página web</a> que además de explicar todo su propósito y motivación, incluye documentación suficiente como para que cualquier persona pueda participar en el proyecto así como tutoriales de como utilizar su herramienta.
 

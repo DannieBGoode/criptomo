@@ -151,7 +151,7 @@ Algunos de los potenciales casos de uso sugeridos serían:
 
 * Un usuario desea acceder a contenido bloqueado por la operadora evitando ser detectado. Su ordenador se conectaría directamente a la red de Oyster por conexiones P2P.
 
-## Conclusión
+## Opinión
 
 PRL me resulta una de las monedas más interesantes del momento. El hecho de tener una moneda que afiance su valor en algo real como es el precio de almacenamiento es un experimento social que puede marcar la historia de las criptomonedas.
 

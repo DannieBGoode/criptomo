@@ -65,7 +65,7 @@ La membresía tiene coste periódico que empieza en 1 SALT al año aunque estos 
 
 Cómo siempre podemos ver qué exchanges venden qué moneda en [coinmarketcap](https://coinmarketcap.com/currencies/salt/#markets). Personalmente recomiendo [Binance](https://www.binance.com/?ref=11317062).
 
-#### Conclusión
+#### Ópinion
 
 Ahora mismo no hay producto (todavía no está lanzado) pero si se consigue lanzar preveo mucha gente que va a acabar utilizando. Existe mucha gente con mucho dinero invertido en criptomonedas que no quieren perder su posición puesto que consideran que son buenas inversiones y que en el futuro van a dar muchos frutos, pero al mismo tiempo necesitan dinero para su dia a dia, y eso es precisamente lo que SALT ofrece.
 

@@ -79,7 +79,7 @@ Nano está disponible en:
 - <a rel="nofollow" href="https://www.kucoin.com">Kucoin</a>
 - <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
 
-## Conclusión
+## Opinión
 
 Aunque se trata de una tecnología muy prometedora, es importante preguntarnos para qué será usado. Si Bitcoin o Ethereum resuelven sus problemas de escalabilidad, y todo apunta a que lo terminarán haciendo, habrá que ver qué ocurre con RaiBlocks y cual acaba siendo su uso.
 
