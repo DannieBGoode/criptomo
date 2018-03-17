@@ -1,5 +1,4 @@
 var marketcapDataArray = new Array();
-var marketcapCurrency = "EUR";
 
 var table = $('#marketcaps-table').DataTable({
     responsive: true,
@@ -54,7 +53,10 @@ var table = $('#marketcaps-table').DataTable({
         {
             responsivePriority: 6,
             title: "Cotización",
-            className: "dt-right"
+            className: "dt-right",
+            render: function (data) {
+                return generateCurrencyValueHtml( data, marketcapCurrency );
+            }
         },
         {
             responsivePriority: 1,
@@ -201,6 +203,12 @@ function generateCurrencyValueHtml( price, currency ) {
         break;
     case "USD":
         symbol = "$"+price;
+        break;
+    case "BTC":
+        symbol = "₿"+price;
+        break;
+    case "ETH":
+        symbol = "Ξ"+price;
         break;
     default:
         symbol = price+"&nbsp;"+currency.toUpperCase();
