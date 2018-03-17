@@ -30,7 +30,7 @@ Es importante aclarar la diferencia entre un seed y una clave privada:
 
 En muchas ocasiones en lugar de clave privada se nos dará un seed lo cual es más que suficiente. Un ejemplo de un seed de un wallet podría ser:
 
-`witch collapse practice feed shame open despair creek road again ice least`.
+`witch collapse practice feed shame open despair creek road again ice least`
 
 A otras criptomonedas les corresponden claves ligeramente distintas y puede que menos recordables que la del ejemplo pero siempre serán generadas por los wallets y debemos guardarlas bien.
 
@@ -42,13 +42,13 @@ Si tenemos sospechas de que alguien ha conseguido copiar nuestra clave privada o
 Existen varias consideraciones a tener en cuenta a la hora de elegir un wallet:
 
 * Precio
-* Facilidad de uso, entiendo cómo funciona y qué puedo hacer con ella.
+* Facilidad de uso: entiendo cómo funciona y qué puedo hacer con ella.
 * Cómo de fácil es mover fondos y hacer pagos.
 * Movilidad, ¿es fácil moverla físicamente? ¿Qué ocurre si se me estropea el dispositivo donde la tengo instalada?
 * Seguridad, ¿están mis criptodivisas seguras?
 * Criptomonedas soportadas. No todos los wallets soportan todas las monedas. Enviar una moneda al wallet incorrecto podría ocasionarme perder mis fondos.
 
-Además de ello existen varios tipos de wallet que veremos a continuación, analicemoslos:
+Además de ello existen varios tipos de wallet que veremos a continuación:
 
 ## Hot wallets
 
@@ -74,13 +74,13 @@ Precio: Gratis
 
 ### Exodus:
 
-<a rel="nofollow" href="http://www.exodus.io/#">Exodus</a> se caracteriza por traer un exchange dentro de la aplicación que te permite diversificar tus fondos sin necesidad de moverlos a un exchange primero. Soporta entre otras Bitcoin, Ethereum, Litecoin, Dash, EOS y Golem. Podéis ver la lista entera <a rel="nofollow" href="http://support.exodus.io/article/96-exodus-wallet-roadmap">aquí</a>
+<a rel="nofollow" href="http://www.exodus.io/#">Exodus</a> se caracteriza por traer un exchange dentro de la aplicación que te permite adquirar otras monedas sin necesidad de moverlos a un exchange primero. Por ejemplo, si sólo tengo Bitcoin en Exodus, podría decidir intercambiar la mitad de mis BTCs por Ethereum. Soporta entre otras Bitcoin, Ethereum, Litecoin, Dash, EOS y Golem. Podéis ver la lista entera <a rel="nofollow" href="http://support.exodus.io/article/96-exodus-wallet-roadmap">aquí</a>
 
 Precio: Gratis
 
 ### Web Wallets
 
-Un web wallet es básicamente una página web que nos permite gestionar nuestras criptomonedas sin necesidad de instalar ningún programa. Es importante que tengamos dos aspectos en cuenta a la hora de elegir un web wallet. En primer lugar los niveles de seguridad que ofrezcan, como verificación en 2 pasos o confirmaciones por email.
+Un web wallet es básicamente una página web que nos permite gestionar nuestras criptomonedas sin necesidad de instalar ningún programa. Es importante que tengamos en cuenta a la hora de elegir un web wallet los niveles de seguridad que ofrezcan, como verificación en 2 pasos o confirmaciones por email de movimientos.
 
 #### Blockchain.info
 
@@ -109,7 +109,7 @@ Existen maneras un poco más prácticas aun así de hacer uso de cold storage. V
 
 ### Hardware Wallets
 
-Una hardware wallet es un aparato que conectas al ordenador cuando quieres mover tus fondos y almacena tu clave privada por ti. De esta manera un virus en tu ordenador sería incapaz de robarte tus fondos. Además dan facilidades para suministrar al usuario con la clave privada, así que en el caso en que se pierda el dispositivo todavía podría recuperar sus fondos ya sea a otra hardware wallet o a cualquier otro que acepte importación.
+Un hardware wallet es un aparato que conectas al ordenador cuando quieres mover tus fondos y almacena tu clave privada por ti. De esta manera un virus en tu ordenador sería incapaz de robarte tus fondos. Además dan facilidades para suministrar al usuario con la clave privada, así que en el caso en que se pierda el dispositivo todavía podría recuperar sus fondos ya sea a otra hardware wallet o a cualquier otro que acepte importación.
 
 
 Además estos dispositivos van con un código PIN, por lo que en caso de robo, si el ladrón no conoce el PIN tampoco podrá hacer uso de la hardware wallet.
@@ -147,7 +147,7 @@ Ledger Nano S soporta las siguientes criptomonedas:
 - Digibyte
 - QTUM
 
-Sólo permite tener cuatro wallets simultáneas al mismo tiempo, aunque es posible desinstalar/reinstalar wallets sin perder los fondos guardados.
+Desgraciadamente sólo permite tener cuatro wallets simultáneas al mismo tiempo, aunque es posible desinstalar/reinstalar wallets sin perder los fondos guardados.
 
 
 {% include image_caption.html imageurl="../images/posts/201711/ledger-nano.png" title="Ledger Nano S" caption="Ledger Nano S" popup=true %}
@@ -215,7 +215,7 @@ Precio: 90€
 
 <a rel="nofollow" href="http://amzn.to/2ja1KHf">KeepKey</a> es una de las hardware wallets más atractivas visualmente que hay ahora mismo en el mercado.
 
-Todavía se tratade un wallet bastante nuevo pero poco a a poco van extendiendo su cobertura de altcoins. Por el momento sólo es compatible con:
+Todavía se trata de un wallet bastante nuevo pero poco a a poco van extendiendo su cobertura de altcoins. Por el momento sólo es compatible con:
 
 - Bitcoin
 - Ethereum
@@ -234,13 +234,15 @@ Un monedero de papel no es más que una clave privada impresa que no está guard
 
 Para hacer uso de un Paper Wallet es imprescindible que tengamos la capacidad de poder guardar una hoja de papel de manera segura. Hay quien va más allá y destruye el papel una vez memorizado (de qué modo afectará a la sociedad esta práctica con los altos casos de alzheimer de hoy en día será un experimento social bastante interesante).
 
+Adicionalmente es posible imprimir Paper Wallets con una clave privada cifrada, por ejemplo el usuario podría cifrar su clave privada con su contraseña personal y de esa manera un ladrón no podría redimir los fondos del paper wallet. Existe software de importación de claves privadas que detectan si la clave esta cifrada y te piden tu contraseña para poder proseguir con la importación.
+
 Absolutamente cualquier moneda puede ser guardada de esta manera.
 
 Precio: Gratis
 
 {% include image_caption.html imageurl="../images/posts/201711/paper-wallet.jpg" title="Paper wallet" caption="Paper Wallet" popup=true %}
 
-**Si la criptomodena en cuestión que queremos almacenar no está soportada por ninguno de estos wallets siempre podemos ir a la página web oficial y descargar el wallet oficial que ofrezcan.** Una vez descargado el wallet y guardado el seed, siempre podemos desinstalar el wallet sin problemas y volverlo a instalar en el futuro.
+**Si la criptomodena en cuestión que queremos almacenar no está soportada por ninguno de estos wallets siempre podemos ir a la página web OFICIAL y descargar el wallet oficial que ofrezcan.** Recalco lo de oficial por que el número de carteras maliciosas es muy grande hoy en día. Una vez descargado el wallet y guardado el seed, siempre podemos desinstalar el wallet sin problemas y volverlo a instalar en el futuro puestos que realmente las monedas están guardadas en el blockchain y no en nuestros ordenadores. **Mientras tengamos la clave privada siempre seremos capaces de recuperarlos.**
 
 Al final tiene que ser decisión de cada uno dónde considera que tiene sus puntos fuertes, si crees que tu caja fuerte es perfectamente fiable adelante, si por el contrario te fías más de tu gestor de contraseñas, podrías tener la clave privada almacenada ahí y no en papel.
 
