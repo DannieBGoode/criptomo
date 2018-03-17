@@ -131,8 +131,13 @@ function marketcapTableLoad( currency ) {
                 let colMarketCap = Math.floor(marketCapString).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 let colTokens = Math.floor(coin.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 let priceString = coin["price_"+currency.toLowerCase()];
+                if ((currency !== 'USD') && (currency !== 'EUR')) {
+                    priceLength = 10;
+                } else {
+                    priceLength = 2;  
+                }
                 let colPrice = {
-                    price: parseFloat(priceString).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
+                    price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, "$1,"),
                     positiveChange: (parseFloat(coin.percent_change_1h).toFixed(1) > 0)
                 };
                 let colChange1h = parseFloat(coin.percent_change_1h).toFixed(1);
