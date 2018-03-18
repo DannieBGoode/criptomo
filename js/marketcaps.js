@@ -208,12 +208,6 @@ function generateCurrencyValueHtml( price, currency ) {
     case "USD":
         symbol = "$"+price;
         break;
-    case "BTC":
-        symbol = "₿"+price;
-        break;
-    case "ETH":
-        symbol = "Ξ"+price;
-        break;
     default:
         symbol = price+"&nbsp;"+currency.toUpperCase();
     }
