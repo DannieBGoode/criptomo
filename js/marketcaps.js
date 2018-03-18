@@ -41,6 +41,7 @@ let marketcapDataArray = new Array(),
         {
             responsivePriority: 1,
             title: "Nombre",
+            className: "dt-left marketcaps-table-column-name",
             render: function ( data, type, row, meta ) {
                 if ( type === "filter" ) { return data.symbol+" "+data.name; }
                 else if ( type === "sort" ) { return data.symbol; }
@@ -206,12 +207,6 @@ function generateCurrencyValueHtml( price, currency ) {
         break;
     case "USD":
         symbol = "$"+price;
-        break;
-    case "BTC":
-        symbol = "₿"+price;
-        break;
-    case "ETH":
-        symbol = "Ξ"+price;
         break;
     default:
         symbol = price+"&nbsp;"+currency.toUpperCase();
