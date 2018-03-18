@@ -69,7 +69,7 @@ Más info de precios en su [web oficial](https://spectrocoin.com/en/bitcoin-debi
 * Mediante Shapeshift aceptan depósitos de virtualmente todas las criptomonedas posibles ya que cuando las envies a tu wallet se encargarán de convertirlas a BTC. Una vez convertidas y como con las demás tarjetas de <p></p>re-pago el usuario deberá elegir cuando convertirlas a fiat.
 * Wirex ya usa tecnología Segwit lo cual abarata considerablemente los costes de transferencia de BTCs.
 
-Podéis registraros por [este link](https://app.wirexapp.com/join/0piRgpCHu0Cb_OsO_uf73w) y conseguir 25% de descuento en la tarjeta de pre-pago.
+Podéis registraros por [este link](https://links.wirexapp.com/MpmB/4bTIQcutbK?action=affiliate-register&code=0piRgpCHu0Cb_OsO_uf73w) y conseguir 25% de descuento en la tarjeta de pre-pago.
 
 
 #### Bitwala
