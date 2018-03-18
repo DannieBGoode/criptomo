@@ -27,7 +27,8 @@ let marketcapDataArray = new Array(),
         {
             responsivePriority: 3,
             title: "#",
-            className: "dt-center"
+            className: "dt-center",
+            searchable: false
         },
         { //Icon
             responsivePriority: 2,
@@ -36,7 +37,8 @@ let marketcapDataArray = new Array(),
                 // return "<div class=\"marketcaps-icon\"><img src=\"/images/general/cryptocurrencies/" + data + "-64.png\" onerror=\"this.onerror=null;this.src='https://www.livecoinwatch.com/images/icons32/" + data + ".png'\" /></div>";
                 return "<div class=\"marketcaps-icon\"><img src=\"https://www.livecoinwatch.com/images/icons32/" + data + ".png\" /></div>";
             },
-            orderable: false
+            orderable: false,
+            searchable: false
         },
         {
             responsivePriority: 1,
@@ -57,7 +59,8 @@ let marketcapDataArray = new Array(),
             className: "dt-right",
             render: function (data) {
                 return generateCurrencyValueHtml( data, marketcapCurrency );
-            }
+            },
+            searchable: false
         },
         {
             responsivePriority: 1,
@@ -70,12 +73,14 @@ let marketcapDataArray = new Array(),
                 } else {
                     return "<div class=\"marketcaps-pricechange-negative\">" + generateCurrencyValueHtml( data.price, marketcapCurrency ) + "&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
-            }
+            },
+            searchable: false
         },
         {
             responsivePriority: 7,
             title: "Tokens en Circulación",
-            className: "dt-right"
+            className: "dt-right",
+            searchable: false
         },
         {
             responsivePriority: 8,
@@ -88,7 +93,8 @@ let marketcapDataArray = new Array(),
                 } else {
                     return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
-            }
+            },
+            searchable: false
         },
         {
             responsivePriority: 2,
@@ -101,14 +107,16 @@ let marketcapDataArray = new Array(),
                 } else {
                     return "<div class=\"marketcaps-pricechange-negative\">" + data + "%&nbsp;<span class=\"carot-icon\">▼</span></div>";
                 }
-            }
+            },
+            searchable: false
         },
         { // Spacer column
             responsivePriority: 100,
             width: "0px",
             title: "",
             orderable: false,
-            className: "marketcaps-table-column-spacer"
+            className: "marketcaps-table-column-spacer",
+            searchable: false
         }
     ]
 });
