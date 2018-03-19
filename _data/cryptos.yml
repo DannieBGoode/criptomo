@@ -149,6 +149,7 @@
   website: https://z.cash/
   class: private currency
   description: Plataforma de pagos que esconde al emisor, receptor y el valor de la transacción, aunque permite hacer la transacción pública más tarde opcionalmente.
+  article: /que-es-zcash/
 
 - name: Tether (USDT)
   icon: usdt-64.png

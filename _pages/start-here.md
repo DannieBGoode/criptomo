@@ -56,6 +56,6 @@ Aprendamos a invertir mejor
 * [Nano](/que-es-nano/)
 * [Qué es Dash](/que-es-dash)
 * [Qué es EOS](/que-es-eos)
-* Qué es Z-Cash (próximamente)
+* [Qué es Z-Cash](/que-es-zcash)
 * Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
 * [Qué es una ICO](/que-es-una-ico/)
