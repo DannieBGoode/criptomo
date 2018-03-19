@@ -144,7 +144,7 @@ Internet of Things - Internet de las cosas, se dice de la red de en la cual part
 
 
 #### ICO
-Evento en el que los creadores de una criptomoneda venden unidades de ésta antes de que llegue a los exchanges con el fin de levantar capital.
+Evento en el que los creadores de una criptomoneda venden unidades de ésta antes de que llegue a los exchanges con el fin de levantar capital. Más información en [Qué es una ICO](/que-es-una-ico).
 
 #### Insta-Minado
 Mecanismo de autofinanciación donde los primeros bloques de una moneda se minan muy fácilmente con recompensas muy altas.
