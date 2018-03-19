@@ -45,6 +45,7 @@ layout: compress
     {{content}}
     {% include footer.html %}
     {% include analytics.html %}
+    {% include mailchimp.html %}
 
     {% unless page.loadsPlugins %}
         <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
