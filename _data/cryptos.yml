@@ -295,7 +295,7 @@
   icon: pivx.png
   website: http://www.pivx.org/
   class: currency
-  description: Clon de DASH con inflación constante y controlada.
+  description: Clon de DASH con inflación constante y controlada que utiliza PoS en lugar de PoW.
 
 - name: MONACO (MCO)
   icon: mco-64.png
