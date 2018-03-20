@@ -70,7 +70,9 @@ Durante el desarrollo de Zcash ha habido bastante gente que ante su disconformid
 
 ### ZClassic (ZCL)
 
-ZClassic es un fork de Zcash creado únicamente por la polémica de otorgar un 20% de la recompensa de cada bloque minado a la tesorería así como incorporar el *comienzo lento* mencionado antes.
+ZClassic es un fork de Zcash creado únicamente para:
+- Quitar el sistema que otorga un 20% de la recompensa de cada bloque minado a la tesorería.
+- Quitar el *comienzo lento* mencionado antes que caracterizó el inicio de Zcash.
 
 El *comienzo lento* ocasionó que el precio de la moneda se inflase artificialmente hasta precios ridículos. Durante los primeros días había un límite de 11 monedas Zcash repartidas entre todos los mineros, inversores y exchanges, que resultó un desastre cuando se estaban pagando 3000BTC por un solo token de Zcash. Hoy se cotiza a valores inferiores a 0.03BTC. ZClassic comenzó con recompensas de bloque completas (de 12.5 ZCL) modelando un mercado mucho más realista y sano.
 
