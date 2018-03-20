@@ -609,6 +609,7 @@
   website: https://zensystem.io/
   class: currency private social
   description: Criptomoneda basada en la privacidad que permite publicar contenido anónimo online.
+  article: /que-es-zcash/
 
 - name: MinexCoin (MNX)
   icon: minexcoin.png
