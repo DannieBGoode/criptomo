@@ -117,4 +117,6 @@ Por desgracia a dia de hoy hay tres reglas muy importantes a tener en cuenta ant
 * **REGLA 2:** Siempre crear una dirección nueva antes de recibir nuevos fondos.
 * **REGLA 3:** Siempre esperar a que una transacción sea confirmada antes de realizar una nueva.
 
+El motivo de estas reglas se debe a que por la tecnología utilizada, cada vez que se realiza una transacción, una parte de la clave privada asociada a esa dirección es revelada, lo que hace a la dirección más vulnerable a ser atacada mediante fuerza bruta.
+
 No seguir estas reglas podría significar la pérdida de nuestras IOTAS. Son limitaciones un poco absurdas a día de hoy que otras tecnologías blockchain desde luego no comparten, esperemos que sean solucionadas con el tiempo.
