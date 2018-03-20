@@ -17,7 +17,7 @@ IOTA asume un escenario futuro donde los dispositivos necesitarán comunicarse e
 
 {% include image_full.html imageurl="/images/posts/201712/iota-banner.jpg" title="IOTA" %}
 
-El equipo de IOTA, responsable del [whitepaper](http://iotatoken.com/IOTA_Whitepaper.pdf) es noruego con oficinas en Oslo, así que se podría considerar una criptomoneda totalmente europea.
+El equipo de IOTA, responsable del [whitepaper](http://iotatoken.com/IOTA_Whitepaper.pdf) es noruego con oficinas en Oslo, así que se podría considerar una criptomoneda totalmente europea. Su oficina central se situa en Berlín pero tiene presencia ya en varios países por el mundo. Fue creada por David Sønstebø, Sergey Ivancheglo, Dominik Schiener y Serguei Popov en 2015 cuando se realizó una ICO que recaudó 1337 BTC (medio millón de dólares entonces).
 
 IOTA no usa tecnología blockchain sino que han ideado su propia versión denominada el tangle. Este diseño le separa de cualquier otra criptomoneda y le ha permitido quitar a los mineros de la ecuación y por tanto eliminar las tasas de transacción. El modo en que esto funciona es que cada vez que un usuario hace una transferencia, primero tiene que verificar otras dos transferencias aleatorias mediante un proof of work de baja dificultad. El esfuerzo computacional para hacer esto es tan pequeño que cualquier dispositivo podría ser capaz de hacerlo. 
 
@@ -37,7 +37,7 @@ De esta manera IOTA quiere convertirse en la red economía de la comunicación e
 
 #### Por qué hay tantas iotas
 
-Existe un total de 2 cuatrillones de IOTAs, lo cual inicialmente puede parecer un número absurdamente alto comparado con los 21 millones de Bitcoin, pero analicemos este número más cuidadosamente.
+Existe un total de 2 cuatrillones de IOTAs (2,779,530,283,277,761 IOTAs), lo cual inicialmente puede parecer un número absurdamente alto comparado con los 21 millones de Bitcoin, pero analicemos este número más cuidadosamente.
 
 Existen seis niveles de agrupación de iotas:
 
@@ -48,11 +48,11 @@ Existen seis niveles de agrupación de iotas:
 * Ti - 1 billón de i. No es usará en el día a día.
 * Pi - 1 Cuatrillón de IOTAs. No se usará en el día a día.
 
-En comparación para Bitcoin, la unidad más pequeña es un satoshi, para 21 millones de BTC que habrá en circulación tendremos en consecuencia 2 cuatrillones de satoshis, teniendo en cuenta que IOTA no tiene decimales, ya no parecen tantas unidades.
+En comparación para Bitcoin, la unidad más pequeña es un satoshi, para 21 millones de BTC que habrá en circulación tendremos en consecuencia 2 cuatrillones de satoshis, teniendo en cuenta que IOTA no es divisible ya que no admite decimales, ya no parecen tantas unidades.
 
 Ethereum todavía no ha marcado su cantidad de tokens en circulación, por el momento hay 95 millones de Ether, donde la unidad más pequeña es conocida como un Wei, lo que nos daría a dia de hoy 95 septillones de Wei, lo que demuestra que Ether tiene más unidades indivisibles que IOTA.
 
-La mejor manera de entender el concepto de cantidades en IOTA es pensando en Gi, donde habría 2 millones de Gi-IOTAS en total.
+La mejor manera de entender el concepto de cantidades en IOTA es pensando en Gi, donde habría 2 millones de Gi-IOTAS en total. Todos los tokens de IOTA han sido preminados y distribuidos a los inversores de la ICO.
 
 #### Velocidad de transmisión de transferencias por segundo
 
@@ -66,8 +66,6 @@ Veamos los rangos de tps de otros populares métodos de pago:
 
 Si cualquier criptomoneda pretende vender al sistema de pago clásico está claro que deberá soportar tps de más de 4000. Ripple es la criptomoneda que más se está acercando por el momento aunque todas ellas están trabajando duro en subir este número. Por el momento IOTA llega a 1000 tps lo cual se acerca bastante a Ripple y supera ampliamente a Bitcoin o Ethereum.
 
-
-
 #### Polémica con Microsoft
 
 {% include image_full.html imageurl="/images/posts/201712/iota-microsoft.png" title="IOTA and Microsoft" popup=true %}
@@ -75,9 +73,6 @@ Si cualquier criptomoneda pretende vender al sistema de pago clásico está clar
 Rumores de un partnership con IOTA elevó el precio de IOTA de 0,7$ hasta casi 5.5$. Se aclaró después que el término *socios* fue utilizado demasiado ampliamente y desde entonces el precio ha caído hasta estabilizarse en torno a los 4$, lo cual todavía es una gran subida respecto a su precio original.
 
 > Nunca hemos dicho que ninguna de las compañías que participan en nuestro marketplace sean nuestros socios. Los llamamos participantes. Estamos en contacto con múltiples divisiones de Microsoft, estamos organizando dos encuentros hoy en Chicago y en París en las oficinas de Microsoft. <cite>Dominik Schiener</cite>
-
-
-
 
 #### Casos de uso
 
