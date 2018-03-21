@@ -33,7 +33,7 @@ La organización provee una plataforma con un gran potencial tanto para el bien 
 
 ## El "PEG"
 
-Uno de los problemas de las criptomonedas es la volatilidad de su precio. Tether intentó ofrecer una moneda alternativa fijando el valor (el peg) de sus tokens a 1$ y asegurando que ellos, el algún banco o cámara acorazada, tienen la contrapartida suficiente como para igualar todos los USDT que existen en circulación. No obstante hay mucha gente que pone esto en duda, y el valor de Tether podría perfectamente decaer enormemente si se demuestra lo contrario. El dólar también tuvo una contrapartida equivalente en oro por cada billete impreso hasta que Nixon decidió desvincularlos.
+Uno de los problemas de las criptomonedas es la volatilidad de su precio. Tether intentó ofrecer una moneda alternativa fijando el valor (el peg) de sus tokens a 1$ y asegurando que ellos, en algún banco o cámara acorazada, tienen la contrapartida suficiente como para igualar todos los USDT que existen en circulación. No obstante hay mucha gente que pone esto en duda, y el valor de Tether podría perfectamente decaer enormemente si se demuestra lo contrario. El dólar también tuvo una contrapartida equivalente en oro por cada billete impreso hasta que Nixon decidió desvincularlos.
 
 Oyster podría ser la primera moneda con un valor racional, controladamente variable y descentralizado. La manera en que pretende conseguirlo es fijando la cantidad de almacenamiento que 1PRL permite pagar de tal manera que el mercado fijará su precio acabando con su volatilidad. Veamos un ejemplo:
 
