@@ -45,9 +45,10 @@ Una vez fijado en el smart contract el algoritmo que fija la capacidad de almace
 
 El creador, llamado Bruno Block, es anónimo pero el resto del equipo puede ser visto en [su página web](https://oysterprotocol.com/#core-team). Normalmente jamás aconsejaría un proyecto donde los integrantes del equipo son anónimos, pero debido a lo polémica que puede llegar a ser su plataforma si es usada indebidamente, unido a lo activo que son en la comunidad respondiendo preguntas puedo entender la situación.
 
-Ponen a disposición del público un <a rel="nofollow" href="https://trello.com/oysterprotocol">Trello</a> con los distintos hitos que van realizando, aunque me gustaría que estuviese más completo de lo que lo vemos.
-Poseen un <a rel="nofollow" href="https://github.com/oysterprotocol">Github</a> bastante activo donde se puede comprobar todo el trabajo que están realizando.
-<a rel="nofollow" href="https://t.me/oysterprotocol">Telegram</a> donde el equipo, incluyendo Bruno, participan activamente aclarando cualquier pregunta que los usuarios puedan tener.
+Ponen a disposición del público: 
+- <a rel="nofollow" href="https://trello.com/oysterprotocol">Trello</a>: con los distintos hitos que van realizando, aunque me gustaría que estuviese más completo de lo que lo vemos.
+- <a rel="nofollow" href="https://github.com/oysterprotocol">Github</a>: bastante activo donde se puede comprobar todo el trabajo que están realizando.
+- <a rel="nofollow" href="https://t.me/oysterprotocol">Telegram</a>: donde el equipo, incluyendo Bruno, participan activamente aclarando cualquier pregunta que los usuarios puedan tener.
 
 ## Tecnología
 
