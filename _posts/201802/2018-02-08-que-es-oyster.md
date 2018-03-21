@@ -58,7 +58,7 @@ El ecosistema de Oyster se divide en varias roles:
 
 Se trata del usuario que decide pagar PRLs por almacenamiento descentralizado de sus ficheros que serán cifrados y fraccionados en trozos muy pequeños (de menos de 1MB) en su equipo antes de ser almacenados en el Tangle. Su única responsabilidad a parte de pagar será almacenar el *handle*, es decir, la contraseña única referente a ese fichero.
 
-Su fichero estará almacenado de manera anónima, segura en el tangle, es decir, replicado en muchos equipos de la red, lo que permite que cientos de usuarios puedan descargarse el mismo fichero sin retrasos (parecido a como funciona la tecnología torrent). Una vez el fichero esté subido, se puede descargar las veces que se desee de manera gratuita, pero en cambio, crear modificaciones implicaría gastar de nuevo ancho de banda de almacenaje.
+Su fichero estará almacenado de manera anónima y segura en el tangle, es decir, replicado en muchos equipos de la red, lo que permite que cientos de usuarios puedan descargarse el mismo fichero sin retrasos (parecido a como funciona la tecnología torrent). Una vez el fichero esté subido, se puede descargar las veces que se desee de manera gratuita, pero en cambio, crear modificaciones implicaría gastar de nuevo ancho de banda de almacenaje.
 
 Cuando un usuario paga por 64GB/año, lo que realmente está pagando es que durante un año, 64GB subidos al tangle, serán mantenidos por la red, si el usuario deja de pagar, pasado el tiempo preestablecido, la red irá borrando la información cuyo contrato no haya sido renovado. Un fichero subido por un usuario no podrá ser borrado por gobiernos, organizaciones u otros usuarios mientras el precio de su almacenaje siga siendo pagado.
 
@@ -75,7 +75,7 @@ Provee de acceso al Tangle a los nodos web y a los usuarios que desean almacenar
 La organización o la persona encargada de una página web, únicamente añadiendo un pequeño script al final de su página pondrá a los usuarios a minar en su beneficio en lugar de bombardearlos con publicidad.
 
 Añadir el script a la página será tan sencillo como añadir la siguiente línea en el código HTML: `<script id="o.ws" payout="ETH_ADDRESS" src="https://oyster.ws/webnode.js"></script>`.
-Una vez puesta, los visitantes recibirán un aviso que les informará de que para poder ver los contenidos deberán contribuir una pequeña parte de su equipo al minado (que antes estaba siendo utilizada para mostrar los anuncios) de nuevo PRLs para el dueño de la página. El dueño entonces podrá vender los PRLs generados y así financiar su página web.
+Una vez puesta, los visitantes recibirán un aviso que les informará de que, para poder ver los contenidos de la web deberán contribuir una pequeña parte de su equipo al minado (que de todas formas antes estaba siendo utilizada para mostrar los anuncios) de nuevos PRLs para el dueño de la página. El dueño entonces podrá vender los PRLs generados y así financiar su página web.
 
 #### Visitantes web
 
@@ -108,7 +108,7 @@ Oyster tiene algo de competencia entre distintas monedas que también pretender 
 
 Aunque Storj almacena la información de manera descentralizada existe un único punto de entrada dependiente de ellos, que podría considerarse su punto débil. Storj es capaz de monitorizar los datos almacenados e incluso acceder a ellos. Oyster es totalmente anónimo y si la empresa desaparece el protocolo podrá seguir funcionando sin ella.
 
-Para utilizar Siacoin, un usuario debe descargarse todo su blockchain (6GB y varias horas) antes de poder utilizar la red. Tanto los usuarios de Sia como los de Filecoin deberán pagar por las descargas que realicen de los ficheros una vez subidos a sus respectivos blockchain.
+Para utilizar Siacoin, un usuario debe descargarse todo su blockchain (6GB y varias horas) antes de poder utilizar la red. Tanto los usuarios de Sia como los de Filecoin deberán pagar por las descargas que realicen de los ficheros una vez subidos a sus respectivos blockchain, mientras que Oyster ofrece descargas ilimitadas una vez el fichero ha sido subido.
 
 En la siguiente tabla se puede ver comparativamente los diferentes servicios de la competencia de los que ya se conocen el precio. Aquellos que tienen un asterístico se debe a que no ofrecen los planes exactos que estamos comparando por lo que hemos cogido el precio del plan siguiente y calculado cuanto sería la cuantía. Se presupone que el precio de 1 PRL es de 0.75$ aunque hasta que la plataforma salga al mercado este irá variando por motivos especulativos.
 
@@ -140,7 +140,7 @@ Resulta obvio que una vez se lance la plataforma, una de las primeras aplicacion
 
 El equipo de Oyster ha anunciado una nueva moneda denominada SHELL, de la cual harán airdrop 1:1 a todos los wallets que contengan PRL, es decir, los usuarios que almacenen sus tokens en wallets recibirán un SHL por cada PRL que poesan.
 
-SHL será utilizado para pagar conectividad y operaciones de aplicaciones descentralizadas en la red de Oyster, y a diferencia de PRL, no estará fijado a un peg, por lo que su valor no estará acotado pero será vulnerable a las fluctuaciones de precio. En un futuro se podrían utilizar SHLs apra acceder a páginas web descentralizadas o esquivar totalmente a las operadoras de telecomunicaciones.
+SHL será utilizado para pagar conectividad y operaciones de aplicaciones descentralizadas en la red de Oyster, y a diferencia de PRL, no estará fijado a un peg, por lo que su valor no estará acotado y será vulnerable a las fluctuaciones de precio. En un futuro se podrían utilizar SHLs para acceder a páginas web descentralizadas o esquivar totalmente a las operadoras de telecomunicaciones.
 
 {% include image_caption.html imageurl="/images/posts/201802/shell.png" title="Shell Token" popup=true class="small-banner" %}
 
@@ -156,5 +156,9 @@ Algunos de los potenciales casos de uso sugeridos serían:
 
 PRL me resulta una de las monedas más interesantes del momento. El hecho de tener una moneda que afiance su valor en algo real como es el precio de almacenamiento es un experimento social que puede marcar la historia de las criptomonedas.
 
-Aunque la red se lanza en Abril de 2018, el precio del token PRL, suponiendo una capacidad de almacenamiento mínima de 64GB/año es todavía bajísimo comparado con Google Drive o Amazon Web Services aunque si es cierto que su usabilidad no va a ser la misma en un inicio, al menos hasta que no haya una aplicación de escritorio que que le permita recibir adopción en masa.
+Aunque la red se lanza en Abril de 2018, el precio del token PRL, suponiendo una capacidad de almacenamiento mínima de 64GB/año es todavía bajísimo comparado con Google Drive o Amazon Web Services aunque si es cierto que su usabilidad no va a ser la misma en un inicio, al menos hasta que no haya una aplicación de escritorio que le permita recibir adopción en masa.
+
+Por otro lado está por ver si los usuarios de internet aceptan o no que parte de su equipo se dedique a minar criptomonedas mientras navegan a cambio de no ser bombardedos con publicidad. El equipo de Oyster asegura que esto es equivalente a cuando los usuarios eran reacios a poner sus tarjetas de crédito en webs de compra por internet, algo que ya es totalmente estándar a día de hoy.
+
+La testnet B ahora activa todavía tiene unas velocidades de transferencia muy lentas. La velocidad de carga y descarga está fuertemente ligada al éxito de IOTA implantando sharding y escalando su red.
 
