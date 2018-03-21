@@ -66,6 +66,18 @@ Veamos los rangos de tps de otros populares métodos de pago:
 
 Si cualquier criptomoneda pretende vender al sistema de pago clásico está claro que deberá soportar tps de más de 4000. Ripple es la criptomoneda que más se está acercando por el momento aunque todas ellas están trabajando duro en subir este número. Por el momento IOTA llega a 1000 tps lo cual se acerca bastante a Ripple y supera ampliamente a Bitcoin o Ethereum.
 
+#### Tecnología
+
+IOTA hace uso de una entidad denominada *El Coordinador*, que está formada por varios nodos completos distribuidos por todo el mundo y manejados directamente por la fundación IOTA. Su propósito principal es proteger a la red de manera temporal de posibles atacantes marcando la dirección en la que el tangle debe crecer. Aunque la red es considerada descentralizada porque cualquier nodo puede verificar que el Coordinador no está rompiendo las reglas de consenso creando iotas de la nada o aprobando gastos dobles, **el Coordinador es una solución temporal y la intención es eliminarlo** una vez la red de IOTA sea lo suficientemente madura. La existencia del Coordinador es una de las grandes críticas a esta moneda y habrá que ver si resulta posible que la tecnología sobreviva sin él.
+
+En el roadmap de IOTA podemos encontrar otras dos funcionalidades:
+
+- **Sharding**: Permitirá escalar la red mucho más rápido al fraccionar el blockchain entre los distintos nodos. Por ejemplo un sharding de nivel 1 podría consistir en dividir el blockchain por la mitad, y que algunos nodos guarden una mitad y el resto la otra de tal manera que ningún nodo necesite almacenar la totalidad de las transacciones. Ethereum también está investigando como implementarlo.
+
+- **Snapshots**: Snapshots es un proceso que ayuda a mantener el blockchain del menor tamaño posible agrupando todas las transferencias a una misma dirección en un solo movimiento. Además borra del historial todas las transacciones de balances nulos (utilizados por la red de IOTA para el envío de información entre nodos). Actualmente los snapshots se hacen de manera manual pero se espera que sean automatizados próximamente.
+
+Aún con la existencia de ambas funcionalidades siempre se requerirá de nodos permanentes que almacenen toda la información de la historia del tangle de manera segura y persistente.
+
 #### Polémica con Microsoft
 
 {% include image_full.html imageurl="/images/posts/201712/iota-microsoft.png" title="IOTA and Microsoft" popup=true %}
