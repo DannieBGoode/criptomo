@@ -57,7 +57,7 @@ banner_image             : images/banner.jpg
 ads                      : true
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
-mailchimp_url: # "//example.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+mailchimp_url            : "https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c"
 
 # Social links in the site footer
 twitter_username         : "danniebgoode"
