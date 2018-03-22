@@ -3,6 +3,7 @@ daniel                      :
   author_name               : "Daniel"
   author_bio                : "Ingeniero de telecomunicaciones apasionado por la tecnología."
   author_url                : "https://criptomo.com"
+  author_url_name           : "CRIPTOMO"
   author_location           : "Madrid, Spain"
   author_image              : /images/authors/daniel.png
 david                       :
@@ -15,5 +16,11 @@ marisa                      :
   author_name               : "Marisa"
   author_bio                : "Periodista especializada en comunicación y marketing digital."
   author_url                : "https://www.linkedin.com/in/marisa-badia/"
+  author_url_name           : "Linkedin"
   author_location           : "Zaragoza, Spain"
   author_image              : /images/authors/marisa.jpg
+tatiana                     :
+  author_name               : "Tatiana"
+  author_bio                : "Magister en Informática Educativa"
+  author_location           : "Bogotá, Colombia"
+  author_image              : /images/authors/tatiana.jpg
