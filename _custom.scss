@@ -1,0 +1,162 @@
+.coinmarketcap-currency-widget {
+	margin-bottom: 10px;
+	margin-left: 15px;
+	div {
+		border: 0px !important;
+		a {
+			display: none;
+		}
+	}
+}
+.ticker-icon {
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle; 
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+}
+.sidebar-ticker {
+	margin-top: 15px;
+	margin-bottom: 15px;
+    color: $marketcap-price;
+}
+.ticker-price-change-positive {
+	color: green;
+}
+.ticker-price-change-negative {
+	color: red;
+}
+code {
+	background-color: #ddd;
+	color: darkblue;
+}
+figure {
+	text-align: center;
+	a {
+		text-decoration: none;
+	}
+}
+ins {
+	background-color: $mine-shaft !important;
+}
+.embedded {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.small-image {
+	height: 30px;
+}
+.small-banner {
+	max-width: 40%;
+}
+.site-title {
+	font-weight: bold;
+}
+.responsive-video-container {
+	figcaption {
+		margin-bottom: 15px;
+	}
+}
+.table {
+	tr {
+		td {
+			font-size: 80%;
+		}
+	}
+}
+@media only screen and (max-width: 700px) {
+        .table-collapsable {
+            display: none;
+        }
+}
+.profits {
+	color: green;
+}
+p {
+	strong {
+	color: #333;
+	}
+}
+.entry-content hr {
+	background-color: $picton-blue;
+}
+
+.no-margins {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.corporate-blue{
+	color: $picton-blue;
+}
+progress {
+	z-index: 1;
+	/* Positioning */
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	/* Dimensions */
+	width: 100%;
+	height: 5px;
+
+	/* Reset the appearance */
+	-webkit-appearance: none;
+	 -moz-appearance: none;
+	      appearance: none;
+
+	/* Get rid of the default border in Firefox/Opera. */
+	border: none;
+
+	/* Progress bar container for Firefox/IE10+ */
+	background-color: transparent;
+
+	/* Progress bar value for IE10+ */
+	color: $picton-blue;
+}
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: $picton-blue;
+}
+
+progress::-moz-progress-bar {
+  background-color: $picton-blue;
+}
+
+input:focus, select:focus {
+	outline: none;
+	border-color: $picton-blue;
+}
+
+.loader {
+	background: url("/images/general/loading.gif");
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.error {
+	display: none;
+	color: red;
+}
+.news-source {
+	text-align: right;
+	font-size: 80%;
+}
+.tweet-block {
+	margin-bottom: 40px;
+}
+.widget-newsletter {
+	color: $white;
+}
