@@ -1,12 +1,11 @@
 ---
 layout: post
 title: John Oliver y las Criptomonedas
-description: La criptomoneda tomará un lugar dominante en finanzas mundiales y se convertirá en la principal moneda mundial para pagos, superando al dólar en importancia.
+description: John Oliver habla de las criptomonedas en el programa The Latenight Show.
 banner_image: 201803/john-oliver.jpg
 author: marisa
 tags: [noticias]
 ---
-
 
 "Si eliges invertir en criptomonedas, no estás invirtiendo, estás apostando"
 
