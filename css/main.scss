@@ -209,7 +209,7 @@
 .entry-content a {
     overflow-wrap: break-word;
     word-wrap: break-word;
-    word-break: break-all; /* IE */
+    word-break: break-word; /* IE */
     display: inline;
     display: -ms-inline-flexbox; /* IE */
 }
