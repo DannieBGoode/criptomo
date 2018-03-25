@@ -1,0 +1,1 @@
+https://steemit.com/economics/@freeforever/roger-ver-just-tweeted-a-list-of-important-economic-books-he-have-read-during-the-years
