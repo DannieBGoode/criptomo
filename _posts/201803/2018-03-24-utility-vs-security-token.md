@@ -4,6 +4,7 @@ title: Utility Token y Security Token
 description: Diferencias entre utility tokens, security tokens y equity tokens. Qué son cada una.
 banner_image: 201803/electric-car.jpg
 tags: [altcoins]
+published: false
 ---
 
 Initial coin offerings (ICOs) han levantado más de 3.25 billones de dólares este año, creando lo qu epodría ser una industria trillonaria. A través de ICOs pequeñas startups pueden levantar capital vendiendo tokens a través del blockchain (normalmente Ethereum) y distribuyendolos a cambio de fondos para financiar su empresa.
