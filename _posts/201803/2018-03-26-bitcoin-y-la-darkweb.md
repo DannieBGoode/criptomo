@@ -9,6 +9,8 @@ tags: [bitcoin]
 
 La semana pasada Bill Gates perdió muchos seguidores de su causa al afirmar en un AMA Reddit, que el Bitcoin es una criptomoneda que causa muertes de una forma directa y es usada para adquirir sustancias ilegales.
 
+<!--more-->
+
 Al parecer a Bill Gates ha olvidado que en octubre del año pasado en el programa de Smart Street de Bloomberg TV, mencionó que Bitcoin ha obtenido sólo una mala reputación debido a casos como el de Mt.Gox y el de Silk Road.
 
 > Las transacciones ilegales de alto valor son más fáciles con Bitcoin debido al aspecto digital ya que evitan el sistema de transacción financiera electrónica, que tiene controles y equilibrios para atrapar transacciones como el financiamiento de la actividad ilegal. <cite>Edmund Moy, ex-director de la Casa de la Moneda de los Estados Unidos</cite>
