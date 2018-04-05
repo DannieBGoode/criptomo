@@ -62,7 +62,19 @@ Ethereum quedó tan impresionado con la funcionalidad de zk-Snarks que su implem
 
 {% include tweet.html href="https://twitter.com/Snowden/status/913544739542241282" caption="La privacidad de Zcash es la aternativa más interesante a Bitcoin actualmente. Bitcoin es genial pero sin privacidad no hay seguridad. - Edward Snowden" %}
 
+## Dónde comprar Zcash
 
+- <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
+- <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
+- <a rel="nofollow" href="kraken.com">Kraken</a>
+- <a rel="nofollow" href="https://www.bitfinex.com">Bitfinex</a>
+
+## Dónde almacenar Zcash
+
+* <a rel="nofollow" href="http://amzn.to/2i5kRoG">Ledger Nano S</a>
+* <a rel="nofollow" href="http://amzn.to/2i72hMV">Trezor</a>
+* <a rel="nofollow" href="https://jaxx.io/">Jaxx</a>
+* <a rel="nofollow" href="https://coinomi.com/">Coinomi</a>
 
 ## Hard Forks
 

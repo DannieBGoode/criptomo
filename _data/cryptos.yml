@@ -60,6 +60,7 @@
   website: https://www.stellar.org/
   class: finance
   description: Asociación sin ánimo de lucro para facilitar a cualquier persona realizar pagos a través de los bancos. Están trabajando en envíos de dinero a través de mensajes de texto con el móvil.
+  article: /que-es-stellar-lumens/
 
 - name: EOS (EOS)
   icon: eos-64.png
