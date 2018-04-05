@@ -132,6 +132,9 @@ Se dice del fork que se realiza para poder cambiar las reglas de un blockchain m
 #### Hash
 Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
 
+#### Hash-rate
+Número de hashes por segundo capaz de procesar un dispositivo con la intención de encontrar el hash solución de un bloque mediante Proof of Work y en consecuencia obtener la recompensa de bloque.
+
 #### HODL
 HOLD - No vender las monedas pase lo que pase.
 
