@@ -29,6 +29,7 @@ include:
   - _pages
 exclude:
   - package.json
+  - node_modules
 
 analytics:
   google                 : "UA-110091733-1"
