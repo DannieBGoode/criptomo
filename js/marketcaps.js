@@ -34,8 +34,14 @@ let marketcapDataArray = new Array(),
             responsivePriority: 2,
             title: "",
             render: function ( data, type, row, meta ) {
-                // return "<div class=\"marketcaps-icon\"><img src=\"/images/general/cryptocurrencies/" + data + "-64.png\" onerror=\"this.onerror=null;this.src='https://www.livecoinwatch.com/images/icons32/" + data + ".png'\" /></div>";
-                return "<div class=\"marketcaps-icon\"><img src=\"https://www.livecoinwatch.com/images/icons32/" + data + ".png\" /></div>";
+                let imageSrc = '';
+                if (coins[data]) {
+                    imageSrc = "/images/general/cryptocurrencies/" + coins[data].icon;
+                }
+                else {
+                    imageSrc = "https://www.livecoinwatch.com/images/icons32/" + data + ".png";
+                }
+                return "<div class=\"marketcaps-icon\"><img src=\"" + imageSrc + "\" /></div>";
             },
             orderable: false,
             searchable: false
@@ -45,10 +51,14 @@ let marketcapDataArray = new Array(),
             title: "Nombre",
             className: "dt-left marketcaps-table-column-name",
             render: function ( data, type, row, meta ) {
-                if ( type === "filter" ) { return data.symbol+" "+data.name; }
+                if ( type === "filter" ) { return data.symbol + " " + data.name; }
                 else if ( type === "sort" ) { return data.symbol; }
                 else if ( type === "display" ) {
-                    return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + data.name + "</span>";
+                    let name = data.name;
+                    if (coins[data.symbol.toLowerCase()]) {
+                        name = "<a href='" + coins[data.symbol.toLowerCase()].website + "'>" + data.name + "</a>";
+                    }
+                    return "<span class='marketcap-symbol'>" + data.symbol + "</span>"+"<br/><span class='marketcaps-coinname'>" + name + "</span>";
                 }
                 else return data.symbol; 
             }
@@ -211,13 +221,13 @@ $(document).ready(function() {
 function generateCurrencyValueHtml( price, currency ) {
     switch( currency ) {
     case "EUR":
-        symbol = price+"&nbsp;€";
+        symbol = price + "&nbsp;€";
         break;
     case "USD":
-        symbol = "$"+price;
+        symbol = "$" + price;
         break;
     default:
-        symbol = price+"&nbsp;"+currency.toUpperCase();
+        symbol = price + "&nbsp;" + currency.toUpperCase();
     }
     return symbol;
 }

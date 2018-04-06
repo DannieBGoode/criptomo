@@ -2,3 +2,4 @@ _site
 .sass-cache
 Documentation
 images/pending
+node_modules

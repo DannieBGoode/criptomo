@@ -26,9 +26,9 @@ loadsPlugins: true
                  </a>
             {% endfor %}
             </div>
-
 			<div class="grid">
-				{% for currency in site.data.cryptos %}
+				{% for coin in site.data.coins %}
+					{% assign currency = coin[1] %}
 				<div class="coinlist-box item {{ currency.class }}">
 				    <div class="coinlist-info">
 						<div class="coinlist-info-1">

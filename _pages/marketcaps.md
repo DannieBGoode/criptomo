@@ -15,7 +15,7 @@ noMargins: true
         <label>
             Buscar
             <input type="search" id="marketcaps-filter-input">
-        </label>    
+        </label>
     </div>
     <div class="marketcaps-table-currency">
         <label>
@@ -54,5 +54,9 @@ noMargins: true
 <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
 
 <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+
+<script>
+    const coins = {{ site.data.coins | jsonify }};
+</script>
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/marketcaps.js?{{site.time | date: '%s%N'}}"></script>

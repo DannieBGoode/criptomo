@@ -159,7 +159,7 @@
   description: Criptomoneda basada en el dólar, su valor es siempre de 1$.
 
 - name: Maker (MKR)
-  icon: mkr-64.jpg
+  icon: mkr.png
   website: https://makerdao.com/
   class: finance
   description: Moneda estable frente al dólar mediante el uso de smart contracts.
@@ -625,7 +625,7 @@
   description: Auditorías de smart contracts con informes públicos.
 
 - name: Revain (R)
-  icon: revain.jpg
+  icon: r.png
   website: https://revain.org/
   class: ads
   description: Plataforma de reviews descentralizada.
@@ -643,7 +643,7 @@
   description: Smart contracts en el blockchain de Bitcoin.
 
 - name: Particl (PART)
-  icon: particl.jpg
+  icon: part.png
   website: https://particl.io/
   class: private marketplace social
   description: Criptomoneda basada en la privacidad que ofrece marketplace y chat cifrado.
@@ -685,7 +685,7 @@
   description: Casino descentralizado.
 
 - name: Loopring (LRC)
-  icon: loopring.jpg
+  icon: lrc.png
   website: https://loopring.org
   class: exchange
   description: Exchange descentralizado y protocolo abierto.

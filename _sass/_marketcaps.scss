@@ -126,6 +126,13 @@ table#marketcaps-table {
 
 .marketcaps-coinname {
     font-size: 90%;
+    a {
+        color: $body-text;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $picton-blue;
+    }
 }
 
 .marketcaps-table-column-name {
