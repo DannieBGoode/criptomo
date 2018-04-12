@@ -19,17 +19,19 @@ No es necesario que entendamos todos los mecanismos y la tecnología en que se b
 
 ### 2. Comprar una moneda porque su token está barato
 
-Estos días hemos estado viendo como Ripple ha superado a Ethereum en cotización y se ha colocado en segunda posición. Está claro que hay mucho dinero bancario detrás que ha subido el precio, pero también he visto infinidad de casos donde la gente ve que la moneda vale menos de 10$ y decide comprarla en lugar de comprar por ejemplo Bitcoin puesto que está en torno a los 16000$ y por lo tanto no les llega para comprar una moneda entera.
+En enero de 2018 pudimos ver como Ripple superó a Ethereum en cotización y se colocó temporalmente en segunda posición. Está claro que hay mucho dinero bancario detrás que decidió subir el precio, pero también he visto infinidad de casos donde la gente ve que la moneda vale menos de $10 y decide comprarla en lugar de comprar por ejemplo Bitcoin puesto que valé miles de dólares y por lo tanto no les llega para comprar una moneda entera.
 
-En primer lugar no es necesario comprar un BTC o un ETH entero, podemos perfectamente comprar fracciones de la moneda y si el valor de la moneda sube, nuestra inversión subirá exactamente igual.
+Es importante tener en cuenta dos cosas:
 
-En segundo lugar, el valor del mercado de cualquier criptodivisa no depende únicamente del valor de la moneda, sino también de la cantidad de monedas en circulación. Ripple es la moneda con más tokens en circulación, 100 mil millones de unidades de XRP, y además RippleLabs se guarda el poder de imprimir más cuando lo vean oportuno. Si comparamos esto a los 21 millones de tokens de BTC que existirán (nunca se podrán imprimir más) es obvio que suponiendo que ambas monedas vayan bien, XRP nunca superará en valor a BTC ni debe hacerlo. Lo que sí probablemente pasará es que cuando RippleLabs imprima más tokens, el precio del XRP baje por simple inflación.
+- No es necesario comprar un BTC o un ETH entero, podemos perfectamente comprar fracciones de la moneda, o lo equivalente a $100 y si el valor de la moneda sube, nuestra inversión subirá exactamente igual.
+
+- El valor del mercado de cualquier criptodivisa no depende únicamente del valor de la moneda, sino también de la cantidad de monedas en circulación. Ripple es la moneda con más tokens en circulación, 100 mil millones de unidades de XRP, y además RippleLabs se guarda el poder de imprimir más cuando lo vean oportuno. Si comparamos esto a los 21 millones de tokens de BTC que jamás existirán (nunca se podrán imprimir más) es obvio que suponiendo que ambas monedas vayan bien, XRP nunca superará en valor a BTC ni debe hacerlo.  Si XRP llegase a valer por ejemplo $1000, su cotización total sería de 100 billones de dólares (un 1 y 14 ceros), que es un valor mayor que el total del dinero que existe en el mundo. Es imposible. Lo que sí probablemente pasará es que cuando RippleLabs imprima más tokens, el precio del XRP baje por simple inflación. 
 
 {% include image_caption.html imageurl="/images/posts/201801/total-supply.png" title="Cryptocurrencies total supply" popup=true caption="Ripple tiene 40 mil millones de monedas en circulación y cada mes liberarán más hasta llegar a 100 mil millones" %}
 
 ### 3. Vender en plena caída por FUD
 
-Hemos comprado una moneda después de seleccionarla correctamente y de repente vemos como su valor empieza a caer en picado. Si no hemos analizado nuestra inversión con rangos de pérdida y triggers STOP-LOSS propios de una inversión a corto plazo de ningún modo debemos venderla. Los crashes en el mercado de las criptodivisas son habituales, Bitcoin mismo ha tenido caídas de más del 90% que hubieran cerrado empresas en el mundo real, pero siempre se ha recuperado. 
+Hemos comprado una moneda después de seleccionarla correctamente y de repente vemos como su valor empieza a caer en picado. Si nuestra inversión es a largo plazo y pensamos haberla analizado bien de ningún modo debemos venderla. Los crashes en el mercado de las criptodivisas son habituales, Bitcoin mismo ha tenido caídas de más del 90% que hubieran cerrado empresas en el mundo real, pero siempre se ha recuperado. 
 
 El FUD (Fear, Uncertainty and Doubt) son propios de este mercado: aparece un rumor sobre como el creador de una moneda ha sido detenido por asesinato en Tailandia y todo el mundo empieza a vender como loco. No nos dejemos llevar por estos rumores. **Si realmente creemos en la criptodivisa que hemos elegido sólo habremos perdido nuestra inversión en el momento en que vendemos**. Tened paciencia. 
 
@@ -47,12 +49,12 @@ Resulta muy intuitivo medir los beneficios de nuestras inversiones en criptomone
 
 > Si algo vale BTC 0.00027200 se dice que su valor es de 27200 satoshis.
 
-El motivo por el que hay que hacer esto, es por que para cada activo financiero, debemos medirlo contra un punto de referencia. Ese es el estándar para invertir en cualquier activo financiero.
+El motivo por el que hay que hacer esto, es porque el estándar para invertir en cualquier activo financiero es medirlo contra un punto de referencia.
 
 {% include tweet.html href="https://twitter.com/cryptomanran/status/939165804809027585?ref_src=twsrc%5Etfw" caption="Un niño le pide a su padre su primer Bitcoin por su cumpleaños. Padre: ¿Qué? ¿¿15,554$?? ¡14,354$ es mucho dinero! ¿Para que diablos necesitas 16,782$?" %}
 
 
-Con las acciones por ejemplo, se deben medir los retornos contra el índice bursátil, por ejemplo contra el S&P-500, y sólo así se verá que la mayoria parte de los fondos financieros (aproximadamente un 80%) tienen un rendimiento inferior al del S&P-500, especialmente cuando medimos los retornos a largo plazo. Pero en cambio tienen ganancias por que la economía ha mejorado (al menos en aquellos países del primer mundo donde la bolsa funciona de manera efectiva). Si en lugar de invertir en un fondo hubiéramos invertido en el S&P-500 directamente nos habría ido mejor y desde luego si hubieramos invertido en empresas del S&P-500 nosotros mismos sin utilizar fondos y de manera inteligente podríamos haber incluso superado al propio S&P-500, generando lo que se conoce en el mundo de la inversión como *alfa*.
+Con las acciones por ejemplo, se deben medir los retornos contra el índice bursátil, y sólo así se verá que la mayoria parte de los fondos financieros (aproximadamente un 80%) tienen un rendimiento inferior al de su índice, especialmente cuando medimos los retornos a largo plazo. Pero en cambio tienen ganancias por que la economía ha mejorado (al menos en aquellos países del primer mundo donde la bolsa funciona de manera efectiva). Si en lugar de invertir en un fondo hubiéramos invertido en el S&P-500 directamente nos habría ido mejor y desde luego si hubieramos invertido en empresas del S&P-500 nosotros mismos sin utilizar fondos y de manera inteligente podríamos haber incluso superado al propio S&P-500, generando lo que se conoce en el mundo de la inversión como *alfa*.
 
 Así es como debeis medir vuestros retornos, si realmente estais superando a Bitcoin con vuestros altcoins o no. Si no lo estais haciendo, aunque estéis obteniendo beneficios estais destruyendo valor y os habría salido mejor dejarlo todo en BTC. Si vuestras altcoins están superando al BTC en crecimiento, estais generando *alfa*.
 
