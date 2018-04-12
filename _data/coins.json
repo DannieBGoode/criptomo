@@ -84,7 +84,8 @@
 		"icon": "xem-64.png",
 		"website": "http://nem.io/",
 		"class": "dapps business",
-		"description": "Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas."
+		"description": "Plataforma para negocios y desarrolladores que quieren construir aplicaciones descentralizadas y conectarlas al Blockchain mediante herramientas prefabricadas.",
+		"article": "/que-es-nem/"
 	},
 	"btg": {
 		"name": "Bitcoin Gold (BTG)",
