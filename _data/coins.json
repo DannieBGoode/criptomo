@@ -407,7 +407,7 @@
 	"btcd": {
 		"name": "Bitcoin Dark (BTCD)",
 		"icon": "bitcoin-dark.png",
-		"website": "http://bitcoindark.com/",
+		"website": "https://bitcoindark.life//",
 		"class": "exchange",
 		"description": "Exchange de bienes digitales enfocado en privacidad y libertad financiera."
 	},
