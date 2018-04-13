@@ -802,5 +802,19 @@
 		"website": "https://loopring.org",
 		"class": "exchange",
 		"description": "Exchange descentralizado y protocolo abierto."
+	},
+	"cnd": {
+		"name": "Cindicator (CND)",
+		"icon": "cnd.png",
+		"website": "https://cindicator.com/",
+		"class": "gaming finance",
+		"description": "Plataforma de predicciones, cuanto más precisas sean las predicciones de un usuario mayores ganancias obtiene."
+	},
+	"dbc": {
+		"name": "DeepBrain Chain",
+		"icon": "dbc.png",
+		"website": "https://www.deepbrainchain.org",
+		"class": "computing",
+		"description": "Red donde nodos pueden ceder su poder computacional a empresas de Inteligencia Artificial a cambio de tokens"
 	}
 }
