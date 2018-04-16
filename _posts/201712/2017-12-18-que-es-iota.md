@@ -78,14 +78,6 @@ En el roadmap de IOTA podemos encontrar otras dos funcionalidades:
 
 Aún con la existencia de ambas funcionalidades siempre se requerirá de nodos permanentes que almacenen toda la información de la historia del tangle de manera segura y persistente.
 
-#### Polémica con Microsoft
-
-{% include image_full.html imageurl="/images/posts/201712/iota-microsoft.png" title="IOTA and Microsoft" popup=true %}
-
-Rumores de un partnership con IOTA elevó el precio de IOTA de 0,7$ hasta casi 5.5$. Se aclaró después que el término *socios* fue utilizado demasiado ampliamente y desde entonces el precio ha caído hasta estabilizarse en torno a los 4$, lo cual todavía es una gran subida respecto a su precio original.
-
-> Nunca hemos dicho que ninguna de las compañías que participan en nuestro marketplace sean nuestros socios. Los llamamos participantes. Estamos en contacto con múltiples divisiones de Microsoft, estamos organizando dos encuentros hoy en Chicago y en París en las oficinas de Microsoft. <cite>Dominik Schiener</cite>
-
 #### Casos de uso
 
 Estando la tecnología todavía en desarrollo es aún pronto para tener casos de usos en funcionamiento, aun así existen empresas que ya empiezan a hacer uso de ella de manera exitosa.
