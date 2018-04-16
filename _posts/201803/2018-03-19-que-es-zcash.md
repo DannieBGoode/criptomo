@@ -117,7 +117,7 @@ Los creadores de ZClassic han creado recientemente un nuevo fork denominado <a r
 
 `1 BTC + 1 ZCL = 2BTCP`
 
-Esto ha ocasionado que muchos inversores invirtieran en ZCL los días inmediatamente anteriores al fork (puesto que es considerablemente más barato comprar un ZCL que un BTC), y se pudo ver como el precio subió de 2$ a 88$ para después desplomarse totalmente una vez el fork fue realizado.
+Esto ha ocasionado que muchos inversores invirtieran en ZCL los días inmediatamente anteriores al fork (puesto que es considerablemente más barato comprar un ZCL que un BTC), y se pudo ver como el precio subió de 2$ a 200$ para después desplomarse totalmente una vez el fork fue realizado.
 
 {% include image_caption.html title="Zcash pump and dump" imageurl="/images/posts/201803/zclassic.png" caption="Pump and Dump de ZClassic en anticipación al fork" popup=true %}
 
