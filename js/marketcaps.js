@@ -128,7 +128,7 @@ function marketcapTableLoad( currency ) {
   table.processing( true );
   marketcapCurrency = currency;
   let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
-  // let marketcapDataArray = [];
+  let marketcapDataArray = [];
 
   $('#marketcaps-currency-select').val(currency);
   $.get( getUrl, function ( response ) {
