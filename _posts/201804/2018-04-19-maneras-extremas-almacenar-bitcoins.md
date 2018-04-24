@@ -15,7 +15,7 @@ El valor del Bitcoin vale tanto que las personas se vuelven muy cautelosas sobre
 
 En 2014, Martijn Wismeijer tenía dos chips (NFC) implantados en cada mano. Estos chips almacenan sus claves cifradas de Bitcoin. El motivo de esta decisión tan extrema fue la cantidad de bitcoins que llegó a perder por la piratería informática.
 
-"Puedo decir con seguridad que la mayor parte de bitcoins, más del 80 por ciento, lo he perdido debido a hackeos, robos, intercambios fallidos y otros problemas. Si hubiera tenido el chip en 2010, probablemente ya sería un hombre rico", dijo Wismeijer.
+> Puedo decir con seguridad que la mayor parte de bitcoins, más del 80 por ciento, lo he perdido debido a hackeos, robos, intercambios fallidos y otros problemas. Si hubiera tenido el chip en 2010, probablemente ya sería un hombre rico <cite>- Martijn Wismeijer</cite>
 
 El procedimiento no fue muy doloroso y tuvo lugar en un estudio de piercing corporal. El chip era pequeño, 2mm x 12mm, que es casi el tamaño de un grano de arroz.
 
