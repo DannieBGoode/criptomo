@@ -31,6 +31,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 - Qué es el [Ataque del 51%](/ataque-51-porciento/).
 - [Proof of Work - Cómo funciona y por qué consume tanta energía](/que-es-proof-of-work/)
 - [El problema de escalabilidad de Bitcoin](/problema-escalabilidad/)
+- Qué es un [Smart Contract](/que-es-un-smart-contract/)
 - [Claves Privadas y Seeds - Conceptos básicos](/clave-privada-vs-seed/)
 
 ### Estrategias de inversión
