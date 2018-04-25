@@ -15,7 +15,7 @@ Una de las diferentes maneras de utilizar MEW es directamente introduciendo la c
 
 {% include image_caption.html imageurl="/images/posts/201804/not-secure.png" caption="Google advierte de cuando un protocolo HTTPS ha sido vulnerado" %}
 
-Esto era debido a que unos hackers, a pesar de no haber podido vulnerar a MEW en sí, si consiguió hackear los servidores de DNS de los que hacía uso MEW redirigiendo a todos los usuarios que accedían a la web a otra página aparentemente idéntica a MEW pero controlada por ellos. En cuanto los usuarios introducían sus claves privadas, los hackers automáticamente movían todos los fondos que encontrasen a cuentas en su posesión. Debido a que todas las operaciones ejecutadas en el blockchain son irreversibles es muy poco probable que los usuarios recuperen jamás sus fondos.
+Esto era debido a que unos hackers, a pesar de no haber podido vulnerar a MEW en sí, si consiguieron hackear los servidores de DNS de los que hacía uso MEW redirigiendo a todos los usuarios que accedían a la web a otra página aparentemente idéntica a MEW pero controlada por ellos. En cuanto los usuarios introducían sus claves privadas, los hackers automáticamente movían todos los fondos que encontrasen a cuentas en su posesión. Debido a que todas las operaciones ejecutadas en el blockchain son irreversibles es muy poco probable que los usuarios recuperen jamás sus fondos.
 
 {% include tweet.html href="https://twitter.com/myetherwallet/status/988830652526092288" caption="Los DNS de Google han sido hackeados hoy a las 12PM UTC por lo que los usuarios de MEW eran redireccionados a una página web maligna. Esta técnica de hackeo tiene más de una década de edad y pretende atacar al sistema de rutas de Google" %}
 
