@@ -13,7 +13,7 @@ El wallet por excelencia de Ethereum y tokens ERC20 MyEtherWallet (MEW) ha sido 
 
 Una de las diferentes maneras de utilizar MEW es directamente introduciendo la clave privada que controla tus fondos en su interfaz web, algo [que hemos recomendado NO hacer en varias ocasiones](/como-guardar-criptomonedas/). Aproximadamente a las 12PM UTC los usuarios que entraron a MEW pudieron ver la siguiente imagen advirtiendo que el sitio no era seguro:
 
-{% include image_caption.html imageurl="/images/posts/201804/not-secure.png" caption="Google advierte de cuando un protocolo HTTPS ha sido vulnerado" %}
+{% include image_caption.html imageurl="/images/posts/201804/not-secure.png" caption="Google advierte de cuando un protocolo HTTPS ha sido vulnerado" popup=true %}
 
 Esto era debido a que unos hackers, a pesar de no haber podido vulnerar a MEW en sí, si consiguieron hackear los servidores de DNS de los que hacía uso MEW redirigiendo a todos los usuarios que accedían a la web a otra página aparentemente idéntica a MEW pero controlada por ellos. En cuanto los usuarios introducían sus claves privadas, los hackers automáticamente movían todos los fondos que encontrasen a cuentas en su posesión. Debido a que todas las operaciones ejecutadas en el blockchain son irreversibles es muy poco probable que los usuarios recuperen jamás sus fondos.
 
@@ -41,4 +41,4 @@ Otra solución que el equipo de MEW sugiere es que utilicemos la versión offlin
 
 Por último debemos desconfiar de cualquier página que no utilice HTTPS y no esté autorizada con el icono verde del candado, puesto que si aparece en rojo existe la posibilidad de que la página haya sido vulnerada.
 
-{% include image_caption.html imageurl="/images/posts/201804/https.png" caption="CRIPTOMO utiliza HTTPS" %}
+{% include image_caption.html imageurl="/images/posts/201804/https.png" caption="CRIPTOMO utiliza HTTPS" popup=true %}
