@@ -53,7 +53,7 @@ let table = $('#marketcaps-table').DataTable({
         if ( type === 'filter' ) { return data.symbol + ' ' + data.name; } else if ( type === 'sort' ) { return data.symbol; } else if ( type === 'display' ) {
           let name = data.name;
           if (coins[data.symbol.toLowerCase()]) {
-            name = "<a rel="nofollow" href='" + coins[data.symbol.toLowerCase()].website + "'>" + data.name + '</a>';
+            name = "<a rel='nofollow' href='" + coins[data.symbol.toLowerCase()].website + "'>" + data.name + '</a>';
           }
           return "<span class='marketcap-symbol'>" + data.symbol + '</span>' + "<br/><span class='marketcaps-coinname'>" + name + '</span>';
         }
