@@ -39,7 +39,7 @@ function calculateEarnings() {
           // altcoin api
           $.get('https://min-api.cryptocompare.com/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
             .success(function (data) {
-              if ((data.data !== 'Error') && (data[investment.tokenSymbol][investment.fiat] !== 0)) {
+              if ((data.Response !== 'Error') && (data[investment.tokenSymbol][investment.fiat] !== 0)) {
                 investment.oldPrice = data[investment.tokenSymbol][investment.fiat];
                 paintResults(investment);
               } else if (data.Response === 'Error') {
