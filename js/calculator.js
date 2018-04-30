@@ -84,7 +84,7 @@ function calculateEarnings() {
     } else {
       change = 'negative';
     }
-    $('#gained-percentage').addClass('gained-percentage-' + change);
+    $('#gained-percentage').removeClass().addClass('gained-percentage-' + change);
     $('#calculator-results').show();
   }
 
