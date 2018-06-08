@@ -6,7 +6,6 @@ banner_image: 201806/boxing.jpg
 rating: 5
 totalVotes: 3
 tags: [altcoins]
-published: false
 ---
 
 EOS ha sido bautizada en muchas ocasiones como un mejor Ethereum, o el Ethereum Killer, pero ¿realmente lo es? Analicemos las diferencias de ambas plataformas más a fondo.
@@ -17,7 +16,7 @@ EOS ha sido bautizada en muchas ocasiones como un mejor Ethereum, o el Ethereum 
 
 ## Diferencias
 
-### Estado de los Smart Contracts
+### Ecosistema
 
 En Ethereum ya existen muchos smart contracts funcionando y además hay muchas criptomonedas activamente utilizando el modelo ERC-20 de Ethereum. En EOS los smart contracts todavía son teóricos puesto que la plataforma todavía no está lanzada aunque si es cierto que EOS pretende ofrecer muchas más funcionalidades que Ethereum. Recordemos que Ethereum se ha declarado agnóstica a las posibles aplicaciones que se puedan construir sobre él y se considera únicamente una plataforma sobre la cual los demás pueden construir.
 
@@ -35,7 +34,7 @@ EOS utiliza dPOS, lo que le permite soportar 1000-8000 tps pero en consecuencia 
 
 ### Tasas de ejecución de smart contracts
 
-En los smart contracts de Ethereum un usuario debe pagar la ejecución del contrato inteligente que desea ejecutar en *gas*. En cambio en EOS, un smart contract consumirá recursos de la red (y por tanto se ejecutará) en función de cuántos tokens EOS sus desarrolladores tengan en su posesión. Este segundo approach es todavía muy experimental y no se sabe bien qué consecuencias podría tener sobre la red. Por ejemplo si un smart contract tiene un bug que causa un bucle infinito, en Ethereum el bucle existiría hasta que se gastase el gas mientras que en EOS continuaría ejecutándose para siempre ocupando los recursos computacionales acordes al número de tokens de EOS con los que cuentan los creadores del contrato.
+En los smart contracts de Ethereum un usuario debe pagar la ejecución del contrato inteligente que desea ejecutar en *gas*. En cambio en EOS, un smart contract consumirá recursos de la red (y por tanto se ejecutará) en función de cuántos tokens EOS sus desarrolladores tengan en su posesión. Este segundo enfoque es todavía muy experimental y no se sabe bien qué consecuencias podría tener sobre la red. Por ejemplo si un smart contract tiene un bug que causa un bucle infinito, en Ethereum el bucle existiría hasta que se gastase el gas mientras que en EOS continuaría ejecutándose para siempre ocupando los recursos computacionales acordes al número de tokens de EOS con los que cuentan los creadores del contrato.
 
 En otras palabras, si una entidad por algún motivo produce un bucle infinito en el código de un contrato inteligente independientemente de si es accidental ó con buenas o malas intenciones en EOS podría ocupar los recursos de toda la red para siempre (o hasta que se congele y modifique el contrato).
 
@@ -49,7 +48,7 @@ EOS utiliza C++ que es mucho más complicado de utilizar, por lo que no estará 
 
 La gobernanza es la capacidad de los usuarios de elegir el camino de una criptomoneda. Ethereum ofrece gobernanza fuera de la cadena pero en consecuencia permite en general reducir la confianza que se debe tener sobre otros miembros de la comunidad.
 
-EOS en cambio incluye un modelo de gobernanza directamente en su blockchain desde el primer día contando con un sistema de votaciones, <a rel="nofollow" href="https://vitalik.ca/general/2018/03/28/plutocracy.html">lo cual ha sido duramente criticado por Vitalik Buterin ya que la hace vulnerable a sobornos a los miembros votantes</a>.
+EOS en cambio incluye un modelo de gobernanza directamente en su blockchain desde el primer día contando con un sistema de votaciones, lo cual ha sido <a rel="nofollow" href="https://vitalik.ca/general/2018/03/28/plutocracy.html">duramente criticado por Vitalik Buterin ya que la hace vulnerable a sobornos a los miembros votantes</a>.
 
 ### Centralización
 
