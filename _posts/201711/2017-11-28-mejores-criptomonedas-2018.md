@@ -77,53 +77,13 @@ Más información en [Qué es Aragon](/que-es-aragon).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/aragon/#markets)
 
-## SALT
-
-{% include image_caption.html imageurl="../images/posts/201711/salt.png" title="Dash" class="small-banner" %}
-
-[SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. La plataforma haría de intermediario entre el prestatario y aquella gente que no quiere manejar criptomonedas directamente.
-
-Más información en [Qué es Salt](/que-es-salt).
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/salt/#markets)
-
-## OmiseGo
-
-{% include image_caption.html imageurl="../images/posts/201711/omisego.png" title="OmiseGo" class="small-banner" %}
-
-[OmiseGo](https://omisego.network/) es una plataforma construida sobre Ethereum que pretende ofrecer tanto pagos como intercambios entre monedas, ya sean fiat o criptomonedas con costes bajos.
-
-Lo más importante a destacar de OmiseGo es que está recibiendo mucho apoyo en el sureste asiático donde mucha gente ni siquiera tiene cuenta bancaria, de hecho ya es aceptada como forma de pago en los McDonalds de Tailandia.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/omisego/#markets)
-
-## Litecoin
-
-{% include image_caption.html imageurl="../images/posts/201711/litecoin.png" title="Litecoin" class="small-banner" %}
-
-[Litecoin](https://litecoin.org/) es una versión mucho más ligera y rápida que Bitcoin creada por Charlie Lee. Existe la posibilidad de que en un futuro Bitcoin se acabe utilizando únicamente como modelo de almacenamiento de valor, en este escenario, monedas como Litecoin o Bitcoin Cash crecerían muchísimo en valor.
-
-Teneis una guía más completa en [Qué es Litecoin](/que-es-litecoin).
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/litecoin/#markets)
-
-## NEO
-
-{% include image_caption.html imageurl="../images/posts/201711/neo.jpg" title="NEO" class="small-banner" %}
-
-[NEO](https://neo.org/) es el rival de Ethereum chino. Aunque existen ciertas diferencias técnicas en como se han construido, ambos intentan resolver los mismos problemas: Smart Contracts, ICOs y DApps.
-
-NEO está respaldado por el gobierno chino (mientras que Ethereum no está respaldado por ningún gobierno) y a dia de hoy es difícil encontrar información traducida al inglés debido a sus raíces chinas. Aun así el mercado chino es un titán internacional y sin ninguna duda oiremos hablar mucho de él este año.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/neo/#markets)
-
 ## Ripple
 
 {% include image_caption.html imageurl="../images/posts/201711/ripple.png" title="Ripple" class="small-banner" %}
 
 [Ripple](https://ripple.com/) es una protocolo de pagos que está siendo apoyado bastante por los bancos que están empezando a usar sus servicios aunque todavía en un fase muy experimental.
 
- Ripple actúa como un algoritmo de búsqueda de caminos para encontrar la ruta más económica en el mercado de convertir bienes de valor: de dólares a euro, de millas de avión en Bitcoin, etc.
+Ripple actúa como un algoritmo de búsqueda de caminos para encontrar la ruta más económica en el mercado de convertir bienes de valor: de dólares a euro, de millas de avión en Bitcoin, etc.
 
 Teneis una guía más completa en [Qué es Ripple](/que-es-ripple).
 
@@ -139,22 +99,6 @@ Teneis una guía más completa en [Qué es Monero](/que-es-monero).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/monero/#markets)
 
-## Z-Cash
-
-{% include image_caption.html imageurl="../images/posts/201711/zcash.png" title="Z-Cash" class="small-banner" %}
-
-[Z-Cash](https://z.cash) es otra de las monedas concentradas en aumentar la privacidad de sus usuarios. Han sido los primeros en añadir *zk-SNARK*, que es una propiedad matemática que permite a un tercero validar una transacción entre dos partes sin necesidad de conocer todos los detalles de la transacción. Sin duda un concepto muy potente en el mundo de la criptografía que Ethereum ha decidido incorporar a su roadmap.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/zcash/#markets)
-
-## Stratis
-
-{% include image_caption.html imageurl="../images/posts/201711/stratis.jpg" title="Stratis" class="small-banner" %}
-
-[Stratis](https://stratisplatform.com/) apoyada por Microsoft y diseñada para negocios que quieran desarrollar, testear y desplegar sus propias aplicaciones .NET basadas en tecnología blockchain.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/stratis/#markets)
-
 ## IOTA
 
 {% include image_caption.html imageurl="../images/posts/201711/iota.png" title="IOTA" class="small-banner" %}
@@ -164,30 +108,6 @@ Teneis una guía más completa en [Qué es Monero](/que-es-monero).
 Teneis una guía más completa en [Qué es IOTA](/que-es-iota).
 
 [¿Dónde comprar?](https://coinmarketcap.com/currencies/iota/#markets)
-
-## Waves
-
-{% include image_caption.html imageurl="../images/posts/201711/waves.png" title="Waves" class="small-banner" %}
-
-[Waves](https://wavesplatform.com/) intenta hacer la distribución de tokens hiper sencilla y para todos los públicos al permitir que cualquier persona cree su propio token. Por ejemplo si se construye una urbanización nueva de 100 viviendas, por el precio de 1 Wave podrían crearse 100 tokens y distribuirse entre los propietarios de tal manera que la propiedad se justificaría con la posesión de cada token.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/waves/#markets)
-
-## ARK
-
-{% include image_caption.html imageurl="../images/posts/201711/ark.png" title="ARK" class="small-banner" %}
-
-[Ark](https://ark.io/) es una plataforma que pretende conectar todas las demás criptomonedas. Visionando un futuro donde existen demasiadas criptomonedas en circulación, ARK propone ser la aplicación para el consumidor final final que no entiende de criptomonedas.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/ark/#markets)
-
-## Golem
-
-{% include image_caption.html imageurl="../images/posts/201711/golem.jpg" title="Golem" class="small-banner" %}
-
-[Golem](https://golem.network/) es de las tecnologías más prometedoras del mundo de blockchain. Esta criptomoneda no compite para ser un sustitutivo del dinero convencional sino que se encarga de facilitar el alquiler de poder computacional de manera global. Pongamos un ejemplo, un diseñador de vídeo necesita compilar un video de alta calidad, realizar esta tarea con su ordenador le costaría unas 6 horas, Golem le permitirá alquilar otros ordenadores de la red que no estén siendo utilizados en ese momento para acelerar el proceso.
-
-[¿Dónde comprar?](https://coinmarketcap.com/currencies/golem-network-tokens/#markets)
 
 ## EOS
 

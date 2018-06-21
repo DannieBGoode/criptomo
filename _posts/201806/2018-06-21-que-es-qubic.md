@@ -51,7 +51,7 @@ Es bastante asombroso todo lo que la fundación IOTA tiene en su roadmap, planea
 - ofrecer alquiler de procesamiento como Golem
 - minimizar el problema de los oráculos.
 
-Resulta obvio que van a tardar bastantes años en poder ofrecer todo el ecosistema que plantean, además de que cambiar el estándar de binario a trinario me resulta una quimera a día de hoy que podría crear grandes fricciones y divisiones en la comunidad global.
+Resulta obvio que van a tardar bastantes años en poder ofrecer todo el ecosistema que plantean, además de que cambiar el estándar de binario a trinario me resulta una quimera a día de hoy que podría crear grandes fricciones y divisiones en la comunidad digital global.
 
 Aún así Qubic recoge muchas de las mejores ideas que se han planteado durante los últimos años en el mundo de las criptomonedas y añade algunas propias en un solo ecosistema sin tasas de transacción, lo cual no es algo que se deba pasar por alto.
 
