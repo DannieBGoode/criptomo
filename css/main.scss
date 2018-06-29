@@ -11,7 +11,11 @@
     "tables",
     "custom",
     "magnific-popup.scss",
-	"coinlist"
+    "coinlist",
+    "coinlist-filter",
+    "calculator",
+    "marketcaps",
+    "jquery.dataTables.min"
 ;
 
 /**
@@ -200,6 +204,14 @@
 .entry-content > h5:first-child,
 .entry-content > h6:first-child {
     margin-top: 0;
+}
+
+.entry-content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word; /* IE */
+    display: inline;
+    display: -ms-inline-flexbox; /* IE */
 }
 
 /**

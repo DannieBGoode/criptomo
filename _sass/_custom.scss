@@ -9,13 +9,13 @@
 	}
 }
 .ticker-icon {
-	width: 30px;
-	height: 30px;
+	width: 32px;
+	height: 32px;
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle; 
 	background-repeat: no-repeat;
-	background-size: 30px 30px;
+	background-size: 32px 32px;
 }
 .sidebar-ticker {
 	margin-top: 15px;
@@ -29,8 +29,11 @@
 	color: red;
 }
 code {
-	background-color: #ddd;
-	color: darkblue;
+	background-color: #fcedea;
+	font-size: 90%;
+	color: #c0341d;
+	padding: 2px 4px;
+	border-radius: 3px;
 }
 figure {
 	text-align: center;
@@ -83,6 +86,13 @@ p {
 .entry-content hr {
 	background-color: $picton-blue;
 }
+
+.no-margins {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
 .corporate-blue{
 	color: $picton-blue;
 }
@@ -121,4 +131,35 @@ progress::-webkit-progress-value {
 
 progress::-moz-progress-bar {
   background-color: $picton-blue;
+}
+
+input:focus, select:focus {
+	outline: none;
+	border-color: $picton-blue;
+}
+
+.loader {
+	background: url("/images/general/loading.gif");
+	background-size: 100px 100px;
+	height: 100px;
+	width: 100px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.error {
+	display: none;
+	color: red;
+}
+.news-source {
+	text-align: right;
+	font-size: 80%;
+}
+.tweet-block {
+	margin-bottom: 40px;
+}
+.widget-newsletter {
+	color: $white;
 }

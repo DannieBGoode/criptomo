@@ -24,11 +24,11 @@ El funcionamiento de estas tarjetas es sencillo:
 
 Para entender en qué momento las criptomonedas son convertidas en fiat, distingamos entre dos tipos de tarjetas:
 
-* **Tarjetas de pre-pago**: En el momento en que el usuario envía sus criptomonedas al wallet, éstas son almacenadas hasta que el usuario decide venderlas y convertirlas a fiat a la tasa de intercambio que haya en ese momento. Pueden resultar una buena opción si pensamos que el precio de la criptomoneda en cuestión va a bajar puesto que realmente estamos vendiendo las monedas, o podemos ir pasando a fiat cada vez que vayamos a comprar algo.
+* **Tarjetas de pre-pago**: En el momento en que el usuario envía sus criptomonedas a la tarjeta, éstas son convertidas a fiat a la tasa de intercambio que haya en ese momento. Pueden resultar una buena opción si pensamos que el precio de la criptomoneda en cuestión va a bajar puesto que realmente estamos vendiendo las monedas, o podemos ir pasando a fiat cada vez que vayamos a comprar algo.
 
 * **Tarjetas de débito**: Las criptomonedas sólo serán convertidas en fiat en el momento en que usemos la tarjeta de crédito, y sólo la cantidad necesaria. El resto seguirá revalorizándose según marque el mercado. Adicionalmente podremos sacar las criptos del wallet de la tarjeta cuando así lo deseemos. Son la mejor opción si confiamos en el mundo que las criptomonedas traen consigo.
 
-Además muchas de las empresas que os mostraremos permiten tarjetas virtuales para hacer pagos por internet o meterlas en aplicaciones como Apple Pay o Samsung Pay para pagos con el móvil mediante tecnología contact-less por lo que ni siquiera necesitamos tener la tarjeta física. Una tarjeta física nos permitiría poder sacar dinero de cajeros (suelen cobrar una tasa de 2-3€) o utilizarla en aquellos comercios donde no tengan todavía contact less.
+Además muchas de las empresas que os mostraremos permiten tarjetas virtuales para hacer pagos por internet o meterlas en aplicaciones como Apple Pay o Samsung Pay para pagos con el móvil mediante tecnología contact-less por lo que ni siquiera necesitariamos tener la tarjeta física. Una tarjeta física nos permitiría poder sacar dinero de cajeros (suelen cobrar una tasa) o utilizarla en aquellos comercios donde no tengan todavía contact less.
 
 Recordemos que los precios de transacción de BTC ahora mismo son muy altos por lo que para cantidades pequeñas no nos interesa pagar con BTC ahora mismo. Algunas de estas tarjetas aceptan otras criptomonedas que podemos utilizar, por ejemplo Ethereum.
 
@@ -41,7 +41,7 @@ Por desgracia todavía ninguna de estas empresas permite todavía personalizar l
 
 {% include image_caption.html imageurl="/images/posts/201712/bitpay.jpg" title="Bitpay Card" popup=true %}
 
-[Bitpay](https://bitpay.com) es una tarjeta de prepago pero pone a tu disposición un wallet del cual te darán las claves privadas, y podrás hacer conversiones de BTC a fiat rápidas al precio que marcan ellos. Además cuenta con una aplicación de móvil bastante atractiva.
+<a rel="nofollow" href="https://bitpay.com">Bitpay</a> es una tarjeta de prepago pero pone a tu disposición un wallet del cual te darán las claves privadas, y podrás hacer conversiones de BTC a fiat rápidas al precio que marcan ellos. Además cuenta con una aplicación de móvil bastante atractiva.
 
 Por desgracia sólo permite 30 transacciones al mes y las comisiones son altas.
 
@@ -49,27 +49,27 @@ Por desgracia sólo permite 30 transacciones al mes y las comisiones son altas.
 
 {% include image_caption.html imageurl="/images/posts/201712/spectrocoin.png" title="Spectrocoin Card" popup=true %}
 
-[Spectrocoin](https://spectrocoin.com) no cobra ninguna tasa por cargar BTC en la tarjeta, ademas:
+<a rel="nofollow" href="https://spectrocoin.com">Spectrocoin</a> no cobra ninguna tasa por cargar BTC en la tarjeta, ademas:
 
 * Su wallet acepta Bitcoin, Ethereum, DASH y NEM.
 * Permite utilizar otras tarjetas de crédito para comprar BTC directamente en su aplicación.
 * Dispone de tarjeta virtual.
 * A parte de las obligatorias aplicaciones de iOS y Android también tiene aplicación para Windows phone.
 
-Más info de precios en su [web oficial](https://spectrocoin.com/en/bitcoin-debit-card.html).
+Más info de precios en su <a rel="nofollow" href="https://spectrocoin.com/en/bitcoin-debit-card.html">web oficial</a>.
 
 #### Wirex
 
 {% include image_caption.html imageurl="/images/posts/201712/wirex.png" title="Wirex Card" popup=true %}
 
-[Wirex](https://wirexapp.com/card/) ofrece:
+<a rel="nofollow" href="https://wirexapp.com/card/">Wirex</a> ofrece:
 
 * Dispone de tarjeta virtual.
 * Aceptan cuentas en euros, dólares y libras inglesas.
-* Mediante Shapeshift aceptan depósitos de virtualmente todas las criptomonedas posibles ya que cuando las envies a tu wallet se encargarán de convertirlas a BTC. Una vez convertidas y como con las demás tarjetas de <p></p>re-pago el usuario deberá elegir cuando convertirlas a fiat.
+* Mediante Shapeshift aceptan depósitos de virtualmente todas las criptomonedas posibles ya que cuando las envies a tu wallet se encargarán de convertirlas a BTC. Una vez convertidas y como con las demás tarjetas de pre-pago el usuario deberá elegir cuando convertirlas a fiat.
 * Wirex ya usa tecnología Segwit lo cual abarata considerablemente los costes de transferencia de BTCs.
 
-Podéis registraros por [este link](https://app.wirexapp.com/join/0piRgpCHu0Cb_OsO_uf73w) y conseguir 25% de descuento en la tarjeta de pre-pago.
+Podéis registraros por <a rel="nofollow" href="https://links.wirexapp.com/MpmB/4bTIQcutbK?action=affiliate-register&code=0piRgpCHu0Cb_OsO_uf73w">este link</a> y conseguir 25% de descuento en la tarjeta de pre-pago.
 
 
 #### Bitwala
@@ -77,7 +77,7 @@ Podéis registraros por [este link](https://app.wirexapp.com/join/0piRgpCHu0Cb_O
 {% include image_caption.html imageurl="/images/posts/201712/bitwalla.jpg" title="Bitwala Card" popup=true %}
 
 
-[Bitwala](https://www.bitwala.com/r/ztxzSQRF9Mc9xkjpC) sin duda es el claro ganador de las tarjeta de pre-pago, ya que aparte de ofrecer las mejores tasas de conversión se caracteriza por:
+<a rel="nofollow" href="https://www.bitwala.com/r/ztxzSQRF9Mc9xkjpC">Bitwala</a> sin duda es el claro ganador de las tarjeta de pre-pago, ya que aparte de ofrecer las mejores tasas de conversión se caracteriza por:
 
 * Dispone de tarjeta virtual
 * Utiliza Shapeshift por lo que acepta cualquier criptomoneda existente.
@@ -92,17 +92,17 @@ Podéis registraros por [este link](https://app.wirexapp.com/join/0piRgpCHu0Cb_O
 
 {% include image_caption.html imageurl="/images/posts/201712/shift.jpg" title="Shift Card" popup=true %}
 
-La tarjeta de [Shift](https://www.shiftpayments.com/card) se vincula directamente a tu cuenta de Coinbase (uno de los exchanges que más confianza me genera) y cada vez que hagas una transacción se convertirán sólo los fondos necesarios para hacer frente a ese cargo al precio de intercambio de ese momento. 
+La tarjeta de <a rel="nofollow" href="https://www.shiftpayments.com/card">Shift</a> se vincula directamente a tu cuenta de Coinbase (uno de los exchanges que más confianza me genera) y cada vez que hagas una transacción se convertirán sólo los fondos necesarios para hacer frente a ese cargo al precio de intercambio de ese momento. 
 
 * Recordemos que Coinbase NO ofrece las claves privadas de tu cuenta de criptomonedas puesto que no es un wallet.
 * Acepta todos los tipos de criptomoneda que acepta Coinbase, es decir, Bitcoin, Bitcoin Cash, Ethereum y Ripple.
-* Por desgracia Shift solo funciona en USA.
+* Por desgracia **Shift solo funciona en USA**.
 
 #### Xapo
 
 {% include image_caption.html imageurl="/images/posts/201712/xapo.png" title="Xapo Card" popup=true %}
 
-[Xapo](https://xapo.com) puede ser de las mejores opciones europeas para tarjetas de débito que conviertan BTC en el momento. Sus tasas podrían ser más económicas ya que se cobran casi un 3% en la conversión de BTC a fiat.
+<a rel="nofollow" href="https://xapo.com">Xapo</a> puede ser de las mejores opciones europeas para tarjetas de débito que conviertan BTC en el momento. Sus tasas podrían ser más económicas ya que se cobran casi un 3% en la conversión de BTC a fiat.
 
 Solo acepta Bitcoin.
 
@@ -110,7 +110,7 @@ Solo acepta Bitcoin.
 
 {% include image_caption.html imageurl="/images/posts/201712/tenx.jpeg" title="TenX Card" popup=true %}
 
-[TenX](https://www.tenx.tech/) es más que una tarjeta de crédito, es una criptomoneda en sí denominada [PAY](https://www.tenx.tech/whitepaper/tenx_whitepaper_final.pdf).
+<a rel="nofollow" href="https://www.tenx.tech/">TenX</a> es más que una tarjeta de crédito, es una criptomoneda en sí denominada <a rel="nofollow" href="https://www.tenx.tech/whitepaper/tenx_whitepaper_final.pdf">PAY</a>.
 
 * El wallet que ofrecen se puede financiar con BTC, ETH, DASH o monedas ERC-20.
 * La plataforma cuenta con Vitalik Buterin (creador de Ethereum) como uno de los inversores principales lo cual es razón más que suficiente para seguirle la pista.
@@ -126,9 +126,7 @@ TenX ya esta funcionando globalmente.
 
 {% include image_caption.html imageurl="/images/posts/201712/monaco.jpg" title="Monaco Cards" popup=true %}
 
-Hemos cubierto Monaco más en detalle en el artículo [Qué es Monaco](/que-es-monaco).
-
-Monaco al igual que TenX también es una criptomoneda denominada [MCO](https://bravenewcoin.com/assets/Whitepapers/monaco-whitepaper.pdf).
+Monaco al igual que TenX también es una criptomoneda denominada <a rel="nofollow" href="https://bravenewcoin.com/assets/Whitepapers/monaco-whitepaper.pdf">MCO</a>.
 
 Aunque todavía no ha sido lanzada, Monaco parece ofrecer todo lo que podríamos querer en una tarjeta de débito.
 
@@ -137,22 +135,24 @@ Aunque todavía no ha sido lanzada, Monaco parece ofrecer todo lo que podríamos
 * Aceptarán pagos también en otras monedas que no sean la moneda original de la tarjeta sin cobrar una comisión de conversión. Es decir se podrán pagar dólares, euros, etc... sin tasas extra por conversión.
 * Cuenta con una aplicación para controlar los gastos que se van realizando y añadir notas para ayudar al usuario a organizarse.
 * Todas las tarjetas son gratis en cuanto a mensualidades, envío y costes de transferencia.
-* El wallet de la tarjeta se puede financiar con BTC, ETH o cualquier ERC-20 token.
+* El wallet de la tarjeta se puede financiar con BTC, ETH, MCO, BNB o cualquier ERC-20 token.
 * Se podrá enviar dinero de manera gratuita entre usuarios de Monaco como ya ofrecen otros servicios como paypal o twypp.
 * No ofrecen clave privada, aunque esto podría cambiar en el futuro.
 
 
 Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmente gratuita, envío incluido. A medida que subimos de categoría entre las tarjetas que ofrecen suben los límites de cantidades que se pueden gastar diarios y se dan ciertas ventajas extras como seguros de viaje o hasta un 2% de rendimiento sobre las compras que se realicen. Este rendimiento será generado en su criptomoneda MCO.
 
-Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y guardarlos durante un cierto periodo de tiempo (6 meses).
+Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y bloquearlos durante un cierto periodo de tiempo (6 meses) en su aplicación.
 
-Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita. **Si os apuntais a partir de [este enlace](https://get.mona.co/IVWT/wyPNKJjtfJ) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
+{% include video.html provider="youtube" id="sPPiRRZiFMI" caption="Adicionalmente la app de Monaco servirá de Exchange de criptomonedas para comprar directamente con la tarjeta de crédito" %}
+
+Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita, aunque ya se ha abierto el periodo de Lockup de 6 meses. **Si os apuntais a partir de <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">este enlace</a> (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
 ### Conclusión
 
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+<!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 |                   | TenX                   | Monaco             | Xapo    | Shift | Wirex    | Bitpay | SpectroCoin | Bitwala  |
 |:-----------------:|:----------------------:|:------------------:|:-------:|:-----:|:--------:|:------:|:-----------:|:--------:|
 | Criptos Soportadas| BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |  BTC    |  BTC  |Shapeshift| BTC    |   BTC       |Shapeshift|
@@ -163,17 +163,13 @@ Los precios comentados en el artículo podrían ir cambiando con el tiempo así 
 |Coste Tarj. Virtual|        -               |  -                 |   -     |   -   |  Gratis  | -      |    0.5€     |  2€      |
 |Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | Gratis| 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
 |Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |  -    |    2.5€  |   3€   |   2.75€     |  2.25€   |
-| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      |
+| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      | -->
 
-Tras el análisis la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
+{% include image_caption.html imageurl="/images/posts/201712/cards-comparison.png" title="Tarjetas de débito crypto comparadas" popup=true %}
+
+Tras el análisis, la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
 
 Cómo tarjeta de pre-pago la clara ganadora es Bitwalla por su capacidad de realizar transferencias SEPA.
 
-Existe otra tarjeta de crédito llamada [TokenCard](https://tokencard.io/) que también parece muy prometedora, y si permitirá al usuario guardar su propia clave privada pero por falta de información he decidido no ponerla todavía.
-
-
-
-**UPDATE 05/01/2017: Las visas de las siguientes tarjetas han sido desactivadas temporalmente después de que su proveedor de tarjetas interrumpiera repentinamente su servicio: Bitwala, TenX, Xapo, Wirex, Bitpay dejando únicamente operativa a Monaco.** Por lo que parece Monaco está llevando más allá su seriedad a la hora de gestionar sus tarjetas de débito.
-
-{% include tweet.html href="https://twitter.com/cryptomanran/status/949294877979766784?ref_src=twsrc%5Etfw" %}
+Existe otra tarjeta de crédito llamada <a rel="nofollow" href="https://tokencard.io/">TokenCard</a> que también parece muy prometedora, y si permitirá al usuario guardar su propia clave privada pero por falta de información he decidido no ponerla todavía.
 

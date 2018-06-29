@@ -1,11 +1,11 @@
 # cryptocurrencies.
 - id   : bitcoin
-  icon : bitcoin.png
+  icon : bitcoin-64.png
 - id   : bitcoin-cash
-  icon : bch-orange.png
+  icon : bch-64.png
 - id   : ethereum
-  icon : eth.png
+  icon : eth-64.png
 - id   : dash
-  icon : dash.png
+  icon : dash-64.png
 - id   : iota
-  icon : iota-white.png
+  icon : iota-white-64.png

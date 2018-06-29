@@ -6,6 +6,10 @@
 #   url: /style-guide/
 - text: Criptomonedas
   url: /criptomonedas/
+- text: Cotizaciones
+  url: /cotizaciones/
+- text: Calculadora
+  url: /calculadora/
 - text: Glosario
   url: /glosario/
 - text: Autor

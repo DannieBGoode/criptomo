@@ -8,7 +8,7 @@ totalVotes: 3
 tags: [altcoins]
 ---
 
-[Cardano](https://www.cardanohub.org/en/home/) es una plataforma open-source lanzada por IOHK en Septiembre de 2017 que constituye un proyecto muy ambicioso. Dicen estar intentando construir la tercera generación de criptomonedas donde la primera generación sería Bitcoin y la segunda Ethereum.
+<a rel="nofollow" href="https://www.cardanohub.org/en/home/">Cardano</a> es una plataforma open-source lanzada por IOHK en Septiembre de 2017 que constituye un proyecto muy ambicioso. Dicen estar intentando construir la tercera generación de criptomonedas donde la primera generación sería Bitcoin y la segunda Ethereum.
 
 Su criptomoneda, denominada ADA, se encuentra ya en el top 10 en cuanto a mercado a pesar de sus pocos meses de existencia con 26 mil millones de monedas en circulación de un total de 45 mil millones.
 
@@ -22,7 +22,7 @@ Una de las cosas que más me gusta de Cardano es que no ha necesitado autopromoc
 
 Sus creadores son ingenieros y científicos que han realizado primero estudios y documentación extensa y sólo después han empezado a construir. Parece algo muy sencillo pero lo que hacen la mayor parte de las criptomonedas es copiar el código de Bitcoin y entonces realizar modificaciones sobre ella, mientras que Cardano ha decidido empezar el proyecto totalmente desde cero y enfocándolo primero desde un punto de vista académico.
 
-Invito a la gente (con dominio de inglés) que le echen un vistazo a la cantidad de [papeles académicos](https://www.cardanohub.org/en/academic-papers/) que Cardano ha creado para explicar toda su solución tecnológica antes de realizar una sola línea de código.
+Invito a la gente (con dominio de inglés) que le echen un vistazo a la cantidad de <a rel="nofollow" href="https://www.cardanohub.org/en/academic-papers/">papeles académicos</a> que Cardano ha creado para explicar toda su solución tecnológica antes de realizar una sola línea de código.
 
 ## Ouroboros
 
@@ -30,7 +30,7 @@ Invito a la gente (con dominio de inglés) que le echen un vistazo a la cantidad
 
 Cardano usa un algoritmo Proof of Stake creado por ellos mismos denominado **Ouroboros**. Los mecanismo de Proof of Stake son mucho más eficientes energéticamente que los Proof of Work (usados por Bitcoin y Ethereum aunque este último planea moverse a Proof of Stake en algún momento).
 
-Proof of Stake es un mecanismo muy complicado de realizar de manera segura, pero los integrantes de IOHK aseguran haberlo conseguido y [han presentado públicamente extensos documentos al respecto](https://eprint.iacr.org/2016/889.pdf).
+Proof of Stake es un mecanismo muy complicado de realizar de manera segura, pero los integrantes de IOHK aseguran haberlo conseguido y <a rel="nofollow" href="https://eprint.iacr.org/2016/889.pdf">han presentado públicamente extensos documentos al respecto</a>.
 
 ## Daedalus
 
@@ -61,7 +61,7 @@ Cardano quiere traer el poder de decisión a la gente de manera descentralizada 
 
 Cardano crecerá gradualmente hasta poder ofrecer funcionalidades cómo Smart Contracts, sidechains, metadata y computación multi-party.
 
-El roadmap de desarrollo de Cardano se puede observar en [su página web](https://cardanoroadmap.com/). Alguna de las próximas mejores que prometen son tarjetas de crédito para uso cotidiano, sistemas de votaciones y *Firmas resistentes a la computación Cuántica* (que es un problema de seguridad que se discute en vistas al día en que tengamos ordenadores cuánticos que podrían ser capaces de vulnerar la red).
+El roadmap de desarrollo de Cardano se puede observar en <a rel="nofollow" href="https://cardanoroadmap.com/">su página web</a>. Alguna de las próximas mejores que prometen son tarjetas de crédito para uso cotidiano, sistemas de votaciones y *Firmas resistentes a la computación Cuántica* (que es un problema de seguridad que se discute en vistas al día en que tengamos ordenadores cuánticos que podrían ser capaces de vulnerar la red).
 
 {% include image_caption.html imageurl="/images/posts/201712/cardano-roadmap.png" title="Cardano Roadmap" popup=true %}
 
@@ -81,13 +81,13 @@ Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no
 
 ## Dónde Comprar Cardano (ADA)
 
-Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de [Binance](https://www.binance.com/?ref=11317062).
+Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>.
 
-## Conclusión
+## Opinión
 
 Al final como siempre será el mercado quien decida lo útil y valiosa que será la moneda, por muy buena o prometedora que sea si no se acaba utilizando morirá. El proyecto lleva muy poco activo y por el momento hay que aclarar que su utilidad es absolutamente nula y todo son promesas futuras.
 
-Por otro lado el equipo de Cardano está haciendo un papel increíble intentando explicar todo lo que están haciendo y en qué dirección se están moviendo. Os invito a echar un vsitazo a [su canal de youtube](https://www.youtube.com/channel/UCBJ0p9aCW-W82TwNM-z3V2w) (todo en inglés) y que lo comprueben.
+Por otro lado el equipo de Cardano está haciendo un papel increíble intentando explicar todo lo que están haciendo y en qué dirección se están moviendo. Os invito a echar un vistazo a <a rel="nofollow" href="https://www.youtube.com/channel/UCBJ0p9aCW-W82TwNM-z3V2w">su canal de YouTube</a> (todo en inglés) y que lo comprueben.
 
 Durante los próximos años vamos a ver centenares de nuevas criptomonedas y tecnologías blockchain que serán anunciadas a lo grande con el fin de ganar millones de dólares en sus ICO y que luego fracasarán en entregar lo prometido. Muy pocas de ellas saldrán realmente victoriosas independientemente de lo prometedoras que sean o la poca competencia que sufran. La gran mayoría de estos fracasos se deberán a soluciones tecnológicas aceleradas sin realizar un cuidadoso estudio de mercado y tecnología.
 

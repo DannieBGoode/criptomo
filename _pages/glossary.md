@@ -2,7 +2,7 @@
 layout: page
 title: Glosario
 description: Glosario de términos - Todos los acrónimos del mundo de las criptomonedas que deberías hacer conocer a la perfección.
-banner_image: dictionary.jpg
+banner_image: pages/dictionary.jpg
 permalink: /glosario/
 progress: true
 ---
@@ -132,6 +132,9 @@ Se dice del fork que se realiza para poder cambiar las reglas de un blockchain m
 #### Hash
 Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
 
+#### Hash-rate
+Número de hashes por segundo capaz de procesar un dispositivo con la intención de encontrar el hash solución de un bloque mediante Proof of Work y en consecuencia obtener la recompensa de bloque.
+
 #### HODL
 HOLD - No vender las monedas pase lo que pase.
 
@@ -144,10 +147,16 @@ Internet of Things - Internet de las cosas, se dice de la red de en la cual part
 
 
 #### ICO
-Evento en el que los creadores de una criptomoneda venden unidades de ésta antes de que llegue a los exchanges con el fin de levantar capital.
+Evento en el que los creadores de una criptomoneda venden unidades de ésta antes de que llegue a los exchanges con el fin de levantar capital. Más información en [Qué es una ICO](/que-es-una-ico).
 
 #### Insta-Minado
 Mecanismo de autofinanciación donde los primeros bloques de una moneda se minan muy fácilmente con recompensas muy altas.
+
+{:.corporate-blue}
+## K
+
+#### KYC
+Know Your Clientes - Política de empresas por cual se obliga a sus usuarios a verificar sus identidades antes de permitirles operar.
 
 {:.corporate-blue}
 ## M

@@ -7,4 +7,4 @@ Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /404/
 Disallow: /about/
 Disallow: /tags/
-Disallow: /blog/page2/*
+Disallow: /page/*

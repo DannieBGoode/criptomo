@@ -29,13 +29,14 @@ include:
   - _pages
 exclude:
   - package.json
+  - node_modules
 
 analytics:
   google                 : "UA-110091733-1"
 
 crypto:
   address:
-    bitcoin              : "3CC14Qv9aMZU37CcBFgyQ5JNZmXrWEKdhY"
+    bitcoin              : "1zBENf32wsErn8TGtpGQ27yhrwEBwVsnw"
     bitcoin-cash         : "18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q"
     ethereum             : "0x6Ad36e415EdFb4C3fcE2bfF9E01F25e7Ed56f9C1" 
 
@@ -57,7 +58,7 @@ banner_image             : images/banner.jpg
 ads                      : true
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
-mailchimp_url: # "//example.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+mailchimp_url            : "https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c"
 
 # Social links in the site footer
 twitter_username         : "danniebgoode"

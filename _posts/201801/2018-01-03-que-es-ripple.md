@@ -76,7 +76,7 @@ Se puede comprar XRP en los siguientes exchanges:
 
 Existen muchas opciones para almacenar XRP, desde hardware wallets como [Ledger Nano S](http://amzn.to/2i5kRoG) a web wallets como [Coinpayments](https://www.coinpayments.net), [Rippex](https://rippex.net/#/) ó [GateHub](https://gatehub.net/).
 
-#### Conclusión
+#### Opinión
 
 A la hora de invertir en criptomonedas puede resultar bastante complicado elegir una moneda, por ello personalmente siempre recomiendo que solo se inviertan en monedas que realmente os guste lo que ofrezcan y entendáis de que manera podrían cambiar el mundo.
 

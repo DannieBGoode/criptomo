@@ -78,7 +78,7 @@ El resto del equipo tanto miembros oficiales como voluntarios puede ser consulta
 
 Existe una página web llamada [uselitecoin](http://www.uselitecoin.info/) que muestra un gran número de comercios que ya aceptan Litecoin como moneda de pago.
 
-#### Conclusión
+#### Opinión
 
 Muchos expertos visionan un mundo donde BTC es usado a modo de oro como reserva de valor mientras que LTC es utilizado como moneda de pago virtual al ser mucho más rápida y tener unos costes de transferencia tan bajos. En este escenario el claro competidor de LTC no sería BTC sino Bitcoin Cash.
 

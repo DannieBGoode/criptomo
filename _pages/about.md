@@ -2,7 +2,7 @@
 layout: page
 title: Acerca de este blog
 description: Acerca de este blog
-banner_image: aboutPage.jpg
+banner_image: pages/about.jpg
 permalink: /about/
 sitemap: false
 thumbnail_full: true
@@ -20,11 +20,11 @@ Todos los artículos del blog son selecciones de información que el autor ha en
 
 Si te gusta el contenido del blog y te gustaría apoyar su continuación puedes donar en las siguientes direcciones:
 
-<img src="/images/general/cryptocurrencies/bitcoin.png" alt="Bitcoin" class="small-image" title="Bitcoin"/>
+<img src="/images/general/cryptocurrencies/bitcoin-64.png" alt="Bitcoin" class="small-image" title="Bitcoin"/>
 Bitcoin: `{{ site.crypto.address.bitcoin }}`
 
-<img src="/images/general/cryptocurrencies/bch.png" alt="Bitcoin Cash" class="small-image" title="Bitcoin Cash"/>
+<img src="/images/general/cryptocurrencies/bch-64.png" alt="Bitcoin Cash" class="small-image" title="Bitcoin Cash"/>
 Bitcoin Cash: `{{ site.crypto.address.bitcoin-cash }}`
 
-<img src="/images/general/cryptocurrencies/ethereum.jpg" alt="Ethereum" class="small-image" title="Ethereum"/>
+<img src="/images/general/cryptocurrencies/eth-64.png" alt="Ethereum" class="small-image" title="Ethereum"/>
 Ethereum: `{{ site.crypto.address.ethereum }}`
