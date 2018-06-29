@@ -126,6 +126,8 @@ TenX ya esta funcionando globalmente.
 
 {% include image_caption.html imageurl="/images/posts/201712/monaco.jpg" title="Monaco Cards" popup=true %}
 
+Hemos cubierto Monaco más en detalle en el artículo [Qué es Monaco](/que-es-monaco).
+
 Monaco al igual que TenX también es una criptomoneda denominada <a rel="nofollow" href="https://bravenewcoin.com/assets/Whitepapers/monaco-whitepaper.pdf">MCO</a>.
 
 Aunque todavía no ha sido lanzada, Monaco parece ofrecer todo lo que podríamos querer en una tarjeta de débito.
