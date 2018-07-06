@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Qué es Monaco (MCO)
-description: La tarjeta de crédito y débito de criptomonedas llamada Monaco (MCO) con cambios de divisas competitivos y fondos de inversión.
+title:  Qué es CRYPTO - Monaco (MCO)
+description: La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión.
 banner_image: 201806/monaco.png
 rating: 5
 totalVotes: 8
@@ -134,6 +134,12 @@ Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un présta
 {% include image_caption.html imageurl="/images/posts/201806/kris.png" title="Kris Marszalek" caption="Kris Marszalek" %}
 
 Kris Marszalek es el CEO of Monaco, un conocido emprendedor con experiencia en el sector financiero, el resto del equipo se puede comprobar <a rel="nofollow" href="https://mona.co/en/company.html#page-team">aquí</a> con enlaces a sus perfiles de linkedin directos.
+
+### Rebranding
+
+Con fecha 6 de Julio de 2018, el equipo de Monaco ha hecho un rebranding de su empresa y pasará a ser llamada CRYPTO, y además se ha publicado una nueva versión del <a rel="nofollow" href="https://crypto.com/mco_whitepaper">whitepaper</a>.
+
+> Hoy anunciamos el rebranding de Monaco a CRYPTO.com que refleja nuestra misión de acelerar la transición global hacia las criptomonedas. <cite>- Kris Marszalek</cite>
 
 ## Dónde comprar
 
