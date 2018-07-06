@@ -20,7 +20,7 @@ video {
     margin-bottom: 30px;
 }
 .mid-size {
-	max-height: 600px;
+	max-height: 400px;
 }
 </style>
 
@@ -97,9 +97,10 @@ La tarjeta Ruby Steel se caracteriza por:
 - Intercambio interbancario gratis: 4000$
 - Retirada de cajeros gratis: 400$
 
-#### Precious Metal
+#### Royal Indigo / Jade Green
 
-{% include image_caption.html imageurl="/images/posts/201806/metal.png" title="Monaco Precious Metal" caption="Precious Metal" class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/201806/indigo-jade.png" title="Indigo Blue - Jade Green" caption="Indigo Blue - Jade Green" class="mid-size" %}
+
 
 - MCO a bloquear: 500 MCO
 - Devolución de un 1.5% en MCO de todos los gastos mensuales.
@@ -107,15 +108,36 @@ La tarjeta Ruby Steel se caracteriza por:
 - Intercambio interbancario gratis: 10000$
 - Retirada de cajeros gratis: 800$
 
+#### Icy White
+
+{% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size" %}
+
+- MCO a bloquear: 5,000 MCO
+- Devolución de un 1.75% en MCO de todos los gastos mensuales.
+- Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
+- Intercambio interbancario gratis: 10000$
+- Retirada de cajeros gratis: 800$
+- Acceso a eventos especiales.
+
 #### Obsidian Black
 
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size" %}
 
-- MCO a bloquear: 50000 MCO
+- MCO a bloquear: 50,000 MCO
 - Devolución de un 2% en MCO de todos los gastos mensuales.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
 - Retirada de cajeros gratis: 1000$
+- Acceso a eventos especiales.
+
+
+{% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
+
+Adicionalmente para aquellos usuarios que una vez terminado su periodo de bloqueo de MCO, decidan continuar hacerlo, existen ventajas adicionales. Por ejemplo una devolución de un porcentaje de todas las compras de criptomonedas a través de la app ya sea con fiat o con otras criptos será devuelto en función de cuanto MCO haya bloqueado.
+
+{% include image_caption.html imageurl="/images/posts/201806/cashback.png" title="MCO Cashback" caption="Devolución de dinero por compra de criptomonedas" popup=true %}
+
+Otras ventajas de bloquear MCO serán recepción de airdrops y obtención de un % de las tasas pagadas por amigos referidos por el usuario.
 
 ### Monaco University
 
@@ -159,7 +181,7 @@ La idea de Monaco es potenciar la adopción en masa de las criptomonedas apostan
 
 Es importante tener en cuenta que no se trata de un wallet al no proveer la clave privada, por lo que deberíamos ir metiendo fondos en forma de criptomonedas con precaución.
 
-Es interesante el modo en que se genera escasez de la criptomoneda obligando a los usuarios a bloquear los fondos temporalmente, pero habría que ver que ocurre con el valor del MCO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
+Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del MCO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
 
 Podeis registraros <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">aquí</a> a través del móvil y conseguir 10$ de crédito inicial.
 
