@@ -12,9 +12,9 @@ El Problema de los Generales Bizantinos (PGB) es un problema clásico de las red
 
 <!--more-->
 
-El PGB es un ejemplo excelente de cómo funciona el algoritmo de consenso de [Proof of Work](/que-es-proof-of-work/) que ya cubrimos con anterioridad.
+El PGB es un ejemplo excelente de cómo funciona el algoritmo de consenso de [Proof of Work](/que-es-proof-of-work/) que ya cubrimos con anterioridad y presenta el siguiente escenario:
 
-Existen dos ejércitos con intención de asediar una ciudad situados cada uno de ellos a un lado de ésta. La defensa de la ciudad es suficientemente fuerte como para vencer a los atacantes de uno en uno pero no a la vez, por lo que el asedio deberá ser simultáneo. Los generales atacantes se comunican entre ellos a través de un mensajero que debe rodear la ciudad para ir de un campamento a otro con las órdenes de asedio.
+Dos ejércitos están situados a los lados de una ciudad con intención de asediarla. La defensa de la ciudad es suficientemente fuerte como para vencer a los atacantes de uno en uno pero nunca a la vez, por lo que el asedio deberá ser simultáneo y estar bien coordinado. Los generales atacantes se comunican entre ellos a través de un mensajero que debe rodear la ciudad para ir de un campamento a otro con las órdenes de ataque.
 
 El mensajero de un ejército informará al otro de que planean atacar el próximo Lunes, y el segundo ejército le confirmará si necesita más tiempo para prepararse o de lo contrario está listo para atacar.
 
