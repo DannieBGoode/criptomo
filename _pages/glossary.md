@@ -175,6 +175,9 @@ Acción de validación de las transacciones de un blockchain que normalmente es 
 #### Nocoiner
 Dicese de aquella persona que no tiene criptomonedas e insiste en que todo es una burburja que estallará en algún momento.
 
+#### Nonce
+Aquél número ó conjunto de carácteres que se concatena a un mensaje con la intención de que al realizar el hash de dicha concatenación se obtenga un resultado con un número de `0` suficiente como para superar a la dificultad de la red y en consecuencia recibir la recompensa por bloque minado.
+
 {:.corporate-blue}
 ## O
 <hr/>
