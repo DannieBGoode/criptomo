@@ -39,9 +39,9 @@ loadsPlugins: true
 				            <p>{{ currency.description }}</p>
 				            <span class="coin-links">
 								{% if currency.article %}
-					            <span class="coin-article"><i class="fa-chain" aria-hidden="true"></i> <a href="{{ currency.article }}"> En detalle</a></span>
+					            <span class="coin-article"><i class="icon-link" aria-hidden="true"></i> <a href="{{ currency.article }}"> En detalle</a></span>
 								{% endif %}
-								<span class="coin-website"><i class="fa-chevron-right" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> web oficial</a></span>
+								<span class="coin-website"><i class="icon-chevron-right" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> web oficial</a></span>
 							</span>
 				        </div><!-- .coinlist-details -->
 				    </div><!-- .coinlist-info -->

@@ -18,8 +18,8 @@ let table = $('#marketcaps-table').DataTable({
     paginate: {
       'first': 'Primera',
       'last': 'Última',
-      'next': '<span class="fa-chevron-right"></span>',
-      'previous': '<span class="fa-chevron-left"></span>'
+      'next': '<span class="icon-chevron-right"></span>',
+      'previous': '<span class="icon-chevron-left"></span>'
     },
     processing: "<div class='loader' style='display:block'></div>"
   },
@@ -128,7 +128,7 @@ function marketcapTableLoad( currency ) {
   table.processing( true );
   marketcapCurrency = currency;
   let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
-  let marketcapDataArray = [];
+  marketcapDataArray = [];
 
   $('#marketcaps-currency-select').val(currency);
   $.get( getUrl, function ( response ) {

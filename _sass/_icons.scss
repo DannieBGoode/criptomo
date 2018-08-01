@@ -1,5 +1,5 @@
 /**
- * Icons | Font Awesome by Dave Gandy | http://fontawesome.io
+ * Icons | Selected one by one from https://icomoon.io/app/#/select/font
  * ----------------------------------------------------------------------------
  */
 
@@ -14,9 +14,9 @@
     font-style: normal;
 }
 
-[class^="fa-"], [class*=" fa-"] {
+[class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'fontawesome' !important;
+    font-family: 'icomoon' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -29,118 +29,17 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-star:before {
-    content: "\f005";
-}
-.fa-close:before {
-    content: "\f00d";
-}
-.fa-map-marker:before {
-    content: "\f041";
-}
-.fa-chevron-left:before {
-    content: "\f053";
-}
-.fa-chevron-right:before {
-    content: "\f054";
-}
-.fa-chevron-up:before {
-    content: "\f077";
-}
-.fa-chevron-down:before {
-    content: "\f078";
-}
-.fa-bar-chart:before {
-    content: "\f080";
-}
-.fa-twitter:before {
-    content: "\f099";
-}
-.fa-facebook:before {
-    content: "\f09a";
-}
-.fa-feed:before {
-    content: "\f09e";
-}
-.fa-chain:before {
-    content: "\f0c1";
-}
-.fa-navicon:before {
-    content: "\f0c9";
-}
-.fa-google-plus:before {
-    content: "\f0d5";
-}
-.fa-envelope:before {
-    content: "\f0e0";
-}
-.fa-linkedin:before {
-    content: "\f0e1";
-}
-.fa-github-alt:before {
-    content: "\f113";
-}
-.fa-code:before {
-    content: "\f121";
-}
-.fa-xing:before {
-    content: "\f168";
-}
-.fa-youtube-play:before {
-    content: "\f16a";
-}
-.fa-stack-overflow:before {
-    content: "\f16c";
-}
-.fa-instagram:before {
-    content: "\f16d";
-}
-.fa-flickr:before {
-    content: "\f16e";
-}
-.fa-tumblr:before {
-    content: "\f173";
-}
-.fa-dribbble:before {
-    content: "\f17d";
-}
-.fa-behance:before {
-    content: "\f1b4";
-}
-.fa-soundcloud:before {
-    content: "\f1be";
-}
-.fa-vine:before {
-    content: "\f1ca";
-}
-.fa-codepen:before {
-    content: "\f1cb";
-}
-.fa-pinterest-p:before {
-    content: "\f231";
-}
-.fa-medium:before {
-    content: "\f23a";
-}
-.fa-500px:before {
-    content: "\f26e";
-}
-.fa-vimeo:before {
-    content: "\f27d";
-}
-.fa-mixcloud:before {
-    content: "\f289";
-}
-.fa-home:before {
-    content: "\f015";
-}
-
-
 .icon-user-tie:before {
   content: "\e976";
 }
 .icon-home:before {
   content: "\e909";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-link:before {
+  content: "\e9cb";
 }
 .icon-newspaper:before {
   content: "\e90a";
@@ -157,6 +56,10 @@
 .icon-play2:before {
   content: "\ea15";
 }
+.icon-stop2:before {
+  content: "\ea1e";
+  font-size: 19px;
+}
 .icon-bullhorn:before {
   content: "\e91a";
 }
@@ -168,6 +71,9 @@
 }
 .icon-location:before {
   content: "\e947";
+}
+.icon-earth:before {
+  content: "\e9ca";
 }
 .icon-location2:before {
   content: "\e948";
@@ -196,6 +102,9 @@
 .icon-menu:before {
   content: "\e9bd";
 }
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+}
 .icon-cross:before {
   content: "\ea0f";
 }
@@ -212,6 +121,7 @@
   content: "\ea7f";
 }
 
+/* Social Networks */
 .icon-google-plus:before {
   content: "\ea8b";
 }
@@ -229,6 +139,9 @@
 }
 .icon-twitter:before {
   content: "\ea96";
+}
+.icon-feed:before {
+  content: "\e90c";
 }
 .icon-rss:before {
   content: "\ea9b";
@@ -251,7 +164,17 @@
 .icon-pinterest:before {
   content: "\ead1";
 }
+.icon-medium:before {
+  content: "\e90b";
+}
+.icon-dribbble:before {
+  content: "\eaa7";
+}
+.icon-codepen:before {
+  content: "\eae8";
+}
 
+/* Currency */
 .icon-coin-dollar:before {
   content: "\e93b";
 }
@@ -274,6 +197,7 @@
 
 .icon-grid:before {
   content: "\e901";
+  font-size: 32px;
 }
 .icon-grid2:before {
   content: "\e902";
@@ -282,6 +206,7 @@
   content: "\e904";
 }
 
+/* Chevron Icons */
 .icon-chevron-right:before {
   content: "\e905";
 }

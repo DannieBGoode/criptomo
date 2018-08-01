@@ -216,10 +216,23 @@ The first (most recent) post in the list is styled to be bigger than the others 
 }
 
 .toggle-grid {
-  text-align: right;
-  margin-bottom: 10px;
+    text-align: right;
+    margin-bottom: 25px;
+    @media (max-width: 687px) {
+        display: none !important;
+    }
 }
 
 .list-view {
-  display: none;
+    display: none;
+    @media (max-width: 687px) {
+        display: block !important;
+    }
+}
+.grid-view {
+    margin-top: -75px;
+    margin-top: -40px;
+    @media (max-width: 687px) {
+        display: none !important;
+    }
 }

@@ -319,6 +319,9 @@
 .read-more {
     margin-top: 40px;
 }
+.read-more-grid {
+    margin-top: 0px;
+}
 
 .read-more .more-link {
     background-color: $picton-blue;
@@ -895,8 +898,8 @@ a.archive-top-link:hover {
     }
 
     #menu-toggle:before {
-        content: "\f0c9";
-        font-family: 'fontawesome' !important;
+        content: "\e9bd";
+        font-family: 'icomoon' !important;
         font-size: 14px;
         font-style: normal;
         font-variant: normal;
@@ -916,7 +919,7 @@ a.archive-top-link:hover {
     }
 
     #menu-toggle.toggled-on:before {
-        content: "\f00d";
+        content: "\ea0f";
     } 
 
     .post-thumbnail {

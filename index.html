@@ -12,9 +12,7 @@ redirect_from:
     <div class="inner">
         <main class="site-main"> 
         	<div class="toggle-grid">
-	        	<a onclick="toggleGridView()" class="fa-chevron-up top-link square fill-horizontal">
-	        		<span class="screen-reader-text">Back to the top</span>
-	        	</a>
+	        	<a onclick="toggleGridView()" class="icon-grid top-link square fill-horizontal"></a>
 	        </div>
         	<div class="list-view">
             {% for post in paginator.posts %}
@@ -38,11 +36,11 @@ redirect_from:
             <nav class="pagination">
                 <h2 class="screen-reader-text">Posts navigation</h2>
                 {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts fa-chevron-left square fill-horizontal"><span class="screen-reader-text">Siguientes</span></a>
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts icon-chevron-left square fill-horizontal"><span class="screen-reader-text">Siguientes</span></a>
                 {% endif %}
                 <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
                 {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts fa-chevron-right square fill-horizontal"><span class="screen-reader-text">Anteriores</span></a>
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts icon-chevron-right square fill-horizontal"><span class="screen-reader-text">Anteriores</span></a>
                 {% endif %}
             </nav><!-- .pagination -->
             {% endif %}
