@@ -1,5 +1,4 @@
 ---
-class: home-template
 layout: default
 loadsPlugins: true
 redirect_from:
@@ -12,7 +11,8 @@ redirect_from:
     <div class="inner">
         <main class="site-main"> 
         	<div class="toggle-grid">
-	        	<a onclick="toggleGridView()" class="icon-grid top-link square fill-horizontal"></a>
+	        	<a onclick="toggleGridView('grid')" class="icon-grid top-link square fill-horizontal"></a>
+                <a onclick="toggleGridView('list')" class="icon-stop2 top-link square fill-horizontal"></a>
 	        </div>
         	<div class="list-view">
             {% for post in paginator.posts %}

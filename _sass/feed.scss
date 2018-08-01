@@ -218,8 +218,25 @@ The first (most recent) post in the list is styled to be bigger than the others 
 .toggle-grid {
     text-align: right;
     margin-bottom: 25px;
+    margin-top: -81px;
     @media (max-width: 687px) {
         display: none !important;
+    }
+    .active {
+        background-color: $picton-blue !important;
+        -webkit-box-shadow: unset;
+        -moz-box-shadow:    unset;
+        box-shadow:         unset;
+        color: $white;
+        cursor: default;
+    }
+    &:not(.active) {
+        cursor: pointer;
+    }
+
+    .icon-grid {
+        position: relative;
+        top: 6px;
     }
 }
 
