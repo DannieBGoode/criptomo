@@ -184,8 +184,11 @@ $('#marketcaps-filter-input').keyup(function () {
 $('#marketcaps-currency-select').change(function () {
   let selectedCurrency = $('#marketcaps-currency-select').val();
 
-  if (localStorageAvailable) {
-    let criptomo = {};
+  if (isLocalStorageAvailable) {
+    let criptomo = JSON.parse(localStorage.getItem('criptomo'));
+    if (!criptomo) {
+      criptomo = {};
+    }
     criptomo.currency = selectedCurrency;
     localStorage.setItem('criptomo', JSON.stringify(criptomo));
   }
@@ -200,7 +203,7 @@ $('#marketcaps-pagelength-select').change(function () {
 
 $(document).ready(function () {
   let selectedCurrency = '';
-  if (localStorageAvailable) {
+  if (isLocalStorageAvailable) {
     let criptomo = JSON.parse(localStorage.getItem('criptomo'));
     if (criptomo && criptomo.currency) {
       selectedCurrency = criptomo.currency;
@@ -223,15 +226,4 @@ function generateCurrencyValueHtml( price, currency ) {
     symbol = price + '&nbsp;' + currency.toUpperCase();
   }
   return symbol;
-}
-
-function localStorageAvailable() {
-  let test = 'test';
-  try {
-    localStorage.setItem(test, test);
-    localStorage.removeItem(test);
-    return true;
-  } catch (e) {
-    return false;
-  }
 }

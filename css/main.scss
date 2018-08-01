@@ -15,6 +15,7 @@
     "coinlist-filter",
     "calculator",
     "marketcaps",
+    "feed",
     "jquery.dataTables.min"
 ;
 
@@ -821,7 +822,7 @@ a.archive-top-link:hover {
 	
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1025px) {
     .site-navigation,
     .site-header,
     .site-content,
