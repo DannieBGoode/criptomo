@@ -53,10 +53,10 @@ layout: default
                     <div class="author-details">
                         <h2 class="author-title">Acerca de {{ writer.author_name }}</h2>
                         <p class="author-bio">{{ writer.author_bio }}</p>
-                        <span class="author-location"><i class="fa-map-marker" aria-hidden="true"></i> {{ writer.author_location }}</span>
+                        <span class="author-location"><i class="icon-location" aria-hidden="true"></i> {{ writer.author_location }}</span>
                         {% if writer.author_url %}
                         <span class="author-website">
-                            <i class="fa-chain" aria-hidden="true"></i> 
+                            <i class="icon-link" aria-hidden="true"></i> 
                             <a href="{{ writer.author_url }}" target="_blank">
                             {% if writer.author_url_name %}
                                 {{ writer.author_url_name }}

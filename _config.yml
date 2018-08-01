@@ -67,7 +67,7 @@ googleplus_username      : "+DanielCalatayudFerrandez"
 github_username          : "danniebgoode"
 codepen_username         : 
 dribbble_uername         : 
-medium_username          : 
+medium_username          : "@danielcalatayud"
 instagram_username       : "danniebgoode"
 pinterest_username       : 
 linkedin_username        : "danielcalatayud"
@@ -76,7 +76,7 @@ linkedin_username        : "danielcalatayud"
 google_site_verification : "JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU"
 
 # http://jekyllrb.com/docs/pagination/
-paginate                 : 5
+paginate                 : 7
 paginate_path            : "/page/:num"
 defaults: 
   - scope:

@@ -18,8 +18,8 @@ let table = $('#marketcaps-table').DataTable({
     paginate: {
       'first': 'Primera',
       'last': 'Última',
-      'next': '<span class="fa-chevron-right"></span>',
-      'previous': '<span class="fa-chevron-left"></span>'
+      'next': '<span class="icon-chevron-right"></span>',
+      'previous': '<span class="icon-chevron-left"></span>'
     },
     processing: "<div class='loader' style='display:block'></div>"
   },
@@ -128,7 +128,7 @@ function marketcapTableLoad( currency ) {
   table.processing( true );
   marketcapCurrency = currency;
   let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
-  let marketcapDataArray = [];
+  marketcapDataArray = [];
 
   $('#marketcaps-currency-select').val(currency);
   $.get( getUrl, function ( response ) {
@@ -184,8 +184,11 @@ $('#marketcaps-filter-input').keyup(function () {
 $('#marketcaps-currency-select').change(function () {
   let selectedCurrency = $('#marketcaps-currency-select').val();
 
-  if (localStorageAvailable) {
-    let criptomo = {};
+  if (isLocalStorageAvailable) {
+    let criptomo = JSON.parse(localStorage.getItem('criptomo'));
+    if (!criptomo) {
+      criptomo = {};
+    }
     criptomo.currency = selectedCurrency;
     localStorage.setItem('criptomo', JSON.stringify(criptomo));
   }
@@ -200,7 +203,7 @@ $('#marketcaps-pagelength-select').change(function () {
 
 $(document).ready(function () {
   let selectedCurrency = '';
-  if (localStorageAvailable) {
+  if (isLocalStorageAvailable) {
     let criptomo = JSON.parse(localStorage.getItem('criptomo'));
     if (criptomo && criptomo.currency) {
       selectedCurrency = criptomo.currency;
@@ -223,15 +226,4 @@ function generateCurrencyValueHtml( price, currency ) {
     symbol = price + '&nbsp;' + currency.toUpperCase();
   }
   return symbol;
-}
-
-function localStorageAvailable() {
-  let test = 'test';
-  try {
-    localStorage.setItem(test, test);
-    localStorage.removeItem(test);
-    return true;
-  } catch (e) {
-    return false;
-  }
 }

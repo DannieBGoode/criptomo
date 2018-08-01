@@ -97,7 +97,6 @@
       return this; // for chaining...
     };
 
-
     // sidebar currencies marketcaps
     $.get('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20', function ( response ) {
       var displayedCurrencies = $('[data-currency]');

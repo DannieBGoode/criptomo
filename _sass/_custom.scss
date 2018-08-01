@@ -163,3 +163,15 @@ input:focus, select:focus {
 .widget-newsletter {
 	color: $white;
 }
+.tag {
+	display: none;
+}
+.archive-tags-list {
+	.active {
+		background-color: $picton-blue;
+	}
+}
+
+.right {
+	float: right;
+}

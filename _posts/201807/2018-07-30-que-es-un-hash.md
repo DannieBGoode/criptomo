@@ -12,7 +12,7 @@ Con frecuencia hablamos en este mundo de hashes y cifrados asimétricos, por lo 
 
 <!--more-->
 
-#### Hashes
+## Hashes
 
 Un hash no es más que un conjunto de caracteres alfanumérico generado a partir de un texto plano. Suelen tener una longitud finita y se caracterizan por ser irreversibles y determinísticos.
 
@@ -37,16 +37,16 @@ Una función de hashing segura permite asegurar la integridad de la información
 
 {% include image_caption.html imageurl="/images/posts/201807/hashing-vs-encryption.png" title="Hashing vs Cifrado" caption="El cifrado es reversible si tienes la clave correcta mientras que el hashing es irreversible" popup=true %}
 
-#### Cifrado
+## Cifrado
 
 El cifrado o la encriptación se diferencia del hashing principalmente en que es bidireccional. Es decir, si se tiene la clave privada, es posible recuperar los datos originales a partir de un texto cifrado.
 
 Existen diferentes tipos de cifrado:
 
-##### Simétrico
+### Simétrico
 Utiliza la misma clave para cifrar y para descifrar el mensaje. Esta clave debe ser conocida tanto por el emisor como por el receptor.
 
-##### Asimétrico
+### Asimétrico
 En el cifrado asimétrico existen dos claves relacionadas entre sí, una se denomina *clave privada* y se debe mantener en secreto. La otra es la *clave pública* y puede ser publicada sin problemas.
 
 Dos de las principales funcionalidades que tiene el uso de este par de claves es:

@@ -13,7 +13,8 @@
   "globals": {
     "$": false,
     "coins": false,
-    "Data": false
+    "Data": false,
+    "isLocalStorageAvailable": false
   },
   "rules": {
 /**
