@@ -2,9 +2,9 @@
 /* ---------------------------------------------------------- */
 
 @media (min-width: 900px) {
-    .home-template .post-feed,
-    .tag-template .post-feed,
-    .author-template .post-feed {
+    .home-template .grid-view,
+    .tag-template .grid-view,
+    .author-template .grid-view {
         margin-top: -70px;
         padding-top: 0;
     }
@@ -19,7 +19,7 @@
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
 
-.post-feed {
+.grid-view {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -124,9 +124,9 @@ The first (most recent) post in the list is styled to be bigger than the others 
  */
 
 @media (min-width: 795px) {
-    .post-feed {
+    .grid-view {
 
-      .post-card:nth-child(6n+1):not(.no-image) {
+      .post-card:nth-child(5n+1):not(.no-image) {
         flex: 1 1 100%;
         flex-direction: row;
         height: 100%; //430px;
@@ -148,15 +148,6 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
           .post-card-content-link {
             padding: 30px 40px 0;
-
-            h2 {
-              // font-size: 20px; //20px; 2.6rem;
-            }
-
-            p {
-              // font-size: 18px; //18px; //1.8rem;
-              // line-height: 27.9px; //1.55em;
-            }
           }
 
           .post-card-meta {
@@ -174,7 +165,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 /* Adjust some margins for smaller screens */
 @media (max-width: 650px) {
-    .post-feed {
+    .grid-view {
         padding-top: 5vw;
     }
     .post-card {

@@ -22,14 +22,15 @@ redirect_from:
                     {% assign writer = site.data.authors.daniel %}
                 {% endif %}
             
-                {% include article_feed_entry.html %}
+                {% include post-list.html %}
             
             {% endfor %}
             </div>
 
-            <div class="grid-view post-feed">
-                <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-                {%  include post-card.html %}
+            <div class="grid-view">
+                {% for post in paginator.posts %}
+                    {%  include post-grid.html %}
+                {% endfor %}
             </div>
 
             {% if paginator.total_pages > 1 %}
