@@ -210,7 +210,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     text-align: right;
     margin-bottom: 25px;
     margin-top: -81px;
-    @media (max-width: 687px) {
+    @media (max-width: $small-screen-breakpoint) {
         display: none !important;
     }
     .active {
@@ -233,14 +233,14 @@ The first (most recent) post in the list is styled to be bigger than the others 
 
 .list-view {
     display: none;
-    @media (max-width: 687px) {
+    @media (max-width: $small-screen-breakpoint) {
         display: block !important;
     }
 }
 .grid-view {
     margin-top: -75px;
     margin-top: -40px;
-    @media (max-width: 687px) {
+    @media (max-width: $small-screen-breakpoint) {
         display: none !important;
     }
 }

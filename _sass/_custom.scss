@@ -171,7 +171,11 @@ input:focus, select:focus {
 		background-color: $picton-blue;
 	}
 }
-
 .right {
 	float: right;
+}
+.mobile-only {
+    @media (min-width: $small-screen-breakpoint) {
+    	display: none !important;
+    }
 }

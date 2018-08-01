@@ -20,4 +20,13 @@
     <a class="icon-linkedin2" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url}}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en Linkedin">
     	<span class="screen-reader-text">Linkedin</span>
     </a>
+    <a class="icon-reddit" href="http://www.reddit.com/submit?url={{ page.url | absolute_url}}&title={{ page.title }} - CRIPTOMO" onclick="window.open(this.href, 'window'); return false;" title="Compartir en Reddit">
+        <span class="screen-reader-text">Reddit</span>
+    </a>
+    <a class="icon-telegram" href="tg://msg_url?url={{ page.url | absolute_url}}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en Telegram">
+        <span class="screen-reader-text">Telegram</span>
+    </a>
+    <a class="icon-whatsapp mobile-only" href="https://api.whatsapp.com/send?phone=whatsappphonenumber&text={{ page.url | absolute_url}}" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Compartir en Whatsapp">
+        <span class="screen-reader-text">Whatsapp</span>
+    </a>
 </div><!-- .share-post -->
