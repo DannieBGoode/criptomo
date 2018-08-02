@@ -22,14 +22,14 @@ redirect_from:
                     {% assign writer = site.data.authors.daniel %}
                 {% endif %}
             
-                {% include post-list.html %}
+                {% include post_list.html %}
             
             {% endfor %}
             </div>
 
             <div class="grid-view">
                 {% for post in paginator.posts %}
-                    {%  include post-grid.html %}
+                    {%  include post_grid.html %}
                 {% endfor %}
             </div>
 
