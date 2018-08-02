@@ -16,6 +16,7 @@
     "calculator",
     "marketcaps",
     "feed",
+    "subscribe",
     "jquery.dataTables.min"
 ;
 
@@ -222,7 +223,6 @@
 
 .post {
     background-color: $white;
-    margin-bottom: 60px;
     padding-bottom: 40px;
 }
 
@@ -397,6 +397,9 @@
     margin-bottom: 40px;
     padding-bottom: 40px;
     padding-top: 40px;
+    @media (max-width: $small-screen-breakpoint) {
+        text-align: center;
+    }
 }
 
 .post + .author-box {
@@ -636,11 +639,17 @@ a.archive-top-link:hover {
     padding-bottom: 60px;
     padding-right: 90px;
     padding-top: 60px;
+    @media (max-width: $small-screen-breakpoint) {
+        text-align: center;
+    }
 }
 
 .social-links a {
     float: left;
-    margin: 0 3px 3px 0;
+    margin: 6px 3px 3px 0;
+    @media (max-width: $small-screen-breakpoint) {
+        float: none;
+    }
 }
 
 .site-info {
@@ -1050,6 +1059,12 @@ a.archive-top-link:hover {
     .author-info .author-avatar {
         float: none;
         margin-bottom: 24px;
+    }
+    .author-avatar {
+        @media (max-width: $small-screen-breakpoint) {
+            margin: 0 auto !important;
+            margin-bottom: 15px !important;
+        }
     }
 
     .author-details {

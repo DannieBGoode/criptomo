@@ -54,5 +54,5 @@ Dos de las principales funcionalidades que tiene el uso de este par de claves es
 - **Cifrado con Clave Pública**: Un mensaje puede ser cifrado con una clave pública, y únicamente el poseedor de la clave privada asociada podrá descifrarlo.
 - **Firmas Digitales**: Un mensaje es firmado utilizando una clave privada, y todos aquellos que reciban la clave pública podrán verificar su autenticidad.
 
-{% include image_caption.html imageurl="/images/posts/201807/signature.png" title="Firmas Digitales" caption="Si enviamos un mensaje, podemos realizar el hash del mismo y cifrarlo con una clave privada. Cualquier receptor puede después comparar el hash del documento original con el hash obtenido al descifrar con la clave pública del emisor. Si coinciden el mensaje es válido" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201807/signature.png" title="Firmas Digitales" caption="Si enviamos un mensaje, podemos realizar el hash del mismo y cifrarlo con una clave privada. Cualquier receptor puede después comparar el hash del documento original con el hash obtenido al descifrar con la clave pública del emisor. Si coinciden el mensaje es válido." popup=true %}
 
