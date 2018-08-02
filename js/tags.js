@@ -1,9 +1,17 @@
-if (window.location.hash) {
-  $('.tag-' + window.location.hash.replace('#', '')).show();
-}
-
 $(window).on('hashchange', function () {
-  $('.tag').hide();
-  $('.tag-' + window.location.hash.replace('#', '')).show();
-  $('.selected-tag-title').html(window.location.hash.toUpperCase());
+  changeTagSection();
 });
+
+var changeTagSection = function () {
+  if (window.location.hash) {
+    let tag = window.location.hash.replace('#', '');
+    $('.tag').hide();
+    $('.tag-' + tag).show();
+    $('.archive-tags-list .active').removeClass('active');
+    $('.tag-selector-' + tag).addClass('active');
+  } else {
+    $('.archive-tags-list').children('a')[0].click();
+  }
+};
+
+changeTagSection();

@@ -169,6 +169,7 @@ input:focus, select:focus {
 .archive-tags-list {
 	.active {
 		background-color: $picton-blue;
+		color: $white;
 	}
 }
 .right {
@@ -178,4 +179,7 @@ input:focus, select:focus {
     @media (min-width: $small-screen-breakpoint) {
     	display: none !important;
     }
+}
+.share-buttons {
+	padding-top: 10px;
 }

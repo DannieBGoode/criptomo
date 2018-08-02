@@ -18,21 +18,31 @@ sitemap: false
                         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
                         {% assign sortedTags = site_tags | split:',' | sort %}
                         {% for tag in sortedTags %}
-                        <a href="#{{ tag | cgi_escape }}">{{ tag }} </a>
+                        <a class="tag-selector-{{ tag }}" href="#{{ tag | cgi_escape }}">{{ tag }} </a>
                         {% endfor %}
                     </div>
-                    {% for tag in sortedTags %}
-                    <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
-                    <ul class="archive-posts-list">
-                        {% for post in site.tags[tag] %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark" title="Permanent Link to {{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class="archive-meta"> — <time class="published" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time></span></li>
-                        {% endfor %}
-                    </ul>
-                    <p><a href="#top" class="archive-top-link" title="Back to Top">Volver arriba</a></p>
-                    {% endfor %}
+
                 </div><!-- .entry-content -->
             </article><!-- .post -->
+
+            {% for tag in sortedTags %}
+            <div class="tag tag-{{ tag }}">
+                <div class="grid-view">
+                    {% for post in site.tags[tag] %}
+                        {% include post_grid.html %}
+                    {% endfor %}
+                </div>
+                <!-- <p><a href="#top" class="archive-top-link" title="Back to Top">Volver arriba</a></p> -->
+            </div>
+            {% endfor %}
         </main><!-- .site-main -->
+
+
+
         {% include sidebar.html %}
     </div><!-- .inner -->
 </div><!-- .site-content -->
+
+
+<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ site.baseurl }}/js/tags.js?{{site.time | date: '%s%N'}}"></script>
