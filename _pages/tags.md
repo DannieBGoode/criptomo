@@ -24,22 +24,14 @@ sitemap: false
 
                 </div><!-- .entry-content -->
             </article><!-- .post -->
-
             {% for tag in sortedTags %}
             <div class="tag tag-{{ tag }}">
 
-                <div class="list-view">
-                {% for post in site.tags[tag] %}
-                    {% include post_list.html %}
-                {% endfor %}
-                </div>
-                
                 <div class="grid-view">
                     {% for post in site.tags[tag] %}
                         {% include post_grid.html %}
                     {% endfor %}
                 </div>
-                <!-- <p><a href="#top" class="archive-top-link" title="Back to Top">Volver arriba</a></p> -->
             </div>
             {% endfor %}
         </main><!-- .site-main -->
