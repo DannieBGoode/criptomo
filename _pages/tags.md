@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archivo
+title: Categorías
 permalink: /tags/
 sitemap: false
 ---
