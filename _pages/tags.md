@@ -27,6 +27,13 @@ sitemap: false
 
             {% for tag in sortedTags %}
             <div class="tag tag-{{ tag }}">
+
+                <div class="list-view">
+                {% for post in site.tags[tag] %}
+                    {% include post_list.html %}
+                {% endfor %}
+                </div>
+                
                 <div class="grid-view">
                     {% for post in site.tags[tag] %}
                         {% include post_grid.html %}

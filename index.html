@@ -16,11 +16,6 @@ redirect_from:
 	        </div>
         	<div class="list-view">
             {% for post in paginator.posts %}
-                {% if post.author %}
-                    {% assign writer = site.data.authors[post.author] %}
-                {% else %}
-                    {% assign writer = site.data.authors.daniel %}
-                {% endif %}
             
                 {% include post_list.html %}
             

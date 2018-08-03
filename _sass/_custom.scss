@@ -165,8 +165,10 @@ input:focus, select:focus {
 }
 .tag {
 	display: none;
+	margin-top: 60px;
 }
 .archive-tags-list {
+	text-align: center;
 	.active {
 		background-color: $picton-blue;
 		color: $white;

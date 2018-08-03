@@ -224,6 +224,7 @@
 .post {
     background-color: $white;
     padding-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .post.featured {
@@ -834,7 +835,7 @@ a.archive-top-link:hover {
 	
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1017px) {
     .site-navigation,
     .site-header,
     .site-content,
