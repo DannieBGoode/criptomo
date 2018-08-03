@@ -29,20 +29,50 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-user:before {
+  content: "\e971";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-plus:before {
+  content: "\e973";
+}
+.icon-user-minus:before {
+  content: "\e974";
+}
 .icon-user-tie:before {
   content: "\e976";
 }
 .icon-home:before {
   content: "\e909";
 }
+.icon-home3:before {
+  content: "\e90f";
+}
+.icon-office:before {
+  content: "\e910";
+}
 .icon-star-full:before {
   content: "\e9d9";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-half:before {
+  content: "\e9d8";
 }
 .icon-link:before {
   content: "\e9cb";
 }
 .icon-newspaper:before {
   content: "\e90a";
+}
+.icon-headphones:before {
+  content: "\e911";
+}
+.icon-music:before {
+  content: "\e913";
 }
 .icon-image:before {
   content: "\e90d";
@@ -60,6 +90,24 @@
   content: "\ea1e";
   font-size: 19px;
 }
+.icon-film:before {
+  content: "\e914";
+}
+.icon-dice:before {
+  content: "\e915";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-spades:before {
+  content: "\e917";
+}
+.icon-clubs:before {
+  content: "\e918";
+}
+.icon-diamonds:before {
+  content: "\e919";
+}
 .icon-bullhorn:before {
   content: "\e91a";
 }
@@ -69,11 +117,23 @@
 .icon-envelop:before {
   content: "\e945";
 }
+.icon-connection:before {
+  content: "\e91b";
+}
 .icon-location:before {
   content: "\e947";
 }
 .icon-earth:before {
   content: "\e9ca";
+}
+.icon-folder:before {
+  content: "\e92f";
+}
+.icon-folder-open:before {
+  content: "\e930";
+}
+.icon-folder-plus:before {
+  content: "\e931";
 }
 .icon-location2:before {
   content: "\e948";
@@ -93,11 +153,74 @@
 .icon-key:before {
   content: "\e98d";
 }
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-unlocked:before {
+  content: "\e990";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-equalizer2:before {
+  content: "\e993";
+}
+.icon-cog:before {
+  content: "\e994";
+}
+.icon-hammer:before {
+  content: "\e996";
+}
+.icon-hammer2:before {
+  content: "\e9a8";
+}
+.icon-pie-chart:before {
+  content: "\e99a";
+}
 .icon-stats-bars2:before {
   content: "\e99d";
 }
+.icon-rocket:before {
+  content: "\e9a5";
+}
 .icon-briefcase:before {
   content: "\e9ae";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-lab:before {
+  content: "\e9aa";
+}
+.icon-magnet:before {
+  content: "\e9ab";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-truck:before {
+  content: "\e9b0";
+}
+.icon-road:before {
+  content: "\e9b1";
+}
+.icon-accessibility:before {
+  content: "\e9b2";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-power-cord:before {
+  content: "\e9b7";
 }
 .icon-menu:before {
   content: "\e9bd";
@@ -111,6 +234,30 @@
 .icon-heart:before {
   content: "\e9da";
 }
+.icon-man:before {
+  content: "\e9dc";
+}
+.icon-woman:before {
+  content: "\e9dd";
+}
+.icon-man-woman:before {
+  content: "\e9de";
+}
+.icon-point-up:before {
+  content: "\ea03";
+}
+.icon-point-right:before {
+  content: "\ea04";
+}
+.icon-point-down:before {
+  content: "\ea05";
+}
+.icon-point-left:before {
+  content: "\ea06";
+}
+.icon-infinite:before {
+  content: "\ea2f";
+}
 .icon-share:before {
   content: "\ea7d";
 }
@@ -119,6 +266,51 @@
 }
 .icon-embed:before {
   content: "\ea7f";
+}
+.icon-price-tag:before {
+  content: "\e935";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-tablet:before {
+  content: "\e95a";
+}
+.icon-tv:before {
+  content: "\e95b";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-shrink:before {
+  content: "\e98a";
+}
+.icon-enlarge2:before {
+  content: "\e98b";
+}
+.icon-shrink2:before {
+  content: "\e98c";
+}
+.icon-download2:before {
+  content: "\e9c5";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-bookmarks:before {
+  content: "\e9d3";
 }
 
 /* Social Networks */
@@ -172,6 +364,12 @@
 }
 .icon-codepen:before {
   content: "\eae8";
+}
+.icon-amazon:before {
+  content: "\ea87";
+}
+.icon-twitch:before {
+  content: "\ea9f";
 }
 
 /* Currency */
