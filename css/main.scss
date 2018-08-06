@@ -17,6 +17,7 @@
     "marketcaps",
     "feed",
     "subscribe",
+    "share",
     "jquery.dataTables.min"
 ;
 
@@ -350,46 +351,6 @@
     line-height: 1.5;
     margin-top: 30px;
     text-transform: uppercase;
-}
-
-.share-post {
-    margin-bottom: 30px;
-}
-
-.share-post a {
-    font-size: 14px;
-    height: 36px;
-    line-height: 2.57143;
-    text-align: center;
-    width: 36px;
-}
-
-.tag-links {
-    border-top: 2px solid $gallery;    
-    padding-top: 30px;
-}
-
-.tag-links a {
-    margin-bottom: 5px;
-    padding: 3px 10px;
-}
-
-.share-post a,
-.tag-links a {
-    background-color: $gallery;
-    color: #818181;
-    display: inline-block;
-    margin-left: 5px;
-    text-decoration: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition:    all 0.3s;
-    transition:         all 0.3s;
-}
-
-.share-post a:hover,
-.tag-links a:hover {
-    background-color: $picton-blue;
-    color: $white;
 }
 
 /* Author box */

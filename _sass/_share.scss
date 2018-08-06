@@ -1,0 +1,68 @@
+.share-post {
+    margin-bottom: 30px;
+}
+
+.share-post a {
+    font-size: 14px;
+    height: 36px;
+    line-height: 2.57143;
+    text-align: center;
+    width: 36px;
+}
+.tag-links {
+    border-top: 2px solid $gallery;    
+    padding-top: 30px;
+}
+
+.tag-links a {
+    margin-bottom: 5px;
+    padding: 3px 10px;
+}
+
+.share-post a,
+.tag-links a {
+    background-color: $gallery;
+    color: #818181;
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    transition:         all 0.3s;
+}
+.tag-links a:hover {
+    background-color: $picton-blue;
+    color: $white;
+}
+
+.share-buttons {
+    box-shadow: unset;
+    font-size: 25px;
+	padding-top: 10px;
+
+	a:hover {
+		color: $white;
+	}
+
+    .icon-twitter:hover {
+        background-color: #33b1ff;
+    }
+    .icon-facebook:hover {
+        background-color: #005e99;
+    }
+    .icon-google-plus:hover {
+        background-color: #dd4b39;
+    }
+    .icon-whatsapp:hover {
+        background-color: #34AF23;
+    }
+    .icon-reddit-alien:hover {
+        background-color: #FF5700;
+    }
+    .icon-telegram:hover {
+        background-color: #0088cc;
+    }
+    .icon-linkedin2:hover {
+        background-color: #0077b5;
+    }
+}
