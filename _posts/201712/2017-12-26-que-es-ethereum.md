@@ -47,19 +47,21 @@ Como las DApps corren en el blockchain se caracterizan por todas las propiedas d
 Aunque todo podría sonar demasiado perfecto, las DApps tienen un problema muy grande: los humanos.
 Una DApp sólo podrá ser tan perfecta cómo el código del humano que la escribió. Puesto que las DApps una vez desplegadas al blockchain no pueden ser fácilmente modificadas, un bug en el código podría ser fatal para una DAO
 
-Esto fue precisamente el caso del primero DAO construido, bautizado sencillamente DAO. Se trataba de una plataforma de financiación tipo Kickstarter donde inversores podrían colaborar financiando proyectos y en función de si se llegaba a la cantidad requerida por el proyecto, los fondos se movían automáticamente ya sea de vuelta a los inversores o a los dueños del proyecto financiado. Se trataba de una plataforma totalmente autónoma capaz de mover grandes cantidades de dinero y financiar proyectos sin la intervención de una sola persona trabajando en nombre de la asociación y había recaudado hasta la fecha 160 millones de dólares. Por desgracia un hacker identificó un fallo en el código del DAO que le permitía lentamente ir sacando fondos de la organización.
+<div id="dao">
+	Esto fue precisamente el caso del primero DAO construido, bautizado sencillamente DAO. Se trataba de una plataforma de financiación tipo Kickstarter donde inversores podrían colaborar financiando proyectos y en función de si se llegaba a la cantidad requerida por el proyecto, los fondos se movían automáticamente ya sea de vuelta a los inversores o a los dueños del proyecto financiado. Se trataba de una plataforma totalmente autónoma capaz de mover grandes cantidades de dinero y financiar proyectos sin la intervención de una sola persona trabajando en nombre de la asociación y había recaudado hasta la fecha 160 millones de dólares. Por desgracia un hacker identificó un fallo en el código del DAO que le permitía lentamente ir sacando fondos de la organización.
 
-Esto planteó un gran problema entre la comunidad de Ethereum y se discutieron tres posibles alternativas:
+	Esto planteó un gran problema entre la comunidad de Ethereum y se discutieron tres posibles alternativas:
 
-1. **No hacer nada**, si el código está desplegado al blockchain es considerado ley y no bug.
-2. **Hacer un soft-fork** que hiciera que los fondos del DAO se perdieran en el olvido , ni los inversores los recuperarán ni el hacker podría hacerse con ellos.
-3. **Hacer un hard-fork**, o dicho de otra manera, crear una moneda nueva donde el DAO nunca existió. Los inversores recuperarían sus fondos en la nueva moneda, y el hacker obtendría lo robado en la cadena vieja.
+	1. **No hacer nada**, si el código está desplegado al blockchain es considerado ley y no bug.
+	2. **Hacer un soft-fork** que hiciera que los fondos del DAO se perdieran en el olvido , ni los inversores los recuperarán ni el hacker podría hacerse con ellos.
+	3. **Hacer un hard-fork**, o dicho de otra manera, crear una moneda nueva donde el DAO nunca existió. Los inversores recuperarían sus fondos en la nueva moneda, y el hacker obtendría lo robado en la cadena vieja.
 
-La solución que se tomó al final fue la tercera, lo que ocasionó que la cadena vieja de Ethereum se pasase a llamar Ethereum Classic (ETC) y la nueva Ethereum (ETH) dividiendo a la comunidad para siempre. A pesar de que los desarrolladores principales de Ethereum aseguraron que no darian soporte para la cadena vieja y que todos se moverían a la nueva, al ser un proyecto open-source, ETC sigue en desarrollo por puristas que aseguran que la confianza en un blockchain se basa en su inmutabilidad por lo que no se puede  puede estar creando una moneda nueva cada vez que alguien suba una DApp con bugs independientemente del dinero que haya en juego.
+	La solución que se tomó al final fue la tercera, lo que ocasionó que la cadena vieja de Ethereum se pasase a llamar Ethereum Classic (ETC) y la nueva Ethereum (ETH) dividiendo a la comunidad para siempre. A pesar de que los desarrolladores principales de Ethereum aseguraron que no darian soporte para la cadena vieja y que todos se moverían a la nueva, al ser un proyecto open-source, ETC sigue en desarrollo por puristas que aseguran que la confianza en un blockchain se basa en su inmutabilidad por lo que no se puede  puede estar creando una moneda nueva cada vez que alguien suba una DApp con bugs independientemente del dinero que haya en juego.
 
-Por otro lado Gavin Wood argumentó que un blockchain está creado para servir a los humanos, por lo que si existe consenso sobre la idea de que la comunidad no quiere que un hacker se escape con los fondos es perfectamente aceptable realizar un hard fork.
+	Por otro lado Gavin Wood argumentó que un blockchain está creado para servir a los humanos, por lo que si existe consenso sobre la idea de que la comunidad no quiere que un hacker se escape con los fondos es perfectamente aceptable realizar un hard fork.
 
-No obstante lo que todo el mundo si concluyó fue que se necesitan mejores herramientas para testear los DApps y de hecho durante los próximos años las empresas auditoras de smart contracts van a crecer mucho en consecuencia.
+	No obstante lo que todo el mundo si concluyó fue que se necesitan mejores herramientas para testear los DApps y de hecho durante los próximos años las empresas auditoras de smart contracts van a crecer mucho en consecuencia.
+</div>
 
 #### Otros casos de uso
 
@@ -121,7 +123,7 @@ Ethereum es la segunda moneda que más alto cotiza del mercado de las criptomone
 
 Cómo blockchain tiene muchos de los problemas de escalabilidad que también caracterizan a BTC.
 
-Entre sus principales competidores se encuentran NEO, EOS y [Cardano](../que-es-cardano). Resulta complicado ver un escenario donde todas ellas acaban triunfando pero desde luego Ethereum a dia de hoy va en primera posición, tiene más financiación y mucha gente volcada en el proyecto.
+Entre sus principales competidores se encuentran NEO, [EOS](../que-es-eos/) y [Cardano](../que-es-cardano). Resulta complicado ver un escenario donde todas ellas acaban triunfando pero desde luego Ethereum a dia de hoy va en primera posición, tiene más financiación y mucha gente volcada en el proyecto.
 
 La única seguridad es que es una plataforma en constante crecimiento y que aquellos desarrolladores que se especialicen en Solidity lo antes posible van a tener un mercado laboral muy grande.
 
