@@ -3,11 +3,14 @@
 /* ---------------------------------------------------------- */
 
 .subscribe-form {
-    margin: 1.5em 0;
+    margin-bottom: $block-separation-desktop;
     padding: 6.5vw 7vw 7vw;
     border: $picton-blue 1px solid;
     text-align: center;
     background: $tundora;
+    @media only screen and (max-width: 1017px) {
+        margin-bottom: $block-separation-mobile;
+    }
     p {
         margin-bottom: 1em;
         color: $white;

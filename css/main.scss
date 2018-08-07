@@ -225,7 +225,7 @@
 .post {
     background-color: $white;
     padding-bottom: 40px;
-    margin-bottom: 60px;
+    margin-bottom: $block-separation-desktop;
 }
 
 .post.featured {
@@ -356,7 +356,7 @@
 /* Author box */
 .author-box {
     background-color: $white;
-    margin-bottom: 40px;
+    margin-bottom: $block-separation-desktop;
     padding-bottom: 40px;
     padding-top: 40px;
     @media (max-width: $small-screen-breakpoint) {
@@ -478,7 +478,7 @@ a.archive-top-link:hover {
 
 .comments-area {
     background-color: $white;
-    margin-bottom: 60px;
+    margin-bottom: $block-separation-desktop;
     padding-bottom: 60px;
     padding-top: 40px;
 }
@@ -499,7 +499,7 @@ a.archive-top-link:hover {
 
 .pagination,
 .post-navigation {
-    margin-bottom: 60px;
+    margin-bottom: $block-separation-desktop;
 }
 
 .pagination {
@@ -817,7 +817,7 @@ a.archive-top-link:hover {
     .post-navigation,
     .post-navigation .nav-next,
     .post-navigation .nav-previous {
-        margin-bottom: 15px;
+        margin-bottom: $block-separation-mobile;
     }
 
     .post + .author-box,
