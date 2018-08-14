@@ -30,8 +30,11 @@ All Time High - Precio histórico más alto al que ha estado una criptodivisa.
 #### Bearish
 Sentimiento de que algo va a bajar de precio.
 
+#### Bear Market <a name="bear-market"></a>
+Se dice del mercado bajista en el que los precios sufren grandes caídas y se aprecia un ambiente pesimista.
+
 #### Bitcoin
-La primera criptomoneda creada y propuesta por Satoshi Nakamoto en su [whitepaper](https://bitcoin.org/bitcoin.pdf).
+La primera criptomoneda creada y propuesta por Satoshi Nakamoto en su <a rel="nofollow" href="https://bitcoin.org/bitcoin.pdf">whitepaper</a>.
 
 #### Bloque
 Conjunto de transacciones ocurridas en el mismo intervalo tiempo recogidas por los mineros y añadidas al blockchain.

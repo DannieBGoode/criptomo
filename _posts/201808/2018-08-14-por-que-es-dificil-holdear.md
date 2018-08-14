@@ -8,14 +8,13 @@ totalVotes: 1
 tags: [trading]
 ---
 
-En un *bear market* como en el que estamos ahora puede resultar complicado mantener la sangre fría y no vender todas nuestras inversiones con el propósito de minimizar nuestras pérdidas.
+Se conoce como *HODL* aguantar los fondos a través de todas las bajadas, pase lo que pase. De hecho, es en estos momentos tan oscuros cuando resulta mejor idea invertir en aquellos proyectos en los que realmente creemos y que queremos apoyar económicamente para además maximizar nuestras futuras ganancias.
 
 <!--more-->
 
-Se conoce como *HODL* aguantar los fondos a través de todas las bajadas, pase lo que pase. De hecho, es en estos momentos tan oscuros cuando resulta mejor idea invertir en aquellos proyectos en los que realmente creemos y que queremos apoyar económicamente para además maximizar nuestras futuras ganancias.
+En un [bear market](/glosario#bear-market) como en el que estamos ahora puede resultar complicado mantener la sangre fría y no vender todas nuestras inversiones con el propósito de minimizar nuestras pérdidas.
 
 ¿Por qué es tan complicado holdear? A parte de ver delante nuestro como nuestras inversiones se devalúan delante nuestro, existen muchos otros factores en la sociedad te impulsa a no hacerlo.
-
 
 #### El gobierno quiere que gastes.
 Debido a que los gobiernos son principalmente keynesianos y cobran IVA por cada compra, se nos impulsa a que constantemente compremos productos. Una manera de asegurarse de ello es mediante inflación, si nuestros fondos se van devaluando con el tiempo puede parecer una buena idea gastarlos antes de que pierdan poder adquisitivo.
