@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Qué es un nodo de Bitcoin Completo
+title:  Qué es un nodo completo de Bitcoin
 description: Qué es un full node de Bitcoin (nodo completo) y por qué debería interesarte tener uno.
 banner_image: 201808/node.jpg
 rating: 4.5
