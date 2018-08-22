@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Venezuela, inflación y Petros.
-description: Qué es un full node de Bitcoin (nodo completo) y por qué debería interesarte tener uno.
+description: La inflación en Venezuela y cómo se quiere vincular el precio del bolívar a la criptomoneda Petro.
 banner_image: 201808/venezuela.jpg
 tags: [noticias]
 source: https://www.bloomberg.com/news/articles/2018-08-19/venezuela-s-95-devaluation-adds-to-turmoil-after-drone-attack
