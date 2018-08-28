@@ -130,7 +130,7 @@ Repositorios de código públicos que nos permite ver el progreso línea por lí
 <hr/>
 
 #### Hard Fork
-Se dice del fork que se realiza para poder cambiar las reglas de un blockchain manteniendo el historial de transacciones hasta el momento. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum-Ethereum Classic o el de Bitcoin - Bitcoin Cash. Podemos comparar un Hard Fork a como no es posible jugar a juegos de la PS3 en la PS4. 
+Se dice del fork que se realiza para poder cambiar las reglas de un blockchain manteniendo el historial de transacciones hasta el momento. Este tipo de fork requiere que todos los nodos se actualicen a la última versión del protocolo para poder seguir operando. Los Hard Forks más conocidos son el de Ethereum - Ethereum Classic o el de Bitcoin - Bitcoin Cash. Podemos comparar un Hard Fork a como no es posible jugar a juegos de la PS3 en la PS4. Más información en [la entrada dedicada](/hard-fork-vs-soft-fork#hardfork).
 
 #### Hash
 Conjunto alfanumérico creado a partir de información legible. Se utiliza para confirmar transacciones entre otras cosas.
@@ -238,7 +238,7 @@ Programas de código que se ejecutan automáticamente.
 
 #### Soft Fork
 Fork retrocompatible que añade ciertas nuevas reglas sin necesidad de duplicar la cadena.
-Este tipo de fork requiere que la mayor parte de los mineros actualicen su software, mientras que un hardfork requiere que absolutamente todos los mineros se actualicen a la última versión. Podemos comparar un soft fork a como con Office 2016 podemos abrir ficheros de Office 2010 con la salvedad de que estos ficheros no podrán gozar de las novedades de los nuevos.
+Este tipo de fork requiere que la mayor parte de los mineros actualicen su software, mientras que un hardfork requiere que absolutamente todos los mineros se actualicen a la última versión. Podemos comparar un soft fork a como con Office 2016 podemos abrir ficheros de Office 2010 con la salvedad de que estos ficheros no podrán gozar de las novedades de los nuevos. Más información en [el artículo dedicado](/hard-fork-vs-soft-fork#softfork).
 
 #### Solidity
 Lenguaje de programación para crear smart contracts para Ethereum.

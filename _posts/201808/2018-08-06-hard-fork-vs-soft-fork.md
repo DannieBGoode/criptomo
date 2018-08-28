@@ -12,7 +12,7 @@ El concepto de fork es algo que puede traer dolores de cabeza entenderlo, puesto
 
 <!--more-->
 
-## Hard Fork
+## <a name="hardfork"></a> Hard Fork
 
 Un hard fork se caracteriza principalmente por no ser retrocompatible. Para que sea exitoso, todos los usuarios deben actualizar su software o la red se divide. **El motivo principal por el que se genera un hard fork es por que se cambian las reglas de consenso de una criptomoneda**, lo cual a veces puede resultar obligatorio para hacer una actualización de software. De repente hay nodos en la red que ya no están de acuerdo con los bloques de la versión del blockchain que se generaban anteriormente y mientras haya mineros que minen con respecto a las nuevas reglas, se genera una nueva cadena de bloques con sus propias transacciones y totalmente independiente a la original.
 
@@ -20,7 +20,7 @@ Cuando un hard fork origina una moneda totalmente nueva con nuevas reglas de con
 
 Por lo normal después de un hard fork, puesto que se replica la cadena de bloques, todos los que tenían monedas en la cadena original, pasan a tenerlas también en la nueva. Por ejemplo con el hard fork de Bitcoin Cash, todos los usuarios recibieron BCH en proporción `1:1` respecto a los BTCs que tenían en su posesión. Aún así, cada hardfork puede crear sus propias reglas de redistribución de tokens, pero siempre le interesará bonificar de alguna manera a los poseedores de la moneda original con el fin de que participen en la red y por tanto la nueva moneda tenga valor.
 
-## Soft Fork
+## <a name="softfork"></a> Soft Fork
 
 Un Soft Fork en cambio es totalmente retrocompatible. Ocurre cuando se cambian las reglas de una criptomoneda sin modificar las normas de consenso de la red por lo que la red nunca se divide. Por ejemplo la actualización de BTC a *Segwit* fue un soft fork, esto significa que todas las wallets que no utilizan Segwit pueden seguir operando y transaccionando con usuarios que si actualizaron su software para habilitar transacciones Segwit (lo cual les permite costes de transacción más baratos).
 
