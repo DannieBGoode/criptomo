@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Venezuela, inflación y Petros.
+title:  Venezuela, inflación y Petros
 description: La inflación en Venezuela y cómo se quiere vincular el precio del bolívar a la criptomoneda Petro.
 banner_image: 201808/venezuela.jpg
 tags: [noticias]
