@@ -26,6 +26,14 @@ loadsPlugins: true
                  </a>
             {% endfor %}
             </div>
+
+            <div class="cryptocurrencies-filter-input-block">
+		        <label>
+		            Buscar
+		            <input type="search" id="cryptocurrencies-filter-input" placeholder="Buscar criptomoneda">
+		        </label>
+		    </div>
+
 			<div class="grid">
 				{% for coin in site.data.coins %}
 					{% assign currency = coin[1] %}
