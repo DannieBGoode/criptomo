@@ -80,7 +80,7 @@ Ethereum quedó tan impresionado con la funcionalidad de zk-Snarks que su implem
 
 Durante el desarrollo de Zcash ha habido bastante gente que ante su disconformidad por ciertas decisiones tomadas en su desarrollo, han decidido implementar su propia versión del protocolo. Recordemos que Zcash es un fork en sí de Bitcoin originado por el mismo motivo.
 
-### ZClassic (ZCL)
+### <a name="zcl"></a> ZClassic (ZCL)
 
 ZClassic es un fork de Zcash creado únicamente para:
 - Quitar el sistema que otorga un 20% de la recompensa de cada bloque minado a la tesorería.
@@ -94,7 +94,7 @@ Al igual que con Zcash, no hubo ICO ni preminado, y las monedas empezaron a gene
 
 Tecnológicamente hablando ZClassic no trae más inovación a la mesa, pero debido al inicio tan fatídico de Zcash la comunidad se ha visto divida drásticamente.
 
-### ZenCash (ZEN)
+### <a name="zen"></a> ZenCash (ZEN)
 
 ZenCash fue creado como fork de ZClassic y todos los usuarios que tenían tokens de ZCL obtuvieron el mismo número de tokens de ZEN automáticamente.
 
@@ -111,7 +111,7 @@ Las diferencias que se añadieron fueron:
 
 Resulta curioso como el motivo principal que hizo que Zcash fuera forkeado a zClassic (la tesorería) es restaurado, pero se justifica el resto de la moneda con las otras mejoras.
 
-### Bitcoin Private
+### <a name="btcp"></a> Bitcoin Private
 
 Los creadores de ZClassic han creado recientemente un nuevo fork denominado <a rel="nofollow" href="https://btcprivate.org/whitepaper.pdf">Bitcoin Private</a>. Todos los poseedores de tanto Bitcoin como ZClassic recibirán un token, en otras palabras:
 

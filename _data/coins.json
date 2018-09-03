@@ -95,6 +95,14 @@
 		"description": "Fork de Bitcoin que cambia el modelo de minado para que sea más descentralizado, compite con Vertcoin.",
 		"article": "/conseguir-bitcoin-gold/"
 	},
+	"bcp": {
+		"name": "Bitcoin Private",
+		"icon": "btcp.png",
+		"website": "https://btcprivate.org/",
+		"class": "private currency",
+		"description": "Fork de Bitcoin y Z-Classic que trae consigo Z-Snarks y tamaños de bloque de 2MB.",
+		"article": "/que-es-zcash#btcp"
+	},
 	"icx": {
 		"name": "ICON (ICX)",
 		"icon": "icx-64.png",
@@ -175,6 +183,14 @@
 		"class": "private currency",
 		"description": "Plataforma de pagos que esconde al emisor, receptor y el valor de la transacción, aunque permite hacer la transacción pública más tarde opcionalmente.",
 		"article": "/que-es-zcash/"
+	},
+	"zcl": {
+		"name": "Z Classic (ZCL)",
+		"icon": "zcl.png",
+		"website": "https://zclassic.org/",
+		"class": "private currency",
+		"description": "Fork de Z-Cash sin recompensa a los fundadores.",
+		"article": "/que-es-zcash#zcl"
 	},
 	"usdt": {
 		"name": "Tether (USDT)",
@@ -710,7 +726,7 @@
 		"website": "https://zensystem.io/",
 		"class": "currency private social",
 		"description": "Criptomoneda basada en la privacidad que permite publicar contenido anónimo online.",
-		"article": "/que-es-zcash/"
+		"article": "/que-es-zcash#zen"
 	},
 	"mnx": {
 		"name": "MinexCoin (MNX)",
