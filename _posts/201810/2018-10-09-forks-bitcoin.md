@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Los múltiples HARD Forks de Bitcoin
+title:  Los múltiples Hard Forks de Bitcoin
 description: Todos los hard forks del blockchain de Bitcoin (BTC) relevantes listados.
 banner_image: 201810/bitcoin-split.jpg
 rating: 5

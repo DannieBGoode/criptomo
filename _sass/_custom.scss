@@ -120,6 +120,12 @@ progress {
 
 	/* Progress bar value for IE10+ */
 	color: $picton-blue;
+
+
+    @media (max-width: $small-screen-breakpoint) {
+    	margin-top: $topnav-mobile-spacing;
+    }
+
 }
 progress::-webkit-progress-bar {
   background-color: transparent;
@@ -176,8 +182,17 @@ input:focus, select:focus {
 .right {
 	float: right;
 }
-.mobile-only {
-    @media (min-width: $small-screen-breakpoint) {
-    	display: none !important;
+@media (max-width: $small-screen-breakpoint) {
+	.site-navigation {
+    	position:fixed;
+    	width: 100%;
+    	z-index: 1;
+    	top:0px;
     }
+	.site-header {
+		margin-top: 50px;
+	}
+	.mobile-only {
+		display: none;
+	}
 }
