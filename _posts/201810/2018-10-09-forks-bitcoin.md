@@ -4,7 +4,7 @@ title:  Los múltiples Hard Forks de Bitcoin
 description: Todos los hard forks del blockchain de Bitcoin (BTC) relevantes listados.
 banner_image: 201810/bitcoin-split.jpg
 rating: 5
-totalVotes: 5
+totalVotes: 6
 tags: [bitcoin]
 ---
 
@@ -116,5 +116,7 @@ Es por ello recomendable seguir alguna de las siguientes técnicas para acceder 
 
 Muchos de ellos han desaparecido por que eran scams. Otros siguen y se cotizan en el mercado. Personalmente no espero que ninguno sobreviva los próximos 5 años salvo tal vez Bitcoin Cash.
 
-Podéis encontrar más información en <a rel="nofollow" href="https://forkdrop.io/">forkdrop.io</a>.
+Podéis encontrar más información acerca de los forks en <a rel="nofollow" href="https://forkdrop.io/">forkdrop.io</a>.
+
+Adicionalmente podéis ver que forks teneis y cómo venderlos en el artículo [Cómo reclamar y vender los forks de BTC](/vender-reclamar-forks-bitcoin/).
 
