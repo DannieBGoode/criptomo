@@ -124,6 +124,7 @@ progress {
 
     @media (max-width: $small-screen-breakpoint) {
     	margin-top: $topnav-mobile-spacing;
+    	transition: margin-top 0.2s ease-in-out;
     }
 
 }
@@ -182,17 +183,20 @@ input:focus, select:focus {
 .right {
 	float: right;
 }
+@media (min-width: $small-screen-breakpoint) {
+	.mobile-only {
+		display: none;
+	}
+}
 @media (max-width: $small-screen-breakpoint) {
 	.site-navigation {
     	position:fixed;
     	width: 100%;
     	z-index: 1;
     	top:0px;
+    	transition: top 0.2s ease-in-out;
     }
 	.site-header {
 		margin-top: 50px;
-	}
-	.mobile-only {
-		display: none;
 	}
 }
