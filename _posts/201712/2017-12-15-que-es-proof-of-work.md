@@ -7,7 +7,7 @@ tags:
   - bitcoin
   - blockchain
 rating: 5
-totalVotes: 7
+totalVotes: 9
 ---
 Proof of Work es un protocolo que evita que se hagan ataques DDoS o spam a la red de Bitcoin. Es probablemente la pieza clave de todo el whitepaper original de Bitcoin y al mismo tiempo es altamente criticado por su consumo energético.
 
@@ -31,18 +31,19 @@ La minería de bitcoin hace dos tareas: verifica que la transacción es posible 
 
 Cuando se realiza una transacción esto es lo que ocurre por debajo:
 
-* La transacción se agrupa con otras transacciones ocurridas en ese mismo instante en un bloque.
-* Los mineros verifican que efectivamente cada transacción es válida y que nadie está pagando una cantidad mayor que su balance.
+* La transacción se añade al *mempool*, donde residen todas las transacciones todavía no validadas a la espera de que los mineros las recojan.
+* La transacción se agrupa con otras transacciones pendientes en un bloque candidato. Los bloques candidatos de cada minero no tienen por qué ser idénticos entre ellos puesto que cada minero puede ordenar y seleccionar las transacciones como le plazca.
+* Los mineros verifican que efectivamente cada transacción de sus correspondientes bloques es válida y que nadie está pagando una cantidad mayor que su balance.
 * Los mineros observan la dificultad del bloque, para este ejemplo digamos que la dificultad es 6.
-* Los mineros añaden un string al final del bloque llamado *nonce* y cifran todo el bloque entero con el método SHA256 lo cual nos dará un código alfanumérico, por ejemplo `2341bdd2d99b 46318f363e09fbbcdf9d7 6817a2f6810c4b00b8 3fa9106f05570`.
-* Si el resultado del cifrado no tiene 6 o más ceros delante el bloque se considera no resuelto y se prueba con otro *nonce* totalmente aleatorio lo que les generará un hash totalmente nuevo. Esto llevará millones de intentos. Un ejemplo de un hash correcto sería por ejemplo: `000000318f3 3e09fbbcdf1d4b00b83fa91768zX32f 6810c06f05570 2d99b46`.
-* Si un minero averigua el *nonce* correcto antes que los demás, lo anunciará al sistema. Verificar si efectivamente este nonce es correcto es una operación muy rápida.
-* Si el nonce es dado como bueno por la red el minero en cuestión es recompensado con +25BTC así como por las tasas de transacción que el emisor debe pagar y el bloque se añade al blockchain.
-* Se procede al siguiente bloque.
+* Los mineros añaden un string al final del bloque llamado *nonce* y cifran todo el bloque entero con el método `SHA256` lo cual nos dará un código alfanumérico, por ejemplo `2341bdd2d99b 46318f363e09fbbcdf9d7 6817a2f6810c4b00b8 3fa9106f05570`.
+* Si el resultado del cifrado no tiene 6 o más ceros delante el bloque se considera no resuelto y se prueba con otro *nonce* totalmente aleatorio lo que generará un hash totalmente nuevo. Esto llevará millones de intentos. Un ejemplo de un hash correcto sería por ejemplo: `000000318f3 3e09fbbcdf1d4b00b83fa91768zX32f 6810c06f05570 2d99b46`.
+* Si un minero averigua el *nonce* correcto antes que los demás, lo anunciará a los demás mineros. Verificar si efectivamente este nonce es correcto es una operación muy rápida y poco costosa.
+* Si el nonce es dado como bueno por los demás, el minero en cuestión es recompensado con +25BTC así como por las tasas de transacción que el emisor debe pagar y el bloque se añade al blockchain.
+* Todos los mineros descartarán su bloque candidato y procederán a crear un candidato para el siguiente bloque.
 
-De esta manera, para cada bloque tenemos a miles de mineros compitiendo por ser los primeros en dar con el resultado correcto. En cuanto un minero descubra el nonce correcto y los demás mineros lo validen como tal, todos descartarán sus actuales bloques y rápidamente pasarán a competir por el siguiente bloque de transacciones.
+De esta manera, para cada bloque tenemos a miles de mineros compitiendo por ser los primeros en dar con el resultado correcto. En cuanto un minero descubra el nonce correcto y los demás mineros lo validen como tal, todos descartarán sus actuales bloques candidatos y rápidamente pasarán a competir por el siguiente bloque de transacciones.
 
-La red de bitcoin intentará siempre que cada bloque tarde diez minutos en ser validado. Para ello requerirá una dificultad acorde con la fuerza computacional existente, cada catorce dias aproximadamente se mide el tiempo medio de minado bloque y si es menos de diez minutos, se presupone que la fuerza computacional global ha aumentado y se sube la dificultad de manera acorde.
+La red de bitcoin intentará siempre que cada bloque tarde diez minutos en ser validado. Para ello requerirá una dificultad acorde con la fuerza computacional existente. Cada catorce dias aproximadamente se mide el tiempo medio de minado bloque y si es menor de diez minutos, se presupone que la fuerza computacional global ha aumentado y se sube la dificultad de manera acorde.
 
 De esta manera se consigue que todos los mineros estén de acuerdo con el historial de transacciones y existe una sola verdad demostrable matemáticamente distribuida entre todos los nodos.
 
