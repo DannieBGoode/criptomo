@@ -121,15 +121,22 @@
     // hides navigation-bar when scrolling down on mobile
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementsByClassName('site-navigation')[0].style.top = '0';
-        document.getElementsByTagName('progress')[0].style.marginTop = '';
-      } else {
-        document.getElementsByClassName('site-navigation')[0].style.top = '-50px';
-        document.getElementsByTagName('progress')[0].style.marginTop = '0';
+      if (mobileAndTabletcheck()) {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementsByClassName('site-navigation')[0].style.top = '0';
+            if (document.getElementsByTagName('progress')[0]) {
+              document.getElementsByTagName('progress')[0].style.marginTop = '';  
+            }
+            
+          } else {
+            document.getElementsByClassName('site-navigation')[0].style.top = '-50px';
+            if (document.getElementsByTagName('progress')[0]) {
+              document.getElementsByTagName('progress')[0].style.marginTop = '0';
+            }
+          }
+          prevScrollpos = currentScrollPos;
       }
-      prevScrollpos = currentScrollPos;
-    };
+    }
   });
 }(jQuery));
