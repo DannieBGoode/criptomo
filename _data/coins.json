@@ -334,7 +334,7 @@
 		"description": "Dropbox descentralizado, competidor de Siacoin y MaidSafeCoin."
 	},
 	"prl": {
-		"name": "Oyster (PRL)",
+		"name": "Oyster Pearl (PRL)",
 		"icon": "prl-64.png",
 		"website": "https://oysterprotocol.com/",
 		"class": "storage ads",
