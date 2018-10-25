@@ -123,7 +123,7 @@
     window.onscroll = function () {
       if (mobileAndTabletcheck()) {
           var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos >= currentScrollPos) {
+          if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 100)) {
             document.getElementsByClassName('site-navigation')[0].style.top = '0';
             if (document.getElementsByTagName('progress')[0]) {
               document.getElementsByTagName('progress')[0].style.marginTop = '';  
