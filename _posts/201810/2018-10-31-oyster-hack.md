@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hack de Oyster Protocol y Guerra Internas
+title:  Hack de Oyster Protocol y Guerras Internas
 description: El smart contract de Oyster Protocol vulnerado, nuevos tokens creados y guerra civil interna.
 banner_image: 201810/oyster.jpg
 rating: 5
