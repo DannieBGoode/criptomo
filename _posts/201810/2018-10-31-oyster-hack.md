@@ -56,6 +56,15 @@ En venganza, Bruno Block decide tomar cartas en el asunto, y haciendo uso de un 
 
 Llegados a este punto, Bruno asegura que el resto del equipo está despedido, y de que el mismo implementará el protocolo de Oyster gradualmente sin necesidad de marketing ni CEOs y posiblemente revelará su identidad.
 
+Mientras tanto el CEO de Oyster Bill Cordes ha hecho <a rel="nofollow" href="https://medium.com/oysterprotocol/oyster-update-10-31-c384696495d6">un nuevo comunicado</a> donde niega cualquier acción de inside trading y además publicada conversaciones privadas con Bruno en la que parece estar mentalmente inestable y habla de un inminente apocalipsis debido a la deuda mundial que supuestamente justifica sus acciones.
+
+{% include image_caption.html imageurl="/images/posts/201810/bruno-1.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201810/bruno-2.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201810/bruno-3.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201810/bruno-4.png" popup=true %}
+
+
+
 ### Opinión
 
 Es un día muy oscuro para este proyecto tan prometedor, pero al mismo tiempo es importante aprender varias lecciones de él.
