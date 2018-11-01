@@ -16,9 +16,9 @@ El creador anónimo del proyecto [Oyster](/que-es-oyster), Bruno Block, ha sorpr
 
 > Decidí mantener mi identidad anónima debido a que al inventar el protocolo, podría tener repercusiones políticas en el futuro, ya que estamos creando el primer protocolo de almacenamiento garantizado como totalmente privado.- Bruno Block
 
-La linea 179 del [smart contract de Oyster](https://etherscan.io/address/0x1844b21593262668b7248d0f57a220caaba46ab9#code) permite a cualquier persona con la clave privada que desplegó el contrato a reabrir la fase de ICO. Aprovechándose de esta vulnerabilidad el orden de eventos inmortalizado en el blockchain de Ethereum (al tratarse de una moneda [ERC20](/token-erc20/)) fue el siguiente:
+La linea 179 del [smart contract de Oyster](https://etherscan.io/address/0x1844b21593262668b7248d0f57a220caaba46ab9#code) permite a cualquier persona con la clave privada que desplegó el contrato reabrir la fase de ICO. Aprovechándose de esta vulnerabilidad el orden de eventos inmortalizado en el blockchain de Ethereum (al tratarse de una moneda [ERC20](/token-erc20/)) fue el siguiente:
 
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+{:.table.table-striped.table-bordered.table-hover.table-condensed}
 | Bloques                                                                                               | Eventos                            |
 |:-----------------------------------------------------------------------------------------------------:|:----------------------------------:|
 | [6605271](https://etherscan.io/tx/0x2321e305c20f45429f11045b9235e9bbd66b17bacede173ca86144ac5533d3bf) | El método openSale() fue invocado reabriendo la fase de ICO en el contrato.                                                                                                    |
