@@ -61,7 +61,7 @@ Mientras tanto el CEO de Oyster Bill Cordes ha hecho <a rel="nofollow" href="htt
 {% include image_caption.html imageurl="/images/posts/201810/bruno-1.png" popup=true %}
 {% include image_caption.html imageurl="/images/posts/201810/bruno-2.png" popup=true %}
 {% include image_caption.html imageurl="/images/posts/201810/bruno-3.png" popup=true %}
-{% include image_caption.html imageurl="/images/posts/201810/bruno-4.png" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201810/bruno-4.png" popup=true  caption="Bruno Block confiesa que lo hizo por dinero para proteger a su familia en el inminente apocalipsis inflacionario donde los plátanos costarán 5000$." %}
 
 
 
