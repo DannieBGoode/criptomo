@@ -73,7 +73,7 @@ Es un día muy oscuro para este proyecto tan prometedor, pero al mismo tiempo es
 
 El peligro de invertir en proyectos con fundadores anónimos es muy alto, puesto que el fundador puede desaparecer sin consecuencias de ningún tipo. Adicionalmente por mucho que los smart contracts pasen auditorías, vulnerabilidades como ésta o la que se dio en el [DAO](/que-es-ethereum#dao) puede ser obviadas permitiendo a aquellos tecnológicamente capaces de encontrarlas la posibilidad de enriquecerse a costa de los demás.
 
-Desde que ideó el whitepaper original de PRL se ha considerado a Bruno Block un genio, y queda por ver si realmente el equipo será capaz de entregar un PRL2 capaz de cumplir el mismo propósito. Por otro lado, no veo posible que jamás se vuelva a confiar en un smart contract desplegado por Bruno, ya que su credibilidad se ha visto totalmente destruida.
+Desde que ideó el whitepaper original de PRL se ha considerado a Bruno Block un genio, y queda por ver si realmente el equipo restante será capaz de entregar un PRL2 capaz de cumplir el mismo propósito. Por otro lado, no veo posible que jamás se vuelva a confiar en un smart contract desplegado por Bruno, ya que su credibilidad se ha visto totalmente destruida.
 
 Sólo el tiempo nos dirá si este proyecto podrá sobrevivir, por el momento su supervivencia pinta muy mal.
 
