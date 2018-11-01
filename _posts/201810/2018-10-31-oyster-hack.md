@@ -44,7 +44,7 @@ Por lo visto el contrato de PEARL ha pasado 3 auditorías de código, y ninguna 
 
 No es la primera vez que los creadores de una criptomoneda realizan un exit scam. Por ejemplo la ICO Blockbroker realizó uno a pesar de haber pasado varias auditorías de código y conseguir buenas valoraciones por respetadas páginas de valoración de inversión en ICO.
 
-El equipo de Oyster <a rel="nofollow" href="https://oysterprotocol.com/oyster-update/">ha confirmado públicamente  el desastre</a> y ha acusado a Bruno Block como único responsable yaque ellos tienen en su posesión más de un 5% del total de tokens PRL, que pasarían a valer cero si el proyecto no puede ser salvado. En consecuencia han anunciado que realizaran un [hard fork](/hard-fork-vs-soft-fork/) del PRL original a una hipotética PRL2 donde estos 3 millones de tokens creados por Bruno jamás han existido y otorgándole a los inversores tokens PRL2 en un ratio `1:1`.
+El equipo de Oyster <a rel="nofollow" href="https://oysterprotocol.com/oyster-update/">ha confirmado públicamente  el desastre</a> y ha acusado a Bruno Block como único responsable ya que ellos tienen en su posesión más de un 5% del total de tokens PRL en circulación, que pasarían a valer cero si el proyecto no puede ser salvado. En consecuencia han anunciado que realizaran un [hard fork](/hard-fork-vs-soft-fork/) del PRL original a una hipotética PRL2 donde estos 3 millones de tokens creados por Bruno jamás han existido y otorgándole a los inversores tokens PRL2 en un ratio `1:1`.
 
 > Cualquier persona que envíe Ethereum al smart contract para obtener PRL a precio de ICO se arriesga a no ser reembolsado cuando se haga el hard fork a PRL2 - Equipo de Oyster.
 
