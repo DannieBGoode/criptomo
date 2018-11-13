@@ -47,22 +47,22 @@ Cualquiera de estas criptomonedas puede ser adquirida directamente desde la app 
 - Con transferencias bancarias con comisiones del 0% (próximamente).
 - Con crédito fiat con comisiones del 0% (próximamente).
 
-{% include video.html provider="html5" id="https://mona.co/assets/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
+{% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
 
 Adicionalmente, nuestros wallets podrán tener fondos en divisas. **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
-{% include video.html provider="html5" id="https://mona.co/assets/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
+{% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
 
 **Es importante tener en cuenta de que aunque ellos mismos lo denominan wallet no se trata de tal porque en ningún momento se nos dan las claves privadas de nuestras cuentas**. Esto implica que aunque no tengamos acceso directo a nuestros fondos, al tenerlo a través de Monaco, se ofrecen al usuario envíos de fiat y criptomonedas entre usuarios de Monaco de manera gratuita.
 
 Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real.
 
-{% include video.html provider="html5" id="https://mona.co/assets/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de criptomonedas" %}
+{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de criptomonedas" %}
 
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
 
-{% include video.html provider="html5" id="https://mona.co/assets/apps/track.mp4" attributes="autoplay muted playsinline loop" caption="Seguimiento de criptomonedas" %}
+{% include video.html provider="html5" id="https://crypto.com/images/apps/track.mp4" attributes="autoplay muted playsinline loop" caption="Seguimiento de criptomonedas" %}
 
 Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gastos que hagamos con las tarjetas de crédito Monaco quedarán categorizados en la aplicación para ayudar al usuario a hacerse presupuestos u organizar sus gastos.
 
