@@ -43,7 +43,7 @@ Por el momento la app soporta las siguientes criptomonedas:
 Cualquiera de estas criptomonedas puede ser adquirida directamente desde la app a través de los siguientes métodos:
 
 - Con otras criptomonedas con comisiones de 0%.
-- Con tarjeta de débito/crédito (cobran un 4.50% de comisión lo cual es muy alto comparado con Kraken o Bitstamp).
+- Con tarjeta de débito/crédito (cobran un 3.50% de comisión lo cual es muy alto comparado con Kraken o Bitstamp).
 - Con transferencias bancarias con comisiones del 0% (próximamente).
 - Con crédito fiat con comisiones del 0% (próximamente).
 
@@ -55,7 +55,7 @@ Adicionalmente, nuestros wallets podrán tener fondos en divisas. **Monaco asegu
 
 **Es importante tener en cuenta de que aunque ellos mismos lo denominan wallet no se trata de tal porque en ningún momento se nos dan las claves privadas de nuestras cuentas**. Esto implica que aunque no tengamos acceso directo a nuestros fondos, al tenerlo a través de Monaco, se ofrecen al usuario envíos de fiat y criptomonedas entre usuarios de Monaco de manera gratuita.
 
-Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real.
+Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de dinero gratuito" %}
 
