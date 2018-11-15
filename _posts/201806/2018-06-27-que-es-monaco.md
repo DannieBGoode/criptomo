@@ -57,7 +57,7 @@ Adicionalmente, nuestros wallets podrán tener fondos en divisas. **Monaco asegu
 
 Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de criptomonedas" %}
+{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de dinero gratuito" %}
 
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
@@ -133,11 +133,11 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
 
-Adicionalmente para aquellos usuarios que una vez terminado su periodo de bloqueo de MCO, decidan continuar hacerlo, existen ventajas adicionales. Por ejemplo una devolución de un porcentaje de todas las compras de criptomonedas a través de la app ya sea con fiat o con otras criptos será devuelto en función de cuanto MCO haya bloqueado.
+Adicionalmente para aquellos usuarios que una vez terminado su periodo de bloqueo de MCO, decidan mantener sus tokens, existen ventajas adicionales. Por ejemplo una devolución de un porcentaje de todas las compras de criptomonedas a través de la app ya sea con fiat o con otras criptos será devuelto en función de cuanto MCO haya bloqueado.
 
 {% include image_caption.html imageurl="/images/posts/201806/cashback.png" title="MCO Cashback" caption="Devolución de dinero por compra de criptomonedas" popup=true %}
 
-Otras ventajas de bloquear MCO serán recepción de airdrops y obtención de un % de las tasas pagadas por amigos referidos por el usuario.
+Otras ventajas de bloquear MCO serán recepción de airdrops y obtención de un porcentaje de las tasas pagadas por amigos referidos por el usuario.
 
 ### Monaco University
 
@@ -183,7 +183,7 @@ Es importante tener en cuenta que no se trata de un wallet al no proveer la clav
 
 Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del MCO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
 
-Podeis registraros <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">aquí</a> a través del móvil y conseguir 10$ de crédito inicial.
+Podeis registraros <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">aquí</a> a través del móvil.
 
 
 
