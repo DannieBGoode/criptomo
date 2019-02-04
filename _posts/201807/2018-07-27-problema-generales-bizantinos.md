@@ -4,7 +4,7 @@ title:  El Problema de los Generales Bizantinos
 description: Explicación del problema de los generales bizantinos y cómo se resuelve en Bitcoin mediante el algoritmo Proof of Work.
 banner_image: 201807/byzantine.jpg
 rating: 5
-totalVotes: 4
+totalVotes: 11
 tags: [tecnologia]
 ---
 
