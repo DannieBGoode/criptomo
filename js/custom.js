@@ -116,6 +116,8 @@
         }
         $(currencySelector).html('(' + result[0].percent_change_24h + '%)');
       });
+    }).fail(function() {
+      $(".marketcaps").hide();
     });
 
     // hides navigation-bar when scrolling down on mobile

@@ -14,7 +14,7 @@ let table = $('#marketcaps-table').DataTable({
     search: 'Buscar:',
     infoFiltered: '(filtrado entre _MAX_ monedas)',
     loadingRecords: 'Cargando...',
-    emptyTable: 'Tabla vacía',
+    emptyTable: 'Error de conexión, tu Adblock bloquea la API de cotizaciones.',
     paginate: {
       'first': 'Primera',
       'last': 'Última',
