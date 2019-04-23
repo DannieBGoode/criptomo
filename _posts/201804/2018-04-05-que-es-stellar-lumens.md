@@ -54,7 +54,7 @@ Stellar actúa como una empresa sin ánimo de lucro por lo que no cobra a las in
 
 Stellar no tiene un Roadmap concreto publicado pero si que mantienen <a rel="nofollow" href="https://www.stellar.org/blog/">un blog frecuentemente actualizado</a>.
 
-Entre los partners de Stellar se encuentran reconocidas empresas IBM y Deloitte. De hecho IBM tiene un gran número de nodos validadores de transacciones visibles en <a rel="nofollow" href="dashboard.stellar.org">este dashboard</a> que la fundación pone a disposición de los usuarios.
+Entre los partners de Stellar se encuentran reconocidas empresas IBM y Deloitte. De hecho IBM tiene un gran número de nodos validadores de transacciones visibles en <a rel="nofollow" href="https://dashboard.stellar.org/">este dashboard</a> que la fundación pone a disposición de los usuarios.
 
 #### Lumens (XLM)
 
