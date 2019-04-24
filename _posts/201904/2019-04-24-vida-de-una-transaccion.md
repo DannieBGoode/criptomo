@@ -9,6 +9,8 @@ tags: [bitcoin]
 published: false
 ---
 
+https://cdn-images-1.medium.com/max/1920/1*ZT-C-MG5j1tclQtbOwSXeA.png
+
 https://www.youtube.com/watch?v=kpnTb6NWih0
 la vida de una transacción desde que la hace un usuario hasta que es confirmada en el blockchain
 
