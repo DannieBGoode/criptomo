@@ -18,12 +18,12 @@ Aquí os dejo un pequeño indice de algunos de los artículos que he ido creando
 
 ### Conceptos Básicos.
 Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin u otras criptomonedas.
-- Empieza preguntándote [qué es una criptomoneda](../que-es-una-criptomoneda/).
-- Revisemos [qué es Bitcoin](../que-es-bitcoin/), la primera criptomoneda.
-- Aprende a tener contraseñas seguras usando [gestores de contraseñas](../mejores-gestores-contrasenas/).
-- No pierdas todos tus fondos, [guía de cómo deberías guardar tus criptomonedas](../como-guardar-criptomonedas/).
-- Deseas empezar a invertir, aprende a [**comprar tus primeras criptomonedas**](../como-comprar-criptomonedas/).
-- Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con [tarjetas de crédito cripto](../tarjeta-debito-criptomonedas/), comparativa de las mejores tarjetas.
+- Empieza preguntándote [qué es una criptomoneda](/que-es-una-criptomoneda/).
+- Revisemos [qué es Bitcoin](/que-es-bitcoin/), la primera criptomoneda.
+- Aprende a tener contraseñas seguras usando [gestores de contraseñas](/mejores-gestores-contrasenas/).
+- No pierdas todos tus fondos, [guía de cómo deberías guardar tus criptomonedas](/como-guardar-criptomonedas/).
+- Deseas empezar a invertir, aprende a [**comprar tus primeras criptomonedas**](/como-comprar-criptomonedas/).
+- Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con [tarjetas de crédito cripto](/tarjeta-debito-criptomonedas/), comparativa de las mejores tarjetas.
 
 
 ### Profundizando en la teoría:
@@ -34,7 +34,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 - [Proof of Work vs Proof of Stake](/proof-of-work-vs-proof-of-stake/).
 - [El problema de los Generales Bizantinos](/problema-generales-bizantinos/).
 - [El problema de escalabilidad de Bitcoin](/problema-escalabilidad/).
-- [El Trilema de la Escalabilidad](trilema-escalabilidad/).
+- [El Trilema de la Escalabilidad](/trilema-escalabilidad/).
 - Qué es un [Smart Contract](/que-es-un-smart-contract/).
 - [Claves Privadas y Seeds - Conceptos básicos](/clave-privada-vs-seed/).
 - [Hard Forks y Soft Forks](/hard-fork-vs-soft-fork/).
