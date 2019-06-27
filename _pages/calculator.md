@@ -4,6 +4,7 @@ title: Calculadora de beneficios de criptos
 description: Calculadora, calcula cuánto dinero podrías haber ganado invirtiendo en Bitcoin y otras criptomonedas a tiempo.
 banner_image: pages/calculator.png
 permalink: /calculadora/
+schema: true
 rating: 5
 totalVotes: 15
 comments: true

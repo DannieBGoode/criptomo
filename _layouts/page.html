@@ -2,6 +2,9 @@
 layout: default
 ---
 <div class="site-content">
+    {% if page.schema %}
+        {% include schema_page.html %}
+    {% endif %}
     <div class="inner">
         <main class="site-main">
             <article class="post">
