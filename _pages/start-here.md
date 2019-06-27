@@ -65,7 +65,6 @@ Aprendamos a invertir mejor
 - [Ripple](/que-es-ripple)
 - [Litecoin](/que-es-litecoin/)
 - [Aragon](/que-es-aragon/)
-- [Oyster Protocol](/que-es-oyster)
 - [Nano](/que-es-nano/)
 - [Dash](/que-es-dash)
 - [EOS](/que-es-eos)
