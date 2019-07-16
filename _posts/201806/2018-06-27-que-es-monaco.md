@@ -24,7 +24,7 @@ video {
 }
 </style>
 
-Ya vimos <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">Monaco</a> cuando hablamos de [las distintas tarjetas de crédito basadas en criptomonedas](/tarjeta-debito-criptomonedas/) en el pasado. En este artículo miraremos una de las más interesantes en más detalle.
+Ya vimos <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">Monaco</a> cuando hablamos de [las distintas tarjetas de crédito basadas en criptomonedas](/tarjeta-debito-criptomonedas/) en el pasado. En este artículo miraremos una de las más interesantes en más detalle.
 
 ## Producto
 
@@ -183,7 +183,7 @@ Es importante tener en cuenta que no se trata de un wallet al no proveer la clav
 
 Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del MCO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
 
-Podeis registraros <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">aquí</a> a través del móvil.
+Podeis registraros <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">aquí</a> a través del móvil y obtener $50 en MCO después de realizar la primera compra de criptomonedas.
 
 
 
