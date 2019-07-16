@@ -148,7 +148,7 @@ Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO 
 
 {% include video.html provider="youtube" id="sPPiRRZiFMI" caption="Adicionalmente la app de Monaco servirá de Exchange de criptomonedas para comprar directamente con la tarjeta de crédito" %}
 
-Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita, aunque ya se ha abierto el periodo de Lockup de 6 meses. **Si os apuntais a partir de <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">este enlace</a> (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
+Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita, aunque ya se ha abierto el periodo de Lockup de 6 meses. **Si os apuntais a partir de <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">este enlace</a> (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
 ### Conclusión
 
