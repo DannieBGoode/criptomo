@@ -128,7 +128,7 @@ TenX ya esta funcionando globalmente.
 
 Hemos cubierto Monaco más en detalle en el artículo [Qué es Monaco](/que-es-monaco).
 
-Monaco al igual que TenX también es una criptomoneda denominada <a rel="nofollow" href="https://bravenewcoin.com/assets/Whitepapers/monaco-whitepaper.pdf">MCO</a>.
+Monaco al igual que TenX también es una criptomoneda denominada <a rel="nofollow" href="https://crypto.com/images/mco_whitepaper.pdf">MCO</a>.
 
 Aunque todavía no ha sido lanzada, Monaco parece ofrecer todo lo que podríamos querer en una tarjeta de débito.
 
@@ -148,9 +148,9 @@ Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO 
 
 {% include video.html provider="youtube" id="sPPiRRZiFMI" caption="Adicionalmente la app de Monaco servirá de Exchange de criptomonedas para comprar directamente con la tarjeta de crédito" %}
 
-Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita, aunque ya se ha abierto el periodo de Lockup de 6 meses. **Si os apuntais a partir de <a rel="nofollow" href="https://get.mona.co/IVWT/wyPNKJjtfJ">este enlace</a> (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
+Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita, aunque ya se ha abierto el periodo de Lockup de 6 meses. **Si os apuntais a partir de <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">este enlace</a> (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
-### Conclusión
+### Opinión
 
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
