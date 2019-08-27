@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Qué es CRYPTO - Monaco (MCO)
-description: La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión.
+title:  Qué es CRYPTO - Monaco (MCO/CRO)
+description: La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión. Análisis y opiniones de CRO y MCO.
 banner_image: 201806/monaco.png
 rating: 5
-totalVotes: 8
+totalVotes: 19
 tags: [altcoins]
 ---
 
@@ -152,7 +152,7 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
 
-Adicionalmente se está realizando un airdrop cada mes de la nueva moneda de MCO denominada **Crypto.com Chain** en función del número de MCO que tengamos bloqueados.
+Adicionalmente se está realizando un airdrop cada mes de la nueva moneda de MCO denominada **Crypto.com Chain (CRO)** en función del número de MCO que tengamos bloqueados.
 
 ### Automated Crypto Invest
 
@@ -187,7 +187,7 @@ Los retornos anuales que recibiremos en BTC son:
 
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-c9a25b87.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
-Monaco está empujando su nueva moneda Crypto.com Chain con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
+Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
 
 Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
