@@ -8,7 +8,7 @@ totalVotes: 8
 tags: [altcoins]
 ---
 
-La criptomoneda del equipo de Monaco no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener en cuenta.
+La criptomoneda CRYPTO del equipo de Monaco no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener en cuenta.
 
 <!--more-->
 
@@ -39,17 +39,22 @@ Por el momento la app soporta las siguientes criptomonedas:
 - Ethereum (ETH)
 - Monaco (MCO)
 - Binance Coin (BNB)
+- Ripple (XRP)
+- Litecoin (LTC)
+- Maker (MKR)
 
-Cualquiera de estas criptomonedas puede ser adquirida directamente desde la app a través de los siguientes métodos:
+entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas a diario.
+
+Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la app** a través de los siguientes métodos:
 
 - Con otras criptomonedas con comisiones de 0%.
 - Con tarjeta de débito/crédito (cobran un 3.50% de comisión lo cual es muy alto comparado con Kraken o Bitstamp).
-- Con transferencias bancarias con comisiones del 0% (próximamente).
+- Con transferencias bancarias con comisiones del 0%.
 - Con crédito fiat con comisiones del 0% (próximamente).
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
 
-Adicionalmente, nuestros wallets podrán tener fondos en divisas. **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
+Adicionalmente, nuestros wallets podrán tener fondos en múltiples divisas (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
 
@@ -76,6 +81,8 @@ Además todas ellas son gratuitas en cuanto a costes de mantenimiento y envío d
 
 Todas ellas contarán con soporte 24/7 por personas reales. Existen planes en el roadmap de añadirlas todas a servicios como Apple Pay, Samsung Pay o Google Play pero en lanzamiento no estarán disponibles todavía.
 
+Además todas las tarjetas tienen ventajas adicionales si mantienes tus MCO bloqueados más allá del tiempo inicial requerido, cómo un mayor porcentaje de cashback (dinero devuelto en divisa MCO) o servicios como Spotify y Netflix gratuitos. He marcado en negrita aquellas ventajas que requieren de bloqueo continuado de MCO.
+
 #### Midnight Blue
 
 {% include image_caption.html imageurl="/images/posts/201806/blue.png" title="Monaco Midnight Blue" caption="Midnight Blue" class="mid-size" %}
@@ -83,6 +90,7 @@ Todas ellas contarán con soporte 24/7 por personas reales. Existen planes en el
 La tarjeta midnight blue es la más asequible de precio de todas, tiene los siguientes límites:
 
 - MCO a bloquear: 0 MCO
+- Devolución de un 1% de todos los gastos efectuados con la tarjeta.
 - Intercambio interbancario gratis: 2000$
 - Retirada de cajeros gratis: 200$
 
@@ -93,9 +101,10 @@ La tarjeta midnight blue es la más asequible de precio de todas, tiene los sigu
 La tarjeta Ruby Steel se caracteriza por:
 
 - MCO a bloquear: 50 MCO
-- Devolución de un 1% en MCO de todos los gastos mensuales.
+- **Devolución de un 2% de todos los gastos si seguimos bloqueando MCO**. 1% en caso contrario.
 - Intercambio interbancario gratis: 4000$
 - Retirada de cajeros gratis: 400$
+- **Spotify gratis (una sola subscripción).**
 
 #### Royal Indigo / Jade Green
 
@@ -103,53 +112,93 @@ La tarjeta Ruby Steel se caracteriza por:
 
 
 - MCO a bloquear: 500 MCO
-- Devolución de un 1.5% en MCO de todos los gastos mensuales.
+- **Devolución de un 3% de todos los gastos si seguimos bloqueando MCO**. 1.5% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos.
 - Intercambio interbancario gratis: 10000$
 - Retirada de cajeros gratis: 800$
+- **Spotify gratis (una sola subscripción).**
+- **Netflix Gratis (una sola subscripción).**
 
 #### Icy White
 
 {% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size" %}
 
 - MCO a bloquear: 5,000 MCO
-- Devolución de un 1.75% en MCO de todos los gastos mensuales.
+- **Devolución de un 4% de todos los gastos si seguimos bloqueando MCO**. 1.75% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: 10000$
 - Retirada de cajeros gratis: 800$
-- Acceso a eventos especiales.
+- **Spotify gratis (una sola subscripción).**
+- **Netflix Gratis (una sola subscripción).**
+- **10% de los gastos en Expedia.com devueltos hasta $50 al mes.**
+- **10% de los gastos en Airbnb.com devueltos hasta $100 al mes.**
+- **Acceso a MCO Private.**
 
 #### Obsidian Black
 
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size" %}
 
 - MCO a bloquear: 50,000 MCO
-- Devolución de un 2% en MCO de todos los gastos mensuales.
+- **Devolución de un 5% de todos los gastos si seguimos bloqueando MCO**. 2% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
 - Retirada de cajeros gratis: 1000$
-- Acceso a eventos especiales.
+- **Spotify gratis (una sola subscripción).**
+- **Netflix Gratis (una sola subscripción).**
+- **10% de los gastos en Expedia.com devueltos hasta $50 al mes.**
+- **10% de los gastos en Airbnb.com devueltos hasta $100 al mes.**
+- **Acceso a MCO Private.**
 
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
 
-Adicionalmente para aquellos usuarios que una vez terminado su periodo de bloqueo de MCO, decidan mantener sus tokens, existen ventajas adicionales. Por ejemplo una devolución de un porcentaje de todas las compras de criptomonedas a través de la app ya sea con fiat o con otras criptos será devuelto en función de cuanto MCO haya bloqueado.
-
-{% include image_caption.html imageurl="/images/posts/201806/cashback.png" title="MCO Cashback" caption="Devolución de dinero por compra de criptomonedas" popup=true %}
-
-Otras ventajas de bloquear MCO serán recepción de airdrops y obtención de un porcentaje de las tasas pagadas por amigos referidos por el usuario.
-
-### Monaco University
-
-Es una sección de la app que reúne una colección de artículos en inglés que explican los principios básicos de las criptomonedas con el objetivo de educar a las personas en este mundo y apoyar la adopción en masa, no muy distinto de lo que esta web ofrece.
+Adicionalmente se está realizando un airdrop cada mes de la nueva moneda de MCO denominada **Crypto.com Chain** en función del número de MCO que tengamos bloqueados.
 
 ### Automated Crypto Invest
 
-Se trata de un servicio de inversión de criptomonedas automático donde la empresa Monaco se encarga de invertir por ti los fondos que decidas. Podría compararse a un fondo de inversión. El usuario no tendría que encargarse de investigar las distintas criptomonedas sino que el equipo de MCO llevarían el fondo.
+Se trata de un servicio de inversión de criptomonedas automático donde la empresa Monaco se encarga de invertir por ti los fondos que decidas. Podría compararse a un fondo de inversión. El usuario no tendría que encargarse de investigar las distintas criptomonedas sino que el equipo de MCO llevarían el fondo. El usuario puede elegir si quiere un perfil conservador o agresivo.
+
+Además Monaco asegura que no cobran comisiones de entrada, salida o mantenimiento, si no que solo cobrarán un 9% de las ganancias que tu obtengas ( o 18% si no tienes MCO bloqueado).
+
+Históricamente este programa <a rel="nofollow" href="https://crypto.com/en/invest.html">ha dado muy buenos resultados</a>.
+
+{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-6933b256.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
 
 ### Monaco Credit
 
-Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un préstamo en dinero fiat dejando como colateral BTC o MCO con mejores condiciones. En caso de dejar BTC como colateral se recibiría un crédito en fiat por valor de un 40% de la valoración de la criptomoneda en ese tiempo, y por 60% para el caso de MCO.
+Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un préstamo en dinero fiat dejando como colateral BTC o MCO con mejores condiciones. En caso de dejar BTC como colateral se recibiría un crédito en fiat por valor de un 40% de la valoración de la criptomoneda en ese tiempo, y por 30% para el caso de MCO. Además las comisiones del crédito variarán en función de cuanto MCO tengamos bloqueado. 
+
+Por ejemplo por $10000 en BTC usados como colateral recibiremos $4000 en TUSD y en función de si tenemos suficiente MCO bloqueado pagaremos 8% o 12% de intereses anuales.
+
+### Monaco Earn
+
+De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés (menor que el de Crypto Invest).
+
+Los retornos anuales que recibiremos en BTC son:
+
+{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+| Tiempo   | Sin MCO bloqueado | con MCO bloqueado |
+|:--------:|:-----------------:|:-----------------:|
+| 3 meses  | 4%                | 8%                |
+| 1 mes    | 4%                | 6%                |
+| flexible | 2%                | 4%                |
+
+### Monaco PAY
+
+{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-c9a25b87.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+
+Monaco está empujando su nueva moneda Crypto.com Chain con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
+{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
+
+Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
+
+{% include video.html provider="html5" id="https://crypto.com/images/crypto_pay/pay-animation.mp4" attributes="autoplay muted playsinline loop" caption="Pago con Crypto Pay" %}.
+
+
+
+## Rewards
+
+Adicionalmente Monaco está ofreciendo $50 a todos aquellos usuarios que se registren con <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">un enlace de referido</a> así como a la persona que refiere siempre y cuando acaben bloquenado algo de MCO.
 
 ## Equipo
 
