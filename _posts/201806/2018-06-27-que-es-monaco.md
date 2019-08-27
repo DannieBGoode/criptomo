@@ -222,7 +222,7 @@ Se puede comprar MCO en los siguientes exchanges:
 
 ## Dónde almacenar MCO
 
-Al tratarse de una moneda ERC-20, MCO se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas. Puede parecer que algunos wallets, como blockchain.info, no soportan monedas ERC-20 a pesar de soportar Ethereum. En realidad si enviarais vuestros fondos allí no los perderíais, estarían correctamente guardados, pero no los podréis visualizar desde la web a día de hoy, para hacerlo deberíais importar la clave privada de blockchain.info a un wallet que si lo soporte.
+Al tratarse de una moneda ERC-20, MCO se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas. Puede parecer que algunos wallets, como blockchain.info, no soportan monedas ERC-20 a pesar de soportar Ethereum. En realidad si enviarais vuestros fondos allí no los perderíais, estarían correctamente guardados, pero no los podréis visualizar desde la web a día de hoy, para hacerlo deberíais importar la clave privada de blockchain.info a un wallet que si lo soporte. No obstante debido a la cantidad de ventajas que tiene el bloqueo de MCO resulta beneficioso almacenarlas directamente en su aplicación a pesar de no tener la clave privada bajo nuestro control.
 
 ## Opinión
 
