@@ -31,13 +31,11 @@ Puesto que todavía no tenemos ningún método de pago configurado nos saldrá l
 
 Las opciones disponibles para ingresar dinero en Coinbase son tarjeta de crédito ó transferencia bancaria. Tened en cuenta que aunque pagar con tarjeta de crédito resultaría inmediato, se nos cobran unas comisiones mayores (4%) que haciendo una transferencia SEPA (1.5%), por lo que para cantidades de dinero grandes es preferible esperar a que se complete la transferencia bancaria.
 
-{% include image_caption.html imageurl="/images/posts/201909/coinbase-3.png" title="Coinbase Método de pago" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201909/coinbase-3.png" title="Coinbase tarjeta de crédito o transferencia" popup=true %}
 
 Si elegimos transferencia bancaria se nos pedirá introducir algunos datos (cómo cuánto dinero vamos a enviar) y a continuación se nos pedirá que apuntemos un código de referencia que **deberemos especificar al hacer la transferencia bancaria**. Este código sirve para que Coinbase pueda identificar que el dinero que recibirán es nuestro y nos lo asocien a nuestra cuenta.
 
 {% include image_caption.html imageurl="/images/posts/201909/coinbase-4.png" title="Coinbase Método de pago" popup=true %}
-
-{% include image_caption.html imageurl="/images/posts/201909/coinbase-5.png" title="Coinbase Método de pago" popup=true %}
 
 Recordad pulsad en el texto que pone *I've copied or written down my Reference Number* para poder seguir al siguiente paso.
 
@@ -62,8 +60,6 @@ Si decimos comprar en Coinbase Pro, tendremos que entrar con la misma cuenta que
 Una vez dentro, debemos traspasar nuestro dinero de Coinbase a Coinbase Pro, para ello le daremos a *DEPOSIT*, elegimos Euros (o dólares), le daremos click a *Coinbase Account*, y especificaremos cuánto dinero queremos traspasar, en caso de que sea todo, le podemos dar a *MAX* y confirmamos el traspaso.
 
 {% include image_caption.html imageurl="/images/posts/201909/coinbase-pro-2.png" title="Coinbase Pro Depositar BTC" popup=true %}
-
-
 
 {% include image_caption.html imageurl="/images/posts/201909/coinbase-pro-3.png" title="Coinbase Pro Depositar BTC" popup=true %}
 
