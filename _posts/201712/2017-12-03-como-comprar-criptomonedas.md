@@ -17,28 +17,28 @@ En este artículo explicaremos los pasos básicos a seguir para empezar a invert
 
 ## 1. Elegimos qué criptomoneda queremos comprar.
 
-Un exchange es una página web donde podemos enviar dinero *fiat* (euros, dólares,etc...) y podremos usarlo para cambiarlo por criptomonedas.
+Un exchange es una página web donde podemos enviar dinero *fiat* (euros, dólares,etc...) y podremos usarlo para cambiarlo por criptomonedas, por ejemplo Bitcoin.
 
-Así como no todos los exchanges venden las mismas monedas, no todas las monedas se pueden comprar con dinero fiat. Muchas de ellas únicamente pueden ser comparadas con Bitcoin ó Ethereum que es para las cuales se ha realizado esta guía ya que son las únicas monedas que se venden en absolutamente todos los exchanges.
+Así como no todos los exchanges venden las mismas criptomonedas, no todas las criptomonedas se pueden comprar con dinero fiat. Muchas de ellas únicamente pueden ser comparadas con Bitcoin ó Ethereum que es para las cuales se ha realizado esta guía ya que son las únicas monedas que se venden en absolutamente todos los exchanges.
 
-Si deseáis elegir una moneda distinta deberéis ir a [coinmarketcap](https://coinmarketcap.com/), pulsar en la moneda que os interesa y mirar en que Exchange la venden. Tened en cuenta que casi seguro deberéis comprar primero Bitcoins/Ethereum para poder comprarlas.
+Si deseáis elegir una moneda distinta deberéis ir a <a rel="nofollow" href="https://coinmarketcap.com/">coinmarketcap</a>, pulsar en la moneda que os interesa y mirar en que Exchange la venden. Tened en cuenta que casi seguro deberéis comprar primero Bitcoins/Ethereum para poder comprarlas.
 
 
-Aunque existen [decenas de exchanges distintos](https://www.bestbitcoinexchange.io/) con distintos ratios, métodos de pago y facilidad de uso, para empezar enviando dinero fiat recomiendo uno de los siguientes:
-* [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) (si usais este enlace os darán 10$  gratis por los primeros 100$ gastados), que es el que usaremos para este ejemplo y vende:
+Aunque existen https://www.bestbitcoinexchange.io/">decenas de exchanges distintos</a> con distintos ratios, métodos de pago y facilidad de uso, para empezar enviando dinero fiat recomiendo uno de los siguientes:
+* <a rel="nofollow" href="https://www.coinbase.com/join/ferran_tt">Coinbase</a> (si usais este enlace os darán 10$  gratis por los primeros 100$ gastados), que es el que usaremos para este ejemplo y vende:
 	* Bitcoin
 	* Bitcoin Cash
 	* Ethereum
 	* Ethereum Classic
 	* Litecoin
-* [Bitstamp](https://www.bitstamp.net/) que vende:
+* <a rel="nofollow" href="https://www.bitstamp.net/">Bitstamp</a> que vende:
 	* Bitcoin
 	* Bitcoin Cash
 	* Ethereum
 	* Litecoin
 	* Ripple
 
-No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar fiat a criptomoneda, y sólo después podrás comprar las demás monedas.
+**En este artículo seguiremos el ejemplo de cómo comprar Bitcoin**. No todas las criptomonedas se venden en estos exchanges, si estás interesado en comprar otras altcoins diferentes puedes continuar en el artículo de [cómo comprar altcoins](../como-comprar-altcoins/), pero ten encuenta que casi con toda seguridad tendrás que usar primero esta guía para cambiar fiat a Bitcoin, y sólo después podrás comprar las demás monedas.
 
 ## 2. Nos creamos una cuenta en el exchange elegido.
 
@@ -77,7 +77,7 @@ En cualquier caso la manera más habitual es comprar al precio de mercado en ese
 
 ##### Coinbase Pro
 
-Coinbase tiene una comisión por compra de **1.5%**, podemos optar a comisiones más bajas si usamos el segundo exchange de Coinbase llamado [Coinbase Pro](https://www.gdax.com) (antes conocido como GDAX). Podemos acceder a él con nuestra misma cuenta de Coinbase, ya que son en realidad la misma empresa, y se nos pedirá que utilicemos un segundo documento de verificación distinto al utilizado en el tercer paso de esta guía. Coinbase Pro ofrece comisiones del **0.25%**, por lo que recomiendo altamente realizar las compras ahí frente a Coinbase.
+Coinbase tiene una comisión por compra de **1.5%**, podemos optar a comisiones más bajas si usamos el segundo exchange de Coinbase llamado [Coinbase Pro](https://pro.coinbase.com) (antes conocido como GDAX). Podemos acceder a él con nuestra misma cuenta de Coinbase, ya que son en realidad la misma empresa, y se nos pedirá que utilicemos un segundo documento de verificación distinto al utilizado en el tercer paso de esta guía. Coinbase Pro ofrece comisiones del **0.25%**, por lo que recomiendo altamente realizar las compras ahí frente a Coinbase.
 
 Una vez verificada nuestra cuenta de Coinbase Pro, desde su página principal podemos acceder a los fondos que tenemos en Coinbase dándole a la opción de `DEPOSIT` y rellenando el siguiente formulario:
 
