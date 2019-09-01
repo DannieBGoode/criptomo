@@ -47,7 +47,7 @@ Una vez Coinbase reciba los fondos (por ejemplo los euros) nos enviarán un emai
 
 Llegados a este punto tenemos dos opciones:
 
-1. Comprar directamente en Coinbase por una comisión de 1.5%. Es rápido y fácil. Dándole de nuevo a *Precios*, buscando BTC y dándole a *Trade*, tendremos el misma ventana que antes, pero esta vez al tener ya fondos ingresados podremos comprar directamente.
+1. Comprar directamente en Coinbase por una comisión de 1.5%. Es rápido y fácil. Dándole de nuevo a *Precios*, buscando BTC y dándole a *Trade*, tendremos la misma ventana que antes, pero esta vez al tener ya fondos ingresados, no nos pedirá un nuevo método de pago y podremos comprar directamente.
 
 {% include image_caption.html imageurl="/images/posts/201909/coinbase-5.png" title="Coinbase Comprar BTC" popup=true %}
 
