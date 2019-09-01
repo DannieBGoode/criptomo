@@ -8,7 +8,7 @@ rating: 5
 totalVotes: 6
 ---
 
-Hemos actualizado la guía de cómo comprar Bitcoin para poder invertir en esta criptomoneda en 2019-2020. A diferencia de la guía anterior, nos enfocaremos únicamente en Bitcoin utilizando la versión web, pero recordad que Coinbase también ofrece una app móvil de su plataforma desde donde se puede comprar sin problemas.
+Hemos actualizado la guía de cómo comprar Bitcoin para poder invertir en esta criptomoneda en 2019-2020. A diferencia de [la guía anterior](/como-comprar-criptomonedas/), nos enfocaremos únicamente en Bitcoin utilizando la versión web, pero recordad que Coinbase también ofrece una app móvil de su plataforma desde donde se puede comprar sin problemas.
 
 <!--more-->
 
@@ -72,6 +72,3 @@ Aunque sería posible dejar nuestros BTCs aquí, mi recomendación es que los mo
 Un wallet es una cartera de criptomonedas de la cual sólo nosotros tenemos la clave de acceso. Si perdemos dicha clave perderíamos nuestros fondos para siempre, pero al menos nadie podrá intervenir. Si Coinbase es hackeada en el futuro estaríamos totalmente a salvo.
 
 Para Bitcoin, Bitcoin Cash y Ethereum el wallet más sencillo es [blockchain.info](https://blockchain.info/) y los más seguros serían Hardware wallets. Tenemos a vuestra disposición [una guía de los distintos wallets existentes](../como-guardar-criptomonedas/) que no deberías perderte.
-
-
-
