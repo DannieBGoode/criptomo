@@ -30,9 +30,9 @@ Ya vimos <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">Monac
 
 El producto que el equipo de Monaco se caracteriza por ofrecer varios componentes:
 
-### Wallet
+### Wallet / Exchange
 
-En primer lugar tenemos la aplicación de móvil (iOS y android) que hace entre otras labores de wallet. Para poder hacer uso de ello es importante realizar un proceso de KYC (Know Your Client). Se trata de un proceso muy sencillo de menos de 5 minutos donde la app nos hará unas fotos tanto a nosotros como a nuestra documentación.
+En primer lugar tenemos la aplicación de móvil (iOS y android) que hace entre otras labores de wallet. Para poder hacer uso de ello es importante realizar un proceso de KYC (Know Your Client). Se trata de un proceso muy sencillo de menos de 5 minutos donde la app nos hará unas fotos tanto a nosotros como a nuestra documentación para verificar nuestra identidad.
 
 Por el momento la app soporta las siguientes criptomonedas:
 - Bitcoin (BTC)
@@ -43,7 +43,7 @@ Por el momento la app soporta las siguientes criptomonedas:
 - Litecoin (LTC)
 - Maker (MKR)
 
-entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas a diario.
+entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas cada mes.
 
 Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la app** a través de los siguientes métodos:
 
@@ -53,6 +53,8 @@ Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la ap
 - Con crédito fiat con comisiones del 0% (próximamente).
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
+
+Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
 
 Adicionalmente, nuestros wallets podrán tener fondos en múltiples divisas (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
