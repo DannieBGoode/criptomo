@@ -7,7 +7,7 @@ best coins of years history
 worst coins of years history
 https://www.cointimemachine.com/
 investment over years / savings plan
-https://for-bitcoin.com/calculator/
+https://for-bitcoin.com/calculator/ with this endpoint https://api.coindesk.com/v1/bpi/historical/close.json?start=2014-12-10&end=2016-12-10&currency=EUR
 
 
 - how the economy works
