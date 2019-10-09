@@ -5,13 +5,23 @@ Date.prototype.addDays = function(days) {
 }
 
 var date = new Date();
+var Today = (new Date).toISOString().split('T')[0];
 
 alert(date.addDays(5));
 
+// change selected user.date to format yyyy-mm-dd
 
-$.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=2014-12-10&currency=user.currency)
+var investment          = {
+    date: $('#invest-date').val(),
+    oldValue: $('#invest-quantity').val(),
+    tokenSymbol: $('#invest-currency').val(),
+    tokenName: $( '#invest-currency option:selected' ).text(),
+    fiat: $('#invest-fiat').val()
+};
+
+$.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&currency=' + investment.fiat)
   .success(function (data) {
-    
+    conole.log(data);
   })
   .error(function () {
     handleError('date');
@@ -20,16 +30,16 @@ $.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=2014-12-10&cu
     loading('off');
   });
  
-
-change selected user.date to format yyyy-mm-dd
+let results = 0;
+let totalCC = 0;
+let totalSpent = 0;
 
 while (user.date < Today)
+{
+    results.totalCC += user.amount / data.bpi.date;
+    results.totalSpent += user.amount;
 
-results.totalCC += user.amount / data.bpi.date;
-results.totalSpent += user.amount;
-
-date.addDays(user.selectedInterval);
-
-end;
+    date.addDays(user.selectedInterval);
+}
 
 results.currentInvestment = date.bpi.today * totalCC;
