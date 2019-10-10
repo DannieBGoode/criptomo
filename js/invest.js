@@ -4,8 +4,8 @@ Date.prototype.addDays = function(days) {
     return date;
 }
 
-var date = new Date();
-var Today = (new Date).toISOString().split('T')[0];
+let date = new Date();
+let Today = (new Date).toISOString().split('T')[0];
 
 alert(date.addDays(5));
 
@@ -21,7 +21,7 @@ var investment          = {
 
 $.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&currency=' + investment.fiat)
   .success(function (data) {
-    conole.log(data);
+    console.log(data);
   })
   .error(function () {
     handleError('date');
@@ -30,14 +30,21 @@ $.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investmen
     loading('off');
   });
  
-let results = 0;
-let totalCC = 0;
-let totalSpent = 0;
+let results = [];
 
-while (user.date < Today)
+results[0] = {
+    totalCC = user.amount / data.bpi.date,
+    totalSpent = user.amount
+};
+
+let date = user.date;
+
+for (i = 1; date < Today; i++)
 {
-    results.totalCC += user.amount / data.bpi.date;
-    results.totalSpent += user.amount;
+    results[i] = {};
+    results[i].totalCC += results[i - 1].totalCC + (user.amount / data.bpi.date);
+    results[i].totalSpent += results[i - 1].totalSpent + user.amount;
+    results[i].investmentValue = results[i].totalCC * data.bpi.date;
 
     date.addDays(user.selectedInterval);
 }
