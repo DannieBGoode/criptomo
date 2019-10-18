@@ -1,4 +1,4 @@
-let investmentDataArray = [];
+let investment = {};
 
 Date.prototype.addDays = function(days) {
     var date = new Date(this.valueOf());
@@ -9,7 +9,7 @@ Date.prototype.addDays = function(days) {
 function calculateEarnings() {
 
   table.processing( true );
-  let investment          = {
+  investment = {
       date: $('#invest-date').val(),
       amount: parseInt($('#invest-quantity').val()),
       tokenSymbol: $('#invest-currency').val(),
@@ -19,15 +19,11 @@ function calculateEarnings() {
       today: new Date().toISOString()
   };
 
-  // console.log(investment);
-
   $.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.today.split('T')[0] + '&currency=' + investment.fiat)
     .success(function (data) {
-      // console.log(data);
-      // loading('on');
-      let investmentDataArray = [];
       data = JSON.parse(data);
 
+      let investmentDataArray = [];
       let date = new Date(investment.date);
       let dateFormatted =  date.toISOString().split('T')[0];
       let results = [];
@@ -132,32 +128,36 @@ let table = $('#investment-table').DataTable({
       responsivePriority: 4,
       data:  'totalSpent',
       title: 'Inversión',
-      render: function (data) {
-        return data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + ' ' + '<small>' + $('#invest-fiat').val() + '</small>';
+      render: function (data, type) {
+        if ( type !== 'display' ) { return data; }
+        return data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + ' ' + '<small>' + investment.fiat + '</small>';
       },
     },
     {
       responsivePriority: 3,
       data:  'totalCC',
       title: 'Criptomonedas',
-      render: function (data) {
-        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + $('#invest-currency').val() + '</small>';
+      render: function (data, type) {
+        if ( type !== 'display' ) { return data; }
+        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.tokenSymbol + '</small>';
       },
     },
     {
       responsivePriority: 5,
       data:  'purchasePrice',
       title: 'Precio de compra',
-      render: function (data) {
-        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + $('#invest-fiat').val() + '</small>';
+      render: function (data, type) {
+        if ( type !== 'display' ) { return data; }
+        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.fiat + '</small>';
       },
     },
     {
       responsivePriority: 2,
       data:  'investmentValue',
       title: 'Valor en fecha',
-      render: function (data) {
-        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + $('#invest-fiat').val() + '</small>';
+      render: function (data, type) {
+        if ( type !== 'display' ) { return data; }
+        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.fiat + '</small>';
       },
     }
   ]

@@ -13,7 +13,12 @@ loadsPlugins: true
 lang: es
 ---
 
-<b>Cartera de Inversión</b>
+<div style="margin-bottom: 10px">
+    <h3>Cartera de Inversión Periódica</h3>
+    <div style="margin-top:-25px">
+        <small>Para cálculos de inversión puntuales teneis la <a href="/calculadora">calculadora simple</a>.</small>
+    </div>
+</div>
 <div class="calculator-block" style="margin-bottom: 20px">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
