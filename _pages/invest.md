@@ -10,6 +10,7 @@ totalVotes: 25
 comments: true
 sitemap: true
 loadsPlugins: true
+lang: es
 ---
 
 <b>Cartera de Inversión</b>

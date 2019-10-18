@@ -120,22 +120,25 @@ let table = $('#investment-table').DataTable({
     { 
       responsivePriority: 1,
       data:  'date',
-      title: 'Fecha de compra'
+      title: 'Fecha',
+      render: function (data) {
+        return '<small>' + data + '</small>';
+      },
     },
     {
       responsivePriority: 4,
       data:  'totalSpent',
-      title: 'Inversión hasta la fecha',
+      title: 'Inversión',
       render: function (data) {
-        return data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + ' ' + $('#invest-fiat').val();
+        return data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + ' ' + '<small>' + $('#invest-fiat').val() + '</small>';
       },
     },
     {
       responsivePriority: 3,
       data:  'totalCC',
-      title: 'Criptomonedas Acumuladas',
+      title: 'Criptomonedas',
       render: function (data) {
-        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + $('#invest-currency').val();
+        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + $('#invest-currency').val() + '</small>';
       },
     },
     {
@@ -143,15 +146,15 @@ let table = $('#investment-table').DataTable({
       data:  'purchasePrice',
       title: 'Precio de compra',
       render: function (data) {
-        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + $('#invest-fiat').val();
+        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + $('#invest-fiat').val() + '</small>';
       },
     },
     {
       responsivePriority: 2,
       data:  'investmentValue',
-      title: 'Valor hasta la fecha',
+      title: 'Valor en fecha',
       render: function (data) {
-        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + $('#invest-fiat').val();
+        return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + $('#invest-fiat').val() + '</small>';
       },
     }
   ]
