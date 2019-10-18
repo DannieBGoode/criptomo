@@ -8,7 +8,7 @@ Date.prototype.addDays = function(days) {
 
 function calculateEarnings() {
 
-  table.processing( true );
+  table.processing(true);
   investment = {
       date: $('#invest-date').val(),
       amount: parseInt($('#invest-quantity').val()),
@@ -46,7 +46,7 @@ function calculateEarnings() {
       {
 
           results[i] = {};
-          results[i].totalCC = parseFloat(parseInt(results[i - 1].totalCC) + investment.amount / data.bpi[dateFormatted]).toFixed(6);
+          results[i].totalCC = parseFloat(parseFloat(results[i - 1].totalCC) + parseFloat(investment.amount / data.bpi[dateFormatted])).toFixed(6);
           results[i].totalSpent = parseInt(results[i - 1].totalSpent) + investment.amount;
           results[i].investmentValue = parseFloat(results[i].totalCC * data.bpi[dateFormatted]).toFixed(2);
           results[i].purchasePrice = data.bpi[dateFormatted];

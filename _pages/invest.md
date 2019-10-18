@@ -52,19 +52,23 @@ lang: es
     </div>
     <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
 
-    <div class="">
-        <label>con frecuencia de cada </label>
-        <select id="invest-interval">
-            <option value="1">Día</option>
-            <option value="7">Semana</option>
-            <option value="30">Mes</option>
-            <option value="365">Año</option>
-        </select>
-        <div class="calculator-col-start" style="display:inline">
-            <label>empezando el día </label>
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>con frecuencia de cada </label>
         </div>
-        <div class="calculator-col-end" style="display:inline">
-            <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
+        <div class="calculator-col-end">
+            <select id="invest-interval">
+                <option value="1">Día</option>
+                <option value="7">Semana</option>
+                <option value="30">Mes</option>
+                <option value="365">Año</option>
+            </select>
+            <div class="calculator-col-start" style="display:inline">
+                <label>empezando el día </label>
+            </div>
+            <div class="calculator-col-end" style="display:inline">
+                <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
+            </div>
         </div>
     </div>
 
