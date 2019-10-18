@@ -212,9 +212,6 @@ The first (most recent) post in the list is styled to be bigger than the others 
     margin-top: -81px;
     position: relative;
     z-index: 1;
-    @media (max-width: $small-screen-breakpoint) {
-        display: none !important;
-    }
     .active {
         background-color: $picton-blue !important;
         -webkit-box-shadow: unset;
@@ -232,17 +229,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
         top: 6px;
     }
 }
-
-.list-view {
-    display: none;
-    @media (max-width: $small-screen-breakpoint) {
-        display: block !important;
-    }
-}
 .grid-view {
     margin-top: -75px;
     margin-top: -40px;
-    @media (max-width: $small-screen-breakpoint) {
-        display: none !important;
-    }
 }

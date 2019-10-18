@@ -10,17 +10,6 @@ redirect_from:
 <div class="site-content">
     <div class="inner">
         <main class="site-main"> 
-        	<div class="toggle-grid">
-	        	<a onclick="toggleGridView('grid')" class="icon-grid top-link square fill-horizontal"></a>
-                <a onclick="toggleGridView('list')" class="icon-stop2 top-link square fill-horizontal"></a>
-	        </div>
-        	<div class="list-view">
-            {% for post in paginator.posts %}
-            
-                {% include post_list.html %}
-            
-            {% endfor %}
-            </div>
 
             <div class="grid-view">
                 {% for post in paginator.posts %}
@@ -51,4 +40,3 @@ redirect_from:
 </div><!-- .site-content -->
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
-<script src="{{ site.baseurl }}/js/feed.js?{{site.time | date: '%s%N'}}"></script>
