@@ -2,7 +2,7 @@
 layout: page
 title: Cartera de Inversión de Criptomonedas
 description: Cartera de Inversión de Criptomonedas, invierte periodicamente y calcula tus ganancias de Bitcoin
-banner_image: pages/investment.png
+banner_image: pages/investment.jpg
 permalink: /inversion/
 schema: true
 rating: 5
@@ -34,7 +34,7 @@ lang: es
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>En la Criptomoneda</label>
+            <label>en la criptomoneda</label>
         </div>
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
