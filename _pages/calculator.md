@@ -70,6 +70,8 @@ loadsPlugins: true
         </p>
     </div>
 
+    <div style="margin-top:10px">No te pierdas nuestra <b>calculadora de inversión periódica avanzada</b> en la sección de <a href="/inversion">INVERSIÓN</a>.</div>
+
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>

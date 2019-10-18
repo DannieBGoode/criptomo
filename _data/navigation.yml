@@ -10,6 +10,8 @@
   url: /cotizaciones/
 - text: Calculadora
   url: /calculadora/
+- text: Inversión
+  url: /inversion/
 - text: Glosario
   url: /glosario/
 - text: Autor
