@@ -41,6 +41,9 @@ function calculateEarnings() {
 
       results[0].investmentValue = parseFloat(results[0].totalCC * data.bpi[dateFormatted]).toFixed(2);
 
+      date = date.addDays(investment.selectedInterval);
+      dateFormatted =  date.toISOString().split('T')[0];
+
       investmentDataArray.push(results[0]);
 
       for (let i = 1; date.toISOString() < investment.today; i++)
