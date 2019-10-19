@@ -23,6 +23,13 @@
 		"description": "Un fork de Bitcoin creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.",
 		"article": "/que-es-bitcoin-cash/"
 	},
+	"bsv": {
+		"name": "Bitcoin Satoshi Vision (BSV)",
+		"icon": "bsv.png",
+		"website": "https://bitcoinsv.io/",
+		"class": "currency",
+		"description": "Un fork de Bitcoin Cash creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original."
+	},
 	"dash": {
 		"name": "DASH (DASH)",
 		"icon": "dash-64.png",

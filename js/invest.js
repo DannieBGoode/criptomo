@@ -60,12 +60,20 @@ function calculateEarnings() {
 
       $.get('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
         .success(function (data) {
-          results.currentInvestment = data[investment.fiat] * results[results.length - 1].totalCC;
+
+          results.currentInvestment = {
+            investmentValue: parseFloat(data[investment.fiat] * results[results.length - 1].totalCC).toFixed(2),
+            totalSpent: results[results.length - 1].totalSpent,
+            totalCC: results[results.length - 1].totalCC,
+            purchasePrice: data[investment.fiat],
+            date: investment.today
+          }
+          investmentDataArray.push(results.currentInvestment);
 
           $('#result-tokencount').html(results[results.length - 1].totalCC.toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
           $('#result-tokentype').html(investment.tokenSymbol);
           $('#result-fiat').html(investment.fiat);
-          $('#result-currentvalue').html(parseFloat(results.currentInvestment).toFixed(2).toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
+          $('#result-currentvalue').html(results.currentInvestment.investmentValue.toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
           $('#calculator-results').show();
 
           table.clear();
@@ -120,7 +128,11 @@ let table = $('#investment-table').DataTable({
       responsivePriority: 1,
       data:  'date',
       title: 'Fecha',
-      render: function (data) {
+      render: function (data, type, row) {
+        if ((data === investment.today) && (type === 'display')) {
+          console.log(row);
+          return '<div class="highlighted-row">Hoy</div>';
+        }
         return '<small>' + data + '</small>';
       },
     },
@@ -148,7 +160,7 @@ let table = $('#investment-table').DataTable({
       title: 'Precio de compra',
       render: function (data, type) {
         if ( type !== 'display' ) { return data; }
-        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.fiat + '</small>';
+        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.tokenSymbol + '/' + investment.fiat + '</small>';
       },
     },
     {
