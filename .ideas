@@ -2,6 +2,9 @@
 Cómo se financian guerras. Cada año somos más pobres. Tenemos más deuda. Bitcoin vale más cada vez. Es deflatorio. apoya a los ahorradores en lugar de la inflación que es un impuesto oculto con el que se penaliza a la gente que no participa en el capitalismo.
 https://www.reddit.com/r/Bitcoin/comments/7qau9g/why_we_hodl/
 
+- translate blog
+https://github.com/sylvaindurand/jekyll-multilingual
+
 - calculator extension:
 best coins of years history
 worst coins of years history
@@ -9,6 +12,7 @@ https://www.cointimemachine.com/
 investment over years / savings plan
 https://for-bitcoin.com/calculator/ with this endpoint https://api.coindesk.com/v1/bpi/historical/close.json?start=2014-12-10&end=2016-12-10&currency=EUR
 highlight in green the best investment and in red the worst
+add last row with current value and in a different color
 
 
 - how the economy works
@@ -246,7 +250,7 @@ please be careful, exposing one of the private keys of an address generated with
 - como montar un crypto folio con 500$
 https://www.youtube.com/watch?v=DGH76Nln9NI
 
-- translate blog
+
 
 - recompensas por minado a los autores
 explicarlo en una hoja de COLLABORATE WITH ME

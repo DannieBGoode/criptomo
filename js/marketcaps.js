@@ -38,7 +38,7 @@ let table = $('#marketcaps-table').DataTable({
         if (coins[data]) {
           imageSrc = '/images/general/cryptocurrencies/' + coins[data].icon;
         } else {
-          imageSrc = 'https://www.livecoinwatch.com/images/icons32/' + data + '.png';
+          imageSrc = 'https://www.livecoinwatch.com/public/currencies/32/' + data + '.png';
         }
         return '<div class="marketcaps-icon"><img src="' + imageSrc + '" /></div>';
       },
