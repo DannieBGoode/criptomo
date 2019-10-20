@@ -4,6 +4,9 @@ https://www.reddit.com/r/Bitcoin/comments/7qau9g/why_we_hodl/
 
 - translate blog
 https://github.com/sylvaindurand/jekyll-multilingual
+add language picker that changes the topnav to only the pages available in english (with their links)
+use localstorage to remember last language selected
+for now se can even hide the blogposts from EN
 
 - calculator extension:
 best coins of years history
@@ -13,6 +16,7 @@ investment over years / savings plan
 https://for-bitcoin.com/calculator/ with this endpoint https://api.coindesk.com/v1/bpi/historical/close.json?start=2014-12-10&end=2016-12-10&currency=EUR
 highlight in green the best investment and in red the worst
 add last row with current value and in a different color
+add investment support for other assets https://www.reddit.com/r/ethereum/comments/6xbwxp/ethereum_price_history_api/ poloniex might be useful here
 
 
 - how the economy works
