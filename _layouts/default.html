@@ -53,7 +53,12 @@ layout: compress
     </nav><!-- .site-navigation -->
     <header class="site-header">
         <div class="inner">
-            <span class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></span>
+            {% if lang == 'es' %}
+                {% assign home = site.baseurl %}
+            {% else %}
+                {% assign home = site.baseurl-en %}
+            {% endif %}
+            <span class="site-title"><a class="logo-text" href="{{ home }}/">{{site.title}}</a></span>
             <p class="site-description">{{site.tagline}}</p>
         </div><!-- .inner -->
     </header>

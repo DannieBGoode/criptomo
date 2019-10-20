@@ -7,6 +7,7 @@ https://github.com/sylvaindurand/jekyll-multilingual
 add language picker that changes the topnav to only the pages available in english (with their links)
 use localstorage to remember last language selected
 for now se can even hide the blogposts from EN
+mailchimp english list vs spanish list
 
 - calculator extension:
 best coins of years history
