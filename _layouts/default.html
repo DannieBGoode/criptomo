@@ -31,7 +31,13 @@ layout: compress
             <button id="menu-toggle" aria-expanded="false">Menu</button>
             <div class="nav-menu">
                 <ul class="menu">
-                {% for link in site.data.navigation %}
+                {% if lang == 'es' %}
+                    {%  assign navigation = site.data.navigation %}
+                {% else %}
+                    {%  assign navigation = site.data.navigation-en %}
+                {% endif %}
+
+                {% for link in navigation %}
                   {% assign current = nil %}
                   {% if page.url == link.url %}
                     {% assign current = 'nav-current' %}
@@ -40,6 +46,7 @@ layout: compress
                     <a class="{{ current }}" href="{{site.baseurl}}{{ link.url }}">{{ link.text }}</a>
                   </li>
                 {% endfor %}
+
                 </ul>        
             </div><!-- .nav-menu -->
         </div><!-- .inner -->

@@ -345,8 +345,15 @@
 		"icon": "prl-64.png",
 		"website": "https://oysterprotocol.com/",
 		"class": "storage ads",
-		"description": "Dropbox descentralizado y alternativa a la publicidad web.",
+		"description": "Dropbox descentralizado y alternativa a la publicidad web. Ya disuelta",
 		"article": "/que-es-oyster/"
+	},
+	"opq": {
+		"name": "Opacity (OPQ)",
+		"icon": "opq-64.png",
+		"website": "https://opacity.io/",
+		"class": "storage",
+		"description": "Fork de PRL. Dropbox descentralizado."
 	},
 	"fct": {
 		"name": "Factom (FCT)",
