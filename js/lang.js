@@ -36,7 +36,7 @@ if ((locationPath === '/investment/') || (locationPath === '/inversion/') || (lo
 	  	tokens: 'Tokens en Circulación'
 	  }
 	}
-	else if (lang === 'en'){
+	else if (lang === 'en') {
 		tableDataLang.general = {
 			lengthMenu: 'Items _MENU_',
 			zeroRecords: 'No data found',

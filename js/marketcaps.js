@@ -116,7 +116,6 @@ function marketcapTableLoad( currency ) {
 
   $('#marketcaps-currency-select').val(currency);
   $.get( getUrl, function ( response ) {
-    if (window.location.pathname === '/cotizaciones/') {
       $.each(response, function (index, coin) {
         let colSpacer = null;
         let priceLength = '';
@@ -147,9 +146,9 @@ function marketcapTableLoad( currency ) {
 
         marketcapDataArray.push(marketcapDataRow);
       });
-    }
   })
     .success(function (response) {
+
       table.clear();
       table.rows.add( marketcapDataArray );
       table.draw();
