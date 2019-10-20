@@ -13,8 +13,7 @@ mailchimp english list vs spanish list
 best coins of years history
 worst coins of years history
 https://www.cointimemachine.com/
-investment over years / savings plan
-https://for-bitcoin.com/calculator/ with this endpoint https://api.coindesk.com/v1/bpi/historical/close.json?start=2014-12-10&end=2016-12-10&currency=EUR
+investment over years / savings plan / add graphs!
 highlight in green the best investment and in red the worst
 add last row with current value and in a different color
 add investment support for other assets https://www.reddit.com/r/ethereum/comments/6xbwxp/ethereum_price_history_api/ poloniex might be useful here

@@ -6,7 +6,7 @@ banner_image: pages/calculator.png
 permalink: /calculator/
 schema: true
 rating: 5
-totalVotes: 15
+totalVotes: 39
 comments: true
 sitemap: true
 loadsPlugins: true

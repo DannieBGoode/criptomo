@@ -6,7 +6,7 @@ banner_image: pages/investment.jpg
 permalink: /investment/
 schema: true
 rating: 5
-totalVotes: 25
+totalVotes: 45
 comments: true
 sitemap: true
 loadsPlugins: true
