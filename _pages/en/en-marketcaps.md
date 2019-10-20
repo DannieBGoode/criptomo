@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cotizaciones
-description: Cotización, Capitalización total de Bitcoin, Ethereum, Ripple y las principales criptomonedas en el mercado.
+title: Marketcaps
+description: Cryptocurrency market cap rankings, charts, and more. Bitcoin, Ethereum, Ripple...
 banner_image: pages/marketcaps.png
 permalink: /marketcaps/
 comments: true
