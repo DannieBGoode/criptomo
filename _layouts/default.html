@@ -59,7 +59,13 @@ layout: compress
                 {% assign home = site.baseurl-en %}
             {% endif %}
             <span class="site-title"><a class="logo-text" href="{{ home }}/">{{site.title}}</a></span>
-            <p class="site-description">{{site.tagline}}</p>
+            <p class="site-description">
+                {% if lang == 'es' %}
+                    {{site.tagline}}
+                {% else %}
+                    {{site.tagline-en}}
+                {% endif %}
+            </p>
         </div><!-- .inner -->
     </header>
     {{content}}

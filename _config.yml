@@ -11,6 +11,7 @@ title                    : "CRIPTOMO"
 description              : "Aprende de Criptomonedas, inversión, seguridad. Guías de cómo y dónde comprar. Tutoriales para invertir en criptomonedas para principiantes y discusiones para niveles avanzados."
 # Tagline near the site title
 tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
+tagline-en               : "Technology, Bitcoin, cryptocurrencies and investments."
 keywords                 : "criptomonedas bitcoin inversion"
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : ""
