@@ -14,7 +14,6 @@ lang: en
 ---
 
 <div style="margin-bottom: 10px">
-    <h3>Investment Portfolio</h3>
     <div style="margin-top:-25px">
         <small>To calculate punctual investments please use our <a href="/calculator">simple calculator</a>.</small>
     </div>

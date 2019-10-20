@@ -13,6 +13,11 @@ loadsPlugins: true
 lang: en
 ---
 
+<div style="margin-bottom: 10px">
+    <div style="margin-top:-25px">
+        <small>For periodical investments please use our <a href="/investment">advanced calculator</a>.</small>
+    </div>
+</div>
 <div class="calculator-block">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
@@ -70,9 +75,7 @@ lang: en
             <span class="error date-error">This date is not in our register.</span>
         </p>
     </div>
-
-    <div style="margin-top:10px">Check out our new <b>advanced investment calculator</b> in the section <a href="/investment">INVESTMENT</a>.</div>
-
+</div>
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>

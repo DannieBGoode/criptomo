@@ -14,7 +14,6 @@ lang: es
 ---
 
 <div style="margin-bottom: 10px">
-    <h3>Cartera de Inversión Periódica</h3>
     <div style="margin-top:-25px">
         <small>Para cálculos de inversión puntuales teneis la <a href="/calculadora">calculadora simple</a>.</small>
     </div>

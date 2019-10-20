@@ -12,6 +12,12 @@ sitemap: true
 loadsPlugins: true
 ---
 
+<div style="margin-bottom: 10px">
+    <div style="margin-top:-25px">
+        <small>Para cálculos de inversión periódica teneis la <a href="/inversion">calculadora avanzada</a>.</small>
+    </div>
+</div>
+
 <div class="calculator-block">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
@@ -69,9 +75,7 @@ loadsPlugins: true
             <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
         </p>
     </div>
-
-    <div style="margin-top:10px">No te pierdas nuestra <b>calculadora de inversión periódica avanzada</b> en la sección de <a href="/inversion">INVERSIÓN</a>.</div>
-
+</div>
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
