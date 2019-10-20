@@ -34,6 +34,9 @@ if ((locationPath === '/investment/') || (locationPath === '/inversion/') || (lo
 	  	marketcap: 'Cotización',
 	  	price: 'Precio',
 	  	tokens: 'Tokens en Circulación'
+	  },
+	  tableDataLang.global =  {
+	  	today: 'Hoy'
 	  }
 	}
 	else if (lang === 'en') {
@@ -66,6 +69,9 @@ if ((locationPath === '/investment/') || (locationPath === '/inversion/') || (lo
 			marketcap: 'Marketcap',
 			price: 'Price',
 			tokens: 'Tokens in Circulation'
+		},
+		tableDataLang.global =  {
+			today: 'Today'
 		}
 	}
 }

@@ -51,19 +51,23 @@ lang: en
     </div>
     <div class="calculator-othercoins"><span>It's possible not every cryptocurrency is supported by the API.</span></div>
 
-    <div class="">
-        <label>every </label>
-        <select id="invest-interval">
-            <option value="1">Day</option>
-            <option value="7">Week</option>
-            <option value="30">Month</option>
-            <option value="365">Year</option>
-        </select>
-        <div class="calculator-col-start" style="display:inline">
-            <label>starting the </label>
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>every </label>
         </div>
-        <div class="calculator-col-end" style="display:inline">
-            <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
+        <div class="calculator-col-end">
+            <select id="invest-interval">
+                <option value="1">Day</option>
+                <option value="7">Week</option>
+                <option value="30">Month</option>
+                <option value="365">Year</option>
+            </select>
+            <div class="calculator-col-start" style="display:inline">
+                <label>starting on the </label>
+            </div>
+            <div class="calculator-col-end" style="display:inline">
+                <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
+            </div>
         </div>
     </div>
 

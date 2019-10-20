@@ -111,7 +111,7 @@ let table = $('#investment-table').DataTable({
       title: tableDataLang.investmentColumns.date,
       render: function (data, type, row) {
         if ((data === investment.today) && (type === 'display')) {
-          return '<div class="highlighted-row">Hoy</div>';
+          return '<div class="highlighted-row">' + tableDataLang.global.today + '</div>';
         }
         return '<small>' + data + '</small>';
       },
