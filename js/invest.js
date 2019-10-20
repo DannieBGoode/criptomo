@@ -87,7 +87,6 @@ function calculateEarnings() {
         handleError('date');
       })
       .always(function () {
-        // loading('off');
         table.processing( false );
       });
     })
@@ -96,41 +95,22 @@ function calculateEarnings() {
       table.processing( false );
     })
     .always(function () {
-      // loading('off');
       table.processing( false );
     });
 }
  
-
 let table = $('#investment-table').DataTable({
   responsive: true,
   pageLength: 100,
   processing: true,
-  language: {
-    lengthMenu: 'Items _MENU_',
-    zeroRecords: 'No se han encontrado resultados',
-    info: 'Página _PAGE_ de _PAGES_',
-    infoEmpty: 'No hay información disponible',
-    search: 'Buscar:',
-    infoFiltered: '(filtrado entre _MAX_ monedas)',
-    loadingRecords: 'Cargando...',
-    emptyTable: 'Tabla vacía',
-    paginate: {
-      'first': 'Primera',
-      'last': 'Última',
-      'next': '<span class="icon-chevron-right"></span>',
-      'previous': '<span class="icon-chevron-left"></span>'
-    },
-    processing: "<div class='loader' style='display:block'></div>"
-  },
+  language: tableDataLang.general,
   columns: [
     { 
       responsivePriority: 1,
       data:  'date',
-      title: 'Fecha',
+      title: tableDataLang.investmentColumns.date,
       render: function (data, type, row) {
         if ((data === investment.today) && (type === 'display')) {
-          console.log(row);
           return '<div class="highlighted-row">Hoy</div>';
         }
         return '<small>' + data + '</small>';
@@ -139,7 +119,7 @@ let table = $('#investment-table').DataTable({
     {
       responsivePriority: 4,
       data:  'totalSpent',
-      title: 'Inversión',
+      title: tableDataLang.investmentColumns.totalSpent,
       render: function (data, type) {
         if ( type !== 'display' ) { return data; }
         return data.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') + ' ' + '<small>' + investment.fiat + '</small>';
@@ -148,7 +128,7 @@ let table = $('#investment-table').DataTable({
     {
       responsivePriority: 3,
       data:  'totalCC',
-      title: 'Criptomonedas',
+      title: tableDataLang.investmentColumns.totalCC,
       render: function (data, type) {
         if ( type !== 'display' ) { return data; }
         return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.tokenSymbol + '</small>';
@@ -157,7 +137,7 @@ let table = $('#investment-table').DataTable({
     {
       responsivePriority: 5,
       data:  'purchasePrice',
-      title: 'Precio de compra',
+      title: tableDataLang.investmentColumns.purchasePrice,
       render: function (data, type) {
         if ( type !== 'display' ) { return data; }
         return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.tokenSymbol + '/' + investment.fiat + '</small>';
@@ -166,7 +146,7 @@ let table = $('#investment-table').DataTable({
     {
       responsivePriority: 2,
       data:  'investmentValue',
-      title: 'Valor en fecha',
+      title: tableDataLang.investmentColumns.investmentValue,
       render: function (data, type) {
         if ( type !== 'display' ) { return data; }
         return data.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.fiat + '</small>';
@@ -174,32 +154,3 @@ let table = $('#investment-table').DataTable({
     }
   ]
 });
-
-$('#invest-currency').change(function () {
-  var selected = $('option:selected', this).attr('class');
-  var optionText = $('.editable').text();
-
-  if (selected === 'editable') {
-    $('.calculator-othercoins').show();
-
-    $('.calculator-othercoins').keyup(function () {
-      var editText = $('.calculator-othercoins').val();
-      $('.editable').val(editText);
-      $('.calculator-othercoins').focus();
-    });
-  } else {
-    $('.calculator-othercoins').hide();
-    $('.calculator-othercoins').val('');
-  }
-});
-
-function handleError(type) {
-  if (type === 'currency') {
-    $('.calculator-othercoins').addClass('input-error');
-    $('.coin-error').show();
-  } else {
-    $('#invest-date').addClass('input-error');
-    $('.date-error').show();
-  }
-  $('#calculator-results').hide();
-}

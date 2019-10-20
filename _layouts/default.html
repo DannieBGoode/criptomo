@@ -2,7 +2,14 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}">
+
+{% if page.lang %}
+    {% assign lang = page.lang %}
+{% else %}
+    {% assign lang = site.locale | slice: 0,2 | default: "en" %}
+{% endif %}
+
+<html lang="{{ lang }}">
 <head>
     <meta charset="utf-8">
     {% include seo.html %}    

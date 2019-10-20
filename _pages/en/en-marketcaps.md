@@ -3,24 +3,25 @@ layout: page
 title: Cotizaciones
 description: Cotización, Capitalización total de Bitcoin, Ethereum, Ripple y las principales criptomonedas en el mercado.
 banner_image: pages/marketcaps.png
-permalink: /cotizaciones/
+permalink: /marketcaps/
 comments: true
 sitemap: true
 loadsPlugins: true
 noMargins: true
+lang: en
 ---
 
-<small class="error api-error">Error de conexión, tu Adblock bloquea la API de cotizaciones.</small>
+<small class="error api-error">Conexion error, your Adblock blocks the marketcaps API.</small>
 <div class="marketcaps-table-top">
     <div class="marketcaps-table-filter">
         <label>
-            Buscar
+            Search
             <input type="search" id="marketcaps-filter-input">
         </label>
     </div>
     <div class="marketcaps-table-currency">
         <label>
-            Moneda
+            Currency
             <select id="marketcaps-currency-select">
                 <option value="EUR">EUR</option>
                 <option value="USD">USD</option>
@@ -45,7 +46,7 @@ noMargins: true
 <table id="marketcaps-table" class="display" width="100%"></table>
 
 <div class="marketcaps-table-footer">
-	<a href="https://coinmarketcap.com/" rel="nofollow">Más Cotizaciones</a>
+	<a href="https://coinmarketcap.com/" rel="nofollow">More marketcaps</a>
 </div>
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>

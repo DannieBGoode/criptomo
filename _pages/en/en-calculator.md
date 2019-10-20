@@ -1,21 +1,22 @@
 ---
 layout: page
-title: Calculadora de beneficios de criptos
-description: Calculadora, calcula cuánto dinero podrías haber ganado invirtiendo en Bitcoin y otras criptomonedas a tiempo.
+title: Cryptocurrencies Profit Calculator
+description: Calculator, calculate how much money you could have won investing in Bitcoin and other cryptocurrencies.
 banner_image: pages/calculator.png
-permalink: /calculadora/
+permalink: /calculator/
 schema: true
 rating: 5
 totalVotes: 15
 comments: true
 sitemap: true
 loadsPlugins: true
+lang: en
 ---
 
 <div class="calculator-block">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Inversión</label>
+            <label>Investment</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
@@ -27,7 +28,7 @@ loadsPlugins: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Criptomoneda</label>
+            <label>Cryptocurrency</label>
         </div>
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
@@ -43,10 +44,10 @@ loadsPlugins: true
             <input width="150" class="calculator-othercoins" autofocus />
         </div>
     </div>
-    <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
+    <div class="calculator-othercoins"><span>It might possible that not all cryptocurrencies are covered by the server.</span></div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Fecha de compra</label>
+            <label>Purchase Date</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
@@ -56,21 +57,21 @@ loadsPlugins: true
     <div class="loader calculator-loader-container"></div>
     
     <div class="calculator-result-container">
-        <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
+        <button class="calculate-button" onclick="calculateEarnings()">Calculate</button>
         <div id="calculator-results">
-            Si hubieras invertido <span id="result-invest"></span> en <span id="result-tokentype1"></span> el día <span id="result-date"></span> hubieras podido comprar a un precio de 
-            <span id="result-old-price"></span> un total de 
+            If you had invested <span id="result-invest"></span> on <span id="result-tokentype1"></span> the day <span id="result-date"></span> you would have had the opportunity of buying at a price of 
+            <span id="result-old-price"></span> a total of
             <span id="result-tokencount"></span> <span id="result-tokentype2"></span>
-            valorados a día de hoy en <span id="result-currentvalue"></span>.
-            <div>Ganancia: <span id="gained-percentage"></span></div>
+            valued today <span id="result-currentvalue"></span>.
+            <div>Profits: <span id="gained-percentage"></span></div>
         </div>
         <p>
-            <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
-            <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
+            <span class="error coin-error">This cryptocurrency is not in our system.</span>
+            <span class="error date-error">This date is not in our register.</span>
         </p>
     </div>
 
-    <div style="margin-top:10px">No te pierdas nuestra <b>calculadora de inversión periódica avanzada</b> en la sección de <a href="/inversion">INVERSIÓN</a>.</div>
+    <div style="margin-top:10px">Check out our new <b>advanced investment calculator</b> in the section <a href="/investment">INVESTMENT</a>.</div>
 
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>

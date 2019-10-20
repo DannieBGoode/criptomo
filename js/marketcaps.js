@@ -6,23 +6,7 @@ let table = $('#marketcaps-table').DataTable({
   processing: true,
   /* l (Length changing), f (Filtering input), t (The Table!), i(Information), p (Pagination), r (pRocessing) */
   dom: 'rt<"marketcaps-table-bottom"ip>',
-  language: {
-    lengthMenu: 'Items _MENU_',
-    zeroRecords: 'No se han encontrado resultados',
-    info: 'Página _PAGE_ de _PAGES_',
-    infoEmpty: 'No hay información disponible',
-    search: 'Buscar:',
-    infoFiltered: '(filtrado entre _MAX_ monedas)',
-    loadingRecords: 'Cargando...',
-    emptyTable: 'Error de conexión, tu Adblock bloquea la API de cotizaciones.',
-    paginate: {
-      'first': 'Primera',
-      'last': 'Última',
-      'next': '<span class="icon-chevron-right"></span>',
-      'previous': '<span class="icon-chevron-left"></span>'
-    },
-    processing: "<div class='loader' style='display:block'></div>"
-  },
+  language: tableDataLang.general,
   columns: [
     {
       responsivePriority: 3,
@@ -47,7 +31,7 @@ let table = $('#marketcaps-table').DataTable({
     },
     {
       responsivePriority: 1,
-      title: 'Nombre',
+      title: tableDataLang.marketcapColumns.name,
       className: 'dt-left marketcaps-table-column-name',
       render: function ( data, type, row, meta ) {
         if ( type === 'filter' ) { return data.symbol + ' ' + data.name; } else if ( type === 'sort' ) { return data.symbol; } else if ( type === 'display' ) {
@@ -62,7 +46,7 @@ let table = $('#marketcaps-table').DataTable({
     },
     {
       responsivePriority: 6,
-      title: 'Cotización',
+      title: tableDataLang.marketcapColumns.marketcap,
       className: 'dt-right',
       render: function (data) {
         return generateCurrencyValueHtml( data, marketcapCurrency );
@@ -84,7 +68,7 @@ let table = $('#marketcaps-table').DataTable({
     },
     {
       responsivePriority: 7,
-      title: 'Tokens en Circulación',
+      title: tableDataLang.marketcapColumns.tokens,
       className: 'dt-right',
       searchable: false
     },
@@ -171,6 +155,9 @@ function marketcapTableLoad( currency ) {
       table.draw();
       table.columns.adjust();
       table.responsive.recalc();
+    })
+    .error(function(response) {
+      $(".api-error").show();
     })
     .always(function () {
       table.processing( false );
