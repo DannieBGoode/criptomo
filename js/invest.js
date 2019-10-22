@@ -140,7 +140,7 @@ let table = $('#investment-table').DataTable({
       title: tableDataLang.investmentColumns.purchasePrice,
       render: function (data, type) {
         if ( type !== 'display' ) { return data; }
-        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.tokenSymbol + '/' + investment.fiat + '</small>';
+        return parseFloat(data).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<small>' + investment.fiat + '/' + investment.tokenSymbol + '</small>';
       },
     },
     {
