@@ -57,6 +57,7 @@ lang: es
         </div>
         <div class="calculator-col-end">
             <select id="invest-interval">
+                <option value="9999">Una sola vez</option>
                 <option value="1">Día</option>
                 <option value="7">Semana</option>
                 <option value="30">Mes</option>
