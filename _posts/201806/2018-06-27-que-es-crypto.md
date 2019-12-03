@@ -8,6 +8,7 @@ totalVotes: 19
 tags: [altcoins]
 redirect_from:
     - /que-es-monaco
+    - /que-es-monaco/
 ---
 
 La criptomoneda CRYPTO del equipo de Monaco no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener en cuenta.
