@@ -6,6 +6,8 @@ banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 19
 tags: [altcoins]
+redirect_from:
+    - /que-es-monaco
 ---
 
 La criptomoneda CRYPTO del equipo de Monaco no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener en cuenta.
@@ -216,11 +218,7 @@ Con fecha 6 de Julio de 2018, el equipo de Monaco ha hecho un rebranding de su e
 
 ## Dónde comprar
 
-Se puede comprar MCO en los siguientes exchanges:
-- <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
-- <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
-- <a rel="nofollow" href="https://liqui.io/">Liqui</a>
-* En la propia aplicación de Monaco.
+Principalmente el mejor sitio donde comprar MCO o CRO es <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">en la propia aplicación de CRYPTO</a>.
 
 ## Dónde almacenar MCO
 
