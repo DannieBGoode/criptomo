@@ -11,7 +11,7 @@ redirect_from:
     - /que-es-monaco/
 ---
 
-La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta.
+La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta que además compite con otras tarjetas como BNext y Revolut.
 
 <!--more-->
 
