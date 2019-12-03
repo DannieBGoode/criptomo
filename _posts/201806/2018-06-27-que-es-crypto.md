@@ -48,7 +48,7 @@ entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas ca
 
 Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la app** a través de los siguientes métodos:
 
-**Sin comisiones (gratis, al 0%):**
+**Sin comisiones (GRATIS, comisión del 0%):**
 - Con otras criptomonedas.
 - Con transferencias bancarias.
 - Con crédito fiat.
