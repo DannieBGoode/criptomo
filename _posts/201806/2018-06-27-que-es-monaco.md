@@ -164,7 +164,7 @@ Además Monaco asegura que no cobran comisiones de entrada, salida o mantenimien
 
 Históricamente este programa <a rel="nofollow" href="https://crypto.com/en/invest.html">ha dado muy buenos resultados</a>.
 
-{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-6933b256.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-c5b3e15f.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
 
 ### Monaco Credit
 
@@ -187,7 +187,7 @@ Los retornos anuales que recibiremos en BTC son:
 
 ### Monaco PAY
 
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-c9a25b87.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-8362952f.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
@@ -206,7 +206,7 @@ Adicionalmente Monaco está ofreciendo $50 a todos aquellos usuarios que se regi
 
 {% include image_caption.html imageurl="/images/posts/201806/kris.png" title="Kris Marszalek" caption="Kris Marszalek" %}
 
-Kris Marszalek es el CEO of Monaco, un conocido emprendedor con experiencia en el sector financiero, el resto del equipo se puede comprobar <a rel="nofollow" href="https://mona.co/en/company.html#page-team">aquí</a> con enlaces a sus perfiles de linkedin directos.
+Kris Marszalek es el CEO of Monaco, un conocido emprendedor con experiencia en el sector financiero, el resto del equipo se puede comprobar <a rel="nofollow" href="https://crypto.com/en/about.html#team">en la sección de Equipo de su página web</a> con enlaces a sus perfiles de linkedin directos.
 
 ### Rebranding
 
