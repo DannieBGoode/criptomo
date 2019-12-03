@@ -11,7 +11,7 @@ redirect_from:
     - /que-es-monaco/
 ---
 
-La criptomoneda CRYPTO del equipo de Monaco no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener en cuenta.
+La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta.
 
 <!--more-->
 
@@ -26,8 +26,6 @@ video {
 	max-height: 400px;
 }
 </style>
-
-Ya vimos <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">Monaco</a> cuando hablamos de [las distintas tarjetas de crédito basadas en criptomonedas](/tarjeta-debito-criptomonedas/) en el pasado. En este artículo miraremos una de las más interesantes en más detalle.
 
 ## Producto
 
