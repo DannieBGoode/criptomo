@@ -48,10 +48,13 @@ entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas ca
 
 Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la app** a través de los siguientes métodos:
 
-- Con otras criptomonedas con comisiones de 0%.
-- Con tarjeta de débito/crédito (cobran un 3.50% de comisión lo cual es muy alto comparado con Kraken o Bitstamp).
-- Con transferencias bancarias con comisiones del 0%.
-- Con crédito fiat con comisiones del 0% (próximamente).
+**Sin comisiones (gratis, al 0%:**
+- Con otras criptomonedas.
+- Con transferencias bancarias.
+- Con crédito fiat.
+
+**Con comisiones:**
+- Con tarjeta de débito/crédito, cobran un 3.50% de comisión por compra.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
 
