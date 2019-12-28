@@ -46,7 +46,7 @@ Por el momento la app soporta las siguientes criptomonedas:
 
 entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas cada mes.
 
-Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la app** a través de los siguientes métodos:
+Cualquiera de estas criptomonedas puede ser comprada **directamente desde la app** a través de los siguientes métodos:
 
 **Sin comisiones (GRATIS, comisión del 0%):**
 - Con otras criptomonedas.
@@ -54,13 +54,13 @@ Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la ap
 - Con crédito fiat.
 
 **Con comisiones:**
-- Con tarjeta de débito/crédito, cobran un 3.50% de comisión por compra.
+- Con tarjeta de débito/crédito, la de compra de criptomonedas cuesta un 3.50% de comisión por compra.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
 
 Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
 
-Adicionalmente, nuestros wallets podrán tener fondos en múltiples divisas (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
+Adicionalmente, **nuestros wallets podrán tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
 
