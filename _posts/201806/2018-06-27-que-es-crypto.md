@@ -6,9 +6,12 @@ banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 19
 tags: [altcoins]
+redirect_from:
+    - /que-es-monaco
+    - /que-es-monaco/
 ---
 
-La criptomoneda CRYPTO del equipo de Monaco no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener en cuenta.
+La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta que además compite con otras tarjetas como BNext y Revolut.
 
 <!--more-->
 
@@ -23,8 +26,6 @@ video {
 	max-height: 400px;
 }
 </style>
-
-Ya vimos <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">Monaco</a> cuando hablamos de [las distintas tarjetas de crédito basadas en criptomonedas](/tarjeta-debito-criptomonedas/) en el pasado. En este artículo miraremos una de las más interesantes en más detalle.
 
 ## Producto
 
@@ -47,10 +48,13 @@ entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas ca
 
 Cualquiera de estas criptomonedas puede ser adquirida **directamente desde la app** a través de los siguientes métodos:
 
-- Con otras criptomonedas con comisiones de 0%.
-- Con tarjeta de débito/crédito (cobran un 3.50% de comisión lo cual es muy alto comparado con Kraken o Bitstamp).
-- Con transferencias bancarias con comisiones del 0%.
-- Con crédito fiat con comisiones del 0% (próximamente).
+**Sin comisiones (GRATIS, comisión del 0%):**
+- Con otras criptomonedas.
+- Con transferencias bancarias.
+- Con crédito fiat.
+
+**Con comisiones:**
+- Con tarjeta de débito/crédito, cobran un 3.50% de comisión por compra.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
 
@@ -164,7 +168,7 @@ Además Monaco asegura que no cobran comisiones de entrada, salida o mantenimien
 
 Históricamente este programa <a rel="nofollow" href="https://crypto.com/en/invest.html">ha dado muy buenos resultados</a>.
 
-{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-6933b256.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-c5b3e15f.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
 
 ### Monaco Credit
 
@@ -187,7 +191,7 @@ Los retornos anuales que recibiremos en BTC son:
 
 ### Monaco PAY
 
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-c9a25b87.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-8362952f.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
@@ -206,7 +210,7 @@ Adicionalmente Monaco está ofreciendo $50 a todos aquellos usuarios que se regi
 
 {% include image_caption.html imageurl="/images/posts/201806/kris.png" title="Kris Marszalek" caption="Kris Marszalek" %}
 
-Kris Marszalek es el CEO of Monaco, un conocido emprendedor con experiencia en el sector financiero, el resto del equipo se puede comprobar <a rel="nofollow" href="https://mona.co/en/company.html#page-team">aquí</a> con enlaces a sus perfiles de linkedin directos.
+Kris Marszalek es el CEO of Monaco, un conocido emprendedor con experiencia en el sector financiero, el resto del equipo se puede comprobar <a rel="nofollow" href="https://crypto.com/en/about.html#team">en la sección de Equipo de su página web</a> con enlaces a sus perfiles de linkedin directos.
 
 ### Rebranding
 
@@ -216,11 +220,7 @@ Con fecha 6 de Julio de 2018, el equipo de Monaco ha hecho un rebranding de su e
 
 ## Dónde comprar
 
-Se puede comprar MCO en los siguientes exchanges:
-- <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
-- <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
-- <a rel="nofollow" href="https://liqui.io/">Liqui</a>
-* En la propia aplicación de Monaco.
+Principalmente el mejor sitio donde comprar MCO o CRO es <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">en la propia aplicación de CRYPTO</a>.
 
 ## Dónde almacenar MCO
 
