@@ -86,9 +86,16 @@ De estas carteras de fiat es de donde harán uso las tarjetas de crédito detall
 
 ### Tipos de tarjeta
 
-El verdadero producto de Monaco son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens MCO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token MCO durante dichos 6 meses**.
+El verdadero producto de Crypto.com son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens MCO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token MCO durante dichos 6 meses**.
 
-Además todas ellas son gratuitas en cuanto a costes de mantenimiento y envío de la tarjeta al usuario, y pueden ser bloqueadas en caso de pérdida desde la aplicación fácilmente.
+El precio de MCO oscila como el de cualquier activo, históricamente ha estado entre $2 y $8:
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="coinmarketcap-currency-widget" data-currencyid="1776" data-base="EUR" data-secondary="USD" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="true" data-stats="USD"></div>
+
+MCO puede adquirirse desde dentro de la app como hemos detallado anteriormente.
+
+Todas las tarjetas son gratuitas en cuanto a costes de mantenimiento y envío de la tarjeta al usuario, y pueden ser bloqueadas en caso de pérdida desde la aplicación fácilmente.
 
 Todas ellas contarán con soporte 24/7 por personas reales. Existen planes en el roadmap de añadirlas todas a servicios como Apple Pay, Samsung Pay o Google Play pero en lanzamiento no estarán disponibles todavía.
 
