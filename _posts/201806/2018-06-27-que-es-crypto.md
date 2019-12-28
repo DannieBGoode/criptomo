@@ -31,7 +31,7 @@ video {
 
 El producto que el equipo de Monaco se caracteriza por ofrecer varios componentes:
 
-### Wallet / Exchange
+### Wallet / Exchange de Criptomonedas
 
 En primer lugar tenemos la aplicación de móvil (iOS y android) que hace entre otras labores de wallet. Para poder hacer uso de ello es importante realizar un proceso de KYC (Know Your Client). Se trata de un proceso muy sencillo de menos de 5 minutos donde la app nos hará unas fotos tanto a nosotros como a nuestra documentación para verificar nuestra identidad.
 
@@ -54,22 +54,25 @@ Cualquiera de estas criptomonedas puede ser comprada **directamente desde la app
 - Con crédito fiat.
 
 **Con comisiones:**
-- Con tarjeta de débito/crédito, la de compra de criptomonedas cuesta un 3.50% de comisión por compra.
+- Con tarjeta de débito/crédito, la compra de criptomonedas cuesta un 3.50% de comisión por transacción.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
 
 Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
 
-Adicionalmente, **nuestros wallets podrán tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
-
-{% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
-
 **Es importante tener en cuenta de que aunque ellos mismos lo denominan wallet no se trata de tal porque en ningún momento se nos dan las claves privadas de nuestras cuentas**. Esto implica que aunque no tengamos acceso directo a nuestros fondos, al tenerlo a través de Monaco, se ofrecen al usuario envíos de fiat y criptomonedas entre usuarios de Monaco de manera gratuita.
 
 Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de dinero gratuito" %}
+### Cartera de dinero fiat (euros, dólares...)
 
+Adicionalmente, **podremos tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
+
+{% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
+
+Cómo es habitual en productos así, se podrá enviar y recibir fondos tantos de fiat como de criptomonedas con otros usuarios de Crypto.
+
+{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de dinero gratuito" %}
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
 
