@@ -64,6 +64,10 @@ Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas 
 
 Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
 
+Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
+
+{% include video.html provider="html5" id="https://crypto.com/images/apps/track.mp4" attributes="autoplay muted playsinline loop" caption="Seguimiento de criptomonedas" %}
+
 ### Cartera de dinero fiat (euros, dólares...)
 
 Adicionalmente, **podremos tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
@@ -73,10 +77,6 @@ Adicionalmente, **podremos tener fondos en múltiples divisas** (por ejemplo par
 Cómo es habitual en productos así, se podrá enviar y recibir fondos tantos de fiat como de criptomonedas con otros usuarios de Crypto.
 
 {% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de dinero gratuito" %}
-
-Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
-
-{% include video.html provider="html5" id="https://crypto.com/images/apps/track.mp4" attributes="autoplay muted playsinline loop" caption="Seguimiento de criptomonedas" %}
 
 Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gastos que hagamos con las tarjetas de crédito Monaco quedarán categorizados en la aplicación para ayudar al usuario a hacerse presupuestos u organizar sus gastos.
 
