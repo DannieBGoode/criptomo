@@ -77,7 +77,7 @@ Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gas
 
 ### Tipos de tarjeta
 
-El verdadero producto de Monaco son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens MCO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token MCO durante dichos 6 meses.
+El verdadero producto de Monaco son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens MCO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token MCO durante dichos 6 meses**.
 
 Además todas ellas son gratuitas en cuanto a costes de mantenimiento y envío de la tarjeta al usuario, y pueden ser bloqueadas en caso de pérdida desde la aplicación fácilmente.
 
@@ -234,7 +234,7 @@ Es importante tener en cuenta que no se trata de un wallet al no proveer la clav
 
 Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del MCO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
 
-Podeis registraros <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">aquí</a> a través del móvil y obtener $50 en MCO después de realizar la primera compra de criptomonedas.
+Podeis registraros <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">aquí</a> a través del móvil y obtener $50 en MCO después de reservar vuestra tarjeta.
 
 
 
