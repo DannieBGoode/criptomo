@@ -82,6 +82,8 @@ Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gas
 
 {% include image_caption.html imageurl="/images/posts/201806/budget.png" title="Monaco Presupuestos" caption="Seguimiento de pagos" class="mid-size" %}
 
+De estas carteras de fiat es de donde harán uso las tarjetas de crédito detalladas a continuación que **nos darán un cashback de entre 1% y 5%** dependiendo de ciertas condiciones.
+
 ### Tipos de tarjeta
 
 El verdadero producto de Monaco son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens MCO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token MCO durante dichos 6 meses**.
