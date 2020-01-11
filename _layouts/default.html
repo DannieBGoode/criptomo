@@ -29,6 +29,25 @@ layout: compress
     <nav id="top" class="site-navigation">
         <div class="inner">
             <button id="menu-toggle" aria-expanded="false">Menu</button>
+            <ul id="language-picker">
+
+                {%  assign languages = site.data.languages %}
+                {% for language in languages %}
+
+                {% if lang == language.name %}
+                    {% assign current = 'nav-current' %}
+                {% else %}
+                    {% assign current = '' %}
+                {% endif %}
+
+                <li class="{{ current }}">
+                    <a class="{{ current }}" href="{{ language.url }}">
+                        <small>{{ language.name | upcase }}</small>
+                    </a>
+                </li>
+
+                {% endfor %}
+            </ul> 
             <div class="nav-menu">
                 <ul class="menu">
                 {% if lang == 'es' %}
@@ -47,8 +66,8 @@ layout: compress
                   </li>
                 {% endfor %}
 
-                </ul>        
-            </div><!-- .nav-menu -->
+                </ul>
+            </div><!-- .nav-menu -->  
         </div><!-- .inner -->
     </nav><!-- .site-navigation -->
     <header class="site-header">

@@ -1,0 +1,30 @@
+#language-picker {
+	float: right;
+	display: inline-block;
+	list-style: none;
+	height: 0;
+	position: relative;
+	right: 5%;
+
+	li {
+	    float: left;
+	    font-size: 12px;
+	    line-height: 1.5;
+	    padding: 16px 0;
+	    position: relative;
+	    a {
+	    	border-left: 2px solid $tundora;
+		    color: #818181;
+		    display: block;
+		    font-weight: bold;
+		    letter-spacing: 1px;
+		    padding: 0 15px;
+		    text-decoration: none;
+		    text-transform: uppercase;
+
+		    &.nav-current {
+		    	color: $picton-blue;
+		    }
+	    }
+	}
+}
