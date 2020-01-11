@@ -31,7 +31,12 @@
         {% endfor %}
 
          <div style="text-align:right;font-size:14px">
-            <a href="https://coinmarketcap.com/" rel="nofollow" style="text-decoration: none">más marketcaps</a>
+            {% if page.lang == 'en' %} 
+                {% assign marketcaps = '/marketcaps' %}
+            {% else %}
+                {% assign marketcaps = '/cotizaciones' %}
+            {% endif %}
+            <a href="{{ marketcaps }}" rel="nofollow" style="text-decoration: none">+ marketcaps</a>
         </div>
     </section>
 
