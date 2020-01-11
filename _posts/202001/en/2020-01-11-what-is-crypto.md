@@ -5,7 +5,7 @@ description: The cryptocurrency credit and debit card called CRYPTO, formerly kn
 banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 29
-tags: [altcoins]
+tags: [altcoins, en]
 lang: en
 ---
 
