@@ -796,7 +796,7 @@ a.archive-top-link:hover {
 	
 }
 
-@media only screen and (max-width: 1017px) {
+@media only screen and (max-width: $menu-jump-breakpoint) {
     .site-navigation,
     .site-header,
     .site-content,

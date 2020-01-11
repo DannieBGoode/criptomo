@@ -8,7 +8,7 @@
     border: $picton-blue 1px solid;
     text-align: center;
     background: $tundora;
-    @media only screen and (max-width: 1017px) {
+    @media only screen and (max-width: $menu-jump-breakpoint) {
         margin-bottom: $block-separation-mobile;
     }
     p {
