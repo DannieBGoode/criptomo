@@ -44,15 +44,17 @@ function calculateEarnings() {
 
       for (let i = 1; date.toISOString() < investment.today; i++)
       {
+          let currentPrice = data.bpi[dateFormatted];
+          if (currentPrice) {
+            results[i] = {};
+            results[i].totalCC = parseFloat(parseFloat(results[i - 1].totalCC) + parseFloat(investment.amount / currentPrice)).toFixed(6);
+            results[i].totalSpent = parseInt(results[i - 1].totalSpent) + investment.amount;
+            results[i].investmentValue = parseFloat(results[i].totalCC * currentPrice).toFixed(2);
+            results[i].purchasePrice = currentPrice;
+            results[i].date = dateFormatted;
 
-          results[i] = {};
-          results[i].totalCC = parseFloat(parseFloat(results[i - 1].totalCC) + parseFloat(investment.amount / data.bpi[dateFormatted])).toFixed(6);
-          results[i].totalSpent = parseInt(results[i - 1].totalSpent) + investment.amount;
-          results[i].investmentValue = parseFloat(results[i].totalCC * data.bpi[dateFormatted]).toFixed(2);
-          results[i].purchasePrice = data.bpi[dateFormatted];
-          results[i].date = dateFormatted;
-
-          investmentDataArray.push(results[i]);
+            investmentDataArray.push(results[i]);
+          }
 
           date = date.addDays(investment.selectedInterval);
           dateFormatted =  date.toISOString().split('T')[0];
