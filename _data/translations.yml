@@ -1,0 +1,38 @@
+{
+  "last-entries": {
+    "en": 'Last entries',
+    "es": 'Últimas entradas'
+  },
+  "subscribe": {
+    "title": {
+      "en": "Subscribe to",
+      "es": "Suscríbete a"
+    },
+    "body": {
+      "en": "Receive notifications from new publications directly to your inbox",
+      "es": "Recibe notificaciones de nuevas publicaciones directamente en tu bandeja de entrada"
+    },
+    "sidebar-message": {
+      "en": "Subscribe and don't miss any articles",
+      "es": "Suscríbete y no te pierdas ningún artículo"
+    },
+    "button": {
+      "en": "Subscribe",
+      "es": "Suscríbete"
+    },
+    "placeholder": {
+      "en": "email address",
+      "es": "dirección de email"
+    }
+  },
+  "about": {
+    "title": {
+      "en": "About",
+      "es": "Acerca de"
+    },
+    "body": {
+      "en": "Product Owner living in Barcelona",
+      "es": "Product Owner residente en Barcelona"
+    }
+  }
+}

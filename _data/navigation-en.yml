@@ -1,8 +1,10 @@
+- text: Blog
+  url: /en/
 - text: Cryptocurrencies
-  url: /cryptocurrencies/
+  url: /en/cryptocurrencies/
 - text: Marketcaps
-  url: /marketcaps/
+  url: /en/marketcaps/
 - text: Calculator
-  url: /calculator/
+  url: /en/calculator/
 - text: Investment
-  url: /investment/
+  url: /en/investment/

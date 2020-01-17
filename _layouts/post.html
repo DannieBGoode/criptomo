@@ -8,6 +8,12 @@ layout: default
     {% assign writer = site.data.authors.daniel %}
 {% endif %}
 
+{% if page.lang %}
+    {% assign lang = page.lang%}
+{% else %}
+    {% assign lang = 'es' %}
+{% endif %}
+
 
 <div class="site-content">
     {% include schema_post.html %}
@@ -53,7 +59,10 @@ layout: default
                 <div class="author-info">
                     <div class="author-avatar" style="background-image: url({{ site.baseurl }}{{ writer.author_image }})"><span class="screen-reader-text">{{ writer.author_name }}'s Picture</span></div>
                     <div class="author-details">
-                        <h2 class="author-title">Acerca de {{ writer.author_name }}</h2>
+
+                        {% assign translations = site.data.translations.about %}
+
+                        <h2 class="author-title">{{ translations.title[lang] }} {{ writer.author_name }}</h2>
                         <p class="author-bio">{{ writer.author_bio }}</p>
                         <span class="author-location"><i class="icon-location" aria-hidden="true"></i> {{ writer.author_location }}</span>
                         {% if writer.author_url %}

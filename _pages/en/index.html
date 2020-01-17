@@ -1,0 +1,45 @@
+---
+layout: default
+description: Cryptocurrencies, calculators, investments, bitcoin, finances
+permalink: /en/
+comments: true
+sitemap: true
+loadsPlugins: true
+noMargins: true
+lang: en
+---
+
+<!-- {% include schema_home.html %} -->
+
+<div class="site-content">
+    <div class="inner">
+        <main class="site-main"> 
+
+            <div class="grid-view">
+                {% for post in site.posts %}
+                {% if post.lang == page.lang %}
+                    {%  include post_grid.html %}
+                {% endif %}
+
+                {% endfor %}
+            </div>
+
+            {% if paginator.total_pages > 1 %}
+            <nav class="pagination">
+                <h2 class="screen-reader-text">Navigation</h2>
+                {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts icon-chevron-left square fill-horizontal"><span class="screen-reader-text">Next</span></a>
+                {% endif %}
+                <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts icon-chevron-right square fill-horizontal"><span class="screen-reader-text">Previous</span></a>
+                {% endif %}
+            </nav><!-- .pagination -->
+            {% endif %}
+        </main><!-- .site-main -->
+
+        {% include sidebar.html %}
+    </div><!-- .inner -->
+</div><!-- .site-content -->
+
+<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>

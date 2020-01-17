@@ -2,10 +2,13 @@
 layout: default
 title: +100 cryptocurrencies explained
 description: Short description of over 100 cryptocurrencies
-permalink: /cryptocurrencies/
+permalink: /en/cryptocurrencies/
 progress: true
 loadsPlugins: true
 lang: en
+redirect_from:
+    - /cryptocurrencies
+    - /cryptocurrencies/
 ---
 
 <div class="site-content">

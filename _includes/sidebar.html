@@ -49,16 +49,17 @@
     {% if lang == 'es' %}
 
         {% if page.layout != 'post' %}
-            {% if site.mailchimp_url %}
+            {% if site.mailchimp_url_es %}
+                {% assign translations = site.data.translations.subscribe %}
             <section class="widget widget-newsletter">
                 <h2 class="widget-title">{{ site.title}} Newsletter</h2>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
-                    <form action="{{ site.mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <form action="{{ site.mailchimp_url_es }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
-                            <label for="mce-EMAIL">Suscríbete y no te pierdas ningún artículo</label>
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="dirección de email" required>
-                            <div class="clear"><input type="submit" value="Subscribete" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            <label for="mce-EMAIL">{{ translations.sidebar-message[lang] }}</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ translations.placeholder[lang] }}" required>
+                            <div class="clear"><input type="submit" value="{{ translations.button[lang] }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                         </div>
                     </form>
                 </div>
@@ -70,12 +71,20 @@
 
 
         <section class="widget widget-recent-posts">
-            <h2 class="widget-title">Últimas Entradas</h2>
+            <h2 class="widget-title">{{ site.data.translations.last-entries[lang] }}</h2>
             <ul class="recent-posts">
-                {% for post in site.posts limit:5 %}
-                    {% if post.lang == page.lang %}
-                        <li class="recent-item"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %-d, %Y" }}</span></li>
+                {% assign i = 0 %}
+                {% for post in site.posts %}
+                    {% if post.lang != page.lang %}
+                        {% continue %}
                     {% endif %}
+                    {% if i == 5 %}
+                        {% break %}
+                    {% endif %}
+                    {% assign i = i | plus: 1 %}
+                        <li class="recent-item">
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+                        </li>                    
                 {% endfor %}
             </ul><!-- .recent-posts -->
         </section><!-- .widget-recent-posts -->
@@ -93,5 +102,4 @@
             </div><!-- .tagcloud -->
         </section><!-- .widget -->
     {% endif %}
-
 </aside><!-- .sidebar -->

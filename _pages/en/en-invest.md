@@ -3,7 +3,7 @@ layout: page
 title: Cryptocurrency Investment Portfolio 
 description: Cryptocurrency Investment Portfolio, invest periodically and calcualte your earnings
 banner_image: pages/investment.jpg
-permalink: /investment/
+permalink: /en/investment/
 schema: true
 rating: 5
 totalVotes: 45
@@ -11,6 +11,9 @@ comments: true
 sitemap: true
 loadsPlugins: true
 lang: en
+redirect_from:
+    - /investment
+    - /investment/
 ---
 
 <div style="margin-bottom: 10px">
