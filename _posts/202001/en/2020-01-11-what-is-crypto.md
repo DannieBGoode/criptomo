@@ -174,7 +174,7 @@ Monaco also ensures that they do not charge entry, exit or maintenance fees, but
 
 Historically this program <a rel="nofollow" href="https://crypto.com/en/invest.html"> has given very good results </a>.
 
-{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-c5b3e15f.png" title="Crypto Invest Performance Review" caption="Crypto Invest results" popup=true%}
+{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-80caefb4.png" title="Crypto Invest Performance Review" caption="Crypto Invest results" popup=true%}
 
 ### Monaco Credit
 
@@ -186,14 +186,29 @@ For example, for $ 10,000 in BTC used as collateral we will receive $ 4,000 in T
 
 In the same way that we can request a loan with our funds, we can also lend it and get an interest (lower than that of Crypto Invest).
 
-The annual returns we will receive at BTC are:
+The annual returns we will receive from different cryptocurrencies increase if we have 500 MCO blocked:
 
 {: .table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Weather | No MCO blocked | with MCO blocked |
-|: --------: |: -----------------: |: ----------------- : |
-| 3 months | 4% | 8% |
-| 1 month | 4% | 6% |
-| flexible | 2% | 4% |
+| Time     | Cryptocurrencies  | Stablecoins           | CRO     |  MCO  |
+|:--------:|:-----------------:|:---------------------:|:------:-|:-----:|
+| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% | 4%-8% |
+| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% | 2%-4% |  
+| flexible | 1%-2%             | 6%-8%                 | 12%-14% | 1%-2% |
+
+With some exceptions:
+
+{% include image_caption.html imageurl="https://i.redd.it/7eq76c1owth41.jpg" title="Crypto Earn" caption="Crypto Earn" popup=true %}
+
+Crypto Earn is an excellent way of getting returns on your cryptocurrencies in a constant and low-risk way.
+
+For example if we had 500 MCO blocked within the system, we would get the following:
+- 8% on those 500 MCO (40 MCO returns per year)
+- 5.5% yearly returns on our BTC
+- 18% on our CRO
+- 12% in our stablecoins
+- 3% on whatever payments we do with our tier 3 card (Royal Indigo, Jade Green).
+- Spotify and Netflix free
+- Airport Acceso Lounge Key for one person.
 
 ### Monaco PAY
 
