@@ -225,7 +225,7 @@ Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención 
 
 Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
 
-{% include video.html provider="html5" id="https://crypto.com/images/crypto_pay/pay-animation.mp4" attributes="autoplay muted playsinline loop" caption="Pago con Crypto Pay" %}.
+{% include video.html provider="html5" id="https://crypto.com/images/crypto_pay/pay-animation.mp4" attributes="autoplay muted playsinline loop" caption="Pago con Crypto Pay" %}
 
 
 
