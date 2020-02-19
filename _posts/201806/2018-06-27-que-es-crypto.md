@@ -194,19 +194,22 @@ De la misma manera que podemos pedir un crédito con nuestros fondos, también p
 Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 500 MCO bloqueados o no, y son los siguientes:
 
 {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Tiempo   | Criptomonedas     | Stablecoins           | CRO     |
-|:--------:|:-----------------:|:---------------------:|:------:-|
-| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% |
-| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% |   
-| flexible | 1%-2%             | 6%-8%                 | 12%-14% |
+| Tiempo   | Criptomonedas     | Stablecoins           | CRO     |  MCO  |
+|:--------:|:-----------------:|:---------------------:|:------:-|:-----:|
+| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% | 4%-8% |
+| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% | 2%-4% |  
+| flexible | 1%-2%             | 6%-8%                 | 12%-14% | 1%-2% |
+
+Con las siguientes excepciones:
 
 {% include image_caption.html imageurl="https://i.redd.it/7eq76c1owth41.jpg" title="Crypto Earn" caption="Crypto Earn" popup=true %}
 
 Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
 
 Por ejemplo si tuvieramos 500 MCO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
-- un 6% de esos 500 MCO (30 MCO al año)
+- un 8% de esos 500 MCO (40 MCO al año)
 - un 5.5%  al año de la cantidad de BTC que metieramos
+- Un 18% del CRO que tengamos
 - 3% de los gastos que hagamos con la tarjeta
 - Spotify y Netflix gratis
 - Acceso Lounge Key en los aeropuertos para una persona
