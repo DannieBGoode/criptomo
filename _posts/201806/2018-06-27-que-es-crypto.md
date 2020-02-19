@@ -179,7 +179,7 @@ Además Monaco asegura que no cobran comisiones de entrada, salida o mantenimien
 
 Históricamente este programa <a rel="nofollow" href="https://crypto.com/en/invest.html">ha dado muy buenos resultados</a>.
 
-{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-c5b3e15f.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-80caefb4.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
 
 ### Monaco Credit
 
@@ -187,9 +187,9 @@ Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un présta
 
 Por ejemplo por $10000 en BTC usados como colateral recibiremos $4000 en TUSD y en función de si tenemos suficiente MCO bloqueado pagaremos 8% o 12% de intereses anuales.
 
-### Monaco Earn
+### Crypto Earn
 
-De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés (menor que el de Crypto Invest).
+De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés constante, a diferencia que el de Crypto Invest que es irregular y sujeto a las condiciones del mercado.
 
 Los retornos anuales que recibiremos en BTC son:
 
@@ -200,7 +200,12 @@ Los retornos anuales que recibiremos en BTC son:
 | 1 mes    | 4%                | 6%                |
 | flexible | 2%                | 4%                |
 
-### Monaco PAY
+{% include image_caption.html imageurl="https://i.redd.it/7eq76c1owth41.jpg" title="Crypto Earn" caption="Crypto Earn" popup=true %}
+
+Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
+
+
+### Crypto PAY
 
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-8362952f.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
