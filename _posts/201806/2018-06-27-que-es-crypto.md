@@ -210,6 +210,7 @@ Por ejemplo si tuvieramos 500 MCO bloqueado (y en consecuencia los beneficios de
 - un 8% de esos 500 MCO (40 MCO al año)
 - un 5.5%  al año de la cantidad de BTC que metieramos
 - Un 18% del CRO que tengamos
+- Un 12% en nuestras stable coins
 - 3% de los gastos que hagamos con la tarjeta
 - Spotify y Netflix gratis
 - Acceso Lounge Key en los aeropuertos para una persona
