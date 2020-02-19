@@ -181,7 +181,7 @@ Históricamente este programa <a rel="nofollow" href="https://crypto.com/en/inve
 
 {% include image_caption.html imageurl="https://crypto.com/images/invest/performance-80caefb4.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
 
-### Monaco Credit
+### Crypto Credit
 
 Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un préstamo en dinero fiat dejando como colateral BTC o MCO con mejores condiciones. En caso de dejar BTC como colateral se recibiría un crédito en fiat por valor de un 40% de la valoración de la criptomoneda en ese tiempo, y por 30% para el caso de MCO. Además las comisiones del crédito variarán en función de cuanto MCO tengamos bloqueado. 
 
@@ -191,18 +191,25 @@ Por ejemplo por $10000 en BTC usados como colateral recibiremos $4000 en TUSD y 
 
 De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés constante, a diferencia que el de Crypto Invest que es irregular y sujeto a las condiciones del mercado.
 
-Los retornos anuales que recibiremos en BTC son:
+Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 500 MCO bloqueados o no, y son los siguientes:
 
 {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Tiempo   | Sin MCO bloqueado | con MCO bloqueado |
-|:--------:|:-----------------:|:-----------------:|
-| 3 meses  | 4%                | 8%                |
-| 1 mes    | 4%                | 6%                |
-| flexible | 2%                | 4%                |
+| Tiempo   | Criptomonedas     | Stablecoins           | CRO     |
+|:--------:|:-----------------:|:---------------------:|:------:-|
+| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% |
+| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% |   
+| flexible | 1%-2%             | 6%-8%                 | 12%-14% |
 
 {% include image_caption.html imageurl="https://i.redd.it/7eq76c1owth41.jpg" title="Crypto Earn" caption="Crypto Earn" popup=true %}
 
 Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
+
+Por ejemplo si tuvieramos 500 MCO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
+- un 6% de esos 500 MCO (30 MCO al año)
+- un 5.5%  al año de la cantidad de BTC que metieramos
+- 3% de los gastos que hagamos con la tarjeta
+- Spotify y Netflix gratis
+- Acceso Lounge Key en los aeropuertos para una persona
 
 
 ### Crypto PAY
