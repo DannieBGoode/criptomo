@@ -55,7 +55,7 @@ let table = $('#marketcaps-table').DataTable({
     },
     {
       responsivePriority: 1,
-      title: 'Precio',
+      title: tableDataLang.marketcapColumns.price,
       className: 'dt-right',
       render: function ( data, type, row, meta) {
         if ( type !== 'display' ) { return data.price; }
