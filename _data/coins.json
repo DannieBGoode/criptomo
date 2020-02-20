@@ -444,7 +444,7 @@
 		"description": "Tarjeta de débito que transforma criptomonedas en fiat en el momento del pago.",
 		"description-en": "Debit card that transforms cryptocurrencies into fiat at the time of payment.",
 		"article": "/que-es-crypto/",
-		"article": "/what-is-crypto/",
+		"article": "/what-is-crypto/"
 	},
 	"pay": {
 		"name": "TenX (PAY)",
