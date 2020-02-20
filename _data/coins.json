@@ -97,6 +97,14 @@
 		"description-en": "Platform to build decentralized applications, scalable and with joint libraries.",
 		"article": "/que-es-eos/"
 	},
+	"xtz": {
+		"name": "Tezos (XTZ)",
+		"icon": "xtz-64.png",
+		"website": "https://tezos.com/",
+		"class": "dapps",
+		"description": "Plataforma para construir aplicaciones descentralizadas y contratos inteligentes.",
+		"description-en": "Platform to build decentralized applications and smart apps."
+	},
 	"xem": {
 		"name": "NEM (XEM)",
 		"icon": "xem-64.png",
@@ -246,8 +254,9 @@
 		"icon": "bcc-64.png",
 		"website": "https://bitconnectcoin.co/",
 		"class": "gaming",
-		"description": "Already extinct, platform that gave daily benefits to users for lending their money. Pyramid scheme.",
-		"description-en": ""
+		"description": "Ya extinta, plataforma que producia retornos diarios a usuarios que prestaban su dinero. Pirámide escamidal.",
+		"description-en": "Already extinct, platform that gave daily benefits to users for lending their money. Pyramid scheme."
+
 	},
 	"waves": {
 		"name": "Waves (WAVES)",
@@ -428,13 +437,14 @@
 		"description-en": "DASH clone with constant and controlled inflation that uses PoS instead of PoW"
 	},
 	"mco": {
-		"name": "MONACO (MCO)",
+		"name": "CRYPTO (MCO)",
 		"icon": "mco-64.png",
-		"website": "https://mona.co",
-		"class": "card",
+		"website": "crypto.com",
+		"class": "card finance",
 		"description": "Tarjeta de débito que transforma criptomonedas en fiat en el momento del pago.",
 		"description-en": "Debit card that transforms cryptocurrencies into fiat at the time of payment.",
-		"article": "/que-es-monaco/"
+		"article": "/que-es-crypto/",
+		"article": "/what-is-crypto/",
 	},
 	"pay": {
 		"name": "TenX (PAY)",
