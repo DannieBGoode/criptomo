@@ -51,7 +51,7 @@ redirect_from:
 				            <p>{{ currency.description-en }}</p>
 				            <span class="coin-links">
 								{% if currency.article-en %}
-					            <span class="coin-article"><i class="icon-link" aria-hidden="true"></i> <a href="{{ currency.article }}"> In detail</a></span>
+					            <span class="coin-article"><i class="icon-link" aria-hidden="true"></i> <a href="{{ currency.article-en }}"> In detail</a></span>
 								{% endif %}
 								<span class="coin-website"><i class="icon-chevron-right" aria-hidden="true"></i> <a href="{{ currency.website }}" target="_blank"> homepage</a></span>
 							</span>
