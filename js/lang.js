@@ -3,7 +3,7 @@ let lang = $("html").attr('lang'),
 	tableDataLang = {};
 
 // investment table
-if ((locationPath === '/investment/') || (locationPath === '/inversion/') || (locationPath === '/cotizaciones/') || (locationPath === '/marketcaps/')) {
+if ((locationPath === '/en/investment/') || (locationPath === '/inversion/') || (locationPath === '/cotizaciones/') || (locationPath === '/en/marketcaps/')) {
 	if (lang === 'es') {
 	  tableDataLang.general = {
 	    lengthMenu: 'Items _MENU_',
