@@ -105,7 +105,7 @@
 		"website": "https://tezos.com/",
 		"class": "dapps",
 		"description": "Plataforma para construir aplicaciones descentralizadas y contratos inteligentes.",
-		"description-en": "Platform to build decentralized applications and smart apps."
+		"description-en": "Platform to build decentralized applications and smart apps.",
 		"ico-price": "0.50",
 		"ico-raised": "232,000,000"
 	},
@@ -635,7 +635,7 @@
 		"website": "https://status.im/",
 		"class": "social dapps",
 		"description": "Interfaz para aplicaciones basadas en Ethereum con navegador y sistema de mensajería instantánea.",
-		"description-en": "Interface for Ethereum-based applications with browser and instant messaging system."
+		"description-en": "Interface for Ethereum-based applications with browser and instant messaging system.",
 		"ico-price": "0.04",
 		"ico-raised": "108,000,000"
 	},
@@ -727,7 +727,7 @@
 		"website": "https://www.bancor.network/",
 		"class": "interblockchain",
 		"description": "Plataforma de intercambio de bienes digitales que todavía no han llegado a exchanges.",
-		"description-en": "Platform for the exchange of digital goods that have not yet reached exchanges."
+		"description-en": "Platform for the exchange of digital goods that have not yet reached exchanges.",
 		"ico-price": "3.86",
 		"ico-raised": "153,000,000"
 	},
