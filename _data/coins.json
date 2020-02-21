@@ -974,5 +974,14 @@
 		"class": "computing",
 		"description": "Red donde nodos pueden ceder su poder computacional a empresas de Inteligencia Artificial a cambio de tokens.",
 		"description-en": "Network where nodes can transfer their computing power to Artificial Intelligence companies in exchange for tokens."
+	},
+	"gram": {
+		"name": "Telegram TON (GRAM)",
+		"icon": "ton-64.png",
+		"website": "https://ton.org/",
+		"class": "currency",
+		"description": "Plataforma de pagos para usuarios de la app de mensajeria Telegram.",
+		"description-en": "Payment plataform for users that use the app Telegram."
+		
 	}
 }
