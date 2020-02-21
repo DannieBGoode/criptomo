@@ -15,7 +15,9 @@
 		"class": "dapps",
 		"description":    "Plataforma para crear y ejecutar contratos inteligentes, es decir, aplicaciones que se autoejecutan sin posibilidad de censura o interferencia cuando se cumplen ciertas condiciones.",
 		"description-en": "Platform to create and execute smart contracts, that is, applications that self-execute when certain conditions are met without the possibility of censorship or interference.",
-		"article": "/que-es-ethereum/"
+		"article": "/que-es-ethereum/",
+		"ico-price": "0.30",
+		"ico-raised": "18,000,000"
 	},
 	"bch": {
 		"name": "Bitcoin Cash (BCH)",
@@ -189,7 +191,10 @@
 		"class": "business",
 		"description": "Organizaciones imparables sin fronteras directamente en el blockchain.",
 		"description-en": "Unstoppable organizations without borders directly on the blockchain.",
-		"article": "/que-es-aragon/"
+		"article": "/que-es-aragon/",
+		"ico-price": "0.92",
+		"ico-raised": "73,000,000"
+		
 	},
 	"qtum": {
 		"name": "Qtum (QTUM)",
