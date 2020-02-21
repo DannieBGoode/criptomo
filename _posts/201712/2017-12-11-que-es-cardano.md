@@ -22,7 +22,7 @@ Una de las cosas que más me gusta de Cardano es que no ha necesitado autopromoc
 
 Sus creadores son ingenieros y científicos que han realizado primero estudios y documentación extensa y sólo después han empezado a construir. Parece algo muy sencillo pero lo que hacen la mayor parte de las criptomonedas es copiar el código de Bitcoin y entonces realizar modificaciones sobre ella, mientras que Cardano ha decidido empezar el proyecto totalmente desde cero y enfocándolo primero desde un punto de vista académico.
 
-Invito a la gente (con dominio de inglés) que le echen un vistazo a la cantidad de <a rel="nofollow" href="https://www.cardanohub.org/en/academic-papers/">papeles académicos</a> que Cardano ha creado para explicar toda su solución tecnológica antes de realizar una sola línea de código.
+Invito a la gente (con dominio de inglés) que le echen un vistazo a la cantidad de <a rel="nofollow" href="https://iohk.io/en/research/library/">papeles académicos</a> que Cardano ha creado para explicar toda su solución tecnológica antes de realizar una sola línea de código.
 
 ## Ouroboros
 
