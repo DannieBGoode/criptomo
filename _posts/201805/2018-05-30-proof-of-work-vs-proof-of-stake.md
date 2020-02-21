@@ -54,4 +54,4 @@ Es de sobra conocido que Bitcoin utiliza Proof of Work utilizando SHA-256. Ether
 
 Es posible que acabemos viendo modelos híbridos, debido a que ninguno de los dos modelos acaba siendo perfecto. En PoW la cadena no puede ser rescrita físicamente por que se necesitaría mucha electricidad para reescribirla entera, por lo que la seguridad que esto ofrece es muy alta, por otro lado su coste es alto.
 
-Otros algoritmos de consenso que se han planteado son delegated [Proof of Work (dPOS)](/que-es-eos/), Proof of Authority (PoA) o [Proof of Importance (PoI)](/que-es-nem/) pero todas ellas sacrifican la descentralización a favor de velocidad de transacción o de resolución de conflictos.
+Otros algoritmos de consenso que se han planteado son delegated [Proof of Stake (dPOS)](/que-es-eos/), Proof of Authority (PoA) o [Proof of Importance (PoI)](/que-es-nem/) pero todas ellas sacrifican la descentralización a favor de velocidad de transacción o de resolución de conflictos.

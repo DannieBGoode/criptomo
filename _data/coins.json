@@ -106,6 +106,8 @@
 		"class": "dapps",
 		"description": "Plataforma para construir aplicaciones descentralizadas y contratos inteligentes.",
 		"description-en": "Platform to build decentralized applications and smart apps.",
+		"article": "/que-es-tezos/",
+		"article-en": "/what-is-tezos/",
 		"ico-price": "0.50",
 		"ico-raised": "232,000,000"
 	},
