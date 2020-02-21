@@ -981,7 +981,9 @@
 		"website": "https://ton.org/",
 		"class": "currency",
 		"description": "Plataforma de pagos para usuarios de la app de mensajeria Telegram.",
-		"description-en": "Payment plataform for users that use the app Telegram."
+		"description-en": "Payment plataform for users that use the app Telegram.",
+		"ico-price": 4,
+		"ico-raised": "1,700,000,000"
 		
 	}
 }
