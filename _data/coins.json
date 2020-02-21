@@ -106,6 +106,8 @@
 		"class": "dapps",
 		"description": "Plataforma para construir aplicaciones descentralizadas y contratos inteligentes.",
 		"description-en": "Platform to build decentralized applications and smart apps."
+		"ico-price": "0.50",
+		"ico-raised": "232,000,000"
 	},
 	"xem": {
 		"name": "NEM (XEM)",
@@ -140,7 +142,9 @@
 		"website": "https://www.icon.foundation/",
 		"class": "dapps",
 		"description": "Plataforma Sur-Coreana de aplicaciones descentralizadas que construye comunidades entre bancos, hospitales, universidades y  aseguradoras. Se enfoca en verificaciones de identidad y pagos.",
-		"description-en": "South-Korean platform of decentralized applications that builds communities between banks, hospitals, universities and insurance companies. It focuses on identity checks and payments."
+		"description-en": "South-Korean platform of decentralized applications that builds communities between banks, hospitals, universities and insurance companies. It focuses on identity checks and payments.",
+		"ico-price": "0.41",
+		"ico-raised": "45,000,000"
 	},
 	"neo": {
 		"name": "NEO (NEO)",
@@ -374,7 +378,9 @@
 		"class": "finance",
 		"description": "Plataforma de préstamos basados en criptomonedas.",
 		"description-en": "Loan platform based on cryptocurrencies.",
-		"article": "/que-es-salt/"
+		"article": "/que-es-salt/",
+		"ico-price": "0.89",
+		"ico-raised": "48,500,000"
 	},
 	"maid": {
 		"name": "MaidSafeCoin (MAID)",
@@ -458,7 +464,9 @@
 		"class": "card",
 		"description": "Tarjeta de débito para pagar con criptomonedas. Competidora de Monaco.",
 		"description-en": "Debit card to pay with cryptocurrencies. Monaco competitor.",
-		"article": "/tarjeta-debito-criptomonedas/"
+		"article": "/tarjeta-debito-criptomonedas/",
+		"ico-price": "0.79",
+		"ico-raised": "51,000,000"
 	},
 	"veri": {
 		"name": "Veritaseum (VERI)",
@@ -562,7 +570,9 @@
 		"website": "https://tronlab.com/",
 		"class": "dapps gaming",
 		"description": "Plataforma de contratos inteligentes que conecta a consumidores con creadores en el mundo del ocio.",
-		"description-en": "Smart contract platform that connects consumers with creators in the world of leisure."
+		"description-en": "Smart contract platform that connects consumers with creators in the world of leisure.",
+		"ico-price": "0.0019",
+		"ico-raised": "70,000,000"
 	},
 	"xuc": {
 		"name": "Exchange Union (XUC)",
@@ -626,6 +636,8 @@
 		"class": "social dapps",
 		"description": "Interfaz para aplicaciones basadas en Ethereum con navegador y sistema de mensajería instantánea.",
 		"description-en": "Interface for Ethereum-based applications with browser and instant messaging system."
+		"ico-price": "0.04",
+		"ico-raised": "108,000,000"
 	},
 	"knc": {
 		"name": "Kyber (KNC)",
@@ -633,7 +645,9 @@
 		"website": "https://kyber.network/",
 		"class": "exchange interblockchain",
 		"description": "Exchange descentralizado.",
-		"description-en": "Decentralized exchange."
+		"description-en": "Decentralized exchange.",
+		"ico-price": "1.85",
+		"ico-raised": "48,960,000"
 	},
 	"xzc": {
 		"name": "ZCoin (XZC)",
@@ -714,6 +728,8 @@
 		"class": "interblockchain",
 		"description": "Plataforma de intercambio de bienes digitales que todavía no han llegado a exchanges.",
 		"description-en": "Platform for the exchange of digital goods that have not yet reached exchanges."
+		"ico-price": "3.86",
+		"ico-raised": "153,000,000"
 	},
 	"block": {
 		"name": "Blocknet (BLOCK)",
@@ -962,7 +978,9 @@
 		"website": "https://loopring.org",
 		"class": "exchange",
 		"description": "Exchange descentralizado y protocolo abierto.",
-		"description-en": "Decentralized exchange and open protocol."
+		"description-en": "Decentralized exchange and open protocol.",
+		"ico-price": "0.06",
+		"ico-raised": "46,522,800",
 	},
 	"cnd": {
 		"name": "Cindicator (CND)",
@@ -987,7 +1005,7 @@
 		"class": "currency",
 		"description": "Plataforma de pagos para usuarios de la app de mensajeria Telegram.",
 		"description-en": "Payment plataform for users that use the app Telegram.",
-		"ico-price": 4,
+		"ico-price": "4",
 		"ico-raised": "1,700,000,000"
 		
 	}
