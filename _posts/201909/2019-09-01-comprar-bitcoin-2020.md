@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  Cómo comprar Bitcoin en 2019
-description: Guía para principiantes de cómo comprar Bitcoin en 2019. Actualizado.
+title:  Cómo comprar Bitcoin en 2020
+description: Guía para principiantes de cómo comprar Bitcoin en 2020. Actualizado.
 banner_image: 201909/bitcoin-2019.jpg
 tags: [bitcoin]
 rating: 5
 totalVotes: 6
 ---
 
-Hemos actualizado la guía de cómo comprar Bitcoin para poder invertir en esta criptomoneda en 2019-2020. A diferencia de [la guía anterior](/como-comprar-criptomonedas/), nos enfocaremos únicamente en Bitcoin utilizando la versión web, pero recordad que Coinbase también ofrece una app móvil de su plataforma desde donde se puede comprar sin problemas.
+Hemos actualizado la guía de cómo comprar Bitcoin para poder invertir en esta criptomoneda en 2020. A diferencia de [la guía anterior](/como-comprar-criptomonedas/), nos enfocaremos únicamente en Bitcoin utilizando la versión web, pero recordad que Coinbase también ofrece una app móvil de su plataforma desde donde se puede comprar sin problemas.
 
 <!--more-->
 
