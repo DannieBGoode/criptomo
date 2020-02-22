@@ -54,8 +54,8 @@ Aprendamos a invertir mejor
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
-- [Las Altcoins más prometedoras de 2018](/mejores-criptomonedas-2018/)
 - [Cardano](/que-es-cardano/)
+- [Tezos](/que-es-tezos/)
 - [Bitcoin Cash](/que-es-bitcoin-cash)
 - [Bitcoin Gold](/conseguir-bitcoin-gold/)
 - [SALT](/que-es-salt/)
