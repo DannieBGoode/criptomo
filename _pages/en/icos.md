@@ -1,26 +1,28 @@
 ---
 layout: page
 title: ICOs
-description: Las ICOs que más dinero han recaudado de la historia.
+description: The ICOs that raised the most funds ever.
 banner_image: pages/ico.jpg
-permalink: /icos/
+permalink: /en/icos/
 comments: true
 sitemap: true
 loadsPlugins: true
 noMargins: true
+lang: en
 ---
 
 <div class="entry-header"></div>
 <div class="entry-content">
-    A continuación podéis encontrar una tabla con todas las <a href="/que-es-una-ico">ICOs</a> que más dinero han levantado junto a su precio actual para que se pueda hacer una valoración de cómo de exitosas han resultado para sus inversores.
-    Quedan fuera del ranking Filecoin que recaudó $257,000,000 por tratarse únicamente de futuros y GRAM que recaudó 1,700,000,000 pero todavía no cotiza.
+    Below you can find a table with all the <a href="/que-es-una-ico"> ICOs</a> that have raised the most funds next to their current price so that you can make an assessment of how successful they have turned out for their investors.
+
+    We left out of the ranking Filecoin (FIL) that raised $257,000,000 due to only trading futures and Telegram Open Network (GRAM) that raised 1,700,000,000 but is not yet listed publicly.
 </div>
 
-<small class="error api-error">Error de conexión, tu Adblock bloquea la API de cotizaciones.</small>
+<small class="error api-error">Conection error, your Adblock might be blocking the marketcaps API. Please try turning it off.</small>
 <div class="marketcaps-table-top">
     <div class="marketcaps-table-filter">
         <label>
-            Buscar
+            Search
             <input type="search" id="marketcaps-filter-input">
         </label>
     </div>
