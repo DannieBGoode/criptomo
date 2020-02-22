@@ -36,7 +36,9 @@ loadsPlugins: true
 
 			<div class="grid">
 				{% for coin in site.data.coins %}
-					{% assign currency = coin[1] %}
+				
+				{% assign currency = coin[1] %}
+				{% if currency.description %}
 				<div class="coinlist-box item {{ currency.class }}">
 				    <div class="coinlist-info">
 						<div class="coinlist-info-1">
@@ -54,6 +56,7 @@ loadsPlugins: true
 				        </div><!-- .coinlist-details -->
 				    </div><!-- .coinlist-info -->
 				</div><!-- .coinlist-box -->
+				{% endif %}
 				{% endfor %}
 			</div>
 

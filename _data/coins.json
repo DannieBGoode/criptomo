@@ -17,7 +17,7 @@
 		"description-en": "Platform to create and execute smart contracts, that is, applications that self-execute when certain conditions are met without the possibility of censorship or interference.",
 		"article": "/que-es-ethereum/",
 		"ico-price": "0.30",
-		"ico-raised": "18,000,000"
+		"ico-raised": "18000000"
 	},
 	"bch": {
 		"name": "Bitcoin Cash (BCH)",
@@ -97,7 +97,9 @@
 		"class": "dapps",
 		"description": "Plataforma para construir aplicaciones descentralizadas, escalables y con librerías conjuntas.",
 		"description-en": "Platform to build decentralized applications, scalable and with joint libraries.",
-		"article": "/que-es-eos/"
+		"article": "/que-es-eos/",
+		"ico-price": "0.99",
+		"ico-raised": "4100000000"
 	},
 	"xtz": {
 		"name": "Tezos (XTZ)",
@@ -109,7 +111,7 @@
 		"article": "/que-es-tezos/",
 		"article-en": "/what-is-tezos/",
 		"ico-price": "0.50",
-		"ico-raised": "232,000,000"
+		"ico-raised": "232000000"
 	},
 	"xem": {
 		"name": "NEM (XEM)",
@@ -146,7 +148,7 @@
 		"description": "Plataforma Sur-Coreana de aplicaciones descentralizadas que construye comunidades entre bancos, hospitales, universidades y  aseguradoras. Se enfoca en verificaciones de identidad y pagos.",
 		"description-en": "South-Korean platform of decentralized applications that builds communities between banks, hospitals, universities and insurance companies. It focuses on identity checks and payments.",
 		"ico-price": "0.41",
-		"ico-raised": "45,000,000"
+		"ico-raised": "45000000"
 	},
 	"neo": {
 		"name": "NEO (NEO)",
@@ -199,7 +201,7 @@
 		"description-en": "Unstoppable organizations without borders directly on the blockchain.",
 		"article": "/que-es-aragon/",
 		"ico-price": "0.92",
-		"ico-raised": "73,000,000"
+		"ico-raised": "73000000"
 		
 	},
 	"qtum": {
@@ -355,7 +357,9 @@
 		"website": "https://request.network/",
 		"class": "finance",
 		"description": "Plataforma para solicitar pagos en cualquier criptomoneda.",
-		"description-en": "Platform to request payments in any cryptocurrency."
+		"description-en": "Platform to request payments in any cryptocurrency.",
+		"ico-price": "0.07",
+		"ico-raised": "33000000"
 	},
 	"dcr": {
 		"name": "Decred (DCR)",
@@ -382,7 +386,7 @@
 		"description-en": "Loan platform based on cryptocurrencies.",
 		"article": "/que-es-salt/",
 		"ico-price": "0.89",
-		"ico-raised": "48,500,000"
+		"ico-raised": "48500000"
 	},
 	"maid": {
 		"name": "MaidSafeCoin (MAID)",
@@ -406,7 +410,19 @@
 		"website": "https://storj.io/",
 		"class": "storage",
 		"description": "Dropbox descentralizado, competidor de Siacoin y MaidSafeCoin.",
-		"description-en": "Decentralized dropbox, competitor of Siacoin and MaidSafeCoin."
+		"description-en": "Decentralized dropbox, competitor of Siacoin and MaidSafeCoin.",
+		"ico-price": "0.01",
+		"ico-raised": "37000000"
+	},
+	"fil": {
+		"name": "Filecoin (FIL)",
+		"icon": "fil-64.png",
+		"website": "https://filecoin.io/",
+		"class": "storage",
+		"description": "Dropbox descentralizado.",
+		"description-en": "Decentralized dropbox.",
+		"ico-price": "5",
+		"ico-raised": "257000000"
 	},
 	"prl": {
 		"name": "Oyster Pearl (PRL)",
@@ -468,7 +484,7 @@
 		"description-en": "Debit card to pay with cryptocurrencies. Monaco competitor.",
 		"article": "/tarjeta-debito-criptomonedas/",
 		"ico-price": "0.79",
-		"ico-raised": "51,000,000"
+		"ico-raised": "51000000"
 	},
 	"veri": {
 		"name": "Veritaseum (VERI)",
@@ -492,7 +508,9 @@
 		"website": "https://basicattentiontoken.org/",
 		"class": "ads",
 		"description": "Plataforma descentralizada de publicidad online utilizada por el navegador Brave.",
-		"description-en": "Decentralized online advertising platform used by the Brave browser."
+		"description-en": "Decentralized online advertising platform used by the Brave browser.",
+		"ico-price": "0.04",
+		"ico-raised": "35000000"
 	},
 	"mona": {
 		"name": "MonaCoin (MONA)",
@@ -574,7 +592,7 @@
 		"description": "Plataforma de contratos inteligentes que conecta a consumidores con creadores en el mundo del ocio.",
 		"description-en": "Smart contract platform that connects consumers with creators in the world of leisure.",
 		"ico-price": "0.0019",
-		"ico-raised": "70,000,000"
+		"ico-raised": "70000000"
 	},
 	"xuc": {
 		"name": "Exchange Union (XUC)",
@@ -598,14 +616,18 @@
 		"website": "https://powerledger.io/",
 		"class": "iot",
 		"description": "Plataforma de comercio de electricidad para viviendas con paneles solares u otros mecanismos de abastecimiento.",
-		"description-en": "Electricity trading platform for homes with solar panels or other supply mechanisms."
+		"description-en": "Electricity trading platform for homes with solar panels or other supply mechanisms.",
+		"ico-price": "0.60",
+		"ico-raised": "34000000"
 	},
 	"rdn": {
 		"name": "Raiden (RDN)",
 		"icon": "rdn-64.png",
 		"website": "https://raiden.network/",
 		"description": "Tecnología que pretende incrementar la velocidad de la red de Ethereum.",
-		"description-en": "Technology that aims to increase the speed of the Ethereum network."
+		"description-en": "Technology that aims to increase the speed of the Ethereum network.",
+		"ico-price": "0.67",
+		"ico-raised": "33407260"
 	},
 	"bnb": {
 		"name": "Binance Coin (BNB)",
@@ -639,7 +661,7 @@
 		"description": "Interfaz para aplicaciones basadas en Ethereum con navegador y sistema de mensajería instantánea.",
 		"description-en": "Interface for Ethereum-based applications with browser and instant messaging system.",
 		"ico-price": "0.04",
-		"ico-raised": "108,000,000"
+		"ico-raised": "108000000"
 	},
 	"knc": {
 		"name": "Kyber (KNC)",
@@ -649,7 +671,7 @@
 		"description": "Exchange descentralizado.",
 		"description-en": "Decentralized exchange.",
 		"ico-price": "1.85",
-		"ico-raised": "48,960,000"
+		"ico-raised": "48960000"
 	},
 	"xzc": {
 		"name": "ZCoin (XZC)",
@@ -683,6 +705,16 @@
 		"description": "Casino descentralizado.",
 		"description-en": "Decentralized casino"
 	},
+	"drg": {
+		"name": "Dragon (DGR)",
+		"icon": "drg-64.png",
+		"website": "https://tokensale.drgtoken.io",
+		"class": "gaming currency",
+		"description": "Un nuevo modo de pago apoyado por la industria del juego de Macao.",
+		"description-en": "A new digital currency, funded upon Ethereum Blockchain system and strongly underpinned by a substantial gaming business in Macau.",
+		"ico-price": "3",
+		"ico-raised": "320000000"
+	},
 	"mana": {
 		"name": "Decentraland (MANA)",
 		"icon": "mana.png",
@@ -707,13 +739,45 @@
 		"description": "Plataforma para almacenar información directamente en el blockchain de manera permanente.",
 		"description-en": "Platform to store information directly on the blockchain permanently."
 	},
+	"ht": {
+		"name": "Huobi Token (HT)",
+		"icon": "ht-64.ico",
+		"website": "https://www.huobi.com/en-us/",
+		"class": "exchange",
+		"description": "Exchange descentralizado construido en Singapour.",
+		"description-en": "Decentralized exchange built in Singapour.",
+		"ico-price": "1.52",
+		"ico-raised": "300000000"
+	},
+	"hdac": {
+		"name": "Hyundai DAC (HDAC)",
+		"icon": "hdac-64.png",
+		"website": "https://www.huobi.com/en-us/",
+		"class": "payment iot",
+		"description": "Moneda para realizar pagos en el IoT",
+		"description-en": "Currency to make payments in the IoT",
+		"ico-price": "0.81",
+		"ico-raised": "258000000"
+	},
 	"gno": {
 		"name": "Gnosis (GNO)",
 		"icon": "gno-64.png",
 		"website": "https://gnosis.pm/",
 		"class": "gaming",
 		"description": "Mercado de predicciones descentralizado.",
-		"description-en": "Decentralized prediction market."
+		"description-en": "Decentralized prediction market.",
+		"ico-price": "25.51",
+		"ico-raised": "63000000"
+	},
+	"srn": {
+		"name": "Sirin Labs Token (SRN)",
+		"icon": "srn-64.png",
+		"website": "https://sirinlabs.com/",
+		"class": "payment",
+		"description": "Modo de pago en el ecosistema de los móviles de alta seguridad SIRIN.",
+		"description-en": "Payment method for the high security cell phones SIRIN ecosystem.",
+		"ico-price": "0.47",
+		"ico-raised": "157885825"
 	},
 	"gxs": {
 		"name": "GXShares (GXS)",
@@ -731,7 +795,7 @@
 		"description": "Plataforma de intercambio de bienes digitales que todavía no han llegado a exchanges.",
 		"description-en": "Platform for the exchange of digital goods that have not yet reached exchanges.",
 		"ico-price": "3.86",
-		"ico-raised": "153,000,000"
+		"ico-raised": "153000000"
 	},
 	"block": {
 		"name": "Blocknet (BLOCK)",
@@ -982,7 +1046,7 @@
 		"description": "Exchange descentralizado y protocolo abierto.",
 		"description-en": "Decentralized exchange and open protocol.",
 		"ico-price": "0.06",
-		"ico-raised": "46,522,800",
+		"ico-raised": "46522800",
 	},
 	"cnd": {
 		"name": "Cindicator (CND)",
@@ -994,6 +1058,7 @@
 	},
 	"dbc": {
 		"name": "DeepBrain Chain",
+		"symbol": "DBC",
 		"icon": "dbc.png",
 		"website": "https://www.deepbrainchain.org",
 		"class": "computing",
@@ -1002,13 +1067,195 @@
 	},
 	"gram": {
 		"name": "Telegram TON (GRAM)",
+		"symbol": "GRAM",
 		"icon": "ton-64.png",
 		"website": "https://ton.org/",
 		"class": "currency",
 		"description": "Plataforma de pagos para usuarios de la app de mensajeria Telegram.",
 		"description-en": "Payment plataform for users that use the app Telegram.",
 		"ico-price": "4",
-		"ico-raised": "1,700,000,000"
+		"ico-raised": "1700000000"
 		
+	},
+	"qash": {
+		"name": "QASH",
+		"symbol": "QASH",
+		"ico-price": "0.31",
+		"ico-raised": "105000000"
+	},
+	"bkx": {
+		"name": "Bankex",
+		"symbol": "BKX",
+		"ico-price": "2.83",
+		"ico-raised": "70600000"
+	},
+	"drt": {
+		"name": "Dom Raider Token",
+		"symbol": "DRT",
+		"ico-price": "0.12",
+		"ico-raised": "65890000"
+	},
+	"wax": {
+		"name": "WAX",
+		"symbol": "WAX",
+		"ico-price": "0.99",
+		"ico-raised": "64000000"
+	},
+	"nas": {
+		"name": "",
+		"symbol": "NAS",
+		"ico-price": "2.00",
+		"ico-raised": "60000000"
+	},
+	"mgo": {
+		"name": "MobileGo",
+		"symbol": "MGO",
+		"ico-price": "0.76",
+		"ico-raised": "53000000"
+	},
+	"atom": {
+		"name": "Cosmos",
+		"symbol": "ATOM",
+		"ico-price": "0.1",
+		"ico-raised": "53000000"
+	},
+	"latx": {
+		"name": "LatiumX",
+		"symbol": "LATX",
+		"ico-price": "0.06",
+		"ico-raised": "51578800"
+	},
+	"ngc": {
+		"name": "Naga Coin",
+		"symbol": "NGC",
+		"ico-price": "1.00",
+		"ico-raised": "50020960"
+	},
+	"prg": {
+		"name": "Paragon",
+		"symbol": "PRG",
+		"ico-price": "1.00",
+		"ico-raised": "50000000"
+	},
+	"eng": {
+		"name": "Enigma",
+		"symbol": "ENG",
+		"ico-price": "0.60",
+		"ico-raised": "45000000"
+	},
+	"idh": {
+		"name": "indaHash",
+		"symbol": "IDH",
+		"ico-price": "0.21",
+		"ico-raised": "42715825"
+	},
+	"snm": {
+		"name": "SONM",
+		"symbol": "ENG",
+		"ico-price": "0.11",
+		"ico-raised": "42000000"
+	},
+	"nom": {
+		"name": "Finom NOM Token",
+		"icon": "nom-64.jpg",
+		"symbol": "NOM",
+		"ico-price": "2.00",
+		"ico-raised": "41285458"
+	},
+	"ech": {
+		"name": "Etherecash",
+		"symbol": "ECH",
+		"ico-price": "0.85",
+		"ico-raised": "40000000"
+	},
+	"grid": {
+		"name": "GRID+",
+		"symbol": "GRID",
+		"ico-price": "0.56",
+		"ico-raised": "38500000"
+	},
+	"stx": {
+		"name": "Stox",
+		"symbol": "STX",
+		"ico-price": "1.50",
+		"ico-raised": "38000000"
+	},
+	"rcn": {
+		"name": "Ripio Credit Network",
+		"symbol": "RCN",
+		"ico-price": "0.07",
+		"ico-raised": "37863045"
+	},
+	"rlc": {
+		"name": "iEx.ec",
+		"symbol": "RLC",
+		"ico-price": "0.18",
+		"ico-raised": "36000000"
+	},
+	"ast": {
+		"name": "AirSwap",
+		"symbol": "AST",
+		"ico-price": "0.18",
+		"ico-raised": "36000000"
+	},
+	"agi": {
+		"name": "SingularityNET",
+		"symbol": "AGI",
+		"ico-price": "0.10",
+		"ico-raised": "36000000"
+	},
+	"c20": {
+		"name": "Crypto20",
+		"symbol": "C20",
+		"ico-price": "1.03",
+		"ico-raised": "34270000"
+	},
+	"fuel": {
+		"name": "EtherParty",
+		"symbol": "FUEL",
+		"ico-price": "0.04",
+		"ico-raised": "33570000"
+	},
+	"ukg": {
+		"name": "Unikoin Gold",
+		"symbol": "UKG",
+		"ico-price": "0.34",
+		"ico-raised": "32345171"
+	},
+	"amb": {
+		"name": "Ambrosus",
+		"symbol": "AMB",
+		"ico-price": "0.30",
+		"ico-raised": "32110000"
+	},
+	"link": {
+		"name": "Chain Link",
+		"symbol": "LINK",
+		"ico-price": "0.30",
+		"ico-raised": "32000000"
+	},
+	"storm": {
+		"name": "STORM",
+		"symbol": "STORM",
+		"ico-price": "0.02",
+		"ico-raised": "32000000"
+	},
+	"brd": {
+		"name": "Bread",
+		"symbol": "BRD",
+		"ico-price": "0.78",
+		"ico-raised": "32000000"
+	},
+	"utt": {
+		"name": "United Traders Token",
+		"symbol": "UTT",
+		"ico-price": "0.90",
+		"ico-raised": "32000000"
+	},
+	"plbt": {
+		"name": "Polybius",
+		"symbol": "PLBT",
+		"ico-price": "10.00",
+		"ico-raised": "31000000"
 	}
 }
