@@ -169,7 +169,9 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
 
-Adicionalmente se está realizando un airdrop cada mes de la nueva moneda de MCO denominada **Crypto.com Chain (CRO)** en función del número de MCO que tengamos bloqueados.
+Adicionalmente se está realizando un airdrop cada mes de la nueva moneda de MCO denominada **Crypto.com Chain (CRO)** en función del número de MCO que tengamos bloqueados. Esta nueva moneda se utilizará para realizar pagos con el móvil aunque también nos servirá para ahorrarnos comisiones a la hora de operar en el Exchange de Crypto.com o conseguir descuentos. Por ejemplo, en uno de los últimos evento <a rel="nofollow" href="https://crypto.com/exchange/syndicate">Syndicate</a> se vendía BTC con un 25% de descuento siempre y cuando tuvieras 500 CRO stakeado en su plataforma.
+
+
 
 ### Automated Crypto Invest
 
