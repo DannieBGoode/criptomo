@@ -13,7 +13,7 @@ redirect_from:
 
             <div class="grid-view">
                 {% for post in paginator.posts %}
-                {% if post.lang != 'en' %}
+                {% if post.lang == lang %}
                     {%  include post_grid.html %}
                 {% endif %}
 

@@ -6,7 +6,6 @@ banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 19
 tags: [altcoins]
-lang: es
 redirect_from:
     - /que-es-monaco
     - /que-es-monaco/

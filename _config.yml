@@ -77,7 +77,7 @@ linkedin_username        : "danielcalatayud"
 google_site_verification : "JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU"
 
 # http://jekyllrb.com/docs/pagination/
-paginate                 : 8
+paginate                 : 12
 paginate_path            : "/page/:num"
 defaults: 
   - scope:
