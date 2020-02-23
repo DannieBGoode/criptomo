@@ -1,5 +1,6 @@
 ---
 layout: post
+title: The Simpsons explain Cryptocurrency
 description: The Simpsons explain cryptocurrencies in a small video. Also video of Family Guy and Bitcoin.
 banner_image: 202002/simpsons.webp
 rating: 5
