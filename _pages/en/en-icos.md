@@ -13,7 +13,7 @@ lang: en
 
 <div class="entry-header"></div>
 <div class="entry-content">
-    Below you can find a table with all the <a href="/que-es-una-ico"> ICOs</a> that have raised the most funds next to their current price so that you can make an assessment of how successful they have turned out for their investors.
+    Below you can find a table with all the ICOs that have raised the most funds next to their current price so that you can make an assessment of how successful they have turned out for their investors.
 
     We left out of the ranking Filecoin (FIL) that raised $257,000,000 due to only trading futures and Telegram Open Network (GRAM) that raised 1,700,000,000 but is not yet listed publicly.
 </div>

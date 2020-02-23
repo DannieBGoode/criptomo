@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ICOs
-description: Las ICOs que más dinero han recaudado de la historia.
+description: Las ICOs que más dinero han recaudado de la historia. Las más exitosas.
 banner_image: pages/ico.jpg
 permalink: /icos/
 comments: true
