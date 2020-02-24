@@ -679,7 +679,7 @@
 		"class": "exchange",
 		"description": "Moneda del exchange de Binance, se puede utilizar para pagar tasas de compra-venta de otras monedas en Binance.",
 		"description-en": "Binance exchange's currency, can be used to pay buy-sell rates of other currencies in Binance.",
-		"ico-price": "0.150",
+		"ico-price": "0.115",
 		"ico-raised": "15000000",
 		"ico-date-start": "2017-12-31",
 		"ico-date-end": "2017-12-31"
