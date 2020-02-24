@@ -375,7 +375,11 @@
 		"website": "https://golem.network/",
 		"class": "computing",
 		"description": "Alquiler de poder computacional a cambio de tokens.",
-		"description-en": "Rental of computing power in exchange for tokens."
+		"description-en": "Rental of computing power in exchange for tokens.",
+		"ico-price": "0.01",
+		"ico-raised": "8595000",
+		"ico-date-start": "2016-11-13",
+		"ico-date-end": "2016-11-13"
 	},
 	"ardr": {
 		"name": "Ardor (ARDR)",
