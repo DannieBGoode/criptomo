@@ -55,7 +55,7 @@
 		"description": "Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revisión academicos.",
 		"description-en": "Blockchain for decentralized applications and smart contracts focused on independent layers and supervised by academic review models.",
 		"article": "/que-es-cardano/",
-		"ico-price: "0.002",
+		"ico-price": "0.002",
 		"ico-raised": "63000000",
 		"ico-date-start": "2015-09-01",
 		"ico-date-end": ""
@@ -205,7 +205,7 @@
 		"class": "dapps",
 		"description": "Plataforma que permite crear aplicaciones descentralizadas con Javascript.",
 		"description-en": "Platform that allows you to create decentralized applications with Javascript.",
-		"ico-price: "0.076",
+		"ico-price": "0.076",
 		"ico-raised": "6500000",
 		"ico-date-start": "2016-02-22",
 		"ico-date-end": "2016-03-20"
@@ -229,7 +229,7 @@
 		"class": "business dapps",
 		"description": "Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.",
 		"description-en": "Hybrid between Bitcoin and Ethereum focused on business smart contracts. Compete with Ethereum.",,
-		"ico-price: "0.292",
+		"ico-price": "0.292",
 		"ico-raised": "15664829",
 		"ico-date-start": "2017-03-16",
 		"ico-date-end": "2017-05-15"
@@ -300,7 +300,7 @@
 		"class": "exchange crowdfunding",
 		"description": "Plataforma que permite crear y distribuir tokens a cualquier persona aunque no tenga conocimientos técnicos.",
 		"description-en": "Platform that allows to create and distribute tokens to anyone even if they do not have technical knowledge.",
-		"ico-price: "0.188",
+		"ico-price": "0.188",
 		"ico-raised": "16000000",
 		"ico-date-start": "2016-04-12",
 		"ico-date-end": "2016-05-31"
@@ -320,7 +320,7 @@
 		"class": "business",
 		"description": "Plataforma para crear blockchain corporativas en C#.",
 		"description-en": "Platform for creating corporate blockchain in C#.",
-		"ico-price: "0.007",
+		"ico-price": "0.007",
 		"ico-raised": "610908",
 		"ico-date-start": "2016-06-12",
 		"ico-date-end": "2018-1-1"
@@ -332,7 +332,7 @@
 		"class": "interblockchain",
 		"description": "Plataforma para conectar todas las criptomonedas con una interfaz muy simple.",
 		"description-en": "Platform to connect all cryptocurrencies with a very simple interface.",
-		"ico-price: "0.010",
+		"ico-price": "0.010",
 		"ico-raised": "950000",
 		"ico-date-start": "2016-11-07",
 		"ico-date-end": "2016-12-31"
@@ -410,7 +410,7 @@
 		"class": "gaming",
 		"description": "Plataforma descentralizada para hacer apuestas.",
 		"description-en": "Decentralized platform for placing bets.",
-		"ico-price: "0.602",
+		"ico-price": "0.602",
 		"ico-raised": "37500",
 		"ico-date-start": "2015-08-16",
 		"ico-date-end": "2015-9-30"
@@ -648,7 +648,7 @@
 		"class": "finance",
 		"description": "Los usuarios pueden comprar oro que será representado mediante tokens.",
 		"description-en": "Platform where users can buy gold that will be represented by tokens.",
-		"ico-price: "3.235",
+		"ico-price": "3.235",
 		"ico-raised": "5500000",
 		"ico-date-start": "2016-03-29",
 		"ico-date-end": "2016-03-30"
