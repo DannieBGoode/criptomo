@@ -55,10 +55,10 @@
 		"description": "Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revisión academicos.",
 		"description-en": "Blockchain for decentralized applications and smart contracts focused on independent layers and supervised by academic review models.",
 		"article": "/que-es-cardano/",
-		"ico-price": "0.002",
-		"ico-raised": "63000000",
-		"ico-date-start": "2015-09-01",
-		"ico-date-end": ""
+		"ico-price": "0.0024",
+		"ico-raised": "62240000",
+		"ico-date-start": "2017-10-01",
+		"ico-date-end": "2018-1-1"
 	},
 	"ltc": {
 		"name": "Litecoin (LTC)",
