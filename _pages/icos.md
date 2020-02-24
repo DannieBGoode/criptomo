@@ -16,7 +16,7 @@ noMargins: true
 
     En el caso en que alguna criptomoneda haya realizado más de una ICO, como es el caso de NEO, únicamente se ha considerado su primera vez a la hora de calcular sus ganancias.
     
-    Quedan fuera del ranking Filecoin que recaudó $257,000,000 por tratarse únicamente de futuros y GRAM que recaudó $1,700,000,000 pero todavía no cotiza.
+    Quedan fuera del ranking Filecoin que recaudó $257,000,000 por tratarse únicamente de futuros y la criptmoneda de Telegram Open Network llamada GRAM que recaudó $1,700,000,000 pero todavía no cotiza.
 </div>
 
 <small class="error api-error">Error de conexión, tu Adblock bloquea la API de cotizaciones.</small>
