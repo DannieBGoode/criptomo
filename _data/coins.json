@@ -681,8 +681,8 @@
 		"description-en": "Binance exchange's currency, can be used to pay buy-sell rates of other currencies in Binance.",
 		"ico-price": "0.150",
 		"ico-raised": "15000000",
-		"ico-date-start": "2017-7-14",
-		"ico-date-end": ""
+		"ico-date-start": "2017-12-31",
+		"ico-date-end": "2017-12-31"
 	},
 	"kcs": {
 		"name": "KuCoin Shares (KCS)",
