@@ -36,31 +36,8 @@ Vivimos en un momento donde la ley no define nada al respecto. En teoría el tok
 
 En muchas ocasiones las ICOs son utilizadas por estafadores que invierten dinero en una página web moderna y un whitepaper o plagiado o lleno de ideas vagas y poco precisas para captar a gente motivada por la codicia y que no entiende muy bien los conceptos en los que está invirtiendo. **Muchas ICOs han recaudado bastante fondos y todavía años después no han entregado ningún proyecto.**
 
-## ICOs interesantes
+En nuestra sección de [ICOs](/icos) se pueden encontrar una selección de distintas monedas que han realizado ICO en sus inicios aceptando BTC o ETH a cambio de sus tokens y el valor actual de dichos tokens. Por ejemplo Telegram realizó su propia ICO y recaudo $1,700,000,000.
 
-La siguiente gráfica presenta una selección de monedas que han realizado ICOs. Para cada una de ella se muestran cuántos BTC o ETH recaudaron tras vender sus tokens ofertados, el valor en dólares que tenían el total de esos tokens recaudados en esa fecha, y por último el beneficio que se han llevado los compradores de esos tokens por sus inversiones a fecha 1 de Febrero de 2018.
-
-<!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Moneda               | Recaudación Dólares    | Recaudación en Tokens | Valor Actual Tokens    |
-|:--------------------:|:----------------------:|:---------------------:|:----------------------:|
-| Ethereum             | 20,000,000$            |  31,500 BTC           |  +362857%              |
-| Lisk                 | 6,500,000$             |  14,000 BTC           |  +28550%               |
-| Augur                | 5,300,000$             |  19,000 BTC           |  +10638%               |
-| Golem                | 8,600,000$             |  10,000 BTC           |  +3801%                |
-| ICONOMI              | 10,700,000$            |  17,000 BTC           |  +1768%                |
-| First Blood          | 5,500,000$             |  465,312 ETH          |  +881%                 |
-| SingularDTV          | 7,500,000$             |  12,295 BTC           |  +1139%                |
-| Melonport            | 3,000,000$             |  2,000 BTC            |  +2196%                |
-| QTUM                 | 15,000,000$            |  11,000 BTC           |  +12451%               |
-| Chrono Bank          | 5,400,000$             |  4,000 BTC            |  +207%                 |
-| Aragon               | 25,000,000$ en 15min   |  275,000 ETH          |  +477%                 |
-| Basic Attention Token| 35,000,000$ en 30s     |  156,250 ETH          |  +1222%                |
-| Status.im            | 110,000,000$ en horas  |  300,000 ETH          |  +475%                 |
-| PolkaDot             | 145,200,000$           |  485,331 ETH          | Aun no se comercia     | -->
-
-{% include image_caption.html imageurl="/images/posts/201802/ico-table.png" title="ICO comparison" popup=true %}
-
-Telegram ha anunciado que van a realizar su propia ICO que pretende ser la más ambiciosa hasta la fecha. Aunque la fecha todavía no está definida pretenden recaudar entre mil y dos mil millones de dólares.
 
 ## Opinión
 
