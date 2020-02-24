@@ -36,7 +36,7 @@
 		"website": "https://bitcoinsv.io/",
 		"class": "currency",
 		"description": "Un fork de Bitcoin Cash creado para intentar solucionar el problema de escalabilidad subiendo su tamaño de bloque. Pretende sustituir al Bitcoin original.",
-		"description-en" :"A Bitcoin Cash fork created to try to solve the scalability problem by increasing its block size. It aims to replace the original Bitcoin.",
+		"description-en" :"A Bitcoin Cash fork created to try to solve the scalability problem by increasing its block size. It aims to replace the original Bitcoin."
 	},
 	"dash": {
 		"name": "DASH (DASH)",
@@ -228,7 +228,7 @@
 		"website": "https://qtum.org/en/",
 		"class": "business dapps",
 		"description": "Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.",
-		"description-en": "Hybrid between Bitcoin and Ethereum focused on business smart contracts. Compete with Ethereum.",,
+		"description-en": "Hybrid between Bitcoin and Ethereum focused on business smart contracts. Compete with Ethereum.",
 		"ico-price": "0.292",
 		"ico-raised": "15664829",
 		"ico-date-start": "2017-03-16",
