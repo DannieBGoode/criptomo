@@ -12,7 +12,9 @@ noMargins: true
 
 <div class="entry-header"></div>
 <div class="entry-content">
-    A continuación podéis encontrar una tabla con las 52 <a href="/que-es-una-ico">ICOs</a> que más dinero han levantado junto a su precio actual para que se pueda hacer una valoración de cómo de exitosas han resultado para sus inversores. Como referencia he añadido al final ciertas criptomonedas que cotizan entre los primeros puestos y que también realizaron ICO pero no consiguieron recaudar cantidades tan grandes. Por ejemplo [IOTA](/que-es-iota) recaudó apenas $434,000 pero en cambio se ha convertido en una de las ICOs más rentables para sus pocos inversores iniciales.
+    A continuación podéis encontrar una tabla con las 52 <a href="/que-es-una-ico">ICOs</a> que más dinero han levantado junto a su precio actual para que se pueda hacer una valoración de cómo de exitosas han resultado para sus inversores. Como referencia he añadido al final ciertas criptomonedas que cotizan entre los primeros puestos y que también realizaron ICO pero no consiguieron recaudar cantidades tan grandes. Por ejemplo <a href="/que-es-iota">IOTA</a> recaudó apenas $434,000 pero en cambio se ha convertido en una de las ICOs más rentables para sus pocos inversores iniciales.
+
+    En el caso en que alguna criptomoneda haya realizado más de una ICO, como es el caso de NEO, únicamente se ha considerado su primera vez a la hora de calcular sus ganancias.
     
     Quedan fuera del ranking Filecoin que recaudó $257,000,000 por tratarse únicamente de futuros y GRAM que recaudó $1,700,000,000 pero todavía no cotiza.
 </div>
