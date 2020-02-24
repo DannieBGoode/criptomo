@@ -17,7 +17,9 @@
 		"description-en": "Platform to create and execute smart contracts, that is, applications that self-execute when certain conditions are met without the possibility of censorship or interference.",
 		"article": "/que-es-ethereum/",
 		"ico-price": "0.30",
-		"ico-raised": "18000000"
+		"ico-raised": "15571000",
+		"ico-date-start": "2014-07-22",
+		"ico-date-end": "2014-08-30"
 	},
 	"bch": {
 		"name": "Bitcoin Cash (BCH)",
@@ -52,7 +54,11 @@
 		"class": "dapps",
 		"description": "Blockchain para aplicaciones descentralizadas y contratos inteligentes enfocada en capas independientes y supervisada por modelos de revisión academicos.",
 		"description-en": "Blockchain for decentralized applications and smart contracts focused on independent layers and supervised by academic review models.",
-		"article": "/que-es-cardano/"
+		"article": "/que-es-cardano/",
+		"ico-price: "0.002",
+		"ico-raised": "63000000",
+		"ico-date-start": "2015-09-01",
+		"ico-date-end": ""
 	},
 	"ltc": {
 		"name": "Litecoin (LTC)",
@@ -70,7 +76,11 @@
 		"class": "iot",
 		"description": "Plataforma para dispositivos del Internet of Things que promete microtransacciones gratuitas que funcionan sin intervención humana.",
 		"description-en": "Platform for Internet of Things devices that promises free microtransactions that work without human intervention.",
-		"article": "/que-es-iota/"
+		"article": "/que-es-iota/",
+		"ico-price": "0.2694",
+		"ico-raised": "434511",
+		"ico-date-start": "2015-11-15",
+		"ico-date-end": "2015-12-20"
 	},
 	"xrp": {
 		"name": "Ripple (XRP)",
@@ -156,7 +166,11 @@
 		"website": "https://neo.org/",
 		"class": "dapps",
 		"description": "Anteriormente conocida como Antshares, se trata del Ethereum chino y se enfoca en aplicaciones descentralizadas.",
-		"description-en": "Formerly known as Antshares, it is the Chinese Ethereum and focuses on decentralized applications."
+		"description-en": "Formerly known as Antshares, it is the Chinese Ethereum and focuses on decentralized applications.",
+		"ico-price": "0.032",
+		"ico-raised": "556500",
+		"ico-date-start": "2015-10-01",
+		"ico-date-end": ""
 	},
 	"nano": {
 		"name": "Nano (NANO)",
@@ -190,7 +204,11 @@
 		"website": "https://lisk.io/",
 		"class": "dapps",
 		"description": "Plataforma que permite crear aplicaciones descentralizadas con Javascript.",
-		"description-en": "Platform that allows you to create decentralized applications with Javascript."
+		"description-en": "Platform that allows you to create decentralized applications with Javascript.",
+		"ico-price: "0.076",
+		"ico-raised": "6500000",
+		"ico-date-start": "2016-02-22",
+		"ico-date-end": "2016-03-20"
 	},
 	"ant": {
 		"name": "Aragon (ANT)",
@@ -210,7 +228,11 @@
 		"website": "https://qtum.org/en/",
 		"class": "business dapps",
 		"description": "Híbrido entre Bitcoin y Ethereum enfocado a contratos inteligentes empresariales. Compite con Ethereum.",
-		"description-en": "Hybrid between Bitcoin and Ethereum focused on business smart contracts. Compete with Ethereum.",
+		"description-en": "Hybrid between Bitcoin and Ethereum focused on business smart contracts. Compete with Ethereum.",,
+		"ico-price: "0.292",
+		"ico-raised": "15664829",
+		"ico-date-start": "2017-03-16",
+		"ico-date-end": "2017-05-15"
 	},
 	"hsr": {
 		"name": "Hshare (HSR)",
@@ -277,7 +299,11 @@
 		"website": "https://wavesplatform.com/",
 		"class": "exchange crowdfunding",
 		"description": "Plataforma que permite crear y distribuir tokens a cualquier persona aunque no tenga conocimientos técnicos.",
-		"description-en": "Platform that allows to create and distribute tokens to anyone even if they do not have technical knowledge."
+		"description-en": "Platform that allows to create and distribute tokens to anyone even if they do not have technical knowledge.",
+		"ico-price: "0.188",
+		"ico-raised": "16000000",
+		"ico-date-start": "2016-04-12",
+		"ico-date-end": "2016-05-31"
 	},
 	"ppt": {
 		"name": "Populous (PPT)",
@@ -293,7 +319,11 @@
 		"website": "http://stratisplatform.com/",
 		"class": "business",
 		"description": "Plataforma para crear blockchain corporativas en C#.",
-		"description-en": "Platform for creating corporate blockchain in C#."
+		"description-en": "Platform for creating corporate blockchain in C#.",
+		"ico-price: "0.007",
+		"ico-raised": "610908",
+		"ico-date-start": "2016-06-12",
+		"ico-date-end": "2018-1-1"
 	},
 	"ark": {
 		"name": "Ark (ARK)",
@@ -301,7 +331,11 @@
 		"website": "http://ark.io/",
 		"class": "interblockchain",
 		"description": "Plataforma para conectar todas las criptomonedas con una interfaz muy simple.",
-		"description-en": "Platform to connect all cryptocurrencies with a very simple interface."
+		"description-en": "Platform to connect all cryptocurrencies with a very simple interface.",
+		"ico-price: "0.010",
+		"ico-raised": "950000",
+		"ico-date-start": "2016-11-07",
+		"ico-date-end": "2016-12-31"
 	},
 	"kmd": {
 		"name": "Komodo (KMD)",
@@ -375,7 +409,11 @@
 		"website": "http://www.augur.net/",
 		"class": "gaming",
 		"description": "Plataforma descentralizada para hacer apuestas.",
-		"description-en": "Decentralized platform for placing bets."
+		"description-en": "Decentralized platform for placing bets.",
+		"ico-price: "0.602",
+		"ico-raised": "37500",
+		"ico-date-start": "2015-08-16",
+		"ico-date-end": "2015-9-30"
 	},
 	"salt": {
 		"name": "Salt (SALT)",
@@ -592,7 +630,8 @@
 		"description": "Plataforma de contratos inteligentes que conecta a consumidores con creadores en el mundo del ocio.",
 		"description-en": "Smart contract platform that connects consumers with creators in the world of leisure.",
 		"ico-price": "0.0019",
-		"ico-raised": "70000000"
+		"ico-raised": "70000000",
+		"ico-date-start": "2017-08-31"
 	},
 	"xuc": {
 		"name": "Exchange Union (XUC)",
@@ -608,7 +647,11 @@
 		"website": "https://digix.global/",
 		"class": "finance",
 		"description": "Los usuarios pueden comprar oro que será representado mediante tokens.",
-		"description-en": "Platform where users can buy gold that will be represented by tokens."
+		"description-en": "Platform where users can buy gold that will be represented by tokens.",
+		"ico-price: "3.235",
+		"ico-raised": "5500000",
+		"ico-date-start": "2016-03-29",
+		"ico-date-end": "2016-03-30"
 	},
 	"powr": {
 		"name": "Power Ledger (POWR)",
@@ -635,7 +678,11 @@
 		"website": "https://www.binance.com/",
 		"class": "exchange",
 		"description": "Moneda del exchange de Binance, se puede utilizar para pagar tasas de compra-venta de otras monedas en Binance.",
-		"description-en": "Binance exchange's currency, can be used to pay buy-sell rates of other currencies in Binance."
+		"description-en": "Binance exchange's currency, can be used to pay buy-sell rates of other currencies in Binance.",
+		"ico-price": "0.150",
+		"ico-raised": "15000000",
+		"ico-date-start": "2017-7-14",
+		"ico-date-end": ""
 	},
 	"kcs": {
 		"name": "KuCoin Shares (KCS)",
@@ -651,7 +698,11 @@
 		"website": "https://nxtplatform.org/",
 		"class": "exchange marketplace",
 		"description": "Plataforma que permite intercambio de bienes digitales, marketplaces y un sistema de votación para la comunidad.",
-		"description-en": "Platform that allows the exchange of digital goods, marketplaces and a voting system for the community."
+		"description-en": "Platform that allows the exchange of digital goods, marketplaces and a voting system for the community.",
+		"ico-price": "0.0000168",
+		"ico-raised": "16800",
+		"ico-date-start": "2013-09-28",
+		"ico-date-end": ""
 	},
 	"snt": {
 		"name": "Status (SNT)",
