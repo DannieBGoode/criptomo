@@ -60,13 +60,13 @@ Os dejo las 25 contraseñas más típicas de 2016, pero tened en cuenta que la l
 
 ¿ Está tu contraseña presente ? ¿ O tal vez una variación bastante cercana o simplemente traducida al castellano? Es hora cambiarla inmediatamente.
 
-### mala: `danielzaragoza` / `daniel19071987`
+### mala: `eduardozaragoza` / `eduardo19081987`
 
 Lo segundo peor que podemos hacer es tener una contraseña personalizada pero que una persona que tenga un poco de información sobre nosotros pueda llegar a deducir. Esto incluye ciudad de procedencia, cumpleaños nuestro o de familiares cercanos, nombre de nuestras mascotas, etc...
 
 La mayor parte de la información que utilizamos en estos casos es fácilmente identificable a través de redes sociales.
 
-### mejor: `daniel es de zaragoza y su cumpleaños es el dia 19 de julio`
+### mejor: `eduardo es de zaragoza y su cumpleaños es el dia 19 de agosto`
 
 Puestos a utilizar información personalizada y fácil de recordar al menos vamos a asegurarnos de que nuestra contraseña es muy larga. Las probabilidades de que alguien que nos conozca y nos ataque directamente encuentre la combinación exacta va disminuyendo a medida que aumentamos la longitud de nuestra contraseña.
 
