@@ -203,7 +203,7 @@ Los retornos anuales que recibiremos de distintas criptomonedas aumentan según 
 
 Con las siguientes excepciones:
 
-{% include image_caption.html imageurl="https://i.redd.it/7eq76c1owth41.jpg" title="Crypto Earn" caption="Crypto Earn" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/crypto-earn.png" title="Crypto Earn" caption="Crypto Earn" popup=true %}
 
 Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
 
