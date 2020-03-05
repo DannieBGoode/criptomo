@@ -1182,6 +1182,7 @@
 	},
 	"atom": {
 		"name": "Cosmos",
+		"icon": "atom-64.png",
 		"symbol": "ATOM",
 		"ico-price": "0.1",
 		"ico-raised": "53000000"
