@@ -78,7 +78,7 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-right',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data > 0) {
+        if ( data < 0) {
           return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
         }
         return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
@@ -91,7 +91,7 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-right',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data > 0) {
+        if ( data < 0) {
           return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
         }
         return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
@@ -111,24 +111,25 @@ let table = $('#marketcaps-table').DataTable({
 function marketcapTableLoad( currency ) {
   table.processing( true );
   marketcapCurrency = currency;
-  let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
+  let getUrl = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=300&sort=rank&order=ascending&currency=' + currency
+  // let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
   marketcapDataArray = [];
 
   $('#marketcaps-currency-select').val(currency);
   $.get( getUrl, function ( response ) {
-      $.each(response, function (index, coin) {
+      $.each(response.data, function (index, coin) {
         let colSpacer = null;
         let priceLength = '';
         let colRank = coin.rank;
-        let colIcon = coin.symbol.toLowerCase();
+        let colIcon = coin.code.toLowerCase();
         let colName = {
-          symbol: coin.symbol,
+          symbol: coin.code,
           name: coin.name
         };
-        let marketCapString = coin['market_cap_' + currency.toLowerCase()];
+        let marketCapString = coin.cap;
         let colMarketCap = Math.floor(marketCapString).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        let colTokens = Math.floor(coin.available_supply).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        let priceString = coin['price_' + currency.toLowerCase()];
+        let colTokens = Math.floor(coin.circulating).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        let priceString = coin.price;
 
         if ((currency !== 'USD') && (currency !== 'EUR')) {
           priceLength = 10;
@@ -140,8 +141,8 @@ function marketcapTableLoad( currency ) {
           price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
           positiveChange: (parseFloat(coin.percent_change_1h).toFixed(1) > 0)
         };
-        let colChange1h = parseFloat(coin.percent_change_1h).toFixed(1);
-        let colChange24h = parseFloat(coin.percent_change_24h).toFixed(1);
+        let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1);
+        let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1);
         let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
 
         marketcapDataArray.push(marketcapDataRow);
