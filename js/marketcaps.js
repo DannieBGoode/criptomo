@@ -78,7 +78,7 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-right',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data < 0) {
+        if ( data > 0) {
           return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
         }
         return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
@@ -91,7 +91,7 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-right',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data < 0) {
+        if ( data > 0) {
           return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
         }
         return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
@@ -141,8 +141,8 @@ function marketcapTableLoad( currency ) {
           price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
           positiveChange: (parseFloat(coin.percent_change_1h).toFixed(1) > 0)
         };
-        let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1);
-        let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1);
+        let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1)*(-1);
+        let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1)*(-1);
         let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
 
         marketcapDataArray.push(marketcapDataRow);
