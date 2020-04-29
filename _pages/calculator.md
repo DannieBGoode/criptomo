@@ -77,7 +77,6 @@ loadsPlugins: true
         </p>
     </div>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Calculator Banner -->
     <ins class="adsbygoogle"
          style="display:block"

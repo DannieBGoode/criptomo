@@ -91,7 +91,6 @@ lang: es
 <table id="investment-table" class="display" width="100%"></table>
 
 <div class="ad-space">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Calculator Banner -->
     <ins class="adsbygoogle"
          style="display:block"
