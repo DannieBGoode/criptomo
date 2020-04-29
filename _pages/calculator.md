@@ -63,18 +63,6 @@ loadsPlugins: true
     
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
-
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Calculator Banner -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-1252171391624665"
-             data-ad-slot="1002456567"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
         
         <div id="calculator-results">
             Si hubieras invertido <span id="result-invest"></span> en <span id="result-tokentype1"></span> el día <span id="result-date"></span> hubieras podido comprar a un precio de 
@@ -88,6 +76,18 @@ loadsPlugins: true
             <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
         </p>
     </div>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Calculator Banner -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1252171391624665"
+         data-ad-slot="1002456567"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
