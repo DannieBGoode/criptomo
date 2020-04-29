@@ -86,9 +86,6 @@ redirect_from:
          data-ad-slot="1002456567"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
     
 </div>
 
