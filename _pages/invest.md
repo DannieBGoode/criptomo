@@ -92,7 +92,7 @@ lang: es
 
 <div class="ad-space">
     <!-- Calculator Banner -->
-    <ins class="adsbygoogle"
+    <ins class="adsbygoogle white-ad"
          style="display:block"
          data-ad-client="ca-pub-1252171391624665"
          data-ad-slot="1002456567"
