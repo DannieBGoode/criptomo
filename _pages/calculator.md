@@ -83,8 +83,10 @@ loadsPlugins: true
          data-ad-client="ca-pub-1252171391624665"
          data-ad-slot="1002456567"
          data-ad-format="auto"
-         data-full-width-responsive="true">
-    </ins>
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>
 
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
