@@ -85,7 +85,8 @@ redirect_from:
          data-ad-client="ca-pub-1252171391624665"
          data-ad-slot="1002456567"
          data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
+         data-full-width-responsive="true">
+    </ins>
     
 </div>
 
