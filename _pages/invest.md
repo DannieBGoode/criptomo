@@ -90,6 +90,20 @@ lang: es
 
 <table id="investment-table" class="display" width="100%"></table>
 
+<div class="ad-space">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Calculator Banner -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-1252171391624665"
+         data-ad-slot="1002456567"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
 <script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
