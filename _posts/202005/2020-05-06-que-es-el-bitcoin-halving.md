@@ -41,6 +41,14 @@ Bitcoin en cambio se trata de algo irremplazable, no se pueden encontrar más, n
 
 {% include image_caption.html imageurl="/images/posts/202005/inflation-table.png" title="Inflación" caption="Inflación del Bitcoin a lo largo de los años" popup=true %}
 
+### ¿ Dónde en el código de Bitcoin ocurre el halving?
+
+Este es el <a rel="nofollow" href="https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp">código</a> que define los halvings en Bitcoin. Una de las cosas a destacar es que después de 64 halvings la recompensa de bloque pasará a ser cero.
+
+Cada halving ocurre cada 210,000 bloques, teniendo en cuenta que un bloque es minado cada aproximadamente 10 minutos, podemos esperar un halving cada cuatro años. El tiempo medio de diez minutos depende realmente de cuanto tarden los mineros en encontrar la solución Proof of Work de cada bloque. A medida que se sumen mineros este tiempo debería disminuir pero la dificultad del minado es re-ajustada cada dos semanas, lo que llevará el tiempo medio de nuevo a los 10 minutos.
+
+{% include image_caption.html imageurl="/images/posts/202005/code.png" title="Bitcoin halving code" caption="Código del halving" popup=true %}
+
 ### ¿ Cómo se financiarán los mineros cuando la recompensa de bloque sea demasiado pequeña?
 
 Principalmente, los mineros se financiarán únicamente por comisiones de transferencia, igual que ya hacen parcialmente ahora mismo. El mercado ajustará los valores de estas comisiones, especialmente teniendo en cuenta los bajos costes de crear un nodo de Bitcoin.

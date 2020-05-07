@@ -40,6 +40,14 @@ Bitcoin, on the other hand, is something irreplaceable, it cannot be found more,
 
 {% include image_caption.html imageurl="/images/posts/202005/inflation-table.png" title="Inflación" caption="Bitcoin inflation over the years" popup=true %}
 
+### Where in the Bitcoin code does the halving occur?
+
+This is the <a rel="nofollow" href="https://github.com/bitcoin/bitcoin/blob/master/src/validation.cpp">code</a> that defines the halves in Bitcoin. One of the things to note is that after 64 halves the block reward will go to zero.
+
+Each halves occurs every 210,000 blocks, given that one block is mined every approximately 10 minutes, we can expect one halves every four years. The average time of ten minutes really depends on how long it takes miners to find the Proof of Work solution for each block. As miners are added this time should decrease but the mining difficulty is readjusted every two weeks, which will bring the average time back to 10 minutes.
+
+{% include image_caption.html imageurl="/images/posts/202005/code.png" title="Bitcoin halving code" caption="Halving code" popup=true %}
+
 ### How will miners be funded when the block reward is too small?
 
 Mainly, miners will be funded solely by transfer fees, just as they already partially do right now. The market will adjust the values ​​of these commissions, especially considering the low costs of creating a Bitcoin node.
