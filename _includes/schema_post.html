@@ -1,16 +1,17 @@
 <script type="application/ld+json">
 {
 	"@context":"http://schema.org/",
-	"@type":"Article",
+	"@type":"Course",
+	"datePublished": {{page.date}},
 	"mainEntityOfPage":{
 		"@type":"WebPage",
 		"@id":"{{site.url}}{{page.url}}"
 	},
-	"headline":"{{ page.description |  truncate: 110 }}",
-	"name":"{{ page.description |  truncate: 110 }}",
+	"description":"{{ page.description |  truncate: 110 }}",
+	"name":"{{ page.title |  truncate: 110 }}",
 	"author":{
-		"@type":"Person",
-		"name":"{{ writer.author_name }}"
+		"@type":"Organization",
+		"name":"{{ site.title }}"
 	},
 	"image":{
 		"@type":"ImageObject",
