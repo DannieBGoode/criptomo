@@ -1,44 +1,7 @@
 <script type="application/ld+json">
 {
-	"@context":"http://schema.org/",
-	"@type":"Course",
-	"datePublished": "{{page.date}}",
-	"mainEntityOfPage":{
-		"@type":"WebPage",
-		"@id":"{{site.url}}{{page.url}}"
-	},
-	"description":"{{ page.description |  truncate: 110 }}",
-	"name":"{{ page.title |  truncate: 110 }}",
-	"author":{
-		"@type":"Organization",
-		"name":"{{ site.title }}"
-	},
-	"image":{
-		"@type":"ImageObject",
-		"url":"{{site.url}}/images/{{page.banner_image}}",
-		"width":"500",
-		"height":"500"
-	},
-	"publisher":{
-		"@type":"Organization",
-		"name":"{{site.url}}",
-		"logo":{
-			"@type":"ImageObject",
-			"url":"https://criptomo.com/images/logo.png",
-			"width":128,
-			"height":32
-		}
-	}
-	{% if page.rating and page.totalVotes %}
-	,"aggregateRating":{
-		"@type":"AggregateRating",
-		"ratingValue":"{{ page.rating | default: 4}}",
-		"ratingCount": {{ page.totalVotes | default: 2}}
-	}
-	{% endif %}
-}
-{
   "@context": "https://schema.org/",
+  "datePublished": "{{page.date}}",
   "@type": "Review",
   "itemReviewed": {
     "@type": "Course",
