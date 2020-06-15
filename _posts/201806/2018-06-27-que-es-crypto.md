@@ -107,8 +107,8 @@ La tarjeta midnight blue es la más asequible de precio de todas, tiene los sigu
 
 - MCO a bloquear: 0 MCO
 - Devolución de un 1% de todos los gastos efectuados con la tarjeta.
-- Intercambio interbancario gratis: 2000$
-- Retirada de cajeros gratis: 200$
+- Intercambio interbancario gratis: 2000$ al mes
+- Retirada de cajeros gratis: 200$ al mes
 
 #### Ruby Steel
 
@@ -118,8 +118,8 @@ La tarjeta Ruby Steel se caracteriza por:
 
 - MCO a bloquear: 50 MCO
 - **Devolución de un 2% de todos los gastos si seguimos bloqueando MCO**. 1% en caso contrario.
-- Intercambio interbancario gratis: 4000$
-- Retirada de cajeros gratis: 400$
+- Intercambio interbancario gratis: 4000$ al mes
+- Retirada de cajeros gratis: 400$ al mes
 - **Spotify gratis (una sola subscripción).**
 
 #### Royal Indigo / Jade Green
@@ -130,8 +130,8 @@ La tarjeta Ruby Steel se caracteriza por:
 - MCO a bloquear: 500 MCO
 - **Devolución de un 3% de todos los gastos si seguimos bloqueando MCO**. 1.5% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos.
-- Intercambio interbancario gratis: 10000$
-- Retirada de cajeros gratis: 800$
+- Intercambio interbancario gratis: 10000$ al mes
+- Retirada de cajeros gratis: 800$ al mes
 - **Spotify gratis (una sola subscripción).**
 - **Netflix Gratis (una sola subscripción).**
 
@@ -142,10 +142,11 @@ La tarjeta Ruby Steel se caracteriza por:
 - MCO a bloquear: 5,000 MCO
 - **Devolución de un 4% de todos los gastos si seguimos bloqueando MCO**. 1.75% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
-- Intercambio interbancario gratis: 10000$
-- Retirada de cajeros gratis: 800$
+- Intercambio interbancario gratis: 10000$ al mes
+- Retirada de cajeros gratis: 800$ al mes
 - **Spotify gratis (una sola subscripción).**
 - **Netflix Gratis (una sola subscripción).**
+- **Amazon Prime Gratis (una sola subscripción).**
 - **10% de los gastos en Expedia.com devueltos hasta $50 al mes.**
 - **10% de los gastos en Airbnb.com devueltos hasta $100 al mes.**
 - **Acceso a MCO Private.**
@@ -158,12 +159,14 @@ La tarjeta Ruby Steel se caracteriza por:
 - **Devolución de un 5% de todos los gastos si seguimos bloqueando MCO**. 2% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
-- Retirada de cajeros gratis: 1000$
+- Retirada de cajeros gratis: 1000$ al mes
 - **Spotify gratis (una sola subscripción).**
 - **Netflix Gratis (una sola subscripción).**
+- **Amazon Prime Gratis (una sola subscripción).**
 - **10% de los gastos en Expedia.com devueltos hasta $50 al mes.**
 - **10% de los gastos en Airbnb.com devueltos hasta $100 al mes.**
 - **Acceso a MCO Private.**
+- **Partnership con una empresa de Jets privados.**
 
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}

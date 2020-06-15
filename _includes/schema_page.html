@@ -2,7 +2,7 @@
 {
 	"@context":"http://schema.org/",
 	"@type":"Course",
-	"datePublished": {{page.date}},
+	"datePublished": "{{page.date}}",
 	"mainEntityOfPage":{
 		"@type":"WebPage",
 		"@id":"{{site.url}}{{page.url}}"
@@ -36,5 +36,25 @@
 		"ratingCount": {{ page.totalVotes | default: 2}}
 	}
 	{% endif %}
+}
+{
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Course",
+    "image": "{{site.url}}/images/{{page.banner_image}}",
+    "name": "{{ page.title |  truncate: 110 }}",
+    "description":"{{ page.description |  truncate: 110 }}",
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ page.rating | default: 4}}",
+    "ratingCount": {{ page.totalVotes | default: 2}}
+  },
+  "name": "A good seafood place.",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.title }}"
+  }
 }
 </script>
