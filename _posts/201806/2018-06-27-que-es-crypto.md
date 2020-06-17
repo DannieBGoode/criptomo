@@ -222,7 +222,7 @@ Por ejemplo si tuvieramos 500 MCO bloqueado (y en consecuencia los beneficios de
 
 ### Crypto PAY
 
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-8362952f.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-72228947.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}

@@ -212,7 +212,7 @@ For example if we had 500 MCO blocked within the system, we would get the follow
 
 ### Monaco PAY
 
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-8362952f.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-72228947.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 Monaco is pushing its new Crypto.com Chain (CRO) currency with the intention of mimicking the success that WeChat is having in the Chinese market for mobile payments. His intention is to compete with VISA and Mastercard by offering a free payment system for the merchant, which also offers a dashboard from which to control all his payments:
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
