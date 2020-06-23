@@ -88,16 +88,6 @@ Podéis registraros por <a rel="nofollow" href="https://links.wirexapp.com/MpmB/
 
 ### Tarjetas de Débito
 
-#### Shift
-
-{% include image_caption.html imageurl="/images/posts/201712/shift.jpg" title="Shift Card" popup=true %}
-
-La tarjeta de <a rel="nofollow" href="https://www.shiftpayments.com/card">Shift</a> se vincula directamente a tu cuenta de Coinbase (uno de los exchanges que más confianza me genera) y cada vez que hagas una transacción se convertirán sólo los fondos necesarios para hacer frente a ese cargo al precio de intercambio de ese momento. 
-
-* Recordemos que Coinbase NO ofrece las claves privadas de tu cuenta de criptomonedas puesto que no es un wallet.
-* Acepta todos los tipos de criptomoneda que acepta Coinbase, es decir, Bitcoin, Bitcoin Cash, Ethereum y Ripple.
-* Por desgracia **Shift solo funciona en USA**.
-
 #### Xapo
 
 {% include image_caption.html imageurl="/images/posts/201712/xapo.png" title="Xapo Card" popup=true %}
@@ -122,11 +112,11 @@ Cuando un usuario utiliza su tarjeta VISA en un comercio, el comerciante paga un
 
 TenX ya esta funcionando globalmente.
 
-#### Monaco
+#### CRYPTO.COM
 
 {% include image_caption.html imageurl="/images/posts/201712/monaco.jpg" title="Monaco Cards" popup=true %}
 
-Hemos cubierto Monaco más en detalle en el artículo [Qué es Monaco](/que-es-monaco).
+Hemos cubierto Monaco/CRYPTO más en detalle en el artículo [Qué es CRYPTO](/que-es-monaco).
 
 Monaco al igual que TenX también es una criptomoneda denominada <a rel="nofollow" href="https://crypto.com/images/mco_whitepaper.pdf">MCO</a>.
 
@@ -134,44 +124,42 @@ Aunque todavía no ha sido lanzada, Monaco parece ofrecer todo lo que podríamos
 
 * Al igual que TenX y Xapo, únicamente se convertirá a fiat la parte correspondiente de los pagos que vayamos haciendo.
 * Los creadores aseguran que tendrán un 0% de comisión y el cambio se hará siempre a valor de mercado.
-* Aceptarán pagos también en otras monedas que no sean la moneda original de la tarjeta sin cobrar una comisión de conversión. Es decir se podrán pagar dólares, euros, etc... sin tasas extra por conversión.
+* Aceptan pagos también en otras monedas que no sean la moneda original de la tarjeta sin cobrar una comisión de conversión. Es decir se podrán pagar dólares, euros, etc... sin tasas extra por conversión.
 * Cuenta con una aplicación para controlar los gastos que se van realizando y añadir notas para ayudar al usuario a organizarse.
 * Todas las tarjetas son gratis en cuanto a mensualidades, envío y costes de transferencia.
 * El wallet de la tarjeta se puede financiar con BTC, ETH, MCO, BNB o cualquier ERC-20 token.
-* Se podrá enviar dinero de manera gratuita entre usuarios de Monaco como ya ofrecen otros servicios como paypal o twypp.
+* Se podrá enviar dinero de manera gratuita entre usuarios de Monaco como ya ofrecen otros servicios como Paypal o Twypp.
 * No ofrecen clave privada, aunque esto podría cambiar en el futuro.
 
 
-Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmente gratuita, envío incluido. A medida que subimos de categoría entre las tarjetas que ofrecen suben los límites de cantidades que se pueden gastar diarios y se dan ciertas ventajas extras como seguros de viaje o hasta un 2% de rendimiento sobre las compras que se realicen. Este rendimiento será generado en su criptomoneda MCO.
+Existen varios tipos de tarjetas, la más sencilla, *Midnight Blue*, es totalmente gratuita, envío incluido. A medida que subimos de categoría entre las tarjetas que ofrecen suben los límites de cantidades que se pueden gastar diarios y se dan ciertas ventajas extras como seguros de viaje o hasta un 5% de rendimiento sobre las compras que se realicen. Este rendimiento será generado en su criptomoneda MCO.
 
 Para optar a tarjetas premium debemos disponer de cierta cantidad de tokens MCO en nuestra posesión y bloquearlos durante un cierto periodo de tiempo (6 meses) en su aplicación.
 
 {% include video.html provider="youtube" id="sPPiRRZiFMI" caption="Adicionalmente la app de Monaco servirá de Exchange de criptomonedas para comprar directamente con la tarjeta de crédito" %}
 
-Por ahora hay lista de espera para conseguir cualquiera de las tarjetas, incluyendo la gratuita, aunque ya se ha abierto el periodo de Lockup de 6 meses. **Si os apuntais a partir de <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">este enlace</a> (enlace móvil) recibireis 10$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
+Las tarjetas ya están disponibles. **Si os apuntais a partir de <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">este enlace</a> (enlace móvil) recibireis 50$ de crédito gratis en vuestra tarjeta** una vez enviadas. 
 
 ### Opinión
 
 Los precios comentados en el artículo podrían ir cambiando con el tiempo así que recomiendo que antes de elegir una os asegureis de que los precios que ofrecen coinciden con lo que esperais.
 
 <!-- {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-|                   | TenX                   | Monaco             | Xapo    | Shift | Wirex    | Bitpay | SpectroCoin | Bitwala  |
-|:-----------------:|:----------------------:|:------------------:|:-------:|:-----:|:--------:|:------:|:-----------:|:--------:|
-| Criptos Soportadas| BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |  BTC    |  BTC  |Shapeshift| BTC    |   BTC       |Shapeshift|
-| Tipo Tarjeta      | Mastercard / VISA      |  VISA              |  VISA   | VISA  |  VISA    | VISA   |   VISA      |  VISA    |
-| Tipo              | Débito                 |  Débito            | Débito  | Débito|Pre-pago  |Pre-pago|   Pre-pago  | Pre-pago |
-|Tasa de uso/trans  |    Gratis              |  Gratis            | Gratis  | Gratis|  Gratis  |   1%   |    Gratis   | 0.5%     |
-|Coste Tarj. Física | 15$                    |  Gratis            |20€      | 10$   | 17€      |  10$   | 8€          | 8€       |
-|Coste Tarj. Virtual|        -               |  -                 |   -     |   -   |  Gratis  | -      |    0.5€     |  2€      |
-|Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | Gratis| 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
-|Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |  -    |    2.5€  |   3€   |   2.75€     |  2.25€   |
-| Clave Privada     |     No                 |         No         |   No    |  No   |    Si    |   Si   |   No        |  No      | -->
+|                   | TenX                   | Monaco             | Xapo    | Wirex    | Bitpay | SpectroCoin | Bitwala  |
+|:-----------------:|:----------------------:|:------------------:|:-------:|:--------:|:------:|:-----------:|:--------:|
+| Criptos Soportadas| BTC, ETH, DASH, ERC20  | BTC, ETC, ERC20    |  BTC    |Shapeshift| BTC    |   BTC       |Shapeshift|
+| Tipo Tarjeta      | Mastercard / VISA      |  VISA              |  VISA   |  VISA    | VISA   |   VISA      |  VISA    |
+| Tipo              | Débito                 |  Débito            | Débito  |Pre-pago  |Pre-pago|   Pre-pago  | Pre-pago |
+|Tasa de uso/trans  |    Gratis              |  Gratis            | Gratis  |  Gratis  |   1%   |    Gratis   | 0.5%     |
+|Coste Tarj. Física | 15$                    |  Gratis            |20€      | 17€      |  10$   | 8€          | 8€       |
+|Coste Tarj. Virtual|        -               |  -                 |   -     |  Gratis  | -      |    0.5€     |  2€      |
+|Tasa Mantenimiento |    Gratis              |  Gratis            | 1€/mes  | 1€/mes   |Gratis  |   1€/mes    |  1€/mes  |
+|Tasa Retiro Cajero |    Gratis              |  Gratis            | 2.5€    |    2.5€  |   3€   |   2.75€     |  2.25€   |
+| Clave Privada     |     No                 |         No         |   No    |    Si    |   Si   |   No        |  No      | -->
 
 {% include image_caption.html imageurl="/images/posts/201712/cards-comparison.png" title="Tarjetas de débito crypto comparadas" popup=true %}
 
-Tras el análisis, la tarjeta de débito que más prometedora veo en estos momentos son Monaco y TenX seguidas de cerca por Xapo.
+Tras el análisis, la tarjeta de débito que más prometedora veo en estos momentos es [CRYPTO](/que-es-monaco) seguida de cerca por Xapo.
 
 Cómo tarjeta de pre-pago la clara ganadora es Bitwalla por su capacidad de realizar transferencias SEPA.
-
-Existe otra tarjeta de crédito llamada <a rel="nofollow" href="https://tokencard.io/">TokenCard</a> que también parece muy prometedora, y si permitirá al usuario guardar su propia clave privada pero por falta de información he decidido no ponerla todavía.
 
