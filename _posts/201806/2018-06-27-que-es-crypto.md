@@ -96,7 +96,7 @@ El verdadero producto de Crypto.com son las tarjetas de crédito que ofrecen. To
 El precio de CRO oscila como el de cualquier activo, históricamente ha estado entre $2 y $8 y puede adquirirse desde dentro de la app como hemos detallado anteriormente.
 
 <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
-<div class="coinmarketcap-currency-widget" data-currencyid="1776" data-base="EUR" data-secondary="USD" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="true" data-stats="USD" style="border:2px solid #e1e5ea !important;border-radius:10px;margin-top:20px"></div>
+<div class="coinmarketcap-currency-widget" data-currencyid="3635" data-base="EUR" data-secondary="USD" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="true" data-stats="USD" style="border:2px solid #e1e5ea !important;border-radius:10px;margin-top:20px"></div>
 
 Todas las tarjetas son gratuitas en cuanto a costes de mantenimiento y envío de la tarjeta al usuario, y pueden ser bloqueadas en caso de pérdida desde la aplicación fácilmente.
 
