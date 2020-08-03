@@ -13,6 +13,11 @@ redirect_from:
 
 La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta que además compite con otras tarjetas como BNext y Revolut.
 
+**Nota para usuarios existentes**:
+Con fecha <a rel="nofollow" href="https://blog.crypto.com/important-announcement-mco-swap/">3 de Agosto de 2020</a> se ha abierto la posibilidada de realizar un swap por el cual todas las criptomonedas MCO pueden intercambiarse por un total de 27.64 CRO. Todas las funcionalidades anteriormente asociadas a MCO se mantendrán en CRO por lo que no hay ningún motivo por el cual no proceder por el swap. El objetivo de este swap es simplificar el ecosistema de Crypto.com.
+
+Los usuarios nuevos no tienen que realizar ninguna acción adicional salvo adquirir la cantidad de CRO correspondiente a la tarjeta que deseen adquirir.
+
 <!--more-->
 
 <style>
@@ -86,9 +91,9 @@ De estas carteras de fiat es de donde harán uso las tarjetas de crédito detall
 
 ### Tipos de tarjeta
 
-El verdadero producto de Crypto.com son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens MCO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token MCO durante dichos 6 meses**.
+El verdadero producto de Crypto.com son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens CRO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token CRO durante dichos 6 meses**.
 
-El precio de MCO oscila como el de cualquier activo, históricamente ha estado entre $2 y $8 y puede adquirirse desde dentro de la app como hemos detallado anteriormente.
+El precio de CRO oscila como el de cualquier activo, históricamente ha estado entre $2 y $8 y puede adquirirse desde dentro de la app como hemos detallado anteriormente.
 
 <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
 <div class="coinmarketcap-currency-widget" data-currencyid="1776" data-base="EUR" data-secondary="USD" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="true" data-stats="USD" style="border:2px solid #e1e5ea !important;border-radius:10px;margin-top:20px"></div>
@@ -97,7 +102,7 @@ Todas las tarjetas son gratuitas en cuanto a costes de mantenimiento y envío de
 
 Todas ellas contarán con soporte 24/7 por personas reales. Existen planes en el roadmap de añadirlas todas a servicios como Apple Pay, Samsung Pay o Google Play pero en lanzamiento no estarán disponibles todavía.
 
-Además todas las tarjetas tienen ventajas adicionales si mantienes tus MCO bloqueados más allá del tiempo inicial requerido, cómo un mayor porcentaje de cashback (dinero devuelto en divisa MCO) o servicios como Spotify y Netflix gratuitos. He marcado en negrita aquellas ventajas que requieren de bloqueo continuado de MCO.
+Además todas las tarjetas tienen ventajas adicionales si mantienes tus CRO bloqueados más allá del tiempo inicial requerido, cómo un mayor porcentaje de cashback (dinero devuelto en divisa CRO) o servicios como Spotify y Netflix gratuitos. He marcado en negrita aquellas ventajas que requieren de bloqueo continuado de CRO.
 
 #### Midnight Blue
 
@@ -105,7 +110,7 @@ Además todas las tarjetas tienen ventajas adicionales si mantienes tus MCO bloq
 
 La tarjeta midnight blue es la más asequible de precio de todas, tiene los siguientes límites:
 
-- MCO a bloquear: 0 MCO
+- CRO a bloquear: 0 CRO
 - Devolución de un 1% de todos los gastos efectuados con la tarjeta.
 - Intercambio interbancario gratis: 2000$ al mes
 - Retirada de cajeros gratis: 200$ al mes
@@ -116,8 +121,8 @@ La tarjeta midnight blue es la más asequible de precio de todas, tiene los sigu
 
 La tarjeta Ruby Steel se caracteriza por:
 
-- MCO a bloquear: 50 MCO
-- **Devolución de un 2% de todos los gastos si seguimos bloqueando MCO**. 1% en caso contrario.
+- CRO a bloquear: 5,000 CRO
+- **Devolución de un 2% de todos los gastos si seguimos bloqueando CRO**. 1% en caso contrario.
 - Intercambio interbancario gratis: 4000$ al mes
 - Retirada de cajeros gratis: 400$ al mes
 - **Spotify gratis (una sola subscripción).**
@@ -127,8 +132,8 @@ La tarjeta Ruby Steel se caracteriza por:
 {% include image_caption.html imageurl="/images/posts/201806/indigo-jade.png" title="Indigo Blue - Jade Green" caption="Indigo Blue - Jade Green" class="mid-size" %}
 
 
-- MCO a bloquear: 500 MCO
-- **Devolución de un 3% de todos los gastos si seguimos bloqueando MCO**. 1.5% en caso contrario.
+- CRO a bloquear: 50,000 CRO
+- **Devolución de un 3% de todos los gastos si seguimos bloqueando CRO**. 1.5% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos.
 - Intercambio interbancario gratis: 10000$ al mes
 - Retirada de cajeros gratis: 800$ al mes
@@ -139,8 +144,8 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size" %}
 
-- MCO a bloquear: 5,000 MCO
-- **Devolución de un 4% de todos los gastos si seguimos bloqueando MCO**. 1.75% en caso contrario.
+- CRO a bloquear: 500,000 CRO
+- **Devolución de un 4% de todos los gastos si seguimos bloqueando CRO**. 1.75% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: 10000$ al mes
 - Retirada de cajeros gratis: 800$ al mes
@@ -155,8 +160,8 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size" %}
 
-- MCO a bloquear: 50,000 MCO
-- **Devolución de un 5% de todos los gastos si seguimos bloqueando MCO**. 2% en caso contrario.
+- CRO a bloquear: 5,000,000 CRO
+- **Devolución de un 5% de todos los gastos si seguimos bloqueando CRO**. 2% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
 - Retirada de cajeros gratis: 1000$ al mes
@@ -171,20 +176,6 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
 
-Adicionalmente se está realizando un airdrop cada mes de la nueva moneda de MCO denominada **Crypto.com Chain (CRO)** en función del número de MCO que tengamos bloqueados. Esta nueva moneda se utilizará para realizar pagos con el móvil aunque también nos servirá para ahorrarnos comisiones a la hora de operar en el Exchange de Crypto.com o conseguir descuentos. Por ejemplo, en uno de los últimos evento <a rel="nofollow" href="https://crypto.com/exchange/syndicate">Syndicate</a> se vendía BTC con un 25% de descuento siempre y cuando tuvieras 500 CRO stakeado en su plataforma.
-
-
-
-### Automated Crypto Invest
-
-Se trata de un servicio de inversión de criptomonedas automático donde la empresa Monaco se encarga de invertir por ti los fondos que decidas. Podría compararse a un fondo de inversión. El usuario no tendría que encargarse de investigar las distintas criptomonedas sino que el equipo de MCO llevarían el fondo. El usuario puede elegir si quiere un perfil conservador o agresivo.
-
-Además Monaco asegura que no cobran comisiones de entrada, salida o mantenimiento, si no que solo cobrarán un 9% de las ganancias que tu obtengas ( o 18% si no tienes MCO bloqueado).
-
-Históricamente este programa <a rel="nofollow" href="https://crypto.com/en/invest.html">ha dado muy buenos resultados</a>.
-
-{% include image_caption.html imageurl="https://crypto.com/images/invest/performance-80caefb4.png" title="Crypto Invest Performance Review" caption="Resultados de Crypto Invest" popup=true %}
-
 ### Crypto Credit
 
 Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un préstamo en dinero fiat dejando como colateral BTC o MCO con mejores condiciones. En caso de dejar BTC como colateral se recibiría un crédito en fiat por valor de un 40% de la valoración de la criptomoneda en ese tiempo, y por 30% para el caso de MCO. Además las comisiones del crédito variarán en función de cuanto MCO tengamos bloqueado. 
@@ -195,14 +186,14 @@ Por ejemplo por $10000 en BTC usados como colateral recibiremos $4000 en TUSD y 
 
 De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés constante, a diferencia que el de Crypto Invest que es irregular y sujeto a las condiciones del mercado.
 
-Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 500 MCO bloqueados o no, y son los siguientes:
+Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 5000 CRO bloqueados o no, y son los siguientes:
 
 {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Tiempo   | Criptomonedas     | Stablecoins           | CRO     |  MCO  |
-|:--------:|:-----------------:|:---------------------:|:------:-|:-----:|
-| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% | 4%-8% |
-| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% | 2%-4% |  
-| flexible | 1%-2%             | 6%-8%                 | 12%-14% | 1%-2% |
+| Tiempo   | Criptomonedas     | Stablecoins           | CRO     |
+|:--------:|:-----------------:|:---------------------:|:------:-|
+| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% |
+| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% |
+| flexible | 1%-2%             | 6%-8%                 | 12%-14% |
 
 Con las siguientes excepciones:
 
@@ -210,10 +201,9 @@ Con las siguientes excepciones:
 
 Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
 
-Por ejemplo si tuvieramos 500 MCO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
-- un 8% de esos 500 MCO (40 MCO al año)
+Por ejemplo si tuvieramos 5000 CRO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
+- un 18% de esos 5000 CRO (900 CRO al año)
 - un 5.5%  al año de la cantidad de BTC que metieramos
-- Un 18% del CRO que tengamos
 - Un 12% en nuestras stable coins
 - 3% de los gastos que hagamos con la tarjeta
 - Spotify y Netflix gratis
@@ -235,7 +225,7 @@ Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo bo
 
 ## Rewards
 
-Adicionalmente Monaco está ofreciendo $50 a todos aquellos usuarios que se registren con <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">un enlace de referido</a> así como a la persona que refiere siempre y cuando acaben bloquenado algo de MCO.
+Adicionalmente Monaco está ofreciendo $50 a todos aquellos usuarios que se registren con <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">un enlace de referido</a> así como a la persona que refiere siempre y cuando acaben bloquenado suficiente CRO como para obtener la tarjeta Ruby.
 
 ## Equipo
 
@@ -251,11 +241,11 @@ Con fecha 6 de Julio de 2018, el equipo de Monaco ha hecho un rebranding de su e
 
 ## Dónde comprar
 
-Principalmente el mejor sitio donde comprar MCO o CRO es <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">en la propia aplicación de CRYPTO</a>.
+Principalmente el mejor sitio donde comprar CRO es <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">en la propia aplicación de CRYPTO</a>.
 
-## Dónde almacenar MCO
+## Dónde almacenar CRO
 
-Al tratarse de una moneda ERC-20, MCO se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas. Puede parecer que algunos wallets, como blockchain.info, no soportan monedas ERC-20 a pesar de soportar Ethereum. En realidad si enviarais vuestros fondos allí no los perderíais, estarían correctamente guardados, pero no los podréis visualizar desde la web a día de hoy, para hacerlo deberíais importar la clave privada de blockchain.info a un wallet que si lo soporte. No obstante debido a la cantidad de ventajas que tiene el bloqueo de MCO resulta beneficioso almacenarlas directamente en su aplicación a pesar de no tener la clave privada bajo nuestro control.
+Al tratarse de una moneda ERC-20, CRO se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas. Puede parecer que algunos wallets, como blockchain.info, no soportan monedas ERC-20 a pesar de soportar Ethereum. En realidad si enviarais vuestros fondos allí no los perderíais, estarían correctamente guardados, pero no los podréis visualizar desde la web a día de hoy, para hacerlo deberíais importar la clave privada de blockchain.info a un wallet que si lo soporte. No obstante debido a la cantidad de ventajas que tiene el bloqueo de CRO resulta beneficioso almacenarlas directamente en su aplicación a pesar de no tener la clave privada bajo nuestro control.
 
 ## Opinión
 
@@ -263,9 +253,9 @@ La idea de Monaco es potenciar la adopción en masa de las criptomonedas apostan
 
 Es importante tener en cuenta que no se trata de un wallet al no proveer la clave privada, por lo que deberíamos ir metiendo fondos en forma de criptomonedas con precaución.
 
-Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del MCO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
+Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del CRO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
 
-Podeis registraros <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">aquí</a> a través del móvil y obtener $50 en MCO después de reservar vuestra tarjeta.
+Podeis registraros <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">aquí</a> a través del móvil y obtener $50 en CRO después de reservar vuestra tarjeta.
 
 
 
