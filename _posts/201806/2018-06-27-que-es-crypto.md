@@ -14,7 +14,7 @@ redirect_from:
 La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta que además compite con otras tarjetas como BNext y Revolut.
 
 **Nota para usuarios existentes**:
-Con fecha <a rel="nofollow" href="https://blog.crypto.com/important-announcement-mco-swap/">3 de Agosto de 2020</a> se ha abierto la posibilidada de realizar un swap por el cual todas las criptomonedas MCO pueden intercambiarse por un total de 27.64 CRO. Todas las funcionalidades anteriormente asociadas a MCO se mantendrán en CRO por lo que no hay ningún motivo por el cual no proceder por el swap. El objetivo de este swap es simplificar el ecosistema de Crypto.com.
+Con fecha <a rel="nofollow" href="https://help.crypto.com/es/articles/4309688-programa-de-swap-de-mco-la-guia">3 de Agosto de 2020</a> se ha abierto la posibilidada de realizar un swap por el cual todas las criptomonedas MCO pueden intercambiarse por un total de 27.64 CRO por cada token MCO. Todas las funcionalidades anteriormente asociadas a MCO se mantendrán en CRO por lo que no hay ningún motivo por el cual no proceder por el swap. El objetivo de este swap es simplificar el ecosistema de Crypto.com.
 
 Los usuarios nuevos no tienen que realizar ninguna acción adicional salvo adquirir la cantidad de CRO correspondiente a la tarjeta que deseen adquirir.
 
