@@ -112,7 +112,7 @@ The midnight blue card is the most affordable of all, it has the following limit
 
 The Ruby Steel card is characterized by:
 
-- CRO to block: 500 CRO
+- CRO to block: 1,000 CRO
 - ** 2% refund of all expenses if we continue blocking CRO **. 1% otherwise.
 - Free interbank exchange: $ 4,000
 - Free ATM withdrawal: $ 400
@@ -123,7 +123,7 @@ The Ruby Steel card is characterized by:
 {% include image_caption.html imageurl="/images/posts/201806/indigo-jade.png" title="Indigo Blue - Jade Green" caption="Indigo Blue - Jade Green" class="mid-size"%}
 
 
-- CRO to block: 5,000 CRO
+- CRO to block: 10,000 CRO
 - ** Return of 3% of all expenses if we continue blocking CRO **. 1.5% otherwise.
 - Loungekey: Access to the VIP Lounge at the airports.
 - Free interbank exchange: $ 10,000
@@ -135,7 +135,7 @@ The Ruby Steel card is characterized by:
 
 {% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size"%}
 
-- CRO to block: 500,000 CRO
+- CRO to block: 100,000 CRO
 - ** Return of 4% of all expenses if we continue blocking CRO **. 1.75% otherwise.
 - Loungekey: Access to the VIP Lounge at the airports + 1 companion.
 - Free interbank exchange: $ 10,000
@@ -150,7 +150,7 @@ The Ruby Steel card is characterized by:
 
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size"%}
 
-- CRO to block: 5,000,000 CRO
+- CRO to block: 1,000,000 CRO
 - ** Return of 5% of all expenses if we continue blocking CRO **. 2% otherwise.
 - Loungekey: Access to the VIP Lounge at the airports + 1 companion.
 - Free interbank exchange: No limit.
@@ -189,7 +189,7 @@ With some exceptions:
 
 Crypto Earn is an excellent way of getting returns on your cryptocurrencies in a constant and low-risk way.
 
-For example if we had 5,000 CRO blocked within the system, we would get the following:
+For example if we had 1,000 CRO blocked within the system, we would get the following:
 - 18% on those 500 CRO (900 CRO returns per year)
 - 5.5% yearly returns on our BTC
 - 12% in our stablecoins
