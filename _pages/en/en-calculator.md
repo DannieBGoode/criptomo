@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cryptocurrencies Profit Calculator
-description: Calculator, calculate how much money you could have won investing in Bitcoin and other cryptocurrencies.
+description: 💵 Calculator, calculate how much money you could have won investing in Bitcoin and other cryptocurrencies. 💹
 banner_image: pages/calculator.png
 permalink: /en/calculator/
 schema: true
