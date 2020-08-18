@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cryptocurrency Investment Portfolio 
-description: Cryptocurrency Investment Portfolio, invest periodically and calcualte your earnings
+description: Cryptocurrency Investment Portfolio, invest periodically and calcualte your earnings and Bitcoin profits. 💵
 banner_image: pages/investment.jpg
 permalink: /en/investment/
 schema: true
@@ -29,8 +29,8 @@ redirect_from:
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
             <select id="invest-fiat">
-                <option>EUR</option>
                 <option>USD</option>
+                <option>EUR</option>
             </select>
         </div>
     </div>
@@ -47,7 +47,7 @@ redirect_from:
 				<option value="XMR"  min="2015-01-27" disabled>Monero</option>
 				<option value="DASH" min="2014-02-04" disabled>Dash</option>
 				<option value="XRP"  min="2015-01-30" disabled>Ripple</option>
-				<option class="editable" disabled>Other crypto...</option>
+				<option class="editable" disabled>Other asset...</option>
 			</select>
             <input width="150" class="calculator-othercoins" autofocus />
         </div>

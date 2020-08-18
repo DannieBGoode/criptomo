@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cryptocurrencies Profit Calculator
-description: 💵 Calculator, calculate how much money you could have won investing in Bitcoin and other cryptocurrencies. 💹
+description: 💵 Calculator, calculate how much money you could have won investing in Bitcoin and other cryptocurrencies. 💹 Profits.
 banner_image: pages/calculator.png
 permalink: /en/calculator/
 schema: true
@@ -29,8 +29,8 @@ redirect_from:
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
             <select id="invest-fiat">
-                <option>EUR</option>
                 <option>USD</option>
+                <option>EUR</option>
             </select>
         </div>
     </div>
@@ -47,7 +47,7 @@ redirect_from:
 				<option value="XMR"  min="2015-01-27">Monero</option>
 				<option value="DASH" min="2014-02-04">Dash</option>
 				<option value="XRP"  min="2015-01-30">Ripple</option>
-				<option class="editable">Otra moneda...</option>
+				<option class="editable">Other asset...</option>
 			</select>
             <input width="150" class="calculator-othercoins" autofocus />
         </div>
