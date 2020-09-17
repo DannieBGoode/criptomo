@@ -87,7 +87,7 @@ Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gas
 
 {% include image_caption.html imageurl="/images/posts/201806/budget.png" title="Monaco Presupuestos" caption="Seguimiento de pagos" class="mid-size" %}
 
-De estas carteras de fiat es de donde harán uso las tarjetas de crédito detalladas a continuación que **nos darán un cashback de entre 1% y 5%** dependiendo de ciertas condiciones.
+De estas carteras de fiat es de donde harán uso las tarjetas de crédito detalladas a continuación que **nos darán un cashback de entre 1% y 8%** dependiendo de ciertas condiciones.
 
 ### Tipos de tarjeta
 
@@ -145,7 +145,7 @@ La tarjeta Ruby Steel se caracteriza por:
 {% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size" %}
 
 - CRO a bloquear: 100,000 CRO
-- **Devolución de un 4% de todos los gastos si seguimos bloqueando CRO**. 1.75% en caso contrario.
+- **Devolución de un 5% de todos los gastos si seguimos bloqueando CRO**. 1.75% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: 10000$ al mes
 - Retirada de cajeros gratis: 800$ al mes
@@ -161,7 +161,7 @@ La tarjeta Ruby Steel se caracteriza por:
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size" %}
 
 - CRO a bloquear: 1,000,000 CRO
-- **Devolución de un 5% de todos los gastos si seguimos bloqueando CRO**. 2% en caso contrario.
+- **Devolución de un 8% de todos los gastos si seguimos bloqueando CRO**. 2% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
 - Retirada de cajeros gratis: 1000$ al mes
@@ -202,7 +202,7 @@ Con las siguientes excepciones:
 Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
 
 Por ejemplo si tuvieramos 5000 CRO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
-- un 18% de esos 5000 CRO (900 CRO al año)
+- un 18% de esos 10,000 CRO (1800 CRO al año)
 - un 5.5%  al año de la cantidad de BTC que metieramos
 - Un 12% en nuestras stable coins
 - 3% de los gastos que hagamos con la tarjeta
