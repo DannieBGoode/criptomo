@@ -233,6 +233,9 @@ Contraseña capaz de generar todas las claves privadas de todas las direcciones 
 #### SHA-256
 Algoritmo criptográfico usado por muchas criptomonedas que requiere de mucha energía y tiempo de procesamiento.
 
+#### Sharding
+Método para mejorar la escalabilidad del sistema, diviendo el blockchain en subredes paralelas capaces de procesar transacciones paralelas.
+
 #### Smart Contract
 Programas de código que se ejecutan automáticamente.
 
