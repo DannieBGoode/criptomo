@@ -2,7 +2,7 @@
 layout: post
 title:  What happens if two blocks are mined simultaneously
 description: What happens if in Bitcoin two blocks are mined simultaneously
-banner_image: 202006/btc-coin.jpg
+banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11
 tags: [bitcoin]
@@ -29,7 +29,7 @@ When the rejected version of the blockchain is discarded, all those transactions
 
 The discarded block is called an orphan block, and your miner will have the block reward removed from their balance.
 
-{% include image_caption.html imageurl="/images/posts/202006/orphan.png" title="Inflación" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202006/orphan.webp" title="Inflación" popup=true %}
 
 ### Could the non-winning miner have spent his reward before his block reward was taken from him?
 

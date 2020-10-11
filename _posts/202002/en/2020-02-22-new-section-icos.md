@@ -2,7 +2,7 @@
 layout: post
 title:  ICOs valutation
 description: New section listing the ICOs that raised the most capital
-banner_image: 202002/ico.jpg
+banner_image: 202002/ico.webp
 tags: [altcoins]
 rating: 4
 totalVotes: 4

@@ -2,7 +2,7 @@
 layout: post
 title:  Qué es la descentralización
 description: La descentralización en las criptomonedas y Bitcoin explicadas.
-banner_image: 202004/decentralization.jpg
+banner_image: 202004/decentralization.webp
 rating: 5
 totalVotes: 4
 tags: [bitcoin]

@@ -2,7 +2,7 @@
 layout: post
 title:  Qué podemos esperar de Ethereum 2.0
 description: Qué novedades trae Ethereum 2.0
-banner_image: 202009/eth2.jpg
+banner_image: 202009/eth2.webp
 rating: 5
 totalVotes: 11
 tags: [ethereum, altcoins]

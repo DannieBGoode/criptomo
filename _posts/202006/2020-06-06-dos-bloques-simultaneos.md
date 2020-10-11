@@ -2,7 +2,7 @@
 layout: post
 title:  Qué ocurre si se minan dos bloques simultáneos
 description: Qué ocurre si en Bitcoin si se minan dos bloques simultáneos
-banner_image: 202006/btc-coin.jpg
+banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11
 tags: [bitcoin]
@@ -28,7 +28,7 @@ Cuando la versión rechazada del blockchain sea descartada todas aquellas transa
 
 El bloque descartado recibe el nombre de bloque huérfano y a su minero les desaparecerá la recompensa de bloque de su balance.
 
-{% include image_caption.html imageurl="/images/posts/202006/orphan.png" title="Inflación" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202006/orphan.webp" title="Inflación" popup=true %}
 
 ### ¿Podría el minero no-ganador haber gastado su recompensa antes de que le quiten su recompensa de bloque?
 
