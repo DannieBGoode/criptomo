@@ -2,7 +2,7 @@
 layout: post
 title:  Qué es el bitcoin halving
 description: Qué es el bitcoin halving cómo se compara con el oro o con los bancos centrales
-banner_image: 202005/bitcoin-halving.png
+banner_image: 202005/bitcoin-halving.webp
 rating: 5
 totalVotes: 6
 tags: [bitcoin]
