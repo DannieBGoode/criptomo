@@ -7,7 +7,7 @@ permalink: /en/calculator/
 schema: true
 rating: 5
 totalVotes: 39
-comments: true
+comments: false
 sitemap: true
 loadsPlugins: true
 lang: en
@@ -93,6 +93,6 @@ redirect_from:
     
 </div>
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
