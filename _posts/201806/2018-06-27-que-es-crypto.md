@@ -121,7 +121,7 @@ La tarjeta midnight blue es la más asequible de precio de todas, tiene los sigu
 
 La tarjeta Ruby Steel se caracteriza por:
 
-- CRO a bloquear: 1,000 CRO
+- CRO a bloquear: 2,500 CRO
 - **Devolución de un 2% de todos los gastos si seguimos bloqueando CRO**. 1% en caso contrario.
 - Intercambio interbancario gratis: 4000$ al mes
 - Retirada de cajeros gratis: 400$ al mes
@@ -132,7 +132,7 @@ La tarjeta Ruby Steel se caracteriza por:
 {% include image_caption.html imageurl="/images/posts/201806/indigo-jade.png" title="Indigo Blue - Jade Green" caption="Indigo Blue - Jade Green" class="mid-size" %}
 
 
-- CRO a bloquear: 10,000 CRO
+- CRO a bloquear: 25,000 CRO
 - **Devolución de un 3% de todos los gastos si seguimos bloqueando CRO**. 1.5% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos.
 - Intercambio interbancario gratis: 10000$ al mes
@@ -144,7 +144,7 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size" %}
 
-- CRO a bloquear: 100,000 CRO
+- CRO a bloquear: 250,000 CRO
 - **Devolución de un 5% de todos los gastos si seguimos bloqueando CRO**. 1.75% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: 10000$ al mes
@@ -160,7 +160,7 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size" %}
 
-- CRO a bloquear: 1,000,000 CRO
+- CRO a bloquear: 2,500,000 CRO
 - **Devolución de un 8% de todos los gastos si seguimos bloqueando CRO**. 2% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
@@ -186,7 +186,7 @@ Por ejemplo por $10000 en BTC usados como colateral recibiremos $4000 en TUSD y 
 
 De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés constante, a diferencia que el de Crypto Invest que es irregular y sujeto a las condiciones del mercado.
 
-Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 1,000 CRO bloqueados o no, y son los siguientes:
+Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 2,500 CRO bloqueados o no, y son los siguientes:
 
 {:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
 | Tiempo   | Criptomonedas     | Stablecoins           | CRO     |
@@ -201,7 +201,7 @@ Con las siguientes excepciones:
 
 Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
 
-Por ejemplo si tuvieramos 5000 CRO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
+Por ejemplo si tuvieramos 25,000 CRO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
 - un 18% de esos 10,000 CRO (1800 CRO al año)
 - un 5.5%  al año de la cantidad de BTC que metieramos
 - Un 12% en nuestras stable coins
