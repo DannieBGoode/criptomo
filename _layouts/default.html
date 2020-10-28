@@ -13,15 +13,13 @@ layout: compress
 <head>
     <meta charset="utf-8">
     {% include seo.html %}    
-    {% include tag-manager-head.html %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" />
+    <link rel="preload" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" />
     <link rel="canonical" href="{{ page.url | replace:'/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
 <body>
-    {% include tag-manager-body.html %}
     {% if page.progress %}
     <progress value="0"></progress>
     {% endif %}
@@ -88,6 +86,8 @@ layout: compress
     </header>
     {{content}}
     {% include footer.html %}
+    {% include tag-manager-head.html %}
+    {% include tag-manager-body.html %}
     {% include analytics.html %}
     {% include mailchimp.html %}
 
