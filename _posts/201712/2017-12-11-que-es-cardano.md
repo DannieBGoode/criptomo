@@ -81,7 +81,7 @@ Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no
 
 ## Dónde Comprar Cardano (ADA)
 
-Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>.
+Por el momento se puede comprar ADA únicamente a cambio de Bitcoin o Ethereum. Particularmente me gusta el exchange de <a rel="nofollow" href="https://accounts.binance.com/es/register?ref=11317062">Binance</a>.
 
 ## Opinión
 

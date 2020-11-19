@@ -64,7 +64,7 @@ Ethereum quedó tan impresionado con la funcionalidad de zk-Snarks que su implem
 
 ## Dónde comprar Zcash
 
-- <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
+- <a rel="nofollow" href="https://accounts.binance.com/es/register?ref=11317062">Binance</a>
 - <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
 - <a rel="nofollow" href="kraken.com">Kraken</a>
 - <a rel="nofollow" href="https://www.bitfinex.com">Bitfinex</a>

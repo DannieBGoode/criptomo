@@ -59,7 +59,7 @@ El resto del equipo tanto miembros oficiales como voluntarios puede ser consulta
 
 #### ¿Dónde Comprar Litecoin?
 * [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e)
-* [Binance](https://www.binance.com/?ref=11317062)
+* [Binance](https://accounts.binance.com/es/register?ref=11317062)
 * [Bitfinex](https://www.bitfinex.com/)
 * [Bitstamp](https://www.bitstamp.net/)
 * [Kraken](https://www.kraken.com/)

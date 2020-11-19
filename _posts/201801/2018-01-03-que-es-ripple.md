@@ -67,7 +67,7 @@ Los fundadores de Ripple, Jed McCaleb, Chris Larsen y Arthur Britto se auto-asig
 #### ¿Dónde Comprar XRP?
 
 Se puede comprar XRP en los siguientes exchanges:
-* [Binance](https://www.binance.com/?ref=11317062)
+* [Binance](https://accounts.binance.com/es/register?ref=11317062)
 * [Kraken](https://www.kraken.com/)
 * [Bitfinex](https://www.bitfinex.com)
 * [Bitstamp](https://www.bitstamp.net/)
