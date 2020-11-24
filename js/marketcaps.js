@@ -29,7 +29,7 @@ let table = $('#marketcaps-table').DataTable({
       orderable: false,
       searchable: false
     },
-    {
+    { // Name
       responsivePriority: 1,
       title: tableDataLang.marketcapColumns.name,
       className: 'dt-left marketcaps-table-column-name',
@@ -44,7 +44,7 @@ let table = $('#marketcaps-table').DataTable({
         return data.symbol;
       }
     },
-    {
+    { // Marketcap
       responsivePriority: 6,
       title: tableDataLang.marketcapColumns.marketcap,
       className: 'dt-right',
@@ -53,7 +53,7 @@ let table = $('#marketcaps-table').DataTable({
       },
       searchable: false
     },
-    {
+    { // Price
       responsivePriority: 1,
       title: tableDataLang.marketcapColumns.price,
       className: 'dt-right',
@@ -139,7 +139,7 @@ function marketcapTableLoad( currency ) {
 
         let colPrice = {
           price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
-          positiveChange: (parseFloat(coin.percent_change_1h).toFixed(1) > 0)
+          positiveChange: (parseFloat(coin.delta.second) >= 1)
         };
         let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1)*(-1);
         let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1)*(-1);
