@@ -104,28 +104,28 @@ window.mobileAndTabletcheck = function() {
     };
 
     // sidebar currencies marketcaps
-    $.get('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20', function ( response ) {
-      var displayedCurrencies = $('[data-currency]');
-      var result = '';
-      var currencySelector = '';
+    // $.get('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20', function ( response ) {
+    //   var displayedCurrencies = $('[data-currency]');
+    //   var result = '';
+    //   var currencySelector = '';
 
-      $.each(displayedCurrencies, function (index, currency) {
-        result = response.filter(function ( obj ) {
-          return obj.id === currency.title;
-        });
-        currencySelector = $('.' + currency.title + '-ticker-price-change');
-        $('#sidebar-ticker-' + currency.title + ' .ticker-price').html(parseFloat(result[0].price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + '$');
-        if ( result[0].percent_change_24h > 0) {
-          $(currencySelector).addClass('ticker-price-change-positive');
-        } else {
-          $(currencySelector).addClass('ticker-price-change-negative');
-        }
-        $(currencySelector).html('(' + result[0].percent_change_24h + '%)');
-      });
-      $(".marketcaps").show();
-    }).fail(function() {
-      $(".marketcaps").hide();
-    });
+    //   $.each(displayedCurrencies, function (index, currency) {
+    //     result = response.filter(function ( obj ) {
+    //       return obj.id === currency.title;
+    //     });
+    //     currencySelector = $('.' + currency.title + '-ticker-price-change');
+    //     $('#sidebar-ticker-' + currency.title + ' .ticker-price').html(parseFloat(result[0].price_usd).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + '$');
+    //     if ( result[0].percent_change_24h > 0) {
+    //       $(currencySelector).addClass('ticker-price-change-positive');
+    //     } else {
+    //       $(currencySelector).addClass('ticker-price-change-negative');
+    //     }
+    //     $(currencySelector).html('(' + result[0].percent_change_24h + '%)');
+    //   });
+    //   $(".marketcaps").show();
+    // }).fail(function() {
+    //   $(".marketcaps").hide();
+    // });
 
     // hides navigation-bar when scrolling down on mobile
     var prevScrollpos = window.pageYOffset;
