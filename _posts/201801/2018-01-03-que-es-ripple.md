@@ -70,7 +70,7 @@ Se puede comprar XRP en los siguientes exchanges:
 * [Binance](https://accounts.binance.com/es/register?ref=11317062)
 * [Kraken](https://www.kraken.com/)
 * [Bitfinex](https://www.bitfinex.com)
-* [Bitstamp](https://www.bitstamp.net/)
+* [Bitstamp](https://www.bitstamp.net/ref/00zetsvGCLkDqtqH/)
 
 #### ¿Dónde Almacenar XRP?
 

@@ -31,7 +31,7 @@ Aunque existen https://www.bestbitcoinexchange.io/">decenas de exchanges distint
 	* Ethereum
 	* Ethereum Classic
 	* Litecoin
-* <a rel="nofollow" href="https://www.bitstamp.net/">Bitstamp</a> que vende:
+* <a rel="nofollow" href="https://www.bitstamp.net/ref/00zetsvGCLkDqtqH/">Bitstamp</a> que vende:
 	* Bitcoin
 	* Bitcoin Cash
 	* Ethereum

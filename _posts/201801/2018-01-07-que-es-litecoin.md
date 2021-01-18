@@ -61,7 +61,7 @@ El resto del equipo tanto miembros oficiales como voluntarios puede ser consulta
 * [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e)
 * [Binance](https://accounts.binance.com/es/register?ref=11317062)
 * [Bitfinex](https://www.bitfinex.com/)
-* [Bitstamp](https://www.bitstamp.net/)
+* [Bitstamp](https://www.bitstamp.net/ref/00zetsvGCLkDqtqH/)
 * [Kraken](https://www.kraken.com/)
 
 #### ¿Dónde almacenar Litecoin?
