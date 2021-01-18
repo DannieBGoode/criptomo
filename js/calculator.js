@@ -72,14 +72,14 @@ function calculateEarnings() {
     $('.result-tokentype1').html(investData.tokenSymbol);
     $('.result-tokentype2').html(investData.tokenSymbol);
     $('.result-currentvalue').html(investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
-    $('.result-current-price').html(investData.currentPrice + ' ' + investData.fiat);
+    $('.result-current-price').html(parseFloat(investData.currentPrice).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
 
     $('.result-date').html(investData.date);
     $('.result-invest').html(investData.oldValue + ' ' + $('#invest-fiat').val());
 
 
     let change = '';
-    $('.gained-percentage').html(investData.percentageGained +  '%');
+    $('.gained-percentage').html(parseFloat(investData.percentageGained).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') +  '%');
     if (investData.percentageGained > 0) {
       change = 'positive';
     } else {
