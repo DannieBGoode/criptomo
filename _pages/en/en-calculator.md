@@ -67,11 +67,54 @@ redirect_from:
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calculate</button>
         <div id="calculator-results">
-            If you had invested <span id="result-invest"></span> on <span id="result-tokentype1"></span> the day <span id="result-date"></span> you would have had the opportunity of buying at a price of 
-            <span id="result-old-price"></span> a total of
-            <span id="result-tokencount"></span> <span id="result-tokentype2"></span>
-            valued today <span id="result-currentvalue"></span>.
-            <div>Profits: <span id="gained-percentage"></span></div>
+            If you had invested <span class="result-invest"></span> on <span class="result-tokentype1"></span> the day <span class="result-date"></span> you would have had the opportunity of buying at a price of 
+            <span class="result-old-price"></span> a total of
+            <span class="result-tokencount"></span> <span class="result-tokentype2"></span>
+            valued today <span class="result-currentvalue"></span>.
+            <div>Profits: <span class="gained-percentage"></span></div>
+
+            <div id="calculator-results-table">
+                <table>
+                        <tr>
+                            <th rowspan="5" class="table-header">PURCHASE</th>
+                            <th>Asset</th>
+                            <td><span class="result-tokentype1"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Original Investment</th>
+                            <td><span class="result-invest"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Purchase Date</th>
+                            <td><span class="result-date"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Purchase Price</th>
+                            <td><span class="result-old-price"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Assets Bought</th>
+                            <td><span class="result-tokencount"></span> <span class="result-tokentype2"></span></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="4" class="table-header">SALE</th>
+                            <th>Sale Date</th>
+                            <td><span>Today</span></td>
+                        </tr>
+                        <tr>
+                            <th>Sale Price</th>
+                            <td><span class="result-current-price"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Investment Value</th>
+                            <td><span class="result-currentvalue"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Profit Percentage</th>
+                            <td><span class="gained-percentage"></span></td>
+                        </tr>
+                </table>
+            </div>
         </div>
         <p>
             <span class="error coin-error">This cryptocurrency is not in our system.</span>

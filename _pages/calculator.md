@@ -65,12 +65,56 @@ loadsPlugins: true
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         
         <div id="calculator-results">
-            Si hubieras invertido <span id="result-invest"></span> en <span id="result-tokentype1"></span> el día <span id="result-date"></span> hubieras podido comprar a un precio de 
-            <span id="result-old-price"></span> un total de 
-            <span id="result-tokencount"></span> <span id="result-tokentype2"></span>
-            valorados a día de hoy en <span id="result-currentvalue"></span>.
-            <div>Ganancia: <span id="gained-percentage"></span></div>
+            Si hubieras invertido <span class="result-invest"></span> en <span class="result-tokentype1"></span> el día <span class="result-date"></span> hubieras podido comprar a un precio de 
+            <span class="result-old-price"></span> un total de 
+            <span class="result-tokencount"></span> <span class="result-tokentype2"></span>
+            valorados a día de hoy en <span class="result-currentvalue"></span>.
+            <div>Ganancia: <span class="gained-percentage"></span></div>
+
+            <div id="calculator-results-table">
+                <table>
+                        <tr>
+                            <th rowspan="5" class="table-header">COMPRA</th>
+                            <th>Moneda</th>
+                            <td><span class="result-tokentype1"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Inversión Original</th>
+                            <td><span class="result-invest"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Fecha de Compra</th>
+                            <td><span class="result-date"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Precio de Compra</th>
+                            <td><span class="result-old-price"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Criptomonedas Compradas</th>
+                            <td><span class="result-tokencount"></span> <span class="result-tokentype2"></span></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="4" class="table-header">VENTA</th>
+                            <th>Fecha de Venta</th>
+                            <td><span>Hoy</span></td>
+                        </tr>
+                        <tr>
+                            <th>Precio de Venta</th>
+                            <td><span class="result-current-price"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Valor de inversión</th>
+                            <td><span class="result-currentvalue"></span></td>
+                        </tr>
+                        <tr>
+                            <th>Porcentaje de ganancias</th>
+                            <td><span class="gained-percentage"></span></td>
+                        </tr>
+                </table>
+            </div>
         </div>
+
         <p>
             <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
             <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>

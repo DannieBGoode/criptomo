@@ -67,24 +67,25 @@ function calculateEarnings() {
     investData.tokensBought = parseFloat(parseFloat(investData.oldValue) / parseFloat(investData.oldPrice)).toFixed(3);
     investData.currentValue = parseFloat(investData.currentPrice * investData.tokensBought).toFixed(2);
     investData.percentageGained = parseFloat((investData.currentValue - investData.oldValue) / investData.oldValue).toFixed(2) * 100;
-    $('#result-tokencount').html(investData.tokensBought);
-    $('#result-old-price').html(investData.oldPrice + ' ' + investData.fiat + '/' + investData.tokenSymbol);
-    $('#result-tokentype1').html(investData.tokenSymbol);
-    $('#result-tokentype2').html(investData.tokenSymbol);
-    $('#result-currentvalue').html(investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
+    $('.result-tokencount').html(investData.tokensBought);
+    $('.result-old-price').html(investData.oldPrice + ' ' + investData.fiat + '/' + investData.tokenSymbol);
+    $('.result-tokentype1').html(investData.tokenSymbol);
+    $('.result-tokentype2').html(investData.tokenSymbol);
+    $('.result-currentvalue').html(investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
+    $('.result-current-price').html(investData.currentPrice + ' ' + investData.fiat);
 
-    $('#result-date').html(investData.date);
-    $('#result-invest').html(investData.oldValue + ' ' + $('#invest-fiat').val());
+    $('.result-date').html(investData.date);
+    $('.result-invest').html(investData.oldValue + ' ' + $('#invest-fiat').val());
 
 
     let change = '';
-    $('#gained-percentage').html(investData.percentageGained +  '%');
+    $('.gained-percentage').html(investData.percentageGained +  '%');
     if (investData.percentageGained > 0) {
       change = 'positive';
     } else {
       change = 'negative';
     }
-    $('#gained-percentage').removeClass().addClass('gained-percentage-' + change);
+    $('.gained-percentage').removeClass().addClass('gained-percentage-' + change);
     $('#calculator-results').show();
   }
 

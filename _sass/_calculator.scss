@@ -120,3 +120,27 @@ input.calculator-othercoins {
     }
     
 }
+#calculator-results-table {
+    text-align: center;
+    margin-top: 50px;
+    .table-header {
+        border: 1px solid #000;
+        width: 15%;
+    }
+    .table-header:before {
+        content:'';
+        padding-top:110%;/* takes width as reference, + 10% for faking some extra padding */
+        display:inline-block;
+        vertical-align:middle;
+    }
+    th {
+        text-align: center;
+        border: 1px solid #000;
+    }
+    td {
+        border: 1px solid #000;
+        span {
+        font-weight: normal;
+        }
+    }
+}
