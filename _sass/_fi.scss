@@ -1,42 +1,50 @@
-.calculator-fi {
-	.calculator-col-start {
-		width: 35%;
+@media (max-width: 799px) {
+	#fi-results-table {
+		overflow-x: auto;
 	}
-	.calculator-col-end {
-		width: 65%;
-	}
-	#fi-age {
-		width: 15%;
-	}
-	#fi-accumulated {
-		width: 31%;
-	}
-	#fi-quantity {
-		width: 31%;
-	}
-	small {
-		font-size: 63%;
-	}
-	#fi-calculator-results {
-		margin-top: 15px;
-		#fi-results-table table {
-			border: 1px solid #ddd;
-			tbody {
-				tr {
-					&.active {
-						background-color: $picton-blue;
-						color: white;
-					}
-					&:hover {
-						background-color: $picton-blue;
-						color: white;
-					}
-					td {
-						text-align: center;
+}
+
+@media (min-width: 800px) {
+	.calculator-fi {
+		.calculator-col-start {
+			width: 35%;
+		}
+		.calculator-col-end {
+			width: 65%;
+		}
+		#fi-age {
+			width: 15%;
+		}
+		#fi-accumulated {
+			width: 31%;
+		}
+		#fi-quantity {
+			width: 31%;
+		}
+		small {
+			font-size: 63%;
+		}
+		#fi-calculator-results {
+			margin-top: 15px;
+			#fi-results-table table {
+				border: 1px solid #ddd;
+				tbody {
+					tr {
+						&.active {
+							background-color: $picton-blue;
+							color: white;
+						}
+						&:hover {
+							background-color: $picton-blue;
+							color: white;
+						}
+						td {
+							text-align: center;
+						}
 					}
 				}
 			}
 		}
-	}
 
+	}
 }
