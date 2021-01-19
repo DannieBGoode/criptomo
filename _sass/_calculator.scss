@@ -140,7 +140,10 @@ input.calculator-othercoins {
     td {
         border: 1px solid #000;
         span {
-        font-weight: normal;
+            font-weight: normal;
+        }
+        .result-currentvalue {
+            font-weight: bold;
         }
     }
 }

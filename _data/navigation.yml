@@ -12,6 +12,8 @@
   url: /calculadora/
 - text: Inversión
   url: /inversion/
+- text: FIRE
+  url: /calculadora-fire/
 - text: ICO
   url: /icos/
 - text: Glosario
