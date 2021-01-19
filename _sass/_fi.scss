@@ -35,30 +35,32 @@
 		#fi-quantity {
 			width: 31%;
 		}
-		small {
-			font-size: 63%;
-		}
-		#fi-calculator-results {
-			margin-top: 15px;
-			#fi-results-table table {
-				border: 1px solid #ddd;
-				tbody {
-					tr {
-						&.active {
-							background-color: $picton-blue;
-							color: white;
-						}
-						&:hover {
-							background-color: $picton-blue;
-							color: white;
-						}
-						td {
-							text-align: center;
-						}
+	}
+}
+
+.calculator-fi {
+	small {
+		font-size: 63%;
+	}
+	#fi-calculator-results {
+		margin-top: 15px;
+		#fi-results-table table {
+			border: 1px solid #ddd;
+			tbody {
+				tr {
+					&.active {
+						background-color: $picton-blue;
+						color: white;
+					}
+					&:hover {
+						background-color: $picton-blue;
+						color: white;
+					}
+					td {
+						text-align: center;
 					}
 				}
 			}
 		}
-
 	}
 }

@@ -60,7 +60,7 @@ lang: en
             <div class="calculator-col-start">
                 <label>Savings Rate:</label>
                 <div>
-                    <small>( <span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 USD</span> yearly )</small>
+                    <small>(<span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 USD</span> yearly)</small>
                 </div>
             </div>
             <div class="calculator-col-end">
@@ -71,7 +71,7 @@ lang: en
         <div class="calculator-col-start">
             <label>Investment Returns:</label>
             <div>
-                <small>( <span id="returns-ratio-text">10</span>% of expected annual return)</small>
+                <small>(<span id="returns-ratio-text">10</span>% of expected annual return)</small>
             </div>
         </div>
         <div class="calculator-col-end">

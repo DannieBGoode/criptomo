@@ -47,7 +47,7 @@ sitemap: true
         <div class="calculator-col-start">
             <label>Ingresos Anuales:</label>
             <div>
-                <small>( <span id="monthly-salary-text">2500</span> <span class="currency-text">EUR</span> mensuales)</small>
+                <small>(<span id="monthly-salary-text">2500</span> <span class="currency-text">EUR</span> mensuales)</small>
             </div>
         </div>
         <div class="calculator-col-end">
@@ -59,7 +59,7 @@ sitemap: true
             <div class="calculator-col-start">
                 <label>Tasa de Ahorro:</label>
                 <div>
-                    <small>( <span id="savings-ratio-text">10</span>% de ahorro: <span id="savings-ratio-yearly-text">1200 EUR</span> anuales )</small>
+                    <small>( <span id="savings-ratio-text">10</span>% de ahorro: <span id="savings-ratio-yearly-text">1200 EUR</span> anuales)</small>
                 </div>
             </div>
             <div class="calculator-col-end">
