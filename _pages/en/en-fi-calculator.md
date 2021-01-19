@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FIRE Calculator
+title: 💵 FIRE Calculator
 description: 💵 Online FI (Financial Independence) calculator, calculate when you could retire and obtain financial independence / freedom.
 banner_image: pages/fi.png
 permalink: /en/fire-calculator/

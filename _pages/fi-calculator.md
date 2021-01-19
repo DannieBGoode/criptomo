@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calculadora de FIRE
+title: 💵 Calculadora de FIRE
 description: 💵 Calculadora online de (Independencia Financiera), FIRE, calcula cuando te podrías jubilar ó retirar y obtener la independencia o libertad financiera.
 banner_image: pages/fi.png
 permalink: /calculadora-fire/
