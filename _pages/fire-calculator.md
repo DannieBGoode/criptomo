@@ -12,7 +12,7 @@ sitemap: true
 ---
 <small>
     Calcula en cuántos años podrías jubilarte con la calculadora de Independencia Financiera FIRE.
-    Esta herramienta supone que todo el dinero ahorrado está generado rendimientos al porcentaje que elijas.
+    Esta herramienta supone que todo el dinero ahorrado está generando rendimientos al porcentaje que elijas.
 </small>
 <div class="calculator-block  calculator-fi">
     <div class="calculator-form-row">
