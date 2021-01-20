@@ -102,7 +102,7 @@ lang: en
                                 <th>Savings Rate</th>
                                 <th>Yearly Expenses</th>
                                 <th>Yearly Savings</th>
-                                <th>Years to IF</th>
+                                <th>Years to FIRE</th>
                                 <th>Retiring Age</th>
                             </tr>
                         </thead>
