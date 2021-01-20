@@ -1,65 +1,66 @@
 ---
 layout: page
-title: 💵 Calculadora de FIRE
-description: 💵 Calculadora online de (Independencia Financiera), FIRE, calcula cuando te podrías jubilar ó retirar y obtener la independencia o libertad financiera.
+title: 💵 FIRE Calculator
+description: 💵 Online FI (Financial Independence) calculator, calculate when you could retire and obtain financial independence / freedom.
 banner_image: pages/fi.png
-permalink: /calculadora-fire/
+permalink: /en/fire-calculator/
 schema: true
 rating: 5
-totalVotes: 15
+totalVotes: 35
 comments: false
 sitemap: true
+lang: en
 ---
 <small>
-    Calcula en cuántos años podrías jubilarte con la calculadora de Independencia Financiera FIRE.
-    Esta herramienta supone que todo el dinero ahorrado está generado rendimientos al porcentaje que elijas.
+    Calculate in how many years you could retire with the Financial Independence calculator.
+    This tool assumes that all the money saved is generating returns at the percentage you choose.
 </small>
 <div class="calculator-block  calculator-fi">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Edad:</label>
+            <label>Age:</label>
         </div>
         <div class="calculator-col-end">
-            <input id="fi-age" type="number" value="30" max="100" onchange="calculateFI()">
+            <input id="fi-age" type="number" value="30" max="100" oninput="calculateFI()">
         </div>
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Divisa:</label>
+            <label>Currency:</label>
         </div>
         <div class="calculator-col-end">
             <select id="fi-fiat" onchange="updateCurrency()">
-                <option>EUR</option>
                 <option>USD</option>
+                <option>EUR</option>
             </select>
         </div>
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Ahorros Actuales Invertidos:</label>
+            <label>Currently Saved:</label>
         </div>
         <div class="calculator-col-end">
-            <input id="fi-accumulated" type="number" value="1000" onchange="calculateFI()" step="500">  <span class="currency-text">EUR</span>
+            <input id="fi-accumulated" type="number" value="1000" oninput="calculateFI()" step="500">  <span class="currency-text">USD</span>
             
         </div>
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Ingresos Anuales:</label>
+            <label>Yearly Income:</label>
             <div>
-                <small>(<span id="monthly-salary-text">2500</span> <span class="currency-text">EUR</span> mensuales)</small>
+                <small>( <span id="monthly-salary-text">2500</span> <span class="currency-text">USD</span> monthly)</small>
             </div>
         </div>
         <div class="calculator-col-end">
-            <input id="fi-salary" type="number" value="30000" onchange="updateMonthlyRevenue();calculateFI()" step="500"> <span class="currency-text">EUR</span>
+            <input id="fi-salary" type="number" value="30000" oninput="updateMonthlyRevenue();calculateFI()" step="500"> <span class="currency-text">USD</span>
         </div>
     </div>
 
     <div class="calculator-form-row">
             <div class="calculator-col-start">
-                <label>Tasa de Ahorro:</label>
+                <label>Savings Rate:</label>
                 <div>
-                    <small>( <span id="savings-ratio-text">10</span>% de ahorro: <span id="savings-ratio-yearly-text">1200 EUR</span> anuales)</small>
+                    <small>(<span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 USD</span> yearly)</small>
                 </div>
             </div>
             <div class="calculator-col-end">
@@ -68,9 +69,9 @@ sitemap: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Rendimiento Inversiones:</label>
+            <label>Investment Returns:</label>
             <div>
-                <small>( <span id="returns-ratio-text">10</span>% de retorno anual esperado)</small>
+                <small>(<span id="returns-ratio-text">10</span>% of expected annual return)</small>
             </div>
         </div>
         <div class="calculator-col-end">
@@ -80,10 +81,10 @@ sitemap: true
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Patrimonio Deseado:</label>
+            <label>Target Networth:</label>
         </div>
         <div class="calculator-col-end">
-            <input id="fi-desired-networth" type="number" value="1250000" onchange="calculateFI()"> <span class="currency-text">EUR</span>
+            <input id="fi-desired-networth" type="number" value="1250000" oninput="calculateFI()"> <span class="currency-text">USD</span>
         </div>
     </div>
 
@@ -98,11 +99,11 @@ sitemap: true
                 <table>
                         <thead>
                             <tr>
-                                <th>Ahorro</th>
-                                <th>Gastos anuales</th>
-                                <th>Ahorro anual</th>
-                                <th>Años para IF</th>
-                                <th>Edad de retiro</th>
+                                <th>Savings Rate</th>
+                                <th>Yearly Expenses</th>
+                                <th>Yearly Savings</th>
+                                <th>Years to IF</th>
+                                <th>Retiring Age</th>
                             </tr>
                         </thead>
                         <tbody>
