@@ -23,25 +23,23 @@ function calculateFI() {
 
 	let investment = {
 			yearlyReturns: parseFloat(document.getElementById("fi-investment-returns").value).toFixed(2),
-			MonthlyQuantity: parseInt(document.getElementById("fi-salary").value || ''),
+			MonthlyQuantity: parseInt(document.getElementById("fi-salary").value) || 0,
 			SavingsRatio: document.getElementById("fi-savings-ratio").value,
 			currency: document.getElementById("fi-fiat").value,
-			age: parseInt(document.getElementById("fi-age").value || ''),
-			savings: parseInt(document.getElementById("fi-accumulated").value || ''),
-			desiredNetWorth: parseInt(document.getElementById("fi-desired-networth").value || ''),
+			age: parseInt(document.getElementById("fi-age").value) || '',
+			savings: parseInt(document.getElementById("fi-accumulated").value || 0),
+			desiredNetWorth: parseInt(document.getElementById("fi-desired-networth").value) || '',
 		}
 	var x = document.getElementsByClassName("input-error");
 	while(x.length > 0) {
    		x[0].classList.remove('input-error');  
 	}
-	if (investment.age === '') {
-		document.getElementById("fi-age").classList.add("input-error")
-	} else if (investment.savings === '') {
+	if (investment.savings === '') {
 		document.getElementById("fi-accumulated").classList.add("input-error")
 	} else if (investment.MonthlyQuantity === '') {
 		document.getElementById("fi-salary").classList.add("input-error")
 	} else if (investment.desiredNetWorth === '') {
-		document.getElementById("fi- desired-networth").classList.add("input-error")
+		document.getElementById("fi-desired-networth").classList.add("input-error")
 	} else {
 		var table = document.querySelector("#fi-results-table table tbody");
 		table.innerHTML = '';
@@ -67,7 +65,7 @@ function calculateFI() {
 			cell2.innerHTML = parseFloat(investment.MonthlyQuantity - (yearlySaved)).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<span class="currency-text">' + investment.currency + '</span>';
 			cell3.innerHTML = parseFloat(yearlySaved).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + '<span class="currency-text">' + investment.currency + '</span>';
 			cell4.innerHTML = yearsToRetire;
-			cell5.innerHTML = investment.age + yearsToRetire;
+			cell5.innerHTML = investment.age ? investment.age + yearsToRetire : '-';
 
 			if (x === parseInt(investment.SavingsRatio)) {
 				row.classList.add('active');
