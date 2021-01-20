@@ -11,6 +11,7 @@ function updateReturnsRatio() {
 
 function updateMonthlyRevenue() {
 	document.getElementById("monthly-salary-text").innerHTML = parseInt(document.getElementById("fi-salary").value / 12);
+	document.getElementById("savings-ratio-yearly-text").innerHTML = document.getElementById("fi-salary").value * document.getElementById("fi-savings-ratio").value / 100 + " " + document.getElementById("fi-fiat").value;
 }
 function updateCurrency() {
 	var currencyTexts = document.getElementsByClassName("currency-text");
