@@ -39,8 +39,8 @@ lang: en
         <div class="calculator-col-start">
             <label>Currently Saved:</label>
         </div>
-        <div class="calculator-col-end">
-            <input id="fi-accumulated" type="number" value="1000" oninput="calculateFI()" step="500">  <span class="currency-text">USD</span>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-accumulated" type="number" value="1000" oninput="calculateFI()" step="500" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
             
         </div>
     </div>
@@ -51,8 +51,8 @@ lang: en
                 <small>( <span id="monthly-salary-text">2500</span> <span class="currency-text">USD</span> monthly)</small>
             </div>
         </div>
-        <div class="calculator-col-end">
-            <input id="fi-salary" type="number" value="30000" oninput="updateMonthlyRevenue();calculateFI()" step="500"> <span class="currency-text">USD</span>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-salary" type="number" value="30000" oninput="updateMonthlyRevenue();calculateFI()" step="500" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
         </div>
     </div>
 
@@ -60,11 +60,11 @@ lang: en
             <div class="calculator-col-start">
                 <label>Savings Rate:</label>
                 <div>
-                    <small>(<span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 USD</span> yearly)</small>
+                    <small>(<span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 <span class="currency-text">USD</span></span> yearly)</small>
                 </div>
             </div>
             <div class="calculator-col-end">
-                <input id="fi-savings-ratio" type="range" min="5" max="100" value="10" step="5" oninput="updateSavingsRatio()">
+                <input id="fi-savings-ratio" type="range" min="0" max="100" value="10" step="5" oninput="updateSavingsRatio()">
             </div>
     </div>
     <div class="calculator-form-row">
@@ -83,8 +83,8 @@ lang: en
         <div class="calculator-col-start">
             <label>Target Networth:</label>
         </div>
-        <div class="calculator-col-end">
-            <input id="fi-desired-networth" type="number" value="1250000" oninput="calculateFI()"> <span class="currency-text">USD</span>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-desired-networth" type="number" value="1250000" oninput="calculateFI()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
         </div>
     </div>
 

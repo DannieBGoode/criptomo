@@ -44,7 +44,7 @@ function calculateFI() {
 	} else {
 		var table = document.querySelector("#fi-results-table table tbody");
 		table.innerHTML = '';
-		var x = 5;
+		var x = 0;
 		while (x <= 100) {
 			var currentNetworth = investment.savings;
 			var yearlySaved = parseInt(investment.MonthlyQuantity * x / 100);
