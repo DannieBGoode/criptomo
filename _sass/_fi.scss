@@ -42,6 +42,11 @@
 	small {
 		font-size: 63%;
 	}
+	.calculator-form-row {
+		.calculator-col-start {
+			vertical-align: inherit;
+		}
+	}
 	#fi-calculator-results {
 		margin-top: 15px;
 		#fi-results-table table {
