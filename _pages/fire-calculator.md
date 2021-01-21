@@ -39,7 +39,7 @@ sitemap: true
             <label>Ahorros Actuales Invertidos:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
-            <input id="fi-accumulated" type="number" value="1000" oninput="calculateFI()" step="500" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">EUR</span>
+            <input id="fi-accumulated" type="number" value="1000" onchange="calculateFI()" step="500" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">EUR</span>
         </div>
     </div>
     <div class="calculator-form-row">
@@ -76,13 +76,48 @@ sitemap: true
             <input id="fi-investment-returns" type="range" min="0.5" max="50" value="10" step="0.5" oninput="updateReturnsRatio();calculateFI()">
         </div>
     </div>
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>Método de retiro:</label>
+            <div>
+                <small>(Patrimonio Deseado / SWR)</small>
+            </div>
+        </div>
+        <div class="calculator-col-end">
+            <div class="onoffswitch">
+                <input type="checkbox" name="fi-method" class="onoffswitch-checkbox" onchange="updateFIMethod()" id="fi-method" tabindex="0">
+                <label class="onoffswitch-label" for="fi-method"></label>
+            </div>
+        </div>
+    </div>
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
             <label>Patrimonio Deseado:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
-            <input id="fi-desired-networth" type="number" value="1250000" oninput="calculateFI()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">EUR</span>
+            <input id="fi-desired-networth" type="number" value="1250000" oninput="updateDesiredNetworth()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">EUR</span>
+        </div>
+    </div>
+
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>Gastos Anuales:</label>
+            <div>
+                <small>(<span id="monthly-income-text">4166.67</span> <span class="currency-text">EUR</span> mensuales)</small>
+            </div>
+        </div>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-yearly-spending" type="number" value="50000" onchange="updateSWR()" class="InputAddOn-field" disabled> <span class="currency-text InputAddOn-item">EUR</span>
+        </div>
+    </div>
+
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>Tasa de Retiro:</label>
+        </div>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-swr" type="number" value="4" max="100" onchange="updateSWR()" class="InputAddOn-field" disabled> <span class="InputAddOn-item">%</span>
         </div>
     </div>
 

@@ -77,14 +77,50 @@ lang: en
         <div class="calculator-col-end">
             <input id="fi-investment-returns" type="range" min="0.5" max="50" value="10" step="0.5" oninput="updateReturnsRatio();calculateFI()">
         </div>
+
+    </div>
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>Retirement Method:</label>
+            <div>
+                <small>(Desired Networth / SWR)</small>
+            </div>
+        </div>
+        <div class="calculator-col-end">
+            <div class="onoffswitch">
+                <input type="checkbox" name="fi-method" class="onoffswitch-checkbox" onchange="updateFIMethod()" id="fi-method" tabindex="0">
+                <label class="onoffswitch-label" for="fi-method"></label>
+            </div>
+        </div>
     </div>
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Target Networth:</label>
+            <label>Desired Networth:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
-            <input id="fi-desired-networth" type="number" value="1250000" oninput="calculateFI()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
+            <input id="fi-desired-networth" type="number" value="1250000" oninput="updateDesiredNetworth()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
+        </div>
+    </div>
+
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>Yearly Spending:</label>
+            <div>
+                <small>(<span id="monthly-income-text">4166.67</span> <span class="currency-text">USD</span> mensuales)</small>
+            </div>
+        </div>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-yearly-spending" type="number" value="50000" onchange="updateSWR()" class="InputAddOn-field" disabled> <span class="currency-text InputAddOn-item">USD</span>
+        </div>
+    </div>
+
+    <div class="calculator-form-row">
+        <div class="calculator-col-start">
+            <label>Withdrawal Rate:</label>
+        </div>
+        <div class="calculator-col-end InputAddOn">
+            <input id="fi-swr" type="number" value="4" max="100" onchange="updateSWR()" class="InputAddOn-field" disabled> <span class="InputAddOn-item">%</span>
         </div>
     </div>
 

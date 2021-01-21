@@ -46,6 +46,13 @@
 		.calculator-col-start {
 			vertical-align: inherit;
 		}
+		.calculator-col-end {
+			input {
+				&:disabled {
+					background-color: rgba(147,128,108,0.1);
+				}
+			}
+		}
 	}
 	#fi-calculator-results {
 		margin-top: 15px;
