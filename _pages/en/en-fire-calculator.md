@@ -107,7 +107,7 @@ lang: en
         <div class="calculator-col-start">
             <label>Yearly Spending:</label>
             <div>
-                <small>(<span id="monthly-income-text">4166.67</span> <span class="currency-text">USD</span> mensuales)</small>
+                <small>(<span id="monthly-income-text">4166.67</span> <span class="currency-text">USD</span> monthly)</small>
             </div>
         </div>
         <div class="calculator-col-end InputAddOn">
