@@ -19,6 +19,11 @@ input.input-error {
 	border-color: red;
 	color: red;
 }
+span.input-error {
+    border-top-color: red;
+    border-right-color: red;
+    border-bottom-color: red;
+}
 
 .calculator-othercoins {
     display: none;

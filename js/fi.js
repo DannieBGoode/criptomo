@@ -47,13 +47,17 @@ function updateSWR () {
 	let swr = document.getElementById("fi-swr");
 	if (!yearlySpending.value) {
 		yearlySpending.classList.add("input-error");
+		yearlySpending.parentElement.children[1].classList.add('input-error');
 	} else {
 		yearlySpending.classList.remove("input-error")
+		yearlySpending.parentElement.children[1].classList.remove('input-error');
 	}
 	if (!swr.value) {
 		swr.classList.add("input-error");
+		swr.parentElement.children[1].classList.add('input-error');
 	} else {
 		swr.classList.remove("input-error")
+		swr.parentElement.children[1].classList.remove('input-error');
 	}
 	if (yearlySpending.value && swr.value) {
 		document.getElementById("fi-desired-networth").value = parseFloat(parseInt(yearlySpending.value) * 100 / parseInt(swr.value)).toFixed(2);
@@ -81,7 +85,10 @@ function calculateFI() {
 	} else if (investment.MonthlyQuantity === '') {
 		document.getElementById("fi-salary").classList.add("input-error")
 	} else if (investment.desiredNetWorth === '') {
-		document.getElementById("fi-desired-networth").classList.add("input-error")
+		let desiredNetWorth = document.getElementById("fi-desired-networth");
+		desiredNetWorth.classList.add("input-error");
+		desiredNetWorth.parentElement.children[1].classList.add('input-error');;
+
 	} else {
 		var table = document.querySelector("#fi-results-table table tbody");
 		table.innerHTML = '';
