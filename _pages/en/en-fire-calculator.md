@@ -117,7 +117,7 @@ lang: en
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Yearly dWithdrawal Rate:</label>
+            <label>Yearly Withdrawal Rate:</label>
             <div>
                 <small>(Should be lower or equal to the expected Investment returns)</small>
             </div>
