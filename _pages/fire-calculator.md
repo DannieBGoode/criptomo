@@ -114,7 +114,10 @@ sitemap: true
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Tasa de Retiro:</label>
+            <label>Tasa de Retiro Anual:</label>
+            <div>
+                <small>(Debería ser menor o igual que el Rendimiento esperado)</small>
+            </div>
         </div>
         <div class="calculator-col-end InputAddOn">
             <input id="fi-swr" type="number" value="4" max="100" onchange="updateSWR()" class="InputAddOn-field" disabled> <span class="InputAddOn-item">%</span>

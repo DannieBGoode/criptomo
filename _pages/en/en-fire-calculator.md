@@ -117,7 +117,10 @@ lang: en
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Withdrawal Rate:</label>
+            <label>Yearly dWithdrawal Rate:</label>
+            <div>
+                <small>(Should be lower or equal to the expected Investment returns)</small>
+            </div>
         </div>
         <div class="calculator-col-end InputAddOn">
             <input id="fi-swr" type="number" value="4" max="100" onchange="updateSWR()" class="InputAddOn-field" disabled> <span class="InputAddOn-item">%</span>

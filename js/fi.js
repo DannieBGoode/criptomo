@@ -124,7 +124,6 @@ function calculateFI() {
 			if (x === parseInt(investment.SavingsRatio)) {
 				row.classList.add('active');
 			}
-
 			x = x + 5;
 		}
 	}
