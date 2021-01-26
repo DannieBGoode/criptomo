@@ -60,11 +60,15 @@ let table = $('#marketcaps-table').DataTable({
       render: function ( data, type, row, meta) {
         if ( type !== 'display' ) { return data.price; }
         let max = '';
-        if ((data.extreme.usd === data.price) && (marketcapCurrency == 'USD')) {
+        if ((data.extreme.usd === data.price) && ((marketcapCurrency === 'USD') || (marketcapCurrency === 'EUR'))) {
           max = '<sup><small>MAX</small></sup> ';
         } else {
           let formatDate = new Date(data.extreme.date).toShortFormat();
-          max = '<div class="tooltip"><sup><small>INFO</small></sup> <small class="tooltiptext">' + tableDataLang.priceColumns.maximum + ':</br>' + tableDataLang.priceColumns.date + ': ' + formatDate + '</br>' + tableDataLang.priceColumns.price + ': ' + parseFloat(data.extreme.usd).toFixed(2) + 'USD</small></div> ';
+          let currency = marketcapCurrency;
+          if ((currency === 'BTC') || (currency === 'ETH')) {
+            currency = 'USD';
+          }
+          max = '<div class="tooltip"><sup><small>INFO</small></sup> <small class="tooltiptext">' + tableDataLang.priceColumns.maximum + ':</br>' + tableDataLang.priceColumns.date + ': ' + formatDate + '</br>' + tableDataLang.priceColumns.price + ': ' + parseFloat(data.extreme.usd).toFixed(2) + ' ' + currency + '</small></div> ';
         }
         if ( data.positiveChange > 0) {
           return '<div style="display:flex">' + max + '<span class="marketcaps-pricechange-positive">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▲</span></span></div>';
