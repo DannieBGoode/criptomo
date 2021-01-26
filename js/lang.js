@@ -34,6 +34,11 @@ if (lang === 'es') {
   	price: 'Precio',
   	tokens: 'Tokens en Circulación'
   },
+  tableDataLang.priceColumns = {
+  	maximum: 'Máximo Histórico',
+  	date: 'Fecha',
+  	price: 'Precio'
+  },
   tableDataLang.icoColumns = {
   	name: 'Nombre',
   	raised: 'Recolectado',
@@ -75,6 +80,11 @@ else if (lang === 'en') {
 		marketcap: 'Marketcap',
 		price: 'Price',
 		tokens: 'Tokens in Circulation'
+	},
+	tableDataLang.priceColumns = {
+		maximum: 'All Time High',
+		date: 'Date',
+		price: 'Price'
 	},
 	tableDataLang.icoColumns = {
 		name: 'Name',

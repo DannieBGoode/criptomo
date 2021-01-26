@@ -56,26 +56,33 @@ let table = $('#marketcaps-table').DataTable({
     { // Price
       responsivePriority: 1,
       title: tableDataLang.marketcapColumns.price,
-      className: 'dt-right',
+      className: 'dt-center',
       render: function ( data, type, row, meta) {
         if ( type !== 'display' ) { return data.price; }
-        if ( data.positiveChange > 0) {
-          return '<div class="marketcaps-pricechange-positive">' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▲</span></div>';
+        let max = '';
+        if ((data.extreme.usd === data.price) && (marketcapCurrency == 'USD')) {
+          max = '<sup><small>MAX</small></sup> ';
+        } else {
+          let formatDate = new Date(data.extreme.date).toShortFormat();
+          max = '<div class="tooltip"><sup><small>INFO</small></sup> <small class="tooltiptext">' + tableDataLang.priceColumns.maximum + ':</br>' + tableDataLang.priceColumns.date + ': ' + formatDate + '</br>' + tableDataLang.priceColumns.price + ': ' + parseFloat(data.extreme.usd).toFixed(2) + 'USD</small></div> ';
         }
-        return '<div class="marketcaps-pricechange-negative">' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▼</span></div>';
+        if ( data.positiveChange > 0) {
+          return '<div style="display:flex">' + max + '<span class="marketcaps-pricechange-positive">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▲</span></span></div>';
+        }
+        return '<div style="display:flex">' + max + '<span class="marketcaps-pricechange-negative">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▼</span></span></div>';
       },
       searchable: false
     },
     {
       responsivePriority: 7,
       title: tableDataLang.marketcapColumns.tokens,
-      className: 'dt-right',
+      className: 'dt-center',
       searchable: false
     },
     {
       responsivePriority: 8,
       title: '1h (%)',
-      className: 'dt-right',
+      className: 'dt-center',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
         if ( data > 0) {
@@ -88,13 +95,26 @@ let table = $('#marketcaps-table').DataTable({
     {
       responsivePriority: 2,
       title: '24h (%)',
-      className: 'dt-right',
+      className: 'dt-center',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
         if ( data > 0) {
           return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
         }
         return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
+      },
+      searchable: false
+    },
+    {
+      responsivePriority: 9,
+      title: '7D</br>(%)',
+      className: 'dt-center',
+      render: function ( data, type, row, meta ) {
+        if ( type !== 'display' ) { return data; }
+        if ( data > 0) {
+          return '<span class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></span>';
+        }
+        return '<span class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></span>';
       },
       searchable: false
     },
@@ -139,11 +159,13 @@ function marketcapTableLoad( currency ) {
 
         let colPrice = {
           price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
-          positiveChange: (parseFloat(coin.delta.second) >= 1)
+          positiveChange: (parseFloat(coin.delta.second) >= 1),
+          extreme: coin.extremes.all.max
         };
         let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1)*(-1);
         let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1)*(-1);
-        let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colSpacer];
+        let colChange7D = (100 - parseFloat(coin.delta.week) * 100).toFixed(1)*(-1);
+        let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colChange7D, colSpacer];
 
         marketcapDataArray.push(marketcapDataRow);
       });

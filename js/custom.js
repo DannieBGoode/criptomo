@@ -103,6 +103,22 @@ window.mobileAndTabletcheck = function() {
       return this; // for chaining...
     };
 
+    Date.prototype.toShortFormat = function() {
+
+      let monthNames =["Jan","Feb","Mar","Apr",
+                        "May","Jun","Jul","Aug",
+                        "Sep", "Oct","Nov","Dec"];
+      
+      let day = this.getDate();
+      
+      let monthIndex = this.getMonth();
+      let monthName = monthNames[monthIndex];
+      
+      let year = this.getFullYear();
+      
+      return `${day}-${monthName}-${year}`;  
+  }
+
     // sidebar currencies marketcaps
     // $.get('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20', function ( response ) {
     //   var displayedCurrencies = $('[data-currency]');
