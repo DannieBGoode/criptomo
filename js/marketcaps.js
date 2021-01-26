@@ -61,7 +61,7 @@ let table = $('#marketcaps-table').DataTable({
         if ( type !== 'display' ) { return data.price; }
         let max = '';
         if ((data.extreme.usd === data.price) && ((marketcapCurrency === 'USD') || (marketcapCurrency === 'EUR'))) {
-          max = '<sup><small>MAX</small></sup> ';
+          max = '<sup><small class="marketcaps-price-max">MAX</small></sup> ';
         } else {
           let formatDate = new Date(data.extreme.date).toShortFormat();
           let currency = marketcapCurrency;
