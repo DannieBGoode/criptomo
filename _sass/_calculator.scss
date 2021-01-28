@@ -131,10 +131,13 @@ input.calculator-othercoins {
     .table-header {
         border: 1px solid #000;
         width: 10%;
+        text-align: center;
         small {
             text-align: center;
             writing-mode: vertical-rl;
             text-orientation: upright;
+            margin: auto;
+
         }
     }
     .table-header:before {
