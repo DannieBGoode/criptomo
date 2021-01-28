@@ -76,7 +76,7 @@ redirect_from:
             <div id="calculator-results-table">
                 <table>
                         <tr>
-                            <th rowspan="5" class="table-header">PURCHASE</th>
+                            <th rowspan="5" class="table-header"><small>PURCHASE</small></th>
                             <th>Asset</th>
                             <td><span class="result-tokentype1"></span></td>
                         </tr>
@@ -97,7 +97,7 @@ redirect_from:
                             <td><span class="result-tokencount"></span> <span class="result-tokentype2"></span></td>
                         </tr>
                         <tr>
-                            <th rowspan="4" class="table-header">SALE</th>
+                            <th rowspan="4" class="table-header"><small>SALE</small></th>
                             <th>Sale Date</th>
                             <td><span>Today</span></td>
                         </tr>

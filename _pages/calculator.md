@@ -74,7 +74,7 @@ loadsPlugins: true
             <div id="calculator-results-table">
                 <table>
                         <tr>
-                            <th rowspan="5" class="table-header">COMPRA</th>
+                            <th rowspan="5" class="table-header"><small>COMPRA</small></th>
                             <th>Moneda</th>
                             <td><span class="result-tokentype1"></span></td>
                         </tr>
@@ -95,7 +95,7 @@ loadsPlugins: true
                             <td><span class="result-tokencount"></span> <span class="result-tokentype2"></span></td>
                         </tr>
                         <tr>
-                            <th rowspan="4" class="table-header">VENTA</th>
+                            <th rowspan="4" class="table-header"><small>VENTA</small></th>
                             <th>Fecha de Venta</th>
                             <td><span>Hoy</span></td>
                         </tr>
