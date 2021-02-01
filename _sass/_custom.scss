@@ -261,6 +261,11 @@ input:focus, select:focus {
 .tooltip {
   position: relative;
   display: inline-block;
+  sup {
+  	small {
+  		pointer: cursor;
+  	}
+  }
 }
 
 /* Tooltip text */
