@@ -9,7 +9,7 @@ TotalVotes: 7
 lang: en
 ---
 
-There is no law that requires people to work until they are 65+ years old, much less in a job that we do not like. That is why there is a wave of young people joining the F.I.R.E. (Financial Independence Retire Early or in Spanish Financial Independence Retire Early).
+There is no law that requires people to work until they are 65+ years old, much less in a job that we do not like. That is why there is a wave of young people joining the F.I.R.E. (Financial Independence Retire Early).
 
 <!--more-->
 
