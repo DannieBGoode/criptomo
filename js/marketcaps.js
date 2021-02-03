@@ -115,10 +115,19 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-center',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data > 0) {
-          return '<span class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></span>';
+        if (Number.isNaN(data)) {
+          data = '-';
         }
-        return '<span class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></span>';
+        let classVariation = '';
+        let carot = '';
+        if ( data > 0) {
+          classVariation = 'marketcaps-pricechange-positive';
+          carot = '▲';
+        } else if (data < 0) {
+          classVariation = 'marketcaps-pricechange-negative'; 
+          carot = '▼';
+        }
+        return '<span class="' + classVariation + '">' + data + '%&nbsp;<span class="carot-icon">' + carot + '</span></span>';
       },
       searchable: false
     },
