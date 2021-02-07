@@ -20,7 +20,7 @@ Instead of making small transformations little by little in Ethereum 1.0 it has 
 Among the main changes that this new version will offer are:
 
 ### Proof of Stake consensus algorithm
-Ethereum will stop using [Proof of Work] (/ que-es-proof-of-work) and will change to [Proof of Stake] (/ proof-of-work-vs-proof-of-stake /) which will mean a energy saving to ensure significant network.
+Ethereum will stop using [Proof of Work](/que-es-proof-of-work) and will change to [Proof of Stake](/proof-of-work-vs-proof-of-stake/) which will mean a energy saving to ensure significant network.
 
 ### Sharding
 The sharding method will allow you to stop using a single blockchain and instead have up to 64 different parallel chains, which will allow the network to scale better. These 64 chains converge on a central chain called a Beacon chain.
