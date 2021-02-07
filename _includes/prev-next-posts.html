@@ -1,0 +1,46 @@
+<nav class="post-navigation">
+    <h2 class="screen-reader-text">Post navigation</h2>
+{% for post in site.posts %}
+  {% if post.lang == page.lang %}
+    {% if prev %}
+	<div class="nav-previous">
+		<div class="nav-inside">
+		    {% if post.banner_image %}
+		    <a href="{{ site.baseurl }}{{post.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: post.banner_image }})"></a>
+		    {% endif %}
+		    <div class="nav-before">{{ site.data.translations.previous-entries[lang] }}</div>
+		    <div class="nav-title"><a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a></div>
+		    <div class="nav-date">{% include signature.html date=post.date %}</div>
+		</div><!-- .nav-inside -->
+	</div><!-- .nav-previous -->
+	    {% break %}
+    {% endif %}
+    {% assign prev = false %}
+    {% if post.id == page.id %}
+      {% assign prev = true %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.posts reversed %}
+  {% if post.lang == page.lang %}
+    {% if next %}
+	<div class="nav-next">
+		<div class="nav-inside">
+		    {% if post.banner_image %}
+		    <a href="{{ site.baseurl }}{{post.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: post.banner_image }})"></a>
+		    {% endif %}
+		    <div class="nav-before">{{ site.data.translations.next-entries[lang] }}</div>
+		    <div class="nav-title"><a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a></div>
+		    <div class="nav-date">{% include signature.html date=post.date %}</div>
+		</div><!-- .nav-inside -->
+	</div><!-- .nav-next -->
+      {% break %}
+    {% endif %}
+    {% assign next = false %}
+    {% if post.id == page.id %}
+      {% assign next = true %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</nav><!-- .post-navigation -->

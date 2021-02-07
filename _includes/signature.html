@@ -2,29 +2,61 @@
 {% capture date %}{{ include.date }}{% endcapture %}
 
 {% if include.author %}
-por <span class="post-author">{{author}}</span> el 
+  {% if lang == 'en' %}
+  by <span class="post-author">{{author}}</span> -
+  {% else %}
+  por <span class="post-author">{{author}}</span> - 
+  {% endif %}
+  
 {% endif %}
 
 {% if include.date %}
-
-<time class="published" datetime="{{ date | date: "%Y-%m-%d" }}">
-  {{ date | date: "%-d" }} de 
-  {% assign m = date | date: "%-m" %}
-  {% case m %}
-    {% when '1' %}Enero
-    {% when '2' %}Febrero
-    {% when '3' %}Marzo
-    {% when '4' %}Abril
-    {% when '5' %}Mayo
-    {% when '6' %}Junio
-    {% when '7' %}Julio
-    {% when '8' %}Agosto
-    {% when '9' %}Septiembre
-    {% when '10' %}Octubre
-    {% when '11' %}Noviembre
-    {% when '12' %}Diciembre
-  {% endcase %} de
-  {{ date | date: "%Y" }}
-</time>
-
+  {% if lang == 'en' %}
+  <time class="published" datetime="{{ date | date: "%Y-%m-%d" }}">
+    {% assign day = include.date | date: "%-d" %}
+    {% case day %}
+        {% when '1' or '21' or '31' %} {{ day }}<sup>st</sup>
+        {% when '2' or '22' %} {{ day }}<sup>nd</sup>
+        {% when '3' or '23' %} {{ day }}<sup>rd</sup>
+        {% else %} {{ day }}<sup>th</sup>
+    {% endcase %}
+    of 
+    {% assign m = date | date: "%-m" %}
+    {% case m %}
+      {% when '1' %}January
+      {% when '2' %}February
+      {% when '3' %}March
+      {% when '4' %}April
+      {% when '5' %}May
+      {% when '6' %}June
+      {% when '7' %}July
+      {% when '8' %}August
+      {% when '9' %}September
+      {% when '10' %}October
+      {% when '11' %}November
+      {% when '12' %}December
+    {% endcase %},
+    {{ date | date: "%Y" }}
+  </time>
+{% else %}
+  <time class="published" datetime="{{ date | date: "%Y-%m-%d" }}">
+    {{ date | date: "%-d" }} de 
+    {% assign m = date | date: "%-m" %}
+    {% case m %}
+      {% when '1' %}Enero
+      {% when '2' %}Febrero
+      {% when '3' %}Marzo
+      {% when '4' %}Abril
+      {% when '5' %}Mayo
+      {% when '6' %}Junio
+      {% when '7' %}Julio
+      {% when '8' %}Agosto
+      {% when '9' %}Septiembre
+      {% when '10' %}Octubre
+      {% when '11' %}Noviembre
+      {% when '12' %}Diciembre
+    {% endcase %},
+    {{ date | date: "%Y" }}
+  </time>
+  {% endif %}
 {% endif %}

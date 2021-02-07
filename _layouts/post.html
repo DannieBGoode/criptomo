@@ -9,7 +9,7 @@ layout: default
 {% endif %}
 
 {% if page.lang %}
-    {% assign lang = page.lang%}
+    {% assign lang = page.lang %}
 {% else %}
     {% assign lang = 'es' %}
 {% endif %}
@@ -81,33 +81,8 @@ layout: default
                 </div><!-- .author-info -->
             </div><!-- .author-box -->
 
-            <nav class="post-navigation">
-                <h2 class="screen-reader-text">Post navigation</h2>
-                {% if page.previous.url %}
-                <div class="nav-previous">
-                    <div class="nav-inside">
-                        {% if page.previous.banner_image %}
-                        <a href="{{ site.baseurl }}{{page.previous.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: page.previous.banner_image }})"></a>
-                        {% endif %}
-                        <div class="nav-before">Anterior</div>
-                        <div class="nav-title"><a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></div>
-                        <div class="nav-date">{% include signature.html date=page.previous.date %}</div>
-                    </div><!-- .nav-inside -->
-                </div><!-- .nav-previous -->
-                {% endif %}
-                {% if page.next.url %}
-                <div class="nav-next">
-                    <div class="nav-inside">
-                        {% if page.next.banner_image %}
-                        <a href="{{ site.baseurl }}{{page.next.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: page.next.banner_image }})"></a>
-                        {% endif %}
-                        <div class="nav-before">Siguiente</div>
-                        <div class="nav-title"><a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></div>
-                        <div class="nav-date">{% include signature.html date=page.next.date %}</div>
-                    </div><!-- .nav-inside -->
-                </div><!-- .nav-next -->
-                {% endif %}
-            </nav><!-- .post-navigation -->
+            {% include prev-next-posts.html %}
+
             {% if site.disqus and page.comments != false %}
                 {% include disqus.html %}
             {% endif %}

@@ -83,7 +83,7 @@
                     {% endif %}
                     {% assign i = i | plus: 1 %}
                         <li class="recent-item">
-                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{% include signature.html date=post.date %}</span>
                         </li>                    
                 {% endfor %}
             </ul><!-- .recent-posts -->

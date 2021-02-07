@@ -3,6 +3,14 @@
     "en": 'Last entries',
     "es": 'Últimas entradas'
   },
+  "previous-entries": {
+    "en": 'Previous',
+    "es": 'Anterior'
+  },
+  "next-entries": {
+    "en": 'Next',
+    "es": 'Siguiente'
+  },
   "subscribe": {
     "title": {
       "en": "Subscribe to",
@@ -34,5 +42,9 @@
       "en": "Product Owner living in Barcelona",
       "es": "Product Owner residente en Barcelona"
     }
+  },
+  "share": {
+    "en": "Share",
+    "es": "Compartir"
   }
 }
