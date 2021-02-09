@@ -78,7 +78,7 @@ let table = $('#marketcaps-table').DataTable({
       searchable: false
     },
     {
-      responsivePriority: 7,
+      responsivePriority: 9,
       title: tableDataLang.marketcapColumns.tokens,
       className: 'dt-center',
       searchable: false
@@ -110,8 +110,30 @@ let table = $('#marketcaps-table').DataTable({
       searchable: false
     },
     {
-      responsivePriority: 9,
+      responsivePriority: 8,
       title: '7D</br>(%)',
+      className: 'dt-center',
+      render: function ( data, type, row, meta ) {
+        if ( type !== 'display' ) { return data; }
+        if (Number.isNaN(data)) {
+          data = '-';
+        }
+        let classVariation = '';
+        let carot = '';
+        if ( data > 0) {
+          classVariation = 'marketcaps-pricechange-positive';
+          carot = '▲';
+        } else if (data < 0) {
+          classVariation = 'marketcaps-pricechange-negative'; 
+          carot = '▼';
+        }
+        return '<span class="' + classVariation + '">' + data + '%&nbsp;<span class="carot-icon">' + carot + '</span></span>';
+      },
+      searchable: false
+    },
+    {
+      responsivePriority: 8,
+      title: '1Y</br>(%)',
       className: 'dt-center',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
@@ -178,7 +200,8 @@ function marketcapTableLoad( currency ) {
         let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1)*(-1);
         let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1)*(-1);
         let colChange7D = (100 - parseFloat(coin.delta.week) * 100).toFixed(1)*(-1);
-        let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colChange7D, colSpacer];
+        let colChange1Y = (100 - parseFloat(coin.delta.year) * 100).toFixed(1)*(-1);
+        let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colChange7D, colChange1Y, colSpacer];
 
         marketcapDataArray.push(marketcapDataRow);
       });
