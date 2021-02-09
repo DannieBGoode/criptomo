@@ -65,9 +65,9 @@ loadsPlugins: true
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         
         <div id="calculator-results">
-            Si hubieras invertido <span class="result-invest"></span> en <span class="result-tokentype"></span> el día <span class="result-date"></span> hubieras podido comprar a un precio de 
+            Si hubieras invertido <span class="result-invest"></span> en <span class="result-tokentype2"></span> el día <span class="result-date"></span> hubieras podido comprar a un precio de 
             <span class="result-old-price"></span> un total de 
-            <span class="result-tokencount"></span> <span class="result-tokentype"></span>
+            <span class="result-tokencount"></span> <span class="result-tokentype2"></span>
             valorados a día de hoy en <span class="result-currentvalue"></span>.
             <div>Ganancia: <span class="gained-percentage"></span></div>
 
@@ -76,7 +76,7 @@ loadsPlugins: true
                         <tr>
                             <th rowspan="5" class="table-header"><small>COMPRA</small></th>
                             <th>Moneda</th>
-                            <td><span class="result-tokentype"></span></td>
+                            <td><span class="result-tokentype2"></span></td>
                         </tr>
                         <tr>
                             <th>Inversión Original</th>
