@@ -23,7 +23,7 @@ El Crowdfunding permite a mucha gente que ni siquiera se conoce entre sí, junta
 
 ## 2. Invertir en bolsa
 
-La inversión en bolsa es una de las mejores maneras de huir de los efectos de la inflación y buscar refugio de nuestro dinero. Además puede darnos rentabilidades de entorno al 10% sin demasiado esfuerzo ni preocupación. Sencillamente invirtiendo en un fondo indexado como el S&P500, no necesitariamos estudiar ninguna de las empresas que lo componen y si la historia desde 1920 nos sirve de referencia, tendriamos un 10-11% de rendimiento medio anualizado. Algunas plataformas de inversión conocidas son <a rel="nofollow" href="https://estateguru.co">Estateguru</a> o <a rel="nofollow" href="https://degiro.es">DeGiro</a>.
+La inversión en bolsa es una de las mejores maneras de huir de los efectos de la inflación y buscar refugio de nuestro dinero. Además puede darnos rentabilidades de entorno al 10% sin demasiado esfuerzo ni preocupación. Sencillamente invirtiendo en un fondo indexado como el S&P500, no necesitariamos estudiar ninguna de las empresas que lo componen y si la historia desde 1920 nos sirve de referencia, tendriamos un 10-11% de rendimiento medio anualizado. Algunas plataformas de inversión conocidas son <a rel="nofollow" href="https://estateguru.co">Estateguru</a> o <a rel="nofollow" href="https://www.degiro.es/amigo-invita-amigo/empezar-a-invertir.html?id=2B6F468B&amp;utm_source=mgm">DeGiro</a>.
 
 ## 3. Peer to Peer (P2P) Lending
 

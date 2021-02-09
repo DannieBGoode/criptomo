@@ -24,7 +24,7 @@ Crowdfunding allows many people who do not even know each other to pool their sa
 
 ## 2. Investing in the stock market
 
-Investing in the stock market is one of the best ways to escape the effects of inflation and seek refuge for our money. It can also give us returns of around 10% without too much effort or worry. Simply by investing in an index fund such as the S & P500, we would not need to study any of the companies that comprise it and if the history since 1920 serves as a reference, we would have a 10-11% average annualized return. Some popular investment platforms are <a rel="nofollow" href="https://estateguru.co">Estateguru</a> or <a rel="nofollow" href="https://degiro.es">DeGiro</a>.
+Investing in the stock market is one of the best ways to escape the effects of inflation and seek refuge for our money. It can also give us returns of around 10% without too much effort or worry. Simply by investing in an index fund such as the S & P500, we would not need to study any of the companies that comprise it and if the history since 1920 serves as a reference, we would have a 10-11% average annualized return. Some popular investment platforms are <a rel="nofollow" href="https://estateguru.co">Estateguru</a> or <a rel="nofollow" href="https://www.degiro.es/amigo-invita-amigo/empezar-a-invertir.html?id=2B6F468B&amp;utm_source=mgm">DeGiro</a>.
 
 ## 3. Peer to Peer (P2P) Lending
 
