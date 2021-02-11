@@ -2,7 +2,7 @@
 layout: page
 title: Cryptocurrency Investment Portfolio 
 description: Cryptocurrency Investment Portfolio, invest periodically and calcualte your earnings and Bitcoin profits. 💵
-banner_image: pages/investment.jpg
+banner_image: pages/investment.webp
 permalink: /en/investment/
 schema: true
 rating: 5

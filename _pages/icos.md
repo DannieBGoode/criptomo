@@ -2,7 +2,7 @@
 layout: page
 title: ICOs
 description: Las ICOs que más dinero han recaudado de la historia. ICOs con los mejores retornos. Las más exitosas.
-banner_image: pages/ico.jpg
+banner_image: pages/ico.webp
 permalink: /icos/
 comments: true
 sitemap: true

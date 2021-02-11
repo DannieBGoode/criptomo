@@ -2,7 +2,7 @@
 layout: page
 title: ICOs
 description: The ICOs that raised the most funds ever.
-banner_image: pages/ico.jpg
+banner_image: pages/ico.webp
 permalink: /en/icos/
 comments: true
 sitemap: true
