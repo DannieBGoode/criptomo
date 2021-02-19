@@ -8,6 +8,7 @@ comments: true
 sitemap: true
 loadsPlugins: true
 noMargins: true
+sidebar: false
 ---
 
 <small class="error api-error">Error de conexión, tu Adblock bloquea la API de cotizaciones.</small>

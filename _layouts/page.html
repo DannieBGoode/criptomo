@@ -6,7 +6,10 @@ layout: default
         {% include schema_page.html %}
     {% endif %}
     <div class="inner">
-        <main class="site-main">
+        {% if page.sidebar == false %}
+            {% assign style = "width: 100%" %}
+        {% endif %}
+        <main class="site-main" style="{{ style }}">
             <article class="post">
                 <header class="entry-header {% if page.noMargins %} no-margins {% endif %}">
                     <div class="entry-header-wrap">  
@@ -26,6 +29,8 @@ layout: default
                 {% include disqus.html %}
             {% endif %}
         </main><!-- .site-main -->
-        {% include sidebar.html %}
+        {% if page.sidebar != false %}
+            {% include sidebar.html %}
+        {% endif %}
     </div><!-- .inner -->
 </div><!-- .site-content -->

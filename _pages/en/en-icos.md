@@ -9,6 +9,7 @@ sitemap: true
 loadsPlugins: true
 noMargins: true
 lang: en
+sidebar: false
 ---
 
 <div class="entry-header"></div>

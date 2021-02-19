@@ -8,6 +8,7 @@ comments: true
 sitemap: true
 loadsPlugins: true
 noMargins: true
+sidebar: false
 ---
 
 <div class="entry-header"></div>

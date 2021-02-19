@@ -9,6 +9,7 @@ sitemap: true
 loadsPlugins: true
 noMargins: true
 lang: en
+sidebar: false
 redirect_from:
     - /marketcaps
     - /marketcaps/
