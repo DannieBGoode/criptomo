@@ -1,13 +1,13 @@
 init();
 
 function calculateEarnings() {
-  var currentPrice        = parseFloat($('#sidebar-ticker-bitcoin .ticker-price').html().replace(/,/g, ''));
+  // var currentPrice        = parseFloat($('#sidebar-ticker-bitcoin .ticker-price').html().replace(/,/g, ''));
   var investment          = {
-    date: $('#invest-date').val(),
-    oldValue: $('#invest-quantity').val(),
-    tokenSymbol: $('#invest-currency').val(),
-    tokenName: $( '#invest-currency option:selected' ).text(),
-    fiat: $('#invest-fiat').val()
+    date: document.getElementById("invest-date").value,
+    oldValue: document.getElementById("invest-quantity").value,
+    tokenSymbol: document.getElementById("invest-currency").value,
+    tokenName: document.getElementById("invest-currency").options[document.getElementById("invest-currency").options.selectedIndex].innerHTML,
+    fiat: document.getElementById("invest-fiat").value,
   };
 
   if (investment.date) {
@@ -16,8 +16,13 @@ function calculateEarnings() {
     var newDate = myDate[0] + '/' + myDate[1] + '/' + myDate[2];
     var timestamp = Math.floor(new Date(newDate).getTime() / 1000 );
 
-    $('.input-error').removeClass('input-error');
-    $('.error').hide();
+    document.querySelector(".input-error") ? document.querySelector(".input-error").classList.remove("input-error") : null;
+    let errors = document.getElementsByClassName('error');
+    let i = 0;
+    while (errors.length > i) {
+       errors[i].style.display = 'none'  
+       i++;
+    }
 
     $.get('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
       .success(function (response) {
@@ -28,9 +33,11 @@ function calculateEarnings() {
             .success(function (data) {
               investment.oldPrice = JSON.parse(data).bpi[investment.date];
               paintResults(investment);
+              loading('off');
             })
             .error(function () {
               handleError('date');
+              loading('off');
             })
             .always(function () {
               loading('off');
@@ -56,46 +63,60 @@ function calculateEarnings() {
             });
         }
       })
-      .error(function () {
+      .error(function (data) {
         handleError('date');
       });
   } else {
     handleError('date');
   }
 
+  function modifyAllClassElementsText(className, text) {
+    let elements = document.querySelectorAll('.' + className);
+    let i = 0;
+    while (elements.length > i) {
+       elements[i].innerText = text;  
+       i++;
+    }
+  }
+  function modifyAllClassElementsClassName(className, newClassName) {
+    let elements = document.querySelectorAll('.' + className);
+    let i = 0;
+    while (elements.length > i) {
+       elements[i].className = newClassName;  
+       i++;
+    }
+  }
+
   function paintResults(investData) {
     investData.tokensBought = parseFloat(parseFloat(investData.oldValue) / parseFloat(investData.oldPrice)).toFixed(3);
     investData.currentValue = parseFloat(investData.currentPrice * investData.tokensBought).toFixed(2);
     investData.percentageGained = parseFloat((investData.currentValue - investData.oldValue) / investData.oldValue).toFixed(2) * 100;
-    $('.result-tokencount').html(investData.tokensBought);
-    $('.result-old-price').html(investData.oldPrice + ' ' + investData.fiat + '/' + investData.tokenSymbol);
-    $('.result-tokentype1').html(investData.tokenSymbol);
-    $('.result-tokentype2').html(investData.tokenSymbol);
-    $('.result-currentvalue').html(investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
-    $('.result-current-price').html(parseFloat(investData.currentPrice).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
-
-    $('.result-date').html(investData.date);
-    $('.result-invest').html(investData.oldValue + ' ' + $('#invest-fiat').val());
-
+    modifyAllClassElementsText('result-tokencount', investData.tokensBought);
+    modifyAllClassElementsText('result-old-price', investData.oldPrice + ' ' + investData.fiat + '/' + investData.tokenSymbol);
+    modifyAllClassElementsText('result-tokentype', investData.tokenSymbol);
+    modifyAllClassElementsText('result-currentvalue', investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
+    modifyAllClassElementsText('result-current-price', parseFloat(investData.currentPrice).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
+    modifyAllClassElementsText('result-date', new Date(investment.date).toShortFormat());
+    modifyAllClassElementsText('result-invest', investData.oldValue + ' ' + document.getElementById('invest-fiat').value);// $('#invest-fiat').val());
 
     let change = '';
-    $('.gained-percentage').html(parseFloat(investData.percentageGained).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') +  '%');
+    modifyAllClassElementsText('gained-percentage', parseFloat(investData.percentageGained).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') +  '%');
     if (investData.percentageGained > 0) {
       change = 'positive';
     } else {
       change = 'negative';
     }
-    $('.gained-percentage').removeClass().addClass('gained-percentage-' + change);
-    $('#calculator-results').show();
+    modifyAllClassElementsClassName('gained-percentage', 'gained-percentage gained-percentage-' + change);
+    document.getElementById('calculator-results').style.display = 'block';
   }
 
   function loading(state) {
-    if (state === 'on') {
-      $('.calculator-result-container').hide();
-      $('.calculator-loader-container').show();
+    if (state === 'on') {      
+      document.querySelector('.calculator-result-container').style.display = 'none'; 
+      document.querySelector('.calculator-loader-container').style.display = 'block';
     } else {
-      $('.calculator-loader-container').hide();
-      $('.calculator-result-container').show();
+      document.querySelector('.calculator-loader-container').style.display = 'none'; 
+      document.querySelector('.calculator-result-container').style.display = 'block';
     }
   }
 }

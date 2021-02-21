@@ -67,9 +67,9 @@ redirect_from:
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calculate</button>
         <div id="calculator-results">
-            If you had invested <span class="result-invest"></span> on <span class="result-tokentype1"></span> the day <span class="result-date"></span> you would have had the opportunity of buying at a price of 
+            If you had invested <span class="result-invest"></span> on <span class="result-tokentype"></span> the day <span class="result-date"></span> you would have had the opportunity of buying at a price of 
             <span class="result-old-price"></span> a total of
-            <span class="result-tokencount"></span> <span class="result-tokentype2"></span>
+            <span class="result-tokencount"></span> <span class="result-tokentype"></span>
             valued today <span class="result-currentvalue"></span>.
             <div>Profits: <span class="gained-percentage"></span></div>
 
@@ -78,7 +78,7 @@ redirect_from:
                         <tr>
                             <th rowspan="5" class="table-header"><small>PURCHASE</small></th>
                             <th>Asset</th>
-                            <td><span class="result-tokentype1"></span></td>
+                            <td><span class="result-tokentype"></span></td>
                         </tr>
                         <tr>
                             <th>Original Investment</th>
@@ -94,7 +94,7 @@ redirect_from:
                         </tr>
                         <tr>
                             <th>Assets Bought</th>
-                            <td><span class="result-tokencount"></span> <span class="result-tokentype2"></span></td>
+                            <td><span class="result-tokencount"></span> <span class="result-tokentype"></span></td>
                         </tr>
                         <tr>
                             <th rowspan="4" class="table-header"><small>SALE</small></th>
