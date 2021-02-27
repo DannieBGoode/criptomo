@@ -15,7 +15,7 @@ tagline-en               : "Technology, Bitcoin, cryptocurrencies and investment
 keywords                 : "criptomonedas bitcoin inversion"
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : ""
-baseurl-en               : "/en/"
+baseurl-en               : "/en"
 # Paths for post images used in the feed.xml
 imageurl                 : "/images/posts/"
 repository               : "DannieBGoode/criptomo"
