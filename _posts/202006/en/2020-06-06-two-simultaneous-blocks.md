@@ -35,7 +35,7 @@ The discarded block is called an orphan block, and your miner will have the bloc
 
 All transactions made within the blockchain on the orphan block are discarded, as if they had never existed. So it wouldn't matter if the miner tried to move his reward between wallets, the end result would be that those operations have never existed.
 
-What the miner could try is to try to pay something in a physical establishment with his BTC, and hopefully have left the store before his block is discarded.
+What the miner could do is to try to pay for something in a physical establishment with his BTC, and hopefully have left the store before his block is discarded.
 
 That is why in real world transactions it is considered correct to wait for the 6 confirmations to give the payment as insurance. That is, it waits for there to be 6 accepted blocks on top of the one that contains a transaction to consider that the block will no longer be orphaned.
 
