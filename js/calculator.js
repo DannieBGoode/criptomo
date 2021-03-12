@@ -5,7 +5,7 @@ function calculateEarnings() {
   var investment          = {
     date: document.getElementById("invest-date").value,
     oldValue: document.getElementById("invest-quantity").value,
-    tokenSymbol: document.getElementById("invest-currency").value,
+    tokenSymbol: String.prototype.toUpperCase.apply(document.getElementById("invest-currency").value),
     tokenName: document.getElementById("invest-currency").options[document.getElementById("invest-currency").options.selectedIndex].innerHTML,
     fiat: document.getElementById("invest-fiat").value,
   };
