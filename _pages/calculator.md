@@ -24,7 +24,7 @@ loadsPlugins: true
             <label>Inversión</label>
         </div>
         <div class="calculator-col-end">
-            <input id="invest-quantity" type="number" value="1000">
+            <input id="invest-quantity" type="number" value="1000" class="data-hj-allow">
             <select id="invest-fiat">
                 <option>EUR</option>
                 <option>USD</option>
@@ -46,7 +46,7 @@ loadsPlugins: true
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
-            <input width="150" class="calculator-othercoins" autofocus />
+            <input width="150" class="calculator-othercoins data-hj-allow" autofocus />
         </div>
     </div>
     <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
@@ -55,7 +55,7 @@ loadsPlugins: true
             <label>Fecha de compra</label>
         </div>
         <div class="calculator-col-end">
-            <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
+            <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18" class="data-hj-allow">
         </div>
     </div>
 
