@@ -42,7 +42,7 @@ loadsPlugins: true
 				<option value="LTC"  min="2013-09-15">Litecoin</option>
                 <option value="MIOTA"  min="2017-06-14">IOTA</option>
 				<option value="XMR"  min="2015-01-27">Monero</option>
-				<option value="DASH" min="2014-02-04">Dash</option>
+				<option value="ADA" min="2017-10-02">Cardano</option>
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
