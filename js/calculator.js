@@ -24,28 +24,28 @@ function calculateEarnings() {
        i++;
     }
 
-    $.get('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
-      .success(function (response) {
+    fetch('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
+      .then(response => response.json())
+      .then((response) => {
         investment.currentPrice = response[investment.fiat];
         // bitcoin api
         if (investment.tokenSymbol === 'BTC') {
-          $.get( 'https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.date + '&currency=' + investment.fiat)
-            .success(function (data) {
-              investment.oldPrice = JSON.parse(data).bpi[investment.date];
+          fetch( 'https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.date + '&currency=' + investment.fiat)
+            .then(data => data.json())
+            .then((data) => {
+              investment.oldPrice = data.bpi[investment.date];
               paintResults(investment);
               loading('off');
             })
-            .error(function () {
+            .catch(function () {
               handleError('date');
-              loading('off');
-            })
-            .always(function () {
               loading('off');
             });
         } else {
           // altcoin api
-          $.get('https://min-api.cryptocompare.com/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
-            .success(function (data) {
+          fetch('https://min-api.cryptocompare.com/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
+            .then(data => data.json())
+            .then((data) => {
               if ((data.Response !== 'Error') && (data[investment.tokenSymbol][investment.fiat] !== 0)) {
                 investment.oldPrice = data[investment.tokenSymbol][investment.fiat];
                 paintResults(investment);
@@ -54,16 +54,15 @@ function calculateEarnings() {
               } else {
                 handleError('date');
               }
+              loading('off');
             })
-            .error(function () {
+            .catch(function () {
               handleError('date');
-            })
-            .always(function () {
               loading('off');
             });
         }
       })
-      .error(function (data) {
+      .catch(function (data) {
         handleError('date');
       });
   } else {

@@ -1,19 +1,18 @@
 // enable/disable dropdown with custom option
-$('#invest-currency').change(function () {
-  var selected = $('option:selected', this).attr('class');
-  var optionText = $('.editable').text();
+document.querySelector('#invest-currency').addEventListener('change', function() {
+  var selected = document.querySelector('#invest-currency').selectedOptions[0].classList.value;
 
   if (selected === 'editable') {
-    $('.calculator-othercoins').show();
+    document.querySelector('.calculator-othercoins').style.display = 'inline-block';
 
-    $('.calculator-othercoins').keyup(function () {
-      var editText = $('.calculator-othercoins').val();
-      $('.editable').val(editText);
-      $('.calculator-othercoins').focus();
+    document.querySelector('.calculator-othercoins').addEventListener('keyup', function() {
+      let editText = document.querySelector('.calculator-othercoins').value;
+      document.querySelector('.editable').value = editText;
+      document.querySelector('.calculator-othercoins').focus()
     });
   } else {
-    $('.calculator-othercoins').hide();
-    $('.calculator-othercoins').val('');
+    document.querySelector('.calculator-othercoins').style.display = 'none';
+    document.querySelector('.calculator-othercoins').value = '';
   }
 });
 
@@ -21,20 +20,26 @@ $('#invest-currency').change(function () {
 // handle errors and apply red colors
 function handleError(type) {
   if (type === 'currency') {
-    $('.calculator-othercoins').addClass('input-error');
-    $('.coin-error').show();
+    document.querySelector('.calculator-othercoins').classList.add('input-error');
+    document.querySelector('.coin-error').style.display = 'block';
   } else {
-    $('#invest-date').addClass('input-error');
-    $('.date-error').show();
+    document.querySelector('#invest-date').classList.add('input-error');
+    document.querySelector('.date-error').style.display = 'block';
   }
-  $('#calculator-results').hide();
+  document.querySelector('#calculator-results').style.display = 'none';
+  
 }
 
 // update minimum data selectable
 function updateInputMinDate() {
-  let minDate = $( '#invest-currency option:selected' ).attr('min');
-  $('#invest-date').attr('min', minDate);
-  if ($('#invest-date').val() < minDate) {
-    $('#invest-date').val(minDate);
+  let min = document.querySelector('#invest-currency').selectedOptions[0].attributes.min;
+  let minDate = '';
+  if (min) {
+    minDate = min.value;
+  }
+  let investDate = document.querySelector('#invest-date');
+  investDate.attributes.min.value = minDate;
+  if (investDate.value < minDate) {
+    investDate.value = minDate;
   }
 }
