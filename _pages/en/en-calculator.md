@@ -11,9 +11,6 @@ comments: false
 sitemap: true
 loadsPlugins: true
 lang: en
-redirect_from:
-    - /calculator
-    - /calculator/
 ---
 
 <div style="margin-bottom: 10px">
