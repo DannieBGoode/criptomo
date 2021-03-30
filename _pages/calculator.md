@@ -46,7 +46,7 @@ loadsPlugins: true
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
-            <input width="150" class="calculator-othercoins data-hj-allow" autofocus />
+            <input width="150" class="calculator-othercoins data-hj-allow" autofocus placeholder="XYZ" />
         </div>
     </div>
     <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>

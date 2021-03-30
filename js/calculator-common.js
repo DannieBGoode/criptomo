@@ -4,6 +4,7 @@ document.querySelector('#invest-currency').addEventListener('change', function()
 
   if (selected === 'editable') {
     document.querySelector('.calculator-othercoins').style.display = 'inline-block';
+    document.querySelector('div.calculator-othercoins').style.display = 'inline';
 
     document.querySelector('.calculator-othercoins').addEventListener('keyup', function() {
       let editText = document.querySelector('.calculator-othercoins').value;
@@ -13,6 +14,7 @@ document.querySelector('#invest-currency').addEventListener('change', function()
   } else {
     document.querySelector('.calculator-othercoins').style.display = 'none';
     document.querySelector('.calculator-othercoins').value = '';
+    document.querySelector('div.calculator-othercoins').style.display = 'none';
   }
 });
 

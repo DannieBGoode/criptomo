@@ -46,7 +46,7 @@ lang: en
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Other asset...</option>
 			</select>
-            <input width="150" class="calculator-othercoins data-hj-allow" autofocus />
+            <input width="150" class="calculator-othercoins data-hj-allow" autofocus placeholder="XYZ" />
         </div>
     </div>
     <div class="calculator-othercoins"><span>It might possible that not all cryptocurrencies are covered by the server.</span></div>
