@@ -13,21 +13,21 @@ What happens if two miners mine the same block at the same time? Which of the tw
 
 <!--more-->
 
-Firstly, we must clarify that although the two miners have mined an acceptable block, they will almost certainly be different between them. It is not exactly the same block. This is because each miner will have chosen different transactions from the mempool and will have added them in their block in the order in which they have considered appropriate. Then each miner will have solved their own block with the *nonce* found by Proof of Work that gives solution to their block as they have built it.
+Firstly, we must clarify that although the two miners have mined an acceptable block, the blocks will almost certainly be different. It is not exactly the same block. This is because each miner will have chosen different transactions from the mempool and will have added them in their block in the order in which they have considered appropriate. Then each one of the two miners will have solved their own block with the *nonce* found by Proof of Work that gives solution to their specific block as they have built it.
 
-At this point we find two perfectly valid resolved blocks to be the next addition to the Blockchain and consequently grant the block reward to the responsible miner.
+At this point we find ourselves with two resolved blocks perfectly valid to be the next addition to the Blockchain and consequently grant the block reward to the responsible miner.
 
-At this time, the decision on which block will be chosen depends on all the other miners in the network.
+At this time, **the decision on which block will be chosen depends on all the other miners in the network**.
 
-Both blocks will be spread over the network and the different miners will add the first one they receive to their copy of the blockchain, temporarily accepting that miner as the winner, accepting that they take the reward. Immediately after, everyone will try to solve the next block.
+Both blocks will be spread over the network and the different miners will add the first one they receive to their copy of the blockchain, temporarily accepting that miner as the winner and allowing it to assign the reward to itself. Immediately after, all the miners will stop trying to solve the current block (since it has just been resolved) and start to work on solving the next future block.
 
-This means that for a short time, there will be two different versions of the blockchain, both equally valid.
+This means that for a short time, there will be two different versions of the blockchain, both equally valid. Some miners will consider one of the blockchains valid and others the other.
 
-Depending on different factors, such as the computational strength of the miners of each version or even luck, soon a next block will be discovered in one of the two versions before the other. When the longest version starts spreading across the network, miners who had accepted the other version will have no choice but to discard the one they were working on since in Proof of Work, **the longest blockchain always wins**, ( understood as the one with the most accumulated computational work).
+Depending on different factors, such as the computational strength of the miners working on each version or even luck, soon a next block will be discovered in one of the two versions before the other. When the longest version starts spreading across the network, miners who had accepted the other version will have no choice but to discard the one they were working on since in Proof of Work, **the longest blockchain always wins**, (understood as the one with the most accumulated computational work).
 
-When the rejected version of the blockchain is discarded, all those transactions included in this block are rejected (unless they have been in one of the following blocks already accepted) and will be returned to the mempool for miners to consider them again.
+When the rejected version of the blockchain is discarded, all those transactions included in this block are rejected (unless they were included in the new blocks of the winning blockchain) and will be returned to the mempool for miners to consider them again.
 
-The discarded block is called an orphan block, and your miner will have the block reward removed from their balance.
+The discarded block is called an orphan block, and the miner will have the block reward removed from their balance.
 
 {% include image_caption.html imageurl="/images/posts/202006/orphan.webp" title="Inflación" popup=true %}
 
