@@ -29,7 +29,7 @@ layout: compress
     {% endif %}
     <nav id="top" class="site-navigation">
         <div class="inner">
-            <button id="menu-toggle" aria-expanded="false">Menu</button>
+            <button id="menu-toggle" class="js-toggle" data-container="nav-menu">Menu</button>
             <ul id="language-picker">
 
                 {%  assign languages = site.data.languages %}
@@ -49,7 +49,7 @@ layout: compress
 
                 {% endfor %}
             </ul> 
-            <div class="nav-menu">
+            <div class="nav-menu toggle-container" id="nav-menu">
                 <ul class="menu">
                 {% if lang == 'es' %}
                     {%  assign navigation = site.data.navigation %}
@@ -99,12 +99,12 @@ layout: compress
     {% include analytics.html %}
     {% include mailchimp.html %}
 
-        <script defer src="/js/essentials.js?{{site.time | date: '%s%N'}}"></script>
-    {% unless page.loadsPlugins %}
-        <script defer src="/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
-    {% endunless  %}
+    <script defer src="/js/essentials.js?{{site.time | date: '%s%N'}}"></script>
 
+    {% if page.layout == 'post' %}
+    <script defer src="/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
     <script defer src="{{ site.baseurl }}/js/custom.js?{{site.time | date: '%s%N'}}"></script>
+    {% endif %}
     {% include ads_adsense.html %}
     {% include contents.html %}
 </body>
