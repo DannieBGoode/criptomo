@@ -47,9 +47,11 @@ window.mobileAndTabletcheck = function() {
           (document.documentElement["scrollHeight"] ||
             document.body["scrollHeight"]) - document.documentElement.clientHeight;
         var scrollPercent = scrollTop / scrollBottom * 100 + "%";
-        document
-          .getElementById("_progress")
-          .style.setProperty("--scroll", scrollPercent);
+        if (document.getElementById("_progress")) {
+          document
+            .getElementById("_progress")
+            .style.setProperty("--scroll", scrollPercent);
+        }
       },
       { passive: true }
     ); 
