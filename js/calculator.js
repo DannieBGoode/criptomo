@@ -116,6 +116,7 @@ function calculateEarnings() {
     } else {
       document.querySelector('.calculator-loader-container').style.display = 'none'; 
       document.querySelector('.calculator-result-container').style.display = 'block';
+      document.getElementById('calculator-results').scrollIntoView({behavior: 'smooth' });
     }
   }
 }

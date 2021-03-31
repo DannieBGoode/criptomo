@@ -130,6 +130,7 @@ sitemap: true
         <!-- <button class="calculate-button" onclick="calculateFI()">Calcular</button> -->
         
         <div id="fi-calculator-results">
+            Con unos ingresos de <span></span> al año y una tasa de ahorro de <span></span> estarías ahorrando <span></span> al año y podrías jubilarte dentro de <span></span> a la edad de <span></span> con un patrimonio de <span></span>.
 
             <div id="fi-results-table">
                 <table>

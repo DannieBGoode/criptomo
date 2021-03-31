@@ -16,6 +16,8 @@ keywords                 : "criptomonedas bitcoin inversion"
 # The subpath of your site, e.g. /blog, for generating urls
 baseurl                  : ""
 baseurl-en               : "/en"
+baseurl-fr               : "/fr"
+baseurl-de               : "/de"
 # Paths for post images used in the feed.xml
 imageurl                 : "/images/posts/"
 repository               : "DannieBGoode/criptomo"

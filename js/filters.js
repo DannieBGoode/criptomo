@@ -18,9 +18,8 @@ $('#filters').on('click', 'a', function () {
   let filterValue = $(this).attr('data-filter');
   $('#cryptocurrencies-filter-input').val('');
   $grid.isotope({ filter: filterValue });
-  $('.grid').goTo('slow');
+  document.querySelector('.grid').scrollIntoView({behavior: 'smooth' });
 });
-
 
 // search input filter
 $('#cryptocurrencies-filter-input').keyup(function () {
