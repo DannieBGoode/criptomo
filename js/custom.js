@@ -38,23 +38,23 @@ window.mobileAndTabletcheck = function() {
     });
 
     // Scrolling progress coloring
-    document.addEventListener(
-      "scroll",
-      function() {
-        var scrollTop =
-          document.documentElement["scrollTop"] || document.body["scrollTop"];
-        var scrollBottom =
-          (document.documentElement["scrollHeight"] ||
-            document.body["scrollHeight"]) - document.documentElement.clientHeight;
-        var scrollPercent = scrollTop / scrollBottom * 100 + "%";
-        if (document.getElementById("_progress")) {
-          document
-            .getElementById("_progress")
-            .style.setProperty("--scroll", scrollPercent);
-        }
-      },
-      { passive: true }
-    ); 
+    if (document.getElementById("_progress")) {
+      document.addEventListener(
+        "scroll",
+        function() {
+          var scrollTop =
+            document.documentElement["scrollTop"] || document.body["scrollTop"];
+          var scrollBottom =
+            (document.documentElement["scrollHeight"] ||
+              document.body["scrollHeight"]) - document.documentElement.clientHeight;
+          var scrollPercent = scrollTop / scrollBottom * 100 + "%";
+            document
+              .getElementById("_progress")
+              .style.setProperty("--scroll", scrollPercent);
+        },
+        { passive: true }
+      );
+    }
 
     // sidebar currencies marketcaps
     // $.get('https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=20', function ( response ) {
