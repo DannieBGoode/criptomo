@@ -136,6 +136,6 @@ redirect_from:
     
 </div>
 
-<!-- <script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script> -->
+<script defer src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
