@@ -30,12 +30,6 @@ window.mobileAndTabletcheck = function() {
       }
     });
 
-    // Scroll to top
-    $('#top-link').on('click', function (e) {
-      $('html, body').animate({'scrollTop': 0});
-      e.preventDefault();
-    });
-
     // mgnific
     $('.image-link').magnificPopup({type: 'image'});
     $('.popup-link').magnificPopup({

@@ -632,6 +632,10 @@ a.archive-top-link:hover {
     padding-right: 0;
 }
 
+.top-link {
+    cursor: pointer;
+}
+
 .site-info .top-link {
     color: $white;
     font-size: 14px;
