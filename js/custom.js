@@ -10,7 +10,8 @@ window.mobileAndTabletcheck = function() {
 
 /* globals jQuery, document */
 
-(function ($) {
+// (function ($) {
+docReady(function() {
   'use strict';
 
   $(document).ready(function () {
@@ -101,4 +102,4 @@ window.mobileAndTabletcheck = function() {
       }
     }
   });
-}(jQuery));
+});
