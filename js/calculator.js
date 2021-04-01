@@ -1,4 +1,5 @@
 init();
+var firstTime = true;
 
 function calculateEarnings() {
   // var currentPrice        = parseFloat($('#sidebar-ticker-bitcoin .ticker-price').html().replace(/,/g, ''));
@@ -116,7 +117,10 @@ function calculateEarnings() {
     } else {
       document.querySelector('.calculator-loader-container').style.display = 'none'; 
       document.querySelector('.calculator-result-container').style.display = 'block';
-      document.getElementById('calculator-results').scrollIntoView({behavior: 'smooth' });
+      if (firstTime === true) {
+        document.getElementById('calculator-results').scrollIntoView({behavior: 'smooth' });
+        firstTime = false;
+      }
     }
   }
 }
