@@ -94,9 +94,12 @@ layout: compress
     </header>
     {{content}}
     {% include footer.html %}
-    {% include tag-manager-head.html %}
-    {% include tag-manager-body.html %}
-    {% include analytics.html %}
+    {% if site.tag-manager == true %}
+        {% include tag-manager-head.html %}
+        {% include tag-manager-body.html %}
+    {% elsif %}
+        {% include analytics.html %}
+    {% endif %}
     {% include mailchimp.html %}
 
     <script defer src="/js/essentials.js?{{site.time | date: '%s%N'}}"></script>

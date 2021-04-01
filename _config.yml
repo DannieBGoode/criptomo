@@ -38,6 +38,7 @@ exclude:
 
 analytics:
   google                 : "UA-110091733-1"
+tag-manager              : true
 
 crypto:
   address:
