@@ -49,7 +49,7 @@ lang: en
             <input width="150" class="calculator-othercoins data-hj-allow" autofocus placeholder="XYZ" />
         </div>
     </div>
-    <div class="calculator-othercoins"><span>It might possible that not all cryptocurrencies are covered by the server.</span></div>
+    <div class="calculator-othercoins"><span>It might be possible that not all cryptocurrencies are covered by the server.</span></div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
             <label>Purchase Date</label>
