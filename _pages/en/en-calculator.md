@@ -11,6 +11,7 @@ comments: false
 sitemap: true
 loadsPlugins: true
 lang: en
+css: calculator
 ---
 
 <div style="margin-bottom: 10px">

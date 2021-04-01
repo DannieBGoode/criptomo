@@ -10,6 +10,7 @@ totalVotes: 15
 comments: false
 sitemap: true
 loadsPlugins: true
+css: calculator
 ---
 
 <div style="margin-bottom: 10px">

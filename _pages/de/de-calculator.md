@@ -11,6 +11,7 @@ comments: false
 sitemap: true
 loadsPlugins: true
 lang: de
+css: calculator
 redirect_from:
     - /de/
     - /de
