@@ -2,11 +2,10 @@ init();
 var firstTime = true;
 
 function calculateEarnings() {
-  // var currentPrice        = parseFloat($('#sidebar-ticker-bitcoin .ticker-price').html().replace(/,/g, ''));
   var investment          = {
     date: document.getElementById("invest-date").value,
     oldValue: document.getElementById("invest-quantity").value,
-    tokenSymbol: String.prototype.toUpperCase.apply(document.getElementById("invest-currency").value),
+    tokenSymbol: String.prototype.toUpperCase.apply(document.getElementById("invest-currency").value.replace(/\s/g, '')),
     tokenName: document.getElementById("invest-currency").options[document.getElementById("invest-currency").options.selectedIndex].innerHTML,
     fiat: document.getElementById("invest-fiat").value,
   };
