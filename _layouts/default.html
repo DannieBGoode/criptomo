@@ -66,6 +66,8 @@ layout: compress
                     {%  assign navigation = site.data.navigation-de %}
                 {% elsif lang == 'fr'%}
                     {%  assign navigation = site.data.navigation-fr %}
+                {% elsif lang == 'pt'%}
+                    {%  assign navigation = site.data.navigation-pt %}
                 {% endif %}
 
                 {% for link in navigation %}
