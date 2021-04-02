@@ -125,6 +125,29 @@ function calculateEarnings() {
   }
 }
 
+let exampleCoins = document.querySelectorAll('.error.coin-error a');
+
+for(i = 0; i < exampleCoins.length; i++){ 
+  exampleCoins[i].addEventListener('click', function(event){
+    document.querySelector('.calculator-othercoins').value = this.innerText;
+    document.querySelector('.editable').value = this.innerText;
+    if (document.querySelector('.input-error')) {
+      document.querySelector('.input-error').classList.remove('input-error');  
+    }
+  });
+}
+
+let exampleDate = document.querySelectorAll('.error.date-error a');
+
+for(i = 0; i < exampleDate.length; i++){ 
+  exampleDate[i].addEventListener('click', function(event){
+    document.querySelector('#invest-date').value = this.innerText;
+    if (document.querySelector('.input-error')) {
+      document.querySelector('.input-error').classList.remove('input-error');  
+    }
+  });
+}
+
 function init() {
   document.getElementById('invest-date').setAttribute('max', new Date().toISOString().split('T')[0]);
 }

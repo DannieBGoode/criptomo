@@ -117,8 +117,15 @@ css: calculator
         </div>
 
         <p>
-            <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
-            <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
+            <div class="error coin-error">
+                <span>Esta criptomoneda no está cubierta por nuestro sistema.</span>
+                <div>Recuerda probar con el código de la moneda en lugar del nombre completo.</div>
+                <div>Por ejemplo: <a>DOGE</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...</div>
+            </div>
+            <div class="error date-error">
+                <span>Esta fecha no está cubierta en nuestro historial.</span>
+                <div>Prueba con otra fecha, por ejemplo <a>2021-04-01</a>.</div>
+            </div>
         </p>
     </div>
 

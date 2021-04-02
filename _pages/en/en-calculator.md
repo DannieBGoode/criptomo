@@ -115,8 +115,19 @@ css: calculator
             </div>
         </div>
         <p>
-            <span class="error coin-error">This cryptocurrency is not in our system.</span>
-            <span class="error date-error">This date is not in our register.</span>
+            <div class="error coin-error">
+                <span>This cryptocurrency is not in our system.</span>
+                <div>
+                    Remember to try with the currency code instead of the full name. 
+                </div>
+                <div>
+                    For example: <a>DOGE</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
+                </div>
+            </div>
+            <div class="error date-error">
+                <span>This date is not in our register.</span>
+                <div>Try another date, for example <a>2021-04-01</a>.</div>
+            </div>
         </p>
     </div>
 

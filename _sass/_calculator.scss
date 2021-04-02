@@ -158,3 +158,9 @@ input.calculator-othercoins {
         }
     }
 }
+.error.coin-error div, .error.date-error div {
+    color: $body-text;
+    a {
+        cursor: pointer;
+    }
+}

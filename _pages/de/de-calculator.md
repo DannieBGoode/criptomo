@@ -118,8 +118,19 @@ redirect_from:
             </div>
         </div>
         <p>
-            <span class="error coin-error">Diese Kryptowährung befindet sich nicht in unserem System.</span>
-            <span class="error date-error">Dieses Datum ist nicht in unserem Register.</span>
+            <div class="error coin-error">
+                <span>Diese Kryptowährung befindet sich nicht in unserem System.</span>
+                <div>
+                    Denken Sie daran, den Währungscode anstelle des vollständigen Namens zu verwenden.
+                </div>
+                <div>
+                    Zum Beispiel: <a>DOGE</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
+                </div>
+            </div>
+            <div class="error date-error">
+                <span>Dieses Datum ist nicht in unserem Register.</span>
+                <div>Versuchen Sie es beispielsweise mit einem anderen Datum <a>2021-04-01</a>.</div>
+            </div>
         </p>
     </div>
 
