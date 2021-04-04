@@ -495,7 +495,7 @@ a.archive-top-link:hover {
 .newer-posts,
 .older-posts {
     color: $white;
-    position: absolute;
+    position: absolute !important;
     top: 0;
 }
 
