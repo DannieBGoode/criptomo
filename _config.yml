@@ -1,111 +1,84 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site title
-title                    : "CRIPTOMO"
-# A description of your site for social meta tag, search engines, and feed.xml
-description              : "Aprende de Criptomonedas, inversión, seguridad. Guías de cómo y dónde comprar. Tutoriales para invertir en criptomonedas para principiantes y discusiones para niveles avanzados."
-# Tagline near the site title
-tagline                  : "Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal."
-tagline-en               : "Technology, Bitcoin, cryptocurrencies and investments."
-keywords                 : "criptomonedas bitcoin inversion"
-# The subpath of your site, e.g. /blog, for generating urls
-baseurl                  : ""
-baseurl-en               : "/en"
-baseurl-fr               : "/fr"
-baseurl-de               : "/de"
-# Paths for post images used in the feed.xml
-imageurl                 : "/images/posts/"
-repository               : "DannieBGoode/criptomo"
+---
+title: CRIPTOMO
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: page
+  values:
+    sitemap: false
+- scope:
+    path: ''
+    type: posts
+  values:
+    progress: true
+description: Aprende de Criptomonedas, inversión, seguridad. Guías de cómo y dónde
+  comprar. Tutoriales para invertir en criptomonedas para principiantes y discusiones
+  para niveles avanzados.
+tagline: Tecnología, Bitcoin, criptomonedas, inversión y desarrollo personal.
+tagline-en: Technology, Bitcoin, cryptocurrencies and investments.
+keywords: criptomonedas bitcoin inversion
+baseurl: ''
+baseurl-en: "/en"
+baseurl-fr: "/fr"
+baseurl-de: "/de"
+imageurl: "/images/posts/"
+repository: DannieBGoode/criptomo
 sass:
-  style                  : compressed
-  sass_dir               : _sass
-
-# The base hostname & protocol of your site for where absolute urls are needed
-url                      : "https://criptomo.com" # "http://example.com"
-locale                   : "es"
-language                 : "es"
+  style: compressed
+  sass_dir: _sass
+url: https://criptomo.com
+locale: es
+language: es
 include:
-  - _pages
+- _pages
 exclude:
-  - package.json
-  - node_modules
-  - vendor
-
+- package.json
+- node_modules
+- vendor
 analytics:
-  google                 : "UA-110091733-1"
-tag-manager              : true
-
+  google: UA-110091733-1
+tag-manager: true
 crypto:
   address:
-    bitcoin              : "1zBENf32wsErn8TGtpGQ27yhrwEBwVsnw"
-    bitcoin-cash         : "18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q"
-    ethereum             : "0x6Ad36e415EdFb4C3fcE2bfF9E01F25e7Ed56f9C1" 
-
-# The shortname for your Disqus site to enable comments.
-disqus                   : "criptomo"
-
-# Author information - author info at the bottom of the post
-# Complete Author Name is used in schema
-author_name              : "Daniel Calatayud"
-author_bio               : "Ingeniero de telecomunicaciones apasionado por la tecnología."
-author_url               :  # "http://example.com"
-author_location          : "Madrid, Spain"
-author_image             : /images/authorimage.png
-
-# Sidebar Add banner
-banner_url               : # "http://example.com"
-banner_image             : images/banner.jpg
-
-# Ads
+    bitcoin: 1zBENf32wsErn8TGtpGQ27yhrwEBwVsnw
+    bitcoin-cash: 18yFiXQESA6fAZbHtPSji8jQNTXxcpdQ7q
+    ethereum: '0x6Ad36e415EdFb4C3fcE2bfF9E01F25e7Ed56f9C1'
+disqus: criptomo
+author_name: Daniel Calatayud
+author_bio: Ingeniero de telecomunicaciones apasionado por la tecnología.
+author_url: 
+author_location: Madrid, Spain
+author_image: "/images/authorimage.png"
+banner_url: 
+banner_image: images/banner.jpg
 ads:
-  google                 : true
-  ezoic                  : false
-
-# Sidebar newsletter widget - add your form action url for MailChimp signup form here
-mailchimp_url_es         : "https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c"
-
-# Social links in the site footer
-twitter_username         : "danniebgoode"
-facebook_username        : 
-github_username          : "danniebgoode"
-codepen_username         : 
-dribbble_uername         : 
-medium_username          : "@danielcalatayud"
-instagram_username       :
-pinterest_username       : 
-linkedin_username        : "danielcalatayud"
-
-
-google_site_verification : "JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU"
-
-# http://jekyllrb.com/docs/pagination/
-paginate                 : 12
-paginate_path            : "/page/:num"
-defaults: 
-  - scope:
-      path               : "page"
-    values:
-      sitemap            : false
-  - scope:
-      path               : ""
-      type               : "posts"
-    values:
-      progress           : true
-
-# gems                     : [jekyll-paginate]
-
-# permalink: pretty
-permalink                : /:categories/:title/
-markdown                 : kramdown
-kramdown                 :
-    auto_ids             : false
-
+  google: true
+  ezoic: false
+mailchimp_url_es: https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c
+twitter_username: danniebgoode
+facebook_username: 
+github_username: danniebgoode
+codepen_username: 
+dribbble_uername: 
+medium_username: "@danielcalatayud"
+instagram_username: 
+pinterest_username: 
+linkedin_username: danielcalatayud
+google_site_verification: JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU
+paginate: 12
+paginate_path: "/page/:num"
+permalink: "/:categories/:title/"
+markdown: kramdown
+kramdown:
+  auto_ids: false
 plugins:
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-paginate
+- jekyll-sitemap
+- jekyll-redirect-from
+- jekyll-paginate

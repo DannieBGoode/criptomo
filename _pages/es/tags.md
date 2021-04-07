@@ -1,9 +1,10 @@
 ---
-layout: default
 title: Categorías
-permalink: /tags/
+permalink: "/tags/"
+layout: default
 sitemap: false
 ---
+
 <div class="site-content">
     <div class="inner">
         <main class="site-main">

@@ -1,11 +1,13 @@
 ---
+title: What is the bitcoin halving
+date: 2020-05-06 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  What is the bitcoin halving
 description: What is bitcoin halving how does it compare to gold or central banks
 banner_image: 202005/bitcoin-halving.webp
 rating: 5
 totalVotes: 6
-tags: [bitcoin]
 lang: en
 ---
 

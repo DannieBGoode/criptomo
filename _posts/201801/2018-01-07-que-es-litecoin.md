@@ -1,12 +1,14 @@
 ---
-layout: post
 title: Qué es Litecoin
-description: La criptomoneda Litecoin es una de las más valoradas del mercado. Aprende qué es, cómo y por qué se creó, y dónde comprar LTC
+date: 2018-01-07 00:00:00 Z
+tags:
+- altcoins
+layout: post
+description: La criptomoneda Litecoin es una de las más valoradas del mercado. Aprende
+  qué es, cómo y por qué se creó, y dónde comprar LTC
 banner_image: 201801/litecoin.png
 rating: 4.5
 totalVotes: 2
-tags:
-  - altcoins
 ---
 
 Litecoin (LTC or Ł) es una de las primeras y más grandes criptomonedas p2p y open-source. Al igual que Bitcoin se basa en tecnología blockchain para procesar transacciones, pero por distintos motivos se decidió modificar algunos de los parámetros de Bitcoin para cambiar su utilidad.

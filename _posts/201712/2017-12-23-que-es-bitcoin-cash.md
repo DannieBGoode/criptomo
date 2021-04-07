@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Qué es Bitcoin Cash
-description: La criptomoneda Bitcoin Cash explicada, qué es, que diferencias tiene con Bitcoin y dónde comprarla
-banner_image: 201712/bitcoin-cash.jpg
+date: 2017-12-23 00:00:00 Z
 tags:
-  - altcoins
+- altcoins
+layout: post
+description: La criptomoneda Bitcoin Cash explicada, qué es, que diferencias tiene
+  con Bitcoin y dónde comprarla
+banner_image: 201712/bitcoin-cash.jpg
 ---
+
 Bitcoin (BTC), la primera criptomoneda, está todavía sujeta a importantes problemas de escalabilidad lo cual incrementa enormemente las tasas de transferencia así como la velocidad de las mismas y ha sido extensamente criticada por ello.
 
 El debate de como arreglar la escalabilidad de Bitcoin no es nuevo y se han sugerido bastantes alternativas. Una de ellas llevó a realizar un *hard fork* el dia 1 de Agosto de 2017 y fue bautizada como **Bitcoin Cash** (BCH).

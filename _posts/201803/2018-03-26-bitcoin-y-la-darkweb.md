@@ -1,10 +1,12 @@
 ---
-layout: post
 title: Bitcoin y su continua estigmatización
+date: 2018-03-26 00:00:00 Z
+tags:
+- bitcoin
+layout: post
 description: Bitcoin, acciones ilegales y dark web
 banner_image: 201803/darkweb.jpg
 author: tatiana
-tags: [bitcoin]
 ---
 
 La semana pasada Bill Gates perdió muchos seguidores de su causa al afirmar en un AMA Reddit, que el Bitcoin es una criptomoneda que causa muertes de una forma directa y es usada para adquirir sustancias ilegales.

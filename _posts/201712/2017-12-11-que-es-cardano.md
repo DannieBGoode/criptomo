@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Qué es Cardano
-description: La criptomoneda Cardano ADA podría ser el nuevo rival de la criptodivisa Ethereum y durante los últimos meses se ha revalorizado un 400%.
+date: 2017-12-11 00:00:00 Z
+tags:
+- altcoins
+layout: post
+description: La criptomoneda Cardano ADA podría ser el nuevo rival de la criptodivisa
+  Ethereum y durante los últimos meses se ha revalorizado un 400%.
 banner_image: 201712/cardano.jpg
 rating: 4.75
 totalVotes: 3
-tags: [altcoins]
 ---
 
 <a rel="nofollow" href="https://www.cardanohub.org/en/home/">Cardano</a> es una plataforma open-source lanzada por IOHK en Septiembre de 2017 que constituye un proyecto muy ambicioso. Dicen estar intentando construir la tercera generación de criptomonedas donde la primera generación sería Bitcoin y la segunda Ethereum.

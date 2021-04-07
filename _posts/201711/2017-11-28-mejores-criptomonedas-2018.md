@@ -1,12 +1,15 @@
 ---
+title: "\U0001F4B0 Las mejores criptomonedas altcoins de 2018"
+date: 2017-11-28 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  💰 Las mejores criptomonedas altcoins de 2018
-description: Las mejores criptomonedas altcoins, más prometedoras y que más podrían subir en 2018. Revisemos cuales podrían interesarnos durante este nuevo año y previsión de cuales podrían ser más rentables economicamente.
-date:   2017-11-28
+description: Las mejores criptomonedas altcoins, más prometedoras y que más podrían
+  subir en 2018. Revisemos cuales podrían interesarnos durante este nuevo año y previsión
+  de cuales podrían ser más rentables economicamente.
 banner_image: 201711/altcoins.jpg
 rating: 5
 totalVotes: 3
-tags: [altcoins]
 ---
 
 Con un mercado con más de mil criptomonedas resulta muy complicado seguirle la pista a todas, a continuación os dejo una lista de aquellas que me parecen más prometedoras y que deberíamos seguirles la pista a lo largo de este nuevo año.

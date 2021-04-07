@@ -1,9 +1,12 @@
 ---
+title: Binance anuncia que lanzará un exchange descentralizado y un blockchain público
+date: 2018-03-16 00:00:00 Z
+tags:
+- noticias
 layout: post
-title:  Binance anuncia que lanzará un exchange descentralizado y un blockchain público
-description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras de poder evitarlo.
+description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras
+  de poder evitarlo.
 banner_image: 201803/chain.jpg
-tags: [noticias]
 source: https://www.ccn.com/crypto-trading-giant-binance-to-launch-decentralized-exchange-and-public-blockchain/
 sourceName: CoinTelegraph
 author: marisa

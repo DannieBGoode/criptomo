@@ -1,9 +1,11 @@
 ---
+title: Estrategia de Inversión a Largo Plazo
+date: 2018-01-14 00:00:00 Z
+tags:
+- trading
 layout: post
-title:  Estrategia de Inversión a Largo Plazo
 description: Como ganar dinero con criptomonedas invirtiendo a largo plazo
 banner_image: 201801/investments.png
-tags: [trading]
 ---
 
 Hoy os voy a mostrar un experimento de inversión a largo plazo llevado a lo largo de 2017. Con inversión a largo plazo nos referimos a un periodo de apenas 12 meses, donde hacemos una inversión inicial y nos olvidamos de ella y la miramos un año después.

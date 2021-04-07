@@ -1,11 +1,13 @@
 ---
+title: Qué ocurre si se minan dos bloques simultáneos
+date: 2020-06-06 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Qué ocurre si se minan dos bloques simultáneos
 description: Qué ocurre si en Bitcoin si se minan dos bloques simultáneos
 banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11
-tags: [bitcoin]
 ---
 
 ¿ Qué ocurre si dos mineros minan el mismo bloque al mismo tiempo ? ¿ Cual de los dos bloques será aceptado antes? ¿ Quién se lleva la recompensa de bloque?

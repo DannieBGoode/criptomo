@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Acerca de este blog
+permalink: "/about/"
+layout: page
 description: Acerca de este blog
 banner_image: pages/about.jpg
-permalink: /about/
 sitemap: false
 thumbnail_full: true
 ---

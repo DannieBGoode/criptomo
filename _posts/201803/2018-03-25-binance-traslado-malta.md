@@ -1,12 +1,14 @@
 ---
-layout: post
 title: Binance mueve sus operaciones a Malta
-description: Santander ha anunciado que empezará a ofrecer transferencias basadas en tecnología blockchain a través de Ripple.
+date: 2018-03-25 08:08:39 Z
+tags:
+- noticias
+layout: post
+description: Santander ha anunciado que empezará a ofrecer transferencias basadas
+  en tecnología blockchain a través de Ripple.
 banner_image: 201803/malta.jpg
 source: https://www.newsbtc.com/2018/03/23/binance-reveals-its-planning-on-opening-a-new-office-in-malta/#
 sourceName: News BTC
-tags: [noticias]
-date: 2018-03-25 10:08:39 +02:00
 ---
 
 Binance, el exchange más grande en cuanto a volumen de compra venta de criptomonedas se traslada a Malta, abriendo un posible exchange de fiat-cripto europeo durante los próximos meses.

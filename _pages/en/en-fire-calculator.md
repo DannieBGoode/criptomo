@@ -1,9 +1,10 @@
 ---
+title: "\U0001F4B5 FIRE Calculator"
+permalink: "/en/fire-calculator/"
 layout: page
-title: 💵 FIRE Calculator
-description: 💵 Online FI (Financial Independence) calculator, calculate when you could retire and obtain financial independence / freedom.
+description: "\U0001F4B5 Online FI (Financial Independence) calculator, calculate
+  when you could retire and obtain financial independence / freedom."
 banner_image: pages/fi.webp
-permalink: /en/fire-calculator/
 schema: true
 rating: 5
 totalVotes: 35
@@ -11,6 +12,7 @@ comments: false
 sitemap: true
 lang: en
 ---
+
 <small>
     Calculate in how many years you could retire with the Financial Independence calculator.
     This tool assumes that all the money saved is generating returns at the percentage you choose.

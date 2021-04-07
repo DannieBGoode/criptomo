@@ -1,11 +1,14 @@
 ---
+title: Hack de Oyster Protocol y Guerras Internas
+date: 2018-10-31 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Hack de Oyster Protocol y Guerras Internas
-description: El smart contract de Oyster Protocol vulnerado, nuevos tokens creados y guerra civil interna.
+description: El smart contract de Oyster Protocol vulnerado, nuevos tokens creados
+  y guerra civil interna.
 banner_image: 201810/oyster.jpg
 rating: 5
 totalVotes: 1
-tags: [altcoins]
 ---
 
 Uno de los proyectos más prometedores del mundo de las criptomonedas se encuentra en graves problemas y podría acabar desapareciendo.

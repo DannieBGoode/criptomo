@@ -1,9 +1,9 @@
 ---
-layout: page
 title: ICOs
+permalink: "/en/icos/"
+layout: page
 description: The ICOs that raised the most funds ever.
 banner_image: pages/ico.webp
-permalink: /en/icos/
 comments: true
 sitemap: true
 loadsPlugins: true

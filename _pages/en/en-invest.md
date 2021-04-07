@@ -1,9 +1,10 @@
 ---
+title: Cryptocurrency Investment Portfolio
+permalink: "/en/investment/"
 layout: page
-title: Cryptocurrency Investment Portfolio 
-description: Cryptocurrency Investment Portfolio, invest periodically and calcualte your earnings and Bitcoin profits. Bitcoin Savings Calculator. 💵
+description: "Cryptocurrency Investment Portfolio, invest periodically and calcualte
+  your earnings and Bitcoin profits. Bitcoin Savings Calculator. \U0001F4B5"
 banner_image: pages/investment.webp
-permalink: /en/investment/
 schema: true
 rating: 5
 totalVotes: 45
@@ -12,8 +13,8 @@ sitemap: true
 loadsPlugins: true
 lang: en
 redirect_from:
-    - /investment
-    - /investment/
+- "/investment"
+- "/investment/"
 ---
 
 <div style="margin-bottom: 10px">

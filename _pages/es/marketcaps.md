@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Cotizaciones
-description: Cotización, Capitalización total de Bitcoin, Ethereum, Ripple y las principales criptomonedas en el mercado.
+permalink: "/cotizaciones/"
+layout: page
+description: Cotización, Capitalización total de Bitcoin, Ethereum, Ripple y las principales
+  criptomonedas en el mercado.
 banner_image: pages/marketcaps.webp
-permalink: /cotizaciones/
 comments: true
 sitemap: true
 loadsPlugins: true

@@ -1,11 +1,14 @@
 ---
+title: Qué es Qubic (IOTA)
+date: 2018-06-21 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es Qubic (IOTA)
-description: La de la nueva plataforma de smart contracts, alquiler computacional y asambleas de oráculos de IOTA, Qubic.
+description: La de la nueva plataforma de smart contracts, alquiler computacional
+  y asambleas de oráculos de IOTA, Qubic.
 banner_image: 201806/qubic.jpg
 rating: 5
 totalVotes: 4
-tags: [altcoins]
 ---
 
 Qubic es un protocolo que especifica una solución para cálculos computacionales basadas en quorum de [IOTA](/que-es-iota/), incluyendo smart contracts, oráculos y alquiler de poder computacional. De esta manera Qubic permite realizar dichas tareas directamente en el Tangle habilitando a potencialmente millones de personas de hacer uso de potencia computacional no aprovechada mientras ayudan a escalar el Tangle de manera segura.

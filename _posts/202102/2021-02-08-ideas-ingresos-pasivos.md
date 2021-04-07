@@ -1,9 +1,11 @@
 ---
+title: 15 ideas de generar Ingresos Pasivos en 2021
+date: 2021-02-08 00:00:00 Z
+tags:
+- fi
 layout: post
-title:  15 ideas de generar Ingresos Pasivos en 2021
 description: Ideas para negocios que generen ingresos pasivos en 2021
 banner_image: 202102/income.webp
-tags: [fi]
 rating: 5
 totalVotes: 11
 ---

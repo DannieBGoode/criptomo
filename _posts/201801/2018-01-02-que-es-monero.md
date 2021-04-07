@@ -1,12 +1,15 @@
 ---
-layout: post
 title: Qué es Monero
-description: Monero es la criptomoneda que mejores aplicaciones de privacidad ha implementado. Veamos en detalle en qué consiste y de qué manera consigue estos niveles de anonimidad a la hora de realizar transacciones.
+date: 2018-01-02 00:00:00 Z
+tags:
+- altcoins
+layout: post
+description: Monero es la criptomoneda que mejores aplicaciones de privacidad ha implementado.
+  Veamos en detalle en qué consiste y de qué manera consigue estos niveles de anonimidad
+  a la hora de realizar transacciones.
 banner_image: 201801/monero.png
 rating: 5
 totalVotes: 1
-tags:
-  - altcoins
 ---
 
 A pesar de que en ocasiones se ha mencionado que Bitcoin es una tecnología anónima, en realidad es pseudónima. El principio básico en el que se basa es en que todas las transacciones son públicamente almacenadas en el blockchain, por lo que si alguien identifica al dueño de una dirección de BTC puede en todo momento conocer su balance y transacciones. Esta propiedad trae muchísima transparencia al mundo de las criptomonedas puesto que cualquier transacción puede ser auditada por cualquier persona y se puede ver como los fondos van moviéndose de cuenta en cuenta lo cual podría acabar con la corrupción en entidades gubernamentales o en ONGs, pero no resulta tan valiosa para individuos o empresas. Aquí es donde entra Monero.

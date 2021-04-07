@@ -1,9 +1,11 @@
 ---
-layout: post
 title: What is the FIRE movement
+date: 2021-02-01 00:00:00 Z
+tags:
+- fi
+layout: post
 description: What is FIRE, Financial Independence Retire Early
 banner_image: 202102/fire2.webp
-tags: [fi]
 rating: 5
 TotalVotes: 7
 lang: en

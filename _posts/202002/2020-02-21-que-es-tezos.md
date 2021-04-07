@@ -1,9 +1,12 @@
 ---
+title: Qué es Tezos (XTZ)
+date: 2020-02-21 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es Tezos (XTZ)
-description: Guía para principiantes sobre qué es Tezos y como se diferencia de Cardano (ADA).
+description: Guía para principiantes sobre qué es Tezos y como se diferencia de Cardano
+  (ADA).
 banner_image: 202002/tezos.jpg
-tags: [altcoins]
 rating: 5
 totalVotes: 16
 ---

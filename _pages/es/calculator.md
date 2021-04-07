@@ -1,9 +1,11 @@
 ---
-layout: page
 title: Calculadora de Bitcoin y Criptomonedas
-description: 💵 Calculadora, calcula cuánto dinero y beneficios podrías haber ganado invirtiendo en Bitcoin y otras criptomonedas a tiempo. 💹 Simulador de ganancias de Bitcoin.
+permalink: "/calculadora/"
+layout: page
+description: "\U0001F4B5 Calculadora, calcula cuánto dinero y beneficios podrías haber
+  ganado invirtiendo en Bitcoin y otras criptomonedas a tiempo. \U0001F4B9 Simulador
+  de ganancias de Bitcoin."
 banner_image: pages/calculator.webp
-permalink: /calculadora/
 schema: true
 rating: 5
 totalVotes: 15

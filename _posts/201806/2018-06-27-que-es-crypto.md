@@ -1,14 +1,18 @@
 ---
+title: Qué es CRYPTO - Monaco (MCO/CRO)
+date: 2018-06-27 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es CRYPTO - Monaco (MCO/CRO)
-description: La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión. Análisis y opiniones de CRO y MCO.
+description: La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente
+  conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión.
+  Análisis y opiniones de CRO y MCO.
 banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 19
-tags: [altcoins]
 redirect_from:
-    - /que-es-monaco
-    - /que-es-monaco/
+- "/que-es-monaco"
+- "/que-es-monaco/"
 ---
 
 La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta que además compite con otras tarjetas como BNext y Revolut.

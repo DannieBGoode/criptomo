@@ -1,11 +1,14 @@
 ---
+title: Qué es el bitcoin halving
+date: 2020-05-06 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Qué es el bitcoin halving
-description: Qué es el bitcoin halving cómo se compara con el oro o con los bancos centrales
+description: Qué es el bitcoin halving cómo se compara con el oro o con los bancos
+  centrales
 banner_image: 202005/bitcoin-halving.webp
 rating: 5
 totalVotes: 6
-tags: [bitcoin]
 ---
 
 Inicialmente, en 2009 cuando nació Bitcoin, se distribuía una [recompensa por bloque minado](/que-es-proof-of-work) de 50BTC, es decir cada 10 minutos se generaban 50BTC de la nada asignados al minero ganador. Según el protocolo de [Bitcoin](/que-es-bitcoin), cada aproximadamente cuatro años la recompensará bajará a la mitad.

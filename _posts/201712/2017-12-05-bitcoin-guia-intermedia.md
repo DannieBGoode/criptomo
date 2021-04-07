@@ -1,10 +1,12 @@
 ---
-layout: post
-title:  "Cómo empezar a comprar criptomonedas"
-description: "Guía para principiantes de cómo comprar criptomonedas"
-banner_image: 201712/exchange.jpg
-tags: [altcoins]
+title: Cómo empezar a comprar criptomonedas
+date: 2017-12-05 00:00:00 Z
 published: false
+tags:
+- altcoins
+layout: post
+description: Guía para principiantes de cómo comprar criptomonedas
+banner_image: 201712/exchange.jpg
 ---
 
 aqui explica segwit:

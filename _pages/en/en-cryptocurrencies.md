@@ -1,14 +1,14 @@
 ---
+title: "+100 cryptocurrencies explained"
+permalink: "/en/cryptocurrencies/"
 layout: default
-title: +100 cryptocurrencies explained
 description: Short description of over 100 cryptocurrencies
-permalink: /en/cryptocurrencies/
 progress: true
 loadsPlugins: true
 lang: en
 redirect_from:
-    - /cryptocurrencies
-    - /cryptocurrencies/
+- "/cryptocurrencies"
+- "/cryptocurrencies/"
 ---
 
 <div class="site-content">

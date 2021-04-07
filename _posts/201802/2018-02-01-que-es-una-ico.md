@@ -1,11 +1,14 @@
 ---
+title: Qué es una ICO
+date: 2018-02-01 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es una ICO
-description: Qué es una ICO, como invertir en ellas, ICOs mas rentables con mayores beneficios hasta el momento y por qué son tan efectivas recaudando dinero.
+description: Qué es una ICO, como invertir en ellas, ICOs mas rentables con mayores
+  beneficios hasta el momento y por qué son tan efectivas recaudando dinero.
 banner_image: 201802/ico.jpg
 rating: 5
 totalVotes: 1
-tags: [altcoins]
 ---
 
 Un Initial Coin Offering (ICO) es un mecanismo de recaudación de fondos a través del cual nuevos proyectos de criptomonedas venden tokens (lease criptomonedas) a cambio de bitcoins o Ether y podrían convertirse en la manera de distribuir participaciones en el futuro. Es de alguna manera parecida a un Initial Public Offering (IPO) donde inversores venden participaciones de una empresa.

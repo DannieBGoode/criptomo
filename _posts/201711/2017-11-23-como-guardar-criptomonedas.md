@@ -1,10 +1,14 @@
 ---
+title: "\U0001F45C Cómo guardar criptomonedas en wallets de manera segura"
+date: 2017-11-23 00:00:00 Z
+tags:
+- bitcoin
+- altcoins
 layout: post
-title:  👜 Cómo guardar criptomonedas en wallets de manera segura
-description: La mejor manera de almacenar y guardar bitcoins y otras criptomonedas. Ranking de los mejores wallets / monederos para principiantes para no perder nuestra inversión y evitar robos
-date:   2017-11-23
+description: La mejor manera de almacenar y guardar bitcoins y otras criptomonedas.
+  Ranking de los mejores wallets / monederos para principiantes para no perder nuestra
+  inversión y evitar robos
 banner_image: 201711/bitcoin-wallet.jpg
-tags: [bitcoin, altcoins]
 rating: 4.5
 totalVotes: 2
 ---

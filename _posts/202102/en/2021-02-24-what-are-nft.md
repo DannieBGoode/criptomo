@@ -1,16 +1,17 @@
 ---
-layout: post
 title: What is an NFT - ERC721
-description: What is an NFT - ERC721 (Non Fungible Token), a non-fungible token.
-banner_image: 202102/erc721.webp
+date: 2021-02-24 00:00:00 Z
 tags:
 - ethereum
 - altcoins
-rating: "5"
-TotalVotes: "17"
+layout: post
+description: What is an NFT - ERC721 (Non Fungible Token), a non-fungible token.
+banner_image: 202102/erc721.webp
+rating: '5'
+TotalVotes: '17'
 lang: en
-
 ---
+
 ERC721 tokens also called NFTs or Non-Fungible-Tokens are non fungible tokens that represent a unique, indivisible, indestructible, verifiable and irreplaceable real-life or digital object.
 
 Before ERC721 tokens, a token could only be used as a haven of value, a means of payment, or as a share.

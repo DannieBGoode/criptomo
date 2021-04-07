@@ -1,11 +1,13 @@
 ---
+title: La vida de una transacción en el blockchain
+date: 2019-04-24 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  La vida de una transacción en el blockchain
 description: 
 banner_image: 201904/trx.png
 rating: 5
 totalVotes: 4
-tags: [bitcoin]
 ---
 
 Cuando un usuario decide realizar un pago a otro usuario debe hacerlo a través de una transacción que quedará para siempre grabada en el blockchain una vez aceptada por la red. Revisemos todo el camino que la transacción recorre de principio a fin.

@@ -1,11 +1,13 @@
 ---
+title: Cripto-Austriacos vs Cripto-Keynesianos
+date: 2018-07-10 00:00:00 Z
+tags:
+- tecnologia
 layout: post
-title:  Cripto-Austriacos vs Cripto-Keynesianos
 description: Bitcoin vs Bitcoin Cash. Motivaciones de cada moneda. Criptoeconomía.
 banner_image: 201807/jimmy-song2.jpg
 rating: 5
 totalVotes: 1
-tags: [tecnologia]
 source: https://medium.com/@jimmysong/segwit2x-post-mortem-divorce-of-crypto-austrians-and-crypto-keynesians-87960b11ce4c
 sourceName: Medium
 ---

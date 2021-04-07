@@ -1,14 +1,17 @@
 ---
-layout: post
 title: Qué es Proof of Work
-description: Explicación de qué es Proof of Work, también llamado Prueba de Trabajo, cómo funciona y a que se debe que gaste tanta energía.
-banner_image: 201712/proof-of-work.jpg
+date: 2017-12-15 00:00:00 Z
 tags:
-  - bitcoin
-  - blockchain
+- bitcoin
+- blockchain
+layout: post
+description: Explicación de qué es Proof of Work, también llamado Prueba de Trabajo,
+  cómo funciona y a que se debe que gaste tanta energía.
+banner_image: 201712/proof-of-work.jpg
 rating: 5
 totalVotes: 9
 ---
+
 Proof of Work es un protocolo que evita que se hagan ataques DDoS o spam a la red de Bitcoin. Es probablemente la pieza clave de todo el whitepaper original de Bitcoin y al mismo tiempo es altamente criticado por su consumo energético.
 
 <!--more-->

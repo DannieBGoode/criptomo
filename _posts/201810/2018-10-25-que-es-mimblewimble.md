@@ -1,11 +1,13 @@
 ---
+title: Qué es Mimble Wimble
+date: 2018-10-25 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Qué es Mimble Wimble
 description: El soft fotk de Bitcoin (BTC) Mimble Wimble explicado
 banner_image: 201810/mimblewimble.jpg
 rating: 5
 totalVotes: 3
-tags: [bitcoin]
 ---
 
 Mimblewimble es un protocolo publicado por un usuario anónimo en un chat de developers de Bitcoin con el nombre de Tom Elvis Jedusor (el nombre francés de Voldemort en los libros de Harry Potter). Mimblewimble en sí es el nombre del hechizo de Harry Potter utilizado para sellar lenguas de víctimas en los libros de J.K. Rowling.

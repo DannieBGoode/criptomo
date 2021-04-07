@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Marketcaps
-description: Cryptocurrency market cap rankings, charts, and more. Bitcoin, Ethereum, Ripple...
+permalink: "/en/marketcaps/"
+layout: page
+description: Cryptocurrency market cap rankings, charts, and more. Bitcoin, Ethereum,
+  Ripple...
 banner_image: pages/marketcaps.webp
-permalink: /en/marketcaps/
 comments: true
 sitemap: true
 loadsPlugins: true
@@ -11,8 +12,8 @@ noMargins: true
 lang: en
 sidebar: false
 redirect_from:
-    - /marketcaps
-    - /marketcaps/
+- "/marketcaps"
+- "/marketcaps/"
 ---
 
 <small class="error api-error">Conexion error, your Adblock blocks the marketcaps API.</small>

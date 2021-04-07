@@ -1,11 +1,15 @@
 ---
+title: Los 5 principios a la hora de valorar una criptomoneda
+date: 2018-01-18 00:00:00 Z
+tags:
+- trading
 layout: post
-title:  Los 5 principios a la hora de valorar una criptomoneda
-description: Principios básicos de los métodos para decidir si debemos o no invertir en una criptomoneda. Cómo valorar criptomonedas, como saber si una cripto podría ser una estafa.
+description: Principios básicos de los métodos para decidir si debemos o no invertir
+  en una criptomoneda. Cómo valorar criptomonedas, como saber si una cripto podría
+  ser una estafa.
 banner_image: 201801/investing.png
 rating: 5
 totalVotes: 1
-tags: [trading]
 ---
 
 Debemos tener muy claro que el 90% de las altcoins fracasarán, y que muchas de ellas son directamente estafas para levantar mucho dinero en ICOs y desaparecer sin dejar rastro. Con las miles de criptomonedas que hay en el mercado puede ser posible elegir en cual invertir. Veamos de qué manera debemos valorar las monedas antes de decidirnos a meter dinero.

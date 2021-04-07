@@ -1,11 +1,14 @@
 ---
+title: Cómo reclamar y vender los forks de BTC
+date: 2018-10-10 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Cómo reclamar y vender los forks de BTC
-description: Cómo detectar si tenemos forks asignados en nuestras direcciones de BTC y como extraerlos y venderlos.
+description: Cómo detectar si tenemos forks asignados en nuestras direcciones de BTC
+  y como extraerlos y venderlos.
 banner_image: 201810/forks.png
 rating: 5
 totalVotes: 6
-tags: [bitcoin]
 ---
 
 En este artículo vamos a repasar cómo detectar, reclamar y vender aquellos forks que tengamos en nuestra posesión que no nos interese mantener.

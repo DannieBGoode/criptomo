@@ -1,12 +1,14 @@
 ---
+title: Bitcoin Cash Fork - Guerra de hashes
+date: 2018-11-12 00:00:00 Z
+published: false
+tags:
+- altcoins
 layout: post
-title:  Bitcoin Cash Fork - Guerra de hashes
 description: 
 banner_image: 201810/oyster.jpg
 rating: 5
 totalVotes: 1
-tags: [altcoins]
-published: false
 ---
 
 - bch fork

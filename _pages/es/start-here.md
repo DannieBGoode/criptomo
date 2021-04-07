@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Guías
-description: Guía de como empezar a entender el mundo de las criptomonedas. Explicaciones para principiantes de las diferentes criptomonedas y cómo comprarlas.
+permalink: "/guias/"
+layout: page
+description: Guía de como empezar a entender el mundo de las criptomonedas. Explicaciones
+  para principiantes de las diferentes criptomonedas y cómo comprarlas.
 banner_image: pages/guides.png
-permalink: /guias/
 comments: true
 progress: true
 ---

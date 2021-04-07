@@ -1,12 +1,15 @@
 ---
+title: "¿Se convertirá el Bitcoin en la única criptomoneda del futuro?"
+date: 2018-03-22 00:00:00 Z
+tags:
+- noticias
 layout: post
-title: ¿Se convertirá el Bitcoin en la única criptomoneda del futuro?
-description: La criptomoneda tomará un lugar dominante en finanzas mundiales y se convertirá en la principal moneda mundial para pagos, superando al dólar en importancia.
+description: La criptomoneda tomará un lugar dominante en finanzas mundiales y se
+  convertirá en la principal moneda mundial para pagos, superando al dólar en importancia.
 banner_image: 201803/dorsey.jpg
 source: https://www.coindesk.com/twitter-ceo-jack-dorsey-bitcoin-will-be-the-worlds-single-currency/
 sourceName: CoinDesk
 author: tatiana
-tags: [noticias]
 ---
 
 Según Jack Dorsey, un destacado inversor de Bitcoin y CEO de Twitter y de Square, la criptomoneda tomará un lugar dominante en finanzas mundiales y se convertirá en la principal moneda mundial para pagos, superando al dólar en importancia:

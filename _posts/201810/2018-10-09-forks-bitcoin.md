@@ -1,11 +1,13 @@
 ---
+title: Los múltiples Hard Forks de Bitcoin
+date: 2018-10-09 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Los múltiples Hard Forks de Bitcoin
 description: Todos los hard forks del blockchain de Bitcoin (BTC) relevantes listados.
 banner_image: 201810/bitcoin-split.jpg
 rating: 5
 totalVotes: 6
-tags: [bitcoin]
 ---
 
 Existen alrededor de 74 hard forks reconocidos de Bitcoin, ¿ a qué se debe esto? ¿ Es realmente necesario?

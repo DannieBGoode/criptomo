@@ -1,9 +1,11 @@
 ---
+title: Cómo comprar Bitcoin en 2020
+date: 2019-09-01 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Cómo comprar Bitcoin en 2020
 description: Guía para principiantes de cómo comprar Bitcoin en 2020. Actualizado.
 banner_image: 201909/bitcoin-2019.jpg
-tags: [bitcoin]
 rating: 5
 totalVotes: 6
 ---

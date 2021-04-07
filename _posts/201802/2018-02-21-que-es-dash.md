@@ -1,11 +1,14 @@
 ---
+title: Qué es DASH
+date: 2018-02-21 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es DASH
-description: La criptomoneda DASH, anteriormente conocida como Darkcoin, explicada de manera sencilla. Dónde comprar y guardar. Comparación con Bitcoin
+description: La criptomoneda DASH, anteriormente conocida como Darkcoin, explicada
+  de manera sencilla. Dónde comprar y guardar. Comparación con Bitcoin
 banner_image: 201802/dash.png
 rating: 4.75
 totalVotes: 3
-tags: [altcoins]
 ---
 
 Dash (anteriormente conocido como Darkcoin y XCoin) en una criptomoneda open source construida sobre Bitcoin que además ofrece transacciones instantáneas y privadas así como un modelo de auto financiación y gobernanza que permite a la red incentivar a los participantes por colaborar constructivamente. Se podría decir que la gobernanza descentralizada de que la hace uso la convierte en una organización autónoma descentralizada (DAO).

@@ -1,10 +1,12 @@
 ---
-layout: post
 title: Maneras extremas de mantener los Bitcoins a salvo
+date: 2018-04-19 00:00:00 Z
+tags:
+- bitcoin
+layout: post
 description: Maneras extremas de mantener los Bitcoins a salvo, chips NFC, paper wallets.
 banner_image: 201804/extreme.png
 author: marisa
-tags: [bitcoin]
 source: https://toshitimes.com/extreme-ways-people-keep-bitcoin-safe/
 sourceName: ToshiTimes
 ---

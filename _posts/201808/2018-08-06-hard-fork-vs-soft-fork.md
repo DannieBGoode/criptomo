@@ -1,11 +1,14 @@
 ---
+title: Hard Fork vs Soft Fork
+date: 2018-08-06 00:00:00 Z
+tags:
+- tecnologia
 layout: post
-title:  Hard Fork vs Soft Fork
-description: Qué es un Soft Fork? Qué es un Hard Fork? Explicaciones básicas y diferencias entre los dos.
+description: Qué es un Soft Fork? Qué es un Hard Fork? Explicaciones básicas y diferencias
+  entre los dos.
 banner_image: 201808/fork.jpg
 rating: 5
 totalVotes: 7
-tags: [tecnologia]
 ---
 
 El concepto de fork es algo que puede traer dolores de cabeza entenderlo, puesto que se usa a menudo para hablar del origen de criptomonedas nuevas, así como de actualizaciones de software. Veamos qué significa exactamente.

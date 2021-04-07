@@ -1,9 +1,12 @@
 ---
+title: Binance a la caza de sus hackers
+date: 2018-03-13 00:00:00 Z
+tags:
+- noticias
 layout: post
-title:  Binance a la caza de sus hackers
-description: Binance ofrece una recompensa por información acerca del intento de hack del 7 de Marzo de 2017.
+description: Binance ofrece una recompensa por información acerca del intento de hack
+  del 7 de Marzo de 2017.
 banner_image: 201803/binance-hackers.jpg
-tags: [noticias]
 source: https://cointelegraph.com/news/binance-offers-250000-bounty-for-arrest-of-hackers
 sourceName: CoinTelegraph
 ---

@@ -1,11 +1,14 @@
 ---
+title: El Problema de los Generales Bizantinos
+date: 2018-07-27 00:00:00 Z
+tags:
+- tecnologia
 layout: post
-title:  El Problema de los Generales Bizantinos
-description: Explicación del problema de los generales bizantinos y cómo se resuelve en Bitcoin mediante el algoritmo Proof of Work.
+description: Explicación del problema de los generales bizantinos y cómo se resuelve
+  en Bitcoin mediante el algoritmo Proof of Work.
 banner_image: 201807/byzantine.jpg
 rating: 5
 totalVotes: 11
-tags: [tecnologia]
 ---
 
 El Problema de los Generales Bizantinos (PGB) es un problema clásico de las redes distribuidas como Bitcoin y otras criptomonedas. La descentralización es la característica principal de estas monedas y se consigue sobretodo gracias a que consiguen solucionar este problema. 

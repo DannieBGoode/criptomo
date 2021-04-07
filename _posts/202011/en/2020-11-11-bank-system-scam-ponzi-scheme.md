@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Is the Banking System a Ponzi Pyramid Scam
-description: Is the banking system a pyramid ponzi scam? Bitcoin vs traditional banking system.
+date: 2020-11-11 00:00:00 Z
+tags:
+- bitcoin
+layout: post
+description: Is the banking system a pyramid ponzi scam? Bitcoin vs traditional banking
+  system.
 banner_image: 202011/banking.webp
 rating: 5
 TotalVotes: 16
-tags: [bitcoin]
 lang: en
 ---
 

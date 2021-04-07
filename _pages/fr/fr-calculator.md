@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Calculateur de bénéfices Bitcoin et crypto-monnaies
-description: 💵 Bitcoin Calculator, calculez le profit que vous auriez pu gagner en investissant dans Bitcoin et d'autres crypto-monnaies. 💹 Bénéfices.
+permalink: "/fr/calculateur/"
+layout: page
+description: "\U0001F4B5 Bitcoin Calculator, calculez le profit que vous auriez pu
+  gagner en investissant dans Bitcoin et d'autres crypto-monnaies. \U0001F4B9 Bénéfices."
 banner_image: pages/calculator.webp
-permalink: /fr/calculateur/
 schema: true
 rating: 5
 totalVotes: 39
@@ -13,8 +14,8 @@ loadsPlugins: true
 lang: fr
 css: calculator
 redirect_from:
-    - /fr/
-    - /fr
+- "/fr/"
+- "/fr"
 ---
 
 <div style="margin-bottom: 10px">

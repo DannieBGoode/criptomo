@@ -1,15 +1,17 @@
 ---
+title: "\U0001F4B5 Calculadora de FIRE"
+permalink: "/calculadora-fire/"
 layout: page
-title: 💵 Calculadora de FIRE
-description: 💵 Calculadora online de (Independencia Financiera), FIRE, calcula cuando te podrías jubilar ó retirar y obtener la independencia o libertad financiera.
+description: "\U0001F4B5 Calculadora online de (Independencia Financiera), FIRE, calcula
+  cuando te podrías jubilar ó retirar y obtener la independencia o libertad financiera."
 banner_image: pages/fi.webp
-permalink: /calculadora-fire/
 schema: true
 rating: 5
 totalVotes: 15
 comments: false
 sitemap: true
 ---
+
 <small>
     Calcula en cuántos años podrías jubilarte con la calculadora de Independencia Financiera FIRE.
     Esta herramienta supone que todo el dinero ahorrado está generando rendimientos al porcentaje que elijas.

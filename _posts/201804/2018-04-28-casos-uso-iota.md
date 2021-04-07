@@ -1,12 +1,14 @@
 ---
+title: Casos de uso de IOTA
+date: 2018-04-28 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Casos de uso de IOTA
 description: Los usos de IOTA como sistema en una cuarta revolución tecnoindustrial
 author: tatiana
 banner_image: 201804/iota.png
 rating: 5
 totalVotes: 1
-tags: [altcoins]
 ---
 
 IOTA es una tecnología exótica que abre un sinfín de posibilidades dentro del mercado tecnológico y que pretende realizar la 4rta revolución industrial, creando una red de economía tecnológica y descentralizada, en el marco del internet de las cosas (IOT).

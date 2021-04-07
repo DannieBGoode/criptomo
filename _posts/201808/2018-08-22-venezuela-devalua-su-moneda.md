@@ -1,9 +1,12 @@
 ---
+title: Venezuela, inflación y Petros
+date: 2018-08-22 00:00:00 Z
+tags:
+- noticias
 layout: post
-title:  Venezuela, inflación y Petros
-description: La inflación en Venezuela y cómo se quiere vincular el precio del bolívar a la criptomoneda Petro.
+description: La inflación en Venezuela y cómo se quiere vincular el precio del bolívar
+  a la criptomoneda Petro.
 banner_image: 201808/venezuela.jpg
-tags: [noticias]
 source: https://www.bloomberg.com/news/articles/2018-08-19/venezuela-s-95-devaluation-adds-to-turmoil-after-drone-attack
 sourceName: Bloomberg
 ---

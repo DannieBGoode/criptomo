@@ -1,9 +1,11 @@
 ---
+title: Valoraciones de ICOs
+date: 2020-02-22 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Valoraciones de ICOs
 description: Estrenamos sección sobre valoración de ICOs
 banner_image: 202002/ico.webp
-tags: [altcoins]
 rating: 4
 totalVotes: 4
 sitemap: false

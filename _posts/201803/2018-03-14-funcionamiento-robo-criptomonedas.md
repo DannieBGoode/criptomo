@@ -1,9 +1,12 @@
 ---
+title: Cómo funcionan los robos de criptomonedas
+date: 2018-03-14 00:00:00 Z
+tags:
+- seguridad
 layout: post
-title:  Cómo funcionan los robos de criptomonedas
-description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras de poder evitarlo.
+description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras
+  de poder evitarlo.
 banner_image: 201803/hacker.jpg
-tags: [seguridad]
 ---
 
 Cuando hablamos de robos de criptomonedas, hay un concepto que frecuentemente es malentendido: En general, los tokens de criptomonedas no existen. Lo único que existe son las transacciones asociadas a ellas.

@@ -1,11 +1,14 @@
 ---
+title: Qué podemos esperar de Ethereum 2.0
+date: 2020-09-24 00:00:00 Z
+tags:
+- ethereum
+- altcoins
 layout: post
-title:  Qué podemos esperar de Ethereum 2.0
 description: Qué novedades trae Ethereum 2.0
 banner_image: 202009/eth2.webp
 rating: 5
 totalVotes: 11
-tags: [ethereum, altcoins]
 ---
 
 Ethereum 2.0 es una revisión completa del Ethereum actual (1.0) creado por los mismos creadores con la intención de reemplazar a Ethereum 1.0 totalmente.

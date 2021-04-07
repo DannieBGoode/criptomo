@@ -1,10 +1,13 @@
 ---
+title: Cómo comprar Bitcoin y otras criptomonedas
+date: 2017-12-03 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Cómo comprar Bitcoin y otras criptomonedas
-description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Ethereum Classic (ETC), Litecoin (LTC), Ripple (XRP), dónde enviar tu dinero y cómo invertir en criptomonedas.
-date:   2017-12-03
+description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC),
+  Bitcoin Cash (BCH), Ethereum (ETH), Ethereum Classic (ETC), Litecoin (LTC), Ripple
+  (XRP), dónde enviar tu dinero y cómo invertir en criptomonedas.
 banner_image: 201712/exchange.jpg
-tags: [altcoins]
 rating: 5
 totalVotes: 6
 ---

@@ -1,11 +1,13 @@
 ---
+title: Diferencias entre tokens y Altcoins
+date: 2018-05-22 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Diferencias entre tokens y Altcoins
 description: Cuáles son las diferencias entre tokens y altcoins o criptomonedas.
 banner_image: 201805/tokens.jpg
 rating: 5
 totalVotes: 1
-tags: [altcoins]
 ---
 
 Los términos Altcoins y tokens se usan indistintamente de manera continua en el espacio pero en realidad son dos conceptos distintos y es importante conocer la diferencia entre ambos.

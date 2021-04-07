@@ -1,11 +1,13 @@
 ---
+title: What happens if two blocks are mined simultaneously
+date: 2020-06-06 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  What happens if two blocks are mined simultaneously
 description: What happens if in Bitcoin two blocks are mined simultaneously
 banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11
-tags: [bitcoin]
 lang: en
 ---
 

@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Calculadora de lucro com bitcoins e criptomoedas
-description: 💵 Calculadora Bitcoin, calcule quanto lucro você poderia ter ganho investindo em Bitcoin e outras criptomoedas. 💹 Lucros.
+permalink: "/pt/calculator/"
+layout: page
+description: "\U0001F4B5 Calculadora Bitcoin, calcule quanto lucro você poderia ter
+  ganho investindo em Bitcoin e outras criptomoedas. \U0001F4B9 Lucros."
 banner_image: pages/calculator.webp
-permalink: /pt/calculator/
 schema: true
 rating: 5
 totalVotes: 39
@@ -13,10 +14,10 @@ loadsPlugins: true
 lang: pt
 css: calculator
 redirect_from:
-    - /pt/
-    - /pt
-    - /br
-    - /br/
+- "/pt/"
+- "/pt"
+- "/br"
+- "/br/"
 ---
 
 <div style="margin-bottom: 10px">

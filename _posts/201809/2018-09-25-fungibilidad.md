@@ -1,11 +1,13 @@
 ---
+title: Qué es la Fungibilidad
+date: 2018-09-25 00:00:00 Z
+tags:
+- tecnologia
 layout: post
-title:  Qué es la Fungibilidad
 description: 
 banner_image: 201809/monero.jpg
 rating: 5
 totalVotes: 5
-tags: [tecnologia]
 ---
 
 Frecuentemente se menciona el concepto de fungibilidad como si fuera una característica crítica de las criptomonedas. Entendamos bien qué significa este concepto y cómo se relaciona con ellas.

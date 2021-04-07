@@ -1,9 +1,11 @@
 ---
-layout: post
 title: 15 ideas to generate Passive Income in 2021
+date: 2021-02-08 00:00:00 Z
+tags:
+- fi
+layout: post
 description: Ideas for businesses that generate passive income in 2021
 banner_image: 202102/income.webp
-tags: [fi]
 rating: 4.8
 TotalVotes: 19
 lang: en

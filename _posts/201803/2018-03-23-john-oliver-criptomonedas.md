@@ -1,10 +1,12 @@
 ---
-layout: post
 title: John Oliver y las Criptomonedas
+date: 2018-03-23 00:00:00 Z
+tags:
+- noticias
+layout: post
 description: John Oliver habla de las criptomonedas en el programa The Latenight Show.
 banner_image: 201803/john-oliver.jpg
 author: marisa
-tags: [noticias]
 ---
 
 "Si eliges invertir en criptomonedas, no estás invirtiendo, estás apostando"

@@ -1,11 +1,14 @@
 ---
+title: Los Simpsons explican las criptomonedas
+date: 2020-02-23 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  Los Simpsons explican las criptomonedas
-description: Los Simpsons explican las criptomonedas en un pequeño video. También video de Padre de Familia y Bitcoin.
+description: Los Simpsons explican las criptomonedas en un pequeño video. También
+  video de Padre de Familia y Bitcoin.
 banner_image: 202002/simpsons.webp
 rating: 5
 totalVotes: 3
-tags: [bitcoin]
 ---
 
 Un buen indicador de cuanto se están empezezando a popularizar las criptomonedas podría resultar sin duda la popular serie que se niega a morir *The Simpsons*. Una serie conocida de manera internacional y traducida a infinidad de idiomas vista por gente de todas las edades desde que empezó en 1989.

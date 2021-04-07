@@ -1,11 +1,13 @@
 ---
-layout: post
 title: What is a mnemonic phrase
+date: 2021-01-11 00:00:00 Z
+tags:
+- bitcoin
+layout: post
 description: What is a mnemonic phrase or seed and how safe is it
 banner_image: 202101/mnemonic.webp
 rating: 5
 TotalVotes: 10
-tags: [bitcoin]
 lang: en
 ---
 

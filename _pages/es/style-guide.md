@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Style Guide
+permalink: "/style-guide/"
+layout: page
 description: This is a style guide of the theme
-permalink: /style-guide/
 sitemap: false
 ---
 

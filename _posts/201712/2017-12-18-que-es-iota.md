@@ -1,12 +1,14 @@
 ---
-layout: post
 title: Qué es IOTA
-description: La criptomoneda IOTA explicada, en qué consiste, dónde comprarla y cómo almancerla de manera segura.
+date: 2017-12-18 00:00:00 Z
+tags:
+- altcoins
+layout: post
+description: La criptomoneda IOTA explicada, en qué consiste, dónde comprarla y cómo
+  almancerla de manera segura.
 banner_image: 201712/iota.jpg
 rating: 5
 totalVotes: 1
-tags:
-  - altcoins
 ---
 
 [IOTA](https://iota.org/) es una de las altcoins que más ha subido de precio durante las últimas semanas, cuenta con un mercado de 11000 millones de dólares. Aunque permite comunicación económica entre wallets de la misma manera que BTC o Ethereum, este no es su principal propósito, lo que pretende es ofrecer una plataforma para la economía entre dispositivos en el Internet Of Things.

@@ -1,11 +1,14 @@
 ---
+title: Qué es un Hash
+date: 2018-07-30 00:00:00 Z
+tags:
+- tecnologia
 layout: post
-title:  Qué es un Hash
-description: Explicación de qué es un hash, que es el cifrado y cómo se utilizan en las redes de criptomonedas.
+description: Explicación de qué es un hash, que es el cifrado y cómo se utilizan en
+  las redes de criptomonedas.
 banner_image: 201807/hashing.png
 rating: 5
 totalVotes: 9
-tags: [tecnologia]
 ---
 
 Con frecuencia hablamos en este mundo de hashes y cifrados asimétricos, por lo que es importante tener claro estos conceptos que tanto uso se le dan en el mundo de las criptomonedas.

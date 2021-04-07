@@ -1,11 +1,14 @@
 ---
+title: Proof of Work vs Proof of Stake
+date: 2018-05-30 00:00:00 Z
+tags:
+- tecnologia
 layout: post
-title:  Proof of Work vs Proof of Stake
-description: Diferencias entre Proof of Work y Proof of Stake. Problemas e inconvenientes de cada uno.
+description: Diferencias entre Proof of Work y Proof of Stake. Problemas e inconvenientes
+  de cada uno.
 banner_image: 201805/pow-pos.jpg
 rating: 5
 totalVotes: 4
-tags: [tecnologia]
 ---
 
 Proof of Work y Proof of Stake son los mecanismos de consenso principales utilizados en el mundo de las criptomonedas y existe mucho debate sobre cuál es el mejor. Ambos algoritmos ofrecen un sistema de incentivos para los participantes de una red de manera que cumplan con las reglas del sistema.

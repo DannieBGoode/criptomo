@@ -1,11 +1,14 @@
 ---
+title: Qué es Nano (XRB)
+date: 2018-02-12 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es Nano (XRB)
-description: La criptomoneda Nano, anteriormente conocida como Raiblocks, XRB explicada de manera sencilla. Diferencias con Bitcoin y Ethereum. Dónde comprar y guardar.
+description: La criptomoneda Nano, anteriormente conocida como Raiblocks, XRB explicada
+  de manera sencilla. Diferencias con Bitcoin y Ethereum. Dónde comprar y guardar.
 banner_image: 201802/xrb.jpg
 rating: 5
 totalVotes: 2
-tags: [altcoins]
 ---
 
 Nano, anteriormente conocida como Raiblocks, es un proyecto bastante joven que frecuentemente es comparado con IOTA por el hecho de que no utiliza tecnología blockchain, sino tecnología DAG, más concretamente tecnología *block lattice*. Es importante tener en cuenta que XRB no pretende competir con Ethereum en cuanto a smart contracts, sino que su intención es limitarse únicamente a ser usados como medio de pago.

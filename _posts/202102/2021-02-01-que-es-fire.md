@@ -1,9 +1,11 @@
 ---
+title: Qué es el movimiento FIRE
+date: 2021-02-01 00:00:00 Z
+tags:
+- fi
 layout: post
-title:  Qué es el movimiento FIRE
 description: Qué es FIRE, Financial Independence Retire Early
 banner_image: 202102/fire2.webp
-tags: [fi]
 rating: 5
 totalVotes: 7
 ---

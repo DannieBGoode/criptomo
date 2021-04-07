@@ -1,11 +1,13 @@
 ---
+title: "¿Qué está ocurriendo con Bitcoin Cash?"
+date: 2018-09-10 00:00:00 Z
+tags:
+- noticias
 layout: post
-title: ¿Qué está ocurriendo con Bitcoin Cash?
 description: 
 banner_image: 201809/bch.jpg
 rating: 5
 totalVotes: 5
-tags: [noticias]
 source: https://cryptoslate.com/a-three-headed-mess-bitcoin-cash-headed-toward-messy-three-way-split/
 sourceName: Cryptoslate
 ---

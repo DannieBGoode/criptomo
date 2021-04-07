@@ -1,10 +1,13 @@
 ---
+title: My Ether Wallet hackeado
+date: 2018-04-24 08:08:39 Z
+tags:
+- noticias
 layout: post
-title:  My Ether Wallet hackeado
-description: Qué es un smart contract, también llamado contrato inteligente. Código inmutable y transparente ejecutado en el Blockchain. Problemas de los smart contracts. El problema de los oráculos.
+description: Qué es un smart contract, también llamado contrato inteligente. Código
+  inmutable y transparente ejecutado en el Blockchain. Problemas de los smart contracts.
+  El problema de los oráculos.
 banner_image: 201804/mew.jpg
-tags: [noticias]
-date: 2018-04-24 10:08:39 +02:00
 ---
 
 El wallet por excelencia de Ethereum y tokens ERC20 MyEtherWallet (MEW) ha sido hackeado esta tarde lo que ha ocasionado en apenas media hora una pérdida de fondos de usuarios por un valor aproximado de medio millón de dólares.

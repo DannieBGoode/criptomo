@@ -1,11 +1,14 @@
 ---
-layout: post
 title: Santander empezará a utilizar Ripple
-description: Santander ha anunciado que empezará a ofrecer transferencias basadas en tecnología blockchain a través de Ripple.
+date: 2018-03-25 00:00:00 Z
+tags:
+- noticias
+layout: post
+description: Santander ha anunciado que empezará a ofrecer transferencias basadas
+  en tecnología blockchain a través de Ripple.
 banner_image: 201803/santander.jpg
 source: http://www.businessinsider.com/santander-ripple-money-transfer-app-2018-3
 sourceName: Business Insider
-tags: [noticias]
 ---
 
 El Banco Santander está en camino de lanzar su primera aplicación de transferencia de dinero internacional de la mano de la startup Ripple en los próximos meses.

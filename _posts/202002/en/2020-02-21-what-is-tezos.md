@@ -1,14 +1,16 @@
 ---
-layout: post
 title: What is Tezos (XTZ)
-description: Beginner's guide to what Tezos (XTZ) is and how it differs from Cardano (ADA).
+date: 2020-02-21 00:00:00 Z
+tags:
+- altcoins
+layout: post
+description: Beginner's guide to what Tezos (XTZ) is and how it differs from Cardano
+  (ADA).
 banner_image: 202002/tezos.jpg
-tags: [altcoins]
 rating: 5
 totalVotes: 16
 lang: en
 ---
-
 
 Tezos broke into the cryptocurrency ecosystem raising 232 million dollars in BTC, and ETH thanks to a successful ICO in the first two weeks of July 2017 which made it one of The most successful ICOs to date.
 

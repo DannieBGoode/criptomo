@@ -1,11 +1,14 @@
 ---
+title: "¿Son 21 millones de bitcoins suficientes?"
+date: 2018-08-28 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  ¿Son 21 millones de bitcoins suficientes?
-description: Sólo existirán 21 millones de bitcoins, ¿serán suficientes para toda la población si el Bitcoin triunfa? ¿Cuánto se puede dividir cada Bitcoin?
+description: Sólo existirán 21 millones de bitcoins, ¿serán suficientes para toda
+  la población si el Bitcoin triunfa? ¿Cuánto se puede dividir cada Bitcoin?
 banner_image: 201808/bitcoin-mining.jpg
 rating: 5
 totalVotes: 5
-tags: [bitcoin]
 ---
 
 Únicamente existirán unos 21 millones de criptomonedas, suponiendo que el Bitcoin triunfa y acaba extendiéndose por el mundo, ¿será este número suficiente para poder hacer frente a una economía mundial de transacciones al uso?

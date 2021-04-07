@@ -1,11 +1,14 @@
 ---
+title: Qué es SALT
+date: 2017-12-14 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es SALT
-description: La criptomoneda SALT ofrece un potencialmente lucrativo puente entre el mundo de los prestamos y el de las criptomonedas.
+description: La criptomoneda SALT ofrece un potencialmente lucrativo puente entre
+  el mundo de los prestamos y el de las criptomonedas.
 banner_image: 201712/salt.jpg
 rating: 5
 totalVotes: 1
-tags: [altcoins]
 ---
 
 [SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. Es una moneda ERC-20, es decir, basada en Ethereum, por lo cual podemos almacenarla en cualquier wallet que soporte Ether y tendrá 120 millones de tokens en circulación.

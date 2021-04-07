@@ -1,11 +1,15 @@
 ---
+title: El problema de la escalabilidad de Bitcoin
+date: 2018-01-24 00:00:00 Z
+tags:
+- bitcoin
 layout: post
-title:  El problema de la escalabilidad de Bitcoin
-description: Explicación del problema de escalabilidad de Bitcoin y sus posibles soluciones. Tiempos de bloque, tamaño de bloque, bloques huérfanos, stale blocks, Segwit y Lightning Network.
+description: Explicación del problema de escalabilidad de Bitcoin y sus posibles soluciones.
+  Tiempos de bloque, tamaño de bloque, bloques huérfanos, stale blocks, Segwit y Lightning
+  Network.
 banner_image: 201801/bitcoin-scalability.jpg
 rating: 4.75
 totalVotes: 3
-tags: [bitcoin]
 ---
 
 El problema de escalabilidad de Bitcoin es un tema que crea mucho debate y que ha ocasionado numerosas creaciones de nuevas criptomonedas intentando resolverse. Su limitada capacidad de 4-10 transacciones por segundo queda muy lejos de rivalizar a los gigantes de la industria como VISA o Mastercard que manejan decenas de miles de tps. Se han discutido varios métodos de arreglar este problema.

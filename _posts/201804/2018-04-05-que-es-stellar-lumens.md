@@ -1,11 +1,14 @@
 ---
+title: Qué es Stellar Lumens (XLM)
+date: 2018-04-05 00:00:00 Z
+tags:
+- altcoins
 layout: post
-title:  Qué es Stellar Lumens (XLM)
-description: La criptomoneda Stellar Lumens (XLM) explicada de manera sencilla. Dónde comprar y guardar.
+description: La criptomoneda Stellar Lumens (XLM) explicada de manera sencilla. Dónde
+  comprar y guardar.
 banner_image: 201804/stellar.png
 rating: 5
 totalVotes: 2
-tags: [altcoins]
 ---
 
 Stellar es una plataforma híbrida descentralizada basada en blockchain que pretende facilitar transacciones inter-divisas por comisiones menores a un céntimo creando un sistema financiero que permite a gente de todos los niveles sociales acceder a servicios financieros baratos.

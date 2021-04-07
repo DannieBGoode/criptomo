@@ -1,9 +1,10 @@
 ---
-layout: page
 title: Cartera de Inversión de Criptomonedas
-description: Cartera de Inversión de Criptomonedas, invierte periodicamente y calcula tus ganancias de Bitcoin
+permalink: "/inversion/"
+layout: page
+description: Cartera de Inversión de Criptomonedas, invierte periodicamente y calcula
+  tus ganancias de Bitcoin
 banner_image: pages/investment.webp
-permalink: /inversion/
 schema: true
 rating: 5
 totalVotes: 25

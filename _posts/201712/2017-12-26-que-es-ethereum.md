@@ -1,12 +1,14 @@
 ---
-layout: post
 title: Qué es Ethereum
-description: La criptomoneda Ethereum explicada, qué es, qué diferencias tiene con Bitcoin y dónde comprarla
+date: 2017-12-26 00:00:00 Z
+tags:
+- altcoins
+layout: post
+description: La criptomoneda Ethereum explicada, qué es, qué diferencias tiene con
+  Bitcoin y dónde comprarla
 banner_image: 201712/ethereum.jpg
 rating: 5
 totalVotes: 2
-tags:
-  - altcoins
 ---
 
 [Ethereum](https://www.ethereum.org/) es una plataforma open source basada en tecnología blockchain que permite a desarrolladores construir y desplegar sus propias aplicaciones descentralizadas que correrán exactamente de la manera en que han sido programadas sin que se puedan censurar, interferir o desconectar.
