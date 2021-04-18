@@ -3,7 +3,8 @@ title: Bitcoin and Cryptocurrencies Profit Calculator
 permalink: "/en/calculator/"
 layout: page
 description: "\U0001F4B5 Bitcoin Calculator, calculate how much profit you could have
-  earned investing in Bitcoin and other cryptocurrencies. Bitcoin Return Calculator. \U0001F4B9 Profits."
+  earned investing in Bitcoin and other cryptocurrencies. Bitcoin Return Calculator.
+  \U0001F4B9 Profits."
 banner_image: pages/calculator.webp
 schema: true
 rating: 5
