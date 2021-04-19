@@ -59,3 +59,19 @@ Dos de las principales funcionalidades que tiene el uso de este par de claves es
 
 {% include image_caption.html imageurl="/images/posts/201807/signature.png" title="Firmas Digitales" caption="Si enviamos un mensaje, podemos realizar el hash del mismo y cifrarlo con una clave privada. Cualquier receptor puede después comparar el hash del documento original con el hash obtenido al descifrar con la clave pública del emisor. Si coinciden el mensaje es válido." popup=true %}
 
+El comportamiento mostrado en la imagen sería:
+
+El emisor está generando lo siguiente:
+- El documento
+- Un hash del documento, llamémosle A (esto lo puede generar cualquier persona que tenga el documento puesto que no requiere claves privadas/públicas)
+- El mismo hash del documento pero cifrado con su clave privada. Llamémosle B=F(A). Esto es lo que se llama firma digital.
+
+El receptor, recibe:
+- El documento
+- La Firma digital B=F(A)
+
+El receptor entonces genera:
+- Un hash del documento, que coincide con A, puesto que tanto el emisor como el receptor han cogido el mismo documento y han generado un hash con la misma fórmula.
+- Con la clave pública descifra la firma digital, haciendo que F(B)=A.
+Si ambos resultados coinciden , se puede decir que el documento y la firma proceden de la misma persona que facilitó la clave pública al receptor.
+
