@@ -1,10 +1,11 @@
 ---
 title: What is a Hash
+date: 2021-02-25 00:00:00 Z
 tags:
 - technology
 layout: post
-description: Explanation of what a hash is, what encryption is and how they are used in
-  cryptocurrency networks.
+description: Explanation of what a hash is, what encryption is and how they are used
+  in cryptocurrency networks.
 banner_image: 202104/hashing.webp
 rating: 5
 TotalVotes: 9
