@@ -56,7 +56,7 @@ Any of these cryptocurrencies can be purchased ** directly from the app ** throu
 ** With commissions: **
 - With a debit/credit card, the purchase of cryptocurrencies costs a 3.50% commission per transaction.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Purchase of cryptocurrencies"%}
+{% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Cryptocurrency purchase" popup=true %}
 
 The conversion rates applied to BTC purchases are quite tight to those offered by other platforms such as Bitstamp or Kraken, so they are a good alternative to the usual exchanges.
 
@@ -66,17 +66,15 @@ Extract cryptocurrencies outside the Monaco ecosystem if it entails a commission
 
 Like other applications such as Delta or Blockfolio, a cryptocurrency price tracker is included to see real-time market variations.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/track.mp4" attributes="autoplay muted playsinline loop" caption="Cryptocurrency tracking"%}
+{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" popup=true %}
 
 ### Fiat money portfolio (euros, dollars ...)
 
 Additionally, **we may have funds in multiple currencies** (for example part in euros and part in dollars). **Monaco ensures that the exchange rate will be the interbank exchange in real time with commissions of 0%**. In this way, a user would have very easy to sell their euros or dollar changes in real time, something very advantageous compared to the changes offered by traditional banks when trying to pay abroad with a credit card of a different currency.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Fiat Exchange"%}
-
 As usual in products like this, you can send and receive funds from both fiat and cryptocurrencies with other Crypto users.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Free money transfer"%}
+{% include image_caption.html imageurl="/images/posts/201806/send.webp" title="Free money transfer" caption="Envío de dinero gratuito" popup=true %}
 
 In addition, following the model of applications such as Mint or Fintonic, all expenses we make with Monaco credit cards will be categorized in the application to help the user make budgets or organize their expenses.
 
@@ -203,14 +201,14 @@ For example if we had 1,000 CRO blocked within the system, we would get the foll
 
 ### Monaco PAY
 
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-72228947.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/pay.webp" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 Monaco is pushing its new Crypto.com Chain (CRO) currency with the intention of mimicking the success that WeChat is having in the Chinese market for mobile payments. His intention is to compete with VISA and Mastercard by offering a free payment system for the merchant, which also offers a dashboard from which to control all his payments:
 {% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
 
 For the user, a new button to pay with Crypto Chain will appear on the websites that have it enabled in the same way that a link to pay with Paypal would appear and will be given to choose with which cryptocurrency you want to make the payment.
 
-{% include video.html provider="html5" id="https://crypto.com/images/crypto_pay/pay-animation.mp4" attributes="autoplay muted playsinline loop" caption="Payment with Crypto Pay" %}.
+{% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 
 

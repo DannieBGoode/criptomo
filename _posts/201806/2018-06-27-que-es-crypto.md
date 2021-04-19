@@ -75,7 +75,7 @@ Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisi√
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
 
-{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto PAY" caption="Crypto Track" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" popup=true %}
 
 ### Cartera de dinero fiat (euros, d√≥lares...)
 
