@@ -73,5 +73,6 @@ El receptor, recibe:
 El receptor entonces genera:
 - Un hash del documento, que coincide con A, puesto que tanto el emisor como el receptor han cogido el mismo documento y han generado un hash con la misma fórmula.
 - Con la clave pública descifra la firma digital, haciendo que F(B)=A.
+
 Si ambos resultados coinciden , se puede decir que el documento y la firma proceden de la misma persona que facilitó la clave pública al receptor.
 
