@@ -65,7 +65,7 @@ Cualquiera de estas criptomonedas puede ser comprada **directamente desde la app
 **Con comisiones:**
 - Con tarjeta de débito/crédito, la compra de criptomonedas cuesta un 3.50% de comisión por transacción.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/buy.mp4" attributes="autoplay muted playsinline loop" caption="Compra de criptomonedas" %}
+{% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Compra de criptomonedas" popup=true %}
 
 Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
 
@@ -75,17 +75,15 @@ Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisi�
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/track.mp4" attributes="autoplay muted playsinline loop" caption="Seguimiento de criptomonedas" %}
+{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto PAY" caption="Crypto Track" popup=true %}
 
 ### Cartera de dinero fiat (euros, dólares...)
 
 Adicionalmente, **podremos tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/exchange.mp4" attributes="autoplay muted playsinline loop" caption="Intercambio de fiat" %}
-
 Cómo es habitual en productos así, se podrá enviar y recibir fondos tantos de fiat como de criptomonedas con otros usuarios de Crypto.
 
-{% include video.html provider="html5" id="https://crypto.com/images/apps/send.mp4" attributes="autoplay muted playsinline loop" caption="Envío de dinero gratuito" %}
+{% include image_caption.html imageurl="/images/posts/201806/send.webp" title="Envío de dinero gratuito" caption="Envío de dinero gratuito" popup=true %}
 
 Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gastos que hagamos con las tarjetas de crédito Monaco quedarán categorizados en la aplicación para ayudar al usuario a hacerse presupuestos u organizar sus gastos.
 
@@ -216,14 +214,13 @@ Por ejemplo si tuvieramos 25,000 CRO bloqueado (y en consecuencia los beneficios
 
 ### Crypto PAY
 
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-macbook-with-iphonex-72228947.png" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/pay.webp" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
-Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos:
-{% include image_caption.html imageurl="https://crypto.com/images/crypto_pay/pay-merchant-ui-1-17c8a970.png" title="Crypto PAY" caption="Crypto PAY Dashboard" popup=true %}
+Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos.
 
 Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
 
-{% include video.html provider="html5" id="https://crypto.com/images/crypto_pay/pay-animation.mp4" attributes="autoplay muted playsinline loop" caption="Pago con Crypto Pay" %}
+{% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" popup=true %}
 
 
 
