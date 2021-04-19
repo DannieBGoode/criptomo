@@ -14,7 +14,7 @@ lang: en
 
 A good indicator of how much cryptocurrencies are beginning to be popularized could undoubtedly be the popular series that refuses to die *The Simpsons*. A series known internationally and translated into countless languages ​​seen by people of all ages since it began in 1989.
 
-{% include video.html provider="youtube" id="ovyMzT8rS8w" attributes="autoplay muted playsinline loop" caption="Criptomonedas en los Simpsons" %}
+{% include video.html provider="youtube" id="8FvWs2mwJwI" attributes="autoplay muted playsinline loop" caption="Criptomonedas en los Simpsons" %}
 
 However it is not the first time Bitcoin is mentioned in the popular tv show:
 
