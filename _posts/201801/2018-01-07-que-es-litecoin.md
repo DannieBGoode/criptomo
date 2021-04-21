@@ -6,7 +6,7 @@ tags:
 layout: post
 description: La criptomoneda Litecoin es una de las más valoradas del mercado. Aprende
   qué es, cómo y por qué se creó, y dónde comprar LTC
-banner_image: 201801/litecoin.png
+banner_image: 201801/litecoin.webp
 rating: 4.5
 totalVotes: 2
 ---
