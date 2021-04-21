@@ -18,6 +18,7 @@ defaults:
     type: posts
   values:
     progress: true
+    css: post
 description: Aprende de Criptomonedas, inversión, seguridad. Guías de cómo y dónde
   comprar. Tutoriales para invertir en criptomonedas para principiantes y discusiones
   para niveles avanzados.
