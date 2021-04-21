@@ -116,6 +116,7 @@ layout: compress
 
     {% if page.layout == 'post' %}
     <script defer src="/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+    <script defer src="/js/post.js?{{site.time | date: '%s%N'}}"></script>
     <script defer src="{{ site.baseurl }}/js/custom.js?{{site.time | date: '%s%N'}}"></script>
     {% endif %}
     {% include ads_adsense.html %}

@@ -8,12 +8,5 @@ docReady(function() {
   $(document).ready(function () {
     // Responsive video embeds
     $('.entry-content').fitVids();
-
-    // mgnific
-    $('.image-link').magnificPopup({type: 'image'});
-    $('.popup-link').magnificPopup({
-      type: 'image'
-      // other options
-    });
   });
 });
