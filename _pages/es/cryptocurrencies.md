@@ -4,7 +4,6 @@ permalink: "/criptomonedas/"
 layout: default
 description: Explicación breve de más de 100 criptomonedas
 progress: true
-loadsPlugins: true
 ---
 
 <div class="site-content">
@@ -65,6 +64,6 @@ loadsPlugins: true
     </div><!-- .inner -->
 </div><!-- .site-content -->
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/js/filters.js?{{site.time | date: '%s%N'}}"></script>

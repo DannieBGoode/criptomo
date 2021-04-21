@@ -44,5 +44,5 @@ sitemap: false
 </div><!-- .site-content -->
 
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
 <script src="{{ site.baseurl }}/js/tags.js?{{site.time | date: '%s%N'}}"></script>

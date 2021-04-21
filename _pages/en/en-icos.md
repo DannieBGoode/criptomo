@@ -6,7 +6,6 @@ description: The ICOs that raised the most funds ever.
 banner_image: pages/ico.webp
 comments: true
 sitemap: true
-loadsPlugins: true
 noMargins: true
 lang: en
 sidebar: false
@@ -31,7 +30,7 @@ sidebar: false
 
 <table id="marketcaps-table" class="display" width="100%"></table>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
 
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>

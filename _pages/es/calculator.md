@@ -11,7 +11,6 @@ rating: 5
 totalVotes: 15
 comments: false
 sitemap: true
-loadsPlugins: true
 css: calculator
 ---
 

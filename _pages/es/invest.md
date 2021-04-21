@@ -10,7 +10,6 @@ rating: 5
 totalVotes: 25
 comments: true
 sitemap: true
-loadsPlugins: true
 lang: es
 ---
 
@@ -104,7 +103,7 @@ lang: es
     </script>
 </div>
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
 <script src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/invest.js?{{site.time | date: '%s%N'}}"></script>

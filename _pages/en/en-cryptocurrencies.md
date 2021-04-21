@@ -4,7 +4,6 @@ permalink: "/en/cryptocurrencies/"
 layout: default
 description: Short description of over 100 cryptocurrencies
 progress: true
-loadsPlugins: true
 lang: en
 redirect_from:
 - "/cryptocurrencies"
@@ -66,6 +65,6 @@ redirect_from:
     </div><!-- .inner -->
 </div><!-- .site-content -->
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/js/filters.js?{{site.time | date: '%s%N'}}"></script>

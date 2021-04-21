@@ -10,7 +10,6 @@ rating: 5
 totalVotes: 45
 comments: true
 sitemap: true
-loadsPlugins: true
 lang: en
 redirect_from:
 - "/investment"
@@ -108,7 +107,7 @@ redirect_from:
     </script>
 </div>
 
-<script src="{{ site.baseurl }}/js/plugins.js?{{site.time | date: '%s%N'}}"></script>
+<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
 <script src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/invest.js?{{site.time | date: '%s%N'}}"></script>

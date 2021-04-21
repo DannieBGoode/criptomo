@@ -10,7 +10,6 @@ rating: 5
 totalVotes: 39
 comments: false
 sitemap: true
-loadsPlugins: true
 lang: pt
 css: calculator
 redirect_from:
