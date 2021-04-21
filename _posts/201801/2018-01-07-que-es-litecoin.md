@@ -57,8 +57,6 @@ Charlie Lee es una celebridad bastante conocida en el mundo de las criptomonedas
 
 El resto del equipo tanto miembros oficiales como voluntarios puede ser consultado en la página web de la [Fundación Litecoin](https://litecoin-foundation.org/about-us/) registrada en Singapur.
 
-{% include video.html provider="youtube" id="U2KP8koYC3s" caption="Entrevista a Charlie Lee" %}
-
 #### ¿Dónde Comprar Litecoin?
 * [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e)
 * [Binance](https://accounts.binance.com/es/register?ref=11317062)
