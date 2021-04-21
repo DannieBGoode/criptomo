@@ -57,7 +57,7 @@ layout: default
 
             <div class="author-box">
                 <div class="author-info">
-                    <div class="author-avatar" style="background-image: url({{ site.baseurl }}{{ writer.author_image }})"><span class="screen-reader-text">{{ writer.author_name }}'s Picture</span></div>
+                    <img class="author-avatar" loading="lazy" src="{{ site.baseurl }}{{ writer.author_image }}"/>
                     <div class="author-details">
 
                         {% assign translations = site.data.translations.about %}
