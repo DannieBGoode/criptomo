@@ -6,7 +6,9 @@
 	<div class="nav-previous">
 		<div class="nav-inside">
 		    {% if post.banner_image %}
-		    <a href="{{ site.baseurl }}{{post.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: post.banner_image }})"></a>
+		    <a href="{{ site.baseurl }}{{post.url}}">
+		    	<img loading="lazy" src="{{ site.baseurl }}{{ '/images/posts/' | append: post.banner_image }}" class="nav-thumb" />
+		    </a>
 		    {% endif %}
 		    <div class="nav-before">{{ site.data.translations.previous-entries[lang] }}</div>
 		    <div class="nav-title"><a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a></div>
@@ -28,7 +30,9 @@
 	<div class="nav-next">
 		<div class="nav-inside">
 		    {% if post.banner_image %}
-		    <a href="{{ site.baseurl }}{{post.url}}" class="nav-thumb" style="background-image: url({{ site.baseurl }}{{ "/images/posts/" | append: post.banner_image }})"></a>
+		    <a href="{{ site.baseurl }}{{post.url}}">
+		    	<img loading="lazy" src="{{ site.baseurl }}{{ '/images/posts/' | append: post.banner_image }}" class="nav-thumb" />
+		    </a>
 		    {% endif %}
 		    <div class="nav-before">{{ site.data.translations.next-entries[lang] }}</div>
 		    <div class="nav-title"><a href="{{ site.baseurl }}{{post.url}}">{{post.title}}</a></div>
