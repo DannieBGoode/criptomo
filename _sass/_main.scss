@@ -643,6 +643,9 @@ a.archive-top-link:hover {
 .widget:first-child {
     border-top: 0;
     padding-top: 0;
+    @media only screen and (min-width: $small-screen-breakpoint) {
+        height: 450px;
+    }
 }
 
 .widget-title {
