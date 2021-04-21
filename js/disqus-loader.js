@@ -115,3 +115,4 @@
 	};
 
 }( window, document, 0 ));
+disqusLoader( '.disqus', { scriptUrl: '//criptomo.disqus.com/embed.js' });
