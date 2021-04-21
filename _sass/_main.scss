@@ -522,8 +522,7 @@ a.archive-top-link:hover {
 }
 
 .post-navigation .nav-thumb {
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 100%;
     position: absolute;
     right: 0;
