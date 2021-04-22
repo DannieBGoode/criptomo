@@ -5,7 +5,6 @@ layout: page
 description: Cryptocurrency market cap rankings, charts, and more. Bitcoin, Ethereum,
   Ripple...
 banner_image: pages/marketcaps.webp
-comments: true
 sitemap: true
 noMargins: true
 lang: en

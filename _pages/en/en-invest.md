@@ -8,7 +8,6 @@ banner_image: pages/investment.webp
 schema: true
 rating: 5
 totalVotes: 45
-comments: true
 sitemap: true
 lang: en
 redirect_from:

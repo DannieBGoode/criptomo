@@ -4,7 +4,6 @@ permalink: "/en/icos/"
 layout: page
 description: The ICOs that raised the most funds ever.
 banner_image: pages/ico.webp
-comments: true
 sitemap: true
 noMargins: true
 lang: en

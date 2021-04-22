@@ -5,7 +5,6 @@ layout: page
 description: Cotización, Capitalización total de Bitcoin, Ethereum, Ripple y las principales
   criptomonedas en el mercado.
 banner_image: pages/marketcaps.webp
-comments: true
 sitemap: true
 noMargins: true
 sidebar: false
