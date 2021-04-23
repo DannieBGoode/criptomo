@@ -645,6 +645,9 @@ a.archive-top-link:hover {
     @media only screen and (min-width: $small-screen-breakpoint) {
         height: 450px;
     }
+    @media only screen and (max-width: $small-screen-breakpoint) {
+        height: 300px;
+    }
 }
 
 .widget-title {
