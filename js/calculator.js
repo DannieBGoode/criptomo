@@ -148,5 +148,5 @@ for(i = 0; i < exampleDate.length; i++){
 }
 
 function init() {
-  // document.getElementById('invest-date').setAttribute('max', new Date().toISOString().split('T')[0]);
+  document.getElementById('invest-date').setAttribute('max', new Date().toISOString().split('T')[0]);
 }
