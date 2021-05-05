@@ -66,6 +66,7 @@ else {
     var scriptElement = document.createElement("script");
     scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
     document.body.appendChild(scriptElement);
+    
     (adsbygoogle = window.adsbygoogle || []).onload = function () {
         [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
             adsbygoogle.push({
@@ -74,7 +75,7 @@ else {
             });
         });
     }
-    
+
     for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
 
