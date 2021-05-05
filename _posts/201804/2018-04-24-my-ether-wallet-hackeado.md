@@ -4,9 +4,7 @@ date: 2018-04-24 08:08:39 Z
 tags:
 - noticias
 layout: post
-description: Qué es un smart contract, también llamado contrato inteligente. Código
-  inmutable y transparente ejecutado en el Blockchain. Problemas de los smart contracts.
-  El problema de los oráculos.
+description: My Ether Wallt hackeado 2018.
 banner_image: 201804/mew.jpg
 ---
 
