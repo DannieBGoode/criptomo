@@ -67,15 +67,6 @@ else {
     for (var i = 0; i < elements.length; i++) {
         var element = elements[i];
 
-        if (!googleAdScriptAppended) {
-
-            googleAdScriptAppended = true;
-            var scriptElement = document.createElement("script");
-            scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-            document.body.appendChild(scriptElement);
-
-        }
-
         if (window.adsbygoogle) {
             element.classList.remove('lazy-load-ad');
             element.classList.add('lazy-loaded-ad');
@@ -85,6 +76,11 @@ else {
             elements = document.getElementsByClassName('lazy-load-ad');
         }
     }
+
+    googleAdScriptAppended = true;
+    var scriptElement = document.createElement("script");
+    scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+    document.body.appendChild(scriptElement);
     (adsbygoogle = window.adsbygoogle || []).onload = function () {
         [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
             adsbygoogle.push({
