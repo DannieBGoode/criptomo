@@ -38,7 +38,7 @@ if (mobileAndTabletcheck()) {
 
         for (var i = 0; i < elements.length; i++) {
             var element = elements[i];
-            if ((currentScroll > element.getBoundingClientRect().top - 100)) {
+            if ((currentScroll > element.getBoundingClientRect().top - 70)) {
 
                 if (!googleAdScriptAppended) {
 
