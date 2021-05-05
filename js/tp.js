@@ -1,5 +1,5 @@
 // On mobile we lazy loads ads
-if mobileAndTabletcheck() {
+if (mobileAndTabletcheck()) {
 
     let elements;
     function initAds() {
