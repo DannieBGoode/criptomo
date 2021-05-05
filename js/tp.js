@@ -66,18 +66,22 @@ else {
     scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
     document.body.appendChild(scriptElement);
 
-    (adsbygoogle = window.adsbygoogle || []).onload = function () {
-        [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
-            adsbygoogle.push({
-                google_ad_client: "ca-pub-1252171391624665"
-            });
-        });
-    }
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-1252171391624665",
+        enable_page_level_ads: true
+    });
 
     for (var i = 0; i <= elements.length; i++) {
         i = 0;
         var element = elements[i];
 
+        // if (!googleAdScriptAppended) {
+
+        //     googleAdScriptAppended = true;
+        //     var scriptElement = document.createElement("script");
+        //     scriptElement.src = "https://gooogle.com";
+        //     document.body.appendChild(scriptElement);
+        // }
         if (window.adsbygoogle) {
             element.classList.remove('lazy-load-ad');
             element.classList.add('lazy-loaded-ad');
