@@ -23,7 +23,7 @@ redirect_from:
 <div class="calculator-block" style="margin-bottom: 20px">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>If you had invested</label>
+            <label for="invest-quantity">If you had invested</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
@@ -35,7 +35,7 @@ redirect_from:
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>in the cryptocurrency</label>
+            <label for="invest-currency">in the cryptocurrency</label>
         </div>
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
@@ -55,7 +55,7 @@ redirect_from:
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>every </label>
+            <label for="invest-interval">every </label>
         </div>
         <div class="calculator-col-end">
             <select id="invest-interval">
@@ -66,7 +66,7 @@ redirect_from:
                 <option value="365">Year</option>
             </select>
             <div class="calculator-col-start" style="display:inline">
-                <label>starting on the </label>
+                <label for="invest-date">starting on the </label>
             </div>
             <div class="calculator-col-end" style="display:inline">
                 <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">

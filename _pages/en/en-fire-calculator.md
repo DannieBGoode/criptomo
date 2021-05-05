@@ -20,7 +20,7 @@ lang: en
 <div class="calculator-block  calculator-fi">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Age:</label>
+            <label for="fi-age">Age:</label>
         </div>
         <div class="calculator-col-end">
             <input id="fi-age" type="number" value="30" max="100" oninput="calculateFI()">
@@ -28,7 +28,7 @@ lang: en
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Currency:</label>
+            <label for="fi-fiat">Currency:</label>
         </div>
         <div class="calculator-col-end">
             <select id="fi-fiat" onchange="updateCurrency()">
@@ -39,7 +39,7 @@ lang: en
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Currently Saved:</label>
+            <label for="fi-accumulated">Currently Saved:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
             <input id="fi-accumulated" type="number" value="1000" oninput="calculateFI()" step="500" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
@@ -48,7 +48,7 @@ lang: en
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Yearly Income:</label>
+            <label for="fi-salary">Yearly Income:</label>
             <div>
                 <small>( <span id="monthly-salary-text">2500</span> <span class="currency-text">USD</span> monthly)</small>
             </div>
@@ -60,7 +60,7 @@ lang: en
 
     <div class="calculator-form-row">
             <div class="calculator-col-start">
-                <label>Savings Rate:</label>
+                <label for="fi-savings-ratio">Savings Rate:</label>
                 <div>
                     <small>(<span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 <span class="currency-text">USD</span></span> yearly)</small>
                 </div>
@@ -71,7 +71,7 @@ lang: en
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Investment Returns:</label>
+            <label for="fi-investment-returns">Investment Returns:</label>
             <div>
                 <small>(<span id="returns-ratio-text">10</span>% of expected annual return)</small>
             </div>
@@ -83,7 +83,7 @@ lang: en
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Retirement Method:</label>
+            <label for="fi-method">Retirement Method:</label>
             <div>
                 <small>(Desired Networth / SWR)</small>
             </div>
@@ -98,7 +98,7 @@ lang: en
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Desired Networth:</label>
+            <label for="fi-desired-networth">Desired Networth:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
             <input id="fi-desired-networth" type="number" value="1250000" oninput="updateDesiredNetworth()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">USD</span>
@@ -107,7 +107,7 @@ lang: en
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Yearly Spending:</label>
+            <label for="fi-yearly-spending">Yearly Spending:</label>
             <div>
                 <small>(<span id="monthly-income-text">4166.67</span> <span class="currency-text">USD</span> monthly)</small>
             </div>
@@ -119,7 +119,7 @@ lang: en
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Yearly Withdrawal Rate:</label>
+            <label for="fi-swr">Yearly Withdrawal Rate:</label>
             <div>
                 <small>(Should be lower or equal to the expected Investment returns)</small>
             </div>

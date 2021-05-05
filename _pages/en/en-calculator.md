@@ -23,7 +23,7 @@ css: calculator
 <div class="calculator-block">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Investment</label>
+            <label for="invest-quantity">Investment</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000" class="data-hj-allow">
@@ -35,7 +35,7 @@ css: calculator
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Cryptocurrency</label>
+            <label for="invest-currency">Cryptocurrency</label>
         </div>
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
@@ -54,7 +54,7 @@ css: calculator
     <div class="calculator-othercoins"><span>It might be possible that not all cryptocurrencies are covered by the server.</span></div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Purchase Date</label>
+            <label for="invest-date">Purchase Date</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18" class="data-hj-allow">

@@ -20,7 +20,7 @@ lang: es
 <div class="calculator-block" style="margin-bottom: 20px">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Si hubieras invertido</label>
+            <label for="invest-quantity">Si hubieras invertido</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
@@ -32,7 +32,7 @@ lang: es
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>en la criptomoneda</label>
+            <label for="invest-currency">en la criptomoneda</label>
         </div>
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
@@ -52,7 +52,7 @@ lang: es
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>con frecuencia de cada </label>
+            <label for="invest-interval">con frecuencia de cada </label>
         </div>
         <div class="calculator-col-end">
             <select id="invest-interval">
@@ -63,7 +63,7 @@ lang: es
                 <option value="365">Año</option>
             </select>
             <div class="calculator-col-start" style="display:inline">
-                <label>empezando el día </label>
+                <label for="invest-date">empezando el día </label>
             </div>
             <div class="calculator-col-end" style="display:inline">
                 <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">

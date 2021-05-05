@@ -19,7 +19,7 @@ sitemap: true
 <div class="calculator-block  calculator-fi">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Edad:</label>
+            <label for="fi-age">Edad:</label>
         </div>
         <div class="calculator-col-end">
             <input id="fi-age" type="number" value="30" max="100" oninput="calculateFI()">
@@ -27,7 +27,7 @@ sitemap: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Divisa:</label>
+            <label for="fi-fiat">Divisa:</label>
         </div>
         <div class="calculator-col-end">
             <select id="fi-fiat" onchange="updateCurrency()">
@@ -38,7 +38,7 @@ sitemap: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Ahorros Actuales Invertidos:</label>
+            <label for="fi-accumulated">Ahorros Actuales Invertidos:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
             <input id="fi-accumulated" type="number" value="1000" onchange="calculateFI()" step="500" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">EUR</span>
@@ -46,7 +46,7 @@ sitemap: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Ingresos Anuales:</label>
+            <label for="fi-salary">Ingresos Anuales:</label>
             <div>
                 <small>(<span id="monthly-salary-text">2500</span> <span class="currency-text">EUR</span> mensuales)</small>
             </div>
@@ -58,7 +58,7 @@ sitemap: true
 
     <div class="calculator-form-row">
             <div class="calculator-col-start">
-                <label>Tasa de Ahorro:</label>
+                <label for="fi-savings-ratio">Tasa de Ahorro:</label>
                 <div>
                     <small>( <span id="savings-ratio-text">10</span>% de ahorro: <span id="savings-ratio-yearly-text">1200 <span class="currency-text">EUR</span></span> anuales)</small>
                 </div>
@@ -69,7 +69,7 @@ sitemap: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Rendimiento Inversiones:</label>
+            <label for="fi-investment-returns">Rendimiento Inversiones:</label>
             <div>
                 <small>( <span id="returns-ratio-text">10</span>% de retorno anual esperado)</small>
             </div>
@@ -80,7 +80,7 @@ sitemap: true
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Método de retiro:</label>
+            <label for="fi-method">Método de retiro:</label>
             <div>
                 <small>(Patrimonio Deseado / SWR)</small>
             </div>
@@ -95,7 +95,7 @@ sitemap: true
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Patrimonio Deseado:</label>
+            <label for="fi-desired-networth">Patrimonio Deseado:</label>
         </div>
         <div class="calculator-col-end InputAddOn">
             <input id="fi-desired-networth" type="number" value="1250000" oninput="updateDesiredNetworth()" class="InputAddOn-field"> <span class="currency-text InputAddOn-item">EUR</span>
@@ -104,7 +104,7 @@ sitemap: true
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Gastos Anuales:</label>
+            <label for="fi-yearly-spending">Gastos Anuales:</label>
             <div>
                 <small>(<span id="monthly-income-text">4166.67</span> <span class="currency-text">EUR</span> mensuales)</small>
             </div>
@@ -116,7 +116,7 @@ sitemap: true
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Tasa de Retiro Anual:</label>
+            <label for="fi-swr">Tasa de Retiro Anual:</label>
             <div>
                 <small>(Debería ser menor o igual que el Rendimiento esperado)</small>
             </div>
