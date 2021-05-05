@@ -66,7 +66,7 @@ else {
     var scriptElement = document.createElement("script");
     scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
     document.body.appendChild(scriptElement);
-    
+
     (adsbygoogle = window.adsbygoogle || []).onload = function () {
         [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
             adsbygoogle.push({
@@ -76,7 +76,8 @@ else {
         });
     }
 
-    for (var i = 0; i < elements.length; i++) {
+    for (var i = 0; i <= elements.length; i++) {
+        i = 0;
         var element = elements[i];
 
         if (window.adsbygoogle) {
@@ -86,6 +87,7 @@ else {
             loadAd();
 
             elements = document.getElementsByClassName('lazy-load-ad');
+            null;
         }
     }
 
