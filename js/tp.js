@@ -62,7 +62,6 @@ if (mobileAndTabletcheck()) {
 }
 // Desktop
 else {
-
     var scriptElement = document.createElement("script");
     scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
     document.body.appendChild(scriptElement);
