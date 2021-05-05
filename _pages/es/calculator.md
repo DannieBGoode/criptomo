@@ -136,4 +136,3 @@ css: calculator
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
-<script defer async src="{{ site.baseurl }}/js/tp.js?{{site.time | date: '%s%N'}}"></script>
