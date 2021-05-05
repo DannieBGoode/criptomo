@@ -15,7 +15,6 @@ initAds();
 
 var googleAdScriptAppended = false;
 
-//TODO change this to your ad unit!
 var getAdsenseCode = function (element) {
     return '<div class="addsense-add">' +
               '<ins class="adsbygoogle white-ad"' +
@@ -67,14 +66,7 @@ else {
     scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
     document.body.appendChild(scriptElement);
 
-    (adsbygoogle = window.adsbygoogle || []).onload = function () {
-        [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
-            adsbygoogle.push({
-                google_ad_client: "ca-pub-1252171391624665",
-                enable_page_level_ads: true
-            });
-        });
-    }
+
 
     for (var i = 0; i <= elements.length; i++) {
         i = 0;
@@ -87,9 +79,6 @@ else {
             loadAd();
 
             elements = document.getElementsByClassName('lazy-load-ad');
-            null;
         }
     }
-
-
 }
