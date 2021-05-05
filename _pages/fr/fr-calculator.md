@@ -25,7 +25,7 @@ redirect_from:
 <div class="calculator-block">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Investissement</label>
+            <label for="invest-quantity">Investissement</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000" class="data-hj-allow">
@@ -37,7 +37,7 @@ redirect_from:
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Crypto-monnaie</label>
+            <label for="invest-currency">Crypto-monnaie</label>
         </div>
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
@@ -56,7 +56,7 @@ redirect_from:
     <div class="calculator-othercoins"><span>Il se peut que toutes les crypto-monnaies ne soient pas couvertes par le serveur.</span></div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label>Date d'achat</label>
+            <label for="invest-date">Date d'achat</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18" class="data-hj-allow">
