@@ -1,6 +1,11 @@
-var elements = document.getElementsByClassName('lazy-load-ad');
-if (!elements.length)
-    return;
+let elements;
+function initAds() {
+    elements = document.getElementsByClassName('lazy-load-ad');
+    if (!elements.length) {
+        return null;
+    }
+}
+initAds();
 
 var googleAdScriptAppended = false;
 
