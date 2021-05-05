@@ -69,7 +69,7 @@ else {
         if (window.adsbygoogle) {
             element.classList.remove('lazy-load-ad');
             element.classList.add('lazy-loaded-ad');
-            element.innerHTML = getAdsenseCode();
+            element.innerHTML = getAdsenseCode(element);
             loadAd();
 
             elements = document.getElementsByClassName('lazy-load-ad');
