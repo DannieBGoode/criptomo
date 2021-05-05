@@ -73,6 +73,7 @@ else {
             var scriptElement = document.createElement("script");
             scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
             document.body.appendChild(scriptElement);
+
         }
 
         if (window.adsbygoogle) {
@@ -83,5 +84,13 @@ else {
 
             elements = document.getElementsByClassName('lazy-load-ad');
         }
+    }
+    (adsbygoogle = window.adsbygoogle || []).onload = function () {
+        [].forEach.call(document.getElementsByClassName('adsbygoogle'), function () {
+            adsbygoogle.push({
+                google_ad_client: "ca-pub-1252171391624665",
+                enable_page_level_ads: true
+            });
+        });
     }
 }
