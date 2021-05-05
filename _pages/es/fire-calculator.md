@@ -154,15 +154,7 @@ sitemap: true
     </div>
 
     <!-- Calculator Banner -->
-    <ins class="adsbygoogle white-ad"
-         style="display:block"
-         data-ad-client="ca-pub-1252171391624665"
-         data-ad-slot="1002456567"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <div class="lazy-load-ad" data-slot="1002456567"></div>
 </div>
 
 <script defer src="{{ site.baseurl }}/js/fi.js?{{site.time | date: '%s%N'}}"></script>
