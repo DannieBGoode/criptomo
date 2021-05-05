@@ -40,6 +40,7 @@ window.addEventListener('scroll', function (e) {
 var getAdsenseCode = function () {
     return '<div class="addsense-add">' +
               '<ins class="adsbygoogle white-ad"' +
+                    'style="display:block"' +
                     'data-ad-format="auto"' +
                     'data-ad-client="ca-pub-1252171391624665"' +
                     'data-ad-slot="1002456567">' + 
