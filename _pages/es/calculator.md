@@ -131,7 +131,7 @@ css: calculator
     </div>
 
     <!-- Calculator Banner -->
-    <div class="lazy-load-ad"></div>
+    <div class="lazy-load-ad" data-slot="1002456567"></div>
 </div>
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>

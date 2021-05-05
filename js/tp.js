@@ -4,7 +4,6 @@ window.mobileAndTabletcheck = function() {
   return check;
 };
 
-
 let elements;
 function initAds() {
     elements = document.getElementsByClassName('lazy-load-ad');
@@ -17,13 +16,13 @@ initAds();
 var googleAdScriptAppended = false;
 
 //TODO change this to your ad unit!
-var getAdsenseCode = function () {
+var getAdsenseCode = function (element) {
     return '<div class="addsense-add">' +
               '<ins class="adsbygoogle white-ad"' +
                     'style="display:block"' +
                     'data-ad-format="auto"' +
                     'data-ad-client="ca-pub-1252171391624665"' +
-                    'data-ad-slot="1002456567">' + 
+                    'data-ad-slot="' + element.dataset.slot + '">' + 
               '</ins > ' +
            '</div>';
 };
@@ -52,7 +51,7 @@ if (mobileAndTabletcheck()) {
                 if (window.adsbygoogle) {
                     element.classList.remove('lazy-load-ad');
                     element.classList.add('lazy-loaded-ad');
-                    element.innerHTML = getAdsenseCode();
+                    element.innerHTML = getAdsenseCode(element);
                     loadAd();
 
                     elements = document.getElementsByClassName('lazy-load-ad');
