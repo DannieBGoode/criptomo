@@ -75,13 +75,6 @@ else {
         i = 0;
         var element = elements[i];
 
-        // if (!googleAdScriptAppended) {
-
-        //     googleAdScriptAppended = true;
-        //     var scriptElement = document.createElement("script");
-        //     scriptElement.src = "https://gooogle.com";
-        //     document.body.appendChild(scriptElement);
-        // }
         if (window.adsbygoogle) {
             element.classList.remove('lazy-load-ad');
             element.classList.add('lazy-loaded-ad');
