@@ -1,5 +1,5 @@
 ---
-title: ICOs
+title: Beneficios ICOs
 permalink: "/icos/"
 layout: page
 description: Las ICOs que más dinero han recaudado de la historia. ICOs con los mejores

@@ -1,5 +1,5 @@
 ---
-title: ICOs
+title: ICOs Profits
 permalink: "/en/icos/"
 layout: page
 description: The ICOs that raised the most funds ever.
