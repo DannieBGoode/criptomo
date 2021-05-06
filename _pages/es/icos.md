@@ -8,6 +8,7 @@ banner_image: pages/ico.webp
 sitemap: true
 noMargins: true
 sidebar: false
+lang: es
 ---
 
 <div class="entry-header"></div>
