@@ -20,7 +20,7 @@ Los últimos acontecimientos apuntan a que la criptomoneda Bitcoin Cash podría 
 
 En 2017, el gran debate en el mundo del Bitcoin era acerca de cómo escalar la red. Las transacciones eran cada vez más lentas y las tasas más caras y se buscaba soluciones a largo plazo que lo habilitaran para uso diario.
 
-Por un lado se apoyaba la idea de implementar Segwit mediante un soft fork y por otro realizar un [hardfork](hard-fork-vs-soft-fork/) que aumentase el tamaño de bloque de Bitcoin de 1MB a 8MB con la contrapartida de que el tamaño del blockchain aumentaría a un ratio ocho veces mayor a partir de ese momento. Un blockchain más grande requeriría un mayor ancho de banda y disco duro encareciendo los costes de mantener [un nodo completo](/bitcoin-full-node/) y en consecuencia centralizando el minado de la red.
+Por un lado se apoyaba la idea de implementar Segwit mediante un soft fork y por otro realizar un [hardfork](/hard-fork-vs-soft-fork/) que aumentase el tamaño de bloque de Bitcoin de 1MB a 8MB con la contrapartida de que el tamaño del blockchain aumentaría a un ratio ocho veces mayor a partir de ese momento. Un blockchain más grande requeriría un mayor ancho de banda y disco duro encareciendo los costes de mantener [un nodo completo](/bitcoin-full-node/) y en consecuencia centralizando el minado de la red.
 
 El 23 de Mayo, otro grupo distinto intentó promover la implementación de Segwit2x, que intentaba llegar a un punto intermedio entre ambas tendencias. A pesar de ello, Segwit2x fue rechazado por la comunidad y resultó en dos cadenas distintas, la original Bitcoin (BTC) y la nueva con bloques mayores [Bitcoin Cash (BCH)](/que-es-bitcoin-cash/).
 

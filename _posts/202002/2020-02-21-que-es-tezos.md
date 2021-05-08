@@ -11,7 +11,7 @@ rating: 5
 totalVotes: 16
 ---
 
-Tezos irrumpió en el ecosistema de las criptomonedas levantando 232 millones de dólares en BTC, y ETH gracias a una exitosa [ICO](que-es-una-ico) en las dos primeras semanas de Julio de 2017 lo que la convirtió en una de las ICO más exitosa hasta la fecha.
+Tezos irrumpió en el ecosistema de las criptomonedas levantando 232 millones de dólares en BTC, y ETH gracias a una exitosa [ICO](/que-es-una-ico) en las dos primeras semanas de Julio de 2017 lo que la convirtió en una de las ICO más exitosa hasta la fecha.
 
 <!--more-->
 

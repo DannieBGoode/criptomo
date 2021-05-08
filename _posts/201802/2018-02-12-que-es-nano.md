@@ -73,7 +73,7 @@ Además podeis comprobar su <a rel="nofollow" href="https://github.com/clemahieu
 
 Por el momento sólo existen wallets de escritorio y online, aunque hay un wallet móvil en el roadmap.
 
-El wallet de escritorio lo podeis descargar de <a rel="nofollow" href="https://raiblocks.net/">la web oficial</a>, y hay un wallet online open source en <a rel="nofollow" href="www.raiwallet.com">RaiWallet</a>. Adicionalmente es posible <a rel="nofollow" href="https://t.me/RaiWalletBot">usar telegram a modo de wallet</a> mediante un bot oficial.
+El wallet de escritorio lo podeis descargar de <a rel="nofollow" href="https://raiblocks.net/">la web oficial</a>. Adicionalmente es posible <a rel="nofollow" href="https://t.me/RaiWalletBot">usar telegram a modo de wallet</a> mediante un bot oficial.
 
 ## Dónde comprar XRB?
 

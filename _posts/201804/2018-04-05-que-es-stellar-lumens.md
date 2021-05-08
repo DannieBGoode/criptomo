@@ -86,7 +86,7 @@ Aunque la red Stellar no es Turing-complete (por lo que no permite computaciones
 
 - <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
 - <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
-- <a rel="nofollow" href="kraken.com">Kraken</a>
+- <a rel="nofollow" href="https://www.kraken.com/">Kraken</a>
 
 ### Dónde almacenar Stellar (XLM)
 
