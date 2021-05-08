@@ -518,7 +518,7 @@
 	"mco": {
 		"name": "CRYPTO (MCO)",
 		"icon": "mco-64.png",
-		"website": "crypto.com",
+		"website": "https://crypto.com/",
 		"class": "card finance",
 		"description": "Tarjeta de débito que transforma criptomonedas en fiat en el momento del pago.",
 		"description-en": "Debit card that transforms cryptocurrencies into fiat at the time of payment.",

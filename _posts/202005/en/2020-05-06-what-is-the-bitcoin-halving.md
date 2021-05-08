@@ -11,7 +11,7 @@ totalVotes: 6
 lang: en
 ---
 
-Initially, in 2009 when Bitcoin was born, a [mine block reward](/que-es-proof-of-work) of 50BTC was distributed, that is, every 10 minutes 50BTC were generated out of nowhere assigned to the winning miner. According to the [Bitcoin](/what-is-bitcoin) protocol, every approximately four years the reward will drop by half.
+Initially, in 2009 when Bitcoin was born, a mine block reward of 50BTC was distributed, that is, every 10 minutes 50BTC were generated out of nowhere assigned to the winning miner. According to the Bitcoin protocol, every approximately four years the reward will drop by half.
 
 <!--more-->
 
