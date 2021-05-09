@@ -1,6 +1,6 @@
 ---
 title: Cómo comprar Bitcoin en 2021
-date: 2021-05-9 00:00:00 Z
+date: 2021-05-09 00:00:00 Z
 tags:
 - bitcoin
 layout: post
