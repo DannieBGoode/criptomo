@@ -1,6 +1,6 @@
 ---
 title: Gewinnrechner für Bitcoin und Kryptowährungen
-permalink: "/de/calculator/"
+permalink: "/de/gewinnrechner/"
 layout: page
 description: "\U0001F4B5 Berechnen Sie mit dem Bitcoin-Rechner, wie viel Gewinn Sie
   mit der Investition in Bitcoin und andere Kryptowährungen hätten erzielen können.
@@ -16,6 +16,7 @@ css: calculator
 redirect_from:
 - "/de/"
 - "/de"
+- /de/calculator/
 ---
 
 <div style="margin-bottom: 10px">
