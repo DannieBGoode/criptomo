@@ -16,7 +16,7 @@ css: calculator
 redirect_from:
 - "/de/"
 - "/de"
-- /de/calculator/
+- "/de/calculator/"
 ---
 
 <div style="margin-bottom: 10px">
