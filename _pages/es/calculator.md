@@ -12,6 +12,7 @@ totalVotes: 15
 comments: false
 sitemap: true
 css: calculator
+ref: calculator
 ---
 
 <div style="margin-bottom: 10px">
@@ -132,7 +133,16 @@ css: calculator
 
     <!-- Calculator Banner -->
     <div class="lazy-load-ad" data-slot="1002456567"></div>
+
+    <div class="recommended-articles-wrapper" style="display: none">
+        <h2>Artículos Recomendados</h2>
+        <div class="recommended-articles">
+        </div>
+    </div>
 </div>
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
+<!-- for the search only version -->
+<script defer src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
+
