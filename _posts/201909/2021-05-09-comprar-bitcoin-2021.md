@@ -5,7 +5,7 @@ tags:
 - bitcoin
 layout: post
 description: Guía para principiantes de cómo comprar Bitcoin en 2021. Actualizado.
-banner_image: 201909/bitcoin-2019.jpg
+banner_image: 201909/bitcoin-2019.webp
 rating: 5
 totalVotes: 6
 redirect_from:
