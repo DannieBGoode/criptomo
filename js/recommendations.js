@@ -1,3 +1,4 @@
+// all tags must be in lowercase
 let articles = [
    {
       "url": "https://criptomo.com/buy-bitcoin-2021/",
@@ -14,16 +15,16 @@ let articles = [
       "title": "Cómo comprar Bitcoin BTC (2021)",
       "description": "Guía para principiantes de cómo comprar Bitcoin en 2021. Actualizado.",
       "img": "https://criptomo.com/comprar-bitcoin-2021/",
-      "tags": "BTC",
+      "tags": "btc",
       "lang": "es"
    },
    {
       "url": "https://criptomo.com/que-es-cardano/",
       "lastmod": "2017-12-11T00:00:00+00:00",
-      "title": "Qué es Cardano",
+      "title": "Qué es Cardano (ADA)",
       "description": "Qué es Cardano",
       "img": "https://criptomo.com/images/posts/201712/cardano.jpg",
-      "tags": "ada",
+      "tags": ["ada", "xtz"],
       "lang": "es"
    },
    {
@@ -122,9 +123,9 @@ function recommendArticles(coin) {
    let article = '';
    
 	const results = articles.filter(obj => {
-		  return (obj.tags.toLowerCase() === coin.toLowerCase() && obj.lang === document.documentElement.lang);
+		  // return (obj.tags.toLowerCase() === coin.toLowerCase() && obj.lang === document.documentElement.lang);
+        return (obj.tags.includes(coin.toLowerCase()) && obj.lang === document.documentElement.lang);
 	});
-   console.log(results);
    results.forEach(function(result) {
       article += '<div class="recommended-article"><a href="' + result.url + '">' + result.title + '</a></div>';
     });
