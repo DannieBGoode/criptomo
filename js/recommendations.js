@@ -131,5 +131,7 @@ function recommendArticles(coin) {
     articleSpace.innerHTML = article;
     if (article) {
       document.getElementsByClassName("recommended-articles-wrapper")[0].style.display = "block";  
+    } else {
+      document.getElementsByClassName("recommended-articles-wrapper")[0].style.display = "none";
     }
 }
