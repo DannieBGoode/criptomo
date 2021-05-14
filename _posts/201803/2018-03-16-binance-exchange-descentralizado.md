@@ -4,8 +4,7 @@ date: 2018-03-16 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras
-  de poder evitarlo.
+description: Binance anuncia que lanzará un exchange descentralizado y un blockchain público.
 banner_image: 201803/chain.jpg
 source: https://www.ccn.com/crypto-trading-giant-binance-to-launch-decentralized-exchange-and-public-blockchain/
 sourceName: CoinTelegraph
