@@ -12,6 +12,7 @@ comments: false
 sitemap: true
 lang: pt
 css: calculator
+ref: calculator
 redirect_from:
 - "/pt/"
 - "/pt"

@@ -12,6 +12,7 @@ comments: false
 sitemap: true
 lang: fr
 css: calculator
+ref: calculator
 redirect_from:
 - "/fr/"
 - "/fr"

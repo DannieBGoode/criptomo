@@ -13,6 +13,7 @@ comments: false
 sitemap: true
 lang: en
 css: calculator
+ref: calculator
 ---
 
 <div style="margin-bottom: 10px">

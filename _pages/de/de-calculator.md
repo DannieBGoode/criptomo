@@ -13,6 +13,7 @@ comments: false
 sitemap: true
 lang: de
 css: calculator
+ref: calculator
 redirect_from:
 - "/de/"
 - "/de"
