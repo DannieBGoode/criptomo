@@ -108,7 +108,9 @@ function calculateEarnings() {
     modifyAllClassElementsClassName('gained-percentage', 'gained-percentage gained-percentage-' + change);
     document.getElementById('calculator-results').style.display = 'block';
 
-    RecommendArticles(investData.tokenSymbol);
+    if (typeof recommendArticles === "function") {
+      recommendArticles(investData.tokenSymbol);  
+    }
   }
 
   function loading(state) {
@@ -151,25 +153,4 @@ for(i = 0; i < exampleDate.length; i++){
 
 function init() {
   document.getElementById('invest-date').setAttribute('max', new Date().toISOString().split('T')[0]);
-}
-
-function RecommendArticles(coin) {
-  const client = algoliasearch('8A18C6AHL3', '6d2cb8ba4be9d2ededd82ef73afeec32');
-  const index = client.initIndex('CRIPTOMO');
-
-  index.search("", {
-    similarQuery: coin + ' invest',
-    filters: '(lang:' + document.documentElement.lang + ')'
-  }).then(({ hits }) => {
-    console.log(hits);
-    let articles = document.getElementsByClassName("recommended-articles");
-    let article = '';
-    hits.forEach(function(hit) {
-      article += '<div class="recommended-article"><a href="' + hit.url + '">' + hit.title + '</a></div>';
-    });
-    articles[0].innerHTML = article;
-    if (article) {
-      document.getElementsByClassName("recommended-articles-wrapper")[0].style.display = "block";  
-    }
-  });
 }

@@ -1,10 +1,10 @@
-[
+let articles = [
    {
       "url": "https://criptomo.com/buy-bitcoin-2021/",
       "lastmod": "2017-12-11T00:00:00+00:00",
       "title": "How to buy Bitcoin (BTC) in 2021",
       "description": "Guía para principiantes de cómo comprar Bitcoin en 2021. Actualizado.",
-      "img": "https://criptomo.com/images/posts/201909/bitcoin-2019.jpg",
+      "img": "https://criptomo.com/images/posts/201909/bitcoin-2019.webp",
       "tags": "btc",
       "lang": "en"
    },
@@ -13,8 +13,8 @@
       "lastmod": "2017-12-11T00:00:00+00:00",
       "title": "Cómo comprar Bitcoin BTC (2021)",
       "description": "Guía para principiantes de cómo comprar Bitcoin en 2021. Actualizado.",
-      "img": "https://criptomo.com/images/posts/201909/bitcoin-2019.jpg",
-      "tags": "btc",
+      "img": "https://criptomo.com/comprar-bitcoin-2021/",
+      "tags": "BTC",
       "lang": "es"
    },
    {
@@ -117,3 +117,19 @@
       "lang": "es"
    }
 ]
+function recommendArticles(coin) {
+   let articleSpace = document.querySelector(".recommended-articles");
+   let article = '';
+   
+	const results = articles.filter(obj => {
+		  return (obj.tags.toLowerCase() === coin.toLowerCase() && obj.lang === document.documentElement.lang);
+	});
+   console.log(results);
+   results.forEach(function(result) {
+      article += '<div class="recommended-article"><a href="' + result.url + '">' + result.title + '</a></div>';
+    });
+    articleSpace.innerHTML = article;
+    if (article) {
+      document.getElementsByClassName("recommended-articles-wrapper")[0].style.display = "block";  
+    }
+}
