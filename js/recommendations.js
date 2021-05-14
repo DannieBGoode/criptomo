@@ -23,7 +23,7 @@ let articles = [
       "title": "Qué es Cardano",
       "description": "Qué es Cardano",
       "img": "https://criptomo.com/images/posts/201712/cardano.jpg",
-      "tags": "ada xtz",
+      "tags": "ada",
       "lang": "es"
    },
    {
