@@ -13,6 +13,26 @@
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ translations.placeholder[lang] }}" required>
                     <input type="submit" value="{{ translations.button[lang] }}" name="subscribe" id="mc-embedded-subscribe" class="button">
                 </div>
+                <div class="mc-field-group input-group" style="display:none">
+                    <strong>Language</strong>
+                    <ul>
+                        {% if page.lang == 'en' %}
+                            {% assign EN = 'checked' %}
+                            {% assign ES = '' %}
+                        {% else %}
+                            {% assign EN = '' %}
+                            {% assign ES = 'checked' %}
+                        {% endif %}
+                        <li>
+                            <input type="checkbox" value="1" name="group[21977][1]" id="mce-group[21977]-21977-0" {{ EN }}>
+                            <label for="mce-group[21977]-21977-0">English</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="2" name="group[21977][2]" id="mce-group[21977]-21977-1" {{ ES }}>
+                            <label for="mce-group[21977]-21977-1">Spanish</label>
+                        </li>
+                    </ul>
+                </div>
             </form>
         </div>
     </section>

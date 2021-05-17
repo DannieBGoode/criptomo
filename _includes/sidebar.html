@@ -37,8 +37,6 @@
     {% else %}
         {% assign lang = site.locale | slice: 0,2 | default: "en" %}
     {% endif %}
-    
-    {% if lang == 'es' %}
 
         {% if page.layout != 'post' %}
             {% if site.mailchimp_url_es %}
@@ -53,6 +51,26 @@
                             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ translations.placeholder[lang] }}" required>
                             <div class="clear"><input type="submit" value="{{ translations.button[lang] }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                         </div>
+                        <div class="mc-field-group input-group" style="display:none">
+                            <strong>Language</strong>
+                            <ul>
+                                {% if lang == 'en' %}
+                                    {% assign EN = 'checked' %}
+                                    {% assign ES = '' %}
+                                {% else %}
+                                    {% assign EN = '' %}
+                                    {% assign ES = 'checked' %}
+                                {% endif %}
+                                <li>
+                                    <input type="checkbox" value="1" name="group[21977][1]" id="mce-group[21977]-21977-0" {{ EN }}>
+                                    <label for="mce-group[21977]-21977-0">English</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" value="2" name="group[21977][2]" id="mce-group[21977]-21977-1" {{ ES }}>
+                                    <label for="mce-group[21977]-21977-1">Spanish</label>
+                                </li>
+                            </ul>
+                        </div>
                     </form>
                 </div>
                 <!--End mc_embed_signup-->
@@ -60,13 +78,12 @@
             {% endif %}
         {% endif %}
 
-
-
         <section class="widget widget-recent-posts">
             <h2 class="widget-title">{{ site.data.translations.last-entries[lang] }}</h2>
             <ul class="recent-posts">
                 {% assign i = 0 %}
-                {% for post in site.posts %}
+                {% assign posts = site.posts | where:"lang", page.lang %}
+                {% for post in posts %}
                     {% if post.lang != page.lang %}
                         {% continue %}
                     {% endif %}
@@ -82,7 +99,7 @@
         </section><!-- .widget-recent-posts -->
 
         <!--Create a sorted array of tags-->
-        {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+        {% comment %}{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
         {% assign sortedTags = site_tags | split:',' | sort %}
         <section class="widget widget-tags">
             <h2 class="widget-title">Tags</h2>
@@ -92,6 +109,6 @@
                 {% endfor %}
                 <a href="{{site.baseurl}}/tags/">...</a>
             </div><!-- .tagcloud -->
-        </section><!-- .widget -->
-    {% endif %}
+        </section><!-- .widget -->{% endcomment %}
+
 </aside><!-- .sidebar -->
