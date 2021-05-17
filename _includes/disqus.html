@@ -6,4 +6,17 @@
     </div><!-- .comments-inner -->
 </div><!-- .comments-area -->
 
-<script defer async src="/js/disqus-loader.js?{{site.time | date: '%s%N'}}"></script>
+<script>
+	window.addEventListener('scroll', fetchDisqus);
+
+	function fetchDisqus() {
+
+	      var script = document.createElement('script');
+	      script.setAttribute("defer", "");
+	      script.setAttribute("async", "");
+	      script.src = '/js/disqus-loader.js?{{site.time | date: '%s%N'}}';
+	      document.body.appendChild(script);
+
+	      window.removeEventListener("scroll", fetchDisqus);
+	}
+</script>
