@@ -48,7 +48,7 @@ Buscaremos BTC y le daremos a `DEPOSIT` puesto que vamos a depositar BTC en Bina
 
 #### Enviar los fondos
 
-Una vez copiada la dirección iremos a Coinbase y le daremos a enviar BTC. Pondremos la dirección que hemos copiado y esperaremos a que la transferencia se realice que podría llevar unos minutos. Podemos ver el progreso de la transferencia en [este enlace](https://www.binance.com/userCenter/transactionHistory.html), aunque nuestros fondos no estarán disponibles hasta que no haya al menos dos confirmaciones en el blockchain.
+Una vez copiada la dirección iremos a Coinbase y le daremos a enviar BTC. Pondremos la dirección que hemos copiado y esperaremos a que la transferencia se realice que podría llevar unos minutos. Podemos ver el progreso de la transferencia en Binance, aunque nuestros fondos no estarán disponibles hasta que no haya al menos dos confirmaciones en el blockchain.
 
 {% include image_caption.html imageurl="/images/posts/201712/coinbase-send.png" title="Coinbase Send" popup=true %}
 

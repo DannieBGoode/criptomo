@@ -37,7 +37,7 @@ La plataforma se lanzará a finales de 2017 y funcionaría de al siguienta maner
 
 Habrá un marketplace de préstamos donde los usuarios podrán elegir qué condiciones les parecen más atractivas creando un entorno muy competitivo entre los prestamistas.
 
-Aunque inicilamente los prestamistas deberán estar acreditados como tales (más información al respecto en el [FAQ de LENDER NETWORK](https://saltlending.zendesk.com/hc/en-us/sections/115002565247-Lender-Network)) se están planteando un escenario donde cualquier persona podría llegar a ser un prestamista en el futuro.
+Aunque inicilamente los prestamistas deberán estar acreditados como tales se están planteando un escenario donde cualquier persona podría llegar a ser un prestamista en el futuro.
 
 El uso de los tokens de SALT servirá para disminuir los intereses que el prestatario tendría que pagar para cada préstamo, donde más SALT equivaldría a menos intereses.
 
