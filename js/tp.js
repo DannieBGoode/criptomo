@@ -47,7 +47,7 @@ if (mobileAndTabletcheck()) {
                     document.body.appendChild(scriptElement);
                 }
 
-                if (window.adsbygoogle) {
+                if (window.adsbygoogle && element && element.classList) {
                     element.classList.remove('lazy-load-ad');
                     element.classList.add('lazy-loaded-ad');
                     element.innerHTML = getAdsenseCode(element);
