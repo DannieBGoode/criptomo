@@ -88,9 +88,6 @@ The real product of Crypto.com is the credit cards they offer. All of them excep
 
 The price of CRO ranges from that of any asset, historically it has been between $ 2 and $ 8 and can be purchased from within the app as we have detailed above.
 
-<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"> </script>
-<div class="coinmarketcap-currency-widget" data-currencyid="3635" data-base="EUR" data-secondary="USD" data-ticker="false" data-rank="false" data-marketcap="false" data-volume="false" data-statsticker="true" data-stats="USD" style="border: 2px solid # e1e5ea! important; border-radius: 10px; margin-top: 20px"> </div>
-
 All cards are free in terms of maintenance costs and sending the card to the user, and can be blocked in case of loss from the application easily.
 
 All of them will have 24/7 support by real people. There are plans in the roadmap to add them all to services such as Apple Pay, Samsung Pay or Google Play but they will not be available yet at launch.
