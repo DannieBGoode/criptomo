@@ -17,7 +17,7 @@ redirect_from:
 
 <div style="margin-bottom: 10px">
     <div style="margin-top:-25px">
-        <small>To calculate punctual investments please use our <a href="/calculator">simple calculator</a>.</small>
+        <small>To calculate punctual investments please use our <a href="/en/calculator">simple calculator</a>.</small>
     </div>
 </div>
 <div class="calculator-block" style="margin-bottom: 20px">
