@@ -26,9 +26,9 @@ Por el momento los tokens ERC721 se están utilizando para representar coleccion
 Wallets como MetaMask permiten al usuario holdear, transferir y recibir tokens ERC721 como si de una moneda más se tratase.
 
 
-# Ejemplos de uso de tokens NFT
+## Ejemplos de uso de tokens NFT
 
-## CryptoKitties
+### CryptoKitties
 
 <a rel="nofollow" href="https://www.cryptokitties.co/">CryptoKitties</a> es un juego de gatitos digitales, de los cuales puedes criar nuevos gatos que adquieren características de sus progenitores. 
 Cada gato se considera un NFT y por tanto es único y tiene unas características distintas. Los usuarios pueden comprar y vender CryptoKitties entre ellos dejando que el mercado decida el precio de estos.
@@ -37,13 +37,13 @@ El CryptoKitty vendido por un precio más alto se llama <a rel="nofollow" href="
 
 {% include image_caption.html imageurl="../images/posts/202102/dragon.webp" title="dragon" caption="Dragon el CryptoKitty" popup=true %}
 
-## Decentraland
+### Decentraland
 
 <a rel="nofollow" href="https://decentraland.org/">Decentraland</a> es una plataforma virtual que recuerda al videojuego "Second Life" y ofrece un mundo con territorios y parcelas donde se intercambian constantemente títulos de propiedad. Por ejemplo un usuario decidió comprar 64 lotes de terrenos y combinarlos en uno solo bautizándose "Los secretos del Jardín de Té de Satoshi". El terreno se vendió posteriormente por $80,000 únicamente por su ubicación privilegiada y fácil acceso dentro del juego.
 
 {% include image_caption.html imageurl="../images/posts/202102/decentraland.webp" title="decentraland" caption="Decentraland" popup=true %}
 
-## Superrare
+### Superrare
 
 {% include image_caption.html imageurl="../images/posts/202102/superrare.webp" title="superrare" caption="Superrare.co marketplace" popup=true %}
 
@@ -64,7 +64,7 @@ De esta manera Superrare no sólo es un marketplace sino también un Museo Digit
 Además al estar los tokens construidos sobre la red de Ethereum es perfectamente posible ver el historial entero desde el origen del NFT hasta el dia de hoy, visible por todo el mundo de manera pública.
 
 
-### Otros usos
+#### Otros usos
 
 {% include tweet.html href="https://twitter.com/cryptopunksbot/status/1353058374816944134" caption="La obra de Alien vendida por 761,000 USD" %}
 

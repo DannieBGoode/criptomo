@@ -27,9 +27,9 @@ At the moment ERC721 tokens are being used to represent collectibles that are bo
 Wallets like MetaMask allow the user to hold, transfer and receive ERC721 tokens as if it were just another currency.
 
 
-# Examples of NFT tokens
+## Examples of NFT tokens
 
-## CryptoKitties
+### CryptoKitties
 
 <a rel="nofollow" href="https://www.cryptokitties.co/">CryptoKitties</a> is a game about digital kittens, from which you can breed new cats that acquire characteristics from their parents.
 Each cat is considered an NFT and therefore is unique and has different characteristics. Users can buy and sell CryptoKitties from each other by letting the market decide their price.
@@ -38,13 +38,13 @@ The CryptoKitty sold for a higher price is called <a rel="nofollow" href="https:
 
 {% include image_caption.html imageurl="../images/posts/202102/dragon.webp" title="dragon" caption="Dragon the CryptoKitty" popup=true%}
 
-## Decentraland
+### Decentraland
 
 <a rel="nofollow" href="https://decentraland.org/">Decentraland</a> is a virtual platform reminiscent of the video game "Second Life" and offers a world with territories and plots where titles are constantly exchanged proprietary. For example, a user decided to buy 64 lots of land and combine them into one, calling himself "The secrets of Satoshi's Tea Garden". The land was subsequently sold for $ 80,000 solely because of its prime location and easy in-game access.
 
 {% include image_caption.html imageurl="../images/posts/202102/decentraland.webp" title="decentraland" caption="Decentraland" popup=true%}
 
-## Superrare
+### Superrare
 
 {% include image_caption.html imageurl="../images/posts/202102/superrare.webp" title="superrare" caption="Superrare.co marketplace" popup=true%}
 
