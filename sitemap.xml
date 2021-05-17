@@ -10,10 +10,12 @@ layout:
       {% if post.title %}
         <url>
           <loc>{{site.base}}{{ post.url }}</loc>
-          {% assign versions=site.posts | where:"ref", post.ref %}
-          {% for version in versions %}
-            <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
-          {% endfor %}
+          {% if page.ref %}
+            {% assign versions=site.posts | where:"ref", post.ref %}
+            {% for version in versions %}
+              <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+            {% endfor %}
+          {% endif %}
           <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
           <changefreq>weekly</changefreq>
         </url>
@@ -25,10 +27,12 @@ layout:
       {% if page.title %}
       <url>
         <loc>{{site.base}}{{ page.url }}</loc>
-        {% assign versions=site.pages | where:"ref", page.ref %}
-        {% for version in versions %}
-          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
-        {% endfor %}
+        {% if page.ref %}
+          {% assign versions=site.pages | where:"ref", page.ref %}
+          {% for version in versions %}
+            <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+          {% endfor %}
+        {% endif %}
         <changefreq>weekly</changefreq>
       </url>
       {% endif %}
