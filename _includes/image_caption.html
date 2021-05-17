@@ -1,8 +1,15 @@
 <figure class="caption">
 	{% if include.popup %}
 	{% endif %}
+	{% if include.title %}
+		{% assign title = include.title %}
+	{% else if include.caption %}
+		{% assign title = include.caption %}
+	{% else %}
+		{% assign title = page.title %}
+	{% endif %}
 		<div class="img-container">
-	    	<img loading="lazy" src="{{ include.imageurl }}" alt="{{ include.title }}" class="{{ include.class }}" />
+	    	<img loading="lazy" src="{{ include.imageurl }}" alt="{{ title }}" class="{{ include.class }}" />
 	    </div>
 	    {% if include.caption %}
 	    <figcaption class="caption-text">{{ include.caption }}</figcaption> 

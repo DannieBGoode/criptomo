@@ -56,6 +56,6 @@ Cada halving ocurre cada 210,000 bloques, teniendo en cuenta que un bloque es mi
 
 Principalmente, los mineros se financiarán únicamente por comisiones de transferencia, igual que ya hacen parcialmente ahora mismo. El mercado ajustará los valores de estas comisiones, especialmente teniendo en cuenta los bajos costes de crear un nodo de Bitcoin.
 
-{% include image_caption.html imageurl="/images/posts/202005/graph.png" title="" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202005/graph.png" caption="Precio de BTC después de cada halving" popup=true %}
 
 

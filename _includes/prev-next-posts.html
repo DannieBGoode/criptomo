@@ -7,7 +7,7 @@
 		<div class="nav-inside">
 		    {% if post.banner_image %}
 		    <a href="{{ site.baseurl }}{{post.url}}">
-		    	<img loading="lazy" src="{{ site.baseurl }}{{ '/images/posts/' | append: post.banner_image }}" class="nav-thumb" />
+		    	<img loading="lazy" alt="{{ post.title }}" src="{{ site.baseurl }}{{ '/images/posts/' | append: post.banner_image }}" class="nav-thumb" />
 		    </a>
 		    {% endif %}
 		    <div class="nav-before">{{ site.data.translations.previous-entries[lang] }}</div>
@@ -31,7 +31,7 @@
 		<div class="nav-inside">
 		    {% if post.banner_image %}
 		    <a href="{{ site.baseurl }}{{post.url}}">
-		    	<img loading="lazy" src="{{ site.baseurl }}{{ '/images/posts/' | append: post.banner_image }}" class="nav-thumb" />
+		    	<img loading="lazy" alt="{{ post.title }}" src="{{ site.baseurl }}{{ '/images/posts/' | append: post.banner_image }}" class="nav-thumb" />
 		    </a>
 		    {% endif %}
 		    <div class="nav-before">{{ site.data.translations.next-entries[lang] }}</div>
