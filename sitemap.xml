@@ -9,11 +9,11 @@ layout:
     {% if post.id contains "404" %}{% else %}
       {% if post.title %}
         <url>
-          <loc>{{site.base}}{{ post.url }}</loc>
+          <loc>{{site.url}}{{ post.url }}</loc>
           {% if page.ref %}
             {% assign versions=site.posts | where:"ref", post.ref %}
             {% for version in versions %}
-              <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+              <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />
             {% endfor %}
           {% endif %}
           <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
@@ -26,11 +26,11 @@ layout:
     {% if page.id contains "404" %}{% else %}
       {% if page.title %}
       <url>
-        <loc>{{site.base}}{{ page.url }}</loc>
+        <loc>{{site.url}}{{ page.url }}</loc>
         {% if page.ref %}
           {% assign versions=site.pages | where:"ref", page.ref %}
           {% for version in versions %}
-            <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+            <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{ version.url }}" />
           {% endfor %}
         {% endif %}
         <changefreq>weekly</changefreq>
