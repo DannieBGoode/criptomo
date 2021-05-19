@@ -26,8 +26,6 @@ En economía existen dos teorías de cierto renombre: la primera es la Keynesian
 
 **La Economía Austriaca en cambio cede más importancia a la microeconomía** y está más interesada en preguntarse qué genera la riqueza. Según estos economistas los ahorros y las buenas inversiones son lo que conduce a la prosperidad y por tanto, no todas las transacciones son buenas. Malas inversiones y el sobreconsumo podrían causar crisis y deben ser evitados.
 
-{% include video.html provider="youtube" id="635_QFhwOro" %}
-
 ### En cripto-economía:
 
 Si extrapolamos esto al tamaño de bloque, podemos decir que su tamaño es de vital importancia a la hora de medir la velocidad de las transacciones de la red de Bitcoin. Por eso podemos definir como Cripto-Keynesianos a aquellos que apoyan la perspectiva de que habilitar el máximo número de transacciones lo más rápido posible es más importante que una capa extra de seguridad en torno al dinero en sí.
