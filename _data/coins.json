@@ -1169,7 +1169,7 @@
 		"ico-raised": "64000000"
 	},
 	"nas": {
-		"name": "",
+		"name": "NAS",
 		"symbol": "NAS",
 		"ico-price": "2.00",
 		"ico-raised": "60000000"
