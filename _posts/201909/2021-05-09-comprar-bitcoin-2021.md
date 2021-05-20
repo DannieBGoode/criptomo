@@ -13,12 +13,6 @@ redirect_from:
 - "/comprar-bitcoin-2020"
 ---
 
-<style>
-	.img-container img {
-		width: unset !important;
-	}
-</style>
-
 Hemos actualizado la guía de cómo comprar Bitcoin para poder invertir en esta criptomoneda en 2021. A diferencia de [la guía anterior](/como-comprar-criptomonedas/), nos enfocaremos únicamente en Bitcoin utilizando la versión web, pero recordad que Coinbase también ofrece una app móvil de su plataforma desde donde se puede comprar sin problemas.
 
 <!--more-->

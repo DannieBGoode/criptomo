@@ -299,3 +299,9 @@ input:focus, select:focus {
 	top:0px;
 	z-index: 100;
 }
+
+@media (max-width: $small-screen-breakpoint) {
+    .img-container img {
+        width: 100%;
+    }
+}
