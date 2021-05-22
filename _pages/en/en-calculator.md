@@ -2,7 +2,8 @@
 title: Bitcoin and Crypto Profit Calculator
 permalink: "/en/calculator/"
 layout: page
-description: "\U0001F4B5 Bitcoin Returns Calculator, Ethereum Calculator. Crypto Investment Profits. \U0001F4B9"
+description: "\U0001F4B5 Bitcoin Returns Calculator, Ethereum Calculator. Crypto Investment
+  Profits. \U0001F4B9"
 banner_image: pages/calculator.webp
 schema: true
 rating: 5
