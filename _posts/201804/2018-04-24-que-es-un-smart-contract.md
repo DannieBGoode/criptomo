@@ -4,7 +4,8 @@ date: 2018-04-24 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Qué es un smart contract, también llamado contrato inteligente. El problema de los oráculos.
+description: Qué es un smart contract, también llamado contrato inteligente. El problema
+  de los oráculos.
 banner_image: 201804/agreement.jpg
 rating: 5
 totalVotes: 1

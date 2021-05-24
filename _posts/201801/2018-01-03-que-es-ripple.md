@@ -4,7 +4,8 @@ date: 2018-01-03 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Ripple explicada para principiantes. La moneda de los bancos.
+description: La criptomoneda Ripple explicada para principiantes. La moneda de los
+  bancos.
 banner_image: 201801/ripple-banks.jpg
 rating: 5
 totalVotes: 2

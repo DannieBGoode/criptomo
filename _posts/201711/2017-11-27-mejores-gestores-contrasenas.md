@@ -4,7 +4,8 @@ date: 2017-11-27 00:00:00 Z
 tags:
 - seguridad
 layout: post
-description: Qué es una buena contraseña, como guardarlas en la mundo de internet con los mejores gestores de contraseñas.
+description: Qué es una buena contraseña, como guardarlas en la mundo de internet
+  con los mejores gestores de contraseñas.
 banner_image: 201711/lastpass.jpg
 rating: 4
 totalVotes: 5

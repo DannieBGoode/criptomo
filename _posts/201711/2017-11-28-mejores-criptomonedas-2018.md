@@ -4,7 +4,8 @@ date: 2017-11-28 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Las mejores criptomonedas altcoins, más prometedoras y que más podrían subir en 2018.
+description: Las mejores criptomonedas altcoins, más prometedoras y que más podrían
+  subir en 2018.
 banner_image: 201711/altcoins.jpg
 rating: 5
 totalVotes: 3
