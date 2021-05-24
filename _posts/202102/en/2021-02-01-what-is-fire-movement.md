@@ -4,7 +4,7 @@ date: 2021-02-01 00:00:00 Z
 tags:
 - fi
 layout: post
-description: What is FIRE, Financial Independence Retire Early
+description: What is FIRE, Financial Independence Retire Early. The new financial movement.
 banner_image: 202102/fire2.webp
 rating: 5
 TotalVotes: 7
