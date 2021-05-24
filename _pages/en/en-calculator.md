@@ -150,10 +150,12 @@ ref: calculator
 
 ## Bitcoin Calculator Instructions
 
-With this crypto profits calculator you can find out what profit you could have obtained by investing in Bitcoin and other cryptocurrencies in time. 
+With this crypto profit calculator you can find out what profit you could have obtained by investing in Bitcoin and other cryptocurrencies in time. 
 
-In order to use this **bitcoin calculator** to find out your crypto profits, please enter the initial investment you'd like to calculate and choose the crypto you'd like to simulate.
+In order to use this **bitcoin calculator** to find out your bitcoin profits (or other crypto profits), please enter the initial investment you'd like to calculate and choose the crypto you'd like to simulate.
 
 You can choose other cryptos not included in the dropdown but make sure to enter the exact ticket the crypto has. For example, instead of DOGECOIN type in **DOGE**, or instead of ETHEREUM enter **ETH**. It might be possible not all cryptocurrencies are covered by the API.
 
 When selecting the sale date, depending on the time it might not be possible to choose today if the markets have not yet been registered as closed. If so please choose Yesterday as the sale date.
+
+The Bitcoin profit calculator will return the investment value both in profit percentage and absolute crypto profit gains.
