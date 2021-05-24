@@ -11,8 +11,12 @@ sidebar: false
 lang: es
 ---
 
-<div class="entry-header"></div>
+
+
 <div class="entry-content">
+
+    <h2>Las ICOs más exitosas</h2>
+
     A continuación podéis encontrar una tabla con las 52 <a href="/que-es-una-ico">ICOs</a> que más fondos han recaudado junto a su precio actual para que se pueda hacer una valoración de cómo de exitosas han resultado para sus inversores.
     <div>
         La valoración de los fondos totales recaudados está calculada en función del valor al que estaban BTC y ETH en el momento de finalización de cada ICO, y por tanto no tienen porque reflejar los fondos reales que cada proyecto ha tenido a su disposición. Lo normal es considerar que cada proyecto pasó una buena cantidad de esas recaudaciones a dólares, pero también se quedarían con una buena cantidad de criptomonedas cuyos precios han ido fluctuando con el tiempo.

@@ -10,8 +10,12 @@ lang: en
 sidebar: false
 ---
 
-<div class="entry-header"></div>
+
+
 <div class="entry-content">
+
+    <h2>The most profitable ICOs</h2>
+
     Below you can find a table with the 52 ICOs that have raised the most funds together with their current price so that an assessment of how successful they have been for their investors can be made.
     The valuation of the total funds collected is calculated based on the value at which BTC and ETH were at the time of completion of each ICO, and therefore they do not have to reflect the real funds that each project has had at its disposal. The normal thing is to consider that each project spent a good amount of those collections in dollars, but they would also keep a good amount of cryptocurrencies whose prices have fluctuated over time.
     As a reference I have added at the end certain cryptocurrencies that are listed among the first positions and that also carried out ICOs but did not manage to raise such large amounts. For example IOTA raised just $ 434,000 but instead has become one of the most profitable ICOs for its few initial investors.
