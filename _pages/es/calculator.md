@@ -144,3 +144,12 @@ ref: calculator
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/recommendations.js?{{site.time | date: '%s%N'}}"></script>
 
+## Instrucciones de la calculadora de Bitcoin
+
+Con está calculadora de ganancias crypto podrás averiguar qué beneficio podrías haber obtenido invirtiendo en Bitcoin y otras criptomonedas a tiempo.
+
+Para utilizar esta calculadora de bitcoin como simulador de ganancias, ingrese la inversión inicial que desea calcular y elija la criptomoneda que desea simular.
+
+Puede elegir otras criptomonedas no incluidas en el menú desplegable, pero asegúrese de ingresar el código exacto que tiene la criptomoneda a simular. Por ejemplo, en lugar de DOGECOIN escriba **DOGE**, o en lugar de ETHEREUM introduzca **ETH**. Es posible que la API no cubra todas las criptomonedas.
+
+Al seleccionar la fecha de venta, dependiendo de la hora, puede que no sea posible elegir hoy si los mercados aún no se han registrado como cerrados. Si es así, elija "Ayer" como fecha de venta. 

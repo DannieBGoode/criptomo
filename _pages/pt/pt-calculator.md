@@ -145,3 +145,14 @@ redirect_from:
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
+
+
+## Instruções da calculadora Bitcoin
+
+Com esta calculadora de lucros de criptografia, você pode descobrir qual lucro poderia ter obtido investindo em Bitcoin e outras criptomoedas no tempo.
+
+Para usar esta calculadora de bitcoin para descobrir seus lucros de criptografia, insira o investimento inicial que deseja calcular e escolha a criptografia que deseja simular.
+
+Você pode escolher outras criptografias não incluídas na lista suspensa, mas certifique-se de inserir o bilhete exato que a criptografia possui. Por exemplo, em vez de DOGECOIN, digite **DOGE** ou, em vez de ETHEREUM, digite **ETH**. Pode ser possível que nem todas as criptomoedas sejam cobertas pela API.
+
+Ao selecionar a data de venda, dependendo do horário pode não ser possível escolher hoje se os mercados ainda não estiverem registrados como fechados. Em caso afirmativo, escolha Ontem como data de venda. 

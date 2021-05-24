@@ -141,3 +141,13 @@ redirect_from:
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
+
+## Instructions pour la calculatrice Bitcoin
+
+Avec ce calculateur de bénéfices cryptographiques, vous pouvez savoir quel profit vous auriez pu obtenir en investissant dans le Bitcoin et d'autres crypto-monnaies à temps.
+
+Afin d'utiliser ce calculateur de bitcoins pour connaître vos bénéfices de crypto, veuillez entrer l'investissement initial que vous souhaitez calculer et choisissez le crypto que vous souhaitez simuler.
+
+Vous pouvez choisir d'autres cryptos non inclus dans la liste déroulante, mais assurez-vous de saisir le ticket exact de la crypto. Par exemple, au lieu de DOGECOIN, saisissez **DOGE**, ou au lieu de ETHEREUM, saisissez **ETH**. Il est possible que toutes les crypto-monnaies ne soient pas couvertes par l'API.
+
+Lors de la sélection de la date de vente, en fonction de l'heure, il peut ne pas être possible de choisir aujourd'hui si les marchés n'ont pas encore été enregistrés comme fermés. Si tel est le cas, veuillez choisir Hier comme date de vente. 

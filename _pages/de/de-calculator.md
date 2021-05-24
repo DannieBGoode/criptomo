@@ -144,3 +144,14 @@ redirect_from:
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
+
+
+## Anweisungen für den Bitcoin-Rechner
+
+Mit diesem Krypto-Gewinnrechner können Sie herausfinden, welchen Gewinn Sie erzielen könnten, wenn Sie rechtzeitig in Bitcoin und andere Kryptowährungen investieren.
+
+Um diesen Bitcoin-Rechner zu verwenden, um Ihre Krypto-Gewinne herauszufinden, geben Sie bitte die anfängliche Investition ein, die Sie berechnen möchten, und wählen Sie die Krypto aus, die Sie simulieren möchten.
+
+Sie können andere Kryptos auswählen, die nicht in der Dropdown-Liste enthalten sind. Geben Sie jedoch genau das Ticket ein, über das die Krypto verfügt. Geben Sie beispielsweise anstelle von DOGECOIN **DOGE** ein oder geben Sie anstelle von ETHEREUM **ETH** ein. Möglicherweise werden nicht alle Kryptowährungen von der API abgedeckt.
+
+Bei der Auswahl des Verkaufsdatums ist es je nach Uhrzeit möglicherweise nicht möglich, heute zu wählen, wenn die Märkte noch nicht als geschlossen registriert wurden. Wenn ja, wählen Sie bitte Gestern als Verkaufsdatum. 

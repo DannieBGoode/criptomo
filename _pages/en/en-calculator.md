@@ -145,3 +145,15 @@ ref: calculator
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/recommendations.js?{{site.time | date: '%s%N'}}"></script>
+
+
+
+## Bitcoin Calculator Instructions
+
+With this crypto profits calculator you can find out what profit you could have obtained by investing in Bitcoin and other cryptocurrencies in time. 
+
+In order to use this **bitcoin calculator** to find out your crypto profits, please enter the initial investment you'd like to calculate and choose the crypto you'd like to simulate.
+
+You can choose other cryptos not included in the dropdown but make sure to enter the exact ticket the crypto has. For example, instead of DOGECOIN type in **DOGE**, or instead of ETHEREUM enter **ETH**. It might be possible not all cryptocurrencies are covered by the API.
+
+When selecting the sale date, depending on the time it might not be possible to choose today if the markets have not yet been registered as closed. If so please choose Yesterday as the sale date.
