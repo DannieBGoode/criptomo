@@ -54,6 +54,6 @@ Each halves occurs every 210,000 blocks, given that one block is mined every app
 
 Mainly, miners will be funded solely by transfer fees, just as they already partially do right now. The market will adjust the values ​​of these commissions, especially considering the low costs of creating a Bitcoin node.
 
-{% include image_caption.html imageurl="/images/posts/202005/graph.png" title="" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202005/graph.png" caption="BTC Price after each halving"  popup=true %}
 
 
