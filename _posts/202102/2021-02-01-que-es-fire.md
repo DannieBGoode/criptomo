@@ -4,7 +4,7 @@ date: 2021-02-01 00:00:00 Z
 tags:
 - fi
 layout: post
-description: Qué es FIRE, Financial Independence Retire Early
+description: Qué es FIRE, Financial Independence Retire Early. El movimiento de los millenials.
 banner_image: 202102/fire2.webp
 rating: 5
 totalVotes: 7

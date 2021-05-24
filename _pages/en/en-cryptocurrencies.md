@@ -2,7 +2,7 @@
 title: "+100 cryptocurrencies explained"
 permalink: "/en/cryptocurrencies/"
 layout: default
-description: Short description of over 100 cryptocurrencies
+description: Short description of over 100 cryptocurrencies and their use case.
 progress: true
 lang: en
 redirect_from:

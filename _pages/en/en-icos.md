@@ -2,7 +2,7 @@
 title: ICOs Profits
 permalink: "/en/icos/"
 layout: page
-description: The ICOs that raised the most funds ever.
+description: The ICOs that raised the most funds ever, search and find the most profitable ICOs.
 banner_image: pages/ico.webp
 sitemap: true
 noMargins: true
