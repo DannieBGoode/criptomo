@@ -3,7 +3,7 @@ title: Qué es la Fungibilidad
 date: 2018-09-25 00:00:00 Z
 tags:
 - tecnologia
-description: 
+description: Qué es la fungibilidad y las monedas de privacidad.
 layout: post
 banner_image: 201809/monero.jpg
 rating: 5

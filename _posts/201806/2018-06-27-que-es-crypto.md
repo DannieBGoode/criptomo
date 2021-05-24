@@ -4,9 +4,7 @@ date: 2018-06-27 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente
-  conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión.
-  Análisis y opiniones de CRO y MCO.
+description: Análisis de la tarjeta de crédito y débito de criptomonedas CRYPTO.
 banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 19

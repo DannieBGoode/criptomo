@@ -5,8 +5,6 @@ tags:
 - bitcoin
 layout: post
 description: Explicación del problema de escalabilidad de Bitcoin y sus posibles soluciones.
-  Tiempos de bloque, tamaño de bloque, bloques huérfanos, stale blocks, Segwit y Lightning
-  Network.
 banner_image: 201801/bitcoin-scalability.jpg
 rating: 4.75
 totalVotes: 3

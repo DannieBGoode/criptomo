@@ -5,7 +5,7 @@ tags:
 - altcoins
 layout: post
 description: Guía de cómo comprar criptomonedas altcoins con Bitcoin con imágenes
-  y explicado paso a paso. Cómo depositar en Binance desde Coinbase o Bitstamp.
+  y explicado paso a paso.
 banner_image: 201712/coins.jpg
 rating: 5
 totalVotes: 3

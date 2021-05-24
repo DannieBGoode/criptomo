@@ -4,9 +4,7 @@ date: 2018-01-03 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Ripple ha superado a Ethereum como la segunda con más
-  capitalización del mercado aumentando un 400% su valor. Veamos qué ofrece exactamente
-  y cual podría ser su previsión.
+description: La criptomoneda Ripple explicada para principiantes. La moneda de los bancos.
 banner_image: 201801/ripple-banks.jpg
 rating: 5
 totalVotes: 2

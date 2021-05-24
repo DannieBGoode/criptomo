@@ -4,9 +4,7 @@ date: 2020-01-11 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: The cryptocurrency credit and debit card called CRYPTO, formerly known
-  as Monaco (MCO) with competitive currency exchanges and investment funds. Analysis
-  and opinions of CRO and MCO.
+description: Analysis of the cryptocurrency credit and debit card called CRYPTO.
 banner_image: 201806/crypto.jpg
 rating: 5
 totalVotes: 29
