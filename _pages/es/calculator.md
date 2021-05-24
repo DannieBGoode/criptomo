@@ -2,7 +2,7 @@
 title: Calculadora de Bitcoin y Criptomonedas
 permalink: "/calculadora/"
 layout: page
-description: "\U0001F4B5 Calculadora de Bitcoin, Ethereum y otras Criptomonedas"
+description: "\U0001F4B5 Calculadora de Bitcoin, Ethereum y otras Criptomonedas. Simulador de ganancias."
 banner_image: pages/calculator.webp
 schema: true
 rating: 5
