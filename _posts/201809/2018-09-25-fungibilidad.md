@@ -1,5 +1,6 @@
 ---
 title: Qué es la Fungibilidad
+description: Fungibilidad y monedas de alta privacidad.
 date: 2018-09-25 00:00:00 Z
 tags:
 - tecnologia
