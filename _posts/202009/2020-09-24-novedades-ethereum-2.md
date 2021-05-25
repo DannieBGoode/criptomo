@@ -5,7 +5,7 @@ tags:
 - ethereum
 - altcoins
 layout: post
-description: Qué novedades trae Ethereum 2.0
+description: Qué novedades trae Ethereum 2.0, Proof of Stake y otras novedades.
 banner_image: 202009/eth2.webp
 rating: 5
 totalVotes: 11
