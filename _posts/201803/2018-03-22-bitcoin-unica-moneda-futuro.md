@@ -1,5 +1,5 @@
 ---
-title: "¿Se convertirá el Bitcoin en la única criptomoneda del futuro?"
+title: "¿Se convertirá el Bitcoin en la única criptomoneda?"
 date: 2018-03-22 00:00:00 Z
 tags:
 - noticias

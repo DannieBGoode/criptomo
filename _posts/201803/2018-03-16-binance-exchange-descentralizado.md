@@ -1,5 +1,5 @@
 ---
-title: Binance anuncia que lanzará un exchange descentralizado y un blockchain público
+title: Binance anuncia un exchange descentralizado
 date: 2018-03-16 00:00:00 Z
 tags:
 - noticias
