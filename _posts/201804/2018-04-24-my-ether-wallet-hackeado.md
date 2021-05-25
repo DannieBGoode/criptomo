@@ -4,7 +4,7 @@ date: 2018-04-24 08:08:39 Z
 tags:
 - noticias
 layout: post
-description: My Ether Wallt hackeado 2018.
+description: El wallet de Ethereum My Ether Wallet hackeado durante 2018. Detalles.
 banner_image: 201804/mew.jpg
 ---
 
