@@ -5,8 +5,6 @@ tags:
 - altcoins
 layout: post
 description: Monero es la criptomoneda que mejores aplicaciones de privacidad ha implementado.
-  Veamos en detalle en qué consiste y de qué manera consigue estos niveles de anonimidad
-  a la hora de realizar transacciones.
 banner_image: 201801/monero.png
 rating: 5
 totalVotes: 1

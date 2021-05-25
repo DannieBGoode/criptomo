@@ -4,7 +4,7 @@ date: 2019-04-24 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: 
+description: Las distintas fases de una transacción en Bitcoin de inicio a final.
 banner_image: 201904/trx.png
 rating: 5
 totalVotes: 4

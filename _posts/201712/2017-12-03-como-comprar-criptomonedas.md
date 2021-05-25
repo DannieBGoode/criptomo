@@ -4,9 +4,7 @@ date: 2017-12-03 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC),
-  Bitcoin Cash (BCH), Ethereum (ETH), Ethereum Classic (ETC), Litecoin (LTC), Ripple
-  (XRP), dónde enviar tu dinero y cómo invertir en criptomonedas.
+description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC) y otras.
 banner_image: 201712/exchange.jpg
 rating: 5
 totalVotes: 6

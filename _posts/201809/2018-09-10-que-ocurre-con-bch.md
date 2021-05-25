@@ -4,7 +4,7 @@ date: 2018-09-10 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: 
+description: Bitcoin Cash sufre un split hard fork y se divide en dos criptomonedas distintas.
 banner_image: 201809/bch.jpg
 rating: 5
 totalVotes: 5

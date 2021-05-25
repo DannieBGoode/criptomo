@@ -4,9 +4,7 @@ date: 2018-01-18 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Principios básicos de los métodos para decidir si debemos o no invertir
-  en una criptomoneda. Cómo valorar criptomonedas, como saber si una cripto podría
-  ser una estafa.
+description: Principios básicos para valorar criptomonedas. Consejos.
 banner_image: 201801/investing.png
 rating: 5
 totalVotes: 1
