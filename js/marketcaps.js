@@ -60,20 +60,33 @@ let table = $('#marketcaps-table').DataTable({
       render: function ( data, type, row, meta) {
         if ( type !== 'display' ) { return data.price; }
         let max = '';
+        let bet = '';
         if ((data.extreme.usd === data.price) && ((marketcapCurrency === 'USD') || (marketcapCurrency === 'EUR'))) {
           max = '<sup><small class="marketcaps-price-max">MAX</small></sup> ';
         } else {
           let formatDate = new Date(data.extreme.date).toShortFormat();
           let currency = marketcapCurrency;
+          
           if ((currency === 'BTC') || (currency === 'ETH')) {
             currency = 'USD';
           }
-          max = '<div class="tooltip"><sup><small>MAX</small></sup> <small class="tooltiptext">' + tableDataLang.priceColumns.maximum + ':</br>' + tableDataLang.priceColumns.date + ': ' + formatDate + '</br>' + tableDataLang.priceColumns.price + ': ' + parseFloat(data.extreme.usd).toFixed(2) + ' ' + currency + '</small></div> ';
+          max = `<div class="tooltip">
+                  <sup><small>MAX</small></sup> 
+                  <small class="tooltiptext">` + tableDataLang.priceColumns.maximum + `:</br>` + 
+                    tableDataLang.priceColumns.date + `: ` + formatDate + `</br>` + 
+                    tableDataLang.priceColumns.price + `: ` + parseFloat(data.extreme.usd).toFixed(2) + ` ` + currency + `
+                  </small>
+                </div> `;
+          bet = ` <div class="tooltip">
+                    <sub><small>BET</small></sub>
+                    <small class="tooltiptext"> `+ tableDataLang.priceColumns.bet + data.bet1000 + ` ` + currency + `
+                    </small>
+                  </div>`;
         }
         if ( data.positiveChange > 0) {
-          return '<div style="display:flex">' + max + '<span class="marketcaps-pricechange-positive">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▲</span></span></div>';
+          return '<div style="display:flex"><div class="tooltip-container">' + max + bet + '</div><span class="marketcaps-pricechange-positive">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▲</span></span></div>';
         }
-        return '<div style="display:flex">' + max + '<span class="marketcaps-pricechange-negative">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▼</span></span></div>';
+        return '<div style="display:flex"><div class="tooltip-container">' + max + bet + '</div><span class="marketcaps-pricechange-negative">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▼</span></span></div>';
       },
       searchable: false
     },
@@ -195,7 +208,8 @@ function marketcapTableLoad( currency ) {
         let colPrice = {
           price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
           positiveChange: (parseFloat(coin.delta.second) >= 1),
-          extreme: coin.extremes.all.max
+          extreme: coin.extremes.all.max,
+          bet1000: (1000 / parseFloat(coin.price) * parseFloat(coin.extremes.all.max.usd)).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')
         };
         let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1)*(-1);
         let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1)*(-1);

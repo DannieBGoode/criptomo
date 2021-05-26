@@ -37,7 +37,8 @@ if (lang === 'es') {
   tableDataLang.priceColumns = {
   	maximum: 'Máximo Histórico',
   	date: 'Fecha',
-  	price: 'Precio'
+  	price: 'Precio',
+		bet: 'Si esta moneda vuelve a máximo histórico, $1000 invertidos hoy serían: '
   },
   tableDataLang.icoColumns = {
   	name: 'Nombre',
@@ -84,7 +85,8 @@ else if (lang === 'en') {
 	tableDataLang.priceColumns = {
 		maximum: 'All Time High',
 		date: 'Date',
-		price: 'Price'
+		price: 'Price',
+		bet: 'If this coin returns to ATH, $1000 invested today would be: '
 	},
 	tableDataLang.icoColumns = {
 		name: 'Name',

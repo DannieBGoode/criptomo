@@ -259,13 +259,22 @@ input:focus, select:focus {
     background-color: #FFFFFF; 
     box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
 }
+.tooltip-container {
+	display: flex;
+	flex-direction: column;
+}
 .tooltip {
   position: relative;
   display: inline-block;
-  sup {
+  height: 10px;
+  sup, sub {
   	small {
   		cursor: pointer;
   	}
+  }
+  sub {
+  	right: 2px;
+  	bottom: 2px;
   }
 }
 
