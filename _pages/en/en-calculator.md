@@ -1,5 +1,5 @@
 ---
-title: Bitcoin and Crypto Profit Calculator
+title: ▷ Bitcoin and Crypto Profit Calculator
 permalink: "/en/calculator/"
 layout: page
 description: "\U0001F4B5 Bitcoin Returns Calculator, Ethereum Calculator. Crypto Investment

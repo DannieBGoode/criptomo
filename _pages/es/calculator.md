@@ -1,5 +1,5 @@
 ---
-title: Calculadora de Bitcoin y Criptomonedas
+title: ▷ Calculadora de Bitcoin y Criptomonedas
 permalink: "/calculadora/"
 layout: page
 description: "\U0001F4B5 Calculadora de Bitcoin, Ethereum y otras Criptomonedas. Simulador de ganancias."

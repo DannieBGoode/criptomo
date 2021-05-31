@@ -1,5 +1,5 @@
 ---
-title: Calculadora de lucro com bitcoins e criptomoedas
+title: ▷ Calculadora de lucro com bitcoins e criptomoedas
 permalink: "/pt/calculadora/"
 layout: page
 description: "\U0001F4B5 Calculadora Bitcoin, calcule quanto lucro você poderia ter

@@ -1,5 +1,5 @@
 ---
-title: Calculateur de bénéfices Bitcoin et crypto-monnaies
+title: ▷ Calculateur de bénéfices Bitcoin et crypto-monnaies
 permalink: "/fr/calculateur/"
 layout: page
 description: "\U0001F4B5 Bitcoin Calculator, calculez le profit que vous auriez pu

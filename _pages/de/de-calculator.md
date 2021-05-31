@@ -1,5 +1,5 @@
 ---
-title: Gewinnrechner für Bitcoin und Kryptowährungen
+title: ▷ Gewinnrechner für Bitcoin und Kryptowährungen
 permalink: "/de/gewinnrechner/"
 layout: page
 description: "\U0001F4B5 Berechnen Sie mit dem Bitcoin-Rechner, wie viel Gewinn Sie
