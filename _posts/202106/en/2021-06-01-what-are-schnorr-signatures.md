@@ -10,7 +10,7 @@ TotalVotes: 16
 lang: en
 ---
 
-Schnorr signatures were originally developed by Claus Schnoor, a German cryptographer and mathematician who decided to protect them through a patent for many years, which finally expired in 2008 (months before the Bitcoin whitepaper). Among other benefits, schnorr firms stand out for their simplicity and efficiency.
+Schnorr signatures were originally developed by Claus Schnorr, a German cryptographer and mathematician who decided to protect them through a patent for many years, which finally expired in 2008 (months before the Bitcoin whitepaper). Among other benefits, schnorr firms stand out for their simplicity and efficiency.
 
 <!--more-->
 
