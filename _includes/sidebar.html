@@ -79,6 +79,40 @@
         {% endif %}
 
         <section class="widget widget-recent-posts">
+            <h2 class="widget-title">{{ site.data.translations.popular-entries[lang] }}</h2>
+            <ul class="recent-posts">
+                {% assign i = 0 %}
+                {% assign pages = site.pages | where:"popular", true | where:"lang", lang %}
+                {% for post in pages %}
+                    {% if post.lang != post.lang %}
+                        {% continue %}
+                    {% endif %}
+                    {% if i == 5 %}
+                        {% break %}
+                    {% endif %}
+                    {% assign i = i | plus: 1 %}
+                        <li class="recent-item">
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{% include signature.html date=post.date %}</span>
+                        </li>                    
+                {% endfor %}
+                {% assign i = 0 %}
+                {% assign posts = site.posts | where:"lang", page.lang | where:"popular", true %}
+                {% for post in posts %}
+                    {% if post.lang != page.lang %}
+                        {% continue %}
+                    {% endif %}
+                    {% if i == 5 %}
+                        {% break %}
+                    {% endif %}
+                    {% assign i = i | plus: 1 %}
+                        <li class="recent-item">
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span>{% include signature.html date=post.date %}</span>
+                        </li>                    
+                {% endfor %}
+            </ul><!-- .recent-posts -->
+        </section><!-- .widget-recent-posts -->
+
+        <section class="widget widget-recent-posts">
             <h2 class="widget-title">{{ site.data.translations.last-entries[lang] }}</h2>
             <ul class="recent-posts">
                 {% assign i = 0 %}

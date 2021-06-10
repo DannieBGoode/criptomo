@@ -13,6 +13,7 @@ lang: en
 redirect_from:
 - "/investment"
 - "/investment/"
+popular: true
 ---
 
 <div style="margin-bottom: 10px">

@@ -8,6 +8,7 @@ description: Qué es una frase mnemónica o un seed y cómo de seguro es
 banner_image: 202101/mnemonic.webp
 rating: 5
 totalVotes: 9
+popular: true
 ---
 
 Para entender el concepto de frase mnemónica o seed primero debemos entender la diferencia entre wallet de custodia y de no custodia.

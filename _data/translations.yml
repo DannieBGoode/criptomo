@@ -3,6 +3,10 @@
     "en": 'Last entries',
     "es": 'Últimas entradas'
   },
+  "popular-entries": {
+    "en": 'Most popular entries',
+    "es": 'Páginas más populares'
+  },
   "previous-entries": {
     "en": 'Previous',
     "es": 'Anterior'

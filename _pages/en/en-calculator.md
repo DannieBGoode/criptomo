@@ -13,6 +13,7 @@ sitemap: true
 lang: en
 css: calculator
 ref: calculator
+popular: true
 ---
 
 <div style="margin-bottom: 10px">
