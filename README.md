@@ -25,5 +25,5 @@ To collaborate with Criptomo and create your own posts:
 
 * Create your own branch from `gh-pages`
 * Commit your additions.
-* Create a Pull Request pointing to `gh-pages`
+* Create a Pull Request pointing to `gh-pages` 
 * If the PR is approved it will be merged and automatically deployed.
