@@ -60,7 +60,7 @@ function updateSWR () {
 		swr.parentElement.children[1].classList.remove('input-error');
 	}
 	if (yearlySpending.value && swr.value) {
-		document.getElementById("fi-desired-networth").value = parseFloat(parseInt(yearlySpending.value) * 100 / parseInt(swr.value)).toFixed(2);
+		document.getElementById("fi-desired-networth").value = parseFloat(parseInt(yearlySpending.value) * 100 / parseFloat(swr.value)).toFixed(2);
 		calculateFI();
 	}
 
