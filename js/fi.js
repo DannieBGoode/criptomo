@@ -37,7 +37,7 @@ function updateYearlySpending(yearlySpending) {
 function updateDesiredNetworth() {
 	let swr = document.getElementById("fi-swr").value;
 	let yearlySpending = document.getElementById("fi-yearly-spending");
-	yearlySpending.value = parseInt(document.getElementById("fi-desired-networth").value) * parseInt(swr) / 100;
+	yearlySpending.value = parseInt(document.getElementById("fi-desired-networth").value) * parseFloat(swr) / 100;
 	updateYearlySpending(yearlySpending);
 	calculateFI();
 }
