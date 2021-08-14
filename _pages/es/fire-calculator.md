@@ -132,7 +132,7 @@ sitemap: true
         <!-- <button class="calculate-button" onclick="calculateFI()">Calcular</button> -->
         
         <div id="fi-calculator-results">
-            Con unos ingresos de <span></span> al año y una tasa de ahorro de <span></span> estarías ahorrando <span></span> al año y podrías jubilarte dentro de <span></span> a la edad de <span></span> con un patrimonio de <span></span>.
+<!--             Con unos ingresos de <span class="results-income"></span> al año si inviertes un <span class="results-save-rate"></span>% estarías ahorrando <span class="results-yearly-savings"></span> al año y podrías jubilarte dentro de <span class="results-years-to-fi"></span> años a la edad de <span class="results-fi-age"></span> años con un patrimonio de <span class="results-networth"></span>. -->
 
             <div id="fi-results-table">
                 <table>
