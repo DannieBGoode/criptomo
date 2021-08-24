@@ -8,7 +8,6 @@ banner_image: 202108/bitcoin.webp
 rating: 5
 TotalVotes: 10
 ref: btc-store-of-value
-lang: es
 ---
 
 Un motivo que se escucha a menudo para no invertir en Bitcoin (BTC) es, ¿qué pasaría si de repente viene otra criptomoneda que es mejor que Bitcoin y le arrebata la posición?
