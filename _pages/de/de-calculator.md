@@ -127,7 +127,7 @@ redirect_from:
                     Denken Sie daran, den Währungscode anstelle des vollständigen Namens zu verwenden.
                 </div>
                 <div>
-                    Zum Beispiel: <a>DOGE</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
+                    Zum Beispiel: <a>DOGE</a>, <a>SHIB</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
                 </div>
             </div>
             <div class="error date-error">

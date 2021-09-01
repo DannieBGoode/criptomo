@@ -128,7 +128,7 @@ redirect_from:
                     Lembre-se de tentar com o código da moeda em vez do nome completo.
                 </div>
                 <div>
-                    Por exemplo: <a>DOGE</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
+                    Por exemplo: <a>DOGE</a>, <a>SHIB</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
                 </div>
             </div>
             <div class="error date-error">

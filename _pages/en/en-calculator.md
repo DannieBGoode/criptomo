@@ -123,7 +123,7 @@ popular: true
                     Remember to try with the currency code instead of the full name. 
                 </div>
                 <div>
-                    For example: <a>DOGE</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
+                    For example: <a>DOGE</a>, <a>SHIB</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...
                 </div>
             </div>
             <div class="error date-error">
