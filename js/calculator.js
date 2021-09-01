@@ -111,8 +111,9 @@ function calculateEarnings() {
     if (typeof recommendArticles === "function") {
       recommendArticles(investData.tokenSymbol);  
     }
-    console.log(checkGEO());
-    if (checkGEO()) {
+
+    // Display Stormgain Ads 
+    if (allowedCountry) {
       let displayedAds = document.querySelector(".stormgain div a.displayed");
       if (displayedAds) {
           displayedAds.classList.remove('displayed');

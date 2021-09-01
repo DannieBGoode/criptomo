@@ -86,19 +86,22 @@ else {
     }
 }
 
-async function checkGEO() {
-    var resp = await fetch('http://ip-api.com/json')
+// Check if country is in Stormgain's allowed country list
+function checkGEO() {
+    fetch('http://ip-api.com/json')
         .then(response => response.json())
         .then(data => {
-            // console.log("CountryCode:" + data.countryCode);
-            if (countriesBlackList.includes("US")) {
-                return false;
+            if (countriesBlackList.includes(data.countryCode)) {
+                allowedCountry = false;
             } else {
-                return true;    
+                console.log("true");
+                allowedCountry = true;    
             }
         })
         .catch(console.error);
+
 }
 
-
+let allowedCountry;
 const countriesBlackList = ["US", "CA", "JP", "AF", "BA", "GY", "IQ", "LA", "YE", "VU", "UG", "SY", "ET", "LK", "TT", "TN", "IR", "KP" ]
+checkGEO();
