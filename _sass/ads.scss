@@ -1,0 +1,16 @@
+.stormgain {
+	display: none;
+	div {
+		display: flex;
+		justify-content: center;
+		a {
+			display: none;
+			&.displayed {
+				display: block;
+			}
+		}
+	}
+	.bonus {
+		margin-top: 20px;
+	}
+}

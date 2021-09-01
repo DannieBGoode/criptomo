@@ -136,6 +136,46 @@ redirect_from:
     </div>
 
     <div class="lazy-load-ad" data-slot="1002456567"></div>
+
+    <div class="stormgain">
+        <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Achetez <span class="result-tokentype"></span> dès maintenant!</a></h2>
+        <div>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12339" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608858"  width="492" height="328"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12337" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608859"  width="300" height="250"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11916" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608860"  width="492" height="328"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11913" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608861"  width="300" height="250"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11243" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608862"  width="300" height="250"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10538" target="_blank"><iframe frameborder="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608863&clickTag=https%3A%2F%2Fgo.stormgain.app%2Fvisit%2F%3Fbta%3D112218%26nci%3D10538"  width="336" height="280"></iframe></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10159" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608864"  width="600" height="600"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6888" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608866"  width="1200" height="800"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10158" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608867"  width="492" height="328"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6872" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608868"  width="390" height="260"></a>
+        </div>
+        <p class="bonus">
+            Et profitez aussi:
+            <ul>
+                <li> Crypto Mining dans le cloud pour débutants et experts</li>
+                <li> Bonus de dépôt (25 usdt pour les dépôts à partir de 100 $)</li>
+                <li> Intérêts sur les dépôts (12% du montant déposé)</li>
+                <li> Portefeuille crypto</li>
+                <li> Échange de crypto</li>
+                <li> Trading de paires de devises avec multiplicateur jusqu'à x300</li>
+                <li> Compte démo 50K USDT</li>
+                <li> Plateforme pédagogique</li>
+                <li> Sponsor officiel du Lazio Fútbol Club</li>
+            </ul>
+        </p>
+        <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Commencez votre voyage crypto dans Stormgain </a>
+    </div>
     
 </div>
 

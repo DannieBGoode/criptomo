@@ -111,6 +111,22 @@ function calculateEarnings() {
     if (typeof recommendArticles === "function") {
       recommendArticles(investData.tokenSymbol);  
     }
+    console.log(checkGEO());
+    if (checkGEO()) {
+      let displayedAds = document.querySelector(".stormgain div a.displayed");
+      if (displayedAds) {
+          displayedAds.classList.remove('displayed');
+      }
+      document.querySelector('.stormgain').style.display = 'block';
+      let numberOfAds = document.querySelectorAll(".stormgain div a").length;
+      let adToShow = Math.floor(Math.random() * numberOfAds);
+      document.querySelectorAll(".stormgain div a")[adToShow].classList.add("displayed");
+      console.log("show");
+    }
+    else {
+      document.querySelector('.stormgain').style.display = 'none';
+      console.log("hide");
+    }
   }
 
   function loading(state) {

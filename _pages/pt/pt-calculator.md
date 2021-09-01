@@ -140,7 +140,39 @@ redirect_from:
 
     <!-- Calculator Banner -->
     <div class="lazy-load-ad" data-slot="1002456567"></div>
-    
+
+    <div class="stormgain">
+        <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compre <span class="result-tokentype"></span> Agora!</a></h2>
+        <div>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11053" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608806"  width="1280" height="720"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11034" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608807"  width="1280" height="720"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11032" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608808"  width="768" height="1024"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11010" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608810"  width="320" height="480"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10605" target="_blank"><iframe frameborder="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608812&clickTag=https%3A%2F%2Fgo.stormgain.app%2Fvisit%2F%3Fbta%3D112218%26nci%3D10605"  width="336" height="280"></iframe></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10241" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608813"  width="480" height="320"></a>
+
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=8661" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608814"  width="800" height="600"></a>
+        </div>
+        <p class="bonus">
+            E também aproveite:
+            <ul>
+                <li> Cloud Crypto Mining para iniciantes</li>
+                <li> Comissões de Negociação Zero </li>
+                <li> Cripto Exchange</li>
+                <li> Até 300 × Alavancagem </li>
+                <li> 25 USDT por depósito de $ 100</li>
+                <li> Ganhe juros sobre seus depósitos (até 12%)</li>
+                <li> Carteira Crypto</li>
+                <li> Conta de demonstração com 50K USDT</li>
+            </ul>
+        </p>
+        <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Comece sua jornada de cripto em Stormgain  </a>
+    </div>
 </div>
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>

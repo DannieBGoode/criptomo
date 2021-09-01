@@ -85,3 +85,20 @@ else {
         }
     }
 }
+
+async function checkGEO() {
+    var resp = await fetch('http://ip-api.com/json')
+        .then(response => response.json())
+        .then(data => {
+            // console.log("CountryCode:" + data.countryCode);
+            if (countriesBlackList.includes("US")) {
+                return false;
+            } else {
+                return true;    
+            }
+        })
+        .catch(console.error);
+}
+
+
+const countriesBlackList = ["US", "CA", "JP", "AF", "BA", "GY", "IQ", "LA", "YE", "VU", "UG", "SY", "ET", "LK", "TT", "TN", "IR", "KP" ]
