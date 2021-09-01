@@ -135,7 +135,7 @@ popular: true
     <div class="lazy-load-ad" data-slot="1002456567"></div>
 
     <div class="stormgain">
-        <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compra <span class="result-tokentype"></span> Right Ahora!</a></h2>
+        <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compra <span class="result-tokentype"></span> Ahora!</a></h2>
         <div>
             <a href="https://go.stormgain.app/visit/?bta=112218&nci=12429" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608832"  width="492" height="328"></a>
 
