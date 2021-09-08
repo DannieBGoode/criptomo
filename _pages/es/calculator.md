@@ -162,7 +162,7 @@ popular: true
             <a href="https://go.stormgain.app/visit/?bta=112218&nci=6155" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608844"  width="768" height="1024"></a>
         </div>
         <p class="bonus">
-            Y además disfruta de:
+            Incluye:
             <ul>
                 <li> Cripto Minero en la nube para principiantes y expertos</li>
                 <li> Bonos por depósitos (25 usdt por depósitos desde $100)</li>
