@@ -139,21 +139,21 @@ popular: true
     <div class="stormgain">
         <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Buy <span class="result-tokentype"></span> Right Now!</a></h2>
         <div>
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12550" target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608745"  width="492" height="328"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12550" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608745"  width="492" height="328"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12542" target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608766"  width="300" height="250"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12542" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608766"  width="300" height="250"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11892" target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608767"  width="492" height="328"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11892" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608767"  width="492" height="328"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11841" target="_blank"><img src="https://stormgain.ck-cdn.com/tn/serve/?cid=608768" border="0"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11841" target="_blank"><img loading="lazy" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608768" border="0"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11742" target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608769"  width="970" height="250"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11742" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608769"  width="970" height="250"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11739" target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608771"  width="336" height="280"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11739" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608771"  width="336" height="280"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10075" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608777"  width="600" height="600"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10075" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608777"  width="600" height="600"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=8907" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608778"  width="480" height="320"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=8907" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608778"  width="480" height="320"></a>
         </div>
         <p class="bonus">
             And also enjoy:

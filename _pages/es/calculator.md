@@ -137,29 +137,27 @@ popular: true
     <div class="stormgain">
         <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compra <span class="result-tokentype"></span> Ahora!</a></h2>
         <div>
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12429" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608832"  width="492" height="328"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12429" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608832"  width="492" height="328"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12424" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608833"  width="492" height="328"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12424" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608833"  width="492" height="328"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11231" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608835"  width="1200" height="630"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11231" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608835"  width="1200" height="630"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11147" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608836"  width="336" height="280"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11147" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608836"  width="336" height="280"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11146" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608837"  width="320" height="100"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11146" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608837"  width="320" height="100"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11143" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608838"  width="300" height="250"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11143" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608838"  width="300" height="250"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10468" target="_blank"><iframe frameborder="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608839&clickTag=https%3A%2F%2Fgo.stormgain.app%2Fvisit%2F%3Fbta%3D112218%26nci%3D10468"  width="320" height="250"></iframe></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10110" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608840"  width="256" height="256"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10110" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608840"  width="256" height="256"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10116" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608841"  width="492" height="328"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10116" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608841"  width="492" height="328"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6602" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608842"  width="300" height="250"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6602" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608842"  width="300" height="250"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6193" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608843"  width="300" height="250"></a>
 
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6193" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608843"  width="300" height="250"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6155" Target="_Top"><img border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608844"  width="768" height="1024"></a>
+            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6155" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608844"  width="768" height="1024"></a>
         </div>
         <p class="bonus">
             Incluye:
