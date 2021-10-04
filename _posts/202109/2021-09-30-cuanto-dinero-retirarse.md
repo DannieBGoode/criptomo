@@ -29,7 +29,7 @@ Por ejemplo si calculamos que nuestros gastos son 30.000€ brutos anuales neces
 
 Cada año podemos vender un 4% de este patrimonio y según esta regla nunca perderíamos dinero. De hecho, si consideramos que los impuestos de IRPF son mucho más altos que sobre la venta de acciones (aunque el valor exacto esto depende de cada país), el patrimonio necesario sería mucho menor.
 
-Para el patrimonio de 750,000€ podemos gastar 30,000€ como bien hemos calculado y no haría falta trabajar ni un solo día más.
+Para el patrimonio de 750,000€ podemos gastar 30,000€ al año como bien hemos calculado y no haría falta trabajar ni un solo día más, puesto que el dinero que vamos retirando se va recuperando según el S&P500 va creciendo como lleva haciendo toda la vida.
 
 ## Intentar predecir futuros gastos
 

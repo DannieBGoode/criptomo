@@ -28,7 +28,7 @@ For example, if we calculate that our expenses are $30,000 gross per year, we wo
 
 Every year we can sell 4% of this equity and according to this rule we would never lose money. In fact, if we consider that IRPF taxes are much higher than on the sale of shares (although the exact value this depends on each country), the necessary equity would be much lower.
 
-For the assets of $750,000 we can spend $30,000 as we have calculated well and it would not be necessary to work a single day more.
+For the assets of $750,000 we can spend $30,000 per year as we have calculated and it would not be necessary to work a single day more, since all the money withdrawn would be recovered by the S&P500 growth as has been the case for the last 100 years.
 
 ## Try to predict future expenses
 
