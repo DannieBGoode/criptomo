@@ -104,4 +104,4 @@ function checkGEO() {
 
 let allowedCountry;
 const countriesBlackList = ["US", "CA", "JP", "AF", "BA", "GY", "IQ", "LA", "YE", "VU", "UG", "SY", "ET", "LK", "TT", "TN", "IR", "KP" ]
-checkGEO();
+// checkGEO();
