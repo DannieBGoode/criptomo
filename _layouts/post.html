@@ -23,7 +23,7 @@ layout: default
                 <header class="entry-header"> 
                     <div class="entry-header-wrap">
                         {% if page.banner_image %}
-                        <img class="post-thumbnail-full" src="{{ "/images/posts/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                        <img width="600" height="400" class="post-thumbnail-full" src="{{ "/images/posts/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
                         {% endif %}
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->
