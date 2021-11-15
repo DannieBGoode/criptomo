@@ -8,6 +8,7 @@ banner_image: 202106/taproot.webp
 rating: 5
 TotalVotes: 12
 ref: taproot
+lang: es
 ---
 
 Una de las principales características de Bitcoin es que no hay ninguna entidad detrás. Esto significa que cualquier cambio realizado sobre la red debe tener un consenso máximo o será rechazado por distintos nodos y se originará una nueva moneda, como ya pasó con [Bitcoin Cash](/que-es-bitcoin-cash/). Realizar los cambios mediante soft-forks garantiza la retro-compatibilidad y además respeta el hecho de que BTC no haya sido hard-forkeado jamás (a diferencia de ETH, BCH y una infinidad de criptomonedas).

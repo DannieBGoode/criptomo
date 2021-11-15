@@ -8,6 +8,7 @@ description: Qué es FIRE, Financial Independence Retire Early. El movimiento de
 banner_image: 202102/fire2.webp
 rating: 5
 totalVotes: 7
+lang: es
 ---
 
 No existe ninguna ley que obligue a la gente a trabajar hasta los 65+ años, y mucho menos en un trabajo que no nos gusta. Es por ello que hay una oleada de gente joven uniéndose al movimiento F.I.R.E. (Financial Independence Retire Early o en español Independencia Financiera Retirarse Temprano).

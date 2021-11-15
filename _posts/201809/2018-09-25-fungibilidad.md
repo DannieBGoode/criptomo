@@ -9,6 +9,7 @@ banner_image: 201809/monero.jpg
 rating: 5
 totalVotes: 5
 popular: true
+lang: es
 ---
 
 Frecuentemente se menciona el concepto de fungibilidad como si fuera una característica crítica de las criptomonedas. Entendamos bien qué significa este concepto y cómo se relaciona con ellas.

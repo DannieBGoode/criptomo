@@ -8,6 +8,7 @@ description: Ideas para negocios que generen ingresos pasivos en 2021
 banner_image: 202102/income.webp
 rating: 5
 totalVotes: 11
+lang: es
 ---
 
 ¿ Cómo podemos hacer dinero mientras dormimos?

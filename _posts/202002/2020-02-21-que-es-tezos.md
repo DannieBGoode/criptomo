@@ -9,6 +9,7 @@ description: Guía para principiantes sobre qué es Tezos y como se diferencia d
 banner_image: 202002/tezos.jpg
 rating: 5
 totalVotes: 16
+lang: es
 ---
 
 Tezos irrumpió en el ecosistema de las criptomonedas levantando 232 millones de dólares en BTC, y ETH gracias a una exitosa [ICO](/que-es-una-ico) en las dos primeras semanas de Julio de 2017 lo que la convirtió en una de las ICO más exitosa hasta la fecha.

@@ -7,6 +7,7 @@ description: Guía de como empezar a entender el mundo de las criptomonedas. Exp
 banner_image: pages/guides.png
 comments: true
 progress: true
+lang: es
 ---
 
 #### ¿ Qué es una criptomoneda ?

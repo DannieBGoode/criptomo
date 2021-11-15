@@ -9,6 +9,7 @@ description: Sólo existirán 21 millones de bitcoins, ¿serán suficientes para
 banner_image: 201808/bitcoin-mining.jpg
 rating: 5
 totalVotes: 5
+lang: es
 ---
 
 Únicamente existirán unos 21 millones de criptomonedas, suponiendo que el Bitcoin triunfa y acaba extendiéndose por el mundo, ¿será este número suficiente para poder hacer frente a una economía mundial de transacciones al uso?

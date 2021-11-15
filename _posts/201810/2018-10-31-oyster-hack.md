@@ -9,6 +9,7 @@ description: El smart contract de Oyster Protocol vulnerado, nuevos tokens cread
 banner_image: 201810/oyster.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 Uno de los proyectos más prometedores del mundo de las criptomonedas se encuentra en graves problemas y podría acabar desapareciendo.

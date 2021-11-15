@@ -9,6 +9,7 @@ description: Qué significa holdear o HODL y por qué es tan complicado, especia
 banner_image: 201808/hodl.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 Se conoce como *HODL* aguantar los fondos a través de todas las bajadas, pase lo que pase. De hecho, es en estos momentos tan oscuros cuando resulta mejor idea invertir en aquellos proyectos en los que realmente creemos y que queremos apoyar económicamente para además maximizar nuestras futuras ganancias.

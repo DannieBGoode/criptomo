@@ -8,6 +8,7 @@ description: La descentralización en las criptomonedas y Bitcoin explicadas.
 banner_image: 202004/decentralization.webp
 rating: 5
 totalVotes: 4
+lang: es
 ---
 
 Todo el mundo habla de la descentralización, de cómo es lo mejor de las criptomonedas y se debate qué criptomoneda está más descentralizada que cual otra. ¿ Pero qué es la descentralización realmente?

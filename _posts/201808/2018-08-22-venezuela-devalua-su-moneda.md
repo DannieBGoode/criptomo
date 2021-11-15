@@ -9,6 +9,7 @@ description: La inflación en Venezuela y cómo se quiere vincular el precio del
 banner_image: 201808/venezuela.jpg
 source: https://www.bloomberg.com/news/articles/2018-08-19/venezuela-s-95-devaluation-adds-to-turmoil-after-drone-attack
 sourceName: Bloomberg
+lang: es
 ---
 
 El presidente venezolano Nicolás Maduro ha llevado a cabo una de las mayores devaluaciones de una moneda de la historia: una caída de un 95% en cuestión de unos pocos días

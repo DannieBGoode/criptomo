@@ -8,6 +8,7 @@ description: Todos los hard forks del blockchain de Bitcoin (BTC) relevantes lis
 banner_image: 201810/bitcoin-split.jpg
 rating: 5
 totalVotes: 6
+lang: es
 ---
 
 Existen alrededor de 74 hard forks reconocidos de Bitcoin, ¿ a qué se debe esto? ¿ Es realmente necesario?

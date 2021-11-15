@@ -9,6 +9,7 @@ description: Qué novedades trae Ethereum 2.0, Proof of Stake y otras novedades.
 banner_image: 202009/eth2.webp
 rating: 5
 totalVotes: 11
+lang: es
 ---
 
 Ethereum 2.0 es una revisión completa del Ethereum actual (1.0) creado por los mismos creadores con la intención de reemplazar a Ethereum 1.0 totalmente.

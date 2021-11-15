@@ -8,6 +8,7 @@ banner_image: 202106/schnorr.webp
 rating: 5
 TotalVotes: 16
 ref: schnorr
+lang: es
 ---
 
 Las firmas schnorr fueron desarrolladas por Claus Schnorr, un criptógrafo y matemático alemán que decidió protegerlas mediante una patente durante muchos años y que finalmente expiró en 2008 (meses antes del whitepaper de Bitcoin). Entre otros beneficios las firmas schnorr destacan por su simplicidad y eficiencia.

@@ -6,6 +6,7 @@ description: Glosario de términos - Todos los acrónimos del mundo de las cript
   que deberías hacer conocer a la perfección.
 banner_image: pages/dictionary.png
 progress: true
+lang: es
 ---
 
 {:.corporate-blue}

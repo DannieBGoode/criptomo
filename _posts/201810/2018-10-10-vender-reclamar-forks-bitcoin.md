@@ -9,6 +9,7 @@ description: Cómo detectar si tenemos forks asignados en nuestras direcciones d
 banner_image: 201810/forks.png
 rating: 5
 totalVotes: 6
+lang: es
 ---
 
 En este artículo vamos a repasar cómo detectar, reclamar y vender aquellos forks que tengamos en nuestra posesión que no nos interese mantener.

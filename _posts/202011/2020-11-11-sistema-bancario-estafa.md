@@ -9,6 +9,7 @@ description: Es el sistema bancario una estafa piramidal ponzi? Bitcoin vs siste
 banner_image: 202011/banking.webp
 rating: 5
 totalVotes: 16
+lang: es
 ---
 
 ¿ Es el actual sistema bancario una estafa piramidal? Analicemos bien esta afirmación para poder tener una respuesta y cómo Bitcoin plantea resolver esta atrocidad.

@@ -11,6 +11,7 @@ totalVotes: 19
 redirect_from:
 - "/que-es-monaco"
 - "/que-es-monaco/"
+lang: es
 popular: true
 ---
 

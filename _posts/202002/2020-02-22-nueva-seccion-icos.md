@@ -9,6 +9,7 @@ banner_image: 202002/ico.webp
 rating: 4
 totalVotes: 4
 sitemap: false
+lang: es
 ---
 
 No os perdais nuestra nueva sección de valoración de las ICOs más exitosas.

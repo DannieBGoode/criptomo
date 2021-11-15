@@ -9,6 +9,7 @@ banner_image: 202101/mnemonic.webp
 rating: 5
 totalVotes: 9
 popular: true
+lang: es
 ---
 
 Para entender el concepto de frase mnemónica o seed primero debemos entender la diferencia entre wallet de custodia y de no custodia.

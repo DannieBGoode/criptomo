@@ -9,6 +9,7 @@ description: Qué es un NFT - ERC721 (Non Fungible Token), un token no fungible.
 banner_image: 202102/erc721.webp
 rating: '5'
 totalVotes: '7'
+lang: es
 ---
 
 Los tokens ERC721 también llamados NFTs o Non-Fungible-Tokens son tokens [no fungibles](/fungibilidad/) que representan un objeto digital o de la vida real único, indivisible, indestructible, verificable e irremplazable.

@@ -6,6 +6,7 @@ tags:
 layout: post
 description: Como ganar dinero con criptomonedas invirtiendo a largo plazo
 banner_image: 201801/investments.png
+lang: es
 ---
 
 Hoy os voy a mostrar un experimento de inversión a largo plazo llevado a lo largo de 2017. Con inversión a largo plazo nos referimos a un periodo de apenas 12 meses, donde hacemos una inversión inicial y nos olvidamos de ella y la miramos un año después.

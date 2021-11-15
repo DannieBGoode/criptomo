@@ -8,6 +8,7 @@ description: Los Simpsons valoran el Bitcoin con un valor de infinito
 banner_image: 202104/simpsons.webp
 rating: '5'
 totalVotes: '2'
+lang: es
 ---
 
 Mientras Bitcoin lucha en el rango de los $60k, la criptomoneda va ganando popularidad y cada vez es más improbable encontrar a gente que no hayan oido hablar de ella.

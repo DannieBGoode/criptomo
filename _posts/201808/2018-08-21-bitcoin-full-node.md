@@ -10,6 +10,7 @@ description: Qué es un full node de Bitcoin (nodo completo) y por qué debería
 banner_image: 201808/node.jpg
 rating: 4.5
 totalVotes: 2
+lang: es
 ---
 
 Cualquier dispositivo que se conecte a una red de Bitcoin es denominado nodo. Entre estos, solo aquellos capaces de verificar todas las reglas de la red son considerados nodos completos.

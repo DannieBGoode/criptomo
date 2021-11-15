@@ -8,6 +8,7 @@ banner_image: 202109/retirement.webp
 rating: 5
 TotalVotes: 10
 ref: money-to-retire
+lang: es
 ---
 
 ¿Cuánto dinero necesitas exactamente para alcanzar la independencia financiera y no tener que trabajar nunca más?

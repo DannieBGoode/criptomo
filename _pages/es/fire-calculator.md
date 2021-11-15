@@ -10,6 +10,7 @@ rating: 5
 totalVotes: 15
 comments: false
 sitemap: true
+lang: es
 ---
 
 <small>

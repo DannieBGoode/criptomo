@@ -4,6 +4,7 @@ permalink: "/criptomonedas/"
 layout: default
 description: Explicación breve de más de 100 criptomonedas y sus casos de uso más comunes.
 progress: true
+lang: es
 ---
 
 <div class="site-content">

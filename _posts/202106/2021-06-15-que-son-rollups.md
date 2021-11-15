@@ -8,6 +8,7 @@ banner_image: 202106/rollup.webp
 rating: 5
 TotalVotes: 3
 ref: rollups
+lang: es
 ---
 
 Existen dos maneras de escalar un ecosistema de blockchain. En primer lugar se puede escalar la blockchain dándole una mayor capacidad, es decir, asegurándonos de que caben más transacciones por bloque.

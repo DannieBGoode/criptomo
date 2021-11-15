@@ -3,6 +3,7 @@ title: Categorías
 permalink: "/tags/"
 layout: default
 sitemap: false
+lang: es
 ---
 
 <div class="site-content">

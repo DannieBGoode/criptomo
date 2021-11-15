@@ -8,6 +8,7 @@ banner_image: pages/marketcaps.webp
 sitemap: true
 noMargins: true
 sidebar: false
+lang: es
 ---
 
 <small class="error api-error">Error de conexión, tu Adblock bloquea la API de cotizaciones.</small>

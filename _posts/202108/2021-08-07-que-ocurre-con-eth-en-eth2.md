@@ -9,6 +9,7 @@ banner_image: 202108/ethereum2.webp
 rating: 5
 TotalVotes: 10
 ref: eth-in-eth2
+lang: es
 ---
 
 Ethereum 2.0 llega en 2020, y no, no tienes que hacer nada con los Ethers que has ido amontonando a lo largo de los años.

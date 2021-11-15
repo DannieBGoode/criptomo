@@ -10,6 +10,7 @@ rating: 5
 totalVotes: 5
 source: https://cryptoslate.com/a-three-headed-mess-bitcoin-cash-headed-toward-messy-three-way-split/
 sourceName: Cryptoslate
+lang: es
 ---
 
 Los últimos acontecimientos apuntan a que la criptomoneda Bitcoin Cash podría sufrir un split en noviembre que podría acabar produciendo varias monedas nuevas. Revisemos a qué se debe esto y qué consecuencias podría tener.

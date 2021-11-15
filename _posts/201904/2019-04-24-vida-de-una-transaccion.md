@@ -8,6 +8,7 @@ description: Las distintas fases de una transacción en Bitcoin de inicio a fina
 banner_image: 201904/trx.png
 rating: 5
 totalVotes: 4
+lang: es
 ---
 
 Cuando un usuario decide realizar un pago a otro usuario debe hacerlo a través de una transacción que quedará para siempre grabada en el blockchain una vez aceptada por la red. Revisemos todo el camino que la transacción recorre de principio a fin.
