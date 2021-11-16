@@ -7,6 +7,7 @@ layout: post
 description: Películas y documentales recomendados de criptomonedas, Bitcoin, economía,
   stock brokers, inversión, corrupción y finanzas.
 banner_image: 201802/rise-bitcoin.jpg
+lang: es
 ---
 
 Es importante que entendamos ciertos aspectos de como funciona el mundo a la hora de invertir, especialmente en el mundo de las criptomonedas.

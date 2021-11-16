@@ -9,6 +9,7 @@ description: La criptomoneda Ethereum explicada, qué es, qué diferencias tiene
 banner_image: 201712/ethereum.jpg
 rating: 5
 totalVotes: 2
+lang: es
 ---
 
 [Ethereum](https://www.ethereum.org/) es una plataforma open source basada en tecnología blockchain que permite a desarrolladores construir y desplegar sus propias aplicaciones descentralizadas que correrán exactamente de la manera en que han sido programadas sin que se puedan censurar, interferir o desconectar.

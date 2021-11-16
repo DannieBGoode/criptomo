@@ -9,6 +9,7 @@ description: Qué es Oyster Protocol y su token PRL, cómo utiliza el Tangle de 
 banner_image: 201802/oyster.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 Oyster Protocol es una moneda que se caracteriza por ofrecer tres cosas distintas, cualquiera de las tres habría podido justificar la creación de una moneda en sí, pero es la combinación de las tres lo que la hace tan prometedora.

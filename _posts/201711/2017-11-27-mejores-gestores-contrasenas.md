@@ -9,6 +9,7 @@ description: Qué es una buena contraseña, como guardarlas en la mundo de inter
 banner_image: 201711/lastpass.jpg
 rating: 4
 totalVotes: 5
+lang: es
 ---
 
 **Una contraseña única es un desastre esperando a que ocurra**.

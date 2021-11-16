@@ -7,6 +7,7 @@ layout: post
 description: Diferencias entre utility / access tokens y security / equity tokens.
   Qué son cada una.
 banner_image: 201803/securities.jpg
+lang: es
 ---
 
 Los Initial Coin Offerings (ICOs) han levantado más de 3.25 billones de dólares este año, creando lo que podría convertirse próximamente en una industria trillonaria. A través de ICOs, pequeñas startups pueden levantar capital vendiendo tokens a través del blockchain (normalmente el de Ethereum) y distribuirlos a cambio de fondos para financiar su empresa.

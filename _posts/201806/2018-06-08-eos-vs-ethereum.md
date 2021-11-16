@@ -9,6 +9,7 @@ description: Comparación de EOS y Ethereum, diferencias em ambas plataformas de
 banner_image: 201806/boxing.jpg
 rating: 5
 totalVotes: 3
+lang: es
 ---
 
 EOS ha sido bautizada en muchas ocasiones como un mejor Ethereum, o el Ethereum Killer, pero ¿realmente lo es? Analicemos las diferencias de ambas plataformas más a fondo.

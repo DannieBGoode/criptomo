@@ -7,6 +7,7 @@ layout: post
 description: John Oliver habla de las criptomonedas en el programa The Latenight Show.
 banner_image: 201803/john-oliver.jpg
 author: marisa
+lang: es
 ---
 
 "Si eliges invertir en criptomonedas, no estás invirtiendo, estás apostando"

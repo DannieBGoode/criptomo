@@ -9,6 +9,7 @@ banner_image: 201804/extreme.png
 author: marisa
 source: https://toshitimes.com/extreme-ways-people-keep-bitcoin-safe/
 sourceName: ToshiTimes
+lang: es
 ---
 
 El valor del Bitcoin vale tanto que las personas se vuelven muy cautelosas sobre cómo guardar sus criptomonedas. Con los numerosos hackeos y fallos de seguridad, el holandés Martijn Wismeijer ha encontrado una solución drástica.

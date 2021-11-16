@@ -9,6 +9,7 @@ description: La criptomoneda Cardano ADA podría ser el nuevo rival de la cripto
 banner_image: 201712/cardano.jpg
 rating: 4.75
 totalVotes: 3
+lang: es
 ---
 
 <a rel="nofollow" href="https://www.cardanohub.org/en/home/">Cardano</a> es una plataforma open-source lanzada por IOHK en Septiembre de 2017 que constituye un proyecto muy ambicioso. Dicen estar intentando construir la tercera generación de criptomonedas donde la primera generación sería Bitcoin y la segunda Ethereum.

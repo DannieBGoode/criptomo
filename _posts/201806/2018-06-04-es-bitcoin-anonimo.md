@@ -9,6 +9,7 @@ description: La anonimidad en el Bitcoin, ¿Es el bitcoin anónimo? Soluciones d
 banner_image: 201806/anon.png
 rating: 5
 totalVotes: 2
+lang: es
 ---
 
 Al contrario de lo que en muchas ocasiones se comenta, Bitcoin no es anónimo sino pseudo-anónimo o pseudónimo.

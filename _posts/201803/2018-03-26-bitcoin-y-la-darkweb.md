@@ -7,6 +7,7 @@ layout: post
 description: Bitcoin, acciones ilegales, dark web y mala reputación.
 banner_image: 201803/darkweb.jpg
 author: tatiana
+lang: es
 ---
 
 La semana pasada Bill Gates perdió muchos seguidores de su causa al afirmar en un AMA Reddit, que el Bitcoin es una criptomoneda que causa muertes de una forma directa y es usada para adquirir sustancias ilegales.

@@ -9,6 +9,7 @@ description: Las mejores criptomonedas altcoins, más prometedoras y que más po
 banner_image: 201711/altcoins.jpg
 rating: 5
 totalVotes: 3
+lang: es
 ---
 
 Con un mercado con más de mil criptomonedas resulta muy complicado seguirle la pista a todas, a continuación os dejo una lista de aquellas que me parecen más prometedoras y que deberíamos seguirles la pista a lo largo de este nuevo año.

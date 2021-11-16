@@ -9,6 +9,7 @@ description: La criptomoneda DASH, anteriormente conocida como Darkcoin, explica
 banner_image: 201802/dash.png
 rating: 4.75
 totalVotes: 3
+lang: es
 ---
 
 Dash (anteriormente conocido como Darkcoin y XCoin) en una criptomoneda open source construida sobre Bitcoin que además ofrece transacciones instantáneas y privadas así como un modelo de auto financiación y gobernanza que permite a la red incentivar a los participantes por colaborar constructivamente. Se podría decir que la gobernanza descentralizada de que la hace uso la convierte en una organización autónoma descentralizada (DAO).

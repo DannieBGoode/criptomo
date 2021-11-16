@@ -10,6 +10,7 @@ banner_image: 201803/dorsey.jpg
 source: https://www.coindesk.com/twitter-ceo-jack-dorsey-bitcoin-will-be-the-worlds-single-currency/
 sourceName: CoinDesk
 author: tatiana
+lang: es
 ---
 
 Según Jack Dorsey, un destacado inversor de Bitcoin y CEO de Twitter y de Square, la criptomoneda tomará un lugar dominante en finanzas mundiales y se convertirá en la principal moneda mundial para pagos, superando al dólar en importancia:

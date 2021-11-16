@@ -9,6 +9,7 @@ description: La criptomoneda Zcash ZEC explicada de manera sencilla. Dónde comp
 banner_image: 201803/zcash.png
 rating: 5
 totalVotes: 3
+lang: es
 ---
 
 Por el modo en que la tecnología blockchain funciona, todas las transacciones jamás realizadas son de carácter público. Esta característica traerá mucha transparencia una vez sea adoptada por sistemas gubernamentales o sin ánimo de lucro puesto que ayudarán a evitar corrupción en el sistema al ofrecer transacciones totalmente transparentes que cualquier persona pueda auditar.

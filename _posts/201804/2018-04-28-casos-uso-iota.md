@@ -9,6 +9,7 @@ author: tatiana
 banner_image: 201804/iota.png
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 IOTA es una tecnología exótica que abre un sinfín de posibilidades dentro del mercado tecnológico y que pretende realizar la 4rta revolución industrial, creando una red de economía tecnológica y descentralizada, en el marco del internet de las cosas (IOT).

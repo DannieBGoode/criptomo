@@ -9,6 +9,7 @@ description: Binance ofrece una recompensa por información acerca del intento d
 banner_image: 201803/binance-hackers.jpg
 source: https://cointelegraph.com/news/binance-offers-250000-bounty-for-arrest-of-hackers
 sourceName: CoinTelegraph
+lang: es
 ---
 
 Binance recompensará con 250000 dólares a aquellas personas que den información acerca del intento de robo de fondos del pasado 7 de Marzo. Se trata de un ataque muy bien organizado pero que gracias al mecanismo de defensa de Binance ha resultado fallido.

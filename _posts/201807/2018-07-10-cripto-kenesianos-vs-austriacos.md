@@ -10,6 +10,7 @@ rating: 5
 totalVotes: 1
 source: https://medium.com/@jimmysong/segwit2x-post-mortem-divorce-of-crypto-austrians-and-crypto-keynesians-87960b11ce4c
 sourceName: Medium
+lang: es
 ---
 
 De la mano del maximalista de Bitcoin Jimmy Song nos viene una importante reflexión en la que bautiza a lo que él denomina las tendencias cripto-austriaca y cripto-keynesiana.

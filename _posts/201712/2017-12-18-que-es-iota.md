@@ -9,6 +9,7 @@ description: La criptomoneda IOTA explicada, en qué consiste, dónde comprarla 
 banner_image: 201712/iota.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 [IOTA](https://iota.org/) es una de las altcoins que más ha subido de precio durante las últimas semanas, cuenta con un mercado de 11000 millones de dólares. Aunque permite comunicación económica entre wallets de la misma manera que BTC o Ethereum, este no es su principal propósito, lo que pretende es ofrecer una plataforma para la economía entre dispositivos en el Internet Of Things.

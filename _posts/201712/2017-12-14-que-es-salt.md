@@ -9,6 +9,7 @@ description: La criptomoneda SALT ofrece un potencialmente lucrativo puente entr
 banner_image: 201712/salt.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 [SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. Es una moneda ERC-20, es decir, basada en Ethereum, por lo cual podemos almacenarla en cualquier wallet que soporte Ether y tendrá 120 millones de tokens en circulación.

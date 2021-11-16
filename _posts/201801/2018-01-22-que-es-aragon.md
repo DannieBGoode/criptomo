@@ -9,6 +9,7 @@ description: Explicación de qué es la criptomoneda Aragon, su equipo, ICO, por
 banner_image: 201801/aragon.png
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 Aragon es una plataforma descentralizada construida sobre Ethereum que permite a cualquier persona crear y gestionar organizaciones o más concretamente permite construir DAOs completas con funcionalidades básicas como votaciones, recaudación de capital, distribución de dividendos, pago de nóminas, contabilidad, etc... de manera automática y sin necesidad de tener intermediarios realizando todas estas gestiones. Además lo están haciendo a través de una UI final mostrada al usuario muy fácil de usar y accesible.

@@ -8,6 +8,7 @@ description: El compromiso entre descentralización, seguridad y escalabilidad.
 banner_image: 201806/buildings.jpg
 rating: 5
 totalVotes: 4
+lang: es
 ---
 
 En muchas ocasiones se critica a Bitcoin o Ethereum por el reducido número de transacciones que son capaces de soportar, y rápidamente se habla de que otras plataformas como EOS, IOTA, Hashgraph o Ripple son capaces de soportar muchísimas más transacciones por segundo, y en ocasiones incluso de manera gratuita, deprecando totalmente otras tecnologías anteriores.

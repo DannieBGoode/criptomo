@@ -7,6 +7,7 @@ tags:
 layout: post
 description: Guía para principiantes de cómo comprar criptomonedas
 banner_image: 201712/exchange.jpg
+lang: es
 ---
 
 aqui explica segwit:

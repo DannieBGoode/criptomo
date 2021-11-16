@@ -10,6 +10,7 @@ banner_image: 201803/electric-car.jpg
 sourceName: CoinTelegraph
 source: https://cointelegraph.com/news/japanese-electric-company-tests-bitcoin-lightning-network-payments-for-car-charging
 author: marisa
+lang: es
 ---
 
 Empresa japonesa empieza a experimentar con Bitcoin Lightning Network para pagos automáticos al cargar el coche

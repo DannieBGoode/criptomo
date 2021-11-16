@@ -10,6 +10,7 @@ banner_image: 201803/chain.jpg
 source: https://www.ccn.com/crypto-trading-giant-binance-to-launch-decentralized-exchange-and-public-blockchain/
 sourceName: CoinTelegraph
 author: marisa
+lang: es
 ---
 
 El gigante de intercambio de criptomonedas Binance ha anunciado que lanzará su propio blockchain en un aparente primer paso hacia la construcción de un intercambio descentralizado (DEX). Esto ha ocasionado que el valor de su moneda aumente un 27%.

@@ -7,6 +7,7 @@ layout: post
 description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras
   de poder evitarlo.
 banner_image: 201803/hacker.jpg
+lang: es
 ---
 
 Cuando hablamos de robos de criptomonedas, hay un concepto que frecuentemente es malentendido: En general, los tokens de criptomonedas no existen. Lo único que existe son las transacciones asociadas a ellas.

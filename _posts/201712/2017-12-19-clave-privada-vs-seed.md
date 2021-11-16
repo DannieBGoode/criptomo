@@ -7,6 +7,7 @@ layout: post
 description: Cómo obtener claves públicas y privadas a partir de un seed para recuperar
   criptomonedas. Diferencia entre sweep y import.
 banner_image: 201712/key-restore.jpg
+lang: es
 ---
 
 Muchos wallets nos suministrarán un seed con el cual poder recuperar nuestros fondos en el caso en que perdamos el wallet en sí. Por desgracia no siempre es tan fácil importar estos seeds a wallets nuevos como nos gustaría.

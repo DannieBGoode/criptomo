@@ -7,6 +7,7 @@ layout: post
 description: La criptomoneda Bitcoin Cash explicada, qué es, que diferencias tiene
   con Bitcoin y dónde comprarla
 banner_image: 201712/bitcoin-cash.jpg
+lang: es
 ---
 
 Bitcoin (BTC), la primera criptomoneda, está todavía sujeta a importantes problemas de escalabilidad lo cual incrementa enormemente las tasas de transferencia así como la velocidad de las mismas y ha sido extensamente criticada por ello.

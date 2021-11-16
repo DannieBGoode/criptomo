@@ -9,6 +9,7 @@ description: La criptomoneda Nano, anteriormente conocida como Raiblocks, XRB ex
 banner_image: 201802/xrb.jpg
 rating: 5
 totalVotes: 2
+lang: es
 ---
 
 Nano, anteriormente conocida como Raiblocks, es un proyecto bastante joven que frecuentemente es comparado con IOTA por el hecho de que no utiliza tecnología blockchain, sino tecnología DAG, más concretamente tecnología *block lattice*. Es importante tener en cuenta que XRB no pretende competir con Ethereum en cuanto a smart contracts, sino que su intención es limitarse únicamente a ser usados como medio de pago.

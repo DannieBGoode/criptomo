@@ -8,6 +8,7 @@ description: Binance, el exchange chino mueve sus operaciones a Malta.
 banner_image: 201803/malta.jpg
 source: https://www.newsbtc.com/2018/03/23/binance-reveals-its-planning-on-opening-a-new-office-in-malta/#
 sourceName: News BTC
+lang: es
 ---
 
 Binance, el exchange más grande en cuanto a volumen de compra venta de criptomonedas se traslada a Malta, abriendo un posible exchange de fiat-cripto europeo durante los próximos meses.

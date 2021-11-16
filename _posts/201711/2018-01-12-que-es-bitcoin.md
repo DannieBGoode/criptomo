@@ -9,6 +9,7 @@ description: Qué es Bitcoin, cómo funciona, quien la creo, es o no una burbuja
 banner_image: 201711/bitcoin.png
 rating: 4.75
 totalVotes: 3
+lang: es
 ---
 
 Bitcoin es una moneda electrónica creada digitalmente basándose en principios de criptografía. Nadie puede controlarla, no puede ser impresa, ni copiada y es generada mediante un procedimiento de inflación controlada que premia a los colaboradores (mineros) con más unidades.

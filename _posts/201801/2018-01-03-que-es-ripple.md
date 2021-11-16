@@ -9,6 +9,7 @@ description: La criptomoneda Ripple explicada para principiantes. La moneda de l
 banner_image: 201801/ripple-banks.jpg
 rating: 5
 totalVotes: 2
+lang: es
 ---
 
 Ripple está considerada la moneda de los bancos y pretende reemplazar a SWIFT como medio de pago entre entidades bancarias, pero en realidad es mucho más que eso. Durante las últimas semanas ha superado a Ethereum como la segunda moneda con más capitalización del mercado por detrás únicamente de Bitcoin.

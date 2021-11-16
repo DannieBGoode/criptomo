@@ -6,6 +6,7 @@ tags:
 layout: post
 description: El wallet de Ethereum My Ether Wallet hackeado durante 2018. Detalles.
 banner_image: 201804/mew.jpg
+lang: es
 ---
 
 El wallet por excelencia de Ethereum y tokens ERC20 MyEtherWallet (MEW) ha sido hackeado esta tarde lo que ha ocasionado en apenas media hora una pérdida de fondos de usuarios por un valor aproximado de medio millón de dólares.

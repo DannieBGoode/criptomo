@@ -10,6 +10,7 @@ description: El ataque del 51% es una de las vulnerabilidades de las criptomoned
 banner_image: 201712/attack.jpg
 rating: 4.75
 totalVotes: 4
+lang: es
 ---
 
 El ataque del 51 por ciento es altamente discutido entre la comunidad de las criptomonedas por las consecuencias catastróficas para la red que podría llegar a tener.

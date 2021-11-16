@@ -9,6 +9,7 @@ description: La criptomoneda Litecoin es una de las más valoradas del mercado. 
 banner_image: 201801/litecoin.webp
 rating: 4.5
 totalVotes: 2
+lang: es
 ---
 
 Litecoin (LTC or Ł) es una de las primeras y más grandes criptomonedas p2p y open-source. Al igual que Bitcoin se basa en tecnología blockchain para procesar transacciones, pero por distintos motivos se decidió modificar algunos de los parámetros de Bitcoin para cambiar su utilidad.

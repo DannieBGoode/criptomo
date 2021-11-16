@@ -9,6 +9,7 @@ description: Las mejores tarjetas de crédito, débito y prepago de bitcoins y o
 banner_image: 201712/debit-cards.jpg
 rating: 5
 totalVotes: 3
+lang: es
 ---
 
 Ante la cantidad de gente con grandes capitales en criptomonedas ha surgido la necesidad de permitir que las criptomonedas se empiezan a usar como lo que son, monedas.

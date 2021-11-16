@@ -9,6 +9,7 @@ description: Análisis sobre si es el marketcap fiable para valorar una criptomo
 banner_image: 201805/marketcap.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 El concepto de Marketcap o Capitalización se utiliza frecuentemente para calcular el valor de una criptomoneda pero por desgracia puede llevar a grandes errores de valoración.

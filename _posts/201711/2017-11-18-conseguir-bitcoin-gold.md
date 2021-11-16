@@ -10,6 +10,7 @@ banner_image: 201711/bitcoin-gold-logo.jpg
 redirect_from:
 - "/sacar-bitcoin-gold"
 - "/sacar-bitcoin-gold/"
+lang: es
 ---
 
 Una nueva criptomoneda denominada [Bitcoin Gold](https://bitcoingold.org/) (BTG) fue creada el 12 de Noviembre de 2017 mediante el proceso que se denomina *hard fork*, este proceso fija un punto en el *blockchain* de Bitcoin (BTC) y realiza una copia exacta de la historia de transacciones de la moneda original replicándola en una segunda cadena con normas diferentes. Esto se realizó en el [bloque 491407](https://blockchain.info/block/000000000000000000e5438564434edaf41e63829a637521a96235adf4653e1b) que sucedió en la cadena de BTC el 25 de Octubre de 2017.

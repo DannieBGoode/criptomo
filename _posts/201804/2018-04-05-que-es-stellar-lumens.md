@@ -9,6 +9,7 @@ description: La criptomoneda Stellar Lumens (XLM) explicada de manera sencilla. 
 banner_image: 201804/stellar.png
 rating: 5
 totalVotes: 2
+lang: es
 ---
 
 Stellar es una plataforma híbrida descentralizada basada en blockchain que pretende facilitar transacciones inter-divisas por comisiones menores a un céntimo creando un sistema financiero que permite a gente de todos los niveles sociales acceder a servicios financieros baratos.

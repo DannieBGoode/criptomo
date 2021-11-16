@@ -9,6 +9,7 @@ description: Qué es una ICO, como invertir en ellas, ICOs mas rentables con may
 banner_image: 201802/ico.jpg
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 Un Initial Coin Offering (ICO) es un mecanismo de recaudación de fondos a través del cual nuevos proyectos de criptomonedas venden tokens (lease criptomonedas) a cambio de bitcoins o Ether y podrían convertirse en la manera de distribuir participaciones en el futuro. Es de alguna manera parecida a un Initial Public Offering (IPO) donde inversores venden participaciones de una empresa.

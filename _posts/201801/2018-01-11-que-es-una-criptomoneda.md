@@ -5,6 +5,7 @@ layout: post
 description: Qué es una criptomoneda, cómo funciona, por qué es tan especial, a que
   debe su valor. Explicaciones básicas para principiantes.
 banner_image: 201801/cryptocurrencies.jpg
+lang: es
 ---
 
 Una criptomoneda es una moneda virtual, peer to peer y distribuida cuyo concepto nació con el whitepaper de la primera criptomoneda, el Bitcoin.

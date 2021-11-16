@@ -9,6 +9,7 @@ description: La mejor manera de almacenar y guardar bitcoins y otras criptomoned
 banner_image: 201711/bitcoin-wallet.jpg
 rating: 4.5
 totalVotes: 2
+lang: es
 ---
 
 Es importante preguntarse para qué queremos guardar criptomonedas, es distinto tener una gran cartera económica de criptomonedas con el fin de invertir en ellas a largo plazo, a corto plazo, o para uso en el día a día.

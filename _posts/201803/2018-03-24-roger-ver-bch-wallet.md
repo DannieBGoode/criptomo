@@ -7,6 +7,7 @@ layout: post
 description: Diferencias entre utility tokens, security tokens y equity tokens. Qué
   son cada una.
 banner_image: 201803/roger-ver.png
+lang: es
 ---
 
 Roger Ver, CEO de la empresa millonaria Bitcoin.com ha anunciado que el wallet gratuito disponible para descargar en su página web ya no soportará BTC en su próxima actualización. Únicamente soportará BCH.

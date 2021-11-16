@@ -9,6 +9,7 @@ description: Santander ha anunciado que empezará a ofrecer transferencias basad
 banner_image: 201803/santander.jpg
 source: http://www.businessinsider.com/santander-ripple-money-transfer-app-2018-3
 sourceName: Business Insider
+lang: es
 ---
 
 El Banco Santander está en camino de lanzar su primera aplicación de transferencia de dinero internacional de la mano de la startup Ripple en los próximos meses.

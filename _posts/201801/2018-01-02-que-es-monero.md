@@ -8,6 +8,7 @@ description: Monero es la criptomoneda que mejores aplicaciones de privacidad ha
 banner_image: 201801/monero.png
 rating: 5
 totalVotes: 1
+lang: es
 ---
 
 A pesar de que en ocasiones se ha mencionado que Bitcoin es una tecnología anónima, en realidad es pseudónima. El principio básico en el que se basa es en que todas las transacciones son públicamente almacenadas en el blockchain, por lo que si alguien identifica al dueño de una dirección de BTC puede en todo momento conocer su balance y transacciones. Esta propiedad trae muchísima transparencia al mundo de las criptomonedas puesto que cualquier transacción puede ser auditada por cualquier persona y se puede ver como los fondos van moviéndose de cuenta en cuenta lo cual podría acabar con la corrupción en entidades gubernamentales o en ONGs, pero no resulta tan valiosa para individuos o empresas. Aquí es donde entra Monero.
