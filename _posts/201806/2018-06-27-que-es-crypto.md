@@ -1,11 +1,11 @@
 ---
-title: Qué es CRYPTO - Monaco (MCO/CRO)
-date: 2018-06-27 00:00:00 Z
+title: La Guía Definitiva de Tarjetas de Crypto.com (hasta 8% de cashback)
+date: 2022-01-13 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Análisis de la tarjeta de crédito y débito de criptomonedas CRYPTO.
-banner_image: 201806/crypto.jpg
+description: Hasta 8% de cashback con 12% de interés en staking
+banner_image: 202201/crypto-cover.webp
 rating: 5
 totalVotes: 19
 redirect_from:
@@ -13,101 +13,179 @@ redirect_from:
 - "/que-es-monaco/"
 lang: es
 popular: true
+ref: crypto-com
 ---
-
-La criptomoneda <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">CRYPTO</a> anteriormente llamada Monaco (MCO) no resulta demasiado interesante por sí sola, pero es en conjunción de su aplicación de móvil y tarjeta de crédito cuando se convierte en algo a tener muy en cuenta que además compite con otras tarjetas como BNext y Revolut.
-
-**Nota para usuarios existentes**:
-Con fecha <a rel="nofollow" href="https://help.crypto.com/es/articles/4309688-programa-de-swap-de-mco-la-guia">3 de Agosto de 2020</a> se ha abierto la posibilidada de realizar un swap por el cual todas las criptomonedas MCO pueden intercambiarse por un total de 27.64 CRO por cada token MCO. Todas las funcionalidades anteriormente asociadas a MCO se mantendrán en CRO por lo que no hay ningún motivo por el cual no proceder por el swap. El objetivo de este swap es simplificar el ecosistema de Crypto.com.
-
-Los usuarios nuevos no tienen que realizar ninguna acción adicional salvo adquirir la cantidad de CRO correspondiente a la tarjeta que deseen adquirir.
-
-<!--more-->
 
 <style>
 video {
 	max-height: 600px;
 	display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
+	margin: 0 car;
+	margin-bottom: 30px;
 }
 .mid-size {
-	max-height: 400px;
+	width:  50%;
+}
+.mid-height {
+	max-width: 400px;
 }
 </style>
 
-## Producto
+Podeis obtenerla en <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">este enlace</a>.
 
-El producto que el equipo de Monaco se caracteriza por ofrecer varios componentes:
+## Qué son las tarjetas de débito VISA Crypto.com
 
-### Wallet / Exchange de Criptomonedas
+Se trata de una tarjeta sin costes anuales de pre-pago VISA creada por la empresa <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>. Esta tarjeta se puede cargar con criptomonedas y/o con dinero fiat (USD EUR, GBP, SGD...) y tiene los siguientes beneficios (varían según la tarjeta):
 
-En primer lugar tenemos la aplicación de móvil (iOS y android) que hace entre otras labores de wallet. Para poder hacer uso de ello es importante realizar un proceso de KYC (Know Your Client). Se trata de un proceso muy sencillo de menos de 5 minutos donde la app nos hará unas fotos tanto a nosotros como a nuestra documentación para verificar nuestra identidad.
+- Cashback entre el 1% y el 8% en todos los pagos realizados con la tarjeta.
+- Netflix gratis
+- Amazon Prime Gratis
+- Spotify Gratis
+- Acceso gratuito a las salas Lounge de los aeropuertos mediante la app LoungeKey.
+- Descuentos en Expedia / AirBnb.
 
-Por el momento la app soporta las siguientes criptomonedas:
-- Bitcoin (BTC)
-- Ethereum (ETH)
-- Monaco (MCO)
-- Binance Coin (BNB)
-- Ripple (XRP)
-- Litecoin (LTC)
-- Maker (MKR)
+{% include image_caption.html imageurl="/images/posts/202201/crypto.webp" title="Crypto.com" caption="Beneficios por Tarjeta de Crypto" popup=true %}
 
-entre muchas otras, con una larga lista de nuevas monedas siendo incorporadas cada mes.
+Poder optar a una tarjeta u otra depende únicamente de la cantidad de CRO que se quiera stakear. CRO es el token (la criptomoneda) creada por la empresa <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, y realizar staking significa bloquear tus fondos.
 
-Cualquiera de estas criptomonedas puede ser comprada **directamente desde la app** a través de los siguientes métodos:
+Por ejemplo si queremos optar a la primera tarjeta, Midnight Blue, no es necesario realizar ningún tipo de stake y obtendremos inmediatamente el 1% de cashback.
 
-**Sin comisiones (GRATIS, comisión del 0%):**
-- Con otras criptomonedas.
-- Con transferencias bancarias.
-- Con crédito fiat.
+Si en cambio optamos a la tarjeta roja, Ruby Steel, deberemos comprar $400 de CRO y bloquearlos a través de la app. Los $400 quedarán bloqueados durante 6 meses durante los cuales el precio de CRO puede subir o bajar. Una vez pasados los 6 meses, los fondos quedan liberados y podemos venderlos si queremos al precio al que se cotice en es momento, pero si queremos seguir disfrutando de los beneficios de las tarjetas deberemos dejarlos stakeados. Si decidimos vender el CRO nuestros beneficios se verán mermados, por ejemplo en lugar de tener 2% de cashback con la tarjeta roja tendremos 1%.
 
-**Con comisiones:**
-- Con tarjeta de débito/crédito, la compra de criptomonedas cuesta un 3.50% de comisión por transacción.
+La tarjeta viene acompañada de una app disponible en iOS y Android.
 
-{% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Compra de criptomonedas" popup=true %}
+## Cartera de Fiat
 
-Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
-
-**Es importante tener en cuenta de que aunque ellos mismos lo denominan wallet no se trata de tal porque en ningún momento se nos dan las claves privadas de nuestras cuentas**. Esto implica que aunque no tengamos acceso directo a nuestros fondos, al tenerlo a través de Monaco, se ofrecen al usuario envíos de fiat y criptomonedas entre usuarios de Monaco de manera gratuita.
-
-Extraer criptomonedas fuera del ecosistema de Monaco si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
-
-Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
-
-{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" popup=true %}
-
-### Cartera de dinero fiat (euros, dólares...)
-
-Adicionalmente, **podremos tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **Monaco asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
+La aplicación de Crypto.com **permite tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
 Cómo es habitual en productos así, se podrá enviar y recibir fondos tantos de fiat como de criptomonedas con otros usuarios de Crypto.
 
 {% include image_caption.html imageurl="/images/posts/201806/send.webp" title="Envío de dinero gratuito" caption="Envío de dinero gratuito" popup=true %}
 
-Además, siguiendo el modelo de aplicaciones como Mint o Fintonic, todos los gastos que hagamos con las tarjetas de crédito Monaco quedarán categorizados en la aplicación para ayudar al usuario a hacerse presupuestos u organizar sus gastos.
+## Cashback
 
-{% include image_caption.html imageurl="/images/posts/201806/budget.png" title="Monaco Presupuestos" caption="Seguimiento de pagos" class="mid-size" %}
+La aplicación tiene un balance directamente vinculado a la tarjeta de crédito que podemos ir llenando moviendo fondos dentro de la app. La tarjeta tiene asignada una única divisa por lo que para meter USD en una tarjeta de EUR deberemos convertir los fondos primero.
 
-De estas carteras de fiat es de donde harán uso las tarjetas de crédito detalladas a continuación que **nos darán un cashback de entre 1% y 8%** dependiendo de ciertas condiciones.
+Todos los pagos realizados con una <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">tarjeta Crypto.com</a> generan un cashback. Este beneficio se nos será otorgado en su moneda CRO la cual podemos:
+- Venderlos inmediatamente por dinero fiat (USD, EUR...)
+- Venderlos inmediatamente por otra criptomoneda (BTC, ETH...)
+- Guardarlo en nuestro wallet para más tarde.
+- Hacer staking por un retorno en _Crypto Earn_ o en la aplicación de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> de DeFi (ambas explicadas más adelante).
 
-### Tipos de tarjeta
+## Cartera de Criptomonedas
 
-El verdadero producto de Crypto.com son las tarjetas de crédito que ofrecen. Todas que ellas salvo la *Midnight Blue* requieren que el usuario compre una cantidad específica de tokens CRO y los encierre en el ecosistema de Monaco durante 6 meses. Después de este tiempo el usuario será devuelto los tokens con los cuales podrá hacer lo que quiera. Es por ello que **las tarjetas se consideran gratuitas excepto por las variaciones de precio que pudiera tener el token CRO durante dichos 6 meses**.
+La aplicación tiene un wallet incorporado que acepta balance en numerosas criptomonedas.
 
-El precio de CRO oscila como el de cualquier activo, históricamente ha estado entre $2 y $8 y puede adquirirse desde dentro de la app como hemos detallado anteriormente.
+Cualquiera de las criptomonedas ofrecidas puede ser comprada **directamente desde la app** a través de los siguientes métodos:
 
-Todas las tarjetas son gratuitas en cuanto a costes de mantenimiento y envío de la tarjeta al usuario, y pueden ser bloqueadas en caso de pérdida desde la aplicación fácilmente.
+**Sin comisiones (GRATIS, comisión del 0%):**
+- Con otras criptomonedas.
+- Con transferencias bancarias.
+- Con nuestro balance fiat.
 
-Todas ellas contarán con soporte 24/7 por personas reales. Existen planes en el roadmap de añadirlas todas a servicios como Apple Pay, Samsung Pay o Google Play pero en lanzamiento no estarán disponibles todavía.
+**Con comisiones:**
+- Con tarjeta de débito/crédito, la compra de criptomonedas cuesta un 3% de comisión por transacción.
 
-Además todas las tarjetas tienen ventajas adicionales si mantienes tus CRO bloqueados más allá del tiempo inicial requerido, cómo un mayor porcentaje de cashback (dinero devuelto en divisa CRO) o servicios como Spotify y Netflix gratuitos. He marcado en negrita aquellas ventajas que requieren de bloqueo continuado de CRO.
+{% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Compra de criptomonedas" class="mid-height" popup=true %}
+
+Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
+
+**Es importante tener en cuenta de que aunque ellos mismos lo denominan wallet no se trata de tal porque en ningún momento se nos dan las claves privadas de nuestras cuentas**. Esto implica que aunque no tengamos acceso directo a nuestros fondos, al tenerlo a través de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, se ofrecen al usuario envíos de fiat y criptomonedas entre usuarios de Crypto.com de manera gratuita.
+
+Extraer criptomonedas fuera del ecosistema de Crypto.com si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
+
+Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
+
+{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" popup=true %}
+
+## Crypto Earn
+
+Crypto Earn es una manera de hacer staking dentro de la app de Crypto, si tenemos alguna criptomoneda en nuestro balance podemos ponerla en staking para obtener un rendimiento por ella.
+
+Por ejemplo la stable coin USDC puede dar un retorno entre 10% y 14% dependiendo de la tarjeta que tengamos.
+
+Podéis obtener más información de los retornos en <a rel="nofollow" href="https://crypto.com/earn">esta página</a>.
+
+## DeFi Wallet
+
+Crypto.com ofrece una segunda aplicación llamada Crypto DeFi Wallet. Esta aplicación funciona de una manera muy parecida a Crypto Earn en la manera en que nos da retornos sobre nuestras criptomonedas pero con retornos mayores.
+
+Por ejemplo hacer staking de CRO nos daría un retorno del 6% en Crypto Earn pero hasta 12% en la DeFi wallet.
+
+La principal diferencia es que en la aplicación de DeFi se nos proveerá de nuestra clave privada por lo que los fondos estarán siempre bajo nuestro control, mientras que en Crypto Earn nuestras criptomonedas están bajo el control de la organización de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>. Cuando hacemos staking a través del a DeFi wallet estamos participando en un mercado de finanzas descentralizado (frente a la solución centralizada de Crypto Earn) y podremos elegir entre numerosos validadores independientes que nos ofrecerán retornos más o menos competitivos.
+
+
+## Exchange
+
+Aunque se pueden comprar criptomonedas desde dentro de la app de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, si queremos buscar precios más competitivos o realizar operaciones más avanzadas existe un <a rel="nofollow" href="https://crypto.com/exch/h2k1uihz91">exchange web</a> creado por crypto.com del cual podemos hacer uso.
+
+{% include image_caption.html imageurl="/images/posts/202201/exchange.webp" title="Crypto Exchange" caption="Crypto Exchange" popup=true %}
+
+Además cada persona a la cual invitemos al <a rel="nofollow" href="https://crypto.com/exch/h2k1uihz91">exchange</a>, realice el KYC y acabe haciendo staking podrá generarnos hasta $2000 además de descuentos en los fees de trading.
+
+## Crypto Credit
+
+Es posible conseguir un préstamo en dinero fiat dejando como colateral BTC u otras criptomonedas con mejores condiciones que las que potencialmente podría ofrecer un banco.
+
+Las comisiones ofrecidas dependerán también de la cantidad de CRO que tengamos stakeado. Podeis encontrar más información en <a rel="nofollow" href="https://crypto.com/credit">está web</a>.
+
+## Supercharger
+
+Supercharge es un programa de staking adicional donde constantemente se hacen programas de staking donde se nos darán retornos por proveer liquidez al pool activo en ese momento.
+
+## Crypto PAY
+
+<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> está empujando un nuevo método de pago con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móviles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos.
+
+Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
+
+{% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" class="mid-size" popup=true %}
+
+## Cómo meter dinero en la tarjeta Crypto.com
+
+Existen varios métodos para cargar la tarjeta de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> con dinero:
+
+### Con una tarjeta de Débito
+Podemos introducir en la aplicación nuestra tarjeta de débito de nuestro banco de toda la vida y cuando queramos utilizarla para pasar dinero de nuestra cuenta bancaria a la app. Esta es la manera más rápida y efectiva y es totalmente gratuita en Europa.
+
+### Por transferencia Bancaria
+Se pueden realizar transferencias bancarias desde vuestros bancos hasta vuestra cuenta de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>. Esta transferencia es gratuita.
+
+### Vendiendo Criptomonedas
+
+Las criptomonedas que tengamos en nuestro wallet de la app pueden ser vendidos por dinero fiat que después podremos traspasar al balance de nuestra tarjeta.
+
+## Qué tarjeta debería elegir
+
+La tarjeta a elegir depende de tres factores:
+- Cuanto dinero vas a gastar con las tarjetas al mes.
+- Si estás ya utilizando los servicios que se ofrecen a modo de reward (Netflix, Spotify...)
+- La cantidad de tiempo que estás dispuesto a invertir hasta recuperar tu inversión.
+
+Un detalle muy importante a la hora de elegir la tarjeta es que el CRO que se queda stakeado puede dar interés para las tarjeta Jade Green y superior. Por ejemplo los $400 de stake por tener la Ruby Red funcionando no nos daría ningún beneficio mientras que los $4000 en CRO por tener la Indigo nos daría un 10% de retorno, y los $40,000 por la Icy White nos daría un 12%.
+
+Podéis encontrar aquí <a rel="nofollow" href="https://docs.google.com/spreadsheets/d/1QGP2yU19jVHqDtysmaS_szmRa40KL8KU2Pjm0A8FDBg/edit#gid=0">una calculadora para averiguar que retorno os daría y cuanto tardarías en recuperar vuestra inversión</a>
+
+{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+| Tarjeta        | Cashback | Retorno Anual |Años para recuperar |
+|:--------------:|:-----------:|:-------:|:---------:|
+| Midnight Blue  | 1%          | $180    |       -   |
+| Ruby Red       | 2%          | $515    |      0.78 |
+| Jade / Indigo  | 3%          | $1,263  |      3.17 |
+| Icy White/Rose | 5%          | $6,179  |      6.47 |
+| Obsidian Black | 8%          | $49,919 |      8.01 |
+
+Suponiendo el cashback de unos gastos de $1500 al mes, el stake de CRO para tarjetas superiores a Ruby Steel y lo recuperado por las subscripciones podemos ver como la tarjeta Ruby Steel costaría menos de 1 año amortizarla mientras que la Obsidian Black costaría 8, aunque a partir del año 8 estaríamos generando $50,000 al año.
+
+Además debemos tener en cuenta que en el momento en que queramos salirnos del ecosistema de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> o sencillamente recibir menos cashback podriímos vender nuestro stake de CRO (al precio al que se cotice en ese momento).
+
+Para un desglose mayor de cada tarjeta:
 
 #### Midnight Blue
 
-{% include image_caption.html imageurl="/images/posts/201806/blue.png" title="Monaco Midnight Blue" caption="Midnight Blue" class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/201806/blue.png" title="Crypto.com Midnight Blue" caption="Midnight Blue" class="mid-height" %}
 
-La tarjeta midnight blue es la más asequible de precio de todas, tiene los siguientes límites:
+La tarjeta midnight blue es la más asequible de precio de todas, es de plástico y tiene los siguientes límites:
 
 - CRO a bloquear: 0 CRO
 - Devolución de un 1% de todos los gastos efectuados con la tarjeta.
@@ -116,22 +194,26 @@ La tarjeta midnight blue es la más asequible de precio de todas, tiene los sigu
 
 #### Ruby Steel
 
-{% include image_caption.html imageurl="/images/posts/201806/ruby.png" title="Monaco Ruby Steel" caption="Ruby Steel" class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/201806/ruby.png" title="Crypto.com Ruby Steel" caption="Ruby Steel" class="mid-height" %}
 
-La tarjeta Ruby Steel se caracteriza por:
+La tarjeta Ruby Steel es de metal y se caracteriza por:
 
-- CRO a bloquear: 2,500 CRO
+- CRO a bloquear: $400
+- Interés anual que da el CRO bloqueado: $0
 - **Devolución de un 2% de todos los gastos si seguimos bloqueando CRO**. 1% en caso contrario.
 - Intercambio interbancario gratis: 4000$ al mes
 - Retirada de cajeros gratis: 400$ al mes
 - **Spotify gratis (una sola subscripción).**
 
+Esta es la tarjeta que recomendaría a los principiantes, su riesgo es muy bajo y la inversión se recupera en menos de 1 año.
+
 #### Royal Indigo / Jade Green
 
-{% include image_caption.html imageurl="/images/posts/201806/indigo-jade.png" title="Indigo Blue - Jade Green" caption="Indigo Blue - Jade Green" class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/201806/indigo-jade.png" title="Indigo Blue - Jade Green" caption="Indigo Blue - Jade Green" class="mid-height" %}
 
 
-- CRO a bloquear: 25,000 CRO
+- CRO a bloquear: $4,000
+- Interés anual que da el CRO bloqueado: $400
 - **Devolución de un 3% de todos los gastos si seguimos bloqueando CRO**. 1.5% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos.
 - Intercambio interbancario gratis: 10000$ al mes
@@ -139,15 +221,19 @@ La tarjeta Ruby Steel se caracteriza por:
 - **Spotify gratis (una sola subscripción).**
 - **Netflix Gratis (una sola subscripción).**
 
+Esta tarjeta resulta una buena inversión a largo plazo. El Stake necesitado para hacerla funcionar genera $400 al año en CRO que podemos reinvertir por ejemplo en la cartera DeFi por un 12% adicional.
+
 #### Icy White
 
-{% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/201806/white.png" title="Crypto.com Icy White" caption="Icy White" class="mid-height" %}
 
-- CRO a bloquear: 250,000 CRO
+- CRO a bloquear: $40,000
+- Interés anual que da el CRO bloqueado: $4,800
 - **Devolución de un 5% de todos los gastos si seguimos bloqueando CRO**. 1.75% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: 10000$ al mes
 - Retirada de cajeros gratis: 800$ al mes
+- Descuentos en el Exchange.
 - **Spotify gratis (una sola subscripción).**
 - **Netflix Gratis (una sola subscripción).**
 - **Amazon Prime Gratis (una sola subscripción).**
@@ -157,13 +243,15 @@ La tarjeta Ruby Steel se caracteriza por:
 
 #### Obsidian Black
 
-{% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/201806/black.png" title="Crypto.com Black" caption="Black" class="mid-height" %}
 
-- CRO a bloquear: 2,500,000 CRO
+- CRO a bloquear: $400,000
+- Interés anual que da el CRO bloqueado: $48,000
 - **Devolución de un 8% de todos los gastos si seguimos bloqueando CRO**. 2% en caso contrario.
 - Loungekey: Acceso al salón VIP Lounge de los aeropuertos + 1 acompañante.
 - Intercambio interbancario gratis: Sin límite.
 - Retirada de cajeros gratis: 1000$ al mes
+- Descuentos en el Exchange.
 - **Spotify gratis (una sola subscripción).**
 - **Netflix Gratis (una sola subscripción).**
 - **Amazon Prime Gratis (una sola subscripción).**
@@ -175,85 +263,26 @@ La tarjeta Ruby Steel se caracteriza por:
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Comparación de tarjetas" popup=true %}
 
-### Crypto Credit
+## He cogido una tarjeta, puedo hacer upgrade a otra?
 
-Del mismo modo que ofrece [Salt](/que-es-salt/), es posible conseguir un préstamo en dinero fiat dejando como colateral BTC o MCO con mejores condiciones. En caso de dejar BTC como colateral se recibiría un crédito en fiat por valor de un 40% de la valoración de la criptomoneda en ese tiempo, y por 30% para el caso de MCO. Además las comisiones del crédito variarán en función de cuanto MCO tengamos bloqueado. 
+Se puede realizar un upgrade una tarjeta a otra pagando un fee que depende del país. Por ejemplo para Europa es de $50.
+Si lo deseamos podemos hacer upgrade sin solicitar una tarjeta física nueva y recibir todos los beneficios de la tarjeta siguiente con la salvedad de ciertos beneficios que están directamente ligados a la tarjeta física que tengamos:
 
-Por ejemplo por $10000 en BTC usados como colateral recibiremos $4000 en TUSD y en función de si tenemos suficiente MCO bloqueado pagaremos 8% o 12% de intereses anuales.
-
-### Crypto Earn
-
-De la misma manera que podemos pedir un crédito con nuestros fondos, también podemos prestarlo y conseguir un interés constante, a diferencia que el de Crypto Invest que es irregular y sujeto a las condiciones del mercado.
-
-Los retornos anuales que recibiremos de distintas criptomonedas aumentan según si tenemos 2,500 CRO bloqueados o no, y son los siguientes:
-
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Tiempo   | Criptomonedas     | Stablecoins           | CRO     |
-|:--------:|:-----------------:|:---------------------:|:------:-|
-| 3 meses  | 4%-6%             | 10%-12%               | 16%-18% |
-| 1 mes    | 2%-4%             | 8%-10%                | 16%-14% |
-| flexible | 1%-2%             | 6%-8%                 | 12%-14% |
-
-Con las siguientes excepciones:
-
-{% include image_caption.html imageurl="/images/posts/201806/crypto-earn.png" title="Crypto Earn" caption="Crypto Earn" popup=true %}
-
-Crypto Earn es una fantástica manera de conseguir rendimiento sobre nuestras criptomonedas de manera constante y con muy poco riesgo.
-
-Por ejemplo si tuvieramos 25,000 CRO bloqueado (y en consecuencia los beneficios de la tarjeta correspondiente) podríamos rentabilizar:
-- un 18% de esos 10,000 CRO (1800 CRO al año)
-- un 5.5%  al año de la cantidad de BTC que metieramos
-- Un 12% en nuestras stable coins
-- 3% de los gastos que hagamos con la tarjeta
-- Spotify y Netflix gratis
-- Acceso Lounge Key en los aeropuertos para una persona
+- Acceso a Lounges en los aeropuertos
+- Retiro de dinero en los cajeros antes de que nos apliquen tasas.
+- Cambio Interbancario antes de que nos apliquen tasas.
 
 
-### Crypto PAY
+## Soporte
 
-{% include image_caption.html imageurl="/images/posts/201806/pay.webp" title="Crypto PAY" caption="Crypto PAY" popup=true %}
-
-Monaco está empujando su nueva moneda Crypto.com Chain (CRO) con la intención de imitar el éxito que está teniendo WeChat en el mercado chino para pagos con móbiles. Su intención es competir con VISA y Mastercard ofreciendo un sistema de pagos gratuito para el comerciante, al que además le ofrecen un dashboard desde el cual controlar todos sus pagos.
-
-Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
-
-{% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" popup=true %}
+La empresa ofrece soporte a sus clientes mediante un sistema de mensajería dentro de la app y aunque no suelen responder al instante suelen responder en el mismo día.
 
 
+## Registro
 
-## Rewards
+Podeís registraros por este <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">enlace Crypto.com</a> y recibir $25 como bonus si obteneis la tarjeta Ruby Steel o superior.
 
-Adicionalmente Monaco está ofreciendo $50 a todos aquellos usuarios que se registren con <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">un enlace de referido</a> así como a la persona que refiere siempre y cuando acaben bloquenado suficiente CRO como para obtener la tarjeta Ruby.
 
-## Equipo
-
-{% include image_caption.html imageurl="/images/posts/201806/kris.png" title="Kris Marszalek" caption="Kris Marszalek" %}
-
-Kris Marszalek es el CEO of Monaco, un conocido emprendedor con experiencia en el sector financiero, el resto del equipo se puede comprobar <a rel="nofollow" href="https://crypto.com/en/about.html#team">en la sección de Equipo de su página web</a> con enlaces a sus perfiles de linkedin directos.
-
-### Rebranding
-
-Con fecha 6 de Julio de 2018, el equipo de Monaco ha hecho un rebranding de su empresa y pasará a ser llamada CRYPTO, y además se ha publicado una nueva versión del <a rel="nofollow" href="https://crypto.com/mco_whitepaper">whitepaper</a>.
-
-> Hoy anunciamos el rebranding de Monaco a CRYPTO.com que refleja nuestra misión de acelerar la transición global hacia las criptomonedas. <cite>- Kris Marszalek</cite>
-
-## Dónde comprar
-
-Principalmente el mejor sitio donde comprar CRO es <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">en la propia aplicación de CRYPTO</a>.
-
-## Dónde almacenar CRO
-
-Al tratarse de una moneda ERC-20, CRO se puede almacenar en cualquier cartera que soporte Ethereum utilizando la misma dirección sin problemas. Puede parecer que algunos wallets, como blockchain.info, no soportan monedas ERC-20 a pesar de soportar Ethereum. En realidad si enviarais vuestros fondos allí no los perderíais, estarían correctamente guardados, pero no los podréis visualizar desde la web a día de hoy, para hacerlo deberíais importar la clave privada de blockchain.info a un wallet que si lo soporte. No obstante debido a la cantidad de ventajas que tiene el bloqueo de CRO resulta beneficioso almacenarlas directamente en su aplicación a pesar de no tener la clave privada bajo nuestro control.
-
-## Opinión
-
-La idea de Monaco es potenciar la adopción en masa de las criptomonedas apostando por el diseño y la experiencia de usuario para atraer al público. Lo que más me llama la atención es su cambio interbancario teóricamente perfecto, que podría ahorrar al usuario muchos costes a la hora de viajar.
-
-Es importante tener en cuenta que no se trata de un wallet al no proveer la clave privada, por lo que deberíamos ir metiendo fondos en forma de criptomonedas con precaución.
-
-Es interesante el modo en que se genera escasez de la criptomoneda animando a los usuarios a bloquear los fondos a cambio de ciertas recompensas, pero habría que ver que ocurre con el valor del CRO una vez se venga abajo el crecimiento de nuevos usuarios de la tarjeta aún contando con una base de usuarios sólida. Lo normal es esperar que no impacte al producto en sí puesto que me es evidente que **la creación de una criptomoneda propia para la tarjeta era algo totalmente innecesario** y por tanto el producto debería poder sobrevivir sin ella.
-
-Podeis registraros <a rel="nofollow" href="https://platinum.crypto.com/r/h2k1uihz91">aquí</a> a través del móvil y obtener $50 en CRO después de reservar vuestra tarjeta.
 
 
 
