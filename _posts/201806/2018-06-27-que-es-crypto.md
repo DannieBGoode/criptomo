@@ -280,7 +280,7 @@ La empresa ofrece soporte a sus clientes mediante un sistema de mensajería dent
 
 ## Registro
 
-Podeís registraros por este <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">enlace Crypto.com</a> y recibir $25 como bonus si obteneis la tarjeta Ruby Steel o superior.
+Podeís pedir una tarjeta a través de este <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">enlace a Crypto.com</a> y recibir $25 como bonus si obteneis la tarjeta Ruby Steel o superior usando el código **h2k1uihz91**.
 
 
 
