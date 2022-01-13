@@ -44,14 +44,14 @@ At the moment the app supports the following cryptocurrencies:
 
 among many others, with a long list of new currencies being incorporated every month.
 
-Any of these cryptocurrencies can be purchased ** directly from the app ** through the following methods:
+Any of these cryptocurrencies can be purchased **directly from the app** through the following methods:
 
-** No commissions (FREE, 0% commission): **
+**No commissions (FREE, 0% commission):**
 - With other cryptocurrencies.
 - With bank transfers.
 - With fiat credit.
 
-** With commissions: **
+**With commissions:**
 - With a debit/credit card, the purchase of cryptocurrencies costs a 3.50% commission per transaction.
 
 {% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Cryptocurrency purchase" popup=true %}
@@ -78,7 +78,7 @@ In addition, following the model of applications such as Mint or Fintonic, all e
 
 {% include image_caption.html imageurl="/images/posts/201806/budget.png" title="Monaco Budgets" caption ="Payment tracking" class="mid-size" %}
 
-From these fiat wallets is where the credit cards detailed below will be used that ** will give us a cashback of between 1% and 5% ** depending on certain conditions.
+From these fiat wallets is where the credit cards detailed below will be used that **will give us a cashback of between 1% and 5%** depending on certain conditions.
 
 ### Card types
 
@@ -110,10 +110,10 @@ The midnight blue card is the most affordable of all, it has the following limit
 The Ruby Steel card is characterized by:
 
 - CRO to block: 1,000 CRO
-- ** 2% refund of all expenses if we continue blocking CRO **. 1% otherwise.
+- **2% refund of all expenses if we continue blocking CRO**. 1% otherwise.
 - Free interbank exchange: $ 4,000
 - Free ATM withdrawal: $ 400
-- ** Spotify free (only one subscription). **
+- **Spotify free (only one subscription).**
 
 #### Royal Indigo/Jade Green
 
@@ -121,53 +121,53 @@ The Ruby Steel card is characterized by:
 
 
 - CRO to block: 10,000 CRO
-- ** Return of 3% of all expenses if we continue blocking CRO **. 1.5% otherwise.
+- **Return of 3% of all expenses if we continue blocking CRO**. 1.5% otherwise.
 - Loungekey: Access to the VIP Lounge at the airports.
 - Free interbank exchange: $ 10,000
 - Free ATM withdrawal: $ 800
-- ** Spotify free (only one subscription). **
-- ** Free Netflix (only one subscription). **
+- **Spotify free (only one subscription).**
+- **Free Netflix (only one subscription).**
 
 #### Icy White
 
 {% include image_caption.html imageurl="/images/posts/201806/white.png" title="Monaco Icy White" caption="Icy White" class="mid-size"%}
 
 - CRO to block: 100,000 CRO
-- ** Return of 4% of all expenses if we continue blocking CRO **. 1.75% otherwise.
+- **Return of 4% of all expenses if we continue blocking CRO**. 1.75% otherwise.
 - Loungekey: Access to the VIP Lounge at the airports + 1 companion.
 - Free interbank exchange: $ 10,000
 - Free ATM withdrawal: $ 800
-- ** Spotify free (only one subscription). **
-- ** Free Netflix (only one subscription). **
-- ** 10% of expenses on Expedia.com returned up to $ 50 per month. **
-- ** 10% of expenses on Airbnb.com returned up to $ 100 per month. **
-- ** Access to MCO Private. **
+- **Spotify free (only one subscription).**
+- **Free Netflix (only one subscription).**
+- **10% of expenses on Expedia.com returned up to $ 50 per month.**
+- **10% of expenses on Airbnb.com returned up to $ 100 per month.**
+- **Access to MCO Private.**
 
 #### Obsidian Black
 
 {% include image_caption.html imageurl="/images/posts/201806/black.png" title="Monaco Black" caption="Black" class="mid-size"%}
 
 - CRO to block: 1,000,000 CRO
-- ** Return of 5% of all expenses if we continue blocking CRO **. 2% otherwise.
+- **Return of 5% of all expenses if we continue blocking CRO**. 2% otherwise.
 - Loungekey: Access to the VIP Lounge at the airports + 1 companion.
 - Free interbank exchange: No limit.
 - Free ATM withdrawal: $ 1000
-- ** Spotify free (only one subscription). **
-- ** Free Netflix (only one subscription). **
-- ** 10% of expenses on Expedia.com returned up to $ 50 per month. **
-- ** 10% of expenses on Airbnb.com returned up to $ 100 per month. **
-- ** Access to MCO Private. **
+- **Spotify free (only one subscription).**
+- **Free Netflix (only one subscription).**
+- **10% of expenses on Expedia.com returned up to $ 50 per month.**
+- **10% of expenses on Airbnb.com returned up to $ 100 per month.**
+- **Access to MCO Private.**
 
 
 {% include image_caption.html imageurl="/images/posts/201806/compare-cards.png" title="Cards Comparison" caption="Card comparison" popup=true%}
 
-### Monaco Credit
+### Crypto Credit
 
 In the same way that [Salt](/que-es-salt/) offers, it is possible to get a loan in fiat money leaving as collateral BTC or MCO with better conditions. In case of leaving BTC as collateral, a credit in fiat would be received for a value of 40% of the valuation of the cryptocurrency at that time, and for 30% for the case of MCO. In addition, credit fees will vary depending on how much MCO we have blocked.
 
 For example, for $ 10,000 in BTC used as collateral we will receive $ 4,000 in TUSD and depending on whether we have enough blocked MCO we will pay 8% or 12% annual interest.
 
-### Monaco Earn
+### Crypto Earn
 
 In the same way that we can request a loan with our funds, we can also lend it and get an interest (lower than that of Crypto Invest).
 
