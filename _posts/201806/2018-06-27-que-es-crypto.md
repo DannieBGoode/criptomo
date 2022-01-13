@@ -31,7 +31,7 @@ video {
 }
 </style>
 
-Podeis obtenerla en <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">este enlace</a>.
+Podeis obtenerla en <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">este enlace</a> con el código **h2k1uihz91**.
 
 ## Qué son las tarjetas de débito VISA Crypto.com
 
