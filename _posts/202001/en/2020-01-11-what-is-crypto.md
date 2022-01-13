@@ -19,6 +19,9 @@ video {
 	margin: 0 car;
 	margin-bottom: 30px;
 }
+.small-size {
+	width:  30%;
+}
 .mid-size {
 	width:  50%;
 }
@@ -27,7 +30,7 @@ video {
 }
 </style>
 
-You can get a card at <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91"> this link </a>.
+You can get a card at <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">this link</a> with the code **h2k1uihz91**.
 
 ## What are the Crypto.com VISA debit cards 
 
@@ -39,7 +42,7 @@ It is a card with no annual prepaid VISA costs created by the company <a rel="no
 - Spotify Free
 - Free access to lounge lounges at airports through the LoungeKey app.
 - Discounts on Expedia/AirBnb.
-- Interés returns on Crypto staking.
+- Returns on Crypto staking up to $48,000 on initial stake + 12% on everything else.
 
 {% include image_caption.html imageurl = "/images/posts/202201/crypto.webp" title = "Crypto.com" caption = "Benefits per Crypto Card" popup = true%}
 
@@ -57,7 +60,7 @@ The Crypto.com **application allows you to have funds in multiple currencies ** 
 
 As is usual in products like this, it will be possible to send and receive both fiat and cryptocurrency funds with other Crypto users.
 
-{% include image_caption.html imageurl = "/images/posts/201806/send.webp" title = "Free money transfer" caption = "Free money transfer" popup = true%}
+{% include image_caption.html imageurl = "/images/posts/201806/send.webp" title="Free money transfer" caption="Free money transfer" class="small-size" popup = true%}
 
 ## Cashback
 
@@ -83,7 +86,7 @@ Any of the cryptocurrencies offered can be purchased ** directly from the app **
 **With commissions:**
 - With a debit/credit card, the purchase of cryptocurrencies costs a 3% commission per transaction.
 
-{% include image_caption.html imageurl = "/images/posts/201806/buy.webp" title = "Crypto PAY" caption = "Cryptocurrency purchase" class = "mid-height" popup = true%}
+{% include image_caption.html imageurl = "/images/posts/201806/buy.webp" title = "Crypto PAY" caption="Cryptocurrency purchase" class = "small-size" popup = true%}
 
 The conversion ratios applied to BTC purchases are quite adjusted to those offered by other platforms such as Bitstamp or Kraken, so they are a good alternative to the usual exchanges. 
 
@@ -93,7 +96,7 @@ Extracting cryptocurrencies outside the Crypto.com ecosystem does carry a commis
 
 Like other applications such as Delta or Blockfolio, a cryptocurrency price tracker is included to see the market variations in real time.
 
-{% include image_caption.html imageurl = "/images/posts/201806/track.webp" title = "Crypto Track" caption = "Crypto Track" popup = true%}
+{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" class="small-size" popup = true%}
 
 ## Crypto Earn
 
@@ -137,7 +140,7 @@ Supercharge is an additional staking program where staking programs are constant
 
 For the user, a new button to pay with Crypto Chain will appear on the websites that have it enabled in this way, in the same way that a link to pay with Paypal would appear and they will be given to choose with which cryptocurrency they want to make the payment.
 
-{% include image_caption.html imageurl = "/images/posts/201806/pay-confirmation.webp" title = "Crypto PAY" caption = "Crypto PAY" class = "mid-size" popup = true%}
+{% include image_caption.html imageurl = "/images/posts/201806/pay-confirmation.webp" title = "Crypto PAY" caption = "Crypto PAY" class = "small-size" popup = true%}
 
 ## How to put money on the Crypto.com card
 
@@ -164,8 +167,8 @@ A very important detail when choosing the card is that the CRO that stays stake 
 
 You can find here <a rel="nofollow" href="https://docs.google.com/spreadsheets/d/1QGP2yU19jVHqDtysmaS_szmRa40KL8KU2Pjm0A8FDBg/edit#gid=0"> a calculator to find out how long it would take to get your return and how long it would take to get your return investment </a>
 
-{: .table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
-| Card | Cashback | Annual Return | Years to recover |
+{: .table.table-striped.table-bordered.table-hover.table-condensed}
+| Card | Cashback | Annual Return | Years to break even |
 |: --------------: |: -----------: |: -------: |: ------- -: |
 | Midnight Blue | 1% | $ 180 | - |
 | Ruby Red | 2% | $ 515 | 0.78 |
@@ -181,7 +184,7 @@ For a bigger breakdown of each card:
 
 #### Midnight Blue
 
-{% include image_caption.html imageurl = "/images/posts/201806/blue.png" title = "Crypto.com Midnight Blue" caption = "Midnight Blue" class = "mid-height"%}
+{% include image_caption.html imageurl = "/images/posts/201806/blue.png" title = "Crypto.com Midnight Blue" caption = "Midnight Blue" class = "small-size"%}
 
 The midnight blue card is the most affordable of all, it is made of plastic and has the following limits:
 
@@ -192,7 +195,7 @@ The midnight blue card is the most affordable of all, it is made of plastic and 
 
 #### Ruby Steel
 
-{% include image_caption.html imageurl = "/images/posts/201806/ruby.png" title = "Crypto.com Ruby Steel" caption = "Ruby Steel" class = "mid-height"%}
+{% include image_caption.html imageurl = "/images/posts/201806/ruby.png" title = "Crypto.com Ruby Steel" caption = "Ruby Steel" class = "small-size"%}
 
 The Ruby Steel card is made of metal and is characterized by:
 
@@ -223,7 +226,7 @@ This card is a good long-term investment. The Stake needed to make it work gener
 
 #### Icy White
 
-{% include image_caption.html imageurl = "/images/posts/201806/white.png" title = "Crypto.com Icy White" caption = "Icy White" class = "mid-height"%}
+{% include image_caption.html imageurl = "/images/posts/201806/white.png" title = "Crypto.com Icy White" caption = "Icy White" class = "small-size"%}
 
 - CRO to block: $ 40,000
 - Annual interest given by the blocked CRO: $ 4,800
@@ -241,7 +244,7 @@ This card is a good long-term investment. The Stake needed to make it work gener
 
 #### Obsidian Black
 
-{% include image_caption.html imageurl = "/images/posts/201806/black.png" title = "Crypto.com Black" caption = "Black" class = "mid-height"%}
+{% include image_caption.html imageurl = "/images/posts/201806/black.png" title = "Crypto.com Black" caption = "Black" class = "small-size"%}
 
 - CRO to block: $ 400,000
 - Annual interest given by the blocked CRO: $ 48,000

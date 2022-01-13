@@ -26,6 +26,9 @@ video {
 .mid-size {
 	width:  50%;
 }
+.small-size {
+	width:  30%;
+}
 .mid-height {
 	max-width: 400px;
 }
@@ -43,6 +46,7 @@ Se trata de una tarjeta sin costes anuales de pre-pago VISA creada por la empres
 - Spotify Gratis
 - Acceso gratuito a las salas Lounge de los aeropuertos mediante la app LoungeKey.
 - Descuentos en Expedia / AirBnb.
+- Retornos por el stake hasta $48,000 + 12% en el excedente.
 
 {% include image_caption.html imageurl="/images/posts/202201/crypto.webp" title="Crypto.com" caption="Beneficios por Tarjeta de Crypto" popup=true %}
 
@@ -60,7 +64,7 @@ La aplicación de Crypto.com **permite tener fondos en múltiples divisas** (por
 
 Cómo es habitual en productos así, se podrá enviar y recibir fondos tantos de fiat como de criptomonedas con otros usuarios de Crypto.
 
-{% include image_caption.html imageurl="/images/posts/201806/send.webp" title="Envío de dinero gratuito" caption="Envío de dinero gratuito" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/send.webp" title="Envío de dinero gratuito" caption="Envío de dinero gratuito" class="small-size" popup=true %}
 
 ## Cashback
 
@@ -86,7 +90,7 @@ Cualquiera de las criptomonedas ofrecidas puede ser comprada **directamente desd
 **Con comisiones:**
 - Con tarjeta de débito/crédito, la compra de criptomonedas cuesta un 3% de comisión por transacción.
 
-{% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Compra de criptomonedas" class="mid-height" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/buy.webp" title="Crypto PAY" caption="Compra de criptomonedas" class="mid-height" class="small-size" popup=true %}
 
 Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas a las ofrecidas por otras plataformas como Bitstamp o Kraken, por lo que resultan una buena alternativa a los exchanges habituales.
 
@@ -96,7 +100,7 @@ Extraer criptomonedas fuera del ecosistema de Crypto.com si que conlleva una com
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
 
-{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/track.webp" title="Crypto Track" caption="Crypto Track" class="small-size" popup=true %}
 
 ## Crypto Earn
 
@@ -139,7 +143,7 @@ Supercharge es un programa de staking adicional donde constantemente se hacen pr
 
 Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo botón para pagar con Crypto Chain del mismo modo que aparecería un enlace para pagar con Paypal y se le dará a elegir con qué criptomoneda desea realizar el pago.
 
-{% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" class="mid-size" popup=true %}
+{% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" class="small-size" popup=true %}
 
 ## Cómo meter dinero en la tarjeta Crypto.com
 
@@ -166,7 +170,7 @@ Un detalle muy importante a la hora de elegir la tarjeta es que el CRO que se qu
 
 Podéis encontrar aquí <a rel="nofollow" href="https://docs.google.com/spreadsheets/d/1QGP2yU19jVHqDtysmaS_szmRa40KL8KU2Pjm0A8FDBg/edit#gid=0">una calculadora para averiguar que retorno os daría y cuanto tardarías en recuperar vuestra inversión</a>
 
-{:.table.table-striped.table-bordered.table-hover.table-condensed.table-collapsable}
+{:.table.table-striped.table-bordered.table-hover.table-condensed}
 | Tarjeta        | Cashback | Retorno Anual |Años para recuperar |
 |:--------------:|:-----------:|:-------:|:---------:|
 | Midnight Blue  | 1%          | $180    |       -   |
@@ -183,7 +187,7 @@ Para un desglose mayor de cada tarjeta:
 
 #### Midnight Blue
 
-{% include image_caption.html imageurl="/images/posts/201806/blue.png" title="Crypto.com Midnight Blue" caption="Midnight Blue" class="mid-height" %}
+{% include image_caption.html imageurl="/images/posts/201806/blue.png" title="Crypto.com Midnight Blue" caption="Midnight Blue" class="small-size" %}
 
 La tarjeta midnight blue es la más asequible de precio de todas, es de plástico y tiene los siguientes límites:
 
@@ -194,7 +198,7 @@ La tarjeta midnight blue es la más asequible de precio de todas, es de plástic
 
 #### Ruby Steel
 
-{% include image_caption.html imageurl="/images/posts/201806/ruby.png" title="Crypto.com Ruby Steel" caption="Ruby Steel" class="mid-height" %}
+{% include image_caption.html imageurl="/images/posts/201806/ruby.png" title="Crypto.com Ruby Steel" caption="Ruby Steel" class="small-size" %}
 
 La tarjeta Ruby Steel es de metal y se caracteriza por:
 
@@ -225,7 +229,7 @@ Esta tarjeta resulta una buena inversión a largo plazo. El Stake necesitado par
 
 #### Icy White
 
-{% include image_caption.html imageurl="/images/posts/201806/white.png" title="Crypto.com Icy White" caption="Icy White" class="mid-height" %}
+{% include image_caption.html imageurl="/images/posts/201806/white.png" title="Crypto.com Icy White" caption="Icy White" class="small-size" %}
 
 - CRO a bloquear: $40,000
 - Interés anual que da el CRO bloqueado: $4,800
@@ -243,7 +247,7 @@ Esta tarjeta resulta una buena inversión a largo plazo. El Stake necesitado par
 
 #### Obsidian Black
 
-{% include image_caption.html imageurl="/images/posts/201806/black.png" title="Crypto.com Black" caption="Black" class="mid-height" %}
+{% include image_caption.html imageurl="/images/posts/201806/black.png" title="Crypto.com Black" caption="Black" class="small-size" %}
 
 - CRO a bloquear: $400,000
 - Interés anual que da el CRO bloqueado: $48,000
