@@ -18,7 +18,7 @@ lang: en
 
 </style>
 
-In this guide you will learn what the <a rel="nofollow" href="https://www.curve.com/join#NVG48VJN">Curve</a> card is and how to enter any card in Apple Pay / Google Pay / Samsung Pay although initially it does not support it. Curve is very powerful when combined with the [Crypto.com](/what-is-crypto/) card.
+In this guide you will learn what the <a rel="nofollow" href="https://www.curve.com/join#NVG48VJN">Curve</a> card is and how to use any card in Apple Pay / Google Pay / Samsung Pay although initially regardless of whether it supports it. Curve is very powerful when combined with the [Crypto.com](/what-is-crypto/) card.
 
 ## What is CURVE
 
@@ -30,7 +30,7 @@ In this guide you will learn what the <a rel="nofollow" href="https://www.curve.
 
 {% include image_caption.html imageurl="/images/posts/202201/curve-comparison.webp" title="Card Comparison" caption="Card Comparison" popup=true %}
 
-There is a free card and two premium models in exchange for a subscription. The premium models apart from various insurances and access to airport lounges (through the LoungeKey app) generate a 1% cashback for 3 or 6 merchants to choose from.
+There is a free card tier and two premium models in exchange for a subscription. The premium models apart from various insurances and access to airport lounges (through the LoungeKey app) generate a 1% cashback for 3 or 6 merchants to choose from.
 
 {% include image_caption.html imageurl="/images/posts/202201/curve-app.webp" title="Curve App" caption="Curve App" class="small-size" popup=true %}
 
