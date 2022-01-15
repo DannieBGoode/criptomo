@@ -281,3 +281,8 @@ The company offers support to its clients through a messaging system within the 
 ## Register
 
 You can order a card through this <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91"> Crypto.com link </a> and receive $ 25 as a bonus if you get the Ruby Steel card or higher using the referral code **h2k1uihz91**. 
+
+
+## Bonus
+
+Additionally you can optimize the card's cashback and use it with Apple Pay / Google Pay / Samsung Pay combining it with [Curve](/guide-curve-crypto/).

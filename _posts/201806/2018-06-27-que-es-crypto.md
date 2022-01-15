@@ -48,7 +48,7 @@ Se trata de una tarjeta sin costes anuales de pre-pago VISA creada por la empres
 - Descuentos en Expedia / AirBnb.
 - Retornos por el stake hasta $48,000 + 12% en el excedente.
 
-{% include image_caption.html imageurl="/images/posts/202201/crypto.webp" title="Crypto.com" caption="Beneficios por Tarjeta de Crypto" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202201/crypto-esp.webp" title="Crypto.com" caption="Beneficios por Tarjeta de Crypto" popup=true %}
 
 Poder optar a una tarjeta u otra depende únicamente de la cantidad de CRO que se quiera stakear. CRO es el token (la criptomoneda) creada por la empresa <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, y realizar staking significa bloquear tus fondos.
 
@@ -285,6 +285,10 @@ La empresa ofrece soporte a sus clientes mediante un sistema de mensajería dent
 ## Registro
 
 Podeís pedir una tarjeta a través de este <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">enlace a Crypto.com</a> y recibir $25 como bonus si obteneis la tarjeta Ruby Steel o superior usando el código **h2k1uihz91**.
+
+## Bonus
+
+Además podéis optimizar el cashback de la tarjeta e utilizarla con Apple Pay / Google Pay / Samsung Pay combinándola con [Curve](/guia-curve-crypto/).
 
 
 
