@@ -36,7 +36,7 @@ video {
 
 Podeis obtenerla en <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">este enlace</a> con el código **h2k1uihz91**.
 
-## Qué son las tarjetas de débito VISA Crypto.com
+## Qué son las tarjetas de débito VISA Crypto
 
 Se trata de una tarjeta sin costes anuales de pre-pago VISA creada por la empresa <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>. Esta tarjeta se puede cargar con criptomonedas y/o con dinero fiat (USD EUR, GBP, SGD...) y tiene los siguientes beneficios (varían según la tarjeta):
 
@@ -145,7 +145,7 @@ Para el usuario aparecerá en las webs que lo tengan así habilitado un nuevo bo
 
 {% include image_caption.html imageurl="/images/posts/201806/pay-confirmation.webp" title="Crypto PAY" caption="Crypto PAY" class="small-size" popup=true %}
 
-## Cómo meter dinero en la tarjeta Crypto.com
+## Cómo meter dinero en la tarjeta
 
 Existen varios métodos para cargar la tarjeta de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> con dinero:
 

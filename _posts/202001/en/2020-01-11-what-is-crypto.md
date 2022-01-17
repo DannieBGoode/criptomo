@@ -56,11 +56,11 @@ The card is accompanied by an app available on iOS and Android.
 
 ## Fiat Portfolio
 
-The Crypto.com **application allows you to have funds in multiple currencies ** (for example, part in euros and part in dollars). **<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91"> Crypto.com </a> ensures that the exchange ratio will be interbank exchange in real time with commissions of 0%**. In this way, a user would have very easy to sell their euros or dollar changes in real time, something very advantageous compared to the changes offered by traditional banks when trying to pay abroad with a credit card in a different currency.
+The Crypto.com **application allows you to have funds in multiple currencies** (for example, part in euros and part in dollars). **<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91"> Crypto.com </a> ensures that the exchange ratio will be interbank exchange in real time with commissions of 0%**. In this way, a user would have very easy to sell their euros or dollar changes in real time, something very advantageous compared to the changes offered by traditional banks when trying to pay abroad with a credit card in a different currency.
 
 As is usual in products like this, it will be possible to send and receive both fiat and cryptocurrency funds with other Crypto users.
 
-{% include image_caption.html imageurl = "/images/posts/201806/send.webp" title="Free money transfer" caption="Free money transfer" class="small-size" popup = true%}
+{% include image_caption.html imageurl = "/images/posts/201806/send.webp" title="Free money transfer" caption="Free money transfer" class="small-size" popup = true %}
 
 ## Cashback
 
@@ -142,7 +142,7 @@ For the user, a new button to pay with Crypto Chain will appear on the websites 
 
 {% include image_caption.html imageurl = "/images/posts/201806/pay-confirmation.webp" title = "Crypto PAY" caption = "Crypto PAY" class = "small-size" popup = true%}
 
-## How to put money on the Crypto.com card
+## How to put money on the card
 
 There are several methods to load the <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91"> Crypto.com </a> card with money:
 

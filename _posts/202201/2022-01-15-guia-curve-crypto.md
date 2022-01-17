@@ -1,5 +1,5 @@
 ---
-title: La guía definitiva para usar CURVE con Crypto.com
+title: La Guía Definitiva para usar CURVE con Crypto.com
 tags:
 - fi
 layout: post
