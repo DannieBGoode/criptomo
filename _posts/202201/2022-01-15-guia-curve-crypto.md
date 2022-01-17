@@ -63,11 +63,11 @@ La aplicación ofrece estadísticas de nuestros gastos al estilo de Fintonic / M
 
 Resulta posible dividir gastos en plazos para pagar en 3,6,9 o incluso 12 meses a cambio de un interés que depende de la duración del pago.
 
-### Como combinarla con Crypto.com
+### Como combinarla con Crypto .com
 
 La tarjeta de [Crypto.com](/que-es-crypto/) no permite introducirse dentro de Apple Pay / Google Pay / Samsung Pay. A través de Curve es posible hacerlo. La tarjeta da un cashback de hasta 8%, que sumado al 1% de <a rel="nofollow" href="https://www.curve.com/join#NVG48VJN">Curve</a> puede llegar a dar retornos interesantes por pagos que se iban a hacer de todas formas.
 
-Además si en algún momento no tenemos fondos en la tarjeta de Crypto, podemos meter en Curve una segunda tarjeta de backup para que el cargo no de error y después tendremos 30 días para utilizar la funcionalidad de _Go Back In Time_ para hacer la devolución de la tarjeta de backup y cargar a la de Crypto.com.
+Además si en algún momento no tenemos fondos en la tarjeta de Crypto, podemos meter en Curve una segunda tarjeta de backup para que el cargo no de error y después tendremos 30 días para utilizar la funcionalidad de _Go Back In Time_ para hacer la devolución de la tarjeta de backup y cargar a la de Crypto .com.
 
 ## Registro
 

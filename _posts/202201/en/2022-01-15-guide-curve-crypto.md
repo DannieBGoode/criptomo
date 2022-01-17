@@ -63,11 +63,11 @@ The application offers statistics of our expenses in the style of Mint.
 
 It is possible to divide expenses in installments to pay in 3,6,9 or even 12 months in exchange for interest that depends on the duration of the payment.
 
-### How to combine it with Crypto.com
+### How to combine it with Crypto .com
 
 The [Crypto.com](/what-is-crypto/) card does not allow access to Apple Pay / Google Pay / Samsung Pay. Through Curve it is possible to do it. The card gives a cashback of up to 8%, which added to 1% of <a rel="nofollow" href="https://www.curve.com/join#NVG48VJN">Curve</a> can give interesting returns for payments that were going to be made anyway.
 
-In addition, if at any time we do not have funds on the Crypto card, we can put a second backup card in Curve so that the charge does not make an error and then we will have 30 days to use the _Go Back In Time_ functionality to make the return of the card. backup card and upload to Crypto.com.
+In addition, if at any time we do not have funds on the Crypto card, we can put a second backup card in Curve so that the charge does not make an error and then we will have 30 days to use the _Go Back In Time_ functionality to make the return of the card. backup card and upload to Crypto .com.
 
 ## Order one
 
