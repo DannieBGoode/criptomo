@@ -165,7 +165,7 @@ The card to choose depends on three factors:
 
 A very important detail when choosing the card is that the CRO that stays stake can give interest for the Jade Green and higher cards. For example, the $ 400 stake for having the Ruby Red running would not give us any benefit while the $ 4000 in CRO for having the Indigo would give us a 10% return, and the $ 40,000 for the Icy White would give us 12%.
 
-You can find here <a rel="nofollow" href="https://docs.google.com/spreadsheets/d/1QGP2yU19jVHqDtysmaS_szmRa40KL8KU2Pjm0A8FDBg/edit#gid=0"> a calculator to find out how long it would take to get your return and how long it would take to get your return investment </a>
+You can find here <a rel="nofollow" href="https://docs.google.com/spreadsheets/d/1DaoI-Uwfy5-_9zGRKV-MzMZreHBBIp79JVdQmwp5JJM"> a calculator to find out how long it would take to get your return and how long it would take to get your return investment </a>
 
 {: .table.table-striped.table-bordered.table-hover.table-condensed}
 | Card | Cashback | Annual Return | Years to break even |
