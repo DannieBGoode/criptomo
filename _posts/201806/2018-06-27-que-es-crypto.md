@@ -118,6 +118,8 @@ Por ejemplo hacer staking de CRO nos daría un retorno del 6% en Crypto Earn per
 
 La principal diferencia es que en la aplicación de DeFi se nos proveerá de nuestra clave privada por lo que los fondos estarán siempre bajo nuestro control, mientras que en Crypto Earn nuestras criptomonedas están bajo el control de la organización de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>. Cuando hacemos staking a través del a DeFi wallet estamos participando en un mercado de finanzas descentralizado (frente a la solución centralizada de Crypto Earn) y podremos elegir entre numerosos validadores independientes que nos ofrecerán retornos más o menos competitivos.
 
+Más información de la [DeFi Wallet](/como-optimizar-cro-defi/).
+
 
 ## Exchange
 
