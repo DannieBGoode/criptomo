@@ -60,7 +60,7 @@ La tarjeta viene acompañada de una app disponible en iOS y Android.
 
 ## Cartera de Fiat
 
-La aplicación de Crypto.com **permite tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
+La aplicación de Crypto **permite tener fondos en múltiples divisas** (por ejemplo parte en euros y parte en dólares). **<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> asegura que el ratio de intercambio será el cambio interbancario en tiempo real con comisiones del 0%**. De esta manera un usuario tendría muy fácil vender sus euros o a cambios de dólares en tiempo real, algo muy ventajoso frente a los cambios que ofrecen los bancos tradicionales cuando se intenta pagar en el extranjero con una tarjeta de crédito de una divisa distinta.
 
 Cómo es habitual en productos así, se podrá enviar y recibir fondos tantos de fiat como de criptomonedas con otros usuarios de Crypto.
 
@@ -96,7 +96,7 @@ Los ratios de conversión aplicados a las compras de BTC son bastante ajustadas 
 
 **Es importante tener en cuenta de que aunque ellos mismos lo denominan wallet no se trata de tal porque en ningún momento se nos dan las claves privadas de nuestras cuentas**. Esto implica que aunque no tengamos acceso directo a nuestros fondos, al tenerlo a través de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, se ofrecen al usuario envíos de fiat y criptomonedas entre usuarios de Crypto.com de manera gratuita.
 
-Extraer criptomonedas fuera del ecosistema de Crypto.com si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
+Extraer criptomonedas fuera del ecosistema de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> si que conlleva una comisión puesto que es un movimiento entre wallets real. Por ejemplo extraer BTC a tu wallet personal costaría 0.0005BTC independientemente de la cantidad de BTC que se esté extrayendo.
 
 Al igual que otras aplicaciones como Delta o Blockfolio, se incluye un tracker de precios de criptomonedas para ver las variaciones del mercado en tiempo real.
 
@@ -112,7 +112,7 @@ Podéis obtener más información de los retornos en <a rel="nofollow" href="htt
 
 ## DeFi Wallet
 
-Crypto.com ofrece una segunda aplicación llamada Crypto DeFi Wallet. Esta aplicación funciona de una manera muy parecida a Crypto Earn en la manera en que nos da retornos sobre nuestras criptomonedas pero con retornos mayores.
+<a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> ofrece una segunda aplicación llamada Crypto DeFi Wallet. Esta aplicación funciona de una manera muy parecida a Crypto Earn en la manera en que nos da retornos sobre nuestras criptomonedas pero con retornos mayores.
 
 Por ejemplo hacer staking de CRO nos daría un retorno del 6% en Crypto Earn pero hasta 12% en la DeFi wallet.
 
@@ -123,7 +123,7 @@ Más información de la [DeFi Wallet](/como-optimizar-cro-defi/).
 
 ## Exchange
 
-Aunque se pueden comprar criptomonedas desde dentro de la app de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, si queremos buscar precios más competitivos o realizar operaciones más avanzadas existe un <a rel="nofollow" href="https://crypto.com/exch/h2k1uihz91">exchange web</a> creado por crypto.com del cual podemos hacer uso.
+Aunque se pueden comprar criptomonedas desde dentro de la app de <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a>, si queremos buscar precios más competitivos o realizar operaciones más avanzadas existe un <a rel="nofollow" href="https://crypto.com/exch/h2k1uihz91">exchange web</a> creado por <a rel="nofollow" href="https://crypto.com/app/h2k1uihz91">Crypto.com</a> del cual podemos hacer uso.
 
 {% include image_caption.html imageurl="/images/posts/202201/exchange.webp" title="Crypto Exchange" caption="Crypto Exchange" popup=true %}
 
