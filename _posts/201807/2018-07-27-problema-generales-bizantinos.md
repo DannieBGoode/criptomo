@@ -26,17 +26,17 @@ El problema es que el mensajero podría ser interceptado por agentes de la ciuda
 
 {% include image_caption.html imageurl="/images/posts/201807/byzantine2.png" title="Ejército bizantino" caption="Si los dos ejércitos no atacan a la vez serán derrotados por los defensores de la ciudad" popup=true %}
 
-Si un mensaje de los generales es: **Atacar el Lunes**, al ser únicamente un mensaje de texto, podría ser modificado con facilidad a *Atacar el jueves*. Esto es en esencia el problema de los Generales Bizantinos.
+Si un mensaje de los generales es: **Atacar el Lunes**, al ser únicamente un mensaje de texto, podría ser modificado con facilidad a *Atacar el Jueves*. Esto es en esencia el problema de los Generales Bizantinos.
 
 Se requiere entonces de una manera de verificar que el mensaje no ha sido modificado, lo cual se hace en Bitcoin con el algoritmo de consenso Proof of Work.
 
-Proof of Work sugiere que el mensaje sea así: **Atacar el Lunes89**, dónde `89` es el número (denominado *nonce*) que hace que el hash realizado con el protocolo sha256 empiece con dos ceros.
+Proof of Work sugiere que el mensaje sea así: **Atacar el Lunes89**, dónde `89` es el número (denominado *nonce*) que hace que el [hash](/que-es-un-hash/) realizado con el protocolo sha256 empiece con dos ceros.
 
 Veamos distintas variaciones del mensaje original cada uno con un *nonce* distinto y el hash sha256 que generarían en cada caso:
 
-- **Atacar el Lunes01** : `4E248CA0C855EEF671DEA9C73E24D20D899E5269601F584C5AFEAA92B0071CA0`  (incorrecto)
-- **Atacar el Lunes11** : `8FFAB91733EFC956D87F34C0979533B47E7371AB5F3658D8342E8566D2E4E9F2`  (incorrecto)
-- **Atacar el Lunes51** : `E48E41F80135BF67E42ECBBA20D2E83A8014109093905B34D84B8700249E865A`  (incorrecto)
+- **Atacar el Lunes01** : `4E248CA0C855EEF671DEA9C73E24D20D899E5269601F584C5AFEAA92B0071CA0`  (incorrecto porque el hash no empieza por 00)
+- **Atacar el Lunes11** : `8FFAB91733EFC956D87F34C0979533B47E7371AB5F3658D8342E8566D2E4E9F2`  (incorrecto porque el hash no empieza por 00)
+- **Atacar el Lunes51** : `E48E41F80135BF67E42ECBBA20D2E83A8014109093905B34D84B8700249E865A`  (incorrecto porque el hash no empieza por 00)
 - **Atacar el Lunes89** : `002569FAFD4AC34940816528E86D66257894878486DBF55F7BA9E459B37F79A8`  (válido)
 
 Si ambos generales llegan a un consenso de que únicamente los mensajes que vengan con un número (*nonce*) que al cifrar con sha256 produzcan un hash con dos ceros delante serán aceptados como válidos, sustituir el mensaje original ya no es tan sencillo, puesto que hay que probar con potencialmente millones de números antes de dar con uno que produzca el hash correcto. Además a medida que aumentamos el número de `0` requeridos, llegar al *nonce* correcto se va complicando exponencialmente.
