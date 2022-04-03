@@ -116,6 +116,24 @@ let articles = [
       "img": "https://criptomo.com/images/posts/201804/stellar.png",
       "tags": "xlm",
       "lang": "es"
+   },
+   {
+      "url": "https://criptomo.com/que-son-memecoins/",
+      "lastmod": "2018-04-05T00:00:00+00:00",
+      "title": "Qué son Memecoins",
+      "description": "Guía y explicación de qué son los memecoins. Desde Dogecoin hasta Shiba Inu.",
+      "img": "https://criptomo.com/images/posts/memecoins-cover.webp",
+      "tags": "doge, shiba",
+      "lang": "es"
+   },
+   {
+      "url": "https://criptomo.com/what-are-memecoins/",
+      "lastmod": "2018-04-05T00:00:00+00:00",
+      "title": "What are Memecoins",
+      "description": "Guide and explanation of what memecoins are. From Dogecoin to Shiba Inu.",
+      "img": "https://criptomo.com/images/posts/memecoins-cover.webp",
+      "tags": "doge, shiba",
+      "lang": "en"
    }
 ]
 function recommendArticles(coin) {
