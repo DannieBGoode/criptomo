@@ -2,3 +2,7 @@
 <!-- Calculator Banner -->
 <div class="lazy-load-ad" data-slot="1002456567"></div>
 {% endif %}
+
+{% if site.ads.stormgain %}
+	<script defer async src="{{ site.baseurl }}/js/stormgain.js?{{site.time | date: '%s%N'}}"></script>
+{% endif %}
