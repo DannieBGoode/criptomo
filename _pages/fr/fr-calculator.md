@@ -137,6 +137,7 @@ redirect_from:
 
     {% include ads_calculator_banner.html %}
 
+    {% if site.ads.stormgain %}
     <div class="stormgain">
         <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Achetez <span class="result-tokentype"></span> dès maintenant!</a></h2>
         <div>
@@ -174,6 +175,7 @@ redirect_from:
         </p>
         <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Commencez votre voyage crypto dans Stormgain </a>
     </div>
+    {% endif %}
     
 </div>
 

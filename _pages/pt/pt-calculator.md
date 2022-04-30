@@ -140,6 +140,7 @@ redirect_from:
 
     {% include ads_calculator_banner.html %}
 
+    {% if site.ads.stormgain %}
     <div class="stormgain">
         <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compre <span class="result-tokentype"></span> Agora!</a></h2>
         <div>
@@ -172,6 +173,7 @@ redirect_from:
         </p>
         <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Comece sua jornada de cripto em Stormgain  </a>
     </div>
+    {% endif %}
 </div>
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>

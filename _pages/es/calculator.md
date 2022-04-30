@@ -133,6 +133,7 @@ lang: es
 
     {% include ads_calculator_banner.html %}
 
+    {% if site.ads.stormgain %}
     <div class="stormgain">
         <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compra <span class="result-tokentype"></span> Ahora!</a></h2>
         <div>
@@ -174,6 +175,7 @@ lang: es
         </p>
         <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Empieza tu aventura crypto en Stormgain</a>
     </div>
+    {% endif %}
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h2>Artículos Recomendados</h2>
