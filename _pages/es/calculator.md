@@ -131,8 +131,7 @@ lang: es
         </p>
     </div>
 
-    <!-- Calculator Banner -->
-    <div class="lazy-load-ad" data-slot="1002456567"></div>
+    {% include ads_calculator_banner.html %}
 
     <div class="stormgain">
         <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Compra <span class="result-tokentype"></span> Ahora!</a></h2>

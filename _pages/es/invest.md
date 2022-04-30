@@ -90,8 +90,7 @@ lang: es
 <table id="investment-table" class="display" width="100%"></table>
 
 <div class="ad-space">
-    <!-- Calculator Banner -->
-    <div class="lazy-load-ad" data-slot="1002456567"></div>
+    {% include ads_calculator_banner.html %}
 </div>
 
 <script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>

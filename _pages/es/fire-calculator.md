@@ -154,8 +154,7 @@ lang: es
 
     </div>
 
-    <!-- Calculator Banner -->
-    <div class="lazy-load-ad" data-slot="1002456567"></div>
+    {% include ads_calculator_banner.html %}
 </div>
 
 <script defer src="{{ site.baseurl }}/js/fi.js?{{site.time | date: '%s%N'}}"></script>
