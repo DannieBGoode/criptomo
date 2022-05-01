@@ -63,7 +63,7 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   if (mobileAndTabletcheck()) {
       var currentScrollPos = window.pageYOffset;
-      if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 50)) {
+      if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 200)) {
         document.getElementsByClassName('site-navigation')[0].style.top = '0';
         if (document.getElementsByTagName('progress')[0]) {
           document.getElementsByTagName('progress')[0].style.marginTop = '';  
