@@ -122,11 +122,9 @@ function calculateEarnings() {
       let numberOfAds = document.querySelectorAll(".stormgain div a").length;
       let adToShow = Math.floor(Math.random() * numberOfAds);
       document.querySelectorAll(".stormgain div a")[adToShow].classList.add("displayed");
-      console.log("show");
     }
     else {
       document.querySelector('.stormgain').style.display = 'none';
-      console.log("hide");
     }
   }
 
