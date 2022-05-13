@@ -187,6 +187,8 @@ popular: true
 
 ## Bitcoin Calculator Instructions
 
+### How to calculate your profit / loss with the crypto profit calculator
+
 With this crypto profit calculator you can find out what profit you could have obtained by investing in Bitcoin and other cryptocurrencies in time. 
 
 In order to use this **bitcoin calculator** to find out your bitcoin profits (or other crypto profits), please enter the initial investment you'd like to calculate and choose the crypto you'd like to simulate.
@@ -196,3 +198,7 @@ You can choose other cryptos not included in the dropdown but make sure to enter
 When selecting the sale date, depending on the time it might not be possible to choose today if the markets have not yet been registered as closed. If so please choose Yesterday as the sale date.
 
 The Bitcoin profit calculator will return the investment value both in profit percentage and absolute crypto profit gains.
+
+Again, it is possible that when simulating the gains of a cryptocurrency, a date prior to the creation of the cryptocurrency is chosen, if this is the case you will be indicated with an error message informing you that the selected date is not found in our history.
+
+In addition, with the bitcoin converter / calculator you can choose between euros (EUR) or dollars (USD) when calculating your earnings or invesment exit fee from your cryptocurrency.

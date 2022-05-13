@@ -192,8 +192,18 @@ lang: es
 
 Con está calculadora de ganancias crypto podrás averiguar qué beneficio podrías haber obtenido invirtiendo en Bitcoin y otras criptomonedas a tiempo.
 
-Para utilizar esta calculadora de bitcoin como simulador de ganancias, ingrese la inversión inicial que desea calcular y elija la criptomoneda que desea simular.
+Para utilizar esta calculadora de bitcoin como simulador de ganancias, ingresa la inversión inicial que deseas calcular y elije la criptomoneda que deseas simular.
 
-Puede elegir otras criptomonedas no incluidas en el menú desplegable, pero asegúrese de ingresar el código exacto que tiene la criptomoneda a simular. Por ejemplo, en lugar de DOGECOIN escriba **DOGE**, o en lugar de ETHEREUM introduzca **ETH**. Es posible que la API no cubra todas las criptomonedas.
+Puedes elegir otras criptomonedas no incluidas en el menú desplegable, pero asegúrate de ingresar el código exacto que tiene la criptomoneda a simular. Por ejemplo:
+- en lugar de DOGECOIN escribe **DOGE**.
+- en lugar de ETHEREUM introduce **ETH**.
+- en lugar de BITCOIN introduce **BTC**.
 
-Al seleccionar la fecha de venta, dependiendo de la hora, puede que no sea posible elegir hoy si los mercados aún no se han registrado como cerrados. Si es así, elija "Ayer" como fecha de venta. 
+Es posible que la API no cubra todas las criptomonedas.
+
+Al seleccionar la fecha de venta, dependiendo de la hora, puede que no sea posible elegir hoy si los mercados aún no se han registrado como cerrados. Si es así, elije "Ayer" como fecha de venta.
+
+De nuevo, es posible que al simular las ganancias de una criptomoneda se elija una fecha anterior a la creación de la criptomoneda, si se da este caso se te indicará con un mensaje de error informándote de que la fecha seleccionada no se encuentra en nuestro historial.
+
+Además con el conversor / calculadora bitcoin podrás elegir entre las monedas euros (EUR) o dólares (USD) a la hora de calcular tus ganancias de tu moneda.
+
