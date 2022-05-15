@@ -6,6 +6,5 @@ sitemap: false
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /404/
-Disallow: /about/
 Disallow: /tags/
 Disallow: /page/*
