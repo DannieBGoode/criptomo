@@ -137,7 +137,7 @@ popular: true
 
     {% if site.ads.stormgain %}
     <div class="stormgain">
-        <h2><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Buy <span class="result-tokentype"></span> Right Now!</a></h2>
+        <h4 style="font-size:30px"><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invest <span class="result-tokentype"></span> Now!</a></h4>
         <div>
             <a href="https://go.stormgain.app/visit/?bta=112218&nci=12550" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608745"  width="492" height="328"></a>
 
@@ -168,12 +168,12 @@ popular: true
                 <li> Demo Account with 50K USDT</li>
             </ul>
         </p>
-        <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Start your crypto journey in Stormgain</a>
+        <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invest in crypto today</a>
     </div>
     {% endif %}
 
     <div class="recommended-articles-wrapper" style="display: none">
-        <h2>Recommended Articles</h2>
+        <h4>Recommended Articles</h4>
         <div class="recommended-articles"></div>
     </div>
     
