@@ -3,7 +3,7 @@ title: Mejores libros de criptomonedas
 tags:
 - altcoins
 layout: post
-description: Mejores libros de criptomonedas de 
+description: Mejores libros de criptomonedas
 banner_image: 202205/books.webp
 rating: 5
 TotalVotes: 14
@@ -25,7 +25,7 @@ lang: es
 
 ## Mejores libros económicos de criptomonedas de {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3sBru3e" >El Patrón Bitcoin</a>
+### <a rel="nofollow" target="_blank" href="https://amzn.to/3sBru3e" >El Patrón Bitcoin</a>
 
 {% include image_caption.html imageurl="/images/posts/202205/patron.webp" link="https://amzn.to/3sBru3e" title="El Patrón Bitcoin" caption="El Patrón Bitcoin" popup=true class="small-size" %}
 
@@ -35,7 +35,7 @@ Al final del libro se justifica como Bitcoin es la solución más lógica dada t
 
 Aunque se tocan algunos conceptos, este libro no explica en detalle el funcionamiento de Bitcoin pero si que da el contexto adecuado para entender porque Bitcoin existe y qué problema soluciona.
 
-### <a rel="nofollow" href="https://amzn.to/39mQSCW" >Internet del dinero</a>
+### <a rel="nofollow" href="https://amzn.to/39mQSCW" target="_blank">Internet del dinero</a>
 
 {% include image_caption.html imageurl="/images/posts/202205/internet.webp" link="https://amzn.to/39mQSCW" title="El Internet del Dinero" caption="El Internet del Dinero" popup=true  %}
 
@@ -47,11 +47,9 @@ Este libro es apto para principiantes.
 
 ## Mejor Libro técnico de iniciación a Bitcoin de {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3wfsLzb" >Mastering Bitcoin</a>
+### <a rel="nofollow" href="https://amzn.to/3wfsLzb" target="_blank">Mastering Bitcoin</a>
 
 {% include image_caption.html imageurl="/images/posts/202205/mastering-btc.webp" link="https://amzn.to/3wfsLzb" title="Mastering Bitcoin" caption="Mastering Bitcoin" class="small-size" popup=true %}
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=danniebgoode-21&language=es_ES&o=30&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B071K7FCD4&linkId=ca0347b8c83aef16893942f40e8f086a"></iframe>
 
 Andreas M. Antonopoulos nos vuelve a traer otro libro para personas no necesariamente técnicas así como ejecutivos e inversores. Antonopoulos explica en este libro:
 - Cómo funciona la red descentralizada de Bitcoin
@@ -68,7 +66,7 @@ Se trata de una lectura más densa que *El Internet del Dinero* pero que da al l
 
 ## Mejor Libro de programación de Bitcoin de {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3a3oZjK" >Programando Bitcoin de Jimmy Song</a>
+### <a rel="nofollow" href="https://amzn.to/3a3oZjK" target="_blank">Programando Bitcoin de Jimmy Song</a>
 
 {% include image_caption.html imageurl="/images/posts/202205/programming-btc.webp" link="https://amzn.to/3a3oZjK" title="Programming Bitcoin" caption="Programming Bitcoin" popup=true class="small-size" %}
 
@@ -87,7 +85,7 @@ Este libro es para usuarios avanzados que sepan programar.
 
 ## Mejor Libro de Ethereum de {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3NhKVWw" >Mastering Ethereum: Building Smart Contracts and DApps</a>
+### <a rel="nofollow" href="https://amzn.to/3NhKVWw" target="_blank">Mastering Ethereum: Building Smart Contracts and DApps</a>
 
 {% include image_caption.html imageurl="/images/posts/202205/mastering-eth.webp" link="https://amzn.to/3NhKVWw" title="Mastering Ethereum" caption="Mastering Ethereum" popup=true class="mid-size" %}
 
@@ -109,7 +107,7 @@ Los temas que se tratan son:
 
 ## Otros:
 
-### <a rel="nofollow" href="https://amzn.to/3yI2Stk" >Bitcoin Billionaires by Ben Mezrich</a>
+### <a rel="nofollow" href="https://amzn.to/3yI2Stk" target="_blank">Bitcoin Billionaires by Ben Mezrich</a>
 
 Billonarios de Bitcoin cuenta la historia de los gemelos Winklevoss después de que se cerrara el caso de Facebook con Mark Zuckerberg. El libro cuenta como los dos hermanos intentaron sin éxito varios negocios hasta descubrir Bitcoin que los convirtió en los primeros billonarios gracias a esta moneda.
 
