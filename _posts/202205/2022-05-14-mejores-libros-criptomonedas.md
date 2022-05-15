@@ -25,9 +25,9 @@ lang: es
 
 ## Mejores libros económicos de criptomonedas de {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3wwlJ7U" >El Patrón Bitcoin</a>
+### <a rel="nofollow" href="https://amzn.to/3sBru3e" >El Patrón Bitcoin</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/patron.webp" title="El Patrón Bitcoin" caption="El Patrón Bitcoin" popup=true class="small-size" %}
+{% include image_caption.html imageurl="/images/posts/202205/patron.webp" link="https://amzn.to/3sBru3e" title="El Patrón Bitcoin" caption="El Patrón Bitcoin" popup=true class="small-size" %}
 
 Considerado el mejor libro de Bitcoin pero también un muy buen libro de cómo funciona el dinero y el sistema financiero actual. El Patrón Bitcoin nos habla del papel del dinero a lo largo de los años desde la edad antigua hasta la actualidad cubriendo la gran mayoría de las preguntas que las personas no incializadas en el tema podrían tener al respecto.
 
@@ -37,7 +37,7 @@ Aunque se tocan algunos conceptos, este libro no explica en detalle el funcionam
 
 ### <a rel="nofollow" href="https://amzn.to/39mQSCW" >Internet del dinero</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/internet.webp" title="El Internet del Dinero" caption="El Internet del Dinero" popup=true  %}
+{% include image_caption.html imageurl="/images/posts/202205/internet.webp" link="https://amzn.to/39mQSCW" title="El Internet del Dinero" caption="El Internet del Dinero" popup=true  %}
 
 Andreas M. Antonopoulos, autor y comunicador detrás de varios libros e innumerables charlas acerca de Bitcoin ahonda ya no en cómo funciona Bitcion técnicamente sino en la importancia, filosofía y el motivo por el cual Bitcoin existe y cómo ha impactado ya la vida de millones de personas.
 
@@ -49,7 +49,7 @@ Este libro es apto para principiantes.
 
 ### <a rel="nofollow" href="https://amzn.to/3wfsLzb" >Mastering Bitcoin</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/mastering-btc.webp" title="Mastering Bitcoin" caption="Mastering Bitcoin" class="small-size" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202205/mastering-btc.webp" link="https://amzn.to/3wfsLzb" title="Mastering Bitcoin" caption="Mastering Bitcoin" class="small-size" popup=true %}
 
 <iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=danniebgoode-21&language=es_ES&o=30&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B071K7FCD4&linkId=ca0347b8c83aef16893942f40e8f086a"></iframe>
 
@@ -70,7 +70,7 @@ Se trata de una lectura más densa que *El Internet del Dinero* pero que da al l
 
 ### <a rel="nofollow" href="https://amzn.to/3a3oZjK" >Programando Bitcoin de Jimmy Song</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/programming-btc.webp" title="Programming Bitcoin" caption="Programming Bitcoin" popup=true class="small-size" %}
+{% include image_caption.html imageurl="/images/posts/202205/programming-btc.webp" link="https://amzn.to/3a3oZjK" title="Programming Bitcoin" caption="Programming Bitcoin" popup=true class="small-size" %}
 
 Jimmy Song explica como Bitcoin funciona por debajo desde un punto de vista técnico para que el autor sea capaz de:
 
@@ -87,9 +87,9 @@ Este libro es para usuarios avanzados que sepan programar.
 
 ## Mejor Libro de Ethereum de {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3yDs7gp" >Mastering Ethereum: Building Smart Contracts and DApps</a>
+### <a rel="nofollow" href="https://amzn.to/3NhKVWw" >Mastering Ethereum: Building Smart Contracts and DApps</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/mastering-eth.webp" title="Mastering Ethereum" caption="Mastering Ethereum" popup=true class="mid-size" %}
+{% include image_caption.html imageurl="/images/posts/202205/mastering-eth.webp" link="https://amzn.to/3NhKVWw" title="Mastering Ethereum" caption="Mastering Ethereum" popup=true class="mid-size" %}
 
 Mastering Ethereum es un libro escrito por Andreas M. Antonopoulos y Gavin Woods (PolkaDot) para desarrolladores ofreciendoles una guía de como utilizar Ethereum, Ethereum Classic, Rootstock (RSK) y otros entornos EVM.
 

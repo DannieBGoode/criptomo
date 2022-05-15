@@ -8,9 +8,16 @@
 	{% else %}
 		{% assign title = page.title %}
 	{% endif %}
+
+	{% if include.link %}
+		<a rel="nofollow" href="{{include.link}}" target="_blank">
+	{% endif %}
 		<div class="img-container">
 	    	<img loading="lazy" src="{{ include.imageurl }}" alt="{{ title }}" class="{{ include.class }}" />
 	    </div>
+	{% if include.link %}
+		</a>
+	{% endif %}
 	    {% if include.caption %}
 	    <figcaption class="caption-text">{{ include.caption }}</figcaption> 
 	    {% endif %}
