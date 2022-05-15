@@ -1,0 +1,116 @@
+---
+title: Mejores libros de criptomonedas 
+tags:
+- altcoins
+layout: post
+description: Mejores libros de criptomonedas de 
+banner_image: 202205/books.webp
+rating: 5
+TotalVotes: 14
+ref: best-books
+lang: es
+---
+
+<style>
+.mid-size {
+	width:  50%;
+}
+.small-size {
+	width:  30%;
+}
+.mid-height {
+	max-width: 400px;
+}
+</style>
+
+## Mejores libros económicos de criptomonedas de {{ 'now' | date: "%Y" }}
+
+### <a rel="nofollow" href="https://amzn.to/3wwlJ7U" >El Patrón Bitcoin</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/patron.webp" title="El Patrón Bitcoin" caption="El Patrón Bitcoin" popup=true class="small-size" %}
+
+Considerado el mejor libro de Bitcoin pero también un muy buen libro de cómo funciona el dinero y el sistema financiero actual. El Patrón Bitcoin nos habla del papel del dinero a lo largo de los años desde la edad antigua hasta la actualidad cubriendo la gran mayoría de las preguntas que las personas no incializadas en el tema podrían tener al respecto.
+
+Al final del libro se justifica como Bitcoin es la solución más lógica dada toda nuestra historia y que posibles puntos débiles podría tener esta tecnología.
+
+Aunque se tocan algunos conceptos, este libro no explica en detalle el funcionamiento de Bitcoin pero si que da el contexto adecuado para entender porque Bitcoin existe y qué problema soluciona.
+
+### <a rel="nofollow" href="https://amzn.to/39mQSCW" >Internet del dinero</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/internet.webp" title="El Internet del Dinero" caption="El Internet del Dinero" popup=true  %}
+
+Andreas M. Antonopoulos, autor y comunicador detrás de varios libros e innumerables charlas acerca de Bitcoin ahonda ya no en cómo funciona Bitcion técnicamente sino en la importancia, filosofía y el motivo por el cual Bitcoin existe y cómo ha impactado ya la vida de millones de personas.
+
+Andreas explica como la población mundial tiene en sus manos la herramienta perfecta para poder hacer frente a la tirania económica que ejercen las instituciones financieras y los gobiernos, los cuales se manifiestan fuertemente en contra de bitcoin.
+
+Este libro es apto para principiantes.
+
+## Mejor Libro técnico de iniciación a Bitcoin de {{ 'now' | date: "%Y" }}
+
+### <a rel="nofollow" href="https://amzn.to/3wfsLzb" >Mastering Bitcoin</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/mastering-btc.webp" title="Mastering Bitcoin" caption="Mastering Bitcoin" class="small-size" popup=true %}
+
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=danniebgoode-21&language=es_ES&o=30&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B071K7FCD4&linkId=ca0347b8c83aef16893942f40e8f086a"></iframe>
+
+Andreas M. Antonopoulos nos vuelve a traer otro libro para personas no necesariamente técnicas así como ejecutivos e inversores. Antonopoulos explica en este libro:
+- Cómo funciona la red descentralizada de Bitcoin
+- En qué consiste [Proof of Work](/que-es-proof-of-work/)
+- Sus principios de seguridad
+- Los conceptos de wallets
+- La vida de una transacción
+- Segwit
+- Lightning Network
+- Canales de Pago
+- etc...
+
+Se trata de una lectura más densa que *El Internet del Dinero* pero que da al lector el conocimiento clave para entender el funcionamiento de Bitcoin sin necesariamente ser programador o informático.
+
+## Mejor Libro de programación de Bitcoin de {{ 'now' | date: "%Y" }}
+
+### <a rel="nofollow" href="https://amzn.to/3a3oZjK" >Programando Bitcoin de Jimmy Song</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/programming-btc.webp" title="Programming Bitcoin" caption="Programming Bitcoin" popup=true class="small-size" %}
+
+Jimmy Song explica como Bitcoin funciona por debajo desde un punto de vista técnico para que el autor sea capaz de:
+
+- Parsear, validar y crear transacciones de Bitcoin.
+- Utilizar Script, el lenguaje detrás de Bitcoin que habilita smart contracts.
+- Entender cómo [Proof of Work](/que-es-proof-of-work/) asegura la red de Bitcoin.
+- Programar Bitcoin utilizando Python 3.
+- Trabajar con criptografía de clave pública / clave privada así como primitivas.
+- Entender cómo  funcionan los Lightwallets.
+
+Al final de cada capítulo existen varios ejercicios para construir librerias de Bitcoin desde cero.
+
+Este libro es para usuarios avanzados que sepan programar.
+
+## Mejor Libro de Ethereum de {{ 'now' | date: "%Y" }}
+
+### <a rel="nofollow" href="https://amzn.to/3yDs7gp" >Mastering Ethereum: Building Smart Contracts and DApps</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/mastering-eth.webp" title="Mastering Ethereum" caption="Mastering Ethereum" popup=true class="mid-size" %}
+
+Mastering Ethereum es un libro escrito por Andreas M. Antonopoulos y Gavin Woods (PolkaDot) para desarrolladores ofreciendoles una guía de como utilizar Ethereum, Ethereum Classic, Rootstock (RSK) y otros entornos EVM.
+
+Los temas que se tratan son:
+- Conceptos Básicos de Ethereum
+- Clientes de Ethereum
+- Criptografía
+- Wallets
+- Transacciones
+- [Smart contracts](/que-es-un-smart-contract/) con Solidity y Vyper.
+- Tokens
+- Oráculos
+- Dapps
+- EVM
+
+<a rel="nofollow" href="https://github.com/ethereumbook/ethereumbook">Mastering Ethereum</a> está disponible gratuito online en Github así como en Amazon en formato físico..
+
+## Otros:
+
+### <a rel="nofollow" href="https://amzn.to/3yI2Stk" >Bitcoin Billionaires by Ben Mezrich</a>
+
+Billonarios de Bitcoin cuenta la historia de los gemelos Winklevoss después de que se cerrara el caso de Facebook con Mark Zuckerberg. El libro cuenta como los dos hermanos intentaron sin éxito varios negocios hasta descubrir Bitcoin que los convirtió en los primeros billonarios gracias a esta moneda.
+
+{% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" popup=true %}
