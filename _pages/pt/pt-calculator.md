@@ -133,7 +133,7 @@ redirect_from:
             </div>
             <div class="error date-error">
                 <span>Esta data não está em nosso cadastro.</span>
-                <div>Tente outra data, por exemplo <a>2022-05-01</a>.</div>
+                <div>Tente outra data, por exemplo <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
         </p>
     </div>

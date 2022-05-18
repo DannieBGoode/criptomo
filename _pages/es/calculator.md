@@ -126,7 +126,7 @@ lang: es
             </div>
             <div class="error date-error">
                 <span>Esta fecha no está cubierta en nuestro historial.</span>
-                <div>Prueba con otra fecha, por ejemplo <a>2021-04-01</a>.</div>
+                <div>Prueba con otra fecha, por ejemplo <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
         </p>
     </div>

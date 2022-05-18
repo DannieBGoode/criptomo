@@ -27,6 +27,11 @@ function handleError(type) {
   } else {
     document.querySelector('#invest-date').classList.add('input-error');
     document.querySelector('.date-error').style.display = 'block';
+    if (document.querySelector(".suggestedDate")) {
+      let suggestedDate = new Date()
+      suggestedDate.setDate(suggestedDate.getDate() - 1);
+      document.querySelector(".suggestedDate").innerHTML = suggestedDate.toISOString().split('T')[0];  
+    }
   }
   document.querySelector('#calculator-results').style.display = 'none';
   
