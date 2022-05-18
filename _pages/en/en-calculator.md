@@ -128,7 +128,7 @@ popular: true
             </div>
             <div class="error date-error">
                 <span>This date is not in our register.</span>
-                <div>Try another date, for example <a>2021-04-01</a>.</div>
+                <div>Try another date, for example <a>2022-05-01</a>.</div>
             </div>
         </p>
     </div>

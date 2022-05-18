@@ -132,7 +132,7 @@ redirect_from:
             </div>
             <div class="error date-error">
                 <span>Dieses Datum ist nicht in unserem Register.</span>
-                <div>Versuchen Sie es beispielsweise mit einem anderen Datum <a>2021-04-01</a>.</div>
+                <div>Versuchen Sie es beispielsweise mit einem anderen Datum <a>2022-05-01</a>.</div>
             </div>
         </p>
     </div>
