@@ -53,6 +53,7 @@ Aprendamos a invertir mejor
 - [¿Es el Bitcoin anónimo?](/es-bitcoin-anonimo/).
 - [Qué es una ICO](/que-es-una-ico/)
 - [¿Por qué es tan complicado Holdear?](/por-que-es-dificil-holdear/)
+- [¿Puede el Bitcoin fracasar?](/puede-btc-fracasar/)
 
 ### Altcoins
 ¿Bitcoin no es para ti? Hablemos de otras criptomonedas que van apareciendo en el mercado.
