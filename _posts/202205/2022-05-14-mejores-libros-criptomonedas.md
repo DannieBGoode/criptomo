@@ -23,7 +23,7 @@ lang: es
 }
 </style>
 
-## Mejores libros económicos de criptomonedas de {{ 'now' | date: "%Y" }}
+## Mejores libros económicos sobre criptomonedas de {{ 'now' | date: "%Y" }}
 
 ### <a rel="nofollow" target="_blank" href="https://amzn.to/3sBru3e" >El Patrón Bitcoin</a>
 
@@ -43,7 +43,7 @@ Andreas M. Antonopoulos, autor y comunicador detrás de varios libros e innumera
 
 Andreas explica como la población mundial tiene en sus manos la herramienta perfecta para poder hacer frente a la tirania económica que ejercen las instituciones financieras y los gobiernos, los cuales se manifiestan fuertemente en contra de bitcoin.
 
-Este libro es apto para principiantes.
+Este libro de criptomonedas para principiantes es apto para gente que quiera iniciarse poco a poco y de manera prudente.
 
 ## Mejor Libro técnico de iniciación a Bitcoin de {{ 'now' | date: "%Y" }}
 
@@ -89,7 +89,7 @@ Este libro es para usuarios avanzados que sepan programar.
 
 {% include image_caption.html imageurl="/images/posts/202205/mastering-eth.webp" link="https://amzn.to/3NhKVWw" title="Mastering Ethereum" caption="Mastering Ethereum" popup=true class="mid-size" %}
 
-Mastering Ethereum es un libro escrito por Andreas M. Antonopoulos y Gavin Woods (PolkaDot) para desarrolladores ofreciendoles una guía de como utilizar Ethereum, Ethereum Classic, Rootstock (RSK) y otros entornos EVM.
+Mastering Ethereum es un libro escrito por Andreas M. Antonopoulos y Gavin Woods (PolkaDot) para desarrolladores ofreciendoles una guía de como utilizar las criptomonedas Ethereum, Ethereum Classic, Rootstock (RSK) y otros entornos EVM.
 
 Los temas que se tratan son:
 - Conceptos Básicos de Ethereum
