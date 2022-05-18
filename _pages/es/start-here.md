@@ -22,6 +22,7 @@ Aquí os dejo un pequeño indice de algunos de los artículos que he ido creando
 Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin u otras criptomonedas.
 - Empieza preguntándote [qué es una criptomoneda](/que-es-una-criptomoneda/).
 - Revisemos [qué es Bitcoin](/que-es-bitcoin/), la primera criptomoneda.
+- Qué es una [frase mnemonica](/que-es-frase-mnemonica/)
 - Aprende a tener contraseñas seguras usando [gestores de contraseñas](/mejores-gestores-contrasenas/).
 - No pierdas todos tus fondos, [guía de cómo deberías guardar tus criptomonedas](/como-guardar-criptomonedas/).
 - Deseas empezar a invertir, aprende a [**comprar tus primeras criptomonedas**](/comprar-bitcoin-2020/).
@@ -38,7 +39,6 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 - [El problema de escalabilidad de Bitcoin](/problema-escalabilidad/).
 - [El Trilema de la Escalabilidad](/trilema-escalabilidad/).
 - Qué es un [Smart Contract](/que-es-un-smart-contract/).
-- [Claves Privadas y Seeds - Conceptos básicos](/clave-privada-vs-seed/).
 - [Hard Forks y Soft Forks](/hard-fork-vs-soft-fork/).
 
 ### Estrategias de inversión

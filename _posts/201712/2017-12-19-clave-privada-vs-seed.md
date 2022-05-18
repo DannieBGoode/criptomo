@@ -1,5 +1,5 @@
 ---
-title: Claves Públicas, Privadas y Seeds
+title: Como obtener una clave privada de un seed
 date: 2017-12-19 00:00:00 Z
 tags:
 - seguridad
