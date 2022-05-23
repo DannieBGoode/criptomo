@@ -59,11 +59,12 @@ if (document.getElementById("_progress")) {
 }
 
 // hides navigation-bar when scrolling down on mobile
+let hideNavigation = false;
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
-  if (mobileAndTabletcheck()) {
+  if ((mobileAndTabletcheck()) && hideNavigation) {
       var currentScrollPos = window.pageYOffset;
-      if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 200)) {
+      if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 800)) {
         document.getElementsByClassName('site-navigation')[0].style.top = '0';
         if (document.getElementsByTagName('progress')[0]) {
           document.getElementsByTagName('progress')[0].style.marginTop = '';  
