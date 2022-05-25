@@ -41,9 +41,16 @@
 }
 
 .post-card:hover {
-    box-shadow: 0 0 1px rgba(39,44,49,0.10), 0 3px 16px rgba(39, 44, 49,0.07);
-    transition: all 0.3s ease;
-    transform: translate3D(0, -1px, 0);
+    .post-card-image {
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .post-card-title {
+        color: black;
+    }
 }
 
 .post-card-image-link {
@@ -59,6 +66,11 @@
     background: $mine-shaft no-repeat center center;
     background-size: cover;
     background-position: center;
+    -webkit-transition: all 1s cubic-bezier(.2,.3,0,1);
+    -moz-transition: all 1s cubic-bezier(.2,.3,0,1);
+    -ms-transition: all 1s cubic-bezier(.2,.3,0,1);
+    -o-transition: all 1s cubic-bezier(.2,.3,0,1);
+    transition: all 1s cubic-bezier(.2,.3,0,1);
 }
 
 .post-card-content-link {
@@ -87,6 +99,7 @@
 
 .post-card-title {
     margin-top: 0;
+    transition: all .15s ease-in-out;
 }
 
 .post-card-content {
