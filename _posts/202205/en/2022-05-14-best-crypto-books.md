@@ -21,6 +21,9 @@ lang: en
 .mid-height {
 	max-width: 400px;
 }
+.book img {
+	padding-bottom: 10px;
+}
 </style>
 
 ## The Original Bitcoin Whitepaper by Satoshi Nakamoto
@@ -138,29 +141,29 @@ Written in 1999 before the popularization of the Internet, its authors prophesy 
 
 {% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" %}
 
-<div>
-	<span>
+<div style="display: flex; flex-direction: column; align-items: center;">
+	<span class="book">
 		<a href="https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861?crid=29MJOGEUL9H0F&keywords=bitcoin+standard&qid=1652636739&sprefix=bitcoin+standar%2Caps%2C186&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=9802df66a3a8a888156dab7fd664bfb2&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1119473861&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1119473861" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Fiat-Standard-Slavery-Alternative-Civilization/dp/1544526474?_encoding=UTF8&qid=1653475990&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=8a76a3b60156599837ad8533c7ba749c&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1544526474&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1544526474" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454?crid=1SY8JL3DMJZ6F&keywords=internet+of+money&qid=1652636767&sprefix=internet+of+mone%2Caps%2C156&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=e09ff821247a72bcaec942805ad6f386&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1537000454&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1537000454" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388?crid=229O082ZZZEEU&keywords=mastering+bitcoin&qid=1652636795&sprefix=mastering+bitcoi%2Caps%2C167&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=09001209d9de73ed67dbfc9065d7c6bb&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1491954388&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1491954388" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Programming-Bitcoin-Learn-Program-Scratch/dp/1492031496?crid=JA2ZIK8Y7E80&keywords=programming+bitcoin&qid=1652636850&sprefix=programming%2Caps%2C162&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=f058b791cff7611c8449c6a5f456a19f&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1492031496&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1492031496" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Mastering-Ethereum-Building-Smart-Contracts/dp/1491971940?crid=D1JTRF20P3DE&keywords=mastering+ethereum&qid=1652636870&sprefix=mastering+ethereu%2Caps%2C170&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=7b542db2d382e6834afc29de38fd446e&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1491971940&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1491971940" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741?crid=SNUM0JVGQ66Y&keywords=Bitcoin+Billionaires&qid=1652636895&sprefix=bitcoin+billionaires%2Caps%2C141&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=8a6ed58397ceb7503011d2d79a4f3c17&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1250217741&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=1250217741" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
-	<span>
+	<span class="book">
 		<a href="https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720?_encoding=UTF8&qid=1653475138&sr=8-1&linkCode=li3&tag=mobile0f06845-20&linkId=80d16ae995bae8d4416491bceabe8ae5&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0684832720&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li3&o=1&a=0684832720" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 	</span>
 </div>
