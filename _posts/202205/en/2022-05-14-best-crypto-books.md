@@ -34,7 +34,7 @@ The manuscript has only 9 pages and to this day the real identity of its author 
 
 ### <a rel="nofollow" href="https://amzn.to/3whjtCw" target="_blank">The Bitcoin Standard</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/patron.webp" link="https://amzn.to/3whjtCw" title="The Bitcoin Standard" caption="The Bitcoin Standard" popup=true class="small-size" %}
+{% include image_caption.html imageurl="/images/posts/202205/bitcoin-standard.webp" link="https://amzn.to/3whjtCw" title="The Bitcoin Standard" caption="The Bitcoin Standard" popup=true class="small-size" %}
 
 Considered the best Bitcoin book but also a very good book on how money works and the current financial system. The Bitcoin Standard tells us about the role of money over the years from ancient times to the present, covering the vast majority of questions that uninitiated people might have about it.
 
@@ -44,7 +44,7 @@ Although some concepts are touched on, this book does not explain in detail how 
 
 ### <a rel="nofollow" href="https://amzn.to/39tlseo" target="_blank">Internet of money</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/internet.webp" link="https://amzn.to/39tlseo" title="The Internet of Money" caption="The Internet of Money" popup =true %}
+{% include image_caption.html imageurl="/images/posts/202205/internet-of-money.webp" link="https://amzn.to/39tlseo" title="The Internet of Money" caption="The Internet of Money" popup =true %}
 
 Andreas M. Antonopoulos, author and communicator behind several books and countless talks about Bitcoin, delves no longer into how Bitcion works technically, but into the importance, philosophy and reason why Bitcoin exists and how it has already impacted the lives of millions of people. persons.
 
@@ -54,7 +54,7 @@ This book is suitable for beginners.
 
 ### <a rel="nofollow" href="https://amzn.to/3sStWCj">The Fiat Standard</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/fiat-standard.webp" link="https://amzn.to/3sStWCj" title="The Fiat Standard" caption="The Fiat Standard" % }
+{% include image_caption.html imageurl="/images/posts/202205/fiat-standard.webp" link="https://amzn.to/3sStWCj" title="The Fiat Standard" caption="The Fiat Standard" %}
 
 The continuation of the Bitcoin Standard looks at fiat money and its transition from the gold standard to the current one. Saifedean Ammous draws an analogy between bitcoin and fiat money by studying the current financial system from the perspective of cryptocurrency.
 
@@ -67,8 +67,6 @@ This book should be read as a follow-up to *The Bitcoin Standard*, and is somewh
 ### <a rel="nofollow" href="https://amzn.to/3FQSpgH" target="_blank">Mastering Bitcoin</a>
 
 {% include image_caption.html imageurl="/images/posts/202205/mastering-btc.webp" link="https://amzn.to/3FQSpgH" title="Mastering Bitcoin" caption="Mastering Bitcoin" class=" small-size" popup=true %}
-
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1 =0000FF&t=danniebgoode-21&language=es_ES&o=30&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B071K7FCD4&linkId=ca0347b8c83aef16893942f40e8f086a"></iframe>
 
 Andreas M. Antonopoulos brings us another book for non-technical people as well as executives and investors. Antonopoulos explains in this book:
 - How the Bitcoin decentralized network works
@@ -139,3 +137,10 @@ Bitcoin Billionaires tells the story of the Winklevoss twins after the Facebook 
 Written in 1999 before the popularization of the Internet, its authors prophesy a digital future that would make the world a more competitive, unequal and unstable place. The authors argue that they try to change the dynamics that governments had then and that they will have to adapt to survive.
 
 {% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" %}
+
+
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=mobile0f06845-20&language=en_US&marketplace=amazon&region=US&placement=1119473861&asins=1119473861&linkId=e22dbd3ea296b355e8234496a7dcb6f7&show_border=true&link_opens_in_new_window=true"></iframe>
+
+<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1 =0000FF&t=danniebgoode-21&language=es_ES&o=30&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B071K7FCD4&linkId=ca0347b8c83aef16893942f40e8f086a"></iframe>
+
+<a href="https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861?crid=29MJOGEUL9H0F&keywords=bitcoin+standard&qid=1652636739&sprefix=bitcoin+standar%2Caps%2C186&sr=8-1&linkCode=li2&tag=mobile0f06845-20&linkId=1734f9d5c90a014fc4a84be23c07e7cf&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1119473861&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mobile0f06845-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=mobile0f06845-20&language=en_US&l=li2&o=1&a=1119473861" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
