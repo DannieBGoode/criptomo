@@ -23,13 +23,20 @@ lang: en
 }
 </style>
 
+## The Original Bitcoin Whitepaper by Satoshi Nakamoto
+
+Satoshi Nakamoto anonymously wrote the <a rel="nofollow" href="https://bitcoin.org/bitcoin.pdf">Bitcoin Whitepaper</a> that started it all in October 2008. He did so by publishing it anonymously. free and without any copyright in a mailing list.
+
+The manuscript has only 9 pages and to this day the real identity of its author is still unknown, who accompanied this PDF with the publication of the <a rel="nofollow" href="https://github.com/bitcoin/bitcoin/tree /4405b78d6059e536c36974088a8ed4d9f0f29898">open-source code</a> from the first Bitcoin node in January 2009.
+
+
 ## Best Cryptocurrency Economics Books from {{ 'now' | date: "%Y" }}
 
-### <a rel="nofollow" href="https://amzn.to/3whjtCw" target="_blank">The Bitcoin Pattern</a>
+### <a rel="nofollow" href="https://amzn.to/3whjtCw" target="_blank">The Bitcoin Standard</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/patron.webp" link="https://amzn.to/3whjtCw" title="The Bitcoin Pattern" caption="The Bitcoin Pattern" popup=true class="small-size" %}
+{% include image_caption.html imageurl="/images/posts/202205/patron.webp" link="https://amzn.to/3whjtCw" title="The Bitcoin Standard" caption="The Bitcoin Standard" popup=true class="small-size" %}
 
-Considered the best Bitcoin book but also a very good book on how money works and the current financial system. The Bitcoin Pattern tells us about the role of money over the years from ancient times to the present, covering the vast majority of questions that uninitiated people might have about it.
+Considered the best Bitcoin book but also a very good book on how money works and the current financial system. The Bitcoin Standard tells us about the role of money over the years from ancient times to the present, covering the vast majority of questions that uninitiated people might have about it.
 
 At the end of the book, it is justified how Bitcoin is the most logical solution given our entire history and what possible weak points this technology could have.
 
@@ -44,6 +51,16 @@ Andreas M. Antonopoulos, author and communicator behind several books and countl
 Andreas explains how the world population has in its hands the perfect tool to be able to face the economic tyranny exerted by financial institutions and governments, which are strongly against bitcoin.
 
 This book is suitable for beginners.
+
+### <a rel="nofollow" href="https://amzn.to/3sStWCj">The Fiat Standard</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/fiat-standard.webp" link="https://amzn.to/3sStWCj" title="The Fiat Standard" caption="The Fiat Standard" % }
+
+The continuation of the Bitcoin Standard looks at fiat money and its transition from the gold standard to the current one. Saifedean Ammous draws an analogy between bitcoin and fiat money by studying the current financial system from the perspective of cryptocurrency.
+
+In other words, considering fiat money as one more altcoin, its mining process, inflation and security are studied.
+
+This book should be read as a follow-up to *The Bitcoin Standard*, and is somewhat more dense to read than its predecessor.
 
 ## Best Bitcoin Getting Started Technical Book from {{ 'now' | date: "%Y" }}
 
@@ -111,6 +128,14 @@ Topics covered are:
 
 ### <a rel="nofollow" href="https://amzn.to/3LeYJ2Q" target="_blank">Bitcoin Billionaires by Ben Mezrich</a>
 
+{% include image_caption.html imageurl="/images/posts/202205/billonaires.webp" link="https://amzn.to/3LeYJ2Q" title="Bitcoin Billionaires" caption="Bitcoin Billionaires" popup=true class="small-size" %}
+
 Bitcoin Billionaires tells the story of the Winklevoss twins after the Facebook case with Mark Zuckerberg was closed. The book tells how the two brothers unsuccessfully tried various businesses until they discovered Bitcoin, which made them the first billionaires thanks to this currency.
 
-{% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" popup=true %}
+### <a rel="nofollow" href="https://amzn.to/3wRJZln">The Sovereign Individual</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/sovereign-individual.webp" link="https://amzn.to/3wRJZln" title="The Sovereign Individual" caption="The Sovereign Individual" popup =true class="small-size" %}
+
+Written in 1999 before the popularization of the Internet, its authors prophesy a digital future that would make the world a more competitive, unequal and unstable place. The authors argue that they try to change the dynamics that governments had then and that they will have to adapt to survive.
+
+{% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" %}

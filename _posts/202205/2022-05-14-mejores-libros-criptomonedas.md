@@ -23,6 +23,13 @@ lang: es
 }
 </style>
 
+
+## El Whitepaper Original de Satoshi Nakamoto
+
+Satoshi Nakamoto escribió de manera anónima el <a rel="nofollow" href="https://bitcoin.org/files/bitcoin-paper/bitcoin_es_latam.pdf">Whitepaper de Bitcoin</a> que inició todo en Octubre de 2008. Lo hizo publicándolo de manera gratuita y sin copyright alguno en una lista de correo.
+
+El manuscrito tiene únicamente 9 páginas y a día de hoy se sigue desconociendo la identidad real de su autor que acompañó este PDF con la publicación del <a rel="nofollow" href="https://github.com/bitcoin/bitcoin/tree/4405b78d6059e536c36974088a8ed4d9f0f29898">código open-source </a> del primer nodo de Bitcoin en Enero de 2009.
+
 ## Mejores libros económicos sobre criptomonedas de {{ 'now' | date: "%Y" }}
 
 ### <a rel="nofollow" target="_blank" href="https://amzn.to/3sBru3e" >El Patrón Bitcoin</a>
@@ -37,13 +44,23 @@ Aunque se tocan algunos conceptos, este libro no explica en detalle el funcionam
 
 ### <a rel="nofollow" href="https://amzn.to/39mQSCW" target="_blank">Internet del dinero</a>
 
-{% include image_caption.html imageurl="/images/posts/202205/internet.webp" link="https://amzn.to/39mQSCW" title="El Internet del Dinero" caption="El Internet del Dinero" popup=true  %}
+{% include image_caption.html imageurl="/images/posts/202205/internet.webp" link="https://amzn.to/39mQSCW" title="El Internet del Dinero" caption="El Internet del Dinero" %}
 
 Andreas M. Antonopoulos, autor y comunicador detrás de varios libros e innumerables charlas acerca de Bitcoin ahonda ya no en cómo funciona Bitcion técnicamente sino en la importancia, filosofía y el motivo por el cual Bitcoin existe y cómo ha impactado ya la vida de millones de personas.
 
 Andreas explica como la población mundial tiene en sus manos la herramienta perfecta para poder hacer frente a la tirania económica que ejercen las instituciones financieras y los gobiernos, los cuales se manifiestan fuertemente en contra de bitcoin.
 
 Este libro de criptomonedas para principiantes es apto para gente que quiera iniciarse poco a poco y de manera prudente.
+
+### <a rel="nofollow" href="https://amzn.to/3PGBLoF">El Patrón Fiat</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/fiat-standard.webp" link="https://amzn.to/3PGBLoF" title="El Patrón Fiat" caption="El Patrón Fiat" %}
+
+La continuación del Bitcoin Standard analiza el dinero fiat y su transición desde el patrón oro al actual. Saifedean Ammous hace una analogía entre el bitcoin y el dinero fiat estudiando nuestro sistema financiero desde el foco de la criptomoneda.
+
+En otras palabras, considerando el dinero fiat una altcoin más, se estudia su proceso de minado, inflación y seguridad.
+
+Este libro debería ser leido en continuación a *el Patrón Bitcoin*, y resulta algo más denso de leer que su predecesor.
 
 ## Mejor Libro técnico de iniciación a Bitcoin de {{ 'now' | date: "%Y" }}
 
@@ -109,6 +126,16 @@ Los temas que se tratan son:
 
 ### <a rel="nofollow" href="https://amzn.to/3yI2Stk" target="_blank">Bitcoin Billionaires by Ben Mezrich</a>
 
+{% include image_caption.html imageurl="/images/posts/202205/billonaires.webp" link="https://amzn.to/3yI2Stk" title="Billonarios de Bitcoin" caption="Billonarios de Bitcoin" popup=true class="small-size" %}
+
 Billonarios de Bitcoin cuenta la historia de los gemelos Winklevoss después de que se cerrara el caso de Facebook con Mark Zuckerberg. El libro cuenta como los dos hermanos intentaron sin éxito varios negocios hasta descubrir Bitcoin que los convirtió en los primeros billonarios gracias a esta moneda.
 
-{% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" popup=true %}
+
+### <a rel="nofollow" href="https://amzn.to/3MNBSNd">El Individuo Soberano</a>
+
+{% include image_caption.html imageurl="/images/posts/202205/sovereign-individual.webp" link="https://amzn.to/3MNBSNd" title="The Sovereign Individual" caption="The Sovereign Individual" popup=true class="small-size" %}
+
+Escrito en 1999 antes de la popularización de Internet, sus autroes profetizan un futuro digital que haría del mundo un lugar más competitivo, desigual e inestable. Los autores argumentan que internten cambian la dinámica que los gobiernos tenían entonces y que estos tendrán que adaptarse para sobrevivir.
+
+
+{% include image_caption.html imageurl="/images/posts/202205/saif.webp" title="Saifedean Ammous" caption="Saifedean Ammous" %}
