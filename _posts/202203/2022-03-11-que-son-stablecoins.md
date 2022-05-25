@@ -16,7 +16,7 @@ lang: es
 
 La principal ventaja que tiene una stablecoin es que resuelven en cierta manera la volatilidad que caracteriza a otras criptomonedas, que es una de las características que complican su uso cotidiano.
 
-Por ejemplo, Tether (USDT) tiene un valor equivalente a $1.
+Por ejemplo, Tether `USDT` tiene un valor equivalente a $1.
 
 Además las stablecoins construyen un puente entre el mundo de las criptomonedas y el dinero fiat facilitando transacciones, intercambios y resguardarse de la volatilidad sin las implicaciones que tiene cambiar a dinero fiat.
 
@@ -30,7 +30,7 @@ A día de hoy las stablecoins han alcanzado una capitalización superior a $150B
 
 ## Tipos de Stablecoins
 
-Cómo el ya mencionado USDT, las stablecoins mantienen su valor gracias a que la empresa que los facilita utiliza diferentes estrategias para mantener su precio estable con la divisa que la criptomoneda refleja.
+Cómo el ya mencionado `USDT`, las stablecoins mantienen su valor gracias a que la empresa que los facilita utiliza diferentes estrategias para mantener su precio estable con la divisa que la criptomoneda refleja.
 
 Sirven principalmente para facilitar intercambios en los exchanges de crypto, puesto que tienen la agilidad de transacción de una criptomoneda y no requiere pasar por un banco tradicional.
 
@@ -38,9 +38,9 @@ Además, su baja volatilidad permite ser aceptada con facilidad como medio de pa
 
 Existen distintas de colateralizar una stablecoin basada en fiat:
 
-- `Con reserva 1:1` : Por ejemplo, para USDT existe $1 por cada USDT almacenados en algún sitio por la empresa Tether. También pueden estar colateralizadas con referencia un producto, como el Petro (PTR) que representa el valor un barril de petróleo.
+- `Con reserva 1:1` : Por ejemplo, para `USDT` existe $1 por cada `USDT` almacenados en algún sitio por la empresa Tether. También pueden estar colateralizadas con referencia un producto, como el Petro (PTR) que representa el valor un barril de petróleo.
 - `Con Divisa Dual`: En lugar de reflejar la moneda con relación 1:1 se hace con una moneda principal y con una divisa secundaria para absorber la volatilidad. Por ejemplo el ecosistema `JUST` mantiene su equivalencia al dólar mediante las criptomonedas `USDJ` y `JST`.
-- `Monedas Algorítmicas`: Mediante mecanismos algorítmicos la inflación de la stablecoin se ajusta para responder a las fluctuaciones de precio.
+- `Monedas Algorítmicas`: Mediante mecanismos algorítmicos la inflación de la stablecoin se ajusta para responder a las fluctuaciones de precio. Por ejemplo, `UST` utilizaba un smart contract donde cuando su preció caía por debajo o por encima de $1 se podía quemar su criptomoneda hermana `LUNA` para vender o comprar `UST` y así rectificar la varianza. Aún así este mecanismo no le impidió caer a $0 en Mayo de 2021 cuando la gente perdió la confianza en ambas monedas.
 - `Préstamos apalancados`: Este tipo de stablecoin está respaldada por un sistema sobre colateralizado. Por ejemplo, `DAI` está respaldada por PETH y su valor está correlacionado con Ethereum. Dado que el colateral es más volátil en términos de precio, los usuarios deben tener más de $1.5 en PETH para pedir prestado $1 en DAI. Si el precio del colateral cae bruscamente, la posición de la deuda se liquidará y el monto restante del colateral se devolverá al usuario. 
 
 

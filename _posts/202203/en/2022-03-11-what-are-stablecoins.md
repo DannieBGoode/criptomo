@@ -39,7 +39,7 @@ There are different ways to collateralize a fiat-based stablecoin:
 
 - `With reserve 1:1` : For example, for USDT there is $1 for each USDT stored somewhere by the Tether company. They can also be collateralized with reference to a product, such as the Petro (PTR) which represents the value of a barrel of oil.
 - `With Dual Currency`: Instead of reflecting the currency with a 1:1 ratio, it is done with a main currency and a secondary currency to absorb volatility. For example, the `JUST` ecosystem maintains its equivalence to the dollar through the cryptocurrencies `USDJ` and `JST`.
-- `Algorithmic Coins`: Using algorithmic mechanisms, the inflation of the stablecoin is adjusted to respond to price fluctuations.
+- `Algorithmic Coins`: Using algorithmic mechanisms, the inflation of the stablecoin is adjusted to respond to price fluctuations. For example, `UST` used a smart contract where when its price fell below or above $1, its sister cryptocurrency `LUNA` could be exchanged for `UST` and thus rectify the variance. Still this mechanism did not prevent it from falling to $0 in May 2021 when people lost confidence in both currencies.
 - `Leveraged Loans`: This type of stablecoin is backed by an over-collateralized system. For example, `DAI` is backed by PETH and its value is correlated to Ethereum. Since collateral is more volatile in terms of price, users must have more than $1.5 in PETH to borrow $1 in DAI. If the collateral price falls sharply, the debt position will be liquidated and the remaining collateral amount will be returned to the user.
 
 
