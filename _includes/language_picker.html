@@ -1,0 +1,41 @@
+<ul id="language-picker">
+
+    {%  assign languages = site.data.languages %}
+    {% for language in languages %}
+
+        {% if lang == language.name %}
+            {% assign current = 'nav-current' %}
+        {% else %}
+            {% assign current = '' %}
+        {% endif %}
+
+        {% if page.ref %}
+            {% if page.layout == 'post' %}
+                {% assign posts=site.posts | where:"ref", page.ref | where_exp: "item", "item.ref" | sort: 'lang' %}
+            {% else %}
+                {% assign posts=site.pages | where:"ref", page.ref | where_exp: "item", "item.ref" | sort: 'lang' %}
+            {% endif %}
+
+            {% for post in posts %}
+
+                {% assign url = language.url %} 
+
+                {% if post.lang == language.name %}
+                    {% assign url = post.url %}
+                    <li class="{{ current }}">
+                        <a class="{{ current }}" href="{{ post.url }}">
+                            <small>{{ language.name | upcase }}</small>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            <li class="{{ current }}">
+                <a class="{{ current }}" href="{{ language.url }}">
+                    <small>{{ language.name | upcase }}</small>
+                </a>
+            </li>
+        {% endif %}
+
+    {% endfor %}
+</ul> 

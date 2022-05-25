@@ -10,6 +10,7 @@ banner_image: 202011/banking.webp
 rating: 5
 TotalVotes: 16
 lang: en
+ref: banking-ponzi
 ---
 
 Is the current banking system a pyramid scam? Let's analyze this statement well in order to have an answer and how Bitcoin proposes to solve this atrocity.

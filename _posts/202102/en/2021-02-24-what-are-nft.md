@@ -10,6 +10,7 @@ banner_image: 202102/erc721.webp
 rating: '5'
 TotalVotes: '17'
 lang: en
+ref: what-nfts
 ---
 
 ERC721 tokens also called NFTs or Non-Fungible-Tokens are non fungible tokens that represent a unique, indivisible, indestructible, verifiable and irreplaceable real-life or digital object.

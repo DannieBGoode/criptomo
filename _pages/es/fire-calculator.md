@@ -11,6 +11,7 @@ totalVotes: 15
 comments: false
 sitemap: true
 lang: es
+ref: fire-calculator
 ---
 
 <small>

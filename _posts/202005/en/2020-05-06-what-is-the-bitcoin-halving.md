@@ -9,6 +9,7 @@ banner_image: 202005/bitcoin-halving.webp
 rating: 5
 totalVotes: 6
 lang: en
+ref: what-bitcoin-halving
 ---
 
 Initially, in 2009 when Bitcoin was born, a mine block reward of 50BTC was distributed, that is, every 10 minutes 50BTC were generated out of nowhere assigned to the winning miner. According to the Bitcoin protocol, every approximately four years the reward will drop by half.

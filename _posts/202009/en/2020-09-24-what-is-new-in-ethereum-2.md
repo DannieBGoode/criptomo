@@ -10,6 +10,7 @@ banner_image: 202009/eth2.webp
 rating: 5
 TotalVotes: 11
 lang: en
+ref: new-eth2
 ---
 
 Ethereum 2.0 is a complete revision of the current Ethereum (1.0) created by the same creators with the intention of replacing Ethereum 1.0 entirely.

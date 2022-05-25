@@ -14,6 +14,7 @@ redirect_from:
 - "/investment"
 - "/investment/"
 popular: true
+ref: invest
 ---
 
 <div style="margin-bottom: 10px">

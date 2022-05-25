@@ -10,6 +10,7 @@ rating: 4.5
 totalVotes: 11
 lang: en
 popular: true
+ref: two-blocks
 ---
 
 What happens if two miners mine the same block at the same time? Which of the two blocks will be accepted? Who gets the block reward?

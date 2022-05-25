@@ -9,6 +9,7 @@ banner_image: 202102/income.webp
 rating: 4.8
 TotalVotes: 19
 lang: en
+ref: passive-income
 ---
 
 How can we make money while we sleep?

@@ -9,6 +9,7 @@ banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11
 lang: es
+ref: two-blocks
 ---
 
 ¿ Qué ocurre si dos mineros minan el mismo bloque al mismo tiempo ? ¿ Cual de los dos bloques será aceptado antes? ¿ Quién se lleva la recompensa de bloque?

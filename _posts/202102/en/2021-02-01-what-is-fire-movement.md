@@ -9,6 +9,7 @@ banner_image: 202102/fire2.webp
 rating: 5
 TotalVotes: 7
 lang: en
+ref: what-fire
 ---
 
 There is no law that requires people to work until they are 65+ years old, much less in a job that we do not like. That is why there is a wave of young people joining the F.I.R.E. (Financial Independence Retire Early) movement.

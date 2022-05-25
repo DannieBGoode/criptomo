@@ -12,6 +12,7 @@ comments: false
 sitemap: true
 lang: en
 popular: true
+ref: fire-calculator
 ---
 
 <small>

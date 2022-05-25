@@ -9,6 +9,7 @@ banner_image: 202101/mnemonic.webp
 rating: 5
 TotalVotes: 10
 lang: en
+ref: what-mnemonic
 ---
 
 To understand the concept of a mnemonic phrase or seed, we must first understand the difference between a custodial and a non-custodial wallet.

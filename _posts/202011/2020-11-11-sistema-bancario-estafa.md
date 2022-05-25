@@ -10,6 +10,7 @@ banner_image: 202011/banking.webp
 rating: 5
 totalVotes: 16
 lang: es
+ref: banking-ponzi
 ---
 
 ¿ Es el actual sistema bancario una estafa piramidal? Analicemos bien esta afirmación para poder tener una respuesta y cómo Bitcoin plantea resolver esta atrocidad.

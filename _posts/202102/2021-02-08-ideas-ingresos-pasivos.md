@@ -9,6 +9,7 @@ banner_image: 202102/income.webp
 rating: 5
 totalVotes: 11
 lang: es
+ref: passive-income
 ---
 
 ¿ Cómo podemos hacer dinero mientras dormimos?
