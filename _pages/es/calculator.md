@@ -135,7 +135,7 @@ lang: es
 
     {% if site.ads.stormgain %}
     <div class="stormgain">
-        <h4 style="font-size:30px"><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invierte <span class="result-tokentype"></span> Ahora!</a></h4>
+        <h4 style="font-size:30px"><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invierte en <span class="result-tokentype"></span> Ahora!</a></h4>
         <div>
             <a href="https://go.stormgain.app/visit/?bta=112218&nci=12429" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608832"  width="492" height="328"></a>
 
@@ -179,8 +179,7 @@ lang: es
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h4>Artículos Recomendados</h4>
-        <div class="recommended-articles">
-        </div>
+        <div class="recommended-articles"></div>
     </div>
 </div>
 

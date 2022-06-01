@@ -14,7 +14,7 @@ let articles = [
       "lastmod": "2017-12-11T00:00:00+00:00",
       "title": "Cómo comprar Bitcoin BTC (2021)",
       "description": "Guía para principiantes de cómo comprar Bitcoin en 2021. Actualizado.",
-      "img": "https://criptomo.com/comprar-bitcoin-2021/",
+      "img": "https://criptomo.com/images/posts/201909/bitcoin-2019.webp",
       "tags": "btc",
       "lang": "es"
    },
@@ -122,7 +122,7 @@ let articles = [
       "lastmod": "2018-04-05T00:00:00+00:00",
       "title": "Qué son Memecoins",
       "description": "Guía y explicación de qué son los memecoins. Desde Dogecoin hasta Shiba Inu.",
-      "img": "https://criptomo.com/images/posts/memecoins-cover.webp",
+      "img": "https://criptomo.com/images/posts/202204/memecoins-cover.webp",
       "tags": "doge, shiba",
       "lang": "es"
    },
@@ -131,7 +131,7 @@ let articles = [
       "lastmod": "2018-04-05T00:00:00+00:00",
       "title": "What are Memecoins",
       "description": "Guide and explanation of what memecoins are. From Dogecoin to Shiba Inu.",
-      "img": "https://criptomo.com/images/posts/memecoins-cover.webp",
+      "img": "https://criptomo.com/images/posts/202204/memecoins-cover.webp",
       "tags": "doge, shiba",
       "lang": "en"
    }
@@ -145,7 +145,7 @@ function recommendArticles(coin) {
         return (obj.tags.includes(coin.toLowerCase()) && obj.lang === document.documentElement.lang);
 	});
    results.forEach(function(result) {
-      article += '<div class="recommended-article"><a href="' + result.url + '">' + result.title + '</a></div>';
+      article += '<a href="' + result.url + '" class="recommended-post"><div class="recommended-post-image" style="background-image: url(' + result.img + ')"></div><p class="post-title">' + result.title + '</p></a>';
     });
     articleSpace.innerHTML = article;
     if (article) {
