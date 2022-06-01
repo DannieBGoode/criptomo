@@ -19,7 +19,7 @@ For example, Tether (USDT) has a value equivalent to $1.
 
 In addition, stablecoins build a bridge between the world of cryptocurrencies and fiat money, facilitating transactions, exchanges and protecting themselves from volatility without the indications that changing to fiat money has.
 
-#### Benefits of stablecoins:
+## <span class="highlight-title">Benefits</span> of stablecoins:
 - Lower volatility.
 - Lower transaction costs.
 - A haven to store money in the world of cryptocurrencies might be required.
@@ -27,7 +27,7 @@ In addition, stablecoins build a bridge between the world of cryptocurrencies an
 
 To date, stablecoins have achieved a capitalization of more than $150B, or in other words, they monopolize more than half of the crypto market, making them a very valuable asset in the DeFi ecosystem.
 
-## Types of Stablecoins
+## <span class="highlight-title">Types</span> of Stablecoins
 
 Like the aforementioned USDT, stablecoins maintain their value thanks to the fact that the company that facilitates them uses different strategies to keep their price stable with the currency that the cryptocurrency reflects.
 
@@ -43,6 +43,6 @@ There are different ways to collateralize a fiat-based stablecoin:
 - `Leveraged Loans`: This type of stablecoin is backed by an over-collateralized system. For example, `DAI` is backed by PETH and its value is correlated to Ethereum. Since collateral is more volatile in terms of price, users must have more than $1.5 in PETH to borrow $1 in DAI. If the collateral price falls sharply, the debt position will be liquidated and the remaining collateral amount will be returned to the user.
 
 
-## Are stablecoins safe?
+## Are stablecoins <span class="highlight-title">safe</span>?
 
 A common question is whether stablecoins are less secure than traditional regulated banks or investment funds. As in all cryptocurrencies, it is important that the user do their own research about the company that offers their financial services, since if a stablecoin proves not solvent or its users lose confidence in it, its price could fall beyond the value to which it is anchored. 

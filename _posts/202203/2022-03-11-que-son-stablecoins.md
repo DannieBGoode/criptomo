@@ -20,7 +20,7 @@ Por ejemplo, Tether `USDT` tiene un valor equivalente a $1.
 
 Además las stablecoins construyen un puente entre el mundo de las criptomonedas y el dinero fiat facilitando transacciones, intercambios y resguardarse de la volatilidad sin las implicaciones que tiene cambiar a dinero fiat.
 
-#### Beneficios de las stablecoins:
+## <span class="highlight-title">Beneficios</span> de las stablecoins:
 - Menor volatilidad.
 - Menores costes de transacción.
 - Podría considerarse un refugio donde almacenar dinero en el mundo de las criptomonedas.
@@ -28,7 +28,7 @@ Además las stablecoins construyen un puente entre el mundo de las criptomonedas
 
 A día de hoy las stablecoins han alcanzado una capitalización superior a $150B, o en otras palabras, acaparan más de la mitad del mercado cripto convirtiéndolas en un activo muy valioso en el ecosistema DeFi.
 
-## Tipos de Stablecoins
+## <span class="highlight-title">Tipos</span> de Stablecoins
 
 Cómo el ya mencionado `USDT`, las stablecoins mantienen su valor gracias a que la empresa que los facilita utiliza diferentes estrategias para mantener su precio estable con la divisa que la criptomoneda refleja.
 
@@ -44,7 +44,7 @@ Existen distintas de colateralizar una stablecoin basada en fiat:
 - `Préstamos apalancados`: Este tipo de stablecoin está respaldada por un sistema sobre colateralizado. Por ejemplo, `DAI` está respaldada por PETH y su valor está correlacionado con Ethereum. Dado que el colateral es más volátil en términos de precio, los usuarios deben tener más de $1.5 en PETH para pedir prestado $1 en DAI. Si el precio del colateral cae bruscamente, la posición de la deuda se liquidará y el monto restante del colateral se devolverá al usuario. 
 
 
-## ¿Son seguras las stablecoins?
+## ¿Son <span class="highlight-title">seguras</span> las stablecoins?
 
 Una duda habitual es sobre si las stablecoins son menos seguras que los bancos tradicionales regulados o los fondos de inversión. Como en todas las criptomonedas es importante que el usuario haga su propia investigación acerca de la empresa que ofrece sus servicios financieros, puesto que si una stablecoin se demostrara no solvente o sus usuarios perdieran la confianza en ella, su precio podría caer más allá del valor al que está anclado.
 
