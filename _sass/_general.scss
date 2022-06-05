@@ -37,9 +37,11 @@ body {
 a {
     color: $picton-blue;
     text-decoration: underline;
-    -webkit-transition: color 0.3s;
-    -moz-transition:    color 0.3s;
-    transition:         color 0.3s;
+     @media (min-width: $small-screen-breakpoint) {
+        -webkit-transition: color 0.3s;
+        -moz-transition:    color 0.3s;
+        transition:         color 0.3s;
+    }
     &:hover {
         color: lighten( $picton-blue, 11% );
     }
@@ -523,7 +525,9 @@ green     #859900  operators, other keywords
 }
 .fill-horizontal:hover {
     background-color: $picton-blue;
-    transition: background-color 0.25s ease;
+    @media (min-width: $small-screen-breakpoint) {
+        transition: background-color 0.25s ease;
+    }
     
 }
 .fill-horizontal:after {
@@ -536,7 +540,9 @@ green     #859900  operators, other keywords
     height: 100%;
     transform: scaleY(0);
     z-index: -1;
-    transition: transform 0.25s ease;
+    @media (min-width: $small-screen-breakpoint) {
+        transition: transform 0.25s ease;
+    }
 }
 .fill-horizontal:hover::after {
   transform: scaleY(1);
