@@ -100,6 +100,24 @@ let articles = [
       "lang": "es"
    },
    {
+      "url": "https://criptomo.com/novedades-ethereum-2/",
+      "lastmod": "2017-12-26T00:00:00+00:00",
+      "title": "Qué novedades tiene Ethereum 2.0",
+      "description": "Qué novedades trae Ethereum 2.0, Proof of Stake y otras novedades.",
+      "img": "https://criptomo.com/images/posts/202009/eth2.webp",
+      "tags": "eth",
+      "lang": "es"
+   },,
+   {
+      "url": "https://criptomo.com/what-is-new-in-ethereum-2/",
+      "lastmod": "2017-12-26T00:00:00+00:00",
+      "title": "What is new in Ethereum 2.0",
+      "description": "What’s new in Ethereum 2.0. Proof of Stake and other features.",
+      "img": "https://criptomo.com/images/posts/202009/eth2.webp",
+      "tags": "eth",
+      "lang": "en"
+   },
+   {
       "url": "https://criptomo.com/que-es-iota/",
       "lastmod": "2017-12-18T00:00:00+00:00",
       "title": "Qué es IOTA",
@@ -134,6 +152,24 @@ let articles = [
       "img": "https://criptomo.com/images/posts/202204/memecoins-cover.webp",
       "tags": "doge, shiba",
       "lang": "en"
+   },
+   {
+      "url": "https://criptomo.com/fungibilidad/",
+      "lastmod": "2018-10-25T00:00:00+00:00",
+      "title": "Qué es la Fungibilidad",
+      "description": "Guía de qué es la Fungibilidad en las criptomonedas",
+      "img": "https://criptomo.com/images/posts/201809/monero.jpg",
+      "tags": "xmr",
+      "lang": "es"
+   },
+   {
+      "url": "https://criptomo.com/que-es-monero/",
+      "lastmod": "2018-04-05T00:00:00+00:00",
+      "title": "Qué es Monero",
+      "description": "Guía de qué es Monero",
+      "img": "https://criptomo.com/images/posts/201801/monero.png",
+      "tags": "xmr",
+      "lang": "es"
    }
 ]
 function recommendArticles(coin) {
