@@ -1,0 +1,20 @@
+<a href="{{ include.href }}" target="_blank" class="thumbnail">
+  {% if include.badge %}
+    <div class="badge">{{ include.badge }}</div>
+  {% endif %}
+  <div class="thumbnail__container">
+    <div class="thumbnail__img" style="background-image: url({{ include.imageurl }}); background-color:{{ include.backgroundColor }};">
+      <div class="thumbnail__title">{{ include.title }}</div>
+    </div>
+    {% if include.caption %}
+      <div class="thumbnail__content extra">
+        <div class="thumbnail__caption"> {{ include.caption }}</div>
+      </div>
+    {% endif %}
+    <div class="thumbnail__content">
+      <div class="thumbnail__caption">
+        <img id="Ledger-Nano-Xlogo" class=" ls-is-cached lazyloaded" data-src="https://bitrawr.s3.eu-central-1.amazonaws.com/assets/ledger-logo.svg" alt="Ledger Nano X" src="{{ include.imagecta }}">
+      </div>
+    </div>
+  </div>
+</a>

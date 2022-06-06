@@ -24,7 +24,7 @@ Esto es lo mínimo que deberíais conocer antes de empezar a invertir en Bitcoin
 - Revisemos [qué es Bitcoin](/que-es-bitcoin/), la primera criptomoneda.
 - Qué es una [frase mnemonica](/que-es-frase-mnemonica/)
 - Aprende a tener contraseñas seguras usando [gestores de contraseñas](/mejores-gestores-contrasenas/).
-- No pierdas todos tus fondos, [guía de cómo deberías guardar tus criptomonedas](/como-guardar-criptomonedas/).
+- No pierdas todos tus fondos, [guía de cómo deberías guardar tus criptomonedas](/wallets-criptomonedas/).
 - Deseas empezar a invertir, aprende a [**comprar tus primeras criptomonedas**](/comprar-bitcoin-2020/).
 - Cómo poder vivir de criptomonedas sin perder demasiada rentabilidad con [tarjetas de crédito cripto](/tarjeta-debito-criptomonedas/), comparativa de las mejores tarjetas.
 
