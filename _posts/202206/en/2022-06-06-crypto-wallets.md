@@ -91,7 +91,7 @@ Companies like <a rel="nofollow" href="https://amzn.to/3PZwXLo">Cryptosteel</a> 
 
 ### <span class="highlight-title">Hardware</span> Wallet
 
-A hardware wallet is a physical device similar to a USB stick that is responsible for storing private keys without ever connecting to the internet. That is why this type of wallet is usually characterized as *Cold Storage*, or cold storage.
+A hardware wallet is a physical device similar to a USB stick that is responsible for storing private keys without ever connecting to the internet. That is why this type of wallet is usually characterized as *Cold Storage*.
 
 A hardware wallet allows the user to continue sending and receiving operations without ever putting the funds at risk.
 
