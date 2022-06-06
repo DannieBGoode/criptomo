@@ -62,7 +62,7 @@ It is a good practice to never store the seed on a device connected to the Inter
 
 The seed should be stored in a safe place, protected from fire, water or any other physical damage, so paper is not recommended either.
 
-{% include image_caption.html imageurl="https://99bitcoins.com/wp-content/uploads/2016/05/crypto-steel.jpg" title="The seed is stored in cash and never enters the internet" caption= "The seed is saved in cash and never enters the internet" popup=true class="small-size" %}
+{% include image_caption.html imageurl="https://99bitcoins.com/wp-content/uploads/2016/05/crypto-steel.jpg" title="The seed is stored in cash and never enters the internet" caption= "The seed is saved in metal and never enters the internet" popup=true class="small-size" %}
 
 Companies like <a rel="nofollow" href="https://amzn.to/3PZwXLo">Cryptosteel</a> or <a rel="nofollow" href="https://amzn.to/3m2O40T"> Billfodl</a> offer indestructible metal plates where the user can write their seed and protect it from external factors, although it is impossible to store the plate later in a place where it cannot be stolen.
 
@@ -123,7 +123,7 @@ The most widespread series of hardware wallets are the **Ledger Nano** and we ca
 		href="https://shop.ledger.com?r=7454342c96fc"
 		imageurl="/images/posts/202206/nano-sp.webp"
 		backgroundColor="#68A7AD"
-		caption="Recomendado"
+		caption="Recommended"
 		imagecta="/images/pages/ledger-logo.svg"
 		badge="$79"
 	%}
@@ -167,3 +167,24 @@ The user can have cryptocurrencies in Coinbase, but they only have access to the
 ### <span class="highlight-title">Non-Custody</span> Wallets
 
 Non-custodial wallets do share the seed with the user. They can be mobile or Windows / OSX applications. The problem with these wallets is that they are connected to the internet with the risks that this entails.
+
+<div class="product-grid">
+	{% include thumbnail.html 
+		title="Metamask"
+		href="https://metamask.io/"
+		imageurl="https://miro.medium.com/fit/c/294/294/1*ez2eqUWghaTtCIGyF4upEA.png"
+		backgroundColor="#FFBCBC"
+		imagecta="https://cdn.freebiesupply.com/logos/large/2x/metamask-logo-png-transparent.png"
+		badge="Free"
+	%}
+
+	{% include thumbnail.html 
+		title="Exodus Wallet "
+		href="https://www.exodus.com/"
+		imageurl="https://www.yadawallets.com/wp-content/uploads/2020/10/exodus-wallet-logo.png"
+		backgroundColor="#F3F0D7"
+		imagecta="https://www.investopedia.com/thmb/kPDAGMSv04PgoZP2Vj5YAm2aA_g=/2000x410/filters:no_upscale():max_bytes(150000):strip_icc()/Exodus_Logo-094c6a5bbda24cb29c2f930dd254069f.jpeg"
+		badge="Free"
+	%}
+
+</div>
