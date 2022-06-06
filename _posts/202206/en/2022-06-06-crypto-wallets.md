@@ -24,7 +24,7 @@ There are four types of wallets and the question about which one is better depen
 
 ## What is a <span class="highlight-title">private key</span> ?
 
-> If you do not control the private key of your wallet, they are not your cryptocurrencies. <cite>― Andreas Antonopoulos</cite>
+> Not your keys, not your coins. <cite>― Andreas Antonopoulos</cite>
 
 Your cryptocurrency wallet is a combination of public keys and private keys. The public key is considered the address that a user can share so that others can send funds, and the private key is the password to access that wallet and be able to carry out operations within it.
 
