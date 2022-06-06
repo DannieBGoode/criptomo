@@ -102,7 +102,7 @@ Hardware wallets have physical buttons so that the user always confirms transact
 When initializing a hardware wallet for the first time the user will be given two passwords:
 
 - The seed, which will be randomly generated at the moment, so that the user can write it down and keep it in a safe place.
--A PIN to be chosen by the user, which he will use every time he wants to operate with the hardware wallet.
+- A PIN to be chosen by the user, which he will use every time he wants to operate with the hardware wallet.
 
 Just as the seed would only be used in extreme cases of loss or theft, the PIN will be used constantly every time you want to access the wallet.
 
