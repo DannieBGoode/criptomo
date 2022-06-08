@@ -50,5 +50,35 @@
   "share": {
     "en": "Share",
     "es": "Compartir"
+  },
+  "cta": {
+    "invest": {
+      "en": "Invest in",
+      "es": "Invierte en",
+      "de": "Investieren Sie in",
+      "pt": "Invista em",
+      "fr": "Investir dans"
+    },
+    "title": {
+      "en": "Buy cryptocurrency with credit card",
+      "es": "Compra criptomonedas con tarjeta de crédito",
+      "de": "Kaufen Sie Kryptowährung mit Kreditkarte",
+      "pt": "Compre criptomoeda com cartão de crédito",
+      "fr": "Acheter de la crypto-monnaie avec une carte de crédit"
+    },
+    "body": {
+      "en": "Sign up on Stormgain to easily purchase, invest and manage multiple cryptocurrencies.",
+      "es": "Registrate en Stormgain para tener una forma fácil de administrar y comprar fondos en múltiples criptomonedas.",
+      "de": "Melden Sie sich bei Stormgain an, um einfach mehrere Kryptowährungen zu kaufen, zu investieren und zu verwalten.",
+      "pt": "Inscreva-se no Stormgain para comprar, investir e gerenciar facilmente várias criptomoedas.",
+      "fr": "Inscrivez-vous sur Stormgain pour acheter, investir et gérer facilement plusieurs crypto-monnaies."
+    },
+    "cta": {
+      "en": "Start today",
+      "es": "Empieza ya",
+      "de": "Heute anfangen",
+      "pt": "Começa hoje",
+      "fr": "Commencez aujourd'hui"
+    }
   }
 }

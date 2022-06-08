@@ -1,0 +1,22 @@
+{% assign translations-cta = site.data.translations.cta %}
+
+{% if page.lang %}
+    {% assign lang = page.lang %}
+{% else %}
+    {% assign lang = site.locale | slice: 0,2 | default: "en" %}
+{% endif %}
+
+<a href="{{ include.href }}" target="_blank" style="text-decoration: none;">
+  <div class="features__item features__wallets">
+    <div class="features__headline_container">
+      <div class="features__headline">
+        {{ site.data.translations.cta.invest[lang] }} <span class="result-tokentype">BTC</span>
+      </div>
+      <span class="icon-credit-card-alt stormgain-card"></span>
+    </div>
+    <div class="features__title">{{ site.data.translations.cta.title[lang] }}</div>
+
+    <p class="features__text">{{ site.data.translations.cta.body[lang] }}</p>
+    <p class="features__link">{{ site.data.translations.cta.cta[lang] }} &gt;</p> 
+  </div>
+</a>

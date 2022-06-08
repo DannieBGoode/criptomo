@@ -1,0 +1,87 @@
+.stormgain {
+  display: none;
+
+  .features__wallets {
+    background: #303d5f;
+    background-color: #303D5F;
+    background-image: url(/images/pages/wallets-bg.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 30px;
+    .features__headline_container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .features__headline {
+      display: inline-block;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 2rem;
+      padding: 1px 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-transform: uppercase;
+      letter-spacing: .09375rem;
+      font-family: Montserrat,sans-serif;
+      color:  white;
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+    }
+    .features__title {
+      font-weight: 700;
+      font-family: Montserrat,sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      margin: 20px 0 6px;
+      text-decoration: none;
+      color:  white;
+    }
+    .features__text {
+      font-size: 1rem;
+      line-height: 1.375rem;
+      margin: 0;
+      text-decoration: none;
+      color:  white;
+    }
+    .features__link {
+      display: block;
+      font-size: .875rem;
+      font-weight: 500;
+      line-height: 1.375rem;
+      margin-top: 24px;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      transition: color .2s;
+      text-decoration: none;
+      color: white;
+    }
+    .stormgain-card {
+      transition: font-size 0.3s;
+      color: white;
+      padding-left: 20px;
+    }
+  }
+  .features__item {
+    border-radius: 12px;
+    padding: 30px 28px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    &:hover {
+      top: -1px;
+      .features__headline {
+        border-color: $stormgain;
+        color: $stormgain;
+      }
+      .features__link {
+        color: $stormgain;
+      }
+      .stormgain-card {
+        color: $stormgain;
+        font-size: 150%;
+      }
+    }
+  }
+}
+

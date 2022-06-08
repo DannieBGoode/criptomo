@@ -133,44 +133,13 @@ popular: true
         </p>
     </div>
 
-    {% include ads_calculator_banner.html %}
-
     {% if site.ads.stormgain %}
-    <div class="stormgain">
-        <h4 style="font-size:30px"><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invest <span class="result-tokentype"></span> Now!</a></h4>
-        <div>
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12550" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608745"  width="492" height="328"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12542" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608766"  width="300" height="250"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11892" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608767"  width="492" height="328"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11841" target="_blank"><img loading="lazy" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608768" border="0"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11742" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608769"  width="970" height="250"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11739" target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608771"  width="336" height="280"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10075" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608777"  width="600" height="600"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=8907" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608778"  width="480" height="320"></a>
+        <div class="stormgain">
+            {% include cta.html href="https://go.stormgain.app/visit/?bta=112218&nci=5380" %}
         </div>
-        <p class="bonus">
-            And also enjoy:
-            <ul>
-                <li> Cloud Crypto Mining for beginners</li>
-                <li> Zero Trading Commissions </li>
-                <li> Cripto Exchange</li>
-                <li> Up To 300× Leverage </li>
-                <li> 25 USDT per $100 deposit</li>
-                <li> Earn interest on your deposits (up to 12%)</li>
-                <li> Crypto Wallet</li>
-                <li> Demo Account with 50K USDT</li>
-            </ul>
-        </p>
-        <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invest in crypto today</a>
-    </div>
     {% endif %}
+
+    {% include ads_calculator_banner.html %}
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h4>Recommended Articles</h4>

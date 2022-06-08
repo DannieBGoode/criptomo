@@ -129,53 +129,15 @@ lang: es
                 <div>Prueba con otra fecha, por ejemplo <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
         </p>
-    </div>
-
-    {% include ads_calculator_banner.html %}
+    </div>  
 
     {% if site.ads.stormgain %}
-    <div class="stormgain">
-        <h4 style="font-size:30px"><a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invierte en <span class="result-tokentype"></span> Ahora!</a></h4>
-        <div>
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12429" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608832"  width="492" height="328"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=12424" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608833"  width="492" height="328"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11231" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608835"  width="1200" height="630"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11147" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608836"  width="336" height="280"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11146" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608837"  width="320" height="100"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=11143" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608838"  width="300" height="250"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10110" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608840"  width="256" height="256"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=10116" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608841"  width="492" height="328"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6602" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608842"  width="300" height="250"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6193" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608843"  width="300" height="250"></a>
-
-            <a href="https://go.stormgain.app/visit/?bta=112218&nci=6155" Target="_Top"><img loading="lazy" border="0" src="https://stormgain.ck-cdn.com/tn/serve/?cid=608844"  width="768" height="1024"></a>
+        <div class="stormgain">
+            {% include cta.html href="https://go.stormgain.app/visit/?bta=112218&nci=5380" %}
         </div>
-        <p class="bonus">
-            Incluye:
-            <ul>
-                <li> Cripto Minero en la nube para principiantes y expertos</li>
-                <li> Bonos por depósitos (25 usdt por depósitos desde $100)</li>
-                <li> Intereses sobre depósitos (12% del monto depositado)</li>
-                <li> Cartera criptográfica</li>
-                <li> Cripto Exchange</li>
-                <li> Trading de pares de divisas con multiplicador hasta x300</li>
-                <li> Cuenta Demo de 50K USDT</li>
-                <li> Plataforma Educativa</li>
-                <li> Patrocinador oficial de la Lazio Fútbol Club</li>
-            </ul>
-        </p>
-        <a rel="nofollow" href="https://go.stormgain.app/visit/?bta=112218&nci=5380">Invierte en crypto</a>
-    </div>
     {% endif %}
+
+    {% include ads_calculator_banner.html %}
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h4>Artículos Recomendados</h4>
