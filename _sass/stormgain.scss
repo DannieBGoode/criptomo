@@ -1,7 +1,7 @@
 .stormgain {
   display: none;
   margin-bottom: 20px;
-  
+
   .features__wallets {
     background: #303d5f;
     background-color: #303D5F;
@@ -67,10 +67,11 @@
     border-radius: 12px;
     padding: 30px 28px;
     overflow: hidden;
-    position: relative;
-    top: 0;
+    transition: transform .2s,box-shadow .2s;
     &:hover {
-      top: -1px;
+      transform: translateY(-2px);
+      box-shadow: 0 3px 14px 3px rgba(0, 0, 0, 0.40);
+      
       .features__headline {
         border-color: $stormgain;
         color: $stormgain;
