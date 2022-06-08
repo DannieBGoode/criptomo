@@ -20,7 +20,7 @@ A wallet can be a physical device (hardware) or a computer program that is equiv
 
 A common misconception is that wallets do not store the user's cryptocurrencies, but the private keys that allow the user to access them. **Cryptocurrencies like Bitcoin only exist on the Blockchain and cannot be withdrawn from there**.
 
-There are four types of wallets and the question about which one is better depends exclusively on the use that you want to give it.
+There are different types of wallets and the question about which one is better depends exclusively on the use that you want to give it. But first lets review some basic concepts.
 
 ## What is a <span class="highlight-title">private key</span> ?
 
@@ -89,7 +89,7 @@ Companies like <a rel="nofollow" href="https://amzn.to/3PZwXLo">Cryptosteel</a> 
 
 ## <span class="highlight-title">Types</span> of wallets
 
-### <span class="highlight-title">Hardware</span> Wallet
+### <span class="highlight-title">Hardware</span> wallets
 
 A hardware wallet is a physical device similar to a USB stick that is responsible for storing private keys without ever connecting to the internet. That is why this type of wallet is usually characterized as *Cold Storage*.
 
@@ -148,7 +148,7 @@ If the thief instead got the seed, he wouldn't even need the original hardware w
 
 In general, a hardware wallet is the best way to keep funds safe and to be able to operate with them occasionally without headaches.
 
-## <span class="highlight-title">Hot</span> wallet
+## <span class="highlight-title">Hot</span> wallets
 
 For those users who make movements very frequently, having to connect the hardware wallet to a computer may not be the best option.
 
@@ -158,13 +158,13 @@ A hot wallet is more vulnerable to possible cyber attacks, so the user should ma
 
 There are two types of hot wallets:
 
-### <span class="highlight-title">Custody</span> Wallets
+### <span class="highlight-title">Custody</span> wallets
 
 Custody wallets shouldn't even be considered wallets, since essentially an entity holds the private keys on behalf of the user. The best example of a non-custodial wallet is the exchanges themselves, like Binance or Coinbase.
 
 The user can have cryptocurrencies in Coinbase, but they only have access to their Coinbase account, which could be blocked by the company if they wanted to. There has also been the case of Exchange hacks that have drained them of cryptocurrencies due to security holes for which the user is not to blame but ends up paying the same.
 
-### <span class="highlight-title">Non-Custody</span> Wallets
+### <span class="highlight-title">Non-Custody</span> wallets
 
 Non-custodial wallets do share the seed with the user. They can be mobile or Windows / OSX applications. The problem with these wallets is that they are connected to the internet with the risks that this entails.
 

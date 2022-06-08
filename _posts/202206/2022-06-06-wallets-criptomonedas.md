@@ -21,7 +21,7 @@ Un wallet, también llamado cartera criptográfica, puede ser un dispositivo fí
 
 Una concepción errónea habitual es que los wallets no almacenan las criptomonedas del usuario, si no las claves privadas que permiten al usuario acceder a ellos. **Las criptomonedas como Bitcoin únicamente existen en el Blockchain y no pueden ser retiradas de allí**.
 
-Existen cuatro tipos de wallets y la pregunta sobre cual es mejor depende exclusivamente del uso que se le quiera dar.
+Existen diferentes tipos de wallets y la pregunta sobre cual es mejor depende exclusivamente del uso que se le quiera dar. Pero antes repasemos algunos conceptos.
 
 ## ¿ Qué es una <span class="highlight-title">clave privada</span> ?
 
@@ -90,7 +90,7 @@ Empresas como <a rel="nofollow" href="https://amzn.to/3PZwXLo">Cryptosteel</a> �
 
 ## <span class="highlight-title">Tipos</span> de wallets
 
-### <span class="highlight-title">Hardware</span> Wallet
+### <span class="highlight-title">Hardware</span> Wallets
 
 Un hardware wallet es un disposítivo físico parecido a un stick USB que se encarga de almacenar las claves privadas sin jamás conectarse a internet. Es por ello que a este tipo de wallet se le suele caracterizar como de *Cold Storage*, o almacenaje frío.
 
@@ -149,7 +149,7 @@ Si el ladrón en cambio consiguiera el seed, ni siquiera necesitaría el hardwar
 
 En general un hardware wallet es la mejor manera de mantener los fondos de manera segura y poder operar de vez en cuando con ellos de manera ocasional sin quebaderos de cabeza.
 
-## <span class="highlight-title">Hot</span> wallet
+## <span class="highlight-title">Hot</span> wallets
 
 Para aquellos usuarios que hagan movimientos con mucha frecuencia, tener que conectar el hardware wallet a un ordenador puede no ser la mejor opción.
 
@@ -168,3 +168,24 @@ El usuario puede tener criptomonedas en Coinbase, pero únicamente tiene acceso 
 ### Carteras de <span class="highlight-title">No Custodia</span>
 
 Las carteras de no custodia si que comparten el seed con el usuario. Pueden ser aplicaciones de móvil o de Windows / OSX. El problema de estas carteras es que estan conectadas a internet con los riesgos que eso conlleva.
+
+<div class="product-grid">
+	{% include thumbnail.html 
+		title="Metamask"
+		href="https://metamask.io/"
+		imageurl="https://miro.medium.com/fit/c/294/294/1*ez2eqUWghaTtCIGyF4upEA.png"
+		backgroundColor="#FFBCBC"
+		imagecta="https://cdn.freebiesupply.com/logos/large/2x/metamask-logo-png-transparent.png"
+		badge="Gratis"
+	%}
+
+	{% include thumbnail.html 
+		title="Exodus Wallet "
+		href="https://www.exodus.com/"
+		imageurl="https://www.yadawallets.com/wp-content/uploads/2020/10/exodus-wallet-logo.png"
+		backgroundColor="#F3F0D7"
+		imagecta="https://www.investopedia.com/thmb/kPDAGMSv04PgoZP2Vj5YAm2aA_g=/2000x410/filters:no_upscale():max_bytes(150000):strip_icc()/Exodus_Logo-094c6a5bbda24cb29c2f930dd254069f.jpeg"
+		badge="Gratis"
+	%}
+
+</div>
