@@ -14,7 +14,7 @@ popular: true
 
 Podeis obtener la tarjeta y recibir $10 gratis con <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">el código DwlxOh</a>.
 
-Con el delive de Crypto .com y la degradación de sus beneficios muchos han girado su atención a otras altenrativas y Plutus resulta de las más llamativas de todas.
+Con el declive de Crypto .com y la degradación de sus beneficios muchos han girado su atención a otras alternativas y Plutus resulta de las más llamativas de todas.
 
 <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">Plutus</a> es una tarjeta de débito que podemos cargar con criptomonedas (`ETH`, `PLU`) y recibir hasta un 8% de cashback en todas nuestras compras. Incluso hasta un 9% de cashback si la combinamos con [Curve](/guia-curve-crypto/) (explicado al final del artículo).
 
@@ -24,32 +24,32 @@ Con el delive de Crypto .com y la degradación de sus beneficios muchos han gira
 
 ### Starter / Principiante
 
-La subscripción Principiante es **gratuita** y ofrece los siguientes beneficios:
+La suscripción Principiante es **gratuita** y ofrece los siguientes beneficios:
 
 - 3 % de Cashback de hasta 250€ gastados.
-- 1 Perk a elegir valorado en 10€ al mes.
+- 1 Perk a elegir valorados en 10€ al mes.
 
 Retornos totales posibles: 17.50€ al mes.
 
-### Everyday / Diaría
+### Everyday / Diaria
 
-La subscripción Diaría cuesta **4.99€ al mes** y ofrece los siguientes beneficios:
+La suscripción Diaria cuesta **4.99€ al mes** y ofrece los siguientes beneficios:
 
 - 3 % de Cashback de hasta 2000€ gastados.
-- 2 Perks a elegir valorado en 10€ al mes.
+- 2 Perks a elegir valorados en 20€ en total.
 
 Retornos totales posibles: 80€ al mes.
 
 ### Premium
 
-La subscripción Premium cuesta **14.99€ al mes** y ofrece los siguientes beneficios.
+La suscripción Premium cuesta **14.99€ al mes** y ofrece los siguientes beneficios.
 
 - 3 % de Cashback de hasta 22500€ gastados.
-- 3 Perks a elegir valorado en 10€ al mes.
+- 3 Perks a elegir valorados en 30€ al mes.
 
 Retornos totales posibles: 705€ al mes.
 
-{% include image_caption.html imageurl="/images/posts/202206/subscription-plan.webp" title="Los diferentes planes de subscripción disponibles" caption="Los diferentes planes de subscripción disponibles" popup=true %}
+{% include image_caption.html imageurl="/images/posts/202206/subscription-plan.webp" title="Los diferentes planes de suscripción disponibles" caption="Los diferentes planes de suscripción disponibles" popup=true %}
 
 
 ## Staking
@@ -61,11 +61,11 @@ Los beneficios anteriores se pueden ver optimizados drásticamente mediante stak
 De esta manera los beneficios quedarían así en función del nivel del staking:
 
 - **Hero**: Si hacemos un staking de 250 `PLU` pasaríamos a tener un 4% de cashback  y 4 Perks disponibles.
-- **Veteran**: Si hacemos un staking de 500 `PLU` pasariamos a tener un 5% de cashback y 5 Perks disponibles.
-- **Legend**: Si hacemos un staking de 1000 `PLU` pasariamos a tener un 6% de cashback y 6 Perks disponibles.
-- **GOAT**: Si hacemos un staking de 2000 `PLU` pasariamos a tener un 8% de cashback y 8 Perks disponibles.
+- **Veteran**: Si hacemos un staking de 500 `PLU` pasaríamos a tener un 5% de cashback y 5 Perks disponibles.
+- **Legend**: Si hacemos un staking de 1000 `PLU` pasaríamos a tener un 6% de cashback y 6 Perks disponibles.
+- **GOAT**: Si hacemos un staking de 2000 `PLU` pasaríamos a tener un 8% de cashback y 8 Perks disponibles.
 
-De esta manera la tabla de retornos totales posibles en función de la subscripción y el nivel de staking quedarían así:
+De esta manera la tabla de retornos totales posibles en función de la suscripción y el nivel de staking quedarían así:
 
 | Staking | Staking  | Cashback | Perks | Starter | Everyday | Premium |
 |---------|----------|----------|-------|---------|----------|---------|
@@ -82,9 +82,9 @@ De esta manera la tabla de retornos totales posibles en función de la subscripc
 
 {% include image_caption.html imageurl="/images/posts/202206/perks.webp" title="Cada uno de estos perks nos devolvería hasta 10€ de lo que gastemos en estos servicios usando la tarjeta de Plutus" caption="Cada uno de estos perks nos devolvería hasta 10€ de lo que gastemos en estos servicios usando la tarjeta de Plutus" popup=true %}
 
-Es decir, si estamos subscritos por ejemplo a Netflix utilizando la tarjeta de <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">Plutus</a>. Se nos devolverán 10€ al mes cada vez que nos carguen en la tarjeta la subscripción.
+Es decir, si estamos subscritos por ejemplo a Netflix utilizando la tarjeta de <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">Plutus</a>. Se nos devolverán 10€ al mes cada vez que nos carguen en la tarjeta la suscripción.
 
-El usuario puede elegir que Perk le beneficia más en función de que tarjeta tenga operativa y la devolución se hará en la criptomoneda oficial de Plutus denominada `PLU`.
+El usuario puede elegir qué Perk le beneficia más en función de que tarjeta tenga operativa y la devolución se hará en la criptomoneda oficial de Plutus denominada `PLU`.
 
 Ese `PLU` lo podemos convertir a EUR y meterlo en el balance de nuestra tarjeta.
 
@@ -100,16 +100,16 @@ A diferencia de otras tarjetas como Crypto ó Revolut, no es posible meter diner
 
 Existen dos maneras de meter dinero en la tarjeta:
 - A través de una transferencia bancaria tradicional.
-- Metiendo `ETH`, o `PLU` y convirtiendolo a fiat.
+- Metiendo `ETH`, o `PLU` y convirtiéndolo a fiat.
 
 ## Cómo Optimizar las tarjetas Plutus con Curve
 
-Uno de los Perks disponibles es la devolución de la subscripción de [Curve](/guia-curve-crypto/), por lo que podriamos subscribirnos de manera gratuita al primer nivel de Curve recibiendo un 1% adicional en cashback en tres negocios a elegir.
+Uno de los Perks disponibles es la devolución de la suscripción de [Curve](/guia-curve-crypto/), por lo que podríamos subscribirnos de manera gratuita al primer nivel de Curve recibiendo un 1% adicional en cashback en tres negocios a elegir.
 
 Curve también permite introducir cualquier tarjeta en Apple Pay / Google Pay / Samsung Pay por lo que no requeririamos transportar la tarjeta de <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">Plutus</a> físicamente.
 
-Ademas, con la funcionalidad de Curve *Back In Time* no tendrmemos que preocuparnos de tener siempre fondos en nuestra tarjeta, que es la parte más incómoda de <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">Plutus</a>, por que podremos re-hacer y des-hacer transacciones según veamos adecuado para optimizar nuestro cashback.
+Además, con la funcionalidad de Curve *Back In Time* no tendrmemos que preocuparnos de tener siempre fondos en nuestra tarjeta, que es la parte más incómoda de <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">Plutus</a>, por que podremos re-hacer y des-hacer transacciones según veamos adecuado para optimizar nuestro cashback.
 
 ## Cómo obtener la tarjeta
 
-La tarjeta está disponible en Reino Unido y en la unión Europea (UE). Podeis obtener la tarjeta y recibir $10 gratis con <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">el código DwlxOh</a>.
+La tarjeta está disponible en Reino Unido y en la Unión Europea (UE). Podeis obtener la tarjeta y recibir $10 gratis con <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">el código DwlxOh</a>.
