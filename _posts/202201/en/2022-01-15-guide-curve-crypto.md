@@ -1,9 +1,9 @@
 ---
-title: The Ultimate Guide to using CURVE with Crypto.com
+title: The Ultimate Guide to using CURVE
 tags:
 - fi
 layout: post
-description: How to optimize the Crypto.com card with the Curve card. Apple Pay. Google Pay, Samsung Pay.
+description: How to optimize the Crypto.com and Plutus.it card with the Curve card. Apple Pay. Google Pay, Samsung Pay.
 banner_image: 202201/curve-card.webp
 rating: 5
 TotalVotes: 10
@@ -68,6 +68,14 @@ It is possible to divide expenses in installments to pay in 3,6,9 or even 12 mon
 The [Crypto.com](/what-is-crypto/) card does not allow access to Apple Pay / Google Pay / Samsung Pay. Through Curve it is possible to do it. The card gives a cashback of up to 8%, which added to 1% of <a rel="nofollow" href="https://www.curve.com/join#NVG48VJN">Curve</a> can give interesting returns for payments that were going to be made anyway.
 
 In addition, if at any time we do not have funds on the Crypto card, we can put a second backup card in Curve so that the charge does not make an error and then we will have 30 days to use the _Go Back In Time_ functionality to make the return of the card. backup card and upload to Crypto .com.
+
+### How to combine it with the Plutus card
+
+The [Plutus card](/plutus-cashback-cards/) can be combined with Curve to further optimize benefits.
+
+One of the benefits associated with Plutus is the Curve subscription, so we can subscribe to the first Curve card and Plutus would return €10 per month which would generate an additional 1% cashback (at 3 retailers).
+
+In addition, we have the possibility of measuring the card in Apple Pay / Google Pay / Samsung Pay and the possibility of using the _Go Back In Time_ functionality for those times when we do not have funds in Plutus but we want to receive the refund later.
 
 ## Order one
 

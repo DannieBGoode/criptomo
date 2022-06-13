@@ -1,9 +1,9 @@
 ---
-title: La Guía Definitiva para usar CURVE con Crypto.com
+title: La Guía Definitiva para usar CURVE
 tags:
 - fi
 layout: post
-description: Cómo optimizar la tarjeta de Crypto.com con la tarjeta Curve. Apple Pay. Google Pay. Samsung Pay.
+description: Cómo optimizar la tarjeta de Crypto.com o Plutus.it con la tarjeta Curve. Apple Pay. Google Pay. Samsung Pay.
 banner_image: 202201/curve-card.webp
 rating: 5
 TotalVotes: 10
@@ -68,6 +68,14 @@ Resulta posible dividir gastos en plazos para pagar en 3,6,9 o incluso 12 meses 
 La tarjeta de [Crypto.com](/que-es-crypto/) no permite introducirse dentro de Apple Pay / Google Pay / Samsung Pay. A través de Curve es posible hacerlo. La tarjeta da un cashback de hasta 8%, que sumado al 1% de <a rel="nofollow" href="https://www.curve.com/join#NVG48VJN">Curve</a> puede llegar a dar retornos interesantes por pagos que se iban a hacer de todas formas.
 
 Además si en algún momento no tenemos fondos en la tarjeta de Crypto, podemos meter en Curve una segunda tarjeta de backup para que el cargo no de error y después tendremos 30 días para utilizar la funcionalidad de _Go Back In Time_ para hacer la devolución de la tarjeta de backup y cargar a la de Crypto .com.
+
+### Cómo combinarla con la tarjeta Plutus
+
+La tarjeta de [Plutus](/tarjetas-plutus-cashback/) puede ser combinada con Curve para optimizar los beneficios más allá.
+
+Uno de los beneficios asociados a Plutus es la subscripción de Curve, por lo que podríamos subscribirnos a la primera tarjeta de Curve y Plutus nos devolvería 10€ al mes lo cual nos generaría un 1% de cashback adicional (en 3 retailers).
+
+Además, tendríamos la posibilidad de meter la tarjeta en Apple Pay / Google Pay / Samsung Pay y la posibilidad de utilizar la funcionalidad de _Go Back In Time_ para aquellos momentos en que no tengamos fondos en Plutus pero queramos recibir el cashback a posteriori.
 
 ## Registro
 
