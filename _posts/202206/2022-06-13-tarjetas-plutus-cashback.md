@@ -67,13 +67,19 @@ De esta manera los beneficios quedarían así en función del nivel del staking:
 
 De esta manera la tabla de retornos totales posibles en función de la suscripción y el nivel de staking quedarían así:
 
-| Staking | Staking  | Cashback | Perks | Starter | Everyday | Premium |
-|---------|----------|----------|-------|---------|----------|---------|
-| -       | 0 PLU    | 3%       | 1-3   | 17.50€  | 80€      | 705€    |
-| Hero    | 250 PLU  | 4%       | 4     | 50€     | 120€     | 940€    |
-| Veteran | 500 PLU  | 5%       | 5     | 62.5€   | 150€     | 1175€   |
-| Legend  | 1000 PLU | 6%       | 6     | 75€     | 180€     | 1410€   |
-| GOAT    | 2000 PLU | 8%       | 8     | 100     | 240€     | 1880€   |
+
+
+<div markdown="block" style="overflow: auto;">
+| Staking     | Staking  | Cashback | Perks | Starter | Everyday | Premium |
+|:-----------:|:--------:|:--------:|:-----:|---------|:--------:|:-------:|
+| -           | 0 PLU    | 3%       | 1-3   | 17.50€  | 80€      | 705€    |
+| **Hero**    | 250 PLU  | 4%       | 4     | 50€     | 120€     | 940€    |
+| **Veteran** | 500 PLU  | 5%       | 5     | 62.5€   | 150€     | 1175€   |
+| **Legend**  | 1000 PLU | 6%       | 6     | 75€     | 180€     | 1410€   |
+| **GOAT**    | 2000 PLU | 8%       | 8     | 100     | 240€     | 1880€   |
+
+</div>
+
 
 
 ## Perks
