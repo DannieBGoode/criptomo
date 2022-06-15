@@ -12,7 +12,7 @@ ref: eth-in-eth2
 lang: es
 ---
 
-Ethereum 2.0 llega en 2020, y no, no tienes que hacer nada con los Ethers que has ido amontonando a lo largo de los años.
+Ethereum 2.0 llega en 2022, y no, no tienes que hacer nada con los Ethers que has ido amontonando a lo largo de los años.
 
 <!--more-->
 

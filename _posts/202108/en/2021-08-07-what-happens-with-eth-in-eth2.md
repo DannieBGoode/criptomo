@@ -12,7 +12,7 @@ ref: eth-in-eth2
 lang: en
 ---
 
-Ethereum 2.0 arrives in 2020, and no, you don't have to do anything with the Ethers that you have accumulated over the years.
+Ethereum 2.0 arrives in 2022, and no, you don't have to do anything with the Ethers that you have accumulated over the years.
 
 <!--more-->
 
