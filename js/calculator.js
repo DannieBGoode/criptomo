@@ -1,6 +1,48 @@
 init();
 var firstTime = true;
 
+function preFill () {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
+  let invest = urlParams.get('invest'),
+      currency = urlParams.get('currency').toUpperCase(),
+      token = urlParams.get('crypto'),
+      date = urlParams.get('date');
+
+  if (
+        (typeof parseInt(invest) == 'number') 
+        && ((currency.toUpperCase() == 'USD') || (currency.toUpperCase() == 'EUR'))
+        && (date)) {
+
+        if ((token === 'BTC')
+         || (token === 'ETH')
+         || (token === 'LTC')
+         || (token === 'MIOTA') 
+         || (token === 'XMR') 
+         || (token === 'ADA')
+         || (token === 'XRP') ) {
+          document.getElementById('invest-currency').value = token;
+        } else {    
+          document.querySelector('.calculator-othercoins').style.display = 'inline-block';
+          document.querySelector('div.calculator-othercoins').style.display = 'inline';
+          document.getElementsByClassName('calculator-othercoins ')[0].value = token;
+          document.getElementById('invest-currency').getElementsByTagName('option')[document.getElementById('invest-currency').length-1].selected = 'selected'
+          let editText = document.querySelector('.calculator-othercoins').value;
+          document.querySelector('.editable').value = editText;
+        }
+        document.getElementById('invest-quantity').value = invest;
+        document.getElementById('invest-fiat').value = currency;
+        
+        document.getElementById('invest-date').value = date;
+
+        calculateEarnings();
+      }
+      else {
+        console.log("Invalid URL Parameters");
+      }
+}
+
 function calculateEarnings() {
   var investment          = {
     date: document.getElementById("invest-date").value,
@@ -108,6 +150,13 @@ function calculateEarnings() {
     modifyAllClassElementsClassName('gained-percentage', 'gained-percentage gained-percentage-' + change);
     document.getElementById('calculator-results').style.display = 'block';
 
+    let newParams = '?invest='+ document.getElementById('invest-quantity').value 
+                  + '&currency=' + document.getElementById('invest-fiat').value 
+                  + '&crypto=' + document.getElementById('invest-currency').value 
+                  + '&date=' + document.getElementById('invest-date').value + '';
+
+    history.replaceState({}, null, window.location.pathname + newParams);
+
     if (typeof recommendArticles === "function") {
       recommendArticles(investData.tokenSymbol);  
     }
@@ -161,4 +210,7 @@ for(i = 0; i < exampleDate.length; i++){
 
 function init() {
   document.getElementById('invest-date').setAttribute('max', new Date().toISOString().split('T')[0]);
+  if (window.location.search) {
+    preFill();
+  }
 }
