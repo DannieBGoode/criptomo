@@ -6,8 +6,40 @@ Date.prototype.addDays = function(days) {
     return date;
 }
 
-function calculateEarnings() {
+function preFill () {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
 
+  let invest = urlParams.get('invest'),
+      currency = urlParams.get('currency').toUpperCase(),
+      token = urlParams.get('crypto'),
+      interval = parseInt(urlParams.get('interval'));
+      date = urlParams.get('date');
+
+  if (
+        (typeof parseInt(invest) == 'number') 
+        && ((currency.toUpperCase() == 'USD') || (currency.toUpperCase() == 'EUR'))
+        && (token == 'BTC')
+        && ((interval == 9999) || (interval == 1) || (interval == 7) || (interval == 30) || (interval == 365))
+        && (date)) {
+        document.getElementById('invest-quantity').value = invest;
+        document.getElementById('invest-fiat').value = currency;
+        document.getElementById('invest-currency').value = token;
+        document.getElementById('invest-interval').value = interval;
+        document.getElementById('invest-date').value = date;
+
+        calculateEarnings();
+      }
+      else {
+        console.log("Invalid URL Parameters");
+      }
+
+
+}
+
+function calculateEarnings() {
+  document.getElementById('calculator-results').style.display = 'none';
+  table.clear().draw();
   table.processing(true);
   investment = {
       date: $('#invest-date').val(),
@@ -28,11 +60,13 @@ function calculateEarnings() {
       let dateFormatted =  date.toISOString().split('T')[0];
       let results = [];
 
+      let currentPrice = data.bpi[dateFormatted];
+
       results[0] = {
           totalCC: parseFloat(investment.amount / data.bpi[dateFormatted]).toFixed(6),
           totalSpent: investment.amount,
           date: dateFormatted,
-          purchasePrice: data.bpi[dateFormatted]
+          purchasePrice: currentPrice
       };
 
       results[0].investmentValue = parseFloat(results[0].totalCC * data.bpi[dateFormatted]).toFixed(2);
@@ -42,12 +76,18 @@ function calculateEarnings() {
 
       investmentDataArray.push(results[0]);
 
+      
+
       for (let i = 1; date.toISOString() < investment.today; i++)
       {
-          let currentPrice = data.bpi[dateFormatted];
+          if (data.bpi[dateFormatted]) {
+            currentPrice = data.bpi[dateFormatted];  
+          }
+          
           if (currentPrice) {
             results[i] = {};
             results[i].totalCC = parseFloat(parseFloat(results[i - 1].totalCC) + parseFloat(investment.amount / currentPrice)).toFixed(6);
+            
             results[i].totalSpent = parseInt(results[i - 1].totalSpent) + investment.amount;
             results[i].investmentValue = parseFloat(results[i].totalCC * currentPrice).toFixed(2);
             results[i].purchasePrice = currentPrice;
@@ -83,6 +123,13 @@ function calculateEarnings() {
           table.draw();
           table.columns.adjust();
           table.responsive.recalc();
+
+          let newParams = '?invest='+ document.getElementById('invest-quantity').value 
+                        + '&currency=' + document.getElementById('invest-fiat').value 
+                        + '&crypto=' + document.getElementById('invest-currency').value 
+                        + '&interval=' + document.getElementById('invest-interval').value 
+                        + '&date=' + document.getElementById('invest-date').value + '';
+          history.replaceState({}, null, window.location.pathname + newParams);
           
         })
         .error(function () {
@@ -156,3 +203,7 @@ let table = $('#investment-table').DataTable({
     }
   ]
 });
+
+if (window.location.search) {
+  preFill();
+}

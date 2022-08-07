@@ -26,8 +26,8 @@ ref: invest
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
             <select id="invest-fiat">
-                <option>EUR</option>
-                <option>USD</option>
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
             </select>
         </div>
     </div>
