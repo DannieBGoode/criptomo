@@ -128,7 +128,7 @@ input.calculator-othercoins {
 #calculator-results-table {
     text-align: center;
     margin-top: 50px;
-    overflow-x: scroll;
+    overflow-x: auto;
     .table-header {
         border: 1px solid #000;
         width: 10%;
