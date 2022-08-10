@@ -156,6 +156,7 @@ function calculateEarnings() {
                   + '&date=' + document.getElementById('invest-date').value + '';
 
     history.replaceState({}, null, window.location.pathname + newParams);
+    document.getElementsByClassName("share-text")[0].value = window.location.href;
 
     if (typeof recommendArticles === "function") {
       recommendArticles(investData.tokenSymbol);  

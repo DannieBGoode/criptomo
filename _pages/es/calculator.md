@@ -68,10 +68,12 @@ lang: es
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         
         <div id="calculator-results">
-            Si hubieras invertido <span class="result-invest"></span> en <span class="result-tokentype"></span> el día <span class="result-date"></span> hubieras podido comprar a un precio de 
-            <span class="result-old-price"></span> un total de 
-            <span class="result-tokencount"></span> <span class="result-tokentype"></span>
-            valorados a día de hoy en <span class="result-currentvalue"></span>.
+            <div class="calculator-results-text">
+                Si hubieras invertido <span class="result-invest"></span> en <span class="result-tokentype"></span> el día <span class="result-date"></span> hubieras podido comprar a un precio de 
+                <span class="result-old-price"></span> un total de 
+                <span class="result-tokencount"></span> <span class="result-tokentype"></span>
+                valorados a día de hoy en <span class="result-currentvalue"></span>.
+            </div>
             <div>Ganancia: <span class="gained-percentage"></span></div>
 
             <div id="calculator-results-table">
@@ -116,6 +118,9 @@ lang: es
                         </tr>
                 </table>
             </div>
+
+            {% include share_result.html %}
+
         </div>
 
         <p>
@@ -129,6 +134,9 @@ lang: es
                 <div>Prueba con otra fecha, por ejemplo <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
         </p>
+
+        
+
     </div>  
 
     {% if site.ads.stormgain %}

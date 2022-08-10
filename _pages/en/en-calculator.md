@@ -67,10 +67,12 @@ popular: true
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calculate</button>
         <div id="calculator-results">
-            If you had invested <span class="result-invest"></span> on <span class="result-tokentype"></span> the day <span class="result-date"></span> you would have had the opportunity of buying at a price of 
-            <span class="result-old-price"></span> a total of
-            <span class="result-tokencount"></span> <span class="result-tokentype"></span>
-            valued today <span class="result-currentvalue"></span>.
+            <div class="calculator-results-text">
+                If you had invested <span class="result-invest"></span> on <span class="result-tokentype"></span> the day <span class="result-date"></span> you would have had the opportunity of buying at a price of 
+                <span class="result-old-price"></span> a total of
+                <span class="result-tokencount"></span> <span class="result-tokentype"></span>
+                valued today <span class="result-currentvalue"></span>.
+            </div>
             <div>Profits: <span class="gained-percentage"></span></div>
 
             <div id="calculator-results-table">
@@ -115,6 +117,9 @@ popular: true
                         </tr>
                 </table>
             </div>
+
+            {% include share_result.html %}
+            
         </div>
         <p>
             <div class="error coin-error">

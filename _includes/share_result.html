@@ -1,0 +1,64 @@
+<div class="popup show">
+  <header>
+    <span>{{ site.data.translations.share-calculator.title[page.lang] }}</span>
+    <!-- <div class="close"><i class="uil uil-times"></i></div> -->
+  </header>
+  <div class="content">
+    <p>{{ site.data.translations.share-calculator.body-1[page.lang] }}</p>
+    <ul class="icons">
+      <a onclick="shareOnSocial('facebook')">
+        <i class="icon-facebook"></i></a>
+
+      <a onclick="shareOnSocial('twitter')">
+        <i class="icon-twitter"></i>
+      </a>
+
+      <a onclick="shareOnSocial('linkedin')">
+        <i class="icon-linkedin2"></i>
+      </a>
+
+      <a onclick="shareOnSocial('whatsapp')">
+        <i class="icon-whatsapp"></i>
+      </a>
+      
+      <a onclick="shareOnSocial('telegram')">
+        <i class="icon-telegram"></i>
+      </a>
+
+      <a onclick="shareOnSocial('reddit')">
+        <i class="icon-reddit-alien"></i>
+      </a>
+
+    </ul>
+    <p>{{ site.data.translations.share-calculator.body-2[page.lang] }}</p>
+    <div class="field">
+      <i class="icon-link"></i>
+      <input type="text" class="share-text" readonly value="{{ site.url }}/calculadora/">
+      <button class="copy">{{ site.data.translations.share-calculator.copy[page.lang] }}</button>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  const popup = document.querySelector(".popup"),
+  close = popup.querySelector(".close"),
+  field = popup.querySelector(".field"),
+  input = field.querySelector(".share-text"),
+  copy = field.querySelector("button.copy");
+
+  copy.onclick = () => {
+    input.select(); 
+    if(document.execCommand("copy")) { 
+      field.classList.add("active");
+      copy.innerText = '{{ site.data.translations.share-calculator.copied[page.lang] }}';
+      setTimeout(()=> {
+        window.getSelection().removeAllRanges(); 
+        field.classList.remove("active");
+        copy.innerText = '{{ site.data.translations.share-calculator.copy[page.lang] }}';
+      }, 3000);
+    }
+  }
+</script>
+
+<script defer src="/js/share-calculator-results.js?{{site.time | date: '%s%N'}}"></script>

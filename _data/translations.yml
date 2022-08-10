@@ -80,5 +80,42 @@
       "pt": "Começa hoje",
       "fr": "Commencez aujourd'hui"
     }
+  },
+  "share-calculator": {
+    "copy": {
+      "en": "Copy",
+      "es": "Copiar",
+      "de": "Kopieren",
+      "pt": "Copie",
+      "fr": "Copier"
+    },
+    "copied": {
+      "en": "Copied",
+      "es": "Copiado",
+      "de": "Kopiert",
+      "pt": "Copiado",
+      "fr": "Copié"
+    },
+    "title": {
+      "en": "Share this result",
+      "es": "Comparte este resultado",
+      "de": "Teile dieses Ergebnis",
+      "pt": "Compartilhe este resultado",
+      "fr": "Partagez ce résultat"
+    },
+    "body-1":  {
+      "en": "Share this result through",
+      "es": "Comparte este resultado a través de",
+      "de": "Teilen Sie dieses Ergebnis durch",
+      "pt": "Compartilhe este resultado através",
+      "fr": "Partagez ce résultat via"
+    },
+    body-2:  {
+      "en": "or copy and paste the following link",
+      "es": "O copia y pega el siguiente enlace",
+      "de": "oder kopieren Sie den folgenden Link und fügen Sie ihn ein",
+      "pt": "ou copie e cole o seguinte link",
+      "fr": "ou copiez et collez le lien suivant"
+    }
   }
 }

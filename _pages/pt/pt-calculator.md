@@ -72,10 +72,12 @@ redirect_from:
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         <div id="calculator-results">
-            Se você tivesse investido <span class="result-invest"></span> em <span class="result-tokentype"></span>  no dia <span class="result-date"></span> você teria a oportunidade de comprar a um preço de 
-            <span class="result-old-price"></span> um total de
-            <span class="result-tokencount"></span> <span class="result-tokentype"></span>
-            avaliados hoje em <span class="result-currentvalue"></span>.
+            <div class="calculator-results-text">
+                Se você tivesse investido <span class="result-invest"></span> em <span class="result-tokentype"></span>  no dia <span class="result-date"></span> você teria a oportunidade de comprar a um preço de 
+                <span class="result-old-price"></span> um total de
+                <span class="result-tokencount"></span> <span class="result-tokentype"></span>
+                avaliados hoje em <span class="result-currentvalue"></span>.
+            </div>
             <div>Lucros: <span class="gained-percentage"></span></div>
 
             <div id="calculator-results-table">
@@ -120,6 +122,7 @@ redirect_from:
                         </tr>
                 </table>
             </div>
+            {% include share_result.html %}
         </div>
         <p>
             <div class="error coin-error">
