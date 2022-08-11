@@ -9,7 +9,7 @@
     } else if (social === 'whatsapp') {
       shareUrl = 'https://api.whatsapp.com/send?phone=whatsappphonenumber&text=' + text + ' ' + URL;
     } else if (social === 'telegram') {
-      shareUrl = 'tg://msg_url?url=' + URL + '&text=' + text;
+      shareUrl = 'https://telegram.me/share/url?url=' + URL + '&text=' + text;
     } else if (social === 'linkedin') {
       shareUrl = 'https://www.linkedin.com/shareArticle?mini=true&url=' + URL + '&title=' + text;
     } else if (social === 'reddit') {
