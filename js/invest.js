@@ -67,13 +67,11 @@ function calculateEarnings() {
       data = JSON.parse(data);
       let results = [];
       let investmentDataArray = [];
-      let date;
-      let dateFormatted;
+      let date = new Date(investment.date);
+      let dateFormatted =  date.toISOString().split('T')[0];
       let currentPrice;
-      if (data.bpi) {
-
-        date = new Date(investment.date);
-        dateFormatted =  date.toISOString().split('T')[0];
+      if ((data.bpi) && (data.bpi[dateFormatted])) {
+        
         currentPrice = data.bpi[dateFormatted];
 
         results[0] = {
