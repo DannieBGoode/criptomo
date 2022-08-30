@@ -5,7 +5,7 @@
     if (social === 'facebook') {
       shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + URL + '&amp;t=' + text;
     } else if (social === 'twitter') {
-      shareUrl = 'https://twitter.com/intent/tweet?url=' + URL + '&text=' + text;
+      shareUrl = 'https://twitter.com/intent/tweet?url=' + URL + '&text=' + text + ' %23criptomo';
     } else if (social === 'whatsapp') {
       shareUrl = 'https://api.whatsapp.com/send?phone=whatsappphonenumber&text=' + text + ' ' + URL;
     } else if (social === 'telegram') {
