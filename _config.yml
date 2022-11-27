@@ -71,7 +71,7 @@ dribbble_uername:
 medium_username: "@danielcalatayud"
 instagram_username: 
 pinterest_username: 
-linkedin_username: danielcalatayud
+linkedin_username: 
 google_site_verification: JN4EGGyUz-6deV8bY40-FqwE_4xwc4k7I4oCaUr7HhU
 paginate: 12
 paginate_path: "/page/:num"
