@@ -21,9 +21,12 @@ collections:
       - label: Published
         field: published
         pattern: true
-      - label: 'Language'
+      - label: 'Posts in Spanish'
         field: lang
-        pattern: 'es|en'
+        pattern: 'es'
+     - label: 'Posts in English'
+        field: date
+        pattern: 'en'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
