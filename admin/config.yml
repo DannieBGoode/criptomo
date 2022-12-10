@@ -10,7 +10,7 @@ collections:
     label: 'Posts'
     nested:
       depth: 100 # max depth to show in the collection tree
-      summary: '{{year}}'
+      summary: '{{title}}'
     folder: '/_posts/'
     create: true
     sortable_fields: ['commit_date', 'filename', 'title', 'published', 'date']
@@ -21,15 +21,16 @@ collections:
       - label: Published
         field: published
         pattern: true
-      - label: Spanish
+      - label: 'Language'
         field: lang
-        pattern: es|en
+        pattern: 'es|en'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
+      - { label: 'NetlifyCMS', name: 'netlifycms', hint: 'In order to load the images correctly', widget: 'hidden', default: true }
       - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'date', date_format: "DD.MMM.YYYY", required: false, hint: 'More recents projects will be displayed first'}
       - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
