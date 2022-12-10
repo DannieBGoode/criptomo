@@ -21,6 +21,9 @@ collections:
       - label: Published
         field: published
         pattern: true
+      - label: Spanish
+        field: lang
+        pattern: es|en
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
