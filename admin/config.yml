@@ -10,7 +10,7 @@ collections:
     label: 'Posts'
     nested:
       depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}'
+      summary: '{{year}}'
     folder: '/_posts/'
     create: true
     sortable_fields: ['commit_date', 'filename', 'title', 'published', 'date']
