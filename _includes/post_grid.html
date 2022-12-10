@@ -4,7 +4,6 @@
         {% assign imagePath = "" %}
     {% else %}
         {% assign imagePath = site.baseurl | append: '/images/posts/' %}
-        imagePath
     {% endif %}
     {% if post.banner_image %}
         <a class="post-card-image-link" href="{{site.baseurl}}{{post.url}}">
