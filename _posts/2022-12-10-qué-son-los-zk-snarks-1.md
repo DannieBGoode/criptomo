@@ -2,11 +2,10 @@
 layout: post
 published: true
 netlifycms: true
-title: Qué son los zk-snarks
+title: What are zk-snarks
 date: 2022-12-10T23:23:49.732Z
-description: Zk-SNARKs es una tecnología de criptografía utilizada para
-  verificar la integridad de información sin necesidad de revelar la información
-  en sí
+description: Zk-SNARKs are used to verify the integrity of information without
+  revealing the information itself.
 tags:
   - altcoins
   - technology
