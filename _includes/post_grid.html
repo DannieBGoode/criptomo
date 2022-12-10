@@ -1,7 +1,14 @@
 <article class="post-card {{ page.class }}{% unless post.banner_image %} no-image{% endunless %}">
+
+    {% if post.netlifycms %}
+        {% assign imagePath = "" %}
+    {% else %}
+        {% assign imagePath = site.baseurl | append: '/images/posts/' %}
+        imagePath
+    {% endif %}
     {% if post.banner_image %}
         <a class="post-card-image-link" href="{{site.baseurl}}{{post.url}}">
-            <div class="post-card-image" style="background-image: url({{ site.baseurl }}/images/posts/{{ post.banner_image }})"></div>
+            <div class="post-card-image" style="background-image: url({{ imagePath }}{{ post.banner_image }})"></div>
         </a>
     {% endif %}
     <div class="post-card-content">

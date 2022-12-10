@@ -1,12 +1,13 @@
 ---
 layout: post
-published: false
+published: true
 title: Bitcoin vs Gold
 date: 2022-12-09T17:06:10.268Z
 description: Bitcoin vs Gold - what is best
 tags:
   - bitcoin
 banner_image: /images/posts/image_2022-12-10_180746339.png
+netlifycms: true
 rating: 5
 TotalVotes: 17
 popular: false
