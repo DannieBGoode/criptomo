@@ -1,9 +1,9 @@
 # config.yml
 
-display_url: https://thebellweb.com
+display_url: https://criptomo.com
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 media_folder: 'images/posts'
 collections:
   - name: 'posts'
