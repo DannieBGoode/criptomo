@@ -24,7 +24,7 @@ collections:
       - label: 'Posts in Spanish'
         field: lang
         pattern: 'es'
-     - label: 'Posts in English'
+      - label: 'Posts in English'
         field: date
         pattern: 'en'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
