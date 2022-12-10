@@ -8,7 +8,10 @@ media_folder: 'images/posts'
 collections:
   - name: 'posts'
     label: 'Posts'
-    folder: '/_posts/{year}}{{month}}'
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}'
+    folder: '/_posts/'
     create: true
     sortable_fields: ['commit_date', 'filename', 'title', 'published', 'date']
     view_filters:
