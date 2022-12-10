@@ -1,0 +1,38 @@
+# config.yml
+
+display_url: https://thebellweb.com
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'images/posts'
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    folder: '/_posts/{year}}{{month}}'
+    create: true
+    sortable_fields: ['commit_date', 'filename', 'title', 'published', 'date']
+    view_filters:
+      - label: Drafts
+        field: published
+        pattern: false
+      - label: Published
+        field: published
+        pattern: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
+      - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date', date_format: "DD.MMM.YYYY", required: false, hint: 'More recents projects will be displayed first'}
+      - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list', hint: 'altcoins, bitcoin, blockchain, ethereum, fi, noticias, seguridad, trading...' }
+      - { label: 'Cover Image', name: 'banner_image', widget: 'image', hint: 'Thumbnail image' }
+      - { label: 'Rating', name: 'rating', widget: 'number', hint: 'Post rating 1 to 5', min: 1, max: 5, value_type: "int", required: false }
+      - { label: 'Total Votes', name: 'TotalVotes', widget: 'number', hint: 'Total votes', required: false }
+      - { label: 'Popular', name: 'popular', widget: 'boolean', hint: 'Enable this checkbox to highlight the post on the right sidenav', default: false }
+      - { label: 'Reference Code', name: 'ref', hint: 'Giving posts written in different languages the same ref-code will allow to easily change language without losing the current page.', widget: 'string', required: false }
+      - { label: 'Language', name: lang, widget: select, options: ["es", "en", "de", "fr", "pt"], hint: 'Idioma.', default: "es" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      
