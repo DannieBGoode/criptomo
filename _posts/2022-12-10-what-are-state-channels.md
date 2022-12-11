@@ -3,7 +3,7 @@ layout: post
 published: true
 netlifycms: true
 title: What are state channels
-date: 2022-12-10T23:00:13.335Z
+date: 2022-12-09T23:00:13.335Z
 description: Cryptocurrency state channels allow two or more parties to quickly,
   securely, and efficiently transact with each other without the need for a
   trusted third party.
