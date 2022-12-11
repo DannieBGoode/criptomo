@@ -35,7 +35,7 @@ collections:
       - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
       - { label: 'NetlifyCMS', name: 'netlifycms', hint: 'In order to load the images correctly', widget: 'hidden', default: true }
       - { label: 'Title', name: 'title', hint: 'Title that will be displayed for this project', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'date', date_format: "DD.MMM.YYYY", required: false, hint: 'More recents projects will be displayed first'}
+      - { label: 'Date', name: 'date', widget: 'date', date_format: "DD.MMM.YYYY", format: "YYYY-MMM-DD", required: false, hint: 'More recents projects will be displayed first'}
       - { label: 'Description', name: 'description', hint: 'Description for SEO purposes', widget: 'string' }
       - { label: 'Tags', name: 'tags', widget: 'list', hint: 'altcoins, bitcoin, blockchain, ethereum, fi, noticias, seguridad, trading...' }
       - { label: 'Cover Image', name: 'banner_image', widget: 'image', hint: 'Thumbnail image' }
