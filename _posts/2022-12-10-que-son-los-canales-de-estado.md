@@ -3,19 +3,19 @@ layout: post
 published: true
 netlifycms: true
 title: Qué son los canales de estado (state channels)
-date: 2022-12-11T22:51:03.539Z
+date: 2022-12-10
 description: "Los state channels o canales de estado permiten a dos o más partes
   realizar transacciones entre sí de manera rápida y eficiente "
 tags:
   - blockchain
-  - ""
 banner_image: /images/posts/image_2022-12-10_235305341.png
 rating: 5
 TotalVotes: 18
 popular: false
-ref: state-channels
+ref: statechannels
 lang: es
 ---
+
 Los canales de estado de criptomonedas son una tecnología que permite a dos o más partes realizar transacciones entre ellas de manera **rápida, segura y eficiente sin necesidad de contar con una tercera parte confiable**. Estos canales se basan en la idea de que las transacciones se realicen fuera de la cadena de bloques de una criptomoneda, lo que permite una mayor velocidad y eficiencia en las operaciones.
 
 Para entender mejor cómo funcionan los canales de estado de criptomonedas, es importante conocer primero cómo se realizan las transacciones en la cadena de bloques de una criptomoneda:
