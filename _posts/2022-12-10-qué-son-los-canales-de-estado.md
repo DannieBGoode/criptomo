@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 netlifycms: true
 title: Qué son los canales de estado (state channels)
 date: 2022-12-11T22:51:03.539Z
