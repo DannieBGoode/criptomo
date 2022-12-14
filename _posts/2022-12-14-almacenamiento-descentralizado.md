@@ -22,9 +22,9 @@ El almacenamiento descentralizado se refiere a la práctica de distribuir la inf
 
 Algunas de las principales ventajas del almacenamiento descentralizado son:
 
-1. Mayor resistencia ante fallos o ataques: como los datos no están almacenados en un solo lugar, es más difícil que un fallo o ataque afecte a todos los datos de una vez. Esto puede hacer que el sistema sea más resistente y fiable en general.
-2. Mayor disponibilidad de los datos: si un servidor centralizado se cae o tiene problemas, puede ser que los datos no estén disponibles. Sin embargo, con el almacenamiento descentralizado, los datos pueden estar almacenados en varios servidores distintos, por lo que es menos probable que se pierda el acceso a ellos.
-3. Mayor seguridad y privacidad: como los datos no están todos en un mismo lugar, puede ser más difícil para un atacante acceder a ellos o manipularlos. Además, el almacenamiento descentralizado puede permitir un mayor control sobre quién tiene acceso a los datos y cómo se utilizan.
+1. **Mayor resistencia ante fallos o ataques**: como los datos no están almacenados en un solo lugar, es más difícil que un fallo o ataque afecte a todos los datos de una vez. Esto puede hacer que el sistema sea más resistente y fiable en general.
+2. **Mayor disponibilidad de los datos**: si un servidor centralizado se cae o tiene problemas, puede ser que los datos no estén disponibles. Sin embargo, con el almacenamiento descentralizado, los datos pueden estar almacenados en varios servidores distintos, por lo que es menos probable que se pierda el acceso a ellos.
+3. **Mayor seguridad y privacidad**: como los datos no están todos en un mismo lugar, puede ser más difícil para un atacante acceder a ellos o manipularlos. Además, el almacenamiento descentralizado puede permitir un mayor control sobre quién tiene acceso a los datos y cómo se utilizan.
 4. **Mayor escalabilidad**: el almacenamiento descentralizado permite añadir más servidores de manera más sencilla que si los datos estuvieran en un solo servidor centralizado. Esto puede hacer que el sistema sea más fácil de escalar en función de las necesidades del usuario.
 
 ### Desventajas del amacenamiento descentralizado
