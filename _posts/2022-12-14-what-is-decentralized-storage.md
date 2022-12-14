@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 netlifycms: true
 title: Qué es el almacenamiento descentralizado
 date: 2022-Dec-13
