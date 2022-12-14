@@ -40,7 +40,7 @@ Algunas de las principales desventajas del almacenamiento descentralizado son:
 
 Algunos ejemplos de soluciones de almacenamiento descentralizado en español son:
 
-1. IPFS (Sistema de Archivos InterPlanetary): es un protocolo de red y un sistema de archivos distribuido que permite a los usuarios almacenar y compartir contenido de manera descentralizada.
-2. Storj: es una plataforma de almacenamiento descentralizado basada en la tecnología blockchain que permite a los usuarios almacenar y compartir archivos de manera privada y segura.
-3. Filecoin: es una red de almacenamiento descentralizado que permite a los usuarios almacenar y recuperar datos de manera eficiente y segura. Los usuarios pueden ganar recompensas en la criptomoneda Filecoin a cambio de prestar su espacio de almacenamiento en la red.
-4. MaidSafe: es una red descentralizada y autónoma que permite a los usuarios almacenar y compartir datos de manera segura y privada. La red se basa en una red de nodos distribuidos que trabajan juntos para mantener la seguridad y la disponibilidad de los datos almacenados.
+1. **IPFS** (Sistema de Archivos InterPlanetary): es un protocolo de red y un sistema de archivos distribuido que permite a los usuarios almacenar y compartir contenido de manera descentralizada.
+2. **Storj**: es una plataforma de almacenamiento descentralizado basada en la tecnología blockchain que permite a los usuarios almacenar y compartir archivos de manera privada y segura.
+3. **Filecoin**: es una red de almacenamiento descentralizado que permite a los usuarios almacenar y recuperar datos de manera eficiente y segura. Los usuarios pueden ganar recompensas en la criptomoneda Filecoin a cambio de prestar su espacio de almacenamiento en la red.
+4. **MaidSafe**: es una red descentralizada y autónoma que permite a los usuarios almacenar y compartir datos de manera segura y privada. La red se basa en una red de nodos distribuidos que trabajan juntos para mantener la seguridad y la disponibilidad de los datos almacenados.
