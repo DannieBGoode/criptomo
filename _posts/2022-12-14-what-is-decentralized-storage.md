@@ -1,8 +1,8 @@
 ---
 layout: post
-published: true
+published: false
 netlifycms: true
-title: What is Decentralized Storage
+title: Qué es el almacenamiento descentralizado
 date: 2022-Dec-13
 description: What is decentralized storage, advantages, disadvantages and examples
 tags:
@@ -14,7 +14,7 @@ rating: 5
 TotalVotes: 3
 popular: false
 ref: decentralized-storage
-lang: en
+lang: es
 ---
 Decentralized storage refers to the use of distributed networks and systems to store and manage data, rather than relying on a central server or authority. In a decentralized storage system, **data is distributed across multiple nodes, or computers, in the network**. 
 
