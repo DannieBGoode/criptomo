@@ -15,7 +15,7 @@ popular: false
 ref: segwit
 lang: es
 ---
-Segregated Witness (SegWit) es una actualización del protocolo Bitcoin que fue propuesta en 2015. Su principal objetivo es aumentar la capacidad de la red de Bitcoin al resolver un problema de escalabilidad conocido como "el problema del bloque sobresaturado ".
+Segregated Witness (SegWit) es una actualización del protocolo Bitcoin que fue propuesta en 2015. Su principal objetivo es aumentar la capacidad de la red de Bitcoin al resolver un problema de escalabilidad conocido como [el problema del bloque sobresaturado](https://criptomo.com/problema-escalabilidad/).
 
 Antes de SegWit, cada bloque en la cadena de bloques de Bitcoin tenía un tamaño máximo de 1 MB. Esto significaba que había un límite en cuanto a la cantidad de transacciones que podían incluirse en cada bloque, lo que limitaba la capacidad de la red.
 
