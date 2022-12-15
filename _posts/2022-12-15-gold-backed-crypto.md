@@ -12,7 +12,7 @@ banner_image: /images/posts/image_2022-12-15_111356053.png
 rating: 4
 TotalVotes: 12
 popular: false
-ref: gold-crypo
+ref: gold-crypto
 lang: en
 ---
 Gold-backed cryptocurrencies are a type of digital asset that uses blockchain technology to enable users to buy, sell, and trade digital tokens that are backed by physical gold. With gold-backed cryptocurrencies, users can own and transfer digital tokens that represent ownership of physical gold, allowing them to easily and securely buy, sell, and trade gold without the need for intermediaries, such as banks or gold dealers.
