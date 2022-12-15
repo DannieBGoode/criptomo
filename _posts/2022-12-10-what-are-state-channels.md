@@ -39,8 +39,8 @@ In summary, cryptocurrency state channels are a technology that allows for incre
 
 ## E﻿xamples
 
-Some examples of cryptocurrency state channels are the Lightning Network for Bitcoin, the Raiden Network for Ethereum, and Lumino for Ripple. These are all projects in development that aim to implement state channel technology on their respective cryptocurrencies.
+Some examples of cryptocurrency state channels are [the Lightning Network for Bitcoin](https://criptomo.com/what-is-the-lightning-network/), the Raiden Network for Ethereum, and Lumino for Ripple. These are all projects in development that aim to implement state channel technology on their respective cryptocurrencies.
 
-The Lightning Network is an additional layer on top of the Bitcoin network that allows two or more parties to quickly and efficiently transact with each other. The Raiden Network is a similar project for the Ethereum network, while Lumino is a Ripple project that aims to implement state channel technology on its network.
+[The Lightning Network](https://criptomo.com/what-is-the-lightning-network/) is an additional layer on top of the Bitcoin network that allows two or more parties to quickly and efficiently transact with each other. The Raiden Network is a similar project for the Ethereum network, while Lumino is a Ripple project that aims to implement state channel technology on its network.
 
 Overall, cryptocurrency state channels are a technology that is constantly being developed and is expected to become one of the main ways of conducting transactions in the world of cryptocurrencies in the future
