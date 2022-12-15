@@ -15,7 +15,6 @@ popular: false
 ref: state-channels
 lang: es
 ---
-
 Los canales de estado de criptomonedas son una tecnología que permite a dos o más partes realizar transacciones entre ellas de manera **rápida, segura y eficiente sin necesidad de contar con una tercera parte confiable**. Estos canales se basan en la idea de que las transacciones se realicen fuera de la cadena de bloques de una criptomoneda, lo que permite una mayor velocidad y eficiencia en las operaciones.
 
 Para entender mejor cómo funcionan los canales de estado de criptomonedas, es importante conocer primero cómo se realizan las transacciones en la cadena de bloques de una criptomoneda:
@@ -36,8 +35,8 @@ En resumen, los canales de estado de criptomonedas son una tecnología que permi
 
 ## Ejemplos
 
-Algunos ejemplos de canales de estado de criptomonedas son el Lightning Network de Bitcoin, el Raiden Network de Ethereum y el Lumino de Ripple. Todos estos son proyectos en desarrollo que buscan implementar la tecnología de canales de estado en sus respectivas criptomonedas.
+Algunos ejemplos de canales de estado de criptomonedas son [el Lightning Network de Bitcoin](https://criptomo.com/qué-es-la-red-lightning/), el Raiden Network de Ethereum y el Lumino de Ripple. Todos estos son proyectos en desarrollo que buscan implementar la tecnología de canales de estado en sus respectivas criptomonedas.
 
-El Lightning Network es una capa adicional sobre la red de Bitcoin que permite a dos o más partes realizar transacciones entre ellas de manera rápida y eficiente. El Raiden Network es un proyecto similar para la red de Ethereum, mientras que Lumino es un proyecto de Ripple que busca implementar la tecnología de canales de estado en su red.
+[El Lightning Network](https://criptomo.com/qué-es-la-red-lightning/) es una capa adicional sobre la red de Bitcoin que permite a dos o más partes realizar transacciones entre ellas de manera rápida y eficiente. El Raiden Network es un proyecto similar para la red de Ethereum, mientras que Lumino es un proyecto de Ripple que busca implementar la tecnología de canales de estado en su red.
 
 En general, los canales de estado de criptomonedas son una tecnología en constante desarrollo y se espera que en el futuro se conviertan en una de las principales formas de realizar transacciones en el mundo de las criptomonedas.
