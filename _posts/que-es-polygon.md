@@ -7,7 +7,7 @@ tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_100609736.png
 rating: 4
-TotalVotes: 11
+TotalVotes: 12
 popular: false
 ref: matic
 lang: es
