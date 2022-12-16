@@ -15,9 +15,7 @@ popular: false
 ref: ssi
 lang: es
 ---
-<!--StartFragment-->
-
-la identidad soberana propia se refiere a un enfoque de la identidad digital en el que el usuario tiene el control total y la propiedad de sus datos de identidad y cómo se usan. Esto significa que el usuario puede decidir quién tiene acceso a sus datos de identidad y para qué se utilizan, y no depende de terceros para verificar o autenticar su identidad.
+La identidad soberana propia se refiere a un enfoque de la identidad digital en el que el usuario tiene el control total y la propiedad de sus datos de identidad y cómo se usan. Esto significa que el usuario puede decidir quién tiene acceso a sus datos de identidad y para qué se utilizan, y no depende de terceros para verificar o autenticar su identidad.
 
 Una de las principales ventajas de la identidad soberana propia es que le da al usuario un mayor control sobre su propia identidad y cómo se utiliza.
 
@@ -52,6 +50,6 @@ Algunas soluciones de identidad soberana propia son:
 1. **Sovrin**: Sovrin es una red descentralizada de identidad basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Sovrin para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
 2. **uPort**: uPort es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar uPort para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
 3. **Civic**: Civic es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Civic para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
-4. Blockpass: Blockpass es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Blockpass para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
+4. **Blockpass**: Blockpass es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Blockpass para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
 5. **Evernym**: Evernym es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Evernym para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
 6. **A﻿TALA PRISM:** Construido sobre la blockchain de Cardano, PRISM utiliza una combinación de blockchain, smart contracts y tecnologías criptográficas para permitir a individuos y organizaciones crear sus propias identidades digitales.
