@@ -1,21 +1,28 @@
 ---
-title: Qué es una frase mnemónica
-date: 2021-01-11 00:00:00 Z
-tags:
-- bitcoin
+totalVotes: 9
 layout: post
+published: true
+title: Qué es una frase mnemónica
+date: 2021-Jun-11
 description: Qué es una frase mnemónica o un seed y cómo de seguro es
+tags:
+  - bitcoin
 banner_image: 202101/mnemonic.webp
 rating: 5
-totalVotes: 9
+TotalVotes: 38
 popular: true
-lang: es
 ref: what-mnemonic
+lang: es
 ---
+Una frase mnemónica, también conocida como una semilla (seed), es un grupo de palabras que se utilizan como ayuda para la memoria para ayudar a una persona a recordar una información compleja o larga. Esta frase a menudo se utiliza para ayudar a las personas a recordar contraseñas.
 
-Para entender el concepto de frase mnemónica o seed primero debemos entender la diferencia entre wallet de custodia y de no custodia.
+U﻿na frase mnemónica podría tener este formato:
 
-<!--more-->
+> monitor umbrella replace fold autumn top until six glad lazy vocal buyer evolve coconut near brisk broccoli symbol nation debris blast undo prepare mom
+
+Las frases mnemónicas se utilizan comúnmente para ayudar a las personas a recordar las claves privadas de sus billeteras de criptomonedas.  Si una persona pierde su clave privada, ya no podrá acceder a su criptomoneda, por lo que es importante que recuerde su clave privada. Las frases mnemónicas pueden utilizarse para ayudar a las personas a recordar sus claves privadas, asegurando que no pierdan acceso a su criptomoneda.
+
+Para entender el concepto de frase mnemónica o seed y su uso en el mundo de las criptomonedas debemos entender la diferencia entre wallet de custodia y de no custodia.
 
 Un wallet de custodia es aquel en el que una empresa se encarga de almacenar nuestras claves privadas por nosotros. Esto significa que en realidad no poseemos nuestras criptomonedas si no que una empresa nos promete devolvernos nuestras criptomonedas cuando las pidamos exactamente igual que un banco que guarda nuestro dinero nos promete devolvernos nuestro dinero cuando lo requiramos.
 
