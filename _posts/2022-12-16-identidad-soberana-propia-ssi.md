@@ -1,35 +1,57 @@
 ---
+layout: post
 published: true
-title: Qué es Polygon (MATIC)
+netlifycms: true
+title: Identidad Soberana Propia (SSI)
 date: 2022-Dec-16
-description: Guía de Polygon
+description: Qué es el Self Sovereign Identity (SSI) casos de uso y ejemplos
 tags:
   - altcoins
-banner_image: /images/posts/image_2022-12-16_100609736.png
-rating: 4
-TotalVotes: 11
+  - technología
+banner_image: /images/posts/image_2022-12-15_153112423.png
+rating: 5
+TotalVotes: 2
 popular: false
-ref: matic
+ref: ssi
 lang: es
 ---
-Polygon, anteriormente conocido como Matic Network, es una plataforma descentralizada basada en la tecnología blockchain que se enfoca en resolver algunos de los problemas de escalabilidad y adopción de la cadena de bloques Ethereum. En este ensayo, exploraré en profundidad qué es Polygon y cómo funciona.
+<!--StartFragment-->
 
-En términos simples, Polygon es una red descentralizada que utiliza la tecnología blockchain para permitir la ejecución de contratos inteligentes y la creación de aplicaciones descentralizadas (dApps). A diferencia de otras redes blockchain, como Ethereum, Polygon se enfoca en mejorar la escalabilidad y reducir los costos de transacción, lo que lo hace más atractivo para los desarrolladores y usuarios.
+la identidad soberana propia se refiere a un enfoque de la identidad digital en el que el usuario tiene el control total y la propiedad de sus datos de identidad y cómo se usan. Esto significa que el usuario puede decidir quién tiene acceso a sus datos de identidad y para qué se utilizan, y no depende de terceros para verificar o autenticar su identidad.
 
-Una de las principales ventajas de Polygon es que utiliza un enfoque de "cadena lateral", lo que significa que se ejecuta junto a la cadena de bloques principal de Ethereum en lugar de ser una cadena de bloques independiente. Esto tiene varias ventajas:
+Una de las principales ventajas de la identidad soberana propia es que le da al usuario un mayor control sobre su propia identidad y cómo se utiliza.
 
-* Los desarrolladores pueden utilizar las herramientas y tecnologías de Ethereum para crear aplicaciones en Polygon, lo que **reduce la barrera de entrada** para los desarrolladores que ya están familiarizados con Ethereum.
-* Polygon puede aprovechar la seguridad y la descentralización de Ethereum, lo que lo hace **más seguro y resistente a ataques**.
-* Utiliza un enfoque de "cadenas ligeras" para mejorar la escalabilidad. En lugar de tener que procesar todas las transacciones en una sola cadena de bloques como Ethereum, Polygon utiliza un conjunto de "cadenas ligeras" paralelas para procesar transacciones. Esto significa que **Polygon puede manejar una mayor cantidad de transacciones por segundo que Ethereum**, lo que lo hace más atractivo para aplicaciones con una alta demanda de transacciones.
+Actualmente, muchos servicios en línea requieren que proporcionemos nuestros datos de identidad para poder utilizar sus servicios. Estos datos a menudo se almacenan en bases de datos centralizadas controladas por terceros, lo que significa que esos terceros tienen acceso a nuestros datos y pueden utilizarlos de cualquier manera que deseen. Esto puede ser preocupante desde el punto de vista de la privacidad, ya que no tenemos control sobre cómo se utilizan nuestros datos.
 
-Además, Polygon también ha implementado un sistema de "tarifas lógicas", que permite a los usuarios pagar por la ejecución de sus contratos inteligentes y aplicaciones descentralizadas en una moneda estable en lugar de la criptomoneda nativa de Polygon, lo que reduce la volatilidad y hace que la plataforma sea más atractiva para los usuarios.
+> Con la identidad soberana propia, en cambio, el usuario tiene el control total sobre sus datos de identidad y cómo se usan. Los datos de identidad se almacenan en una "cartera digital" controlada por el usuario, y el usuario decide quién tiene acceso a ellos y para qué se utilizan. Esto significa que el usuario tiene un mayor control sobre su privacidad y puede elegir compartir sus datos solo con aquellos a quienes desee.
 
-En términos de adopción, Polygon ha tenido un crecimiento sólido desde su lanzamiento en 2020. Actualmente, tiene más de 400 proyectos en su plataforma y ha atraído a algunas de las principales empresas de la industria, como Chainlink y Compound. Además, Polygon ha estado trabajando en colaboración con el gobierno de India para desarrollar soluciones de tecnología blockchain para el sector público y ha anunciado planes de expandirse a otros mercados emergentes en el futuro.
+Además, la identidad soberana propia también puede mejorar la seguridad en línea. Al almacenar los datos de identidad en una cartera digital controlada por el usuario en lugar de en una base de datos centralizada controlada por un tercero, se reduce el riesgo de que los datos sean comprometidos o robados. Si bien no hay garantía de que los datos almacenados en una cartera digital sean completamente seguros, el hecho de que el usuario tenga el control sobre ellos significa que puede tomar medidas adicionales para protegerlos, como utilizar contraseñas seguras y habilitar la autenticación de dos factores.
 
-Aunque Polygon todavía tiene algunos desafíos a los que enfrentarse, como cualquier proyecto de tecnología blockchain, es una plataforma emergente con un enfoque innovador y un gran potencial. Con su enfoque en la escalabilidad y la reducción de costos, Polygon es una opción atractiva para los desarrolladores y usuarios que buscan una plataforma descentralizada sólida y fiable. En resumen, Polygon es una plataforma descentralizada emergente que utiliza la tecnología blockchain para permitir la ejecución de contratos inteligentes y la creación de aplicaciones descentralizadas. Con su enfoque en la escalabilidad y la reducción de costos, Polygon es una opción atractiva para los desarrolladores y usuarios que buscan una plataforma descentralizada sólida y fiable.
+Otra ventaja de la identidad soberana propia es que puede **simplificar el proceso de verificación y autenticación de la identidad**. Actualmente, muchos servicios en línea requieren que proporcionemos documentos de identidad o realicemos pruebas de identidad para poder utilizar sus servicios. Esto puede ser un proceso tedioso y a veces frustrante, especialmente si necesitamos verificar nuestra identidad para muchos servicios diferentes.
 
-Es importante tener en cuenta que, aunque Polygon se ha posicionado como una plataforma de "segunda capa" para Ethereum, también es una red independiente con su propia comunidad y gobierno descentralizado. Esto significa que, aunque utiliza la tecnología de Ethereum y está diseñada para trabajar de forma complementaria con Ethereum, Polygon también tiene su propio conjunto de reglas y mecanismos de governanza.
+Con la identidad soberana propia, en cambio**, podemos verificar nuestra identidad una vez y luego utilizar nuestra cartera digital para demostrar nuestra identidad a cualquier servicio que necesite verificarla. Esto significa que no tenemos que proporcionar documentos de identidad cada vez que necesitamos acceder a un servicio en línea, lo que nos ahorra tiempo y esfuerzo.**
 
-En términos de gobierno descentralizado, Polygon utiliza un sistema de votación descentralizada basado en la participación para tomar decisiones importantes sobre la red. Los usuarios pueden participar en estas votaciones mediante el uso de su criptomoneda nativa, MATIC. Además, Polygon cuenta con un Consejo de Gobernadores, formado por representantes de la comunidad y empresas de la industria, que asesora al equipo de Polygon y toma decisiones sobre el rumbo de la red.
+Además, la identidad soberana propia también puede **mejorar la confianza en las transacciones en línea**. Al utilizar la identidad soberana propia para verificar la identidad de las personas involucradas en una transacción, podemos estar más seguros de que estamos tratando con individuos reales y no con impostores. Esto puede ser especialmente importante en transacciones financieras o comerciales, donde la confianza es esencial para garantizar la seguridad y el éxito de la transacción.
 
-En resumen, Polygon es una plataforma descentralizada emergente que utiliza la tecnología blockchain para permitir la ejecución de contratos inteligentes y la creación de aplicaciones descentralizadas. Con su enfoque en la escalabilidad y la reducción de costos, Polygon es una opción atractiva para los desarrolladores y usuarios que buscan una plataforma descentralizada sólida y fiable. Además, Polygon cuenta con un sistema de gobierno descentralizado y una comunidad activa y comprometida.
+### Desafíos
+
+Aunque la identidad soberana propia tiene muchas ventajas, también hay algunos desafíos a los que se enfrenta. Uno de los principales desafíos es el de la adopción. Aunque cada vez más servicios en línea están adoptando la identidad soberana propia, todavía hay muchos que no lo han hecho. Esto significa que, aunque podamos utilizar nuestra cartera digital para verificar nuestra identidad en algunos servicios, todavía tendremos que utilizar documentos de identidad o realizar pruebas de identidad en otros.
+
+Otro desafío es el de la comprensión. Aunque la identidad soberana propia es un concepto relativamente simple, todavía puede ser difícil de entender para algunas personas. Esto puede dificultar la adopción de la identidad soberana propia, ya que muchas personas pueden sentirse intimidadas por la tecnología o no saber cómo utilizarla.
+
+A pesar de estos desafíos, creo que la identidad soberana propia es un concepto importante y esencial para el futuro de la identidad digital. Al dar al usuario el control y la propiedad de sus datos de identidad y cómo se usan, la identidad soberana propia puede mejorar significativamente la privacidad y la seguridad en línea y promover la confianza en las transacciones en línea. Además, puede simplificar el proceso de verificación y autenticación de la identidad y ahorrarnos tiempo y esfuerzo.
+
+Aunque todavía hay algunos desafíos a los que se enfrenta la identidad soberana propia, creo que vale la pena luchar por ella. Con el tiempo, espero que la identidad soberana propia se convierta en una forma común y aceptada de verificar y autenticar la identidad en línea y que cada vez más servicios en línea adoptarán esta tecnología.
+
+En resumen, la identidad soberana propia es un concepto importante y esencial para el futuro de la identidad digital. Aunque todavía hay algunos desafíos a los que se enfrenta, creo que vale la pena luchar por ella y espero que, con el tiempo, se convierta en una forma común y aceptada de verificar y autenticar la identidad en línea.
+
+### Ejemplos
+
+Algunas soluciones de identidad soberana propia son:
+
+1. **Sovrin**: Sovrin es una red descentralizada de identidad basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Sovrin para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
+2. **uPort**: uPort es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar uPort para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
+3. **Civic**: Civic es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Civic para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
+4. Blockpass: Blockpass es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Blockpass para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
+5. **Evernym**: Evernym es una plataforma de identidad descentralizada basada en la tecnología blockchain que permite a los usuarios crear y gestionar su propia identidad digital. Los usuarios pueden utilizar Evernym para verificar su identidad y luego utilizar su cartera digital para demostrar su identidad a cualquier servicio que lo necesite.
+6. **A﻿TALA PRISM:** Construido sobre la blockchain de Cardano, PRISM utiliza una combinación de blockchain, smart contracts y tecnologías criptográficas para permitir a individuos y organizaciones crear sus propias identidades digitales.
