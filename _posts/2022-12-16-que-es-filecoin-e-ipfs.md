@@ -11,6 +11,7 @@ banner_image: /images/posts/image_2022-12-16_135620104.png
 rating: 5
 TotalVotes: 11
 popular: false
+ref: filecoin
 lang: es
 ---
 Filecoin es una red de almacenamiento descentralizada que utiliza el InterPlanetary File System (IPFS) para almacenar y compartir datos de manera distribuida. Está diseñado para ser una alternativa más segura y descentralizada a las soluciones de almacenamiento centralizado tradicionales como Google Drive o Dropbox.
