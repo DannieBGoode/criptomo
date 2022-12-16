@@ -2,7 +2,7 @@
 layout: post
 published: true
 netlifycms: true
-title: What is Polygon (Matic)
+title: What is Polygon (MATIC)
 date: 2022-Dec-16
 description: Guide of What Polygon (Matic) is.
 tags:
