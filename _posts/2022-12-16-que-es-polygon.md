@@ -1,5 +1,6 @@
 ---
 published: true
+netlifycms: true
 title: Qué es Polygon (MATIC)
 date: 2022-Dec-16
 description: Guía de Polygon
