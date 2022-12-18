@@ -20,6 +20,8 @@ Binance was founded in 2017 by Changpeng Zhao, a software developer and entrepre
 
 BNB was initially launched as an ERC-20 token on the Ethereum blockchain, but was later migrated to Binance's own blockchain, Binance Chain. The main use case for BNB is as a utility token for the Binance platform, allowing users to pay for fees on the exchange with a discount. The discount rate decreases over time, but as of 2021, BNB holders can still receive a 25% discount on trading fees when they use BNB to pay for them.
 
+![Changpeng Zhao](/images/posts/image_2022-12-18_203513523.png "Changpeng Zhao")
+
 In addition to being used as a utility token on Binance, BNB has also been integrated into a number of other platforms and services. These include payment processors, online marketplaces, and decentralized finance (DeFi) protocols. BNB has also been used as collateral for stablecoins and has been listed on a number of major cryptocurrency exchanges.
 
 One of the key features of BNB is its use in Binance's "Initial Exchange Offering" (IEO) process. IEOs are a form of crowdfunding in which a new cryptocurrency project raises funds by selling tokens on a cryptocurrency exchange. Binance has become one of the leading platforms for IEOs, and BNB is often used as the primary currency for these offerings. This has helped to drive demand for BNB and has contributed to its price appreciation over time.
