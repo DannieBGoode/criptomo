@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 netlifycms: true
 title: What is a Blockchain
 date: 2022-Dec-18
@@ -14,7 +14,7 @@ popular: false
 ref: blockchain
 lang: en
 ---
-Blockchain is a decentralized, distributed ledger technology that allows for secure, transparent and immutable record-keeping. It was first introduced in 2008 as the underlying technology for the cryptocurrency, Bitcoin, but has since been applied to a wide range of use cases  [beyond just digital c](https://criptomo.com/the-different-types-of-cryptocurrencies/)
+Blockchain is a decentralized, distributed ledger technology that allows for secure, transparent and immutable record-keeping. It was first introduced in 2008 as the underlying technology for the cryptocurrency, Bitcoin, but has since been applied to a wide range of use cases [beyond just digital cu﻿rrencies](https://criptomo.com/the-different-types-of-cryptocurrencies/).
 
 At its core, a blockchain is a digital database that is composed of a series of blocks. Each block contains a list of transactions, and once a block is full, it is added to the chain of blocks that make up the blockchain. The key feature of a blockchain is that it is decentralized, meaning that it is not controlled by a single entity or organization. Instead, it is maintained by a network of computers, also known as "nodes," that work together to validate and record transactions.
 
