@@ -2,7 +2,7 @@
 layout: post
 published: true
 netlifycms: true
-title: The different types of Cryptocurrencies
+title: The different types of cryptocurrencies
 date: 2022-Dec-18
 description: What types of cryptocurrencies are there
 tags:
