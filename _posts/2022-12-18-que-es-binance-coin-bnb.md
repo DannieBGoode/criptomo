@@ -7,7 +7,7 @@ date: 2022-Dec-18
 description: Guía sobre Binance coin (BNB) para principiantes
 tags:
   - altcoins
-banner_image: /images/posts/image_2022-12-18_203114841.png
+banner_image: /images/posts/image_2022-12-18_204018288.png
 rating: 4
 TotalVotes: 11
 popular: false
