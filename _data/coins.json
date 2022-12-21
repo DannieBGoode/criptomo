@@ -21,6 +21,17 @@
 		"ico-date-start": "2014-07-22",
 		"ico-date-end": "2014-08-30"
 	},
+	"sol": {
+		"name": "Solana (SOL)",
+		"website": "https://www.ethereum.org/",
+		"class": "dapps",
+		"symbol": "sol",
+		"description":    "Plataforma para crear y ejecutar contratos inteligentes, con cierta centralización y alta escalabilidad .",
+		"description-en": "Platform to create and execute smart contracts, with a higher centralization and scalability.",
+		"article": "/que-es-solana-sol/",
+		"article-en": "/what-is-solana-sol/",
+
+	},
 	"bch": {
 		"name": "Bitcoin Cash (BCH)",
 		"icon": "bch-64.png",
