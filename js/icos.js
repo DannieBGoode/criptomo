@@ -22,7 +22,7 @@ let table = $('#marketcaps-table').DataTable({
         if (coins[data] && coins[data].icon) {
           imageSrc = '/images/general/cryptocurrencies/' + coins[data].icon;
         } else {
-          imageSrc = 'https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/' + data + '.png';
+          imageSrc = iconsBaseUrl + data + '.png';
         }
         return '<div class="marketcaps-icon"><img alt="' + data + '" src="' + imageSrc + '" /></div>';
       },

@@ -482,6 +482,8 @@
 		"class": "storage",
 		"description": "Dropbox descentralizado.",
 		"description-en": "Decentralized dropbox.",
+		"article": "/que-es-filecoin-e-ipfs/",
+		"article-en": "/what-is-filecoin-and-ipfs/",
 		"ico-price": "5",
 		"ico-raised": "257000000"
 	},

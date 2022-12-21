@@ -20,9 +20,15 @@ let table = $('#marketcaps-table').DataTable({
       render: function ( data, type, row, meta ) {
         let imageSrc = '';
         if (coins[data]) {
-          imageSrc = '/images/general/cryptocurrencies/' + coins[data].icon;
+          if (coins[data].icon) {
+            imageSrc = '/images/general/cryptocurrencies/' + coins[data].icon;  
+          }
+          else {
+            imageSrc = iconsBaseUrl + coins[data].symbol + '.png';  
+          }
+          
         } else {
-          imageSrc = 'https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/' + data + '.png';
+          imageSrc = iconsBaseUrl + data + '.png';
         }
         return '<div class="marketcaps-icon"><img alt="' + data + '" src="' + imageSrc + '" /></div>';
       },

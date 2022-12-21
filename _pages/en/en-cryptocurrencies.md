@@ -5,6 +5,7 @@ layout: default
 description: Short description of over 100 cryptocurrencies and their use case.
 progress: true
 lang: en
+ref: cryptocurrencies
 redirect_from:
 - "/cryptocurrencies"
 - "/cryptocurrencies/"
@@ -45,7 +46,13 @@ redirect_from:
 				<div class="coinlist-box item {{ currency.class }}">
 				    <div class="coinlist-info">
 						<div class="coinlist-info-1">
-							<div class="coinlist-icon" style="background-image: url(/images/general/cryptocurrencies/{{ currency.icon }});"></div>
+							{% if currency.icon %}
+								{% assign displayImage = currency.icon | prepend: "/images/general/cryptocurrencies/" %}
+							{% else %}
+								{% assign displayImage = currency.symbol | prepend: site.iconsBaseUrl | append: ".png" %}
+							{% endif %}
+							<div class="coinlist-icon" style="background-image: url({{ displayImage }});"></div>
+							
 							<div class="coinlist-name"><h2>{{ currency.name }}</h2></div>
 						</div>
 						<div class="coinlist-info-2">

@@ -9,6 +9,7 @@ sitemap: true
 noMargins: true
 lang: en
 sidebar: false
+ref: marketcap
 redirect_from:
 - "/marketcaps"
 - "/marketcaps/"
@@ -60,6 +61,7 @@ redirect_from:
 
 <script>
     const coins = {{ site.data.coins | jsonify }};
+    const iconsBaseUrl = '{{ site.iconsBaseUrl }}';
 </script>
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>

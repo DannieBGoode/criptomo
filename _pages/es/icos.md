@@ -53,6 +53,7 @@ lang: es
 <script>
     const coins = {{ site.data.coins | jsonify }};
     const icos = {{ site.data.icos | jsonify }};
+    const iconsBaseUrl = '{{ site.iconsBaseUrl }}';
 </script>
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>

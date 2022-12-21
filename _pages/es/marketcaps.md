@@ -9,6 +9,7 @@ sitemap: true
 noMargins: true
 sidebar: false
 lang: es
+ref: marketcap
 ---
 
 <small class="error api-error">Error de conexión, tu Adblock bloquea la API de cotizaciones.</small>
@@ -57,6 +58,7 @@ lang: es
 
 <script>
     const coins = {{ site.data.coins | jsonify }};
+    const iconsBaseUrl = '{{ site.iconsBaseUrl }}';
 </script>
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
