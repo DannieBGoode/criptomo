@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es ChainLink
 date: 2022-Dec-22
-description: Que es ChainLink guía para principiantes
+description: Que es ChainLink guía para principiantes (LINK)
 tags:
   - altocoins
 banner_image: /images/posts/image_2022-12-22_095836174.png
