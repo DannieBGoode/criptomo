@@ -24,7 +24,7 @@ Nazarov se dio cuenta de que, **al utilizar oráculos, los contratos inteligente
 
 ChainLink fue diseñada para ser una red descentralizada de oráculos, lo que significa que no está controlada por una única entidad, sino que se basa en una red de nodos para proporcionar datos a los contratos inteligentes. Este diseño descentralizado ayuda a garantizar la seguridad y la fiabilidad de la red, ya que es menos vulnerable a puntos únicos de fallo o manipulación.
 
-ChainLink funciona mediante una red de nodos que son administrados por operadores independientes. Estos nodos son responsables de recuperar datos de fuentes externas y proporcionarlos a los contratos inteligentes que los soliciten. Los nodos son incentivados para proporcionar datos precisos y confiables a través de un sistema de recompensas y sanciones.
+> ChainLink funciona mediante una red de nodos que son administrados por operadores independientes. Estos nodos son responsables de recuperar datos de fuentes externas y proporcionarlos a los contratos inteligentes que los soliciten. Los nodos son incentivados para proporcionar datos precisos y confiables a través de un sistema de recompensas y sanciones.
 
 La red ChainLink utiliza un sistema de reputación para evaluar el rendimiento de los nodos y determinar sus recompensas. Los nodos que proporcionan datos de alta calidad de forma consistente son recompensados con LINK, la moneda nativa de la red ChainLink. Por otro lado, los nodos que proporcionan datos incorrectos o poco fiables son sancionados y pueden tener su reputación afectada de manera negativa.
 
