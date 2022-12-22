@@ -23,13 +23,46 @@
 	},
 	"sol": {
 		"name": "Solana (SOL)",
-		"website": "https://www.ethereum.org/",
+		"website": "https://solana.com/",
 		"class": "dapps",
 		"symbol": "sol",
 		"description":    "Plataforma para crear y ejecutar contratos inteligentes, con cierta centralización y alta escalabilidad .",
 		"description-en": "Platform to create and execute smart contracts, with a higher centralization and scalability.",
 		"article": "/que-es-solana-sol/",
 		"article-en": "/what-is-solana-sol/",
+
+	},
+	"matic": {
+		"name": "Polygon (Matic)",
+		"website": "https://polygon.technology/",
+		"class": "dapps",
+		"symbol": "matic",
+		"description":    "Plataforma que pretende solucionar los problemas de escalabilidad de Ethereum.",
+		"description-en": "Platform that intends to solve the scalability issues of Ethereum.",
+		"article": "/que-es-polygon/",
+		"article-en": "/what-is-polygon-matic/",
+
+	},
+	"shib": {
+		"name": "Shib (SHIB)",
+		"website": "https://shibatoken.com/",
+		"class": "currency",
+		"symbol": "shib",
+		"description":    "Memecoin para pagos.",
+		"description-en": "Memecoins for payments.",
+		"article": "/que-son-memecoins/",
+		"article-en": "/what-are-memecoins/",
+
+	},
+	"dot": {
+		"name": "Polkadot (DOT)",
+		"website": "https://polkadot.network",
+		"class": "network",
+		"symbol": "dot",
+		"description":    "Plataforma descentralizada que utiliza tecnología blockchain para permitir la creación de redes interconectadas e independientes.",
+		"description-en": "Decentralized Platform that intends to enable interconnected and independent blockchains.",
+		"article": "/que-es-polkadot-dot/",
+		"article-en": "/what-is-polkadot-dot/",
 
 	},
 	"bch": {
