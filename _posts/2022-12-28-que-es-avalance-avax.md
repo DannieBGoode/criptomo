@@ -2,9 +2,9 @@
 layout: post
 published: true
 netlifycms: true
-title: Que es Avalance (AVAX)
+title: Que es Avalanche (AVAX)
 date: 2022-Dec-28
-description: Guía para principiantes sobre Avalance AVAX
+description: Guía para principiantes sobre Avalanche AVAX
 tags:
   - altcoins
   - ""
