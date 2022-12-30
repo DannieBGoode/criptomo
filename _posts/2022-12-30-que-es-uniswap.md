@@ -2,7 +2,7 @@
 layout: post
 published: true
 netlifycms: true
-title: Que es uniswap
+title: Que es Uniswap
 date: 2022-Dec-30
 description: Explicación de qué es UNISWAP
 tags:
