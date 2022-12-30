@@ -15,7 +15,7 @@ popular: false
 ref: uniswap
 lang: es
 ---
-Uniswap es un protocolo de financiamiento descentralizado (DeFi) que permite a los usuarios intercambiar criptomonedas en la cadena de bloques Ethereum. Fue lanzado en noviembre de 2018 por Hayden Adams, un ingeniero de software y emprendedor, y desde entonces se ha convertido en uno de los protocolos DeFi más populares del mundo.
+[Uniswap](https://app.uniswap.org/)es un protocolo de financiamiento descentralizado (DeFi) que permite a los usuarios intercambiar criptomonedas en la cadena de bloques Ethereum. Fue lanzado en noviembre de 2018 por Hayden Adams, un ingeniero de software y emprendedor, y desde entonces se ha convertido en uno de los protocolos DeFi más populares del mundo.
 
 Una de las características clave de Uniswap es que es una plataforma descentralizada, lo que significa que no está controlada por una autoridad central o organización. En su lugar, está impulsada por contratos inteligentes, que son contratos auto ejecutables con los términos del acuerdo entre comprador y vendedor escritos directamente en líneas de código. Esto permite el comercio peer-to-peer sin confianza, sin la necesidad de una tercera parte que facilite la transacción.
 
