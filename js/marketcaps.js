@@ -185,7 +185,7 @@ let table = $('#marketcaps-table').DataTable({
 function marketcapTableLoad( currency ) {
   table.processing( true );
   marketcapCurrency = currency;
-  let getUrl = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=200&sort=rank&order=ascending&currency=' + currency
+  let getUrl = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=' + marketcapsCoinsLimit + '&sort=rank&order=ascending&currency=' + currency
   // let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
   marketcapDataArray = [];
 

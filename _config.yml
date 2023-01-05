@@ -30,6 +30,7 @@ baseurl-fr: "/fr"
 baseurl-de: "/de"
 imageurl: "/images/posts/"
 iconsBaseUrl: "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/"
+marketcapsCoinsLimit: "1000"
 repository: DannieBGoode/criptomo
 sass:
   style: compressed
