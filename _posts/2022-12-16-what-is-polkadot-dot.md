@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Polkadot (DOT)
 date: 2022-Dec-16
-description: guide about what polkadot (DOT) is
+description: Guide about what polkadot (DOT) is. Parachains. Substrate.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_102434620.png
@@ -15,6 +15,14 @@ ref: dot
 lang: en
 ---
 Polkadot is a decentralized platform that uses blockchain technology to enable the creation of interconnected, independent networks called "**parachains**." It was developed by the Web3 Foundation and has gained significant attention in the blockchain industry due to its innovative approach to scalability, interoperability, and governance. In this article, we will explore what Polkadot is, how it works, and its potential impact on the future of decentralized technology.
+
+### O﻿rigin
+
+Gavin Wood, a co-founder and the first CTO of Ethereum, played a key role in the development of the Ethereum network and the creation of the smart contract language Solidity. However, while these were major innovations at the time, it became apparent that Ethereum's all-purpose design imposed limitations on developers, such as high gas fees and a lack of core upgradeability. Blockchain frameworks that attempt to do everything on a single chain may be hindered by general design choices and make it difficult for developers to create specialized solutions.
+
+To further advance the capabilities of blockchain technology, Gavin left the Ethereum Foundation and started Parity. He led the development of the fastest Ethereum client at the time, as well as clients for Bitcoin and ZCash. This led to the creation of Polkadot, a new way of thinking about blockchains. Through his extensive experience in the industry, Gavin was able to envision new possibilities for blockchains, resulting in the development of Substrate, an open-source, future-proof framework that enables a multichain, interoperable, and decentralized internet with which he built Polkadot.
+
+### T﻿echnology
 
 At its core, Polkadot is a decentralized platform that allows for the creation of multiple blockchain networks, called "parachains," that can interact and interoperate with each other. These parachains can be used to build a wide range of decentralized applications (dApps) and services, such as decentralized finance (DeFi) platforms, identity systems, and supply chain solutions.
 
