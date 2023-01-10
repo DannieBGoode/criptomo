@@ -16,6 +16,14 @@ lang: es
 ---
 Polkadot es una plataforma descentralizada que utiliza tecnología blockchain para permitir la creación de redes interconectadas e independientes llamadas "**parachains**". Fue desarrollada por la Web3 Foundation y ha atraído mucha atención en la industria blockchain debido a su enfoque innovador en escalabilidad, interoperabilidad y gobernanza. En este artículo, exploraremos qué es Polkadot, cómo funciona y su posible impacto en el futuro de la tecnología descentralizada.
 
+### Origen
+
+Como cofundador y primer CTO de Ethereum, Gavin Wood desarrolló la red Ethereum y creó el lenguaje de contratos inteligentes, Solidity. Aunque fue una innovación en su momento, pronto quedó claro que la naturaleza "todo propósito" de Ethereum imponía restricciones duras a los desarrolladores, desde tarifas de gas elevadas hasta la falta de actualizabilidad en el núcleo. Los marcos de trabajo de blockchain que intentan hacer todo en una sola cadena están fundamentalmente limitados por elecciones de diseño genéricas y obligan a los desarrolladores a utilizar soluciones torpes en lugar de construir soluciones especializadas.
+
+Para impulsar los límites de la tecnología de blockchain, Gavin dejó la Fundación Ethereum y creó Parity, que implementó el cliente Ethereum más rápido en ese momento. En los primeros días de Parity, el equipo también construyó un cliente de Bitcoin y ZCash antes de avanzar a liderar Polkadot. Fue solo a través de toda esta experiencia profunda en la industria que las cadenas de bloques pudieron ser reimaginadas desde cero. Esto dio lugar a la creación de Substrate, un marco de código abierto y a prueba de futuro que alimenta una internet descentralizada, interoperable y multichain.
+
+### T﻿ecnología
+
 En su núcleo, Polkadot es una plataforma descentralizada que permite la creación de múltiples redes blockchain, llamadas "parachains", que pueden interactuar e interoperar entre sí. Estas parachains pueden usarse para construir una amplia gama de aplicaciones descentralizadas (dApps) y servicios, como plataformas de financiamiento descentralizado (DeFi), sistemas de identidad y soluciones de cadena de suministro.
 
 Una de las características clave de Polkadot es su enfoque en la escalabilidad. Utiliza un enfoque novel llamado "[sharding](https://criptomo.com/que-es-sharding/)", que le permite procesar transacciones en paralelo a través de múltiples parachains, mejorando la velocidad y eficiencia general de la plataforma. Además, Polkadot utiliza un sistema de "colaboradores" que son responsables de validar y organizar transacciones, lo que ayuda a reducir la carga en la red y mejorar su escalabilidad.
@@ -27,6 +35,8 @@ En términos de gobernanza, Polkadot utiliza un proceso de toma de decisiones de
 Hasta ahora, Polkadot ha obtenido una significante tracción en la industria blockchain y ha atraído a un número de proyectos y alianzas de alto perfil. También ha recibido un significativo financiamiento de empresas de capital de riesgo y cuenta con un equipo de desarrollo fuerte con una visión clara para el futuro.
 
 En resumen, Polkadot es una plataforma prometedora que tiene el potencial de tener un impacto significativo en el futuro de la tecnología descentralizada. Su enfoque en escalabilidad, interoperabilidad y gobernanza la diferencia de otras plataformas y la posiciona bien para desempeñar un papel líder en el desarrollo de la web descentralizada.
+
+### D﻿esafíos
 
 Sin embargo, cabe señalar que Polkadot es todavía una plataforma relativamente nueva y hay algunos desafíos que debe superar. Por ejemplo, necesitará seguir atrayendo a desarrolladores y usuarios a su plataforma, así como asegurar que su infraestructura pueda manejar un número cada vez mayor de transacciones. Además, necesitará mantener la seguridad y descentralización de su red, así como asegurar que sus mecanismos de gobernanza sean efectivos y transparentes.
 
