@@ -22,7 +22,7 @@ Another major feature of Algorand is its use of a technology called threshold si
 
 Algorand also has a unique feature called "atomic swap" which allows for a cross-chain swap of assets. It allows two parties to exchange two different assets, without the need for a trusted intermediary. This feature can be used to create decentralized marketplaces, where users can trade different assets without the need for a centralized exchange.
 
-One of the key benefits of Algorand is its ability to handle large numbers of transactions per second. Unlike Bitcoin and Ethereum, which can only handle a few transactions per second, Algorand is able to handle thousands of transactions per second. This makes it an ideal platform for decentralized applications that require high levels of scalability, such as online gaming, micropayments, and decentralized finance (DeFi) applications.
+One of the key benefits of Algorand is its ability to handle large numbers of transactions per second. Unlike Bitcoin and Ethereum, which can only handle a few transactions per second, Algorand is able to handle thousands of transactions per second. This makes it an ideal platform for decentralized applications that require high levels of scalability, such as online gaming, micropayments, and decentralized finance ([DeFi](https://criptomo.com/what-is-defi/)) applications.
 
 Another benefit of Algorand is its low transaction fees. Because the network is able to handle large numbers of transactions, the cost of each transaction is relatively low. This makes it an attractive option for businesses and developers looking to build decentralized applications that can handle large numbers of transactions without incurring high costs.
 
