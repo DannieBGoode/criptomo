@@ -71,19 +71,19 @@ function calculateEarnings() {
       .then((response) => {
         investment.currentPrice = response[investment.fiat];
         // bitcoin api
-        if (investment.tokenSymbol === 'BTC') {
-          fetch( 'https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.date + '&currency=' + investment.fiat)
-            .then(data => data.json())
-            .then((data) => {
-              investment.oldPrice = data.bpi[investment.date];
-              paintResults(investment);
-              loading('off');
-            })
-            .catch(function () {
-              handleError('date');
-              loading('off');
-            });
-        } else {
+        // if (investment.tokenSymbol === 'BTC') {
+        //   fetch( 'https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.date + '&currency=' + investment.fiat)
+        //     .then(data => data.json())
+        //     .then((data) => {
+        //       investment.oldPrice = data.bpi[investment.date];
+        //       paintResults(investment);
+        //       loading('off');
+        //     })
+        //     .catch(function () {
+        //       handleError('date');
+        //       loading('off');
+        //     });
+        // } else {
           // altcoin api
           fetch('https://min-api.cryptocompare.com/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
             .then(data => data.json())
@@ -102,7 +102,7 @@ function calculateEarnings() {
               handleError('date');
               loading('off');
             });
-        }
+        // }
       })
       .catch(function (data) {
         handleError('date');
