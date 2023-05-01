@@ -44,7 +44,7 @@ Moralis Money ofrece una amplia variedad de filtros para ayudarlo a refinar su b
 Algunos ejemplos de filtros que puede aplicar incluyen:
 
 * **Edad de la moneda**: Descubra monedas acuñadas dentro de un período específico.
-* **Puntuación de seguridad**: Identifique monedas con una puntuación de seguridad mínima para mayor seguridad. Esta puntuación se calcula utilizando \[Dext Tools]([](https://dextools.medium.com/)https://dextools.medium.com/comments-and-tips-about-dext-score-7f6cfd628ee2) y cuanto más alta sea, menos probable será que el proyecto termine siendo una estafa. También puede aplicar el filtro "Puntuación de seguridad" para que Token Explorer devuelva solo monedas menos riesgosas. Por ejemplo, puede centrarse en tokens con una puntuación de seguridad de 80 o más.
+* **Puntuación de seguridad**: Identifique monedas con una puntuación de seguridad mínima para mayor seguridad. Esta puntuación se calcula utilizando [Dext Tools](<* https://dextools.medium.com/comments-and-tips-about-dext-score-7f6cfd628ee2>) y cuanto más alta sea, menos probable será que el proyecto termine siendo una estafa. También puede aplicar el filtro "Puntuación de seguridad" para que Token Explorer devuelva solo monedas menos riesgosas. Por ejemplo, puede centrarse en tokens con una puntuación de seguridad de 80 o más.
 
 ![Dext Score](/images/posts/image_2023-05-01_203840667.png "Dext Score")
 
