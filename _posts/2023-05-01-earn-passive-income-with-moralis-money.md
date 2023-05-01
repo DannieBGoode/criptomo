@@ -12,7 +12,7 @@ popular: false
 ref: moralis-affiliate
 lang: en
 ---
-## [](https://github.com/MoralisWeb3/moralis-money-faq/blob/main/affiliates/welcome%20and%20faq.md#-what-is-moralis-money)🤔 What is Moralis Money?
+## [](https://github.com/MoralisWeb3/moralis-money-faq/blob/main/affiliates/welcome%20and%20faq.md#-what-is-moralis-money)🤔 What is [Moralis Money](https://affiliate.moralismoney.com/programs/moralis-money/signup/?via=3743234)?
 
 Moralis Money is the easiest way to discover undervalued coins before they pump or start trending on CoinGecko/Twitter. Moralis Money gives you all the information to see which coins are getting traction before anyone else.
 
@@ -22,7 +22,7 @@ Y﻿ou can earn money with it as a user or through affiliates.
 
 ## [](https://github.com/MoralisWeb3/moralis-money-faq/blob/main/affiliates/welcome%20and%20faq.md#-how-much-can-i-earn-can-i-really-become-financially-independent)💸 How much can I earn with affiliates? Can I really become financially independent?
 
-Moralis Money offers 30% lifetime commission on all revenue you refer.
+[Moralis Money](https://affiliate.moralismoney.com/programs/moralis-money/signup/?via=3743234) offers 30% lifetime commission on all revenue you refer.
 
 At the time of writing this FAQ Moralis Money offers the Pro plan for $97 per month.
 
@@ -97,13 +97,13 @@ Moralis Money provides three key features that create an easy workflow for findi
 1. Moralis Money is different from other on-chain analytics platforms because they give simple tools that unlock true alpha. The information they provide is easy to apply in the markets and integrate into your daily trading. **Other platforms that try to compete with us often waste your time with endless charts and other non-actionable on-chain data.**
 2. Moralis Money is made by people who have a good track record trading altcoins (for example Ivan on Tech was one of the first people to get into MATIC at just a few cents). **Other platforms that try to compete with us often are made by data-scientists without trading experience. Their tools don't help you become successful in crypto, they just provide information overload.**
 
-## [](https://github.com/MoralisWeb3/moralis-money-faq/blob/main/affiliates/welcome%20and%20faq.md#-why-should-i-become-a-moralis-money-affiliate)💰 Why should I become a Moralis Money affiliate?
+## [](https://github.com/MoralisWeb3/moralis-money-faq/blob/main/affiliates/welcome%20and%20faq.md#-why-should-i-become-a-moralis-money-affiliate)💰 Why should I become a [Moralis Money](https://affiliate.moralismoney.com/programs/moralis-money/signup/?via=3743234) affiliate?
 
 Moralis Money is a great tool helping thousands of people to navigate the crypto market.
 
 If you like helping and empowering people - you should tell them about Moralis Money and teach them how Moralis Money works.
 
-All traffic to the website helps to grow Moralis Money, expand the team and bring even more features that change the lives of our users.
+All traffic to the website helps to grow [Moralis Money](https://affiliate.moralismoney.com/programs/moralis-money/signup/?via=3743234), expand the team and bring even more features that change the lives of our users.
 
 Their  mission to help people navigate these markets and provide all the tools necessary to see opportunities as early as possible.
 
