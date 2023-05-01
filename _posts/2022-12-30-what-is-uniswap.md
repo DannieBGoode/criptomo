@@ -8,7 +8,7 @@ description: Guide explaining what is Uniswap
 tags:
   - altcoins
   - ethereum
-banner_image: /images/posts/image_2022-12-30_195405518.png
+banner_image: /images/posts/uniswap.webp
 rating: 5
 TotalVotes: 6
 popular: false
