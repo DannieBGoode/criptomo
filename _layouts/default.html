@@ -71,7 +71,7 @@ layout: compress
             {% if lang == 'es' %}
                 {% assign home = site.baseurl %}
             {% else %}
-                {% assign home = site.baseurl-en %}
+                {% assign home = site.baseurl | append: '\' | append: page.lang %}
             {% endif %}
             <span class="site-title"><a class="logo-text" href="{{ home }}/">{{site.title}}</a></span>
             <p class="site-description">
