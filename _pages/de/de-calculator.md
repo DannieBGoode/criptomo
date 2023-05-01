@@ -140,11 +140,7 @@ redirect_from:
         </p>
     </div>
 
-    {% if site.ads.stormgain %}
-        <div class="stormgain">
-            {% include cta.html href="https://go.stormgain.app/visit/?bta=112218&nci=5380" %}
-        </div>
-    {% endif %}
+    {% include cta.html %}
 
     {% include ads_calculator_banner.html %}
     

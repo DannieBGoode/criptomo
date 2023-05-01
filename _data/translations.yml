@@ -51,7 +51,7 @@
     "en": "Share",
     "es": "Compartir"
   },
-  "cta": {
+  "cta-stormgain": {
     "invest": {
       "en": "Invest in",
       "es": "Invierte en",
@@ -79,6 +79,29 @@
       "de": "Heute anfangen",
       "pt": "Começa hoje",
       "fr": "Commencez aujourd'hui"
+    }
+  },
+  "cta-moralis": {
+    "invest": {
+      "en": "Discover new coins before they pump x100",
+      "es": "Descubre nuevas monedas antes de que suban x100",
+      "de": "Entdecke neue Coins, bevor sie sich um das x100 fachen",
+      "pt": "Descubra novas moedas antes de bombearem x100",
+      "fr": "Découvrez de nouvelles pièces avant qu'elles ne pompent x100"
+    },
+    "title": {
+      "en": "Find undervalued Altcoins",
+      "es": "Encuentra altcoins infravaloradas",
+      "de": "Unterbewertete Altcoins finden",
+      "pt": "Encontrar altcoins subvalorizadas",
+      "fr": "Trouver des altcoins sous-évaluées"
+    },
+    "body": {
+      "en": "Moralis Money helps you find true alpha by finding promising altcoins before they explode in price.",
+      "es": "Moralis Money te ayuda a encontrar ganancias encontrando altcoins prometedoras antes de que exploten en precio.",
+      "de": "Moralis Money hilft Ihnen, Gewinne zu finden, indem Sie vielversprechende Altcoins entdecken, bevor sie im Preis explodieren.",
+      "pt": "Moralis Money ajuda você a encontrar lucros, descobrindo altcoins promissoras antes que explodam em preço.",
+      "fr": "Moralis Money vous aide à trouver des profits en découvrant des altcoins prometteuses avant qu'elles n'explosent en prix."
     }
   },
   "share-calculator": {

@@ -63,7 +63,11 @@ banner_image: images/banner.jpg
 ads:
   google: false
   ezoic: false
-  stormgain: true
+  stormgain: false
+  moralis: true
+affiliate:
+  stormgain: 'https://go.stormgain.app/visit/?bta=112218&nci=5380'
+  moralis: 'https://moralismoney.com/start?tap_a=129476-3421ca&ref=nzvlodi'
 mailchimp_url_es: https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c
 twitter_username: danniebgoode
 facebook_username: 

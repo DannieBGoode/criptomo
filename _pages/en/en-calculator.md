@@ -138,13 +138,7 @@ popular: true
         </p>
     </div>
 
-    {% if site.ads.stormgain %}
-        <div class="stormgain">
-            {% include cta.html href="https://go.stormgain.app/visit/?bta=112218&nci=5380" %}
-        </div>
-    {% endif %}
-
-    {% include ads_calculator_banner.html %}
+    {% include cta.html %}
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h4>Recommended Articles</h4>

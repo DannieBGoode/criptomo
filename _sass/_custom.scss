@@ -189,7 +189,12 @@ input:focus, select:focus {
 }
 @media (min-width: $small-screen-breakpoint) {
 	.mobile-only {
-		display: none;
+		display: none !important;
+	}
+}
+@media (max-width: $small-screen-breakpoint) {
+	.not-mobile-only {
+		display: none !important;
 	}
 }
 @media (max-width: $small-screen-breakpoint) {

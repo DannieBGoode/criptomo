@@ -1,7 +1,9 @@
 .stormgain {
   display: none;
   margin-bottom: 20px;
-
+  &.moralis {
+    display: block;
+  }
   .features__wallets {
     background: #303d5f;
     background-color: #303D5F;
