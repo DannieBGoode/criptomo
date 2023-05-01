@@ -8,7 +8,7 @@ description: Werden Sie Partner bei Moralis Money und helfen Sie Menschen, in
   Crypto erfolgreich zu sein.
 tags:
   - fi
-banner_image: /images/posts/image_2023-05-01_131446095.png
+banner_image: /images/posts/image_2023-05-01_131446095.webp
 popular: false
 ref: moralis-affiliate
 lang: de

@@ -7,7 +7,7 @@ date: 2023-May-01
 description: Become an affiliate on Moralis Money and help people succeed in Crypto.
 tags:
   - fi
-banner_image: /images/posts/image_2023-05-01_131446095.png
+banner_image: /images/posts/image_2023-05-01_131446095.webp
 popular: false
 ref: moralis-affiliate
 lang: en

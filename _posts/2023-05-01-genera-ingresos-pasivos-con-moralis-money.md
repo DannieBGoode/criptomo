@@ -8,7 +8,7 @@ description: Conviértete en un afiliado de Moralis Money y ayuda a la gente a
   encontrar altcoins
 tags:
   - fi
-banner_image: /images/posts/image_2023-05-01_131446095.png
+banner_image: /images/posts/image_2023-05-01_131446095.webp
 popular: false
 ref: moralis-affiliate
 lang: es
