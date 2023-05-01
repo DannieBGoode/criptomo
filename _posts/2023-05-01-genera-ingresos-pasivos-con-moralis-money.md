@@ -60,7 +60,7 @@ Por lo tanto, no tienes que vender mucho, ¡solo haz que prueben la versión gra
 
    Al final del día, se trata de construir algún tipo de audiencia o formar parte de una comunidad activa de comerciantes de altcoins.
 
-💷 ¿Qué pasa si el cliente actualiza su plan?
+## 💷 ¿Qué pasa si el cliente actualiza su plan?
 
 Todas las actualizaciones se cuentan en los ingresos que refieres.
 
