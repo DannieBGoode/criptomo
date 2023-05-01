@@ -44,7 +44,7 @@ Moralis Money provides an extensive array of filters to help refine your search 
 Examples of filters you can apply include:
 
 * **Coin Age**: Discover coins minted within a specific timeframe.
-* **Security Score**: Identify coins with a minimum security score for added safety. This score is calculated using [Dext Tools](https://dextools.medium.com/comments-and-tips-about-dext-score-7f6cfd628ee2) and the higher it is, the less probable it is that the project ends up being a scam.
+* **Security Score**: Identify coins with a minimum security score for added safety. This score is calculated using [Dext Tools](https://dextools.medium.com/comments-and-tips-about-dext-score-7f6cfd628ee2) and the higher it is, the less probable it is that the project ends up being a scam. You can also apply the “Security Score” filter to get Token Explorer to return only coins that are less risky. For instance, you can focus on tokens with a security score of 80 or higher
 
 ![Dext Score](/images/posts/image_2023-05-01_203840667.png "Dext Score")
 
@@ -53,7 +53,15 @@ Examples of filters you can apply include:
 
 Stay informed about new features and filters added to Moralis Money to enhance your search capabilities.
 
-### Step 3: Conduct Due Diligence with Additional Tools
+### S﻿tep 3: Set Token Alerts
+
+Once you connect your Web3 wallet (e.g., MetaMask) to Moralis Money, you can save your queries. Furthermore, the Token Alerts feature lets you stay up-to-date with on-chain changes via email. So, by setting up customizable alerts for your saved queries, you’ll be notified whenever a new coin matches your filters.
+
+R﻿emember to explore other Networks in addition to Ethereum, such as Binance, Polygon or Arbitrum.
+
+![](/images/posts/image_2023-05-01_204307345.png)
+
+### Step 4: Conduct Due Diligence with Additional Tools
 
 Once you have identified a promising coin on Moralis Money, it is crucial to conduct further research to evaluate its investment potential. Utilize tools like DexTools to analyze the coin's chart, liquidity, and security metrics, providing a more comprehensive understanding of the coin's performance and potential risks.
 
@@ -64,12 +72,24 @@ Consider the following factors during your research:
 * Distribution: Review the coin's distribution among its holders.
 * Trading History: Assess the coin's trading history for trends or anomalies.
 
-### Step 4: Manage Risk and Adopt a Long-Term Approach
+### Step 5: Manage Risk and Adopt a Long-Term Approach
 
 When using Moralis Money, prioritize long-term success and focus on mastering the tool before making trades. Implement risk management strategies to safeguard your investments. For instance, consider exiting a coin if its value decreases by more than 20%.
 
 Bear in mind that trading newly minted coins carries a high-risk, high-reward nature. While Moralis Money offers valuable metrics and tools for informed decision-making, always remain cognizant of the inherent risks associated with cryptocurrency trading.
 
-### Step 5: Upgrade to the Pro Plan for Advanced Features
+### Step 6: Upgrade to the Pro Plan for Advanced Features
 
-For access to lower time frame data and other advanced features on Moralis
+For access to lower time frame data and other advanced features on Moralis Money, consider upgrading to one of their pricing plans. There are three options available, each catering to different needs and budgets:
+
+Moralis Money Pricing Plans: Choose the Option That Best Suits Your Needs
+
+1. **Free Plan**: This plan is free of charge and offers access to the Moralis Money web application. Users can search for cryptocurrencies and view detailed information about them. However, early identification of cryptocurrencies is not included.
+2. **Pro Plan**: Priced at $97 per month, this plan provides access to all features of the Moralis Money web application, including early identification of cryptocurrencies. Users can also receive price alerts and access real-time market analysis.
+3. **Enterprise Plan**: At a cost of $1,497 per month, this plan offers all the features of the Pro Plan, plus access to a team of cryptocurrency experts who provide personalized advice. Users can also access advanced market analysis and receive customized alerts.
+
+As the cryptocurrency bull market returns, Moralis Money announces a price increase for its plans. The platform aims to make its paid features exclusive, as they are extremely valuable to users. A 50% increase in the monthly price, from $97 to $147, is announced when Bitcoin reaches $30,000. However, if you subscribe to the Pro Plan today, you will keep the current price as long as you maintain your subscription. Therefore, it's crucial to subscribe now if you're interested in the bull market and appreciate Moralis Money's product.
+
+### Conclusion
+
+Moralis Money offers a powerful and versatile platform for discovering and analyzing potential cryptocurrency investments. By applying filters, conducting thorough research, and managing risk, you can effectively navigate the world of cryptocurrencies and uncover hidden gems. As Moralis Money continues to evolve, stay up to date with new features and refine your strategies to make the most of this invaluable tool.
