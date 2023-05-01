@@ -34,12 +34,8 @@
         <footer class="post-card-meta">
 
             <p class="read-more read-more-grid">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="more-link right" title="Leer más">
-                {% if lang == 'en' %}
-                Read More
-                {% else %}
-                Leer más
-                {% endif %}
+                <a href="{{ site.baseurl }}{{ post.url }}" class="more-link right" title="{{ site.data.translations.read-more[page.lang] }}">
+                {{ site.data.translations.read-more[page.lang] }}
                 </a>
             </p>
 

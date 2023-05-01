@@ -15,8 +15,6 @@ lang: de
 css: calculator
 ref: calculator
 redirect_from:
-- "/de/"
-- "/de"
 - "/de/calculator/"
 ---
 

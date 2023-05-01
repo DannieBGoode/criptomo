@@ -1,19 +1,35 @@
 {
   "last-entries": {
     "en": 'Last entries',
+    "de": 'Letzte Einträge',
+    "fr": 'Dernières entrées',
+    "pt": 'Últimas entradas',
     "es": 'Últimas entradas'
   },
   "popular-entries": {
     "en": 'Most popular entries',
-    "es": 'Páginas más populares'
+    "de": 'Beliebteste Einträge',
+    "fr": 'Entrées les plus populaires',
+    "pt": 'Most popular entries',
+    "es": 'Entradas mais populares'
   },
   "previous-entries": {
     "en": 'Previous',
+    "de": 'Vorherige',
+    "fr": 'Précédent',
+    "pt": 'Anterior',
     "es": 'Anterior'
   },
   "next-entries": {
     "en": 'Next',
     "es": 'Siguiente'
+  },
+  "read-more": {
+    "en": 'Read',
+    "de": 'Lesen',
+    "fr": 'Lire',
+    "pt": 'Ler',
+    "es": 'Leer'
   },
   "subscribe": {
     "title": {
@@ -26,14 +42,23 @@
     },
     "sidebar-message": {
       "en": "Subscribe and don't miss any articles",
+      "de": "Abonnieren Sie und verpassen Sie keine Artikel",
+      "fr": "Abonnez-vous et ne manquez aucun article",
+      "pt": "Inscreva-se e não perca nenhum artigo",
       "es": "Suscríbete y no te pierdas ningún artículo"
     },
     "button": {
       "en": "Subscribe",
+      "de": "Abonnieren",
+      "fr": "S'abonner",
+      "pt": "Inscreva-se",
       "es": "Suscríbete"
     },
     "placeholder": {
       "en": "email address",
+      "de": "E-Mail-Adresse",
+      "fr": "Adresse e-mail",
+      "pt": "Endereço de e-mail",
       "es": "dirección de email"
     }
   },
