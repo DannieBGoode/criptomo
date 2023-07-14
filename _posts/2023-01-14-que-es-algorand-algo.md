@@ -7,7 +7,7 @@ date: 2023-Jan-14
 description: Guía sobre qué es Algorand para principiantes
 tags:
   - altcoins
-banner_image: /images/posts/image_2023-01-14_192102876.png
+banner_image: /images/posts/image_2023-01-14_192102876.webp
 popular: false
 ref: algorand
 lang: es
