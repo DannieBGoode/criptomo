@@ -8,7 +8,7 @@ description: Cómo usar Moralis money para encontrar 50-100x altcoins
 tags:
   - altcoins
   - trading
-banner_image: /images/posts/image_2023-05-01_202218914.png
+banner_image: /images/posts/image_2023-05-01_202218914.webp
 popular: false
 ref: moralis-guide
 lang: es

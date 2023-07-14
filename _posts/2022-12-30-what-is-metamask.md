@@ -8,7 +8,7 @@ description: Guide on how to use metamask
 tags:
   - altcoins
   - ""
-banner_image: /images/posts/image_2022-12-30_201743163.png
+banner_image: /images/posts/image_2022-12-30_201743163.webp
 rating: 4
 TotalVotes: 5
 popular: false
