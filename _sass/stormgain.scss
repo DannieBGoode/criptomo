@@ -1,9 +1,11 @@
 .stormgain {
   display: none;
   margin-bottom: 20px;
+  
   &.moralis {
     display: block;
   }
+  
   .features__wallets {
     background: #303d5f;
     background-color: #303D5F;
@@ -11,10 +13,12 @@
     background-repeat: no-repeat;
     background-position: bottom;
     margin-top: 30px;
+    
     .features__headline_container {
       display: flex;
       justify-content: space-between;
     }
+    
     .features__headline {
       display: inline-block;
       font-size: 1.25rem;
@@ -30,6 +34,7 @@
       transition: all 0.3s ease-in-out;
       text-align: center;
     }
+    
     .features__title {
       font-weight: 700;
       font-family: Montserrat,sans-serif;
@@ -38,8 +43,22 @@
       margin: 20px 0 6px;
       text-decoration: none;
       color:  white;
-      animation: color-change 2s infinite;
+      position: relative;
+      z-index: 1;
     }
+    
+    .features__title:before {
+      content: attr(data-text);
+      position: absolute;
+      color: $stormgain;
+      opacity: 0;
+      transition: opacity 2s infinite;
+    }
+    
+    .features__title:hover:before {
+      opacity: 1;
+    }
+    
     .features__text {
       font-size: 1rem;
       line-height: 1.375rem;
@@ -47,6 +66,7 @@
       text-decoration: none;
       color:  white;
     }
+    
     .features__link {
       display: block;
       font-size: .875rem;
@@ -60,18 +80,35 @@
       text-decoration: none;
       color: white;
     }
+    
     .stormgain-card {
       transition: font-size 0.3s;
       color: white;
       padding-left: 20px;
     }
   }
+  
   .features__item {
     border-radius: 12px;
     padding: 30px 28px;
     overflow: hidden;
     transition: transform .2s,box-shadow .2s;
-    animation: border-color-change 2s infinite;
+    position: relative;
+    
+    &:before {
+      content: "";
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      bottom: -1px;
+      left: -1px;
+      border: 1px solid $stormgain;
+      border-radius: inherit;
+      opacity: 0;
+      transition: opacity 2s infinite;
+      z-index: -1;
+    }
+    
     &:hover {
       transform: translateY(-2px);
       box-shadow: 0 3px 14px 3px rgba(0, 0, 0, 0.40);
@@ -80,24 +117,19 @@
         border-color: $stormgain;
         color: $stormgain;
       }
+      
       .features__link {
         color: $stormgain;
       }
+      
       .stormgain-card {
         color: $stormgain;
         font-size: 150%;
       }
+      
+      &:before {
+        opacity: 1;
+      }
     }
   }
-  @keyframes color-change {
-    0% { color: white; }
-    50% { color: $stormgain; }
-    100% { color: white; }
-  }
-  @keyframes border-color-change {
-    0% { border: 1px solid white; }
-    50% { border: 1px solid $stormgain; }
-    100% { border: 1px solid white; }
-  }
 }
-

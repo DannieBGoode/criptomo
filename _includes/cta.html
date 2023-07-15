@@ -33,29 +33,25 @@
 {% if site.ads.moralis %}
 
   <div class="stormgain moralis">
-    <a href="{{ site.affiliate.moralis }}" target="_blank" style="text-decoration: none;">
-      <div class="features__item features__wallets">
-<!--         <div class="features__headline_container">
-          <div class="features__headline">
-            {{ site.data.translations.cta-moralis.invest[lang] }}
+      <a href="{{ site.affiliate.moralis }}" target="_blank" style="text-decoration: none;">
+        <div class="features__item features__wallets">
+          <div class="features__title" data-text="{{ site.data.translations.cta-moralis.title[lang] }}">
+              {{ site.data.translations.cta-moralis.title[lang] }}
           </div>
-          <span class="icon-credit-card-alt stormgain-card"></span>
-        </div> -->
-        <div class="features__title">{{ site.data.translations.cta-moralis.title[lang] }}</div>
 
-        <p class="features__text">{{ site.data.translations.cta-moralis.body[lang] }}</p>
-        <p class="features__link">{{ site.data.translations.cta-stormgain.cta[lang] }} &gt;</p> 
+          <p class="features__text">{{ site.data.translations.cta-moralis.body[lang] }}</p>
+          <p class="features__link">{{ site.data.translations.cta-stormgain.cta[lang] }} &gt;</p> 
+        </div>
+      </a>
+      <div style="text-align: center; margin-top: 10%">
+        <a class="mobile-only" href="https://moralismoney.com/start?tap_a=129476-3421ca&ref=nzvlodi" target="_BLANK" rel="nofollow">
+          <img alt="moralis signup" src="/images/affiliate/moralis-mobile.png" border="0" width="300" height="100">
+        </a>
+
+        <a class="not-mobile-only" href="https://moralismoney.com/start?tap_a=129476-3421ca&ref=nzvlodi" target="_BLANK" rel="nofollow">
+          <img alt="moralis signup" src="/images/affiliate/moralis-mobile.png" border="0" width="300" height="100">
+        </a>
       </div>
-    </a>
-    <div style="text-align: center; margin-top: 10%">
-      <a class="mobile-only" href="https://moralismoney.com/start?tap_a=129476-3421ca&ref=nzvlodi" target="_BLANK" rel="nofollow">
-        <img alt="moralis signup" src="/images/affiliate/moralis-mobile.png" border="0" width="300" height="100">
-      </a>
-
-
-      <a class="not-mobile-only" href="https://moralismoney.com/start?tap_a=129476-3421ca&ref=nzvlodi" target="_BLANK" rel="nofollow">
-        <img alt="moralis signup" src="/images/affiliate/moralis-mobile.png" border="0" width="300" height="100">
-      </a>
-    </div>
   </div>
+
 {% endif %}
