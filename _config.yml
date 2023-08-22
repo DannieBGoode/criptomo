@@ -44,8 +44,6 @@ exclude:
 - package.json
 - node_modules
 - vendor
-analytics:
-  google: UA-110091733-1
 tag-manager: true
 tag-manager-id: GTM-TV5P5BH
 crypto:
