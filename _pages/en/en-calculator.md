@@ -153,20 +153,20 @@ popular: true
 
 
 
-## Bitcoin Calculator Tool Instructions / Crypto Calculator / Profit Loss Calculator
+# Bitcoin Calculator Tool Instructions / Crypto Calculator / Profit Loss Calculator
 
-### How to calculate your cryptocurrency profit / loss with the crypto profit calculator app and convert btc to fiat
+## How to Calculate Your Cryptocurrency Profit / Loss with the Crypto Profit Calculator App and Convert BTC to Fiat
 
-With this crypto profit calculator you can find out what profit loss you could have obtained by investing in Bitcoin and other cryptocurrencies in time. 
+With this crypto profit calculator, you can find out the profit or loss you could have obtained by investing in Bitcoin and other cryptocurrencies over time.
 
-In order to use this **bitcoin calculator** to find out your bitcoin profits (or other crypto profits / digital assets), please enter the initial investment you would like to calculate and choose the crypto you'd like to simulate to see the coin price and investment fee.
+To use this bitcoin calculator and determine your cryptocurrency profits (or other digital assets), enter the initial investment you want to calculate and select the cryptocurrency you want to simulate to see the coin price and investment fee.
 
-You can choose other cryptos not included in the dropdown but make sure to enter the exact ticket the crypto has. For example, instead of DOGECOIN type in **DOGE**, or instead of ETHEREUM enter **ETH**. It might be possible not all cryptocurrencies are covered by the API.
+You can choose other cryptocurrencies that are not included in the dropdown menu, but make sure to enter the exact ticker symbol for the crypto. For example, use "DOGE" instead of "DOGECOIN" or "ETH" instead of "ETHEREUM". Please note that not all cryptocurrencies may be covered by the API.
 
-When selecting the sale date, depending on the time it might not be possible to choose today if the markets have not yet been registered as closed. If so please choose Yesterday as the sale date.
+When selecting the sale date, keep in mind that you may not be able to choose today's date if the markets have not yet closed. In that case, select "Yesterday" as the sale date.
 
-The Bitcoin profit calculator will return the investment value and coin price both in profit percentage and absolute crypto profit gains.
+The Bitcoin profit calculator will provide the investment value and coin price both as a profit percentage and the absolute crypto profit gains.
 
-Again, it is possible that when simulating the gains of a cryptocurrency, a date prior to the creation of the cryptocurrency is chosen in the cryptocurrency calculator, if this is the case you will be indicated with an error message informing you that the selected date is not found in our history.
+Note that if you choose a date prior to the creation of a particular cryptocurrency, the cryptocurrency calculator may display an error message indicating that the selected date is not found in our historical data.
 
-In addition, with the bitcoin converter / profit loss calculator you can choose between euros (EUR) or dollars (USD) when calculating your crypto calculator profits / earnings or invesment exit fee from your cryptocurrency.
+Additionally, the bitcoin converter / profit loss calculator allows you to choose between euros (EUR) or dollars (USD) when calculating your crypto profits, earnings, or investment exit fees from your cryptocurrency.

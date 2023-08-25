@@ -153,22 +153,20 @@ lang: es
 
 ## Instrucciones de la calculadora de Bitcoin
 
-### Calculadora de bitcoin y criptomonedas / Conversor de criptomonedas
+La calculadora de bitcoin y criptomonedas te permite averiguar cuál habría sido tu beneficio si hubieras invertido en Bitcoin y otras criptomonedas a tiempo.
 
-Con está calculadora de ganancias crypto podrás averiguar qué beneficio podrías haber obtenido invirtiendo en Bitcoin y otras criptomonedas a tiempo.
+Para utilizar esta calculadora como simulador de ganancias, simplemente ingresa la inversión inicial que deseas calcular y elige la criptomoneda que deseas simular.
 
-Para utilizar esta calculadora de bitcoin como simulador de ganancias, ingresa la inversión inicial que deseas calcular y elije la criptomoneda que deseas simular.
+Puedes seleccionar otras criptomonedas que no estén incluidas en el menú desplegable de la calculadora, pero asegúrate de ingresar el código exacto de la criptomoneda que deseas simular. Por ejemplo:
 
-En la calculadora de criptomonedas puedes elegir otras criptomonedas no incluidas en el menú desplegable, pero asegúrate de ingresar el código exacto que tiene la criptomoneda a simular. Por ejemplo:
-- en lugar de DOGECOIN escribe **DOGE**.
-- en lugar de ETHEREUM introduce **ETH**.
-- en lugar de BITCOIN introduce **BTC**.
+- Para DOGECOIN, utiliza el código "DOGE".
+- Para ETHEREUM, utiliza el código "ETH".
+- Para BITCOIN, utiliza el código "BTC".
 
-Es posible que el servidor de la calculadora y conversor no cubra todas las criptomonedas.
+Ten en cuenta que es posible que la calculadora y el conversor no incluyan todas las criptomonedas disponibles.
 
-Al seleccionar en la calculadora de criptomonedas la fecha de venta, dependiendo de la hora, puede que no sea posible elegir hoy si los mercados aún no se han registrado como cerrados. Si es así, elije "Ayer" como fecha de venta.
+Al seleccionar la fecha de venta en la calculadora, es posible que no puedas elegir el día actual si los mercados aún no han cerrado. En ese caso, elige "Ayer" como fecha de venta.
 
-De nuevo, es posible que al simular las ganancias de una criptomoneda en la calculadora de criptomonedas se elija una fecha anterior a la creación de la criptomoneda, si se da este caso se te indicará con un mensaje de error informándote de que la fecha seleccionada no se encuentra en nuestro historial.
+Además, ten en cuenta que al simular las ganancias de una criptomoneda, es posible que elijas una fecha anterior a la creación de la misma. En caso de que esto ocurra, recibirás un mensaje de error indicando que la fecha seleccionada no está disponible en nuestro historial.
 
-Además con el conversor / calculadora bitcoin podrás elegir entre las monedas euros (EUR) o dólares (USD) a la hora de calcular tus ganancias de tu moneda.
-
+Por último, el conversor y la calculadora de bitcoin te permiten elegir entre las monedas euros (EUR) o dólares (USD) al calcular tus ganancias.
