@@ -1,6 +1,7 @@
 function updateSavingsRatio() {
 	document.getElementById("savings-ratio-text").innerHTML = document.getElementById("fi-savings-ratio").value;
 	document.getElementById("savings-ratio-yearly-text").innerHTML = document.getElementById("fi-salary").value * document.getElementById("fi-savings-ratio").value / 100 + " " + document.getElementById("fi-fiat").value;
+	document.getElementById("savings-ratio-monthly-text").innerHTML = Math.floor(parseInt(document.getElementById("savings-ratio-yearly-text").innerHTML) / 12);
 	document.querySelector(".active").classList.remove("active");
 	document.querySelector(".savings-" + document.getElementById("fi-savings-ratio").value).classList.add("active");
 }
@@ -12,6 +13,7 @@ function updateReturnsRatio() {
 function updateMonthlyRevenue() {
 	document.getElementById("monthly-salary-text").innerHTML = parseInt(document.getElementById("fi-salary").value / 12);
 	document.getElementById("savings-ratio-yearly-text").innerHTML = document.getElementById("fi-salary").value * document.getElementById("fi-savings-ratio").value / 100 + " " + document.getElementById("fi-fiat").value;
+	document.getElementById("savings-ratio-monthly-text").innerHTML = Math.floor(parseInt(document.getElementById("savings-ratio-yearly-text").innerHTML) / 12);
 }
 function updateCurrency() {
 	var currencyTexts = document.getElementsByClassName("currency-text");

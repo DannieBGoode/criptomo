@@ -52,7 +52,10 @@ ref: fire-calculator
         <div class="calculator-col-start">
             <label for="fi-salary">Yearly Income:</label>
             <div>
-                <small>( <span id="monthly-salary-text">2500</span> <span class="currency-text">USD</span> monthly)</small>
+                <small>( 
+                    <span id="monthly-salary-text">2500</span> 
+                    <span class="currency-text">USD</span> monthly)
+                </small>
             </div>
         </div>
         <div class="calculator-col-end InputAddOn">
@@ -64,7 +67,13 @@ ref: fire-calculator
             <div class="calculator-col-start">
                 <label for="fi-savings-ratio">Savings Rate:</label>
                 <div>
-                    <small>(<span id="savings-ratio-text">10</span>% savings: <span id="savings-ratio-yearly-text">1200 <span class="currency-text">USD</span></span> yearly)</small>
+                    <small>(
+                        <span id="savings-ratio-text">10</span>% savings: 
+                        <span id="savings-ratio-monthly-text">100 </span>
+                        <span class="currency-text">USD</span> monthly / 
+                        <span id="savings-ratio-yearly-text">1200 </span>
+                        <span class="currency-text">USD</span> yearly)
+                    </small>
                 </div>
             </div>
             <div class="calculator-col-end">
@@ -87,7 +96,7 @@ ref: fire-calculator
         <div class="calculator-col-start">
             <label for="fi-method">Retirement Method:</label>
             <div>
-                <small>(Desired Networth / SWR)</small>
+                <small>(Desired Networth / <a href="/what-is-fire-movement/">SWR</a>)</small>
             </div>
         </div>
         <div class="calculator-col-end">

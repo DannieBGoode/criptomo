@@ -59,10 +59,13 @@
 		#fi-results-table table {
 			border: 1px solid #ddd;
 			tbody {
+				tr:not(.active) {
+                	display: none;  // Hide rows that do not have the .active class
+            	}
 				tr {
 					&.active {
-						background-color: $picton-blue;
-						color: white;
+						// background-color: $picton-blue;
+						// color: white;
 					}
 					&:hover {
 						background-color: $picton-blue;

@@ -62,7 +62,13 @@ ref: fire-calculator
             <div class="calculator-col-start">
                 <label for="fi-savings-ratio">Tasa de Ahorro:</label>
                 <div>
-                    <small>( <span id="savings-ratio-text">10</span>% de ahorro: <span id="savings-ratio-yearly-text">1200 <span class="currency-text">EUR</span></span> anuales)</small>
+                    <small>( 
+                        <span id="savings-ratio-text">10</span>% de ahorro:
+                        <span id="savings-ratio-monthly-text">100 </span>
+                        <span class="currency-text">EUR</span> mensuales / 
+                        <span id="savings-ratio-yearly-text">1200 </span> 
+                        <span class="currency-text">EUR</span> anuales)
+                    </small>
                 </div>
             </div>
             <div class="calculator-col-end">
@@ -84,7 +90,7 @@ ref: fire-calculator
         <div class="calculator-col-start">
             <label for="fi-method">Método de retiro:</label>
             <div>
-                <small>(Patrimonio Deseado / SWR)</small>
+                <small>(Patrimonio Deseado / <a href="/que-es-fire/">SWR</a>)</small>
             </div>
         </div>
         <div class="calculator-col-end">
