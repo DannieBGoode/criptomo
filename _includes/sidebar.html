@@ -10,7 +10,7 @@
     {% if site.ads.moralis %}
         <section class="widget" style="height: auto">
             <a title="moralis money" href="https://moralismoney.com/start?tap_a=129476-3421ca&ref=nzvlodi" target="_BLANK" rel="nofollow">
-                <img alt="moralis signup" src="/images/affiliate/moralis-mobile.png" border="0" width="300" height="100">
+                <img alt="signup to moralis money to find altcoin gems" src="/images/affiliate/moralis-mobile.png" border="0" width="300" height="100">
                 <span style="position: absolute; overflow: hidden; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; padding: 0; border: 0;">Moralis Signup</span>
             </a>
         </section>
@@ -18,7 +18,7 @@
     {% endif %}
 
     <section class="widget widget-text marketcaps">
-        <h4 class="widget-title">Marketcaps</h4>
+        <p class="widget-title">Marketcaps</p>
 
         {% for currency in site.data.sidebar-currencies limit:5 %}
 
@@ -52,7 +52,7 @@
             {% if site.mailchimp_url_es %}
                 {% assign translations = site.data.translations.subscribe %}
             <section class="widget widget-newsletter">
-                <h4 class="widget-title">{{ site.title}} Newsletter</h4>
+                <p class="widget-title">{{ site.title}} Newsletter</p>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
                     <form action="{{ site.mailchimp_url_es }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -89,7 +89,7 @@
         {% endif %}
 
         <section class="widget widget-recent-posts">
-            <h4 class="widget-title">{{ site.data.translations.popular-entries[lang] }}</h4>
+            <p class="widget-title">{{ site.data.translations.popular-entries[lang] }}</p>
             <ul class="recent-posts">
                 {% assign i = 0 %}
                 {% assign pages = site.pages | where:"popular", true | where:"lang", lang %}
@@ -123,7 +123,7 @@
         </section><!-- .widget-recent-posts -->
 
         <section class="widget widget-recent-posts">
-            <h4 class="widget-title">{{ site.data.translations.last-entries[lang] }}</h4>
+            <p class="widget-title">{{ site.data.translations.last-entries[lang] }}</p>
             <ul class="recent-posts">
                 {% assign i = 0 %}
                 {% assign posts = site.posts | where:"lang", page.lang %}
@@ -146,7 +146,7 @@
         {% comment %}{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
         {% assign sortedTags = site_tags | split:',' | sort %}
         <section class="widget widget-tags">
-            <h4 class="widget-title">Tags</h4>
+            <p class="widget-title">Tags</p>
             <div class="tagcloud">
                 {% for tag in sortedTags %}
                 <a href="{{site.baseurl}}/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
