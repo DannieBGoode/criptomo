@@ -3,13 +3,25 @@
 {% if site.partytown %}
         <script src="js/public/partytown.js"></script>
         <!-- Partytown method -->
-        <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id={{ site.tag-manager-id }}"></script>
         <script type="text/partytown">
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '{{ site.tag-manager-id }}');
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                
+                var f = d.getElementsByTagName(s)[0];
+                var j = d.createElement(s);
+                var dl = l != 'dataLayer' ? '&l=' + l : '';
+                
+                j.defer = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', '{{ site.tag-manager-id }}');
         </script>
+
 <!-- End Partytown -->
 
 {% else %}
