@@ -1,16 +1,15 @@
 <!-- Google Tag Manager -->
 
 {% if site.partytown %}
-
-<!-- Partytown method -->
-  <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id={{ site.tag-manager-id }}"></script>
-  <script type="text/partytown">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', '{{ site.tag-manager-id }}');
-  </script>
+        <script src="js/public/partytown.js"></script>
+        <!-- Partytown method -->
+        <script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id={{ site.tag-manager-id }}"></script>
+        <script type="text/partytown">
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '{{ site.tag-manager-id }}');
+        </script>
 <!-- End Partytown -->
 
 {% else %}
