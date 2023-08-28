@@ -46,7 +46,7 @@ exclude:
 - vendor
 tag-manager: true
 tag-manager-id: GTM-TV5P5BH
-partytown: true
+partytown: false
 crypto:
   address:
     bitcoin: bc1qgjqj7du7h5mtvt4wq7q68uneyhyu0730f79g35
