@@ -6,14 +6,18 @@ function updateText(id, value) {
   getElementById(id).innerHTML = value;
 }
 
+function formatNumber(number) {
+  return number.toLocaleString('us-US');
+}
+
 function updateSavingsRatio() {
   const savingsRatio = getElementById("fi-savings-ratio").value;
   const salary = getElementById("fi-salary").value;
   const fiat = getElementById("fi-fiat").value;
 
   updateText("savings-ratio-text", savingsRatio);
-  updateText("savings-ratio-yearly-text", (salary * savingsRatio / 100) + " ");
-  updateText("savings-ratio-monthly-text", Math.floor((salary * savingsRatio / 100) / 12));
+  updateText("savings-ratio-yearly-text", formatNumber(salary * savingsRatio / 100));
+  updateText("savings-ratio-monthly-text", formatNumber(Math.floor((salary * savingsRatio / 100) / 12)));
 
   document.querySelector(".active").classList.remove("active");
   document.querySelector(".savings-" + savingsRatio).classList.add("active");
@@ -27,9 +31,9 @@ function updateMonthlyRevenue() {
   const salary = parseInt(getElementById("fi-salary").value);
   const yearlySavings = salary * getElementById("fi-savings-ratio").value / 100;
 
-  updateText("monthly-salary-text", salary / 12);
-  updateText("savings-ratio-yearly-text", yearlySavings);
-  updateText("savings-ratio-monthly-text", Math.floor(yearlySavings / 12));
+  updateText("monthly-salary-text", formatNumber(salary / 12));
+  updateText("savings-ratio-yearly-text", formatNumber(yearlySavings));
+  updateText("savings-ratio-monthly-text", formatNumber(Math.floor(yearlySavings / 12)));
 }
 
 function updateCurrency() {
@@ -47,7 +51,7 @@ function updateFIMethod() {
 }
 
 function updateYearlySpending(yearlySpending) {
-  updateText("monthly-income-text", (parseInt(yearlySpending.value) / 12).toFixed(2));
+  updateText("monthly-income-text", formatNumber((parseInt(yearlySpending.value) / 12).toFixed(2)));
 }
 
 function updateDesiredNetworth() {

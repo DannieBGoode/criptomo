@@ -50,7 +50,7 @@ ref: fire-calculator
         <div class="calculator-col-start">
             <label for="fi-salary">Ingresos Anuales:</label>
             <div>
-                <small>(<span id="monthly-salary-text">2500</span> <span class="currency-text">EUR</span> mensuales)</small>
+                <small>(<span id="monthly-salary-text">2.500</span> <span class="currency-text">EUR</span> mensuales)</small>
             </div>
         </div>
         <div class="calculator-col-end InputAddOn">
@@ -66,7 +66,7 @@ ref: fire-calculator
                         <span id="savings-ratio-text">10</span>% de ahorro:
                         <span id="savings-ratio-monthly-text">100 </span>
                         <span class="currency-text">EUR</span> mensuales / 
-                        <span id="savings-ratio-yearly-text">1200 </span> 
+                        <span id="savings-ratio-yearly-text">1.200 </span> 
                         <span class="currency-text">EUR</span> anuales)
                     </small>
                 </div>
