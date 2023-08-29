@@ -1,41 +1,55 @@
+function getElementById(id) {
+  return document.getElementById(id);
+}
+
+function updateText(id, value) {
+  getElementById(id).innerHTML = value;
+}
+
 function updateSavingsRatio() {
-	document.getElementById("savings-ratio-text").innerHTML = document.getElementById("fi-savings-ratio").value;
-	document.getElementById("savings-ratio-yearly-text").innerHTML = document.getElementById("fi-salary").value * document.getElementById("fi-savings-ratio").value / 100 + " " + document.getElementById("fi-fiat").value;
-	document.getElementById("savings-ratio-monthly-text").innerHTML = Math.floor(parseInt(document.getElementById("savings-ratio-yearly-text").innerHTML) / 12);
-	document.querySelector(".active").classList.remove("active");
-	document.querySelector(".savings-" + document.getElementById("fi-savings-ratio").value).classList.add("active");
+  const savingsRatio = getElementById("fi-savings-ratio").value;
+  const salary = getElementById("fi-salary").value;
+  const fiat = getElementById("fi-fiat").value;
+
+  updateText("savings-ratio-text", savingsRatio);
+  updateText("savings-ratio-yearly-text", (salary * savingsRatio / 100) + " ");
+  updateText("savings-ratio-monthly-text", Math.floor((salary * savingsRatio / 100) / 12));
+
+  document.querySelector(".active").classList.remove("active");
+  document.querySelector(".savings-" + savingsRatio).classList.add("active");
 }
 
 function updateReturnsRatio() {
-	document.getElementById("returns-ratio-text").innerHTML = document.getElementById("fi-investment-returns").value;
+  updateText("returns-ratio-text", getElementById("fi-investment-returns").value);
 }
 
 function updateMonthlyRevenue() {
-	document.getElementById("monthly-salary-text").innerHTML = parseInt(document.getElementById("fi-salary").value / 12);
-	document.getElementById("savings-ratio-yearly-text").innerHTML = document.getElementById("fi-salary").value * document.getElementById("fi-savings-ratio").value / 100 + " " + document.getElementById("fi-fiat").value;
-	document.getElementById("savings-ratio-monthly-text").innerHTML = Math.floor(parseInt(document.getElementById("savings-ratio-yearly-text").innerHTML) / 12);
+  const salary = parseInt(getElementById("fi-salary").value);
+  const yearlySavings = salary * getElementById("fi-savings-ratio").value / 100;
+
+  updateText("monthly-salary-text", salary / 12);
+  updateText("savings-ratio-yearly-text", yearlySavings);
+  updateText("savings-ratio-monthly-text", Math.floor(yearlySavings / 12));
 }
+
 function updateCurrency() {
-	var currencyTexts = document.getElementsByClassName("currency-text");
-	for (var i = 0; i < currencyTexts.length; i++) {
-   		currencyTexts[i].innerHTML = document.getElementById("fi-fiat").value;
-	}
+  const currency = getElementById("fi-fiat").value;
+  document.querySelectorAll(".currency-text").forEach(el => {
+    el.innerHTML = currency;
+  });
 }
+
 function updateFIMethod() {
-	let element = document.getElementById("fi-method");
-	if (element.checked) {
-		document.getElementById("fi-desired-networth").disabled = true;
-		document.getElementById("fi-yearly-spending").disabled = false;
-		document.getElementById("fi-swr").disabled = false;
-	} else {
-		document.getElementById("fi-desired-networth").disabled = false;
-		document.getElementById("fi-yearly-spending").disabled = true;
-		document.getElementById("fi-swr").disabled = true;
-	}	
+  const isChecked = getElementById("fi-method").checked;
+  getElementById("fi-desired-networth").disabled = isChecked;
+  getElementById("fi-yearly-spending").disabled = !isChecked;
+  getElementById("fi-swr").disabled = !isChecked;
 }
+
 function updateYearlySpending(yearlySpending) {
-	document.querySelector("#monthly-income-text").innerHTML = parseFloat(parseInt(yearlySpending.value) / 12).toFixed(2);
+  updateText("monthly-income-text", (parseInt(yearlySpending.value) / 12).toFixed(2));
 }
+
 function updateDesiredNetworth() {
 	let swr = document.getElementById("fi-swr").value;
 	let yearlySpending = document.getElementById("fi-yearly-spending");
