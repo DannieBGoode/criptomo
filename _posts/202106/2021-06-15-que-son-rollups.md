@@ -15,6 +15,8 @@ lang: es
 ---
 ¿Quieres saber todo sobre los roll ups? ¡Estás en el lugar correcto! En este artículo, te ofrecemos una guía completa sobre qué son los roll ups y cómo funcionan. 
 
+## Introducción a los roll ups
+
 Existen dos maneras de escalar un ecosistema de blockchain. En primer lugar se puede escalar la blockchain dándole una mayor capacidad, es decir, asegurándonos de que caben más transacciones por bloque.
 Esto se ha conseguido en el pasado mediante soluciones como SEGWIT para BTC, SHARDING para Ethereum, o sencillamente incrementando el tamaño de bloque, como hizo Bitcoin Cash (BCH).
 
@@ -22,15 +24,13 @@ El problema es que soluciones como SEGWIT son muy limitadas y no pueden consegui
 
 La segunda manera de mejorar la escalabilidad de una blockchain es mediante soluciones de segunda capa: En lugar de poner toda la información en la primera capa (el blockchain, on-chain), parte de la información y el trabajo de computación se mueve a cadenas alternativas (off-chain) que se sincronizan con la cadena principal. Esto se hace mediante un smart contract en el blockchain que únicamente se dedique a recibir ingresos y retiros y a verificar que todo lo que ocurra off-chain cumple las reglas consensadas. Verificar lo que ocurre off-chain es drásticamente más barato que realizar todas las operaciones que ocurren off-chain en el blockchain principal.
 
-Las tres principales técnicas de escalado en segunda capa de hoy en día son:
+Las **tres principales técnicas de escalado en segunda capa** de hoy en día son:
 
 * Los canales de estado
 * Las redes plasma
 * Los rollups
 
-Cada una de ellas tiene sus puntos fuertes y debilidades. En este artículo se revisarán los Rollups:
-
-## Rollups
+Cada una de ellas tiene sus puntos fuertes y debilidades. En este artículo se revisarán los Rollups.
 
 Las redes plasma y los canales de estado se consideran esquemas de segunda capa "enteros" en el sentido en que mueven tanto la información como la computación a cadenas secundarias off-chain.
 
@@ -45,6 +45,8 @@ Lo que queda en el blockchain principal es cierta información general y de veri
 Al existir esta información en el blockchain principal, cualquier persona puede verificar que un rollup ha funcionado de manera correcta y detectar posibles fraudes y en consecuencia se hacen más seguros.
 
 Además, esto permitirá que se puedan correr EVM (y en consecuencia smart contracts) dentro de los rollups en la segunda capa y mejorando enormemente la escalabilidad de la red.
+
+## Tipos de roll ups
 
 Existen dos tipos de Rollups:
 
