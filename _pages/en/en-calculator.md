@@ -138,7 +138,7 @@ popular: true
         </p>
     </div>
 
-    {% include cta.html %}
+    {% include ads_calculator_banner.html %}
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h4>Recommended Articles</h4>

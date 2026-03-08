@@ -162,13 +162,6 @@ function calculateEarnings() {
       recommendArticles(investData.tokenSymbol);  
     }
 
-    // Display Stormgain Ads 
-    // if (allowedCountry) {
-    //   document.querySelector('.stormgain').style.display = 'block';
-    // }
-    // else {
-    //   document.querySelector('.stormgain').style.display = 'none';
-    // }
   }
 
   function loading(state) {

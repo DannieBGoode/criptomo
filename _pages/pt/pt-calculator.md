@@ -141,7 +141,7 @@ redirect_from:
         </p>
     </div>
 
-    {% include cta.html %}
+    {% include ads_calculator_banner.html %}
 
 </div>
 
