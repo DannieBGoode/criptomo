@@ -139,7 +139,7 @@ lang: es
 
     </div>  
 
-    {% include cta.html %}
+    {% include ads_calculator_banner.html %}
 
     <div class="recommended-articles-wrapper" style="display: none">
         <h4>Artículos Recomendados</h4>
