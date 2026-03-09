@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "jekyll"
+gem "jekyll", "~> 4.3.4"
 gem "jekyll-sass-converter", "~> 2.0" # pin to libsass; Dart Sass (v3) rejects IE hacks in _jquery.dataTables.min.scss
 gem "bigdecimal" # required explicitly on Ruby 3.4+ for Liquid/Jekyll
 
