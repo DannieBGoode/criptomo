@@ -220,6 +220,18 @@ let table = $('#investment-table').DataTable({
   ]
 });
 
-if (window.location.search) {
-  preFill();
+function initInvestCalculator() {
+  if (window.location.search) {
+    preFill();
+  }
+}
+
+initInvestCalculator();
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    calculateEarnings: calculateEarnings,
+    initInvestCalculator: initInvestCalculator,
+    preFill: preFill
+  };
 }

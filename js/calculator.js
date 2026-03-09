@@ -1,4 +1,3 @@
-init();
 var firstTime = true;
 
 function preFill () {
@@ -179,32 +178,51 @@ function calculateEarnings() {
   }
 }
 
-let exampleCoins = document.querySelectorAll('.error.coin-error a');
+function initializeCalculatorExamples() {
+  let exampleCoins = document.querySelectorAll('.error.coin-error a');
+  let i;
 
-for(i = 0; i < exampleCoins.length; i++){ 
-  exampleCoins[i].addEventListener('click', function(event){
-    document.querySelector('.calculator-othercoins').value = this.innerText;
-    document.querySelector('.editable').value = this.innerText;
-    if (document.querySelector('.input-error')) {
-      document.querySelector('.input-error').classList.remove('input-error');  
-    }
-  });
-}
+  for (i = 0; i < exampleCoins.length; i++) {
+    exampleCoins[i].addEventListener('click', function(){
+      document.querySelector('.calculator-othercoins').value = this.innerText;
+      document.querySelector('.editable').value = this.innerText;
+      if (document.querySelector('.input-error')) {
+        document.querySelector('.input-error').classList.remove('input-error');
+      }
+    });
+  }
 
-let exampleDate = document.querySelectorAll('.error.date-error a');
+  let exampleDate = document.querySelectorAll('.error.date-error a');
 
-for(i = 0; i < exampleDate.length; i++){ 
-  exampleDate[i].addEventListener('click', function(event){
-    document.querySelector('#invest-date').value = this.innerText;
-    if (document.querySelector('.input-error')) {
-      document.querySelector('.input-error').classList.remove('input-error');  
-    }
-  });
+  for (i = 0; i < exampleDate.length; i++) {
+    exampleDate[i].addEventListener('click', function(){
+      document.querySelector('#invest-date').value = this.innerText;
+      if (document.querySelector('.input-error')) {
+        document.querySelector('.input-error').classList.remove('input-error');
+      }
+    });
+  }
 }
 
 function init() {
-  document.getElementById('invest-date').setAttribute('max', new Date().toISOString().split('T')[0]);
+  let investDate = document.getElementById('invest-date');
+  if (!investDate) {
+    return;
+  }
+  investDate.setAttribute('max', new Date().toISOString().split('T')[0]);
+  initializeCalculatorExamples();
   if (window.location.search) {
     preFill();
   }
+}
+
+init();
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    calculateEarnings: calculateEarnings,
+    init: init,
+    initializeCalculatorExamples: initializeCalculatorExamples,
+    preFill: preFill
+  };
 }

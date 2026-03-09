@@ -15,3 +15,9 @@ var changeTagSection = function () {
 };
 
 changeTagSection();
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    changeTagSection: changeTagSection
+  };
+}

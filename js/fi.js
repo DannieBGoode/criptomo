@@ -149,4 +149,23 @@ function calculateFI() {
 	}
 	
 }
-calculateFI();
+if (document.getElementById("fi-results-table")) {
+  calculateFI();
+}
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    calculateFI: calculateFI,
+    formatNumber: formatNumber,
+    getElementById: getElementById,
+    updateCurrency: updateCurrency,
+    updateDesiredNetworth: updateDesiredNetworth,
+    updateFIMethod: updateFIMethod,
+    updateMonthlyRevenue: updateMonthlyRevenue,
+    updateReturnsRatio: updateReturnsRatio,
+    updateSavingsRatio: updateSavingsRatio,
+    updateSWR: updateSWR,
+    updateText: updateText,
+    updateYearlySpending: updateYearlySpending
+  };
+}

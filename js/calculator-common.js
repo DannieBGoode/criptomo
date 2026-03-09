@@ -1,22 +1,31 @@
-// enable/disable dropdown with custom option
-document.querySelector('#invest-currency').addEventListener('change', function() {
+function syncEditableCoinInput() {
+  let editText = document.querySelector('.calculator-othercoins').value;
+  document.querySelector('.editable').value = editText;
+  document.querySelector('.calculator-othercoins').focus();
+}
+
+function handleInvestCurrencyChange() {
   var selected = document.querySelector('#invest-currency').selectedOptions[0].classList.value;
+  var otherCoinsInput = document.querySelector('.calculator-othercoins');
+  var otherCoinsContainer = document.querySelector('div.calculator-othercoins');
 
   if (selected === 'editable') {
-    document.querySelector('.calculator-othercoins').style.display = 'inline-block';
-    document.querySelector('div.calculator-othercoins').style.display = 'inline';
-
-    document.querySelector('.calculator-othercoins').addEventListener('keyup', function() {
-      let editText = document.querySelector('.calculator-othercoins').value;
-      document.querySelector('.editable').value = editText;
-      document.querySelector('.calculator-othercoins').focus()
-    });
+    otherCoinsInput.style.display = 'inline-block';
+    otherCoinsContainer.style.display = 'inline';
+    otherCoinsInput.addEventListener('keyup', syncEditableCoinInput);
   } else {
-    document.querySelector('.calculator-othercoins').style.display = 'none';
-    document.querySelector('.calculator-othercoins').value = '';
-    document.querySelector('div.calculator-othercoins').style.display = 'none';
+    otherCoinsInput.style.display = 'none';
+    otherCoinsInput.value = '';
+    otherCoinsContainer.style.display = 'none';
   }
-});
+}
+
+function initCalculatorCommon() {
+  var investCurrency = document.querySelector('#invest-currency');
+  if (investCurrency) {
+    investCurrency.addEventListener('change', handleInvestCurrencyChange);
+  }
+}
 
 
 // handle errors and apply red colors
@@ -49,4 +58,16 @@ function updateInputMinDate() {
   if (investDate.value < minDate) {
     investDate.value = minDate;
   }
+}
+
+initCalculatorCommon();
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    handleError: handleError,
+    handleInvestCurrencyChange: handleInvestCurrencyChange,
+    initCalculatorCommon: initCalculatorCommon,
+    syncEditableCoinInput: syncEditableCoinInput,
+    updateInputMinDate: updateInputMinDate
+  };
 }

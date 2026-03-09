@@ -29,59 +29,68 @@ var getAdsenseCode = function (element) {
 var loadAd = function () {
     (adsbygoogle = window.adsbygoogle || []).push({});
 };
-// On mobile we lazy loads ads
-if (mobileAndTabletcheck()) {
+function bootstrapAds() {
+    if (mobileAndTabletcheck()) {
+        window.addEventListener('scroll', function () {
+            var currentScroll = document.scrollingElement.scrollTop;
 
-    window.addEventListener('scroll', function (e) {
-        var currentScroll = document.scrollingElement.scrollTop;
+            for (var i = 0; i < elements.length; i++) {
+                var element = elements[i];
+                if ((currentScroll > element.getBoundingClientRect().top - 70)) {
 
-        for (var i = 0; i < elements.length; i++) {
-            var element = elements[i];
-            if ((currentScroll > element.getBoundingClientRect().top - 70)) {
+                    if (!googleAdScriptAppended) {
+                        googleAdScriptAppended = true;
+                        var scriptElement = document.createElement("script");
+                        scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+                        document.body.appendChild(scriptElement);
+                    }
 
-                if (!googleAdScriptAppended) {
+                    if (window.adsbygoogle && element && element.classList) {
+                        element.classList.remove('lazy-load-ad');
+                        element.classList.add('lazy-loaded-ad');
+                        element.innerHTML = getAdsenseCode(element);
+                        loadAd();
 
-                    googleAdScriptAppended = true;
-                    var scriptElement = document.createElement("script");
-                    scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-                    document.body.appendChild(scriptElement);
-                }
-
-                if (window.adsbygoogle && element && element.classList) {
-                    element.classList.remove('lazy-load-ad');
-                    element.classList.add('lazy-loaded-ad');
-                    element.innerHTML = getAdsenseCode(element);
-                    loadAd();
-
-                    elements = document.getElementsByClassName('lazy-load-ad');
+                        elements = document.getElementsByClassName('lazy-load-ad');
+                    }
                 }
             }
-        }
-    }, false);
-}
-// Desktop
-else {
-    googleAdScriptAppended = true;
-    var scriptElement = document.createElement("script");
-    scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-    document.body.appendChild(scriptElement);
+        }, false);
+    }
+    else {
+        googleAdScriptAppended = true;
+        var scriptElement = document.createElement("script");
+        scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+        document.body.appendChild(scriptElement);
 
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-1252171391624665",
-        enable_page_level_ads: true
-    });
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-1252171391624665",
+            enable_page_level_ads: true
+        });
 
-    for (var i = 0; i <= elements.length; i++) {
-        i = 0;
-        var element = elements[i];
+        for (var i = 0; i <= elements.length; i++) {
+            i = 0;
+            var element = elements[i];
 
-        if (window.adsbygoogle && element && element.classList) {
-            element.classList.remove('lazy-load-ad');
-            element.classList.add('lazy-loaded-ad');
-            element.innerHTML = getAdsenseCode(element);
-            loadAd();
+            if (window.adsbygoogle && element && element.classList) {
+                element.classList.remove('lazy-load-ad');
+                element.classList.add('lazy-loaded-ad');
+                element.innerHTML = getAdsenseCode(element);
+                loadAd();
 
-            elements = document.getElementsByClassName('lazy-load-ad');
+                elements = document.getElementsByClassName('lazy-load-ad');
+            }
         }
     }
+}
+
+bootstrapAds();
+
+if (typeof module !== 'undefined') {
+    module.exports = {
+        bootstrapAds: bootstrapAds,
+        getAdsenseCode: getAdsenseCode,
+        initAds: initAds,
+        loadAd: loadAd
+    };
 }

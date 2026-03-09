@@ -107,7 +107,7 @@ let articles = [
       "img": "https://criptomo.com/images/posts/202009/eth2.webp",
       "tags": "eth",
       "lang": "es"
-   },,
+   },
    {
       "url": "https://criptomo.com/what-is-new-in-ethereum-2/",
       "lastmod": "2017-12-26T00:00:00+00:00",
@@ -189,4 +189,11 @@ function recommendArticles(coin) {
     } else {
       document.getElementsByClassName("recommended-articles-wrapper")[0].style.display = "none";
     }
+}
+
+if (typeof module !== 'undefined') {
+   module.exports = {
+      articles: articles,
+      recommendArticles: recommendArticles
+   };
 }

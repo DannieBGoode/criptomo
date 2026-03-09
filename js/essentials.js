@@ -14,54 +14,58 @@ function docReady(fn) {
     }
 }
 
-// menu toggle
-var linkToggle = document.querySelectorAll('.js-toggle');
-for(i = 0; i < linkToggle.length; i++){
-  linkToggle[i].addEventListener('click', function(event){
-    event.preventDefault();
-    var container = document.getElementById(this.dataset.container);
-    if (!container.classList.contains('active')) {
-      container.classList.add('active');
-      container.style.height = 'auto';
-      var height = container.clientHeight + 'px';
-      container.style.height = '0px';
-      setTimeout(function () {
-        container.style.height = height;
-      }, 0);
-    } else {
-      container.style.height = '0px';
-      container.addEventListener('transitionend', function () {
-        container.classList.remove('active');
-      }, {
-        once: true
-      });
-    }
-  });
+function initializeMenuToggle() {
+  var linkToggle = document.querySelectorAll('.js-toggle');
+  for (var i = 0; i < linkToggle.length; i++) {
+    linkToggle[i].addEventListener('click', function(event){
+      event.preventDefault();
+      var container = document.getElementById(this.dataset.container);
+      if (!container.classList.contains('active')) {
+        container.classList.add('active');
+        container.style.height = 'auto';
+        var height = container.clientHeight + 'px';
+        container.style.height = '0px';
+        setTimeout(function () {
+          container.style.height = height;
+        }, 0);
+      } else {
+        container.style.height = '0px';
+        container.addEventListener('transitionend', function () {
+          container.classList.remove('active');
+        }, {
+          once: true
+        });
+      }
+    });
+  }
 }
 
-// progress bar
-if (document.getElementById("_progress")) {
-  document.addEventListener(
-    "scroll",
-    function() {
-      var scrollTop =
-        document.documentElement["scrollTop"] || document.body["scrollTop"];
-      var scrollBottom =
-        (document.documentElement["scrollHeight"] ||
-          document.body["scrollHeight"]) - document.documentElement.clientHeight;
-      var scrollPercent = scrollTop / scrollBottom * 100 + "%";
-        document
-          .getElementById("_progress")
-          .style.setProperty("--scroll", scrollPercent);
-    },
-    { passive: true }
-  );
+function updateProgressBar() {
+  var scrollTop =
+    document.documentElement.scrollTop || document.body.scrollTop;
+  var scrollBottom =
+    (document.documentElement.scrollHeight ||
+      document.body.scrollHeight) - document.documentElement.clientHeight;
+  var scrollPercent = scrollTop / scrollBottom * 100 + "%";
+  document
+    .getElementById("_progress")
+    .style.setProperty("--scroll", scrollPercent);
+}
+
+function initializeProgressBar() {
+  if (document.getElementById("_progress")) {
+    document.addEventListener(
+      "scroll",
+      updateProgressBar,
+      { passive: true }
+    );
+  }
 }
 
 // hides navigation-bar when scrolling down on mobile
 let hideNavigation = false;
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
+function handleNavigationScroll() {
   if ((mobileAndTabletcheck()) && hideNavigation) {
       var currentScrollPos = window.pageYOffset;
       if ((prevScrollpos >= currentScrollPos) || (currentScrollPos <= 800)) {
@@ -79,6 +83,7 @@ window.onscroll = function () {
       prevScrollpos = currentScrollPos;
   }
 }
+window.onscroll = handleNavigationScroll;
 
 
 // Date Months Format
@@ -96,4 +101,18 @@ Date.prototype.toShortFormat = function() {
 	let year = this.getFullYear();
 
 	return `${day}-${monthName}-${year}`;  
+};
+
+initializeMenuToggle();
+initializeProgressBar();
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    docReady: docReady,
+    handleNavigationScroll: handleNavigationScroll,
+    initializeMenuToggle: initializeMenuToggle,
+    initializeProgressBar: initializeProgressBar,
+    mobileAndTabletcheck: window.mobileAndTabletcheck,
+    updateProgressBar: updateProgressBar
+  };
 }

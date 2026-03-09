@@ -157,8 +157,11 @@ $('#marketcaps-pagelength-select').change(function () {
   table.page.len( pageLength ).draw();
 });
 
-$(document).ready(function () {
+function initIcosPage() {
   marketcapTableLoad();
+}
+$(document).ready(function () {
+  initIcosPage();
 });
 
 function generateCurrencyValueHtml( price, currency ) {
@@ -174,4 +177,12 @@ function generateCurrencyValueHtml( price, currency ) {
     symbol = price + '&nbsp;' + currency.toUpperCase();
   }
   return symbol;
+}
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    generateCurrencyValueHtml: generateCurrencyValueHtml,
+    initIcosPage: initIcosPage,
+    marketcapTableLoad: marketcapTableLoad
+  };
 }

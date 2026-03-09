@@ -82,4 +82,10 @@ function initImagePopup(elem){
 }
 
 // Start popup image function
-initImagePopup(".img-container") // elem = image container
+initImagePopup(".img-container"); // elem = image container
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    initImagePopup: initImagePopup
+  };
+}

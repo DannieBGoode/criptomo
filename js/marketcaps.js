@@ -266,7 +266,7 @@ $('#marketcaps-pagelength-select').change(function () {
   table.page.len( pageLength ).draw();
 });
 
-$(document).ready(function () {
+function initMarketcapsPage() {
   let selectedCurrency = '';
   if (isLocalStorageAvailable) {
     let criptomo = JSON.parse(localStorage.getItem('criptomo'));
@@ -276,6 +276,9 @@ $(document).ready(function () {
   }
   selectedCurrency = selectedCurrency || 'USD';
   marketcapTableLoad(selectedCurrency);
+}
+$(document).ready(function () {
+  initMarketcapsPage();
 });
 
 function generateCurrencyValueHtml( price, currency ) {
@@ -302,4 +305,13 @@ function isLocalStorageAvailable(){
     } catch(e) {
         return false;
     }
+}
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    generateCurrencyValueHtml: generateCurrencyValueHtml,
+    initMarketcapsPage: initMarketcapsPage,
+    isLocalStorageAvailable: isLocalStorageAvailable,
+    marketcapTableLoad: marketcapTableLoad
+  };
 }
