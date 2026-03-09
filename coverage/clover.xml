@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1773068067348" clover="3.2.0">
-  <project timestamp="1773068067349" name="All files">
+<coverage generated="1773068916937" clover="3.2.0">
+  <project timestamp="1773068916937" name="All files">
     <metrics statements="831" coveredstatements="542" conditionals="381" coveredconditionals="113" methods="140" coveredmethods="83" elements="1352" coveredelements="738" complexity="0" loc="831" ncloc="831" packages="1" files="15" classes="15"/>
     <file name="calculator-common.js" path="E:\Development\criptomo\criptomo\js\calculator-common.js">
       <metrics statements="37" coveredstatements="34" conditionals="14" coveredconditionals="8" methods="5" coveredmethods="5"/>
