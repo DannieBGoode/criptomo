@@ -10,13 +10,13 @@ function handleInvestCurrencyChange() {
   var otherCoinsContainer = document.querySelector('div.calculator-othercoins');
 
   if (selected === 'editable') {
-    otherCoinsInput.style.display = 'inline-block';
-    otherCoinsContainer.style.display = 'inline';
+    otherCoinsInput.classList.add('visible');
+    otherCoinsContainer.classList.add('visible');
     otherCoinsInput.addEventListener('keyup', syncEditableCoinInput);
   } else {
-    otherCoinsInput.style.display = 'none';
+    otherCoinsInput.classList.remove('visible');
     otherCoinsInput.value = '';
-    otherCoinsContainer.style.display = 'none';
+    otherCoinsContainer.classList.remove('visible');
   }
 }
 
@@ -32,17 +32,17 @@ function initCalculatorCommon() {
 function handleError(type) {
   if (type === 'currency') {
     document.querySelector('.calculator-othercoins').classList.add('input-error');
-    document.querySelector('.coin-error').style.display = 'block';
+    document.querySelector('.coin-error').classList.add('is-visible');
   } else {
     document.querySelector('#invest-date').classList.add('input-error');
-    document.querySelector('.date-error').style.display = 'block';
+    document.querySelector('.date-error').classList.add('is-visible');
     if (document.querySelector(".suggestedDate")) {
-      let suggestedDate = new Date()
+      let suggestedDate = new Date();
       suggestedDate.setDate(suggestedDate.getDate() - 1);
-      document.querySelector(".suggestedDate").innerHTML = suggestedDate.toISOString().split('T')[0];  
+      document.querySelector(".suggestedDate").innerHTML = suggestedDate.toISOString().split('T')[0];
     }
   }
-  document.querySelector('#calculator-results').style.display = 'none';
+  document.querySelector('#calculator-results').classList.remove('is-visible');
   
 }
 

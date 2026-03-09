@@ -9,7 +9,7 @@
         <div class="entry-header-wrap">
             <a href="{{site.baseurl}}{{post.url}}" title="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
                 {% if post.banner_image %}
-                <img src="{{ "/images/posts/" | append: post.banner_image | prepend: site.baseurl }}" class="post-thumbnail-full">
+                <img src="{{ "/images/posts/" | append: post.banner_image | prepend: site.baseurl }}" class="post-thumbnail-full" loading="lazy">
                 {% endif %}
                 <h2 class="entry-title">{{post.title}}</h2>
             </a>

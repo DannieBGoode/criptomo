@@ -1,3 +1,5 @@
+.hidden { display: none; }
+
 #calculator-results {
 	display: none;
     padding-top: 30px;
@@ -6,6 +8,7 @@
 		display: unset;
 	}
 }
+#calculator-results.is-visible { display: block; }
 
 .gained-percentage-positive {
 	color: green;
@@ -28,6 +31,8 @@ span.input-error {
 .calculator-othercoins {
     display: none;
 }
+input.calculator-othercoins.visible { display: inline-block; }
+div.calculator-othercoins.visible { display: inline; }
 
 .calculator-form-row {
     padding: 0;
@@ -206,8 +211,8 @@ input.calculator-othercoins {
     letter-spacing: 0.02em;
 }
 
-.calculator-affiliate-button {
-    display: flex !important;
+a.calculator-affiliate-button {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;

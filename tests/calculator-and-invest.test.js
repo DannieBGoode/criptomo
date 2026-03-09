@@ -6,7 +6,7 @@ describe('calculator.js and invest.js', () => {
     window.history.replaceState = jest.fn();
     global.handleError = jest.fn();
     global.recommendArticles = jest.fn();
-    Date.prototype.toShortFormat = jest.fn().mockReturnValue('1-Jan-2024');
+    global.toShortFormat = jest.fn().mockReturnValue('1-Jan-2024');
   });
 
   test('calculator.js computes and renders earnings', async () => {
@@ -43,7 +43,7 @@ describe('calculator.js and invest.js', () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    expect(document.querySelector('#calculator-results').style.display).toBe('block');
+    expect(document.querySelector('#calculator-results').classList.contains('is-visible')).toBe(true);
     expect(document.querySelector('.share-text').value).toContain('http://localhost/');
     expect(window.history.replaceState).toHaveBeenCalled();
     expect(global.recommendArticles).toHaveBeenCalledWith('BTC');

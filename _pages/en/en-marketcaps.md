@@ -13,6 +13,7 @@ ref: marketcap
 redirect_from:
 - "/marketcaps"
 - "/marketcaps/"
+jquery: true
 ---
 
 <small class="error api-error">Conexion error, your Adblock blocks the marketcaps API.</small>
@@ -53,17 +54,15 @@ redirect_from:
 	<a href="https://coinmarketcap.com/" rel="nofollow">More marketcaps</a>
 </div>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
-
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+<script defer src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+<script defer src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
+<script defer src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
 
 <script>
-    const coins = {{ site.data.coins | jsonify }};
-    const iconsBaseUrl = '{{ site.iconsBaseUrl }}';
-    const marketcapsCoinsLimit = '{{ site.marketcapsCoinsLimit }}';
+    var coins = {{ site.data.coins | jsonify }};
+    var iconsBaseUrl = '{{ site.iconsBaseUrl }}';
+    var marketcapsCoinsLimit = '{{ site.marketcapsCoinsLimit }}';
 </script>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/marketcaps.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="{{ site.baseurl }}/js/marketcaps.js?{{site.time | date: '%s%N'}}"></script>

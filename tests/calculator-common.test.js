@@ -26,7 +26,7 @@ describe('calculator-common.js', () => {
     document.querySelector('.calculator-othercoins').value = 'DOGE';
     document.querySelector('.calculator-othercoins').dispatchEvent(new KeyboardEvent('keyup'));
 
-    expect(document.querySelector('.calculator-othercoins').style.display).toBe('inline-block');
+    expect(document.querySelector('input.calculator-othercoins').classList.contains('visible')).toBe(true);
     expect(document.querySelector('.editable').value).toBe('DOGE');
   });
 
@@ -34,12 +34,12 @@ describe('calculator-common.js', () => {
     const calculatorCommon = loadModule('../js/calculator-common.js');
 
     calculatorCommon.handleError('currency');
-    expect(document.querySelector('.coin-error').style.display).toBe('block');
+    expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(true);
     expect(document.querySelector('.calculator-othercoins').classList.contains('input-error')).toBe(true);
 
     calculatorCommon.handleError('date');
-    expect(document.querySelector('.date-error').style.display).toBe('block');
-    expect(document.querySelector('#calculator-results').style.display).toBe('none');
+    expect(document.querySelector('.date-error').classList.contains('is-visible')).toBe(true);
+    expect(document.querySelector('#calculator-results').classList.contains('is-visible')).toBe(false);
     expect(document.querySelector('.suggestedDate').textContent).toMatch(/\d{4}-\d{2}-\d{2}/);
   });
 

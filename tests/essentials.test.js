@@ -43,6 +43,6 @@ describe('essentials.js', () => {
     essentials.updateProgressBar();
 
     expect(document.querySelector('#_progress').style.getPropertyValue('--scroll')).toBe('50%');
-    expect(new Date('2024-01-06').toShortFormat()).toBe('6-Jan-2024');
+    expect(essentials.toShortFormat(new Date('2024-01-06'))).toBe('6-Jan-2024');
   });
 });

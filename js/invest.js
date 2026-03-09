@@ -1,10 +1,10 @@
 let investment = {};
 
-Date.prototype.addDays = function(days) {
-    var date = new Date(this.valueOf());
-    date.setDate(date.getDate() + days);
-    return date;
-};
+function addDays(date, days) {
+    var result = new Date(date.valueOf());
+    result.setDate(result.getDate() + days);
+    return result;
+}
 
 function preFill () {
   const queryString = window.location.search;
@@ -37,14 +37,9 @@ function calculateEarnings() {
   if (document.querySelector('.input-error')) {
    document.querySelector('.input-error').classList.remove('input-error');  
   }
-  let errors = document.getElementsByClassName('error');
-    let i = 0;
-    while (errors.length > i) {
-       errors[i].style.display = 'none'  
-       i++;
-  }
+  Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
-  document.getElementById('calculator-results').style.display = 'none';
+  document.getElementById('calculator-results').classList.remove('is-visible');
   table.clear().draw();
   table.processing(true);
   investment = {
@@ -78,7 +73,7 @@ function calculateEarnings() {
 
         results[0].investmentValue = parseFloat(results[0].totalCC * data.bpi[dateFormatted]).toFixed(2);
 
-        date = date.addDays(investment.selectedInterval);
+        date = addDays(date, investment.selectedInterval);
         dateFormatted =  date.toISOString().split('T')[0];
 
         investmentDataArray.push(results[0]);
@@ -103,7 +98,7 @@ function calculateEarnings() {
               investmentDataArray.push(results[resultIndex]);
             }
 
-            date = date.addDays(investment.selectedInterval);
+            date = addDays(date, investment.selectedInterval);
             dateFormatted =  date.toISOString().split('T')[0];
         }
       }

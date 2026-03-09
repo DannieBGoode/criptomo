@@ -22,13 +22,13 @@
 
         {% endfor %}
 
-         <div style="text-align:right;font-size:14px">
-            {% if page.lang == 'en' %} 
+         <div class="sidebar-marketcaps-footer">
+            {% if page.lang == 'en' %}
                 {% assign marketcaps = '/marketcaps' %}
             {% else %}
                 {% assign marketcaps = '/cotizaciones' %}
             {% endif %}
-            <a href="{{ marketcaps }}" rel="nofollow" style="text-decoration: none">+ marketcaps</a>
+            <a href="{{ marketcaps }}" rel="nofollow">+ marketcaps</a>
         </div>
     </section>
 
@@ -51,7 +51,7 @@
                             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ translations.placeholder[lang] }}" required>
                             <div class="clear"><input type="submit" value="{{ translations.button[lang] }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                         </div>
-                        <div class="mc-field-group input-group" style="display:none">
+                        <div class="mc-field-group input-group hidden">
                             <strong>Language</strong>
                             <ul>
                                 {% if lang == 'en' %}

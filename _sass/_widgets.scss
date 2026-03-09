@@ -1,0 +1,109 @@
+/**
+ * 5. Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+.widget {
+    border-top: 2px solid $tundora;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.widget:first-child {
+    border-top: 0;
+    padding-top: 0;
+    @media only screen and (min-width: $small-screen-breakpoint) {
+        height: 450px;
+    }
+    @media only screen and (max-width: $small-screen-breakpoint) {
+        height: 300px;
+    }
+}
+
+.widget-title {
+    color: $silver;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.widget input[type="text"],
+.widget input[type="email"],
+.widget input[type="url"],
+.widget input[type="password"],
+.widget input[type="search"],
+.widget select,
+.widget textarea {
+    border: 0;
+    font-size: 14px;
+    width: 100%;
+}
+
+.widget button,
+.widget input[type="submit"],
+.widget input[type="button"],
+.widget input[type="reset"] {
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+
+.widget-recent-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget-recent-posts li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.widget-recent-posts a {
+    color: $white;
+    text-decoration: none;
+}
+
+.widget-recent-posts a:hover {
+    color: $picton-blue;
+}
+
+.widget-recent-posts span {
+    color: #818181;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.widget-tags a {
+    background-color: $tundora;
+    color: $silver;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 0 4px 8px 0;
+    padding: 6px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    @media (min-width: $small-screen-breakpoint) {
+        -webkit-transition: all 0.3s;
+        -moz-transition:    all 0.3s;
+        transition:         all 0.3s;
+    }
+}
+
+.widget-tags a:hover {
+    background-color: $picton-blue;
+    color: $white;
+}
+
+.widget-newsletter label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.widget-newsletter input[type="email"] {
+    display: block;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,66 @@
+/**
+ * 4. Site Footer
+ * ----------------------------------------------------------------------------
+ */
+
+.site-footer {
+    background-color: lighten( $mine-shaft, 4% );
+}
+
+.site-footer .inner {
+    position: relative;
+}
+
+.social-links {
+    border-bottom: 2px solid $tundora;
+    padding-bottom: 60px;
+    padding-right: 90px;
+    padding-top: 60px;
+    @media (max-width: $small-screen-breakpoint) {
+        text-align: center;
+    }
+}
+
+.social-links a {
+    float: left;
+    margin: 6px 3px 3px 0;
+    @media (max-width: $small-screen-breakpoint) {
+        float: none;
+    }
+}
+
+.site-info {
+    color: #666;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+    padding-right: 90px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.social-links + .site-info {
+    padding-right: 0;
+}
+
+.top-link {
+    cursor: pointer;
+}
+
+.site-info .top-link {
+    color: $white;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.social-links + .site-info .top-link {
+    top: 60px;
+}
+
+.site-info a {
+    text-decoration: none;
+}

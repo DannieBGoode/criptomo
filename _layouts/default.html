@@ -27,6 +27,11 @@ layout: compress
     {% endif %}
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    {% if page.jquery == true %}
+    <link rel="preload" href="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}" as="script" />
+    <script defer src="/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
+    {% endif %}
 </head>
 <body>
     {% if page.progress %}
@@ -95,11 +100,6 @@ layout: compress
 
     {% if page.layout == 'post' %}
     <script defer src="/js/post.js?{{site.time | date: '%s%N'}}"></script>
-    {% endif %}
-
-    {% if page.jquery == true %}
-    <link rel="preload" href="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}" as="script" />
-    <script defer src="/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
     {% endif %}
 
     {% include ads_adsense.html %}

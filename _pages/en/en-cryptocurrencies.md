@@ -9,6 +9,7 @@ ref: cryptocurrencies
 redirect_from:
 - "/cryptocurrencies"
 - "/cryptocurrencies/"
+jquery: true
 ---
 
 <div class="site-content">
@@ -75,6 +76,5 @@ redirect_from:
     </div><!-- .inner -->
 </div><!-- .site-content -->
 
-<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="{{ site.baseurl }}/js/filters.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script defer src="{{ site.baseurl }}/js/filters.js?{{site.time | date: '%s%N'}}"></script>

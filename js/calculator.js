@@ -23,8 +23,8 @@ function preFill () {
        || (token === 'XRP')) {
         document.getElementById('invest-currency').value = token;
       } else {
-        document.querySelector('.calculator-othercoins').style.display = 'inline-block';
-        document.querySelector('div.calculator-othercoins').style.display = 'inline';
+        document.querySelector('input.calculator-othercoins').classList.add('visible');
+        document.querySelector('div.calculator-othercoins').classList.add('visible');
         document.getElementsByClassName('calculator-othercoins ')[0].value = token;
         document.getElementById('invest-currency').getElementsByTagName('option')[document.getElementById('invest-currency').length - 1].selected = 'selected';
         let editText = document.querySelector('.calculator-othercoins').value;
@@ -43,7 +43,7 @@ function calculateEarnings() {
   var investment          = {
     date: document.getElementById("invest-date").value,
     oldValue: document.getElementById("invest-quantity").value,
-    tokenSymbol: String.prototype.toUpperCase.apply(document.getElementById("invest-currency").value.replace(/\s/g, '')),
+    tokenSymbol: document.getElementById("invest-currency").value.replace(/\s/g, '').toUpperCase(),
     tokenName: document.getElementById("invest-currency").options[document.getElementById("invest-currency").options.selectedIndex].innerHTML,
     fiat: document.getElementById("invest-fiat").value,
   };
@@ -55,12 +55,7 @@ function calculateEarnings() {
     var timestamp = Math.floor(new Date(newDate).getTime() / 1000 );
 
     document.querySelector(".input-error") ? document.querySelector(".input-error").classList.remove("input-error") : null;
-    let errors = document.getElementsByClassName('error');
-    let i = 0;
-    while (errors.length > i) {
-       errors[i].style.display = 'none'  
-       i++;
-    }
+    Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
     fetch('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
       .then(response => response.json())
@@ -108,20 +103,10 @@ function calculateEarnings() {
   }
 
   function modifyAllClassElementsText(className, text) {
-    let elements = document.querySelectorAll('.' + className);
-    let i = 0;
-    while (elements.length > i) {
-       elements[i].innerText = text;  
-       i++;
-    }
+    document.querySelectorAll('.' + className).forEach(el => { el.innerText = text; });
   }
   function modifyAllClassElementsClassName(className, newClassName) {
-    let elements = document.querySelectorAll('.' + className);
-    let i = 0;
-    while (elements.length > i) {
-       elements[i].className = newClassName;  
-       i++;
-    }
+    document.querySelectorAll('.' + className).forEach(el => { el.className = newClassName; });
   }
 
   function paintResults(investData) {
@@ -133,7 +118,7 @@ function calculateEarnings() {
     modifyAllClassElementsText('result-tokentype', investData.tokenSymbol);
     modifyAllClassElementsText('result-currentvalue', investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
     modifyAllClassElementsText('result-current-price', parseFloat(investData.currentPrice).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
-    modifyAllClassElementsText('result-date', new Date(investment.date).toShortFormat());
+    modifyAllClassElementsText('result-date', toShortFormat(new Date(investment.date)));
     modifyAllClassElementsText('result-invest', investData.oldValue + ' ' + document.getElementById('invest-fiat').value);// $('#invest-fiat').val());
 
     let change = '';
@@ -144,7 +129,7 @@ function calculateEarnings() {
       change = 'negative';
     }
     modifyAllClassElementsClassName('gained-percentage', 'gained-percentage gained-percentage-' + change);
-    document.getElementById('calculator-results').style.display = 'block';
+    document.getElementById('calculator-results').classList.add('is-visible');
 
     let newParams = '?invest='+ document.getElementById('invest-quantity').value 
                   + '&currency=' + document.getElementById('invest-fiat').value 
@@ -161,12 +146,12 @@ function calculateEarnings() {
   }
 
   function loading(state) {
-    if (state === 'on') {      
-      document.querySelector('.calculator-result-container').style.display = 'none'; 
-      document.querySelector('.calculator-loader-container').style.display = 'block';
+    if (state === 'on') {
+      document.querySelector('.calculator-result-container').classList.add('hidden');
+      document.querySelector('.calculator-loader-container').classList.add('is-loading');
     } else {
-      document.querySelector('.calculator-loader-container').style.display = 'none'; 
-      document.querySelector('.calculator-result-container').style.display = 'block';
+      document.querySelector('.calculator-loader-container').classList.remove('is-loading');
+      document.querySelector('.calculator-result-container').classList.remove('hidden');
       if (firstTime === true) {
         document.getElementById('calculator-results').scrollIntoView({behavior: 'smooth' });
         firstTime = false;

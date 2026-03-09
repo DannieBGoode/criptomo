@@ -1,0 +1,62 @@
+/**
+ * 1. Site Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.site-navigation {
+    background: lighten( $mine-shaft, 4% );
+}
+
+.site-navigation .inner {
+    position: relative;
+}
+
+.nav-menu {
+    padding-right: 60px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    float: left;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 16px 0;
+    position: relative;
+}
+
+.nav-menu a {
+    border-left: 2px solid $tundora;
+    color: #818181;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-menu li:first-child > a {
+    border-left: 0;
+    padding-left: 0;
+}
+
+.nav-menu li:hover > a,
+.nav-menu .nav-current > a {
+    color: $picton-blue;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.subscribe-button {
+    color: $white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

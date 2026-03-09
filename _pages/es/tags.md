@@ -4,6 +4,7 @@ permalink: "/tags/"
 layout: default
 sitemap: false
 lang: es
+jquery: true
 ---
 
 <div class="site-content">
@@ -45,5 +46,4 @@ lang: es
 </div><!-- .site-content -->
 
 
-<script src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
-<script src="{{ site.baseurl }}/js/tags.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="{{ site.baseurl }}/js/tags.js?{{site.time | date: '%s%N'}}"></script>

@@ -160,10 +160,14 @@ input:focus, select:focus {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.loader.is-loading { display: block; }
 .error {
 	display: none;
 	color: red;
 }
+.error.is-visible { display: block; }
+.sidebar-marketcaps-footer { text-align: right; font-size: 14px; }
+.donate-btc-icon { font-size: 20px; }
 .news-source {
 	text-align: right;
 	font-size: 80%;

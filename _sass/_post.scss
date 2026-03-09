@@ -1,0 +1,407 @@
+/**
+ * 3. Content
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-content,
+.entry-footer,
+.author-info,
+.comments-inner,
+.post-navigation .nav-inside {
+    margin: 0 auto;
+    max-width: 740px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+    margin-top: 36px;
+}
+
+.entry-content > h1:first-child,
+.entry-content > h2:first-child,
+.entry-content > h3:first-child,
+.entry-content > h4:first-child,
+.entry-content > h5:first-child,
+.entry-content > h6:first-child {
+    margin-top: 0;
+}
+
+.entry-content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word; /* IE */
+    display: inline;
+    display: -ms-inline-flexbox; /* IE */
+}
+
+/**
+ * 3.1 Posts and Pages
+ * ----------------------------------------------------------------------------
+ */
+
+.post {
+    background-color: $white;
+    padding-bottom: 40px;
+    margin-bottom: $block-separation-desktop;
+}
+
+.post.featured {
+    position: relative;
+}
+
+.post .featured-post {
+    background-color: lighten( $picton-blue, 11% );
+    color: $white;
+    font-size: 14px;
+    height: 30px;
+    left: 0;
+    line-height: 2.14286;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 30px;
+}
+
+.entry-header {
+    margin-bottom: 40px;
+}
+
+.entry-header-wrap {
+    overflow: hidden;
+    position: relative;
+    background-color: $picton-blue;
+}
+
+.post-thumbnail {
+    width: 100%;
+    height: 360px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-thumbnail-full {
+    width: 100%;
+}
+
+.entry-title {
+    background-color: $picton-blue;
+    clear: both;
+    color: $white;
+    float: left;
+    font-size: 36px;
+    margin: 60px 0 0;
+    max-width: 75%;
+    padding: 30px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.post-thumbnail + .entry-title {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.post-thumbnail-full + .entry-title {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.entry-title a {
+    color: $white;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    color: $white;
+}
+
+.entry-meta {
+    background-color: lighten( $picton-blue, 11% );
+    clear: both;
+    color: $white;
+    font-size: 12px;
+    float: left;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 16px 30px;
+    text-transform: uppercase;
+}
+
+.entry-meta a {
+    color: $white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.read-more {
+    margin-top: 40px;
+}
+.read-more-grid {
+    margin-top: 0px;
+}
+
+.read-more .more-link {
+    background-color: $picton-blue;
+    color: $white;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition:    background-color 0.3s;
+    transition:         background-color 0.3s;
+}
+
+.read-more .more-link:hover {
+    background-color: lighten( $picton-blue, 11% );
+}
+
+.entry-footer {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* Author box */
+.author-box {
+    background-color: $white;
+    margin-bottom: $block-separation-desktop;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    @media (max-width: $small-screen-breakpoint) {
+        text-align: center;
+    }
+}
+
+.post + .author-box {
+    margin-top: -40px;
+}
+
+.author-info {
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 85px;
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+.author-details {
+    padding-left: 120px;
+}
+
+.author-info .author-avatar {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 85px;
+    float: left;
+    margin-right: 30px;
+    width: 85px;
+}
+
+.author-info .author-title {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.author-location,
+.author-website,
+.author-stats {
+    color: $silver;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.author-website a {
+    color: $silver;
+}
+
+.author-website a:hover {
+    color: $picton-blue;
+}
+
+/* Tags archive */
+.archive-tags-list {
+    margin-bottom: 24px;
+}
+
+.archive-tags-list a,
+a.archive-top-link {
+    background-color: $gallery;
+    color: #818181;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 4px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    transition:         all 0.3s;
+}
+
+.archive-tags-list a {
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+
+a.archive-top-link {
+    font-size: 11px;
+}
+
+.archive-tags-list a:hover,
+a.archive-top-link:hover {
+    background-color: $picton-blue;
+    color: $white;
+}
+
+.archive-posts-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.archive-posts-list li {
+    margin-bottom: 5px;
+}
+
+.archive-meta {
+    color: #818181;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+/**
+ * 3.2 Comments
+ * ----------------------------------------------------------------------------
+ */
+
+.comments-area {
+    background-color: $white;
+    margin-bottom: $block-separation-desktop;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+.comments-title {
+    border-bottom: 2px solid $gallery;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+/**
+ * 3.3 Post/Paging Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.pagination,
+.post-navigation {
+    margin-bottom: $block-separation-desktop;
+}
+
+.pagination {
+    background-color: lighten( $mine-shaft, 4% );
+    color: #818181;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 15px 60px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newer-posts,
+.older-posts {
+    color: $white;
+    position: absolute !important;
+    top: 0;
+}
+
+.newer-posts {
+    left: 0;
+}
+
+.older-posts {
+    right: 0;
+}
+
+.post + .post-navigation {
+    margin-top: -20px;
+}
+
+.post-navigation .nav-next,
+.post-navigation .nav-previous {
+    background-color: $tundora;
+    border-left: 3px solid $picton-blue;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.post-navigation .nav-thumb {
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 260px;
+}
+
+.post-navigation .nav-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.16667;
+    margin-bottom: 5px;
+    margin-right: 240px;
+}
+
+.post-navigation .nav-title a {
+    color: $white;
+    text-decoration: none;
+}
+
+.post-navigation .nav-title a:hover {
+    color: $picton-blue;
+}
+
+.post-navigation .nav-before,
+.post-navigation .nav-date {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-right: 240px;
+    text-transform: uppercase;
+    color: $post-navigation-date;
+}
+
+.post-navigation .nav-before {
+    color: $silver;
+    margin-bottom: 15px;
+}

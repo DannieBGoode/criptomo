@@ -1,0 +1,338 @@
+/**
+ * 6. Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+@media only screen and (max-width: 1260px) {
+    .full-width {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .sidebar,
+    .site-main {
+        float: none;
+        margin-bottom: 60px;
+        width: auto;
+    }
+
+    .post,
+    .author-box,
+    .comments-area,
+    .pagination,
+    .post-navigation {
+        margin-bottom: 30px;
+    }
+
+    .post + .author-box,
+    .post + .post-navigation {
+        margin-top: -10px;
+    }
+
+    .widget {
+        text-align: center;
+    }
+
+    .widget-title:after {
+        content: " —";
+    }
+
+    .widget form {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: $menu-jump-breakpoint) {
+    .site-navigation,
+    .site-header,
+    .site-content,
+    .site-footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .site-header {
+        padding-bottom: 60px;
+        padding-top: 48px;
+    }
+
+    .post,
+    .author-box,
+    .comments-area,
+    .pagination,
+    .post-navigation,
+    .post-navigation .nav-next,
+    .post-navigation .nav-previous {
+        margin-bottom: $block-separation-mobile;
+    }
+
+    .post + .author-box,
+    .post + .post-navigation {
+        margin-top: 0;
+    }
+
+    .nav-menu {
+        background-color: #2d2d2d;
+        clear: left;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .toggle-container {
+        transition: height 0.35s ease-in-out;
+        overflow: hidden;
+    }
+    .toggle-container:not(.active) {
+        display: none;
+    }
+
+    .nav-menu li {
+        border-bottom: 2px solid lighten( $mine-shaft, 4% );
+        display: block;
+        float: none;
+        padding: 0;
+    }
+
+    .nav-menu li:last-child {
+        border-bottom: 0;
+    }
+
+    .nav-menu a {
+        border-left: 0;
+        padding: 15px 0;
+    }
+
+    #menu-toggle {
+        background-color: transparent;
+        border: 0;
+        color: #818181;
+        display: block;
+        float: left;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 0;
+        position: relative;
+    }
+
+    #menu-toggle:hover,
+    #menu-toggle:focus {
+        background-color: transparent;
+    }
+
+    #menu-toggle:before {
+        content: "\e9bd";
+        font-family: 'icomoon' !important;
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        left: 0;
+        line-height: 1.85714;
+        position: absolute;
+        speak: none;
+        text-transform: none;
+        top: 12px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    #menu-toggle.toggled-on {
+        color: lighten( $picton-blue, 11% );
+    }
+
+    #menu-toggle.toggled-on:before {
+        content: "\ea0f";
+    }
+
+    .post-thumbnail {
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 100%;
+    }
+
+    h1,
+    .site-title {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .alignleft,
+    .alignright {
+        float: none;
+        margin: 6px 0 24px;
+        max-width: none;
+    }
+
+    .site-description {
+        max-width: none;
+    }
+
+    .entry-title {
+        font-size: 28px;
+        padding: 20px 15px 15px 20px;
+    }
+
+    .entry-meta {
+        padding: 15px 15px 15px 20px;
+    }
+
+    .post-thumbnail {
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .post-navigation .nav-next,
+    .post-navigation .nav-previous {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .post-navigation .nav-thumb {
+        width: 200px;
+    }
+
+    .post-navigation .nav-title,
+    .post-navigation .nav-before,
+    .post-navigation .nav-date {
+        margin-right: 200px;
+    }
+
+    .post-navigation .nav-title {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2,
+    .site-title {
+        font-size: 24px;
+    }
+
+    h3,
+    .entry-title {
+        font-size: 20px;
+    }
+
+    h4,
+    blockquote {
+        font-size: 18px;
+    }
+
+    h5,
+    h6 {
+        font-size: 14px;
+    }
+
+    blockquote {
+        padding-left: 15px;
+    }
+
+    .entry-content,
+    .entry-footer,
+    .author-info,
+    .comments-inner,
+    .post-navigation .nav-inside {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .site-header {
+        padding-bottom: 48px;
+        padding-top: 36px;
+    }
+
+    .entry-header {
+        margin-bottom: 24px;
+    }
+
+    .entry-title {
+        margin-top: 30px;
+        max-width: none;
+        padding: 10px 15px;
+    }
+
+    .entry-meta {
+        font-size: 11px;
+        padding: 10px 15px;
+    }
+
+    .author-info .author-avatar {
+        float: none;
+        margin-bottom: 24px;
+    }
+    .author-avatar {
+        @media (max-width: $small-screen-breakpoint) {
+            margin: 0 auto !important;
+            margin-bottom: 15px !important;
+        }
+    }
+
+    .author-details {
+        padding-left: 0;
+    }
+
+    .post-navigation .nav-next,
+    .post-navigation .nav-previous {
+        padding-bottom: 20px;
+        padding-top: 15px;
+    }
+
+    .post-navigation .nav-thumb {
+        width: 120px;
+    }
+
+    .post-navigation .nav-title {
+        font-size: 16px;
+        margin-right: 120px;
+    }
+
+    .post-navigation .nav-before,
+    .post-navigation .nav-date {
+        font-size: 10px;
+        margin-right: 120px;
+    }
+
+    .post-navigation .nav-before {
+        margin-bottom: 10px;
+    }
+
+    .social-links {
+        padding-right: 0;
+    }
+
+    .site-info {
+        padding-bottom: 40px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .site-info .top-link {
+        display: block;
+        margin: 30px auto 0;
+        position: static;
+    }
+
+    .post-thumbnail {
+        height: 180px;
+    }
+}

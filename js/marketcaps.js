@@ -70,7 +70,7 @@ let table = $('#marketcaps-table').DataTable({
         if ((data.extreme.usd === data.price) && ((marketcapCurrency === 'USD') || (marketcapCurrency === 'EUR'))) {
           max = '<sup><small class="marketcaps-price-max">MAX</small></sup> ';
         } else {
-          let formatDate = new Date(data.extreme.date).toShortFormat();
+          let formatDate = toShortFormat(new Date(data.extreme.date));
           let currency = marketcapCurrency;
           
           if ((currency === 'BTC') || (currency === 'ETH')) {

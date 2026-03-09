@@ -87,21 +87,15 @@ window.onscroll = handleNavigationScroll;
 
 
 // Date Months Format
-Date.prototype.toShortFormat = function() {
-
-	let monthNames =['Jan', 'Feb', 'Mar', 'Apr',
-	                'May', 'Jun', 'Jul', 'Aug',
-	                'Sep', 'Oct', 'Nov', 'Dec'];
-
-	let day = this.getDate();
-
-	let monthIndex = this.getMonth();
-	let monthName = monthNames[monthIndex];
-
-	let year = this.getFullYear();
-
-	return `${day}-${monthName}-${year}`;  
-};
+function toShortFormat(date) {
+	const monthNames = ['Jan', 'Feb', 'Mar', 'Apr',
+	                    'May', 'Jun', 'Jul', 'Aug',
+	                    'Sep', 'Oct', 'Nov', 'Dec'];
+	const day = date.getDate();
+	const monthName = monthNames[date.getMonth()];
+	const year = date.getFullYear();
+	return `${day}-${monthName}-${year}`;
+}
 
 initializeMenuToggle();
 initializeProgressBar();
@@ -113,6 +107,7 @@ if (typeof module !== 'undefined') {
     initializeMenuToggle: initializeMenuToggle,
     initializeProgressBar: initializeProgressBar,
     mobileAndTabletcheck: window.mobileAndTabletcheck,
+    toShortFormat: toShortFormat,
     updateProgressBar: updateProgressBar
   };
 }

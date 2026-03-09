@@ -1,0 +1,44 @@
+/**
+ * 2. Site Header
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header {
+    padding-bottom: 75px;
+    padding-top: 70px;
+}
+
+.site-title {
+    font-size: 36px;
+    float: left;
+    line-height: 1;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.site-title a {
+    color: $white;
+    display: block;
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    color: lighten( $picton-blue, 11% );
+}
+
+.site-title .logo-text {
+    border-left: 10px solid $picton-blue;
+    padding-left: 20px;
+}
+
+.site-description {
+    color: #818181;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 6px;
+    max-width: 40%;
+}

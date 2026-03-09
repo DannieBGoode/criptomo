@@ -8,6 +8,7 @@ sitemap: true
 noMargins: true
 lang: en
 sidebar: false
+jquery: true
 ---
 
 
@@ -35,17 +36,15 @@ sidebar: false
 
 <table id="marketcaps-table" class="display" width="100%"></table>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
-
-<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+<script defer src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+<script defer src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
+<script defer src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
 
 <script>
-    const coins = {{ site.data.coins | jsonify }};
-    const icos = {{ site.data.icos | jsonify }};
-    const iconsBaseUrl = '{{ site.iconsBaseUrl }}';
+    var coins = {{ site.data.coins | jsonify }};
+    var icos = {{ site.data.icos | jsonify }};
+    var iconsBaseUrl = '{{ site.iconsBaseUrl }}';
 </script>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/icos.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
+<script defer src="{{ site.baseurl }}/js/icos.js?{{site.time | date: '%s%N'}}"></script>

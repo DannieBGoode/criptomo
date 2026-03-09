@@ -1,148 +1,36 @@
 {% assign affiliate_link = site.kraken.affiliate_link %}
 {% assign affiliate_code = site.kraken.affiliate_code %}
-
-{% comment %}Supported languages: es, de, fr, pt. Add a new case branch for each new locale.{% endcomment %}
-{% case page.lang %}
-  {% when "es" %}
-    {% assign affiliate_badge = "$100 Gratis por Registrarte" %}
-    {% assign affiliate_title = "Kraken es uno de los exchanges más seguros y regulados del mundo" %}
-    {% assign affiliate_step_1 = "Crea y verifica tu cuenta" %}
-    {% assign affiliate_step_2 = "Deposita al menos $100" %}
-    {% assign affiliate_step_3 = "Opera al menos $100" %}
-    {% assign affiliate_cta = "Registrarme en Kraken" %}
-    {% assign affiliate_code_label = "Código" %}
-    {% assign affiliate_copied = "✓ Copiado" %}
-    {% assign affiliate_copy_hint = "haz clic para copiar" %}
-    {% assign affiliate_new_tab = "se abre en una pestaña nueva" %}
-    {% assign affiliate_note = "Si prefieres registrarte manualmente, usa este código para no perder la promoción." %}
-    {% assign affiliate_terms = "Condiciones y elegibilidad pueden variar. Consulta Kraken para más detalles." %}
-  {% when "de" %}
-    {% assign affiliate_badge = "100 $ gratis bei Anmeldung" %}
-    {% assign affiliate_title = "Kraken gehört zu den vertrauenswürdigsten und reguliertesten Börsen der Welt" %}
-    {% assign affiliate_step_1 = "Konto erstellen und verifizieren" %}
-    {% assign affiliate_step_2 = "Mindestens 100 $ einzahlen" %}
-    {% assign affiliate_step_3 = "Mindestens 100 $ handeln" %}
-    {% assign affiliate_cta = "Bei Kraken registrieren" %}
-    {% assign affiliate_code_label = "Code" %}
-    {% assign affiliate_copied = "✓ Kopiert" %}
-    {% assign affiliate_copy_hint = "Zum Kopieren klicken" %}
-    {% assign affiliate_new_tab = "öffnet in neuem Tab" %}
-    {% assign affiliate_note = "Wenn du dich manuell anmeldest, nutze diesen Code, damit dir die Aktion nicht entgeht." %}
-    {% assign affiliate_terms = "Bedingungen und Verfügbarkeit können variieren. Siehe Kraken für Details." %}
-  {% when "fr" %}
-    {% assign affiliate_badge = "100 $ offerts à l'inscription" %}
-    {% assign affiliate_title = "Kraken est l'une des plateformes les plus fiables et réglementées au monde" %}
-    {% assign affiliate_step_1 = "Créez et vérifiez votre compte" %}
-    {% assign affiliate_step_2 = "Déposez au moins 100 $" %}
-    {% assign affiliate_step_3 = "Tradez au moins 100 $" %}
-    {% assign affiliate_cta = "M'inscrire sur Kraken" %}
-    {% assign affiliate_code_label = "Code" %}
-    {% assign affiliate_copied = "✓ Copié" %}
-    {% assign affiliate_copy_hint = "cliquer pour copier" %}
-    {% assign affiliate_new_tab = "s'ouvre dans un nouvel onglet" %}
-    {% assign affiliate_note = "Si vous vous inscrivez manuellement, saisissez ce code pour ne pas rater l'offre." %}
-    {% assign affiliate_terms = "Conditions et éligibilité peuvent varier. Consultez Kraken pour les détails." %}
-  {% when "pt" %}
-    {% assign affiliate_badge = "US$100 grátis ao se cadastrar" %}
-    {% assign affiliate_title = "Kraken é uma das exchanges mais confiáveis e regulamentadas do mundo" %}
-    {% assign affiliate_step_1 = "Crie e verifique sua conta" %}
-    {% assign affiliate_step_2 = "Deposite pelo menos US$100" %}
-    {% assign affiliate_step_3 = "Negocie pelo menos US$100" %}
-    {% assign affiliate_cta = "Cadastrar-me na Kraken" %}
-    {% assign affiliate_code_label = "Código" %}
-    {% assign affiliate_copied = "✓ Copiado" %}
-    {% assign affiliate_copy_hint = "clique para copiar" %}
-    {% assign affiliate_new_tab = "abre em nova aba" %}
-    {% assign affiliate_note = "Se fizer o cadastro manualmente, use este código para não perder a promoção." %}
-    {% assign affiliate_terms = "Condições e elegibilidade podem variar. Consulte a Kraken para detalhes." %}
-  {% else %}
-    {% assign affiliate_badge = "$100 Free When You Sign Up" %}
-    {% assign affiliate_title = "Kraken is one of the most trusted and regulated exchanges in the world" %}
-    {% assign affiliate_step_1 = "Create and verify your account" %}
-    {% assign affiliate_step_2 = "Deposit at least $100" %}
-    {% assign affiliate_step_3 = "Trade at least $100" %}
-    {% assign affiliate_cta = "Sign Up on Kraken" %}
-    {% assign affiliate_code_label = "Code" %}
-    {% assign affiliate_copied = "✓ Copied" %}
-    {% assign affiliate_copy_hint = "click to copy" %}
-    {% assign affiliate_new_tab = "opens in new tab" %}
-    {% assign affiliate_note = "If you sign up manually, enter this code so you do not miss the offer." %}
-    {% assign affiliate_terms = "Offer terms and eligibility may vary. See Kraken for details." %}
-{% endcase %}
+{% assign t = site.data.affiliate[page.lang] | default: site.data.affiliate.en %}
 
 {% if site.kraken.affiliate_link and site.kraken.affiliate_code %}
 <div class="calculator-affiliate-banner">
     <div class="calculator-affiliate-copy">
-        <div class="calculator-affiliate-badge">{{ affiliate_badge }}</div>
-        <h4>{{ affiliate_title }}</h4>
+        <div class="calculator-affiliate-badge">{{ t.badge }}</div>
+        <h4>{{ t.title }}</h4>
         <ul class="calculator-affiliate-steps">
-            <li>{{ affiliate_step_1 }}</li>
-            <li>{{ affiliate_step_2 }}</li>
-            <li>{{ affiliate_step_3 }}</li>
+            <li>{{ t.step_1 }}</li>
+            <li>{{ t.step_2 }}</li>
+            <li>{{ t.step_3 }}</li>
         </ul>
     </div>
     <div class="calculator-affiliate-cta">
-        <a class="calculator-affiliate-button" href="{{ affiliate_link }}" aria-label="{{ affiliate_cta }} ({{ affiliate_new_tab }})" rel="sponsored nofollow noopener" target="_blank">
-            <span>{{ affiliate_cta }}</span>
+        <a class="calculator-affiliate-button" href="{{ affiliate_link }}" aria-label="{{ t.cta }} ({{ t.new_tab }})" rel="sponsored nofollow noopener" target="_blank">
+            <span>{{ t.cta }}</span>
             <span class="calculator-affiliate-button-arrow" aria-hidden="true">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </span>
         </a>
-        <div class="calculator-affiliate-codebox" role="button" tabindex="0" data-copied="{{ affiliate_copied }}">
-            <span class="calculator-affiliate-code-label">{{ affiliate_code_label }}</span>
+        <div class="calculator-affiliate-codebox" role="button" tabindex="0" data-copied="{{ t.copied }}">
+            <span class="calculator-affiliate-code-label">{{ t.code_label }}</span>
             <strong class="calculator-affiliate-code" data-code="{{ affiliate_code }}" aria-live="polite">{{ affiliate_code }}</strong>
-            <span class="calculator-affiliate-copy-hint" aria-hidden="true">{{ affiliate_copy_hint }}</span>
+            <span class="calculator-affiliate-copy-hint" aria-hidden="true">{{ t.copy_hint }}</span>
         </div>
-        <p class="calculator-affiliate-note">{{ affiliate_note }}</p>
-        <p class="calculator-affiliate-terms">{{ affiliate_terms }}</p>
+        <p class="calculator-affiliate-note">{{ t.note }}</p>
+        <p class="calculator-affiliate-terms">{{ t.terms }}</p>
     </div>
 </div>
 
-<script>
-(function () {
-    document.querySelectorAll('.calculator-affiliate-codebox').forEach(function (box) {
-        var el = box.querySelector('.calculator-affiliate-code');
-        if (!el) return;
-
-        function doCopy() {
-            var code = el.getAttribute('data-code');
-            var copiedLabel = box.getAttribute('data-copied') || '✓ Copied';
-            function showFeedback() {
-                el.textContent = copiedLabel;
-                setTimeout(function () { el.textContent = code; }, 2000);
-            }
-            if (navigator.clipboard && navigator.clipboard.writeText) {
-                navigator.clipboard.writeText(code).then(showFeedback).catch(function () {
-                    fallbackCopy(code);
-                    showFeedback();
-                });
-            } else {
-                fallbackCopy(code);
-                showFeedback();
-            }
-        }
-
-        function fallbackCopy(text) {
-            var ta = document.createElement('textarea');
-            ta.value = text;
-            ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0;pointer-events:none';
-            document.body.appendChild(ta);
-            ta.focus();
-            ta.select();
-            try { document.execCommand('copy'); } catch (e) {}
-            document.body.removeChild(ta);
-        }
-
-        box.addEventListener('click', doCopy);
-        box.addEventListener('keydown', function (e) {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                doCopy();
-            }
-        });
-    });
-}());
-</script>
+<script defer src="{{ site.baseurl }}/js/calculator-affiliate.js?{{site.time | date: '%s%N'}}"></script>
 {% endif %}

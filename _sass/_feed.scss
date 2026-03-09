@@ -225,7 +225,7 @@ The first (most recent) post in the list is styled to be bigger than the others 
     position: relative;
     z-index: 1;
     .active {
-        background-color: $picton-blue !important;
+        background-color: $picton-blue;
         -webkit-box-shadow: unset;
         -moz-box-shadow:    unset;
         box-shadow:         unset;
