@@ -13,7 +13,6 @@ function formatNumber(number) {
 function updateSavingsRatio() {
   const savingsRatio = getElementById("fi-savings-ratio").value;
   const salary = getElementById("fi-salary").value;
-  const fiat = getElementById("fi-fiat").value;
 
   updateText("savings-ratio-text", savingsRatio);
   updateText("savings-ratio-yearly-text", formatNumber(salary * savingsRatio / 100));

@@ -3,43 +3,40 @@ var firstTime = true;
 function preFill () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
+  const currencyParam = urlParams.get('currency');
+  const tokenParam = urlParams.get('crypto');
+  const date = urlParams.get('date');
+  const parsedInvestment = parseInt(urlParams.get('invest'), 10);
 
-  let invest = urlParams.get('invest'),
-      currency = urlParams.get('currency').toUpperCase(),
-      token = urlParams.get('crypto'),
-      date = urlParams.get('date');
+  if (!Number.isNaN(parsedInvestment) && currencyParam && tokenParam && date) {
+    const currency = currencyParam.toUpperCase();
+    const token = tokenParam.toUpperCase();
 
-  if (
-        (typeof parseInt(invest) == 'number') 
-        && ((currency.toUpperCase() == 'USD') || (currency.toUpperCase() == 'EUR'))
-        && (date)) {
+    if ((currency === 'USD' || currency === 'EUR')) {
 
-        if ((token === 'BTC')
-         || (token === 'ETH')
-         || (token === 'LTC')
-         || (token === 'MIOTA') 
-         || (token === 'XMR') 
-         || (token === 'ADA')
-         || (token === 'XRP') ) {
-          document.getElementById('invest-currency').value = token;
-        } else {    
-          document.querySelector('.calculator-othercoins').style.display = 'inline-block';
-          document.querySelector('div.calculator-othercoins').style.display = 'inline';
-          document.getElementsByClassName('calculator-othercoins ')[0].value = token;
-          document.getElementById('invest-currency').getElementsByTagName('option')[document.getElementById('invest-currency').length-1].selected = 'selected'
-          let editText = document.querySelector('.calculator-othercoins').value;
-          document.querySelector('.editable').value = editText;
-        }
-        document.getElementById('invest-quantity').value = invest;
-        document.getElementById('invest-fiat').value = currency;
-        
-        document.getElementById('invest-date').value = date;
-
-        calculateEarnings();
+      if ((token === 'BTC')
+       || (token === 'ETH')
+       || (token === 'LTC')
+       || (token === 'MIOTA')
+       || (token === 'XMR')
+       || (token === 'ADA')
+       || (token === 'XRP')) {
+        document.getElementById('invest-currency').value = token;
+      } else {
+        document.querySelector('.calculator-othercoins').style.display = 'inline-block';
+        document.querySelector('div.calculator-othercoins').style.display = 'inline';
+        document.getElementsByClassName('calculator-othercoins ')[0].value = token;
+        document.getElementById('invest-currency').getElementsByTagName('option')[document.getElementById('invest-currency').length - 1].selected = 'selected';
+        let editText = document.querySelector('.calculator-othercoins').value;
+        document.querySelector('.editable').value = editText;
       }
-      else {
-        console.log("Invalid URL Parameters");
-      }
+      document.getElementById('invest-quantity').value = parsedInvestment;
+      document.getElementById('invest-fiat').value = currency;
+      document.getElementById('invest-date').value = date;
+
+      calculateEarnings();
+    }
+  }
 }
 
 function calculateEarnings() {
@@ -103,7 +100,7 @@ function calculateEarnings() {
             });
         // }
       })
-      .catch(function (data) {
+      .catch(function () {
         handleError('date');
       });
   } else {
@@ -157,8 +154,8 @@ function calculateEarnings() {
     history.replaceState({}, null, window.location.pathname + newParams);
     document.getElementsByClassName("share-text")[0].value = window.location.href;
 
-    if (typeof recommendArticles === "function") {
-      recommendArticles(investData.tokenSymbol);  
+    if (typeof recommendArticles === 'function') {
+      recommendArticles(investData.tokenSymbol);
     }
 
   }

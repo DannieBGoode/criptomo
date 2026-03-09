@@ -4,37 +4,32 @@ Date.prototype.addDays = function(days) {
     var date = new Date(this.valueOf());
     date.setDate(date.getDate() + days);
     return date;
-}
+};
 
 function preFill () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
+  const currencyParam = urlParams.get('currency');
+  const tokenParam = urlParams.get('crypto');
+  const intervalParam = parseInt(urlParams.get('interval'), 10);
+  const date = urlParams.get('date');
+  const invest = parseInt(urlParams.get('invest'), 10);
 
-  let invest = urlParams.get('invest'),
-      currency = urlParams.get('currency').toUpperCase(),
-      token = urlParams.get('crypto'),
-      interval = parseInt(urlParams.get('interval'));
-      date = urlParams.get('date');
+  if (!Number.isNaN(invest) && currencyParam && tokenParam && date) {
+    const currency = currencyParam.toUpperCase();
+    const token = tokenParam.toUpperCase();
+    const isValidInterval = intervalParam === 9999 || intervalParam === 1 || intervalParam === 7 || intervalParam === 30 || intervalParam === 365;
 
-  if (
-        (typeof parseInt(invest) == 'number') 
-        && ((currency.toUpperCase() == 'USD') || (currency.toUpperCase() == 'EUR'))
-        && (token == 'BTC')
-        && ((interval == 9999) || (interval == 1) || (interval == 7) || (interval == 30) || (interval == 365))
-        && (date)) {
-        document.getElementById('invest-quantity').value = invest;
-        document.getElementById('invest-fiat').value = currency;
-        document.getElementById('invest-currency').value = token;
-        document.getElementById('invest-interval').value = interval;
-        document.getElementById('invest-date').value = date;
+    if ((currency === 'USD' || currency === 'EUR') && token === 'BTC' && isValidInterval) {
+      document.getElementById('invest-quantity').value = invest;
+      document.getElementById('invest-fiat').value = currency;
+      document.getElementById('invest-currency').value = token;
+      document.getElementById('invest-interval').value = intervalParam;
+      document.getElementById('invest-date').value = date;
 
-        calculateEarnings();
-      }
-      else {
-        console.log("Invalid URL Parameters");
-      }
-
-
+      calculateEarnings();
+    }
+  }
 }
 
 function calculateEarnings() {
@@ -90,22 +85,22 @@ function calculateEarnings() {
 
         
 
-        for (let i = 1; date.toISOString() < investment.today; i++)
+        for (let resultIndex = 1; date.toISOString() < investment.today; resultIndex++)
         {
             if (data.bpi[dateFormatted]) {
               currentPrice = data.bpi[dateFormatted];  
             }
             
             if (currentPrice) {
-              results[i] = {};
-              results[i].totalCC = parseFloat(parseFloat(results[i - 1].totalCC) + parseFloat(investment.amount / currentPrice)).toFixed(6);
+              results[resultIndex] = {};
+              results[resultIndex].totalCC = parseFloat(parseFloat(results[resultIndex - 1].totalCC) + parseFloat(investment.amount / currentPrice)).toFixed(6);
               
-              results[i].totalSpent = parseInt(results[i - 1].totalSpent) + investment.amount;
-              results[i].investmentValue = parseFloat(results[i].totalCC * currentPrice).toFixed(2);
-              results[i].purchasePrice = currentPrice;
-              results[i].date = dateFormatted;
+              results[resultIndex].totalSpent = parseInt(results[resultIndex - 1].totalSpent) + investment.amount;
+              results[resultIndex].investmentValue = parseFloat(results[resultIndex].totalCC * currentPrice).toFixed(2);
+              results[resultIndex].purchasePrice = currentPrice;
+              results[resultIndex].date = dateFormatted;
 
-              investmentDataArray.push(results[i]);
+              investmentDataArray.push(results[resultIndex]);
             }
 
             date = date.addDays(investment.selectedInterval);
@@ -117,13 +112,13 @@ function calculateEarnings() {
       }
 
       $.get('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
-        .success(function (data) {
+        .success(function (priceData) {
           if (results) {
               results.currentInvestment = {
-              investmentValue: parseFloat(data[investment.fiat] * results[results.length - 1].totalCC).toFixed(2),
+              investmentValue: parseFloat(priceData[investment.fiat] * results[results.length - 1].totalCC).toFixed(2),
               totalSpent: results[results.length - 1].totalSpent,
               totalCC: results[results.length - 1].totalCC,
-              purchasePrice: data[investment.fiat],
+              purchasePrice: priceData[investment.fiat],
               date: investment.today
             }
             investmentDataArray.push(results.currentInvestment);

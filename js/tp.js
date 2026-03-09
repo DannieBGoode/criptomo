@@ -27,7 +27,7 @@ var getAdsenseCode = function (element) {
 };
 
 var loadAd = function () {
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
 };
 function bootstrapAds() {
     if (mobileAndTabletcheck()) {
@@ -63,7 +63,7 @@ function bootstrapAds() {
         scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
         document.body.appendChild(scriptElement);
 
-        (adsbygoogle = window.adsbygoogle || []).push({
+        (window.adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-1252171391624665",
             enable_page_level_ads: true
         });

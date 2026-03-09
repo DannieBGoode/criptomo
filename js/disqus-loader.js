@@ -13,13 +13,17 @@
 	var extendObj = function( defaults, options )
 		{
 			var prop, extended = {};
-			for( prop in defaults )
-				if( Object.prototype.hasOwnProperty.call( defaults, prop ))
+			for( prop in defaults ) {
+				if( Object.prototype.hasOwnProperty.call( defaults, prop )) {
 					extended[ prop ] = defaults[ prop ];
+				}
+			}
 
-			for( prop in options )
-				if( Object.prototype.hasOwnProperty.call( options, prop ))
+			for( prop in options ) {
+				if( Object.prototype.hasOwnProperty.call( options, prop )) {
 					extended[ prop ] = options[ prop ];
+				}
+			}
 
 			return extended;
 		},
@@ -36,8 +40,9 @@
 			script.setAttribute( 'data-timestamp', +new Date());
 			script.addEventListener( 'load', function()
 			{
-				if( typeof callback === 'function' )
+				if( typeof callback === 'function' ) {
 					callback();
+				}
 			});
 			( document.head || document.body ).appendChild( script );
 		},
@@ -53,29 +58,33 @@
 
 		init = function()
 		{
-			if( !instance || !document.body.contains( instance ) || instance.disqusLoaderStatus == 'loaded' )
+			if( !instance || !document.body.contains( instance ) || instance.disqusLoaderStatus === 'loaded' ) {
 				return true;
+			}
 
 			var winST	= window.pageYOffset,
 				offset	= getOffset( instance ).top;
 
 			// if the element is too far below || too far above
-			if( offset - winST > window.innerHeight * laziness || winST - offset - instance.offsetHeight - ( window.innerHeight * laziness ) > 0 )
+			if( offset - winST > window.innerHeight * laziness || winST - offset - instance.offsetHeight - ( window.innerHeight * laziness ) > 0 ) {
 				return true;
+			}
 
 			var tmp = document.getElementById( 'disqus_thread' );
-			if( tmp ) tmp.removeAttribute( 'id' );
+			if( tmp ) {
+				tmp.removeAttribute( 'id' );
+			}
 			instance.setAttribute( 'id', 'disqus_thread' );
 			instance.disqusLoaderStatus = 'loaded';
 
-			if( scriptStatus == 'loaded' )
+			if( scriptStatus === 'loaded' )
 			{
-				DISQUS.reset({ reload: true, config: disqusConfig });
+				window.DISQUS.reset({ reload: true, config: disqusConfig });
 			}
 			else // unloaded | loading
 			{
 				window.disqus_config = disqusConfig;
-				if( scriptStatus == 'unloaded' )
+				if( scriptStatus === 'unloaded' )
 				{
 					scriptStatus = 'loading';
 					loadScript( scriptUrl, function()
@@ -115,4 +124,4 @@
 	};
 
 }( window, document, 0 ));
-disqusLoader( '.disqus', { scriptUrl: '//criptomo.disqus.com/embed.js' });
+window.disqusLoader( '.disqus', { scriptUrl: '//criptomo.disqus.com/embed.js' });

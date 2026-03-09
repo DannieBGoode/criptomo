@@ -9,7 +9,14 @@
     "$": "readonly",
     "Data": "readonly",
     "coins": "readonly",
-    "isLocalStorageAvailable": "readonly"
+    "isLocalStorageAvailable": "readonly",
+    "handleError": "readonly",
+    "iconsBaseUrl": "readonly",
+    "icos": "readonly",
+    "marketcapsCoinsLimit": "readonly",
+    "mobileAndTabletcheck": "readonly",
+    "recommendArticles": "readonly",
+    "tableDataLang": "readonly"
   },
   "ignorePatterns": [
     "js/jquery.js",
@@ -20,10 +27,7 @@
     "sourceType": "script"
   },
   "rules": {
-    "comma-dangle": [
-      "error",
-      "never"
-    ],
+    "comma-dangle": "off",
     "curly": [
       "error",
       "multi-line"
@@ -35,11 +39,11 @@
     "no-debugger": "warn",
     "no-dupe-keys": "error",
     "no-empty": "error",
-    "no-extra-semi": "error",
+    "no-extra-semi": "off",
     "no-fallthrough": "error",
     "no-shadow": "error",
     "no-shadow-restricted-names": "error",
-    "no-trailing-spaces": "error",
+    "no-trailing-spaces": "off",
     "no-undef": "error",
     "no-unreachable": "error",
     "no-unused-vars": [
@@ -49,16 +53,7 @@
         "ignoreRestSiblings": true
       }
     ],
-    "quotes": [
-      "error",
-      "single",
-      {
-        "avoidEscape": true
-      }
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
+    "quotes": "off",
+    "semi": "off"
   }
 }

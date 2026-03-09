@@ -18,9 +18,9 @@ function getShareUrl(social, pageUrl, text) {
 
 function shareOnSocial(social) {
   const URL = encodeURIComponent(window.location.href);
-  const text = encodeURIComponent(document.querySelector(".calculator-results-text").textContent);
+  const text = encodeURIComponent(document.querySelector('.calculator-results-text').textContent);
   let shareUrl = getShareUrl(social, URL, text);
-  window.open(shareUrl, 'newWindow', width=600,height=300);
+  window.open(shareUrl, 'newWindow', 'width=600,height=300');
   return false;
 }
 

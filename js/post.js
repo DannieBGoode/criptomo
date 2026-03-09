@@ -41,11 +41,11 @@ function initImagePopup(elem){
             };
 
             // close popup image clicking on it
-            popupImage.addEventListener('click', function (e) {
+            popupImage.addEventListener('click', function () {
                 closePopUpImage();
             });
             // close popup image on clicking on the background
-            popUpBackground.addEventListener('click', function (e) {
+            popUpBackground.addEventListener('click', function () {
                 closePopUpImage();
             });
 

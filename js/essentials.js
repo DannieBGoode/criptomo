@@ -6,11 +6,11 @@ window.mobileAndTabletcheck = function() {
 
 function docReady(fn) {
     // see if DOM is already available
-    if (document.readyState === "complete" || document.readyState === "interactive") {
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
         // call on next available tick
         setTimeout(fn, 1);
     } else {
-        document.addEventListener("DOMContentLoaded", fn);
+        document.addEventListener('DOMContentLoaded', fn);
     }
 }
 
@@ -46,16 +46,16 @@ function updateProgressBar() {
   var scrollBottom =
     (document.documentElement.scrollHeight ||
       document.body.scrollHeight) - document.documentElement.clientHeight;
-  var scrollPercent = scrollTop / scrollBottom * 100 + "%";
+  var scrollPercent = scrollTop / scrollBottom * 100 + '%';
   document
-    .getElementById("_progress")
-    .style.setProperty("--scroll", scrollPercent);
+    .getElementById('_progress')
+    .style.setProperty('--scroll', scrollPercent);
 }
 
 function initializeProgressBar() {
   if (document.getElementById("_progress")) {
     document.addEventListener(
-      "scroll",
+      'scroll',
       updateProgressBar,
       { passive: true }
     );
@@ -89,9 +89,9 @@ window.onscroll = handleNavigationScroll;
 // Date Months Format
 Date.prototype.toShortFormat = function() {
 
-	let monthNames =["Jan","Feb","Mar","Apr",
-	                "May","Jun","Jul","Aug",
-	                "Sep", "Oct","Nov","Dec"];
+	let monthNames =['Jan', 'Feb', 'Mar', 'Apr',
+	                'May', 'Jun', 'Jul', 'Aug',
+	                'Sep', 'Oct', 'Nov', 'Dec'];
 
 	let day = this.getDate();
 
