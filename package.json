@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"start": "bundle exec jekyll serve --incremental",
 		"eslint": "eslint js/**/*.js",
 		"test": "jest --coverage",
 		"test:watch": "jest --watch"
