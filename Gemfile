@@ -9,21 +9,18 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
-
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
+gem "jekyll"
+gem "jekyll-sass-converter", "~> 2.0" # pin to libsass; Dart Sass (v3) rejects IE hacks in _jquery.dataTables.min.scss
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.7" # required for Ruby 3.x (removed from stdlib in 3.0)
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
   # gem "jekyll-feed"
-  # gem "jekyll-sitemap"
-  gem "jekyll-redirect-from"
+  gem "jekyll-sitemap"       # used in _config.yml plugins list
+  gem "jekyll-redirect-from" # used in _config.yml plugins list
+  gem "jekyll-paginate"      # used in _config.yml plugins list
 end

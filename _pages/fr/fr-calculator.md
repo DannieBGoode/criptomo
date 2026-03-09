@@ -118,9 +118,10 @@ redirect_from:
                             <td><span class="gained-percentage"></span></td>
                         </tr>
                 </table>
-            </div>
-            {% include share_result.html %}
-        </div>
+             </div>
+             {% include share_result.html %}
+             {% include calculator_affiliate_banner.html %}
+         </div>
         <p>
             <div class="error coin-error">
                 <span>Cette crypto-monnaie n'est pas dans notre système.</span>

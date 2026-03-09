@@ -3,3 +3,7 @@ _site
 Documentation
 images/pending
 node_modules
+.agent/*
+.agents/*
+.claude/*
+skills-lock.json
