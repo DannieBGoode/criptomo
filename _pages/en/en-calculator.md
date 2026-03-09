@@ -116,11 +116,12 @@ popular: true
                             <td><span class="gained-percentage"></span></td>
                         </tr>
                 </table>
-            </div>
+             </div>
 
-            {% include share_result.html %}
-            
-        </div>
+             {% include share_result.html %}
+             {% include calculator_affiliate_banner.html %}
+             
+         </div>
         <p>
             <div class="error coin-error">
                 <span>This cryptocurrency is not in our system.</span>

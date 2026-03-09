@@ -117,11 +117,12 @@ lang: es
                             <td><span class="gained-percentage"></span></td>
                         </tr>
                 </table>
-            </div>
+             </div>
 
-            {% include share_result.html %}
+             {% include share_result.html %}
+             {% include calculator_affiliate_banner.html %}
 
-        </div>
+         </div>
 
         <p>
             <div class="error coin-error">
