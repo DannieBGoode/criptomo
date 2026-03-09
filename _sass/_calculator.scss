@@ -81,15 +81,13 @@ input.calculator-othercoins {
 .calculator-affiliate-banner {
     display: flex;
     align-items: stretch;
-    gap: 0;
     margin-top: 40px;
     overflow: hidden;
-    border: 1px solid rgba(34, 179, 235, 0.3);
-    color: #333333;
+    border: 1px solid rgba($picton-blue, 0.3);
+    color: $body-text;
 
     h4,
     p,
-    small,
     span,
     strong,
     li {
@@ -97,41 +95,30 @@ input.calculator-othercoins {
     }
 
     h4 {
-        margin: 10px 0 14px;
+        margin: 4px 0 14px;
         font-size: 22px;
-    }
-
-    p {
-        margin-bottom: 14px;
-        font-size: 15px;
-        line-height: 1.6;
-        opacity: 0.88;
-    }
-
-    a:not(.calculator-affiliate-button) {
-        color: rgba(255, 255, 255, 0.9);
-        text-decoration: underline;
     }
 }
 
 .calculator-affiliate-copy {
     flex: 1 1 auto;
     padding: 32px 36px;
-    background: #0f5f8a;
-    color: #fff;
+    background: $affiliate-navy;
+    color: $white;
 }
 
 .calculator-affiliate-badge {
     display: block;
     margin-bottom: 18px;
-    font-size: 38px;
+    font-size: clamp(24px, 6vw, 38px);
     line-height: 1.05;
     font-weight: 900;
     letter-spacing: -0.02em;
-    color: #fff;
+    color: $white;
 }
 
 .calculator-affiliate-steps {
+    counter-reset: step-counter;
     display: grid;
     gap: 10px;
     margin: 0 0 4px;
@@ -139,6 +126,7 @@ input.calculator-othercoins {
     list-style: none;
 
     li {
+        counter-increment: step-counter;
         position: relative;
         padding: 0 0 0 34px;
         min-height: 24px;
@@ -148,26 +136,21 @@ input.calculator-othercoins {
     }
 
     li:before {
-        content: "";
+        content: counter(step-counter);
         position: absolute;
         top: 1px;
         left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        background: #22b3eb;
-    }
-
-    li:after {
-        content: "";
-        position: absolute;
-        top: 6px;
-        left: 7px;
-        width: 7px;
-        height: 4px;
-        border-left: 2px solid #fff;
-        border-bottom: 2px solid #fff;
-        transform: rotate(-45deg);
+        background: $picton-blue;
+        font-size: 11px;
+        font-weight: 700;
+        color: $white;
+        line-height: 1;
     }
 }
 
@@ -175,30 +158,37 @@ input.calculator-othercoins {
     display: flex;
     flex: 0 0 260px;
     flex-direction: column;
+    justify-content: center;
     gap: 12px;
     padding: 28px 28px 32px;
-    background: #fff;
-    border-left: 1px solid rgba(34, 179, 235, 0.2);
+    background: $white;
+    border-left: 1px solid rgba($picton-blue, 0.2);
 }
 
 .calculator-affiliate-codebox {
     padding: 14px 16px;
-    background: #eaf6fc;
-    border: 1px solid rgba(34, 179, 235, 0.22);
+    background: $affiliate-light;
+    border: 1px solid rgba($picton-blue, 0.22);
     cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
 
-    small,
+    &:hover {
+        background: #d8eef9;
+        border-color: rgba($picton-blue, 0.5);
+    }
+
+    .calculator-affiliate-code-label,
     span,
     strong {
         display: block;
     }
 
-    small {
+    .calculator-affiliate-code-label {
         margin-bottom: 4px;
         font-size: 11px;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        opacity: 0.55;
+        color: #636363;
     }
 
     strong {
@@ -212,7 +202,7 @@ input.calculator-othercoins {
 .calculator-affiliate-copy-hint {
     margin-top: 5px;
     font-size: 11px;
-    opacity: 0.45;
+    color: #636363;
     letter-spacing: 0.02em;
 }
 
@@ -220,69 +210,64 @@ input.calculator-othercoins {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    width: 100%;
-    min-height: 52px;
-    padding: 14px 20px;
+    gap: 8px;
+    padding: 11px 18px;
     border: 0;
     border-radius: 4px;
-    color: #fff;
-    font-size: 15px;
+    color: $white;
+    font-size: 14px;
+    line-height: 1;
     font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     text-decoration: none;
-    background: #0f5f8a;
-    box-shadow: 0 2px 0 #09405e;
+    background: $affiliate-navy;
+    box-shadow: 0 2px 0 $affiliate-shadow;
     transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
 }
 
 .calculator-affiliate-button:hover {
-    background: #0e5580;
-    box-shadow: 0 3px 0 #09405e;
+    background: #1c7abf;
+    box-shadow: 0 3px 0 #124f7a;
     transform: translateY(-1px);
 }
 
 .calculator-affiliate-button:active {
     transform: translateY(1px);
-    box-shadow: 0 0 0 #09405e;
+    box-shadow: 0 0 0 $affiliate-shadow;
 }
 
 .calculator-affiliate-button:focus-visible {
-    outline: 3px solid #22b3eb;
+    outline: 3px solid $picton-blue;
     outline-offset: 3px;
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .calculator-affiliate-button {
-        transition: none;
+    .calculator-affiliate-banner,
+    .calculator-affiliate-banner * {
+        transition: none !important;
+        animation: none !important;
     }
 }
 
 p.calculator-affiliate-note {
     font-size: 12px;
-    opacity: 0.6;
+    color: #767676;
     margin: 0;
     line-height: 1.45;
 }
 
 p.calculator-affiliate-terms {
     font-size: 11px;
-    opacity: 0.45;
+    color: #767676;
     margin: 0;
     line-height: 1.4;
-}
-
-.calculator-affiliate-button span:first-child {
-    flex: 0 0 auto;
 }
 
 .calculator-affiliate-button-arrow {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    flex: 0 0 auto;
-    opacity: 0.8;
 }
 
 @media (max-width: 860px) {
@@ -293,12 +278,8 @@ p.calculator-affiliate-terms {
     .calculator-affiliate-cta {
         width: 100%;
         border-left: none;
-        border-top: 1px solid rgba(34, 179, 235, 0.2);
+        border-top: 1px solid rgba($picton-blue, 0.2);
         box-sizing: border-box;
-    }
-
-    .calculator-affiliate-button {
-        width: 100%;
     }
 }
 
@@ -334,12 +315,13 @@ p.calculator-affiliate-terms {
         width: 100%;
     }
 
-    .calculator-affiliate-banner {
-        padding: 22px 18px;
+    .calculator-affiliate-copy {
+        padding: 24px 20px;
     }
 
     .calculator-affiliate-cta {
         flex-basis: auto;
+        padding: 20px 20px 24px;
     }
 
 }
