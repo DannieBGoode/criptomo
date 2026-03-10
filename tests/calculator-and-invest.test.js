@@ -222,36 +222,33 @@ describe('calculator.js and invest.js', () => {
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
-  test('invest.js uses CryptoCompare histoday for EUR and builds rows correctly', () => {
+  test('invest.js uses CoinDesk historical days in USD and builds rows correctly', () => {
     jest.useFakeTimers();
     jest.setSystemTime(new Date('2024-01-15T12:00:00.000Z'));
 
     buildInvestDom();
-    document.getElementById('invest-fiat').value = 'EUR';
     const table = createDataTableStub();
     setupJQuery(table);
     setupGetQueue([
       {
-        response: JSON.stringify({
-          Data: {
-            Data: [
-              { time: new Date('2024-01-01').getTime() / 1000, close: 90 },
-              { time: new Date('2024-01-08').getTime() / 1000, close: 180 },
-              { time: new Date('2024-01-15').getTime() / 1000, close: 45 }
-            ]
-          }
-        })
+        response: {
+          Data: [
+            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 90 },
+            { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 180 },
+            { TIMESTAMP: new Date('2024-01-15').getTime() / 1000, CLOSE: 45 }
+          ]
+        }
       },
       {
-        response: { EUR: 270 }
+        response: { USD: 270 }
       }
     ]);
 
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
 
-    expect($.get).toHaveBeenCalledWith(expect.stringContaining('cryptocompare.com/data/v2/histoday'));
-    expect($.get).toHaveBeenCalledWith(expect.stringContaining('tsym=EUR'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('data-api.coindesk.com/index/cc/v1/historical/days'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('instrument=XBX-USD'));
     expect(table.rows.add).toHaveBeenCalledWith(expect.arrayContaining([
       expect.objectContaining({ date: '2024-01-01', purchasePrice: 90 }),
       expect.objectContaining({ date: '2024-01-08', purchasePrice: 180 }),

@@ -27,7 +27,6 @@ jquery: true
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
             <select id="invest-fiat">
-                <option value="EUR">EUR</option>
                 <option value="USD">USD</option>
             </select>
         </div>

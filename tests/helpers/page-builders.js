@@ -22,8 +22,7 @@ function buildCalculatorDom() {
     </select>
     <select id="invest-fiat">
       <option value="USD" selected>USD</option>
-      <option value="EUR">EUR</option>
-    </select>
+          </select>
     <div class="calculator-result-container"></div>
     <div class="calculator-loader-container"></div>
     <div id="calculator-results"></div>
@@ -58,7 +57,7 @@ function buildInvestDom() {
       <option value="365">365</option>
       <option value="9999">9999</option>
     </select>
-    <select id="invest-fiat"><option value="USD" selected>USD</option><option value="EUR">EUR</option></select>
+    <select id="invest-fiat"><option value="USD" selected>USD</option></select>
     <div id="calculator-results" style="display:none"></div>
     <span id="result-tokencount"></span>
     <span id="result-tokentype"></span>

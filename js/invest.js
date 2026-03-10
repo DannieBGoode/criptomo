@@ -92,37 +92,13 @@ function buildInvestmentRows(bpi, investmentData) {
   return results;
 }
 
-function buildCryptoCompareHistoricalUrl(startDate, endDate, fiat) {
+function buildCoindeskHistoricalUrl(startDate, endDate) {
   var startMs = new Date(startDate).getTime();
   var endMs = new Date(endDate).getTime();
   var limit = Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2;
-  var toTs = Math.floor(endMs / 1000);
-  return 'https://min-api.cryptocompare.com/data/v2/histoday'
-    + '?fsym=BTC&tsym=' + fiat
-    + '&limit=' + limit
-    + '&toTs=' + toTs;
-}
-
-function normalizeCryptoCompareHistoricalResponse(data) {
-  if (!data || !data.Data || !Array.isArray(data.Data.Data)) { return null; }
-  var bpi = {};
-  data.Data.Data.forEach(function(entry) {
-    if (entry.time && entry.close) {
-      var dateStr = new Date(entry.time * 1000).toISOString().split('T')[0];
-      bpi[dateStr] = entry.close;
-    }
-  });
-  return { bpi: bpi };
-}
-
-function buildCoindeskHistoricalUrl(startDate, endDate, fiat) {
-  var startMs = new Date(startDate).getTime();
-  var endMs = new Date(endDate).getTime();
-  var limit = Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2;
-  var instrument = (fiat === 'EUR') ? 'XBX-EUR' : 'XBX-USD';
   var toTs = Math.floor(endMs / 1000);
   return 'https://data-api.coindesk.com/index/cc/v1/historical/days'
-    + '?market=sda&instrument=' + instrument
+    + '?market=sda&instrument=XBX-USD'
     + '&limit=' + limit
     + '&groups=OHLC'
     + '&to_ts=' + toTs;
@@ -172,9 +148,8 @@ function preFill () {
     const currency = currencyParam.toUpperCase();
     const token = tokenParam.toUpperCase();
 
-    if ((currency === 'USD' || currency === 'EUR') && token === 'BTC' && isValidInterval(intervalParam)) {
+    if (currency === 'USD' && token === 'BTC' && isValidInterval(intervalParam)) {
       document.getElementById('invest-quantity').value = invest;
-      document.getElementById('invest-fiat').value = currency;
       document.getElementById('invest-currency').value = token;
       document.getElementById('invest-interval').value = intervalParam;
       document.getElementById('invest-date').value = date;
@@ -199,21 +174,16 @@ function calculateEarnings() {
       tokenSymbol: $('#invest-currency').val(),
       tokenName: $('#invest-currency option:selected' ).text(),
       selectedInterval: parseInt($('#invest-interval').val()),
-      fiat: $('#invest-fiat').val(),
+      fiat: 'USD',
       today: new Date().toISOString()
   };
 
-  var isEur = investment.fiat === 'EUR';
-  var historicalUrl = isEur
-    ? buildCryptoCompareHistoricalUrl(investment.date, investment.today.split('T')[0], investment.fiat)
-    : buildCoindeskHistoricalUrl(investment.date, investment.today.split('T')[0], investment.fiat);
+  var historicalUrl = buildCoindeskHistoricalUrl(investment.date, investment.today.split('T')[0]);
 
   $.get(historicalUrl)
     .success(function (rawData) {
       const parsed = parseHistoricalResponse(rawData);
-      const data = isEur
-        ? normalizeCryptoCompareHistoricalResponse(parsed)
-        : normalizeCoindeskResponse(parsed);
+      const data = normalizeCoindeskResponse(parsed);
       const investmentDataArray = buildInvestmentRows(data && data.bpi, investment);
 
       if (!investmentDataArray.length) {
@@ -335,14 +305,12 @@ initInvestCalculator();
 if (typeof module !== 'undefined') {
   module.exports = {
     buildCoindeskHistoricalUrl: buildCoindeskHistoricalUrl,
-    buildCryptoCompareHistoricalUrl: buildCryptoCompareHistoricalUrl,
     buildCurrentInvestment: buildCurrentInvestment,
     buildInvestmentRows: buildInvestmentRows,
     calculateEarnings: calculateEarnings,
     initInvestCalculator: initInvestCalculator,
     isValidInterval: isValidInterval,
     normalizeCoindeskResponse: normalizeCoindeskResponse,
-    normalizeCryptoCompareHistoricalResponse: normalizeCryptoCompareHistoricalResponse,
     parseCurrentPriceResponse: parseCurrentPriceResponse,
     parseHistoricalResponse: parseHistoricalResponse,
     preFill: preFill

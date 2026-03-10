@@ -9,42 +9,42 @@ describe('provider edge branches', () => {
     global.handleError = jest.fn();
   });
 
-  test('invest preFill accepts valid params and ignores invalid ones', () => {
+  test('invest preFill accepts valid USD params and ignores non-USD ones', () => {
     const table = createDataTableStub();
 
     buildInvestDom();
     setupJQuery(table);
     setupGetQueue([
       {
-        response: JSON.stringify({
-          bpi: {
-            '2024-01-01': 100,
-            '2024-01-31': 200
-          }
-        })
+        response: {
+          Data: [
+            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 100 },
+            { TIMESTAMP: new Date('2024-01-31').getTime() / 1000, CLOSE: 200 }
+          ]
+        }
       },
       {
-        response: { EUR: 300 }
+        response: { USD: 300 }
       }
     ]);
-    window.history.pushState({}, '', 'http://localhost/?invest=250&currency=eur&crypto=btc&interval=30&date=2024-01-01');
+    window.history.pushState({}, '', 'http://localhost/?invest=250&currency=usd&crypto=btc&interval=30&date=2024-01-01');
 
     loadModule('../js/invest.js');
 
     expect(document.getElementById('invest-quantity').value).toBe('250');
-    expect(document.getElementById('invest-fiat').value).toBe('EUR');
+    expect(document.getElementById('invest-fiat').value).toBe('USD');
     expect(document.getElementById('invest-currency').value).toBe('BTC');
     expect(document.getElementById('invest-interval').value).toBe('30');
-    expect($.get).toHaveBeenCalled();
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('instrument=XBX-USD'));
 
     buildInvestDom();
     setupJQuery(table);
-    setupGetQueue([{ response: JSON.stringify({ bpi: {} }) }]);
-    window.history.pushState({}, '', 'http://localhost/?invest=250&currency=usd&crypto=eth&interval=14&date=2024-01-01');
+    setupGetQueue([{ response: { Data: [] } }]);
+    window.history.pushState({}, '', 'http://localhost/?invest=250&currency=eur&crypto=btc&interval=30&date=2024-01-01');
 
     loadModule('../js/invest.js');
 
-    expect(document.getElementById('invest-currency').value).toBe('BTC');
+    expect(document.getElementById('invest-fiat').value).toBe('USD');
     expect($.get).not.toHaveBeenCalled();
   });
 
@@ -74,12 +74,12 @@ describe('provider edge branches', () => {
     setupJQuery(table);
     setupGetQueue([
       {
-        response: JSON.stringify({
-          bpi: {
-            '2024-01-01': 100,
-            '2024-01-08': 200
-          }
-        })
+        response: {
+          Data: [
+            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 100 },
+            { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 }
+          ]
+        }
       },
       {
         response: { message: 'price failed' },

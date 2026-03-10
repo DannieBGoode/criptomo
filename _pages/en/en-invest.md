@@ -32,7 +32,6 @@ jquery: true
             <input id="invest-quantity" type="number" value="1000">
             <select id="invest-fiat">
                 <option value="USD">USD</option>
-                <option value="EUR">EUR</option>
             </select>
         </div>
     </div>
