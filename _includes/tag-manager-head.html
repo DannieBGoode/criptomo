@@ -1,59 +1,25 @@
 <!-- Google Tag Manager -->
 
-{% if site.partytown %}
-        <script>
-            window.partytown = {
-                lib: '{{ site.baseurl }}/js/public/partytown/',
-                forward: [['dataLayer.push', { preserveBehavior: true }]]
-            };
-        </script>
-        <script src="{{ site.baseurl }}/js/public/partytown/partytown.js"></script>
-        <!-- Partytown method -->
-        <script type="text/partytown">
-            (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js'
-                });
-                
-                var f = d.getElementsByTagName(s)[0];
-                var j = d.createElement(s);
-                var dl = l != 'dataLayer' ? '&l=' + l : '';
-                
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', '{{ site.tag-manager-id }}');
-        </script>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
 
-<!-- End Partytown -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
 
-{% else %}
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        var dl = l !== 'dataLayer' ? '&l=' + l : '';
 
-    <link href="https://www.googletagmanager.com/gtag/js?id={{ site.tag-manager-id }}" rel="preload" as="script">
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            
-            var f = d.getElementsByTagName(s)[0];
-            var j = d.createElement(s);
-            var dl = l != 'dataLayer' ? '&l=' + l : '';
-            
-            j.defer = true;
-            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', '{{ site.tag-manager-id }}');
-    </script>
-    <!-- End Google Tag Manager -->
-{% endif %}
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', '{{ site.tag-manager-id }}');
+</script>
 
-
+<!-- End Google Tag Manager -->

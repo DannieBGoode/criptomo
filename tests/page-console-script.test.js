@@ -64,14 +64,6 @@ describe('page console smoke helpers', () => {
     expect(rewritten).toContain('/__test_stubs__/noop.js');
     expect(rewritten).toContain('window.fetch = function');
   });
-  test('rewrites the supported Partytown asset path to a local stub', () => {
-    const html = '<html><head><script src="/js/public/partytown/partytown.js"></script></head><body></body></html>';
-    const rewritten = pageConsole.rewriteHtml(html);
-
-    expect(rewritten).toContain('/__test_stubs__/noop.js');
-    expect(rewritten).not.toContain('/js/public/partytown/partytown.js');
-  });
-
   test('normalizes requested page paths from cli args', () => {
     expect(pageConsole.getRequestedPagePaths(['/calculadora/', '--page=/en/calculator/', 'de/gewinnrechner'])).toEqual([
       '/calculadora/',

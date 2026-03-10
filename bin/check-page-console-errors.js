@@ -26,13 +26,7 @@ const THIRD_PARTY_REPLACEMENTS = [
   ['https://www.googletagmanager.com/gtm.js', TEST_STUB_PREFIX + '/noop.js'],
   ['https://www.googletagmanager.com/gtag/js?id=GTM-TV5P5BH', TEST_STUB_PREFIX + '/noop.js'],
   ['https://chimpstatic.com/mcjs-connected/js/users/b9de4a6450813cafe2bddbf2b/60c797cb12a5c763c13429d62.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['/~partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['~partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['/js/public/partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['js/public/partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['/js/public/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
-  ['js/public/partytown.js', TEST_STUB_PREFIX + '/noop.js']
+  ['https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', TEST_STUB_PREFIX + '/noop.js']
 ];
 
 const STUB_SCRIPTS = {
