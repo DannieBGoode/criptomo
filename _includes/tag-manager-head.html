@@ -1,7 +1,13 @@
 <!-- Google Tag Manager -->
 
 {% if site.partytown %}
-        <script src="js/public/partytown.js"></script>
+        <script>
+            window.partytown = {
+                lib: '{{ site.baseurl }}/js/public/partytown/',
+                forward: [['dataLayer.push', { preserveBehavior: true }]]
+            };
+        </script>
+        <script src="{{ site.baseurl }}/js/public/partytown/partytown.js"></script>
         <!-- Partytown method -->
         <script type="text/partytown">
             (function(w, d, s, l, i) {
@@ -15,7 +21,7 @@
                 var j = d.createElement(s);
                 var dl = l != 'dataLayer' ? '&l=' + l : '';
                 
-                j.defer = true;
+                j.async = true;
                 j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
                 
                 f.parentNode.insertBefore(j, f);

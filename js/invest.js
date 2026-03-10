@@ -6,6 +6,136 @@ function addDays(date, days) {
     return result;
 }
 
+function parseHistoricalResponse(data) {
+  try {
+    return JSON.parse(data);
+  } catch (error) {
+    return null;
+  }
+}
+
+function parseCurrentPriceResponse(priceData, fiat) {
+  const parsedCurrentPrice = parseFloat(priceData && priceData[fiat]);
+
+  if (!Number.isFinite(parsedCurrentPrice)) {
+    return null;
+  }
+
+  return parsedCurrentPrice;
+}
+
+function buildCurrentInvestment(latestResult, currentPrice, today) {
+  if (!latestResult || !Number.isFinite(currentPrice)) {
+    return null;
+  }
+
+  return {
+    investmentValue: parseFloat(currentPrice * latestResult.totalCC).toFixed(2),
+    totalSpent: latestResult.totalSpent,
+    totalCC: latestResult.totalCC,
+    purchasePrice: currentPrice,
+    date: today
+  };
+}
+
+function buildInvestmentRows(bpi, investmentData) {
+  let results = [];
+  let date = new Date(investmentData.date);
+  let dateFormatted = date.toISOString().split('T')[0];
+  let currentPrice;
+
+  if (!bpi || !bpi[dateFormatted]) {
+    return [];
+  }
+
+  currentPrice = bpi[dateFormatted];
+
+  results[0] = {
+      totalCC: parseFloat(investmentData.amount / bpi[dateFormatted]).toFixed(6),
+      totalSpent: investmentData.amount,
+      date: dateFormatted,
+      purchasePrice: currentPrice
+  };
+
+  results[0].investmentValue = parseFloat(results[0].totalCC * bpi[dateFormatted]).toFixed(2);
+
+  date = addDays(date, investmentData.selectedInterval);
+  dateFormatted =  date.toISOString().split('T')[0];
+
+  for (let resultIndex = 1; date.toISOString() < investmentData.today; resultIndex++) {
+      if (bpi[dateFormatted]) {
+        currentPrice = bpi[dateFormatted];
+      }
+
+      if (currentPrice) {
+        results[resultIndex] = {};
+        results[resultIndex].totalCC = parseFloat(parseFloat(results[resultIndex - 1].totalCC) + parseFloat(investmentData.amount / currentPrice)).toFixed(6);
+
+        results[resultIndex].totalSpent = parseInt(results[resultIndex - 1].totalSpent) + investmentData.amount;
+        results[resultIndex].investmentValue = parseFloat(results[resultIndex].totalCC * currentPrice).toFixed(2);
+        results[resultIndex].purchasePrice = currentPrice;
+        results[resultIndex].date = dateFormatted;
+      }
+
+      date = addDays(date, investmentData.selectedInterval);
+      dateFormatted =  date.toISOString().split('T')[0];
+  }
+
+  return results;
+}
+
+function buildCryptoCompareHistoricalUrl(startDate, endDate, fiat) {
+  var startMs = new Date(startDate).getTime();
+  var endMs = new Date(endDate).getTime();
+  var limit = Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2;
+  var toTs = Math.floor(endMs / 1000);
+  return 'https://min-api.cryptocompare.com/data/v2/histoday'
+    + '?fsym=BTC&tsym=' + fiat
+    + '&limit=' + limit
+    + '&toTs=' + toTs;
+}
+
+function normalizeCryptoCompareHistoricalResponse(data) {
+  if (!data || !data.Data || !Array.isArray(data.Data.Data)) { return null; }
+  var bpi = {};
+  data.Data.Data.forEach(function(entry) {
+    if (entry.time && entry.close) {
+      var dateStr = new Date(entry.time * 1000).toISOString().split('T')[0];
+      bpi[dateStr] = entry.close;
+    }
+  });
+  return { bpi: bpi };
+}
+
+function buildCoindeskHistoricalUrl(startDate, endDate, fiat) {
+  var startMs = new Date(startDate).getTime();
+  var endMs = new Date(endDate).getTime();
+  var limit = Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2;
+  var instrument = (fiat === 'EUR') ? 'XBX-EUR' : 'XBX-USD';
+  var toTs = Math.floor(endMs / 1000);
+  return 'https://data-api.coindesk.com/index/cc/v1/historical/days'
+    + '?market=sda&instrument=' + instrument
+    + '&limit=' + limit
+    + '&groups=OHLC'
+    + '&to_ts=' + toTs;
+}
+
+function normalizeCoindeskResponse(data) {
+  if (!data || !Array.isArray(data.Data)) { return null; }
+  var bpi = {};
+  data.Data.forEach(function(entry) {
+    if (entry.TIMESTAMP && entry.CLOSE) {
+      var dateStr = new Date(entry.TIMESTAMP * 1000).toISOString().split('T')[0];
+      bpi[dateStr] = entry.CLOSE;
+    }
+  });
+  return { bpi: bpi };
+}
+
+function isValidInterval(intervalParam) {
+  return intervalParam === 9999 || intervalParam === 1 || intervalParam === 7 || intervalParam === 30 || intervalParam === 365;
+}
+
 function preFill () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
@@ -18,9 +148,8 @@ function preFill () {
   if (!Number.isNaN(invest) && currencyParam && tokenParam && date) {
     const currency = currencyParam.toUpperCase();
     const token = tokenParam.toUpperCase();
-    const isValidInterval = intervalParam === 9999 || intervalParam === 1 || intervalParam === 7 || intervalParam === 30 || intervalParam === 365;
 
-    if ((currency === 'USD' || currency === 'EUR') && token === 'BTC' && isValidInterval) {
+    if ((currency === 'USD' || currency === 'EUR') && token === 'BTC' && isValidInterval(intervalParam)) {
       document.getElementById('invest-quantity').value = invest;
       document.getElementById('invest-fiat').value = currency;
       document.getElementById('invest-currency').value = token;
@@ -33,9 +162,8 @@ function preFill () {
 }
 
 function calculateEarnings() {
-  // clear errors
   if (document.querySelector('.input-error')) {
-   document.querySelector('.input-error').classList.remove('input-error');  
+   document.querySelector('.input-error').classList.remove('input-error');
   }
   Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
@@ -52,98 +180,61 @@ function calculateEarnings() {
       today: new Date().toISOString()
   };
 
-  $.get('https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.today.split('T')[0] + '&currency=' + investment.fiat)
-    .success(function (data) {
-      data = JSON.parse(data);
-      let results = [];
-      let investmentDataArray = [];
-      let date = new Date(investment.date);
-      let dateFormatted =  date.toISOString().split('T')[0];
-      let currentPrice;
-      if ((data.bpi) && (data.bpi[dateFormatted])) {
-        
-        currentPrice = data.bpi[dateFormatted];
+  var isEur = investment.fiat === 'EUR';
+  var historicalUrl = isEur
+    ? buildCryptoCompareHistoricalUrl(investment.date, investment.today.split('T')[0], investment.fiat)
+    : buildCoindeskHistoricalUrl(investment.date, investment.today.split('T')[0], investment.fiat);
 
-        results[0] = {
-            totalCC: parseFloat(investment.amount / data.bpi[dateFormatted]).toFixed(6),
-            totalSpent: investment.amount,
-            date: dateFormatted,
-            purchasePrice: currentPrice
-        };
+  $.get(historicalUrl)
+    .success(function (rawData) {
+      const parsed = parseHistoricalResponse(rawData);
+      const data = isEur
+        ? normalizeCryptoCompareHistoricalResponse(parsed)
+        : normalizeCoindeskResponse(parsed);
+      const investmentDataArray = buildInvestmentRows(data && data.bpi, investment);
 
-        results[0].investmentValue = parseFloat(results[0].totalCC * data.bpi[dateFormatted]).toFixed(2);
-
-        date = addDays(date, investment.selectedInterval);
-        dateFormatted =  date.toISOString().split('T')[0];
-
-        investmentDataArray.push(results[0]);
-
-        
-
-        for (let resultIndex = 1; date.toISOString() < investment.today; resultIndex++)
-        {
-            if (data.bpi[dateFormatted]) {
-              currentPrice = data.bpi[dateFormatted];  
-            }
-            
-            if (currentPrice) {
-              results[resultIndex] = {};
-              results[resultIndex].totalCC = parseFloat(parseFloat(results[resultIndex - 1].totalCC) + parseFloat(investment.amount / currentPrice)).toFixed(6);
-              
-              results[resultIndex].totalSpent = parseInt(results[resultIndex - 1].totalSpent) + investment.amount;
-              results[resultIndex].investmentValue = parseFloat(results[resultIndex].totalCC * currentPrice).toFixed(2);
-              results[resultIndex].purchasePrice = currentPrice;
-              results[resultIndex].date = dateFormatted;
-
-              investmentDataArray.push(results[resultIndex]);
-            }
-
-            date = addDays(date, investment.selectedInterval);
-            dateFormatted =  date.toISOString().split('T')[0];
-        }
-      }
-      else {
+      if (!investmentDataArray.length) {
         handleError('date');
+        return;
       }
 
       $.get('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
         .success(function (priceData) {
-          if (results) {
-              results.currentInvestment = {
-              investmentValue: parseFloat(priceData[investment.fiat] * results[results.length - 1].totalCC).toFixed(2),
-              totalSpent: results[results.length - 1].totalSpent,
-              totalCC: results[results.length - 1].totalCC,
-              purchasePrice: priceData[investment.fiat],
-              date: investment.today
-            }
-            investmentDataArray.push(results.currentInvestment);
+          const latestResult = investmentDataArray[investmentDataArray.length - 1];
+          const parsedCurrentPrice = parseCurrentPriceResponse(priceData, investment.fiat);
+          const currentInvestment = buildCurrentInvestment(latestResult, parsedCurrentPrice, investment.today);
 
-            $('#result-tokencount').html(results[results.length - 1].totalCC.toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
-            $('#result-tokentype').html(investment.tokenSymbol);
-            $('#result-fiat').html(investment.fiat);
-            $('#result-currentvalue').html(results.currentInvestment.investmentValue.toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
-            $('#calculator-results').show();
-
-            table.clear();
-            table.rows.add( investmentDataArray );
-            table.draw();
-            table.columns.adjust();
-            table.responsive.recalc();
-
-            let newParams = '?invest='+ document.getElementById('invest-quantity').value 
-                          + '&currency=' + document.getElementById('invest-fiat').value 
-                          + '&crypto=' + document.getElementById('invest-currency').value 
-                          + '&interval=' + document.getElementById('invest-interval').value 
-                          + '&date=' + document.getElementById('invest-date').value + '';
-            history.replaceState({}, null, window.location.pathname + newParams);
+          if (!currentInvestment) {
+            handleError('date');
+            return;
           }
+          investmentDataArray.push(currentInvestment);
+
+          $('#result-tokencount').html(latestResult.totalCC.toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
+          $('#result-tokentype').html(investment.tokenSymbol);
+          $('#result-fiat').html(investment.fiat);
+          $('#result-currentvalue').html(currentInvestment.investmentValue.toString().replace(/(\d)(?=(\d{3})+\.)/g, '$1,'));
+          $('#calculator-results').show();
+
+          table.clear();
+          table.rows.add( investmentDataArray );
+          table.draw();
+          table.columns.adjust();
+          table.responsive.recalc();
+
+          let newParams = '?invest='+ document.getElementById('invest-quantity').value 
+                        + '&currency=' + document.getElementById('invest-fiat').value 
+                        + '&crypto=' + document.getElementById('invest-currency').value 
+                        + '&interval=' + document.getElementById('invest-interval').value 
+                        + '&date=' + document.getElementById('invest-date').value + '';
+          history.replaceState({}, null, window.location.pathname + newParams);
         })
         .error(function () {
-        handleError('date');
-      })
-      .always(function () {
-        table.processing( false );
-      });
+          handleError('date');
+        })
+        .always(function () {
+          table.processing( false );
+        });
     })
     .error(function () {
       handleError('date');
@@ -220,8 +311,17 @@ initInvestCalculator();
 
 if (typeof module !== 'undefined') {
   module.exports = {
+    buildCoindeskHistoricalUrl: buildCoindeskHistoricalUrl,
+    buildCryptoCompareHistoricalUrl: buildCryptoCompareHistoricalUrl,
+    buildCurrentInvestment: buildCurrentInvestment,
+    buildInvestmentRows: buildInvestmentRows,
     calculateEarnings: calculateEarnings,
     initInvestCalculator: initInvestCalculator,
+    isValidInterval: isValidInterval,
+    normalizeCoindeskResponse: normalizeCoindeskResponse,
+    normalizeCryptoCompareHistoricalResponse: normalizeCryptoCompareHistoricalResponse,
+    parseCurrentPriceResponse: parseCurrentPriceResponse,
+    parseHistoricalResponse: parseHistoricalResponse,
     preFill: preFill
   };
 }

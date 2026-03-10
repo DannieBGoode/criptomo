@@ -64,4 +64,33 @@ describe('page console smoke helpers', () => {
     expect(rewritten).toContain('/__test_stubs__/noop.js');
     expect(rewritten).toContain('window.fetch = function');
   });
+  test('rewrites the supported Partytown asset path to a local stub', () => {
+    const html = '<html><head><script src="/js/public/partytown/partytown.js"></script></head><body></body></html>';
+    const rewritten = pageConsole.rewriteHtml(html);
+
+    expect(rewritten).toContain('/__test_stubs__/noop.js');
+    expect(rewritten).not.toContain('/js/public/partytown/partytown.js');
+  });
+
+  test('normalizes requested page paths from cli args', () => {
+    expect(pageConsole.getRequestedPagePaths(['/calculadora/', '--page=/en/calculator/', 'de/gewinnrechner'])).toEqual([
+      '/calculadora/',
+      '/en/calculator/',
+      'de/gewinnrechner'
+    ]);
+    expect(pageConsole.normalizeRequestedPagePath('https://127.0.0.1:4000/calculadora')).toBe('/calculadora/');
+    expect(pageConsole.normalizeRequestedPagePath('de/gewinnrechner')).toBe('/de/gewinnrechner/');
+    expect(() => pageConsole.getRequestedPagePaths(['--page'])).toThrow('Missing value for --page');
+  });
+
+  test('resolves requested page paths against generated pages', () => {
+    const pagePaths = ['/', '/calculadora/', '/en/calculator/', '/de/gewinnrechner/'];
+
+    expect(pageConsole.resolvePagePaths(pagePaths, ['/calculadora', 'de/gewinnrechner'])).toEqual([
+      '/calculadora/',
+      '/de/gewinnrechner/'
+    ]);
+    expect(pageConsole.resolvePagePaths(pagePaths)).toEqual(pagePaths);
+    expect(() => pageConsole.resolvePagePaths(pagePaths, ['/missing/'])).toThrow('Unknown page path(s): /missing/');
+  });
 });

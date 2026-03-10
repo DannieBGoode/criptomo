@@ -6,7 +6,8 @@
 		"test:page-console": "node bin/check-page-console-errors.js",
 		"test:watch": "jest --watch",
 		"dev": "bundle exec ruby bin/jekyll-local.rb serve --incremental",
-		"start": "bundle exec ruby bin/jekyll-local.rb serve --incremental"
+		"start": "bundle exec ruby bin/jekyll-local.rb serve --incremental",
+		"partytown:sync": "node ./node_modules/@qwik.dev/partytown/bin/partytown.cjs copylib js/public/partytown --no-debug"
 	},
 	"devDependencies": {
 		"eslint": "^8.57.1",
@@ -15,11 +16,13 @@
 		"jquery": "^3.7.1"
 	},
 	"dependencies": {
-		"@builder.io/partytown": "^0.8.0"
+		"@qwik.dev/partytown": "^0.11.2"
 	},
 	"jest": {
 		"testEnvironment": "jsdom",
-		"setupFilesAfterEnv": ["./tests/setup.js"],
+		"setupFilesAfterEnv": [
+			"./tests/setup.js"
+		],
 		"collectCoverageFrom": [
 			"js/*.js",
 			"!js/jquery.js"

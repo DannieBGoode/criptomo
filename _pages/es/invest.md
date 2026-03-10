@@ -1,8 +1,8 @@
 ---
-title: Cartera de InversiÃ³n de Criptomonedas
+title: Cartera de Inversión de Criptomonedas
 permalink: "/inversion/"
 layout: page
-description: Cartera de InversiÃ³n de Criptomonedas, invierte periodicamente y calcula
+description: Cartera de Inversión de Criptomonedas, invierte periodicamente y calcula
   tus ganancias de Bitcoin
 banner_image: pages/investment.webp
 schema: true
@@ -59,10 +59,10 @@ jquery: true
         <div class="calculator-col-end">
             <select id="invest-interval">
                 <option value="9999">Una sola vez</option>
-                <option value="1">DÃ­a</option>
+                <option value="1">Día</option>
                 <option value="7">Semana</option>
                 <option value="30">Mes</option>
-                <option value="365">AÃ±o</option>
+                <option value="365">Año</option>
             </select>
             <div class="calculator-col-start" style="display:inline">
                 <label for="invest-date">empezando el dÃ­a </label>
@@ -78,13 +78,13 @@ jquery: true
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         <div id="calculator-results">
-            Ahora tendrÃ­as un total de 
+            Ahora tendrías un total de 
             <span id="result-tokencount"></span> <span id="result-tokentype"></span>
             valorados a dÃ­a de hoy en <span id="result-currentvalue"></span> <span id="result-fiat"></span>.
         </div>
         <p>
-            <span class="error coin-error">Esta criptomoneda no estÃ¡ cubierta por nuestro sistema.</span>
-            <span class="error date-error">Esta fecha no estÃ¡ cubierta en nuestro historial.</span>
+            <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
+            <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
         </p>
     </div>
 </div>

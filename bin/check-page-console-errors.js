@@ -27,6 +27,10 @@ const THIRD_PARTY_REPLACEMENTS = [
   ['https://www.googletagmanager.com/gtag/js?id=GTM-TV5P5BH', TEST_STUB_PREFIX + '/noop.js'],
   ['https://chimpstatic.com/mcjs-connected/js/users/b9de4a6450813cafe2bddbf2b/60c797cb12a5c763c13429d62.js', TEST_STUB_PREFIX + '/noop.js'],
   ['https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', TEST_STUB_PREFIX + '/noop.js'],
+  ['/~partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
+  ['~partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
+  ['/js/public/partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
+  ['js/public/partytown/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
   ['/js/public/partytown.js', TEST_STUB_PREFIX + '/noop.js'],
   ['js/public/partytown.js', TEST_STUB_PREFIX + '/noop.js']
 ];
@@ -394,6 +398,62 @@ function collectPagePaths() {
     .sort();
 }
 
+function normalizeRequestedPagePath(pagePath) {
+  if (!pagePath) {
+    return '/';
+  }
+
+  let normalizedPath = String(pagePath).trim();
+  if (!normalizedPath) {
+    return '/';
+  }
+
+  if (/^https?:\/\//i.test(normalizedPath)) {
+    normalizedPath = new URL(normalizedPath).pathname;
+  }
+
+  if (!normalizedPath.startsWith('/')) {
+    normalizedPath = '/' + normalizedPath;
+  }
+
+  if (!path.extname(normalizedPath) && normalizedPath !== '/' && !normalizedPath.endsWith('/')) {
+    normalizedPath += '/';
+  }
+
+  if (normalizedPath.endsWith('/index.html')) {
+    normalizedPath = normalizedPath.slice(0, -'index.html'.length);
+  }
+
+  return normalizedPath;
+}
+
+function resolvePagePaths(allPagePaths, requestedPagePaths) {
+  if (!requestedPagePaths || requestedPagePaths.length === 0) {
+    return allPagePaths;
+  }
+
+  const normalizedPagePaths = requestedPagePaths.map(normalizeRequestedPagePath);
+  const missingPagePaths = normalizedPagePaths.filter((pagePath) => !allPagePaths.includes(pagePath));
+
+  if (missingPagePaths.length > 0) {
+    throw new Error('Unknown page path(s): ' + missingPagePaths.join(', '));
+  }
+
+  return allPagePaths.filter((pagePath) => normalizedPagePaths.includes(pagePath));
+}
+
+function getRequestedPagePaths(argv) {
+  return (argv || []).map((arg) => String(arg).trim()).filter((arg) => arg).map((arg) => {
+    if (arg.startsWith('--page=')) {
+      return arg.slice('--page='.length);
+    }
+    if (arg === '--page') {
+      throw new Error('Missing value for --page');
+    }
+    return arg;
+  });
+}
+
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -652,7 +712,7 @@ async function inspectPage(devtoolsBaseUrl, pageUrl) {
   return normalizeFailures(failures);
 }
 
-async function runConsoleSmokeCheck() {
+async function runConsoleSmokeCheck(requestedPagePaths) {
   if (!fs.existsSync(SITE_DIR)) {
     throw new Error('_site does not exist. Build the site first before running the console smoke check.');
   }
@@ -685,7 +745,7 @@ async function runConsoleSmokeCheck() {
   try {
     await waitForJson('http://127.0.0.1:' + browserPort + '/json/version', 10000);
     const devtoolsBaseUrl = 'http://127.0.0.1:' + browserPort;
-    const pagePaths = collectPagePaths();
+    const pagePaths = resolvePagePaths(collectPagePaths(), requestedPagePaths);
     const results = [];
 
     for (const pagePath of pagePaths) {
@@ -747,7 +807,7 @@ function writeReport(report) {
 }
 
 async function main() {
-  const report = await runConsoleSmokeCheck();
+  const report = await runConsoleSmokeCheck(getRequestedPagePaths(process.argv.slice(2)));
   const markdown = writeReport(report);
 
   console.log(markdown);
@@ -769,6 +829,9 @@ if (require.main === module) {
 module.exports = {
   collectPagePaths: collectPagePaths,
   formatReport: formatReport,
+  getRequestedPagePaths: getRequestedPagePaths,
+  normalizeRequestedPagePath: normalizeRequestedPagePath,
+  resolvePagePaths: resolvePagePaths,
   rewriteHtml: rewriteHtml,
   isRedirectAliasHtml: isRedirectAliasHtml,
   normalizeFailures: normalizeFailures,
