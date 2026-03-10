@@ -1,54 +1,109 @@
+{% assign footer_locales = site.data.footer.locales %}
+{% assign footer = site.data.footer[lang] | default: site.data.footer.en %}
+{% assign current_locale = footer_locales | where: "lang", lang | first %}
+
+{% if current_locale %}
+    {% assign home_url = current_locale.url %}
+{% else %}
+    {% assign home_url = "/" %}
+{% endif %}
+
+{% if site.mailchimp_url_es %}
+    {% assign subscribe_link = site.mailchimp_url_es | replace: '/subscribe/post?', '/subscribe?' %}
+{% endif %}
+
+{% assign page_translations = nil %}
+{% if page.ref %}
+    {% if page.layout == 'post' %}
+        {% assign page_translations = site.posts | where: "ref", page.ref | sort: "lang" %}
+    {% else %}
+        {% assign page_translations = site.pages | where: "ref", page.ref | sort: "lang" %}
+    {% endif %}
+{% endif %}
+
 <footer class="site-footer">
     <div class="inner">
-        <div class="social-links">
-            {% if site.twitter_username %}
-            <a href="https://twitter.com/{{ site.twitter_username }}" class="icon-twitter square fill-horizontal"><span class="screen-reader-text">Twitter</span></a>
-            {% endif %}
-            {% if site.facebook_username %}
-            <a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon-facebook square fill-horizontal"><span class="screen-reader-text">Facebook</span></a>
-            {% endif %}
-            {% if site.googleplus_username %}
-            <a href="https://plus.google.com/{{ site.googleplus_username }}" class="icon-google-plus square fill-horizontal"><span class="screen-reader-text">Google+</span></a>
-            {% endif %}
-            {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}" class="icon-github square fill-horizontal"><span class="screen-reader-text">GitHub</span></a>
-            {% endif %}
-            {% if site.codepen_username %}
-            <a href="http://codepen.io/{{ site.codepen_username }}" class="icon-codepen square fill-horizontal"><span class="screen-reader-text">CodePen</span></a>
-            {% endif %}
-            {% if site.dribbble_uername %}
-            <a href="https://dribbble.com/{{ site.dribbble_uername }}" class="icon-dribbble square fill-horizontal"><span class="screen-reader-text">Dribbble</span></a>
-            {% endif %}
-            {% if site.medium_username %}
-            <a href="https://medium.com/{{ site.medium_username }}" class="icon-medium square fill-horizontal"><span class="screen-reader-text">Medium</span></a>
-            {% endif %}
-            {% if site.instagram_username %}
-            <a href="http://instagram.com/{{ site.instagram_username }}" class="icon-instagram square fill-horizontal"><span class="screen-reader-text">Instagram</span></a>
-            {% endif %}
-            {% if site.pinterest_username %}
-            <a href="http://www.pinterest.com/{{ site.pinterest_username }}" class="icon-pinterest-p square fill-horizontal"><span class="screen-reader-text">Pinterest</span></a>
-            {% endif %}
-            {% if site.linkedin_username %}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="icon-linkedin2 square fill-horizontal"><span class="screen-reader-text">LinkedIn</span></a>
-            {% endif %}
-            <a class="icon-feed square fill-horizontal" href="{{ site.baseurl }}/feed.xml"><span class="screen-reader-text">RSS</span></a>
-        </div><!-- .social-links -->
+        <div class="site-footer__main">
+            <div class="site-footer__identity">
+                <a class="site-footer__brand" href="{{ site.baseurl }}{{ home_url }}">{{ site.title }}</a>
+                <p class="site-footer__description">{{ footer.description }}</p>
+            </div>
 
-        <div class="donate">
-            <div>Donate:</div>
-            <div>
-                <span class="donate-btc-icon">&#8383;</span>
-                BTC: <span><small><small>{{ site.crypto.address.bitcoin }}</small></small></span>
-            </div>
-            <div>
-                <img src="/images/general/cryptocurrencies/eth-64.png" alt="Ethereum" class="small-image" title="Ethereum"/>
-                ETH: <span><small><small>{{ site.crypto.address.ethereum }}</small></small></span>
-            </div>
+            <section class="site-footer__section" aria-labelledby="footer-explore">
+                <h2 id="footer-explore" class="site-footer__section-title">{{ footer.sections.explore }}</h2>
+                <ul class="site-footer__link-list">
+                    {% for link in footer.links %}
+                    <li>
+                        <a href="{{ site.baseurl }}{{ link.url }}">{{ link.label }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+
+            <section class="site-footer__section" aria-labelledby="footer-editions">
+                <h2 id="footer-editions" class="site-footer__section-title">{{ footer.sections.editions }}</h2>
+                <ul class="site-footer__language-list">
+                    {% for locale in footer_locales %}
+                    {% assign locale_url = locale.url %}
+                    {% if page_translations %}
+                        {% for translation in page_translations %}
+                            {% if translation.lang == locale.lang %}
+                                {% assign locale_url = translation.url %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+
+                    {% assign language_link_class = "site-footer__language-link" %}
+                    {% if locale.lang == lang %}
+                        {% assign language_link_class = language_link_class | append: " site-footer__language-link--current" %}
+                    {% endif %}
+
+                    <li>
+                        <a class="{{ language_link_class }}" href="{{ site.baseurl }}{{ locale_url }}"{% if locale.lang == lang %} aria-current="page"{% endif %}>
+                            <span class="site-footer__language-name">{{ locale.label }}</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
         </div>
 
-        <div class="site-info">
-            &copy; <a href="{{ site.baseurl }}/">{{site.title}}</a> all rights reserved. <br />
-            <a onclick="window.scroll({top: 0, left: 0, behavior: 'smooth'});" class="icon-chevron-up top-link square fill-horizontal"><span class="screen-reader-text">Back to the top</span></a>
-        </div><!-- .site-info -->
-    </div><!-- .inner -->
+        <div class="site-footer__subgrid">
+            <section class="site-footer__section" aria-labelledby="footer-follow">
+                <h2 id="footer-follow" class="site-footer__section-title">{{ footer.sections.follow }}</h2>
+                <ul class="site-footer__utility-list">
+                    <li>
+                        <a href="{{ site.baseurl }}/feed.xml">{{ footer.rss }}</a>
+                    </li>
+                    {% if subscribe_link %}
+                    <li>
+                        <a href="{{ subscribe_link }}" target="_blank" rel="noopener">{{ footer.secondary_cta }}</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </section>
+
+            <section class="site-footer__section" aria-labelledby="footer-support">
+                <h2 id="footer-support" class="site-footer__section-title">{{ footer.sections.support }}</h2>
+                <p class="site-footer__donate-copy">{{ footer.donate_intro }}</p>
+                <ul class="site-footer__wallet-list">
+                    <li class="site-footer__wallet">
+                        <span class="site-footer__wallet-label">{{ footer.donate_btc }}</span>
+                        <span class="site-footer__wallet-value" title="{{ site.crypto.address.bitcoin }}">{{ site.crypto.address.bitcoin }}</span>
+                    </li>
+                    <li class="site-footer__wallet">
+                        <span class="site-footer__wallet-label">{{ footer.donate_eth }}</span>
+                        <span class="site-footer__wallet-value" title="{{ site.crypto.address.ethereum }}">{{ site.crypto.address.ethereum }}</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="site-footer__bottom">
+            <p class="site-footer__meta">
+                &copy; {{ site.time | date: "%Y" }} <a href="{{ site.baseurl }}{{ home_url }}">{{ site.title }}</a>. {{ footer.rights }}
+            </p>
+            <a href="#top" class="site-footer__top-link" onclick="window.scroll({top: 0, left: 0, behavior: 'smooth'}); return false;">{{ footer.back_to_top }}</a>
+        </div>
+    </div>
 </footer><!-- .site-footer -->

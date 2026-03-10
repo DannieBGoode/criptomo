@@ -1,0 +1,152 @@
+locales:
+  - lang: es
+    label: "Espa\u00f1ol"
+    short: ES
+    url: /
+  - lang: en
+    label: English
+    short: EN
+    url: /en/
+  - lang: de
+    label: Deutsch
+    short: DE
+    url: /de/gewinnrechner/
+  - lang: fr
+    label: "Fran\u00e7ais"
+    short: FR
+    url: /fr/calculateur/
+  - lang: pt
+    label: "Portugu\u00eas"
+    short: PT
+    url: /pt/calculadora/
+
+es:
+  eyebrow: "Analisis, herramientas y vision a largo plazo"
+  description: "Guias y herramientas sobre Bitcoin, cripto e inversion."
+  primary_cta: "Abrir calculadora"
+  secondary_cta: "Suscribirse"
+  sections:
+    explore: Explorar
+    editions: Idiomas
+    follow: Canales
+    support: Donar
+  editions_note: "Cambia de edicion o abre la version traducida de esta pagina cuando este disponible."
+  donate_intro: "Apoya CRIPTOMO enviando BTC o ETH a una de estas direcciones."
+  donate_btc: Bitcoin
+  donate_eth: Ethereum
+  rights: "Todos los derechos reservados."
+  back_to_top: "Volver arriba"
+  rss: RSS
+  links:
+    - label: Blog
+      url: /
+    - label: Guias
+      url: /guias/
+    - label: Criptomonedas
+      url: /criptomonedas/
+    - label: Cotizaciones
+      url: /cotizaciones/
+    - label: Calculadora
+      url: /calculadora/
+    - label: Inversion
+      url: /inversion/
+    - label: FIRE
+      url: /calculadora-fire/
+    - label: ICOs
+      url: /icos/
+
+en:
+  eyebrow: "Research, tools, and long-term thinking"
+  description: "Guides and tools for Bitcoin, crypto, and investing."
+  primary_cta: "Open calculator"
+  secondary_cta: "Subscribe"
+  sections:
+    explore: Explore
+    editions: Languages
+    follow: Follow
+    support: Donate
+  editions_note: "Switch editions or open the translated version of this page when it is available."
+  donate_intro: "Support CRIPTOMO by sending BTC or ETH to one of these addresses."
+  donate_btc: Bitcoin
+  donate_eth: Ethereum
+  rights: "All rights reserved."
+  back_to_top: "Back to top"
+  rss: "RSS feed"
+  links:
+    - label: Blog
+      url: /en/
+    - label: Cryptocurrencies
+      url: /en/cryptocurrencies/
+    - label: Marketcaps
+      url: /en/marketcaps/
+    - label: Calculator
+      url: /en/calculator/
+    - label: Investment
+      url: /en/investment/
+    - label: FIRE
+      url: /en/fire-calculator/
+    - label: ICOs
+      url: /en/icos/
+
+de:
+  eyebrow: "Recherche, Tools und langfristiges Denken"
+  description: "Leitfaden und Tools fur Bitcoin, Krypto und Investing."
+  primary_cta: "Rechner offnen"
+  secondary_cta: "Abonnieren"
+  sections:
+    explore: Entdecken
+    editions: Sprachen
+    follow: Folgen
+    support: Spenden
+  editions_note: "Wechsle zwischen Editionen oder offne die ubersetzte Version dieser Seite, wenn sie verfugbar ist."
+  donate_intro: "Unterstutze CRIPTOMO mit BTC oder ETH an eine dieser Adressen."
+  donate_btc: Bitcoin
+  donate_eth: Ethereum
+  rights: "Alle Rechte vorbehalten."
+  back_to_top: "Nach oben"
+  rss: "RSS-Feed"
+  links:
+    - label: Gewinnrechner
+      url: /de/gewinnrechner/
+
+fr:
+  eyebrow: "Recherche, outils et vision long terme"
+  description: "Guides et outils pour Bitcoin, la crypto et l'investissement."
+  primary_cta: "Ouvrir le calculateur"
+  secondary_cta: "S'abonner"
+  sections:
+    explore: Explorer
+    editions: Langues
+    follow: Suivre
+    support: Faire un don
+  editions_note: "Changez d'edition ou ouvrez la version traduite de cette page lorsqu'elle est disponible."
+  donate_intro: "Soutenez CRIPTOMO en envoyant du BTC ou de l'ETH a l'une de ces adresses."
+  donate_btc: Bitcoin
+  donate_eth: Ethereum
+  rights: "Tous droits reserves."
+  back_to_top: "Retour en haut"
+  rss: RSS
+  links:
+    - label: Calculateur
+      url: /fr/calculateur/
+
+pt:
+  eyebrow: "Pesquisa, ferramentas e visao de longo prazo"
+  description: "Guias e ferramentas sobre Bitcoin, cripto e investimento."
+  primary_cta: "Abrir calculadora"
+  secondary_cta: "Subscrever"
+  sections:
+    explore: Explorar
+    editions: Idiomas
+    follow: Seguir
+    support: Doar
+  editions_note: "Mude de edicao ou abra a versao traduzida desta pagina quando estiver disponivel."
+  donate_intro: "Apoie o CRIPTOMO enviando BTC ou ETH para um destes enderecos."
+  donate_btc: Bitcoin
+  donate_eth: Ethereum
+  rights: "Todos os direitos reservados."
+  back_to_top: "Voltar ao topo"
+  rss: RSS
+  links:
+    - label: Calculadora
+      url: /pt/calculadora/
