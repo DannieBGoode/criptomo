@@ -16,7 +16,7 @@ jquery: true
 
 <div style="margin-bottom: 10px">
     <div style="margin-top:-25px">
-        <small>Para cÃ¡lculos de inversiÃ³n puntuales teneis la <a href="/calculadora">calculadora simple</a>.</small>
+        <small>Para cálculos de inversión puntuales teneis la <a href="/calculadora">calculadora simple</a>.</small>
     </div>
 </div>
 <div class="calculator-block" style="margin-bottom: 20px">
@@ -49,7 +49,7 @@ jquery: true
             <input width="150" class="calculator-othercoins" autofocus />
         </div>
     </div>
-    <div class="calculator-othercoins"><span>Es posible que no todas las monedas estÃ©n soportadas por la API.</span></div>
+    <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
@@ -64,7 +64,7 @@ jquery: true
                 <option value="365">Año</option>
             </select>
             <div class="calculator-col-start" style="display:inline">
-                <label for="invest-date">empezando el dÃ­a </label>
+                <label for="invest-date">empezando el día </label>
             </div>
             <div class="calculator-col-end" style="display:inline">
                 <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
@@ -79,7 +79,7 @@ jquery: true
         <div id="calculator-results">
             Ahora tendrías un total de 
             <span id="result-tokencount"></span> <span id="result-tokentype"></span>
-            valorados a dÃ­a de hoy en <span id="result-currentvalue"></span> <span id="result-fiat"></span>.
+            valorados a día de hoy en <span id="result-currentvalue"></span> <span id="result-fiat"></span>.
         </div>
         <p>
             <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
