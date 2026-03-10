@@ -7,6 +7,14 @@ function addDays(date, days) {
 }
 
 function parseHistoricalResponse(data) {
+  if (!data) {
+    return null;
+  }
+
+  if (typeof data === 'object') {
+    return data;
+  }
+
   try {
     return JSON.parse(data);
   } catch (error) {
@@ -120,13 +128,28 @@ function buildCoindeskHistoricalUrl(startDate, endDate, fiat) {
     + '&to_ts=' + toTs;
 }
 
+function getCoindeskHistoricalEntries(data) {
+  if (!data) { return null; }
+  if (Array.isArray(data.Data)) { return data.Data; }
+  if (data.Data && Array.isArray(data.Data.Data)) { return data.Data.Data; }
+  return null;
+}
+
 function normalizeCoindeskResponse(data) {
-  if (!data || !Array.isArray(data.Data)) { return null; }
+  var entries = getCoindeskHistoricalEntries(data);
+
+  if (!entries) { return null; }
+
   var bpi = {};
-  data.Data.forEach(function(entry) {
-    if (entry.TIMESTAMP && entry.CLOSE) {
-      var dateStr = new Date(entry.TIMESTAMP * 1000).toISOString().split('T')[0];
-      bpi[dateStr] = entry.CLOSE;
+  entries.forEach(function(entry) {
+    var rawTimestamp = entry && (entry.TIMESTAMP != null ? entry.TIMESTAMP : (entry.timestamp != null ? entry.timestamp : entry.time));
+    var rawClose = entry && (entry.CLOSE != null ? entry.CLOSE : entry.close);
+    var timestamp = Number(rawTimestamp);
+    var close = Number(rawClose);
+
+    if (Number.isFinite(timestamp) && Number.isFinite(close)) {
+      var dateStr = new Date(timestamp * 1000).toISOString().split('T')[0];
+      bpi[dateStr] = close;
     }
   });
   return { bpi: bpi };

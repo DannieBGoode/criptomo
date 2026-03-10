@@ -87,6 +87,18 @@ describe('calculator.js and invest.js', () => {
       }
     ]);
     expect(invest.parseCurrentPriceResponse({ EUR: 300 }, 'USD')).toBeNull();
+    expect(invest.parseHistoricalResponse({ Data: [] })).toEqual({ Data: [] });
+    expect(invest.normalizeCoindeskResponse({
+      Data: {
+        Data: [
+          { timestamp: new Date('2024-01-22').getTime() / 1000, close: 75 }
+        ]
+      }
+    })).toEqual({
+      bpi: {
+        '2024-01-22': 75
+      }
+    });
     expect(invest.buildCurrentInvestment(rows[2], 300, '2024-01-20T00:00:00.000Z')).toEqual({
       investmentValue: '1200.00',
       totalSpent: 300,
@@ -131,13 +143,13 @@ describe('calculator.js and invest.js', () => {
     setupJQuery(table);
     setupGetQueue([
       {
-        response: JSON.stringify({
+        response: {
           Data: [
             { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 100 },
             { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 },
             { TIMESTAMP: new Date('2024-01-15').getTime() / 1000, CLOSE: 50 }
           ]
-        })
+        }
       },
       {
         response: { USD: 300 }
