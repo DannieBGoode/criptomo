@@ -9,15 +9,15 @@ function getTableDataLang(currentLang) {
     data.general = {
       lengthMenu: 'Items _MENU_',
       zeroRecords: 'No se han encontrado resultados',
-      info: 'PÃ¡gina _PAGE_ de _PAGES_',
-      infoEmpty: 'No hay informaciÃ³n',
+      info: 'Página _PAGE_ de _PAGES_',
+      infoEmpty: 'No hay información',
       search: 'Buscar:',
       infoFiltered: '(filtrado entre _MAX_ monedas)',
       loadingRecords: 'Cargando...',
-      emptyTable: 'Tabla vacÃ­a',
+      emptyTable: 'Tabla vacía',
       paginate: {
         'first': 'Primera',
-        'last': 'Ãšltima',
+        'last': 'Última',
         'next': '<span class="icon-chevron-right"></span>',
         'previous': '<span class="icon-chevron-left"></span>'
       },
@@ -25,22 +25,22 @@ function getTableDataLang(currentLang) {
     };
     data.investmentColumns = {
       date: 'Fecha',
-      totalSpent: 'InversiÃ³n',
+      totalSpent: 'Inversión',
       totalCC: 'Criptomonedas',
       purchasePrice: 'Precio de compra',
       investmentValue: 'Valor en fecha'
     };
     data.marketcapColumns = {
       name: 'Nombre',
-      marketcap: 'CotizaciÃ³n',
+      marketcap: 'Cotización',
       price: 'Precio',
-      tokens: 'Tokens en CirculaciÃ³n'
+      tokens: 'Tokens en Circulación'
     };
     data.priceColumns = {
-      maximum: 'MÃ¡ximo HistÃ³rico',
+      maximum: 'Máximo Histórico',
       date: 'Fecha',
       price: 'Precio',
-      bet: 'Si esta moneda vuelve a mÃ¡ximo histÃ³rico, $1000 invertidos hoy serÃ­an: '
+      bet: 'Si esta moneda vuelve a máximo histórico, $1000 invertidos hoy serían: '
     };
     data.icoColumns = {
       name: 'Nombre',
