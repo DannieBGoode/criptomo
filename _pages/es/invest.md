@@ -1,8 +1,8 @@
 ---
-title: Cartera de Inversión de Criptomonedas
+title: Cartera de InversiÃ³n de Criptomonedas
 permalink: "/inversion/"
 layout: page
-description: Cartera de Inversión de Criptomonedas, invierte periodicamente y calcula
+description: Cartera de InversiÃ³n de Criptomonedas, invierte periodicamente y calcula
   tus ganancias de Bitcoin
 banner_image: pages/investment.webp
 schema: true
@@ -16,7 +16,7 @@ jquery: true
 
 <div style="margin-bottom: 10px">
     <div style="margin-top:-25px">
-        <small>Para cálculos de inversión puntuales teneis la <a href="/calculadora">calculadora simple</a>.</small>
+        <small>Para cÃ¡lculos de inversiÃ³n puntuales teneis la <a href="/calculadora">calculadora simple</a>.</small>
     </div>
 </div>
 <div class="calculator-block" style="margin-bottom: 20px">
@@ -50,7 +50,7 @@ jquery: true
             <input width="150" class="calculator-othercoins" autofocus />
         </div>
     </div>
-    <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
+    <div class="calculator-othercoins"><span>Es posible que no todas las monedas estÃ©n soportadas por la API.</span></div>
 
     <div class="calculator-form-row">
         <div class="calculator-col-start">
@@ -59,13 +59,13 @@ jquery: true
         <div class="calculator-col-end">
             <select id="invest-interval">
                 <option value="9999">Una sola vez</option>
-                <option value="1">Día</option>
+                <option value="1">DÃ­a</option>
                 <option value="7">Semana</option>
                 <option value="30">Mes</option>
-                <option value="365">Año</option>
+                <option value="365">AÃ±o</option>
             </select>
             <div class="calculator-col-start" style="display:inline">
-                <label for="invest-date">empezando el día </label>
+                <label for="invest-date">empezando el dÃ­a </label>
             </div>
             <div class="calculator-col-end" style="display:inline">
                 <input id="invest-date" type="date" value="2014-12-10" min="2010-07-18">
@@ -78,13 +78,13 @@ jquery: true
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateEarnings()">Calcular</button>
         <div id="calculator-results">
-            Ahora tendrías un total de 
+            Ahora tendrÃ­as un total de 
             <span id="result-tokencount"></span> <span id="result-tokentype"></span>
-            valorados a día de hoy en <span id="result-currentvalue"></span> <span id="result-fiat"></span>.
+            valorados a dÃ­a de hoy en <span id="result-currentvalue"></span> <span id="result-fiat"></span>.
         </div>
         <p>
-            <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
-            <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
+            <span class="error coin-error">Esta criptomoneda no estÃ¡ cubierta por nuestro sistema.</span>
+            <span class="error date-error">Esta fecha no estÃ¡ cubierta en nuestro historial.</span>
         </p>
     </div>
 </div>
@@ -97,8 +97,7 @@ jquery: true
 
 <script defer src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
-<script defer src="{{ site.baseurl }}/js/invest.js?{{site.time | date: '%s%N'}}"></script>
-
 <script defer src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
 <script defer src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
 <script defer src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+<script defer src="{{ site.baseurl }}/js/invest.js?{{site.time | date: '%s%N'}}"></script>

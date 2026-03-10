@@ -37,25 +37,45 @@ function setupJQuery(tableFactory) {
   return $;
 }
 
-function setupGet(response) {
+function normalizeGetStep(step) {
+  if (step && typeof step === 'object' && Object.prototype.hasOwnProperty.call(step, 'response')) {
+    return step;
+  }
+
+  return {
+    response: step
+  };
+}
+
+function setupGetQueue(steps) {
+  const queue = steps.map(normalizeGetStep);
+
   $.get = jest.fn(function(url, callback) {
-    if (callback) {
-      callback(response);
+    const step = queue.length > 1 ? queue.shift() : queue[0];
+    const callbackResponse = Object.prototype.hasOwnProperty.call(step, 'callbackResponse')
+      ? step.callbackResponse
+      : step.response;
+
+    if (callback && step.trigger !== 'error' && step.invokeCallback !== false) {
+      callback(callbackResponse);
     }
 
     return {
       always: function(fn) {
-        if (fn) {
-          fn(response);
+        if (fn && step.invokeAlways !== false) {
+          fn(step.response);
         }
         return this;
       },
-      error: function() {
+      error: function(fn) {
+        if (fn && step.trigger === 'error') {
+          fn(step.response);
+        }
         return this;
       },
       success: function(fn) {
-        if (fn) {
-          fn(response);
+        if (fn && step.trigger !== 'error') {
+          fn(step.response);
         }
         return this;
       }
@@ -63,7 +83,12 @@ function setupGet(response) {
   });
 }
 
+function setupGet(response) {
+  setupGetQueue([{ response: response }]);
+}
+
 module.exports = {
   setupGet: setupGet,
+  setupGetQueue: setupGetQueue,
   setupJQuery: setupJQuery
 };

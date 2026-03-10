@@ -1,5 +1,42 @@
 var firstTime = true;
 
+function parseCurrentPriceResponse(response, fiat) {
+  const currentPrice = parseFloat(response && response[fiat]);
+
+  if (!Number.isFinite(currentPrice) || currentPrice <= 0) {
+    return null;
+  }
+
+  return currentPrice;
+}
+
+function parseHistoricalPriceResponse(data, tokenSymbol, fiat) {
+  if (data && data.Response === 'Error') {
+    return { error: 'currency', price: null };
+  }
+
+  const tokenHistory = data && data[tokenSymbol];
+  const historicalPrice = parseFloat(tokenHistory && tokenHistory[fiat]);
+
+  if (!Number.isFinite(historicalPrice) || historicalPrice === 0) {
+    return { error: 'date', price: null };
+  }
+
+  return { error: null, price: historicalPrice };
+}
+
+function calculateInvestmentResults(oldValue, oldPrice, currentPrice) {
+  const tokensBought = parseFloat(parseFloat(oldValue) / parseFloat(oldPrice)).toFixed(3);
+  const currentValue = parseFloat(currentPrice * tokensBought).toFixed(2);
+  const percentageGained = parseFloat((currentValue - oldValue) / oldValue).toFixed(2) * 100;
+
+  return {
+    currentValue: currentValue,
+    percentageGained: percentageGained,
+    tokensBought: tokensBought
+  };
+}
+
 function preFill () {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
@@ -41,11 +78,11 @@ function preFill () {
 
 function calculateEarnings() {
   var investment          = {
-    date: document.getElementById("invest-date").value,
-    oldValue: document.getElementById("invest-quantity").value,
-    tokenSymbol: document.getElementById("invest-currency").value.replace(/\s/g, '').toUpperCase(),
-    tokenName: document.getElementById("invest-currency").options[document.getElementById("invest-currency").options.selectedIndex].innerHTML,
-    fiat: document.getElementById("invest-fiat").value,
+    date: document.getElementById('invest-date').value,
+    oldValue: document.getElementById('invest-quantity').value,
+    tokenSymbol: document.getElementById('invest-currency').value.replace(/\s/g, '').toUpperCase(),
+    tokenName: document.getElementById('invest-currency').options[document.getElementById('invest-currency').options.selectedIndex].innerHTML,
+    fiat: document.getElementById('invest-fiat').value,
   };
 
   if (investment.date) {
@@ -54,13 +91,21 @@ function calculateEarnings() {
     var newDate = myDate[0] + '/' + myDate[1] + '/' + myDate[2];
     var timestamp = Math.floor(new Date(newDate).getTime() / 1000 );
 
-    document.querySelector(".input-error") ? document.querySelector(".input-error").classList.remove("input-error") : null;
+    document.querySelector('.input-error') ? document.querySelector('.input-error').classList.remove('input-error') : null;
     Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
     fetch('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
       .then(response => response.json())
       .then((response) => {
-        investment.currentPrice = response[investment.fiat];
+        const currentPrice = parseCurrentPriceResponse(response, investment.fiat);
+
+        if (currentPrice === null) {
+          handleError('currency');
+          loading('off');
+          return;
+        }
+
+        investment.currentPrice = currentPrice;
         // bitcoin api
         // if (investment.tokenSymbol === 'BTC') {
         //   fetch( 'https://api.coindesk.com/v1/bpi/historical/close.json?start=' + investment.date + '&end=' + investment.date + '&currency=' + investment.fiat)
@@ -79,13 +124,13 @@ function calculateEarnings() {
           fetch('https://min-api.cryptocompare.com/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
             .then(data => data.json())
             .then((data) => {
-              if ((data.Response !== 'Error') && (data[investment.tokenSymbol][investment.fiat] !== 0)) {
-                investment.oldPrice = data[investment.tokenSymbol][investment.fiat];
-                paintResults(investment);
-              } else if (data.Response === 'Error') {
-                handleError('currency');
+              const historicalPriceData = parseHistoricalPriceResponse(data, investment.tokenSymbol, investment.fiat);
+
+              if (historicalPriceData.error) {
+                handleError(historicalPriceData.error);
               } else {
-                handleError('date');
+                investment.oldPrice = historicalPriceData.price;
+                paintResults(investment);
               }
               loading('off');
             })
@@ -97,6 +142,7 @@ function calculateEarnings() {
       })
       .catch(function () {
         handleError('date');
+        loading('off');
       });
   } else {
     handleError('date');
@@ -110,16 +156,18 @@ function calculateEarnings() {
   }
 
   function paintResults(investData) {
-    investData.tokensBought = parseFloat(parseFloat(investData.oldValue) / parseFloat(investData.oldPrice)).toFixed(3);
-    investData.currentValue = parseFloat(investData.currentPrice * investData.tokensBought).toFixed(2);
-    investData.percentageGained = parseFloat((investData.currentValue - investData.oldValue) / investData.oldValue).toFixed(2) * 100;
+    const calculatedResults = calculateInvestmentResults(investData.oldValue, investData.oldPrice, investData.currentPrice);
+
+    investData.tokensBought = calculatedResults.tokensBought;
+    investData.currentValue = calculatedResults.currentValue;
+    investData.percentageGained = calculatedResults.percentageGained;
     modifyAllClassElementsText('result-tokencount', investData.tokensBought);
     modifyAllClassElementsText('result-old-price', investData.oldPrice + ' ' + investData.fiat + '/' + investData.tokenSymbol);
     modifyAllClassElementsText('result-tokentype', investData.tokenSymbol);
     modifyAllClassElementsText('result-currentvalue', investData.currentValue.replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
     modifyAllClassElementsText('result-current-price', parseFloat(investData.currentPrice).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' ' + investData.fiat);
     modifyAllClassElementsText('result-date', toShortFormat(new Date(investment.date)));
-    modifyAllClassElementsText('result-invest', investData.oldValue + ' ' + document.getElementById('invest-fiat').value);// $('#invest-fiat').val());
+    modifyAllClassElementsText('result-invest', investData.oldValue + ' ' + document.getElementById('invest-fiat').value);
 
     let change = '';
     modifyAllClassElementsText('gained-percentage', parseFloat(investData.percentageGained).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') +  '%');
@@ -137,7 +185,7 @@ function calculateEarnings() {
                   + '&date=' + document.getElementById('invest-date').value + '';
 
     history.replaceState({}, null, window.location.pathname + newParams);
-    document.getElementsByClassName("share-text")[0].value = window.location.href;
+    document.getElementsByClassName('share-text')[0].value = window.location.href;
 
     if (typeof recommendArticles === 'function') {
       recommendArticles(investData.tokenSymbol);
@@ -202,9 +250,12 @@ init();
 
 if (typeof module !== 'undefined') {
   module.exports = {
+    calculateInvestmentResults: calculateInvestmentResults,
     calculateEarnings: calculateEarnings,
     init: init,
     initializeCalculatorExamples: initializeCalculatorExamples,
+    parseCurrentPriceResponse: parseCurrentPriceResponse,
+    parseHistoricalPriceResponse: parseHistoricalPriceResponse,
     preFill: preFill
   };
 }

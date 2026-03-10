@@ -67,7 +67,7 @@ let table = $('#marketcaps-table').DataTable({
         if ( type !== 'display' ) { return data.price; }
         let max = '';
         let bet = '';
-        if ((data.extreme.usd === data.price) && ((marketcapCurrency === 'USD') || (marketcapCurrency === 'EUR'))) {
+        if ((parseFloat(data.extreme.usd) === parseFloat(data.price)) && ((marketcapCurrency === 'USD') || (marketcapCurrency === 'EUR'))) {
           max = '<sup><small class="marketcaps-price-max">MAX</small></sup> ';
         } else {
           let formatDate = toShortFormat(new Date(data.extreme.date));
@@ -90,9 +90,9 @@ let table = $('#marketcaps-table').DataTable({
                   </div>`;
         }
         if ( data.positiveChange > 0) {
-          return '<div style="display:flex"><div class="tooltip-container">' + max + bet + '</div><span class="marketcaps-pricechange-positive">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▲</span></span></div>';
+          return '<div style="display:flex"><div class="tooltip-container">' + max + bet + '</div><span class="marketcaps-pricechange-positive">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">&#9650;</span></span></div>';
         }
-        return '<div style="display:flex"><div class="tooltip-container">' + max + bet + '</div><span class="marketcaps-pricechange-negative">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">▼</span></span></div>';
+        return '<div style="display:flex"><div class="tooltip-container">' + max + bet + '</div><span class="marketcaps-pricechange-negative">&nbsp;' + generateCurrencyValueHtml( data.price, marketcapCurrency ) + '&nbsp;<span class="carot-icon">&#9660;</span></span></div>';
       },
       searchable: false
     },
@@ -108,10 +108,13 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-center',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data > 0) {
-          return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
+        if (Number.isNaN(data)) {
+          return '<div class="marketcaps-pricechange-neutral">-%</div>';
         }
-        return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
+        if ( data > 0) {
+          return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">&#9650;</span></div>';
+        }
+        return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">&#9660;</span></div>';
       },
       searchable: false
     },
@@ -121,10 +124,13 @@ let table = $('#marketcaps-table').DataTable({
       className: 'dt-center',
       render: function ( data, type, row, meta ) {
         if ( type !== 'display' ) { return data; }
-        if ( data > 0) {
-          return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
+        if (Number.isNaN(data)) {
+          return '<div class="marketcaps-pricechange-neutral">-%</div>';
         }
-        return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
+        if ( data > 0) {
+          return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">&#9650;</span></div>';
+        }
+        return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">&#9660;</span></div>';
       },
       searchable: false
     },
@@ -141,10 +147,10 @@ let table = $('#marketcaps-table').DataTable({
         let carot = '';
         if ( data > 0) {
           classVariation = 'marketcaps-pricechange-positive';
-          carot = '▲';
+          carot = '&#9650;';
         } else if (data < 0) {
           classVariation = 'marketcaps-pricechange-negative'; 
-          carot = '▼';
+          carot = '&#9660;';
         }
         return '<span class="' + classVariation + '">' + data + '%&nbsp;<span class="carot-icon">' + carot + '</span></span>';
       },
@@ -163,10 +169,10 @@ let table = $('#marketcaps-table').DataTable({
         let carot = '';
         if ( data > 0) {
           classVariation = 'marketcaps-pricechange-positive';
-          carot = '▲';
+          carot = '&#9650;';
         } else if (data < 0) {
           classVariation = 'marketcaps-pricechange-negative'; 
-          carot = '▼';
+          carot = '&#9660;';
         }
         return '<span class="' + classVariation + '">' + data + '%&nbsp;<span class="carot-icon">' + carot + '</span></span>';
       },
@@ -182,51 +188,97 @@ let table = $('#marketcaps-table').DataTable({
     }
   ]
 });
+
+function normalizeDeltaChange(deltaValue) {
+  const parsedDelta = parseFloat(deltaValue);
+
+  if (!Number.isFinite(parsedDelta)) {
+    return Number.NaN;
+  }
+
+  return (100 - parsedDelta * 100).toFixed(1) * (-1);
+}
+
+function getExtremeValue(coin, fallbackPrice) {
+  if (coin && coin.extremes && coin.extremes.all && coin.extremes.all.max) {
+    const extreme = coin.extremes.all.max;
+    if (Number.isFinite(parseFloat(extreme.usd))) {
+      return extreme;
+    }
+  }
+
+  return {
+    usd: fallbackPrice,
+    date: new Date().toISOString().split('T')[0]
+  };
+}
+
+function createMarketcapRow(coin, currency) {
+  if (!coin || !coin.code || !coin.name) {
+    return null;
+  }
+
+  const cap = parseFloat(coin.cap);
+  const circulating = parseFloat(coin.circulating);
+  const price = parseFloat(coin.price);
+
+  if (!Number.isFinite(cap) || !Number.isFinite(circulating) || !Number.isFinite(price)) {
+    return null;
+  }
+
+  const colSpacer = null;
+  const priceLength = (currency !== 'USD') && (currency !== 'EUR') ? 10 : 2;
+  const colRank = coin.rank;
+  const colIcon = coin.code.toLowerCase();
+  const colName = {
+    symbol: coin.code,
+    name: coin.name
+  };
+  const colMarketCap = Math.floor(cap).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  const colTokens = Math.floor(circulating).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  const extreme = getExtremeValue(coin, price);
+  const colPrice = {
+    price: price.toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
+    positiveChange: (parseFloat(coin.delta && coin.delta.second) >= 1),
+    extreme: extreme,
+    bet1000: price === 0
+      ? '0.00'
+      : (1000 / price * parseFloat(extreme.usd)).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')
+  };
+  const colChange1h = normalizeDeltaChange(coin.delta && coin.delta.hour);
+  const colChange24h = normalizeDeltaChange(coin.delta && coin.delta.day);
+  const colChange7D = normalizeDeltaChange(coin.delta && coin.delta.week);
+  const colChange1Y = normalizeDeltaChange(coin.delta && coin.delta.year);
+
+  return [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colChange7D, colChange1Y, colSpacer];
+}
+
 function marketcapTableLoad( currency ) {
   table.processing( true );
   marketcapCurrency = currency;
-  let getUrl = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=' + marketcapsCoinsLimit + '&sort=rank&order=ascending&currency=' + currency
+  let getUrl = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=' + marketcapsCoinsLimit + '&sort=rank&order=ascending&currency=' + currency;
   // let getUrl = 'https://api.coinmarketcap.com/v1/ticker/?convert=' + currency + '&limit=300';
   marketcapDataArray = [];
 
   $('#marketcaps-currency-select').val(currency);
   $.get( getUrl, function ( response ) {
+      if (!response || !Array.isArray(response.data)) {
+        return;
+      }
+
       $.each(response.data, function (index, coin) {
-        let colSpacer = null;
-        let priceLength = '';
-        let colRank = coin.rank;
-        let colIcon = coin.code.toLowerCase();
-        let colName = {
-          symbol: coin.code,
-          name: coin.name
-        };
-        let marketCapString = coin.cap;
-        let colMarketCap = Math.floor(marketCapString).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        let colTokens = Math.floor(coin.circulating).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        let priceString = coin.price;
+        const marketcapDataRow = createMarketcapRow(coin, currency);
 
-        if ((currency !== 'USD') && (currency !== 'EUR')) {
-          priceLength = 10;
-        } else {
-          priceLength = 2;
+        if (marketcapDataRow) {
+          marketcapDataArray.push(marketcapDataRow);
         }
-
-        let colPrice = {
-          price: parseFloat(priceString).toFixed(priceLength).replace(/(\d)(?=(\d{3})+\.)/g, '$1,'),
-          positiveChange: (parseFloat(coin.delta.second) >= 1),
-          extreme: coin.extremes.all.max,
-          bet1000: (1000 / parseFloat(coin.price) * parseFloat(coin.extremes.all.max.usd)).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,')
-        };
-        let colChange1h = (100 - parseFloat(coin.delta.hour) * 100).toFixed(1)*(-1);
-        let colChange24h = (100 - parseFloat(coin.delta.day) * 100).toFixed(1)*(-1);
-        let colChange7D = (100 - parseFloat(coin.delta.week) * 100).toFixed(1)*(-1);
-        let colChange1Y = (100 - parseFloat(coin.delta.year) * 100).toFixed(1)*(-1);
-        let marketcapDataRow = [colRank, colIcon, colName, colMarketCap, colPrice, colTokens, colChange1h, colChange24h, colChange7D, colChange1Y, colSpacer];
-
-        marketcapDataArray.push(marketcapDataRow);
       });
   })
     .success(function (response) {
+      if (!response || !Array.isArray(response.data)) {
+        $('.api-error').show();
+        return;
+      }
 
       table.clear();
       table.rows.add( marketcapDataArray );
@@ -235,7 +287,7 @@ function marketcapTableLoad( currency ) {
       table.responsive.recalc();
     })
     .error(function(response) {
-      $(".api-error").show();
+      $('.api-error').show();
     })
     .always(function () {
       table.processing( false );
@@ -249,7 +301,7 @@ $('#marketcaps-filter-input').keyup(function () {
 $('#marketcaps-currency-select').change(function () {
   let selectedCurrency = $('#marketcaps-currency-select').val();
 
-  if (isLocalStorageAvailable) {
+  if (isLocalStorageAvailable()) {
     let criptomo = JSON.parse(localStorage.getItem('criptomo'));
     if (!criptomo) {
       criptomo = {};
@@ -268,7 +320,7 @@ $('#marketcaps-pagelength-select').change(function () {
 
 function initMarketcapsPage() {
   let selectedCurrency = '';
-  if (isLocalStorageAvailable) {
+  if (isLocalStorageAvailable()) {
     let criptomo = JSON.parse(localStorage.getItem('criptomo'));
     if (criptomo && criptomo.currency) {
       selectedCurrency = criptomo.currency;
@@ -285,7 +337,7 @@ function generateCurrencyValueHtml( price, currency ) {
   let symbol = '';
   switch ( currency ) {
   case 'EUR':
-    symbol = price + '&nbsp;€';
+    symbol = price + '&nbsp;&euro;';
     break;
   case 'USD':
     symbol = '$' + price;
@@ -309,9 +361,11 @@ function isLocalStorageAvailable(){
 
 if (typeof module !== 'undefined') {
   module.exports = {
+    createMarketcapRow: createMarketcapRow,
     generateCurrencyValueHtml: generateCurrencyValueHtml,
     initMarketcapsPage: initMarketcapsPage,
     isLocalStorageAvailable: isLocalStorageAvailable,
-    marketcapTableLoad: marketcapTableLoad
+    marketcapTableLoad: marketcapTableLoad,
+    normalizeDeltaChange: normalizeDeltaChange
   };
 }

@@ -2,6 +2,8 @@
 	"scripts": {
 		"eslint": "eslint js/**/*.js",
 		"test": "jest --coverage",
+		"test:api-contracts": "node bin/check-api-contracts.js",
+		"test:page-console": "node bin/check-page-console-errors.js",
 		"test:watch": "jest --watch",
 		"dev": "bundle exec ruby bin/jekyll-local.rb serve --incremental",
 		"start": "bundle exec ruby bin/jekyll-local.rb serve --incremental"
@@ -30,6 +32,14 @@
 		"testPathIgnorePatterns": [
 			"/node_modules/",
 			"/_site/"
-		]
+		],
+		"coverageThreshold": {
+			"global": {
+				"branches": 69,
+				"functions": 89,
+				"lines": 90,
+				"statements": 88
+			}
+		}
 	}
 }

@@ -3,7 +3,7 @@ let table = $('#marketcaps-table').DataTable({
   responsive: true,
   pageLength: 100,
   processing: true,
-  order: [[ 3, "desc" ]],
+  order: [[ 3, 'desc' ]],
   /* l (Length changing), f (Filtering input), t (The Table!), i(Information), p (Pagination), r (pRocessing) */
   dom: 'rt<"marketcaps-table-bottom"ip>',
   language: tableDataLang.general,
@@ -79,11 +79,18 @@ let table = $('#marketcaps-table').DataTable({
       title: tableDataLang.icoColumns.gains,
       className: 'dt-right',
       render: function ( data, type, row, meta ) {
-        if ( type !== 'display' ) { return parseFloat(data); }
-        if ( data > 0) {
-          return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">▲</span></div>';
+        const parsedGain = parseFloat(data);
+
+        if ( type !== 'display' ) {
+          return Number.isFinite(parsedGain) ? parsedGain : Number.NEGATIVE_INFINITY;
         }
-        return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">▼</span></div>';
+        if (!Number.isFinite(parsedGain)) {
+          return '<div class="marketcaps-pricechange-neutral">N/A</div>';
+        }
+        if ( parsedGain > 0) {
+          return '<div class="marketcaps-pricechange-positive">' + data + '%&nbsp;<span class="carot-icon">&#9650;</span></div>';
+        }
+        return '<div class="marketcaps-pricechange-negative">' + data + '%&nbsp;<span class="carot-icon">&#9660;</span></div>';
       },
       searchable: false
     },
@@ -97,12 +104,28 @@ let table = $('#marketcaps-table').DataTable({
     }
   ]
 });
+
+function calculateIcoGain(currentPrice, icoPrice) {
+  const parsedCurrentPrice = parseFloat(currentPrice);
+  const parsedIcoPrice = parseFloat(icoPrice);
+
+  if (!Number.isFinite(parsedCurrentPrice) || !Number.isFinite(parsedIcoPrice) || parsedIcoPrice === 0) {
+    return 'N/A';
+  }
+
+  return (parseFloat(parsedCurrentPrice - parsedIcoPrice) / parsedIcoPrice * 100).toFixed(3);
+}
+
 function marketcapTableLoad() {
   table.processing( true );
   let getUrl = 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + icos.join() + '&tsyms=USD';
   ICODataArray = [];
 
   $.get( getUrl, function ( response ) {
+      if (!response || typeof response !== 'object' || Array.isArray(response)) {
+        return;
+      }
+
       let i = 1;
       $.each(response, function (index, coin) {
         let colRank = i++;
@@ -111,20 +134,20 @@ function marketcapTableLoad() {
         let colName = {
           name: colSymbol,
           symbol: colSymbol
-        }
+        };
         let colICOPrice = 'X';
         let colICORaised = 'X';
         if (coins[colSymbol]) {
           colName = {
             name: coins[colSymbol].name,
             symbol: colSymbol
-          }
-          colICOPrice = parseFloat(coins[colSymbol]["ico-price"]);
-          colICORaised = parseFloat(coins[colSymbol]["ico-raised"]);
+          };
+          colICOPrice = parseFloat(coins[colSymbol]['ico-price']);
+          colICORaised = parseFloat(coins[colSymbol]['ico-raised']);
         }
         let colPrice = parseFloat(coin.USD);
 
-        let colGain = (parseFloat(parseFloat(colPrice) - parseFloat(colICOPrice)) / parseFloat(colICOPrice)*100).toFixed(3);
+        let colGain = calculateIcoGain(colPrice, colICOPrice);
         
         let marketcapDataRow = [colRank, colSymbol, colName, colICORaised, colICOPrice, colPrice, colGain, colSpacer];
 
@@ -132,6 +155,10 @@ function marketcapTableLoad() {
       });
   })
     .success(function (response) {
+      if (!response || typeof response !== 'object' || Array.isArray(response)) {
+        $('.api-error').show();
+        return;
+      }
 
       table.clear();
       table.rows.add( ICODataArray );
@@ -140,7 +167,7 @@ function marketcapTableLoad() {
       table.responsive.recalc();
     })
     .error(function(response) {
-      $(".api-error").show();
+      $('.api-error').show();
     })
     .always(function () {
       table.processing( false );
@@ -168,7 +195,7 @@ function generateCurrencyValueHtml( price, currency ) {
   let symbol = '';
   switch ( currency ) {
   case 'EUR':
-    symbol = price + '&nbsp;€';
+    symbol = price + '&nbsp;&euro;';
     break;
   case 'USD':
     symbol = '$' + price;
@@ -181,6 +208,7 @@ function generateCurrencyValueHtml( price, currency ) {
 
 if (typeof module !== 'undefined') {
   module.exports = {
+    calculateIcoGain: calculateIcoGain,
     generateCurrencyValueHtml: generateCurrencyValueHtml,
     initIcosPage: initIcosPage,
     marketcapTableLoad: marketcapTableLoad

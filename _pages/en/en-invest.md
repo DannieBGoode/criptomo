@@ -101,8 +101,7 @@ jquery: true
 
 <script defer src="{{ site.baseurl }}/js/lang.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
-<script defer src="{{ site.baseurl }}/js/invest.js?{{site.time | date: '%s%N'}}"></script>
-
 <script defer src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
 <script defer src="https://cdn.datatables.net/plug-ins/1.10.16/api/processing().js"></script>
 <script defer src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+<script defer src="{{ site.baseurl }}/js/invest.js?{{site.time | date: '%s%N'}}"></script>

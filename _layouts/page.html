@@ -2,7 +2,9 @@
 layout: default
 ---
 
+{% if page.banner_image %}
 <link rel="preload" as="image" href="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" />
+{% endif %}
 
 <div class="site-content">
     {% if page.schema %}
@@ -15,11 +17,13 @@ layout: default
         <main class="site-main" style="{{ style }}">
             <article class="post">
                 <header class="entry-header {% if page.noMargins %} no-margins {% endif %}">
-                    <div class="entry-header-wrap">  
-                        {% if page.thumbnail_full %}
-                            <img width="600" height="400" class="post-thumbnail-full" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
-                        {% else %}
-                            <img width="600" height="400" class="post-thumbnail" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                    <div class="entry-header-wrap">
+                        {% if page.banner_image %}
+                            {% if page.thumbnail_full %}
+                                <img width="600" height="400" class="post-thumbnail-full" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                            {% else %}
+                                <img width="600" height="400" class="post-thumbnail" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                            {% endif %}
                         {% endif %}
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->

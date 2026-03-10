@@ -1,0 +1,46 @@
+name: Live API Contracts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+
+jobs:
+  live-api-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run live API contract checks
+        env:
+          CRYPTOCOMPARE_API_KEY: ${{ secrets.CRYPTOCOMPARE_API_KEY }}
+        run: npm run test:api-contracts
+
+      - name: Upload contract report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: live-api-contract-report
+          path: artifacts/api-contracts
+          if-no-files-found: ignore
+
+      - name: Publish workflow summary
+        if: always()
+        run: |
+          if [ -f artifacts/api-contracts/report.md ]; then
+            cat artifacts/api-contracts/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -1,5 +1,6 @@
 const { loadModule } = require('./helpers/load-module');
-const { setupGet, setupJQuery } = require('./helpers/jquery-test-env');
+const { buildMarketcapsDom, createDataTableStub } = require('./helpers/page-builders');
+const { setupGet, setupGetQueue, setupJQuery } = require('./helpers/jquery-test-env');
 
 describe('filters.js extra coverage', () => {
   test('registers click and search filtering behavior', () => {
@@ -33,44 +34,14 @@ describe('filters.js extra coverage', () => {
 
 describe('marketcaps.js extra coverage', () => {
   beforeEach(() => {
-    document.body.innerHTML = `
-      <table id="marketcaps-table"></table>
-      <input id="marketcaps-filter-input" />
-      <select id="marketcaps-currency-select"><option value="USD">USD</option><option value="BTC">BTC</option></select>
-      <select id="marketcaps-pagelength-select"><option value="25">25</option><option value="100">100</option></select>
-      <div class="api-error" style="display:none"></div>
-    `;
-    global.tableDataLang = {
-      general: {},
-      marketcapColumns: { marketcap: 'Marketcap', name: 'Name', price: 'Price', tokens: 'Tokens' },
-      priceColumns: { bet: 'Bet ', date: 'Date', maximum: 'Maximum', price: 'Price' }
-    };
-    global.coins = {
-      btc: {
-        icon: 'btc.png',
-        symbol: 'BTC',
-        website: 'https://bitcoin.org'
-      }
-    };
-    global.iconsBaseUrl = 'https://img/';
-    global.marketcapsCoinsLimit = 1;
-    global.toShortFormat = jest.fn().mockReturnValue('1-Jan-2024');
+    buildMarketcapsDom();
     Storage.prototype.getItem = jest.fn().mockReturnValue(JSON.stringify({ currency: 'BTC' }));
     Storage.prototype.setItem = jest.fn();
     Storage.prototype.removeItem = jest.fn();
   });
 
   test('formats renderer output, handles controls, and reads saved currency', () => {
-    const table = {
-      clear: jest.fn().mockReturnThis(),
-      columns: { adjust: jest.fn() },
-      draw: jest.fn().mockReturnThis(),
-      processing: jest.fn().mockReturnThis(),
-      responsive: { recalc: jest.fn() },
-      rows: { add: jest.fn().mockReturnThis() },
-      search: jest.fn().mockReturnValue({ draw: jest.fn() }),
-      page: { len: jest.fn().mockReturnValue({ draw: jest.fn() }) }
-    };
+    const table = createDataTableStub();
     setupJQuery(table);
     setupGet({
       data: [{
@@ -125,6 +96,46 @@ describe('marketcaps.js extra coverage', () => {
     expect(Storage.prototype.setItem).toHaveBeenCalled();
     expect(table.page.len).toHaveBeenCalledWith(25);
     expect(marketcaps.generateCurrencyValueHtml('10', 'DOGE')).toBe('10&nbsp;DOGE');
+  });
+
+  test('normalizes incomplete provider data and reports invalid payloads', () => {
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: {
+          data: [{
+            cap: 123456,
+            circulating: 21000000,
+            code: 'BTC',
+            delta: { day: 0.99 },
+            name: 'Bitcoin',
+            price: 60000,
+            rank: 1
+          }]
+        }
+      },
+      {
+        response: { invalid: true }
+      }
+    ]);
+
+    const marketcaps = loadModule('../js/marketcaps.js');
+    marketcaps.marketcapTableLoad('USD');
+
+    expect(table.rows.add).toHaveBeenNthCalledWith(1, [
+      [1, 'btc', { symbol: 'BTC', name: 'Bitcoin' }, '123,456', {
+        price: '60,000.00',
+        positiveChange: false,
+        extreme: { usd: 60000, date: expect.any(String) },
+        bet1000: '1,000.00'
+      }, '21,000,000', Number.NaN, -1, Number.NaN, Number.NaN, null]
+    ]);
+    expect(marketcaps.normalizeDeltaChange(undefined)).toBe(Number.NaN);
+
+    marketcaps.marketcapTableLoad('USD');
+
+    expect(document.querySelector('.api-error').style.display).not.toBe('none');
   });
 
   test('reports localStorage unavailability when storage throws', () => {

@@ -1,41 +1,8 @@
 const { loadModule } = require('./helpers/load-module');
+const { buildCalculatorDom } = require('./helpers/page-builders');
 
 function flushPromises() {
   return new Promise((resolve) => setTimeout(resolve, 0));
-}
-
-function buildCalculatorDom() {
-  document.body.innerHTML = `
-    <input id="invest-date" value="2024-01-01" />
-    <input id="invest-quantity" value="1000" />
-    <select id="invest-currency">
-      <option value="BTC" selected>Bitcoin</option>
-      <option value="ETH">Ethereum</option>
-      <option value="Other">Other</option>
-    </select>
-    <select id="invest-fiat">
-      <option value="USD" selected>USD</option>
-      <option value="EUR">EUR</option>
-    </select>
-    <div class="calculator-result-container"></div>
-    <div class="calculator-loader-container"></div>
-    <div id="calculator-results"></div>
-    <input class="share-text" />
-    <div class="result-tokencount"></div>
-    <div class="result-old-price"></div>
-    <div class="result-tokentype"></div>
-    <div class="result-currentvalue"></div>
-    <div class="result-current-price"></div>
-    <div class="result-date"></div>
-    <div class="result-invest"></div>
-    <div class="gained-percentage"></div>
-    <div class="error coin-error"><a>ETH</a></div>
-    <div class="error date-error"><a>2024-02-02</a></div>
-    <input class="calculator-othercoins" />
-    <div class="calculator-othercoins"></div>
-    <input class="editable" />
-  `;
-  document.getElementById('calculator-results').scrollIntoView = jest.fn();
 }
 
 describe('calculator.js extra coverage', () => {
@@ -111,6 +78,33 @@ describe('calculator.js extra coverage', () => {
     const calculator = loadModule('../js/calculator.js');
     calculator.calculateEarnings();
     await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('currency');
+  });
+
+  test('marks negative returns and malformed current-price responses as errors', async () => {
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 100 }) })
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ BTC: { USD: 200 } }) });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(document.querySelector('.gained-percentage').className).toBe('gained-percentage gained-percentage-negative');
+    expect(document.querySelector('.gained-percentage').innerText).toBe('-50.00%');
+    expect(document.querySelector('.result-currentvalue').innerText).toBe('500.00 USD');
+
+    global.handleError.mockClear();
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ EUR: 200 }) })
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ BTC: { USD: 100 } }) });
+
+    calculator.calculateEarnings();
     await flushPromises();
     await flushPromises();
 
