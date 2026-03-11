@@ -273,7 +273,71 @@ async function runContractChecks(options) {
 }
 
 function escapeCell(value) {
-  return String(value || '').replace(/\|/g, '\\|').replace(/\r?\n/g, ' ');
+  return String(value === null || value === undefined ? '' : value).replace(/\|/g, '\\|').replace(/\r?\n/g, ' ');
+}
+
+function formatConsoleCell(value) {
+  if (value === null || value === undefined || value === '') {
+    return '-';
+  }
+
+  return String(value).replace(/\r?\n/g, ' ');
+}
+
+function formatConsoleTable(headers, rows) {
+  const normalizedRows = rows.map((row) => row.map((cell) => formatConsoleCell(cell)));
+  const widths = headers.map((header, index) => {
+    return normalizedRows.reduce((maxWidth, row) => {
+      return Math.max(maxWidth, row[index].length);
+    }, header.length);
+  });
+  const divider = '+-' + widths.map((width) => '-'.repeat(width)).join('-+-') + '-+';
+
+  function renderRow(cells) {
+    return '| ' + cells.map((cell, index) => {
+      return formatConsoleCell(cell).padEnd(widths[index], ' ');
+    }).join(' | ') + ' |';
+  }
+
+  return [
+    divider,
+    renderRow(headers),
+    divider
+  ].concat(normalizedRows.map((row) => renderRow(row)), divider).join('\n');
+}
+
+function formatConsoleReport(report) {
+  const rows = report.results.map((result) => {
+    return [
+      result.name,
+      result.provider,
+      result.status === 'passed' ? 'PASS' : 'FAIL',
+      result.httpStatus,
+      result.durationMs
+    ];
+  });
+  const lines = [
+    'Live API Contract Report',
+    'Generated: ' + report.generatedAt,
+    'Overall: ' + (report.success ? 'PASS' : 'FAIL'),
+    '',
+    formatConsoleTable(['Check', 'Provider', 'Status', 'HTTP', 'Time (ms)'], rows)
+  ];
+
+  if (report.results.length) {
+    lines.push('', 'Details');
+
+    report.results.forEach((result) => {
+      const detailLabel = result.status === 'passed' ? 'Notes' : 'Error';
+      const detailText = result.status === 'passed' ? result.notes : result.error;
+
+      lines.push('- ' + result.name + ' (' + result.provider + ')');
+      lines.push('  ' + detailLabel + ': ' + detailText);
+      lines.push('  Endpoint: ' + result.endpoint);
+    });
+  }
+
+  return lines.join('\n') + '\n';
 }
 
 function formatMarkdownReport(report) {
@@ -323,7 +387,7 @@ async function main() {
   const report = await runContractChecks();
   const reportPaths = writeReport(report, process.env.API_CONTRACT_REPORT_DIR);
 
-  console.log(formatMarkdownReport(report));
+  console.log(formatConsoleReport(report));
   console.log('Saved JSON report to ' + reportPaths.jsonPath);
   console.log('Saved Markdown report to ' + reportPaths.markdownPath);
 
@@ -341,6 +405,7 @@ if (require.main === module) {
 
 module.exports = {
   createContractChecks: createContractChecks,
+  formatConsoleReport: formatConsoleReport,
   formatMarkdownReport: formatMarkdownReport,
   runContractChecks: runContractChecks,
   writeReport: writeReport

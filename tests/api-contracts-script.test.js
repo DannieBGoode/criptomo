@@ -63,4 +63,41 @@ describe('live api contract runner', () => {
     expect(liveCoinWatchResult.error).toContain('rank');
     expect(apiContracts.formatMarkdownReport(report)).toContain('Overall: FAIL');
   });
+
+  test('formats a readable console report with a fixed-width table', () => {
+    const report = {
+      generatedAt: '2026-03-10T12:00:00.000Z',
+      results: [
+        {
+          durationMs: 18,
+          endpoint: 'https://example.com/current-price',
+          httpStatus: 200,
+          name: 'Current price',
+          notes: 'USD field is present and numeric.',
+          provider: 'CryptoCompare',
+          status: 'passed'
+        },
+        {
+          durationMs: null,
+          endpoint: 'https://example.com/market-list',
+          error: 'rank is missing or not numeric.',
+          httpStatus: 502,
+          name: 'Legacy market list',
+          notes: '',
+          provider: 'LiveCoinWatch',
+          status: 'failed'
+        }
+      ],
+      success: false
+    };
+    const consoleReport = apiContracts.formatConsoleReport(report);
+
+    expect(consoleReport).toContain('Live API Contract Report');
+    expect(consoleReport).toContain('| Check              | Provider      | Status | HTTP | Time (ms) |');
+    expect(consoleReport).toContain('| Current price      | CryptoCompare | PASS   | 200  | 18        |');
+    expect(consoleReport).toContain('| Legacy market list | LiveCoinWatch | FAIL   | 502  | -         |');
+    expect(consoleReport).toContain('Notes: USD field is present and numeric.');
+    expect(consoleReport).toContain('Error: rank is missing or not numeric.');
+    expect(consoleReport).toContain('Endpoint: https://example.com/market-list');
+  });
 });
