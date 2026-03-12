@@ -1,27 +1,29 @@
 <script type="application/ld+json">
 {
-	"@context":"http://schema.org/",
-	"@type":"Course",
-	"datePublished": "{{page.date}}",
+	"@context":"https://schema.org/",
+	"@type":"BlogPosting",
+	"datePublished": "{{page.date | date_to_xmlschema}}",
+	"dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
 	"mainEntityOfPage":{
 		"@type":"WebPage",
 		"@id":"{{site.url}}{{page.url}}"
 	},
-	"description":"{{ page.description |  truncate: 110 }}",
-	"name":"{{ page.title |  truncate: 110 }}",
+	"headline":"{{ page.title | truncate: 110 }}",
+	"description":"{{ page.description | truncate: 110 }}",
 	"author":{
-		"@type":"Organization",
-		"name":"{{ site.title }}"
+		"@type":"Person",
+		"name":"{{ site.data.authors[page.author].author_name | default: site.author_name }}",
+		"url":"{{ site.data.authors[page.author].author_url | default: site.url }}"
 	},
 	"image":{
 		"@type":"ImageObject",
 		"url":"{{site.url}}/images/posts/{{page.banner_image}}",
-		"width":"500",
-		"height":"500"
+		"width":"600",
+		"height":"400"
 	},
 	"publisher":{
 		"@type":"Organization",
-		"name":"{{site.url}}",
+		"name":"{{ site.title }}",
 		"logo":{
 			"@type":"ImageObject",
 			"url":"https://criptomo.com/images/logo.png",

@@ -14,7 +14,7 @@
     "ratingValue": "{{ page.rating | default: 4}}",
     "ratingCount": {{ page.totalVotes | default: 2}}
   },
-  "name": "A good seafood place.",
+  "name": "{{ page.title | truncate: 110 }}",
   "author": {
     "@type": "Organization",
     "name": "{{ site.title }}"
