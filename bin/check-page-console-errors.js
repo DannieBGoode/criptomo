@@ -790,6 +790,81 @@ function formatReport(report) {
   return lines.join('\n') + '\n';
 }
 
+function formatConsoleCell(value) {
+  if (value === null || value === undefined || value === '') {
+    return '-';
+  }
+
+  return String(value).replace(/\r?\n/g, ' ');
+}
+
+function formatConsoleTable(headers, rows) {
+  const normalizedRows = rows.map((row) => row.map((cell) => formatConsoleCell(cell)));
+  const widths = headers.map((header, index) => {
+    return normalizedRows.reduce((maxWidth, row) => {
+      return Math.max(maxWidth, row[index].length);
+    }, header.length);
+  });
+  const divider = '+-' + widths.map((width) => '-'.repeat(width)).join('-+-') + '-+';
+
+  function renderRow(cells) {
+    return '| ' + cells.map((cell, index) => {
+      return formatConsoleCell(cell).padEnd(widths[index], ' ');
+    }).join(' | ') + ' |';
+  }
+
+  return [
+    divider,
+    renderRow(headers),
+    divider
+  ].concat(normalizedRows.map((row) => renderRow(row)), divider).join('\n');
+}
+
+function formatFailureDetail(failure) {
+  if (!failure.url || String(failure.text).indexOf(failure.url) !== -1) {
+    return failure.kind + ': ' + failure.text;
+  }
+
+  return failure.kind + ': ' + failure.text + ' (' + failure.url + ')';
+}
+
+function formatConsoleReport(report) {
+  const rows = report.results.map((result) => {
+    return [
+      result.page,
+      result.status === 'passed' ? 'PASS' : 'FAIL',
+      result.failures.length
+    ];
+  });
+  const lines = [
+    'Page Console Smoke Report',
+    'Generated: ' + report.generatedAt,
+    'Browser: ' + report.browser,
+    'Overall: ' + (report.success ? 'PASS' : 'FAIL'),
+    '',
+    formatConsoleTable(['Page', 'Status', 'Issues'], rows)
+  ];
+
+  if (report.results.length) {
+    lines.push('', 'Details');
+
+    report.results.forEach((result) => {
+      lines.push('- ' + result.page);
+
+      if (!result.failures.length) {
+        lines.push('  No console/runtime errors detected.');
+        return;
+      }
+
+      result.failures.forEach((failure) => {
+        lines.push('  ' + formatFailureDetail(failure));
+      });
+    });
+  }
+
+  return lines.join('\n') + '\n';
+}
+
 function writeReport(report) {
   const markdown = formatReport(report);
 
@@ -804,7 +879,7 @@ async function main() {
   const report = await runConsoleSmokeCheck(getRequestedPagePaths(process.argv.slice(2)));
   const markdown = writeReport(report);
 
-  console.log(markdown);
+  console.log(formatConsoleReport(report));
   console.log('Saved JSON report to ' + path.join(REPORT_DIR, 'report.json'));
   console.log('Saved Markdown report to ' + path.join(REPORT_DIR, 'report.md'));
 
@@ -822,6 +897,7 @@ if (require.main === module) {
 
 module.exports = {
   collectPagePaths: collectPagePaths,
+  formatConsoleReport: formatConsoleReport,
   formatReport: formatReport,
   getRequestedPagePaths: getRequestedPagePaths,
   normalizeRequestedPagePath: normalizeRequestedPagePath,

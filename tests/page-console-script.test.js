@@ -85,4 +85,43 @@ describe('page console smoke helpers', () => {
     expect(pageConsole.resolvePagePaths(pagePaths)).toEqual(pagePaths);
     expect(() => pageConsole.resolvePagePaths(pagePaths, ['/missing/'])).toThrow('Unknown page path(s): /missing/');
   });
+
+  test('formats a readable console report with a fixed-width table', () => {
+    const report = {
+      browser: 'msedge',
+      generatedAt: '2026-03-10T12:00:00.000Z',
+      results: [
+        {
+          failures: [],
+          page: '/en/calculator/',
+          status: 'passed'
+        },
+        {
+          failures: [
+            {
+              kind: 'exception',
+              text: 'ReferenceError: broken is not defined'
+            },
+            {
+              kind: 'log',
+              text: 'Failed to load resource: the server responded with a status of 404 (Not Found)',
+              url: 'http://127.0.0.1:4000/missing-script.js'
+            }
+          ],
+          page: '/de/gewinnrechner/',
+          status: 'failed'
+        }
+      ],
+      success: false
+    };
+    const consoleReport = pageConsole.formatConsoleReport(report);
+
+    expect(consoleReport).toContain('Page Console Smoke Report');
+    expect(consoleReport).toContain('| Page               | Status | Issues |');
+    expect(consoleReport).toContain('| /en/calculator/    | PASS   | 0      |');
+    expect(consoleReport).toContain('| /de/gewinnrechner/ | FAIL   | 2      |');
+    expect(consoleReport).toContain('No console/runtime errors detected.');
+    expect(consoleReport).toContain('exception: ReferenceError: broken is not defined');
+    expect(consoleReport).toContain('log: Failed to load resource: the server responded with a status of 404 (Not Found) (http://127.0.0.1:4000/missing-script.js)');
+  });
 });
