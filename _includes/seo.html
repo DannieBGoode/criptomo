@@ -50,6 +50,21 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
+{% if page.ref %}
+  {% if page.layout == 'post' %}
+    {% assign hreflang_versions = site.posts | where:"ref", page.ref %}
+  {% else %}
+    {% assign hreflang_versions = site.pages | where:"ref", page.ref %}
+  {% endif %}
+  {% assign hreflang_default = hreflang_versions | where:"lang", "es" | first %}
+  {% for version in hreflang_versions %}
+  <link rel="alternate" hreflang="{{ version.lang }}" href="{{ site.url }}{{ version.url }}">
+  {% endfor %}
+  {% if hreflang_default %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ hreflang_default.url }}">
+  {% endif %}
+{% endif %}
+
 {% if page.excerpt or page.description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}

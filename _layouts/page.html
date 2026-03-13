@@ -10,6 +10,8 @@ layout: default
     {% if page.schema %}
         {% include schema_page.html %}
     {% endif %}
+    {% include schema_breadcrumb.html %}
+    {% include schema_faq.html %}
     <div class="inner">
         {% if page.sidebar == false %}
             {% assign style = "width: 100%" %}
