@@ -28,6 +28,7 @@ popular: true
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000" class="data-hj-allow">
+            <label for="invest-fiat" class="screen-reader-text">Currency</label>
             <select id="invest-fiat">
                 <option>USD</option>
                 <option>EUR</option>

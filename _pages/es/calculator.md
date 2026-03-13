@@ -28,6 +28,7 @@ lang: es
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000" class="data-hj-allow">
+            <label for="invest-fiat" class="screen-reader-text">Moneda</label>
             <select id="invest-fiat">
                 <option>EUR</option>
                 <option>USD</option>

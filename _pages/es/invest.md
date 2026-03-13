@@ -26,6 +26,7 @@ jquery: true
         </div>
         <div class="calculator-col-end">
             <input id="invest-quantity" type="number" value="1000">
+            <label for="invest-fiat" class="screen-reader-text">Moneda</label>
             <select id="invest-fiat">
                 <option value="USD">USD</option>
             </select>
