@@ -9,7 +9,7 @@
         <div class="entry-header-wrap">
             <a href="{{site.baseurl}}{{post.url}}" title="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
                 {% if post.banner_image %}
-                <img src="{{ "/images/posts/" | append: post.banner_image | prepend: site.baseurl }}" class="post-thumbnail-full" loading="lazy">
+                <img src="{% if post.banner_image contains 'http' %}{{ post.banner_image }}{% elsif post.banner_image contains '/images/posts/' %}{{ site.baseurl }}{{ post.banner_image }}{% else %}{{ site.baseurl }}/images/posts/{{ post.banner_image }}{% endif %}" class="post-thumbnail-full" loading="lazy">
                 {% endif %}
                 <h2 class="entry-title">{{post.title}}</h2>
             </a>

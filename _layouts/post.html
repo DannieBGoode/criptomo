@@ -24,13 +24,16 @@ layout: default
             <article class="post">
                 <header class="entry-header"> 
                     <div class="entry-header-wrap">
-                        {% if page.netlifycms %}
-                            {% assign imagePath = "" %}
-                        {% else %}
-                            {% assign imagePath = "/images/posts/" %}
-                        {% endif %}
                         {% if page.banner_image %}
-                        <img width="600" height="400" class="post-thumbnail-full" src="{{ imagePath | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                        {% assign _bp = page.banner_image | slice: 0, 4 %}
+                        {% if _bp == "http" %}
+                            {% assign _banner_src = page.banner_image %}
+                        {% elsif page.banner_image contains "/images/posts/" %}
+                            {% assign _banner_src = page.banner_image | prepend: site.baseurl %}
+                        {% else %}
+                            {% assign _banner_src = page.banner_image | prepend: "/images/posts/" | prepend: site.baseurl %}
+                        {% endif %}
+                        <img width="600" height="400" class="post-thumbnail-full" src="{{ _banner_src }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
                         {% endif %}
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->
