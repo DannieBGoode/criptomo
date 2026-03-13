@@ -111,6 +111,10 @@ function getCoindeskHistoricalEntries(data) {
   return null;
 }
 
+function hasValue(value) {
+  return value !== null && value !== undefined;
+}
+
 function normalizeCoindeskResponse(data) {
   var entries = getCoindeskHistoricalEntries(data);
 
@@ -118,8 +122,8 @@ function normalizeCoindeskResponse(data) {
 
   var bpi = {};
   entries.forEach(function(entry) {
-    var rawTimestamp = entry && (entry.TIMESTAMP != null ? entry.TIMESTAMP : (entry.timestamp != null ? entry.timestamp : entry.time));
-    var rawClose = entry && (entry.CLOSE != null ? entry.CLOSE : entry.close);
+    var rawTimestamp = entry && (hasValue(entry.TIMESTAMP) ? entry.TIMESTAMP : (hasValue(entry.timestamp) ? entry.timestamp : entry.time));
+    var rawClose = entry && (hasValue(entry.CLOSE) ? entry.CLOSE : entry.close);
     var timestamp = Number(rawTimestamp);
     var close = Number(rawClose);
 

@@ -16,7 +16,8 @@
     "marketcapsCoinsLimit": "readonly",
     "mobileAndTabletcheck": "readonly",
     "recommendArticles": "readonly",
-    "tableDataLang": "readonly"
+    "tableDataLang": "readonly",
+    "toShortFormat": "readonly"
   },
   "ignorePatterns": [
     "js/jquery.js",
