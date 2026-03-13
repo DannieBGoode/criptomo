@@ -1,5 +1,6 @@
 ---
 title: CRIPTOMO
+title_separator: " - "
 timezone: UTC
 collections:
   posts:
