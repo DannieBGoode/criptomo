@@ -14,7 +14,6 @@ lang: pt
 css: calculator
 ref: calculator
 redirect_from:
-- "/pt/"
 - "/pt"
 - "/br"
 - "/br/"
