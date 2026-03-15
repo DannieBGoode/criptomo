@@ -10,15 +10,15 @@ locales:
   - lang: de
     label: Deutsch
     short: DE
-    url: /de/gewinnrechner/
+    url: /de/
   - lang: fr
     label: "Fran\u00e7ais"
     short: FR
-    url: /fr/calculateur/
+    url: /fr/
   - lang: pt
     label: "Portugu\u00eas"
     short: PT
-    url: /pt/calculadora/
+    url: /pt/
 
 es:
   eyebrow: "Analisis, herramientas y vision a largo plazo"
@@ -106,6 +106,8 @@ de:
   back_to_top: "Nach oben"
   rss: "RSS-Feed"
   links:
+    - label: Startseite
+      url: /de/
     - label: Gewinnrechner
       url: /de/gewinnrechner/
 
@@ -127,6 +129,8 @@ fr:
   back_to_top: "Retour en haut"
   rss: RSS
   links:
+    - label: Accueil
+      url: /fr/
     - label: Calculateur
       url: /fr/calculateur/
 
@@ -148,5 +152,7 @@ pt:
   back_to_top: "Voltar ao topo"
   rss: RSS
   links:
+    - label: Início
+      url: /pt/
     - label: Calculadora
       url: /pt/calculadora/
