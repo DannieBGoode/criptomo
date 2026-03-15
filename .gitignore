@@ -14,3 +14,4 @@ artifacts/
 .worktrees/
 docs/superpowers/*
 seo/*.json
+seo/weekly_seo_run.js
