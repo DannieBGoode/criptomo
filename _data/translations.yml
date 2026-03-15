@@ -65,11 +65,37 @@
   "about": {
     "title": {
       "en": "About",
-      "es": "Acerca de"
+      "es": "Acerca de",
+      "de": "Über",
+      "fr": "À propos de",
+      "pt": "Sobre"
     },
     "body": {
       "en": "Product Owner living in Barcelona",
       "es": "Product Owner residente en Barcelona"
+    }
+  },
+  "author": {
+    "written_by": {
+      "en": "Written by",
+      "es": "Escrito por",
+      "de": "Verfasst von",
+      "fr": "Écrit par",
+      "pt": "Escrito por"
+    },
+    "articles_by": {
+      "en": "Articles by",
+      "es": "Artículos de",
+      "de": "Artikel von",
+      "fr": "Articles de",
+      "pt": "Artigos de"
+    },
+    "follow": {
+      "en": "Follow",
+      "es": "Seguir",
+      "de": "Folgen",
+      "fr": "Suivre",
+      "pt": "Seguir"
     }
   },
   "share": {
