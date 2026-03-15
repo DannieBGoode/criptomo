@@ -10,10 +10,22 @@
 	},
 	"headline":"{{ page.title | truncate: 110 }}",
 	"description":"{{ page.description | truncate: 110 }}",
+{% assign _post_author_key = page.author | default: "daniel" %}
+{% assign _post_author = site.data.authors[_post_author_key] %}
+{% assign _pa_same_as_str = "" %}
+{% if _post_author.social.twitter %}{% assign _pa_same_as_str = _pa_same_as_str | append: "https://twitter.com/" | append: _post_author.social.twitter | append: "," %}{% endif %}
+{% if _post_author.social.github %}{% assign _pa_same_as_str = _pa_same_as_str | append: "https://github.com/" | append: _post_author.social.github | append: "," %}{% endif %}
+{% if _post_author.social.medium %}{% assign _pa_same_as_str = _pa_same_as_str | append: "https://medium.com/" | append: _post_author.social.medium | append: "," %}{% endif %}
+{% if _post_author.social.linkedin %}{% assign _pa_same_as_str = _pa_same_as_str | append: _post_author.social.linkedin | append: "," %}{% endif %}
+{% assign _pa_same_as = _pa_same_as_str | split: "," %}
 	"author":{
 		"@type":"Person",
-		"name":"{{ site.data.authors[page.author].author_name | default: site.author_name }}",
-		"url":"{{ site.data.authors[page.author].author_url | default: site.url }}"
+		"name":"{{ _post_author.author_name | default: site.author_name }}",
+		"url":"{{ _post_author.author_url | default: author_page_url | prepend: site.url }}",
+		"image":"{{ site.url }}{{ _post_author.author_image }}",
+		"jobTitle":"{{ _post_author.author_job_title }}",
+		"description":"{{ _post_author.author_bio }}"{% assign _pa_count = 0 %}{% for url in _pa_same_as %}{% if url != "" %}{% assign _pa_count = _pa_count | plus: 1 %}{% endif %}{% endfor %}{% if _pa_count > 0 %},
+		"sameAs":[{% assign _pa_first = true %}{% for url in _pa_same_as %}{% if url != "" %}{% unless _pa_first %},{% endunless %}"{{ url }}"{% assign _pa_first = false %}{% endif %}{% endfor %}]{% endif %}
 	},
 	"image":{
 		"@type":"ImageObject",
