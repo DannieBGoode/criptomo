@@ -6,7 +6,7 @@ tags:
 layout: post
 description: John Oliver analiza las criptomonedas en Last Week Tonight, advierte que invertir en Bitcoin es apostar y explica cómo las ICOs mueven millones en segundos.
 banner_image: 201803/john-oliver.jpg
-author: marisa
+author: daniel
 lang: es
 ---
 

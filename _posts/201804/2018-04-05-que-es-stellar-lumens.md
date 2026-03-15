@@ -84,7 +84,7 @@ Aunque la red Stellar no es Turing-complete (por lo que no permite computaciones
 
 ### Dónde comprar Stellar (XLM)
 
-- <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
+- <a rel="nofollow" href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q">Binance</a>
 - <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
 - <a rel="nofollow" href="https://www.kraken.com/">Kraken</a>
 

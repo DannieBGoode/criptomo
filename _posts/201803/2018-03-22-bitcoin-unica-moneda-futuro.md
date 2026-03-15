@@ -8,7 +8,7 @@ description: Jack Dorsey, CEO de Twitter, afirma que Bitcoin será la moneda ún
 banner_image: 201803/dorsey.jpg
 source: https://www.coindesk.com/twitter-ceo-jack-dorsey-bitcoin-will-be-the-worlds-single-currency/
 sourceName: CoinDesk
-author: tatiana
+author: daniel
 lang: es
 ---
 

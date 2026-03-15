@@ -6,7 +6,7 @@ tags:
 layout: post
 description: Descubre por qué Bitcoin es asociado a la dark web y actividades ilegales, qué porcentaje real representa ese uso y cómo su estigmatización distorsiona su verdadero impacto.
 banner_image: 201803/darkweb.jpg
-author: tatiana
+author: daniel
 lang: es
 ---
 

@@ -8,7 +8,7 @@ description: Binance anuncia el lanzamiento de su propio blockchain y un exchang
 banner_image: 201803/chain.jpg
 source: https://www.ccn.com/crypto-trading-giant-binance-to-launch-decentralized-exchange-and-public-blockchain/
 sourceName: CoinTelegraph
-author: marisa
+author: daniel
 lang: es
 ---
 

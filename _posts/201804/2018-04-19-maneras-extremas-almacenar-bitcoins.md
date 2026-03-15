@@ -6,7 +6,7 @@ tags:
 layout: post
 description: Descubre las maneras más extremas de proteger tus Bitcoins, desde chips NFC implantados bajo la piel hasta paper wallets. Casos reales de seguridad cripto llevada al límite.
 banner_image: 201804/extreme.png
-author: marisa
+author: daniel
 source: https://toshitimes.com/extreme-ways-people-keep-bitcoin-safe/
 sourceName: ToshiTimes
 lang: es
