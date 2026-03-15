@@ -3,11 +3,11 @@
 
 {% if include.author %}
   {% if lang == 'en' %}
-  by <span class="post-author">{{author}}</span> -
+  by <span class="post-author">{% if include.author_page_url %}<a href="{{ include.author_page_url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}</span> -
   {% else %}
-  por <span class="post-author">{{author}}</span> - 
+  por <span class="post-author">{% if include.author_page_url %}<a href="{{ include.author_page_url }}">{{ author }}</a>{% else %}{{ author }}{% endif %}</span> -
   {% endif %}
-  
+
 {% endif %}
 
 {% if include.date %}

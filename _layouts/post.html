@@ -14,6 +14,12 @@ layout: default
     {% assign lang = 'es' %}
 {% endif %}
 
+{% assign _author_key = page.author | default: "daniel" %}
+{% assign author_page_url = "/es/autor/" | append: _author_key | append: "/" %}
+{% if lang == "en" %}{% assign author_page_url = "/en/author/" | append: _author_key | append: "/" %}{% endif %}
+{% if lang == "de" %}{% assign author_page_url = "/de/autor/" | append: _author_key | append: "/" %}{% endif %}
+{% if lang == "fr" %}{% assign author_page_url = "/fr/auteur/" | append: _author_key | append: "/" %}{% endif %}
+{% if lang == "pt" %}{% assign author_page_url = "/pt/autor/" | append: _author_key | append: "/" %}{% endif %}
 
 <div class="site-content">
     {% include schema_post.html %}
@@ -38,7 +44,7 @@ layout: default
                         <h1 class="entry-title">{{page.title}}</h1>
                     </div><!-- .entry-header-wrap -->
                     <div class="entry-meta">
-                        {% include signature.html author=writer.author_name date=page.date %}
+                        {% include signature.html author=writer.author_name date=page.date author_page_url=author_page_url %}
                     </div><!-- .entry-meta -->
                 </header><!-- .entry-header -->
                 <div class="entry-content">
