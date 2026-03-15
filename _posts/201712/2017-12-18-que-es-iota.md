@@ -102,7 +102,7 @@ Resulta también obvio que con Google y Tesla haciendo experimentos con vehícul
 
 #### Dónde comprar IOTA
 
-En los exchanges lo que venden como IOTAS son realmente Mi-IOTAS. Mi exchange de preferencia para comprarlos es [Binance](https://accounts.binance.com/es/register?ref=11317062).
+En los exchanges lo que venden como IOTAS son realmente Mi-IOTAS. Mi exchange de preferencia para comprarlos es [Binance](https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q).
 
 #### Dónde guardar IOTA
 

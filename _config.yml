@@ -58,6 +58,12 @@ crypto:
 kraken:
   affiliate_link: "https://invite.kraken.com/JDNW/668obv32"
   affiliate_code: "3ryh835p"
+coinbase:
+  affiliate_link: "https://advanced.coinbase.com/join/BMB5ANS"
+kucoin:
+  affiliate_link: "https://www.kucoin.com/r/rf/QBS2UU7G"
+bitfinex:
+  affiliate_link: "https://www.bitfinex.com/sign-up?refcode=v4tpAICP1"
 disqus: criptomo
 author_name: Daniel Calatayud
 author_bio: Ingeniero de telecomunicaciones apasionado por la tecnología.

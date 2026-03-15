@@ -79,8 +79,8 @@ El wallet de escritorio lo podeis descargar de <a rel="nofollow" href="https://r
 
 Nano está disponible en:
 
-- <a rel="nofollow" href="https://www.kucoin.com">Kucoin</a>
-- <a rel="nofollow" href="https://accounts.binance.com/es/register?ref=11317062">Binance</a>
+- <a rel="nofollow" href="https://www.kucoin.com/r/rf/QBS2UU7G">Kucoin</a>
+- <a rel="nofollow" href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q">Binance</a>
 
 ## Opinión
 

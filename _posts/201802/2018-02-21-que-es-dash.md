@@ -63,9 +63,9 @@ momento en el cual los fondos serán movidos por la red al wallet definido en la
 
 ### Dónde comprar DASH
 
-* <a rel="nofollow" href="https://www.binance.com/?ref=11317062">Binance</a>
+* <a rel="nofollow" href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q">Binance</a>
 * <a rel="nofollow" href="https://bittrex.com/">Bitrex</a>
-* <a rel="nofollow" href="https://www.bitfinex.com">Bitfinex</a>
+* <a rel="nofollow" href="{{ site.bitfinex.affiliate_link }}">Bitfinex</a>
 
 ### Dónde almacenar DASH
 

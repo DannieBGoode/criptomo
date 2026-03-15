@@ -90,7 +90,7 @@ Aquellos usuarios que utilicen adblock podrán bloquear correctamente el script 
 
 ## Dónde comprar Oyster PRL
 
-Actualmente muy pocos exchanges venden PRL, lo cual puede ser visto como una buena oportunidad de compra. Recomiendo <a rel="nofollow" href="https://www.kucoin.com">Kucoin</a>, aunque también se puede ver en <a rel="nofollow" href="https://etherdelta.com/">EtherDelta</a>.
+Actualmente muy pocos exchanges venden PRL, lo cual puede ser visto como una buena oportunidad de compra. Recomiendo <a rel="nofollow" href="https://www.kucoin.com/r/rf/QBS2UU7G">Kucoin</a>, aunque también se puede ver en <a rel="nofollow" href="https://etherdelta.com/">EtherDelta</a>.
 
 ## Dónde almacenar Oyster PRL
 

@@ -64,7 +64,7 @@ Adicionalmente cuenta con mas de [310 colaboradores](https://www.openhub.net/p/m
 {% include image_caption.html imageurl="/images/posts/201801/monero-vault.jpg" title="Monero Anonymous" popup=true %}
 
 Se puede comprar XMR en los siguientes exchanges:
-* [Binance](https://accounts.binance.com/es/register?ref=11317062)
+* [Binance](https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q)
 * [Kraken](https://www.kraken.com/)
 * [Bitfinex](https://www.bitfinex.com)
 
