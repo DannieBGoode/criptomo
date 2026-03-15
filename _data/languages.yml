@@ -1,4 +1,15 @@
-- name: en
+- code: en
+  name: English
   url: /en/
-- name: es
+- code: es
+  name: Español
   url: /
+- code: de
+  name: Deutsch
+  url: /de/
+- code: fr
+  name: Français
+  url: /fr/
+- code: pt
+  name: Português
+  url: /pt/

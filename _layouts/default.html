@@ -46,8 +46,6 @@ layout: compress
         <div class="inner">
             <button id="menu-toggle" class="js-toggle" data-container="nav-menu">Menu</button>
 
-            {% include language_picker.html %}
-            
             <div class="nav-menu toggle-container" id="nav-menu">
                 <ul class="menu">
                 {% if lang == 'es' %}
@@ -73,6 +71,7 @@ layout: compress
                 {% endfor %}
 
                 </ul>
+                {% include language_picker.html %}
             </div><!-- .nav-menu -->  
         </div><!-- .inner -->
     </nav><!-- .site-navigation -->
