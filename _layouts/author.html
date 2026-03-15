@@ -79,8 +79,8 @@ layout: default
 
         {% assign author_posts = site.posts | where: "author", page.author_key %}
         {% if page.author_key == "daniel" %}
-          {% assign default_posts = site.posts | where_exp: "post", "post.author == blank" %}
-          {% assign author_posts = author_posts | concat: default_posts | sort: "date" | reverse %}
+          {% assign all_non_david = site.posts | where_exp: "post", "post.author != 'david'" %}
+          {% assign author_posts = all_non_david | sort: "date" | reverse %}
         {% endif %}
 
         <ul class="post-list">
