@@ -41,7 +41,7 @@ layout: default
             <h1 class="author-title">{{ t_about.title[lang] }} {{ author.author_name }}</h1>
             {% if author.author_job_title %}<p class="author-job-title">{{ author.author_job_title }}</p>{% endif %}
             <p class="author-bio">{{ author.author_bio }}</p>
-            <span class="author-location"><i class="icon-location" aria-hidden="true"></i> {{ author.author_location }}</span>
+            {% if author.author_location %}<span class="author-location"><i class="icon-location" aria-hidden="true"></i> {{ author.author_location }}</span>{% endif %}
             {% if author.author_url %}
             <span class="author-website">
               <i class="icon-link" aria-hidden="true"></i>
