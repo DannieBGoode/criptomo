@@ -58,3 +58,6 @@ Several variables are injected by Jekyll templates at runtime and declared as ES
 - **Google Tag Manager**: GTM-TV5P5BH
 - **Disqus comments**: shortname `criptomo`
 - **Market data**: CryptoCompare and LiveCoinWatch APIs (API contracts tested via `npm run test:api-contracts`)
+
+### Monetization
+- When creating new content, always suggest ways of monetizing it, for example, if a new blog post is going to be created, make sure the mentioned items have affiliate codes and prompt the user to put in the affiliate codes if they do not exist within the project. Affiliate links/codes go in _config.yml

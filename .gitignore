@@ -12,3 +12,5 @@ skills-lock.json
 coverage/
 artifacts/
 .worktrees/
+docs/superpowers/*
+seo/*.json

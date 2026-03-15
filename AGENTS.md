@@ -44,3 +44,6 @@
 - Run `npm run eslint` after meaningful JavaScript changes.
 - If you change page assembly, script tags, third-party includes, or rendered HTML behavior, rebuild the site and run `npm run test:page-console`.
 - If you change external market-data integrations or the scripts that consume them, run `npm run test:api-contracts`.
+
+### Monetization
+- When creating new content, always suggest ways of monetizing it, for example, if a new blog post is going to be created, make sure the mentioned items have affiliate codes and prompt the user to put in the affiliate codes if they do not exist within the project. Affiliate links/codes go in _config.yml
