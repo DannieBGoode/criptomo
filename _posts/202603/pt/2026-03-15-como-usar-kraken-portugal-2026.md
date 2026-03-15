@@ -77,17 +77,3 @@ O seu Bitcoin aparecerá na sua carteira em poucos segundos.
 Se está a considerar sair do Binance ou de outra plataforma, consulte a nossa [comparação das melhores alternativas ao Binance na Europa](/alternativas-binance-europa-2026/). Depois, use a nossa [calculadora de Bitcoin](/pt/calculadora/) para simular uma estratégia de compra periódica (DCA) e ver os rendimentos históricos.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Abrir conta na Kraken**</a>
-
-## Perguntas frequentes
-
-### A Kraken é legal em Portugal?
-Sim. A Kraken está completamente regulada sob a MiCA na UE, sendo legal e segura para utilizadores portugueses.
-
-### Quanto tempo demora a verificação KYC na Kraken?
-Normalmente 1 a 3 dias úteis, embora muitos sejam aprovados em minutos.
-
-### Posso depositar euros na Kraken a partir de Portugal?
-Sim. A Kraken aceita transferências SEPA gratuitas de qualquer banco português.
-
-### Qual é o valor mínimo para comprar Bitcoin na Kraken?
-O valor mínimo de compra é de aproximadamente 10€ para Bitcoin.

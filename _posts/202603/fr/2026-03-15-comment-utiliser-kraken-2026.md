@@ -77,17 +77,3 @@ Votre Bitcoin apparaîtra dans votre portefeuille en quelques secondes.
 Si vous cherchez à quitter Binance ou une autre plateforme, consultez notre [comparatif des meilleures alternatives à Binance en Europe](/alternatives-binance-europe-2026/). Ensuite, utilisez notre [calculateur Bitcoin](/fr/calculateur/) pour simuler une stratégie d'achat périodique (DCA) et visualiser les rendements historiques.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Ouvrir un compte sur Kraken**</a>
-
-## Questions fréquentes
-
-### Kraken est-il légal en France ?
-Oui. Kraken est entièrement régulé sous MiCA dans l'UE, ce qui le rend légal et sécurisé pour les utilisateurs français.
-
-### Combien de temps prend la vérification KYC sur Kraken ?
-En général 1 à 3 jours ouvrables, bien que beaucoup soient approuvés en quelques minutes.
-
-### Puis-je déposer des euros sur Kraken depuis la France ?
-Oui. Kraken accepte les virements SEPA gratuits depuis n'importe quelle banque française.
-
-### Quel est le montant minimum pour acheter du Bitcoin sur Kraken ?
-Le montant minimum est d'environ 10€ pour le Bitcoin.

@@ -79,17 +79,3 @@ Your Bitcoin will appear in your portfolio within seconds.
 If you are looking to switch from Binance or another platform, see our [guide to the best Binance alternatives in Europe](/binance-alternatives-europe-2026/). Once you are on Kraken, use our [Bitcoin investment calculator](/calculator/) to model a dollar-cost averaging strategy and see historical returns.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Open a Kraken account**</a>
-
-## Frequently asked questions
-
-### Is Kraken safe and legitimate?
-Yes. Kraken has been operating since 2011 and holds a MiCA licence in the EU. It has never suffered a major hack.
-
-### How long does KYC verification take on Kraken?
-Usually 1 to 3 business days, though many users are approved within minutes if documents are clear.
-
-### Can I deposit euros or dollars on Kraken?
-Yes. Kraken supports free SEPA transfers for EUR in Europe, and wire transfers for USD and other currencies internationally.
-
-### What is the minimum amount to buy Bitcoin on Kraken?
-The minimum order is approximately $10 or €10 for Bitcoin.

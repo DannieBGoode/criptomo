@@ -77,17 +77,3 @@ Ihr Bitcoin erscheint innerhalb von Sekunden in Ihrem Portfolio.
 Wenn Sie von Binance oder einer anderen Plattform wechseln möchten, lesen Sie unseren [Vergleich der besten Binance-Alternativen in Europa](/binance-alternativen-europa-2026/). Nutzen Sie anschließend unseren [Bitcoin-Rechner](/de/rechner/) um eine regelmäßige Kaufstrategie (DCA) zu simulieren.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Konto bei Kraken eröffnen**</a>
-
-## Häufig gestellte Fragen
-
-### Ist Kraken in Deutschland legal?
-Ja. Kraken ist vollständig unter MiCA in der EU lizenziert und damit für deutsche Nutzer legal und sicher.
-
-### Wie lange dauert die KYC-Verifizierung bei Kraken?
-Normalerweise 1 bis 3 Werktage, viele Nutzer werden jedoch innerhalb von Minuten genehmigt.
-
-### Kann ich Euro per SEPA auf Kraken einzahlen?
-Ja. Kraken akzeptiert kostenlose SEPA-Überweisungen von jedem deutschen Bankkonto.
-
-### Was ist der Mindestbetrag für den Kauf von Bitcoin bei Kraken?
-Der Mindestbestellbetrag bei Kraken beträgt etwa 10€ für Bitcoin.

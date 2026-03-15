@@ -77,17 +77,3 @@ Tu Bitcoin aparecerá en tu cartera en pocos segundos.
 Si vienes de Binance u otro exchange y buscas una opción más regulada, puedes consultar nuestra [comparativa de alternativas a Binance en España](/alternativas-binance-espana-2026/). Una vez en Kraken, usa nuestra [calculadora de Bitcoin](/calculadora/) para simular una estrategia de compra periódica (DCA) y ver el rendimiento histórico.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Abrir cuenta en Kraken**</a>
-
-## Preguntas frecuentes
-
-### ¿Es Kraken legal en España?
-Sí. Kraken está completamente regulado bajo MiCA en la Unión Europea, lo que lo hace legal y seguro para usuarios españoles.
-
-### ¿Cuánto tarda la verificación KYC en Kraken?
-Normalmente entre 1 y 3 días hábiles, aunque puede ser inmediata si los documentos son claros.
-
-### ¿Puedo depositar euros en Kraken desde España?
-Sí. Kraken acepta transferencias SEPA gratuitas desde cualquier banco español.
-
-### ¿Cuál es la cantidad mínima para comprar Bitcoin en Kraken?
-El mínimo de compra en Kraken es de aproximadamente 10€ para Bitcoin.
