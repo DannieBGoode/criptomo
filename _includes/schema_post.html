@@ -23,8 +23,8 @@
 		"name":"{{ _post_author.author_name | default: site.author_name }}",
 		"url":"{{ site.url }}{{ author_page_url }}",
 		"image":"{{ site.url }}{{ _post_author.author_image }}",
-		"jobTitle":"{{ _post_author.author_job_title }}",
-		"description":"{{ _post_author.author_bio }}"{% assign _pa_count = 0 %}{% for url in _pa_same_as %}{% if url != "" %}{% assign _pa_count = _pa_count | plus: 1 %}{% endif %}{% endfor %}{% if _pa_count > 0 %},
+		"jobTitle":"{{ _post_author.author_job_title[lang] | default: _post_author.author_job_title.en }}",
+		"description":"{{ _post_author.author_bio[lang] | default: _post_author.author_bio.en }}"{% assign _pa_count = 0 %}{% for url in _pa_same_as %}{% if url != "" %}{% assign _pa_count = _pa_count | plus: 1 %}{% endif %}{% endfor %}{% if _pa_count > 0 %},
 		"sameAs":[{% assign _pa_first = true %}{% for url in _pa_same_as %}{% if url != "" %}{% unless _pa_first %},{% endunless %}"{{ url }}"{% assign _pa_first = false %}{% endif %}{% endfor %}]{% endif %}
 	},
 	"image":{

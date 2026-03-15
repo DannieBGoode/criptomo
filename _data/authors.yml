@@ -1,8 +1,18 @@
 # authors
 daniel:
   author_name               : "Daniel"
-  author_job_title          : "Blockchain Engineer"
-  author_bio                : "Ingeniero especializado en tecnologías Frontend y apasionado del mundo blockchain. Fundador de Criptomo."
+  author_job_title:
+    es                      : "Ingeniero Blockchain"
+    en                      : "Blockchain Engineer"
+    de                      : "Blockchain-Ingenieur"
+    fr                      : "Ingénieur Blockchain"
+    pt                      : "Engenheiro Blockchain"
+  author_bio:
+    es                      : "Ingeniero especializado en tecnologías Frontend y apasionado del mundo blockchain. Fundador de Criptomo."
+    en                      : "Frontend engineer passionate about blockchain technology. Founder of Criptomo."
+    de                      : "Frontend-Ingenieur mit Leidenschaft für Blockchain-Technologie. Gründer von Criptomo."
+    fr                      : "Ingénieur frontend passionné par la technologie blockchain. Fondateur de Criptomo."
+    pt                      : "Engenheiro frontend apaixonado pela tecnologia blockchain. Fundador do Criptomo."
   author_url                : "https://criptomo.com"
   author_url_name           : "CRIPTOMO"
   author_location           : "Spain"
@@ -15,8 +25,18 @@ daniel:
 
 david:
   author_name               : "David"
-  author_job_title          : "Telecommunications Engineer"
-  author_bio                : "Ingeniero de telecomunicaciones especializado en tecnología blockchain y criptomonedas."
+  author_job_title:
+    es                      : "Ingeniero de Telecomunicaciones"
+    en                      : "Telecommunications Engineer"
+    de                      : "Telekommunikationsingenieur"
+    fr                      : "Ingénieur en télécommunications"
+    pt                      : "Engenheiro de Telecomunicações"
+  author_bio:
+    es                      : "Ingeniero de telecomunicaciones especializado en tecnología blockchain y criptomonedas."
+    en                      : "Telecommunications engineer specializing in blockchain technology and cryptocurrencies."
+    de                      : "Telekommunikationsingenieur, spezialisiert auf Blockchain-Technologie und Kryptowährungen."
+    fr                      : "Ingénieur en télécommunications spécialisé dans la technologie blockchain et les cryptomonnaies."
+    pt                      : "Engenheiro de telecomunicações especializado em tecnologia blockchain e criptomoedas."
   author_location           : "USA"
   author_image              : /images/authors/charles.jpg
   social:

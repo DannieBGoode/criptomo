@@ -22,7 +22,7 @@ layout: default
   "url": "{{ site.url }}{{ page.url }}",
   "image": "{{ site.url }}{{ author.author_image }}",
   "jobTitle": "{{ author.author_job_title }}",
-  "description": "{{ author.author_bio }}",
+  "description": "{{ author.author_bio[lang] | default: author.author_bio.en }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
@@ -39,8 +39,10 @@ layout: default
           <img class="author-avatar" loading="lazy" alt="{{ author.author_name }}" src="{{ site.baseurl }}{{ author.author_image }}"/>
           <div class="author-details">
             <h1 class="author-title">{{ t_about.title[lang] }} {{ author.author_name }}</h1>
-            {% if author.author_job_title %}<p class="author-job-title">{{ author.author_job_title }}</p>{% endif %}
-            <p class="author-bio">{{ author.author_bio }}</p>
+            {% assign _job_title = author.author_job_title[lang] | default: author.author_job_title.en %}
+            {% assign _author_bio = author.author_bio[lang] | default: author.author_bio.en %}
+            {% if _job_title %}<p class="author-job-title">{{ _job_title }}</p>{% endif %}
+            <p class="author-bio">{{ _author_bio }}</p>
             {% if author.author_location %}<span class="author-location"><i class="icon-location" aria-hidden="true"></i> {{ author.author_location }}</span>{% endif %}
             {% if author.author_url %}
             <span class="author-website">
