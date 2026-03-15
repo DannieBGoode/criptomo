@@ -51,7 +51,7 @@ Die Identitätsverifizierung (KYC) dauert 10–30 Minuten und erfordert einen g�
 
 ### 2. USDC kaufen
 
-Nach der Kontobestätigung suchen Sie nach dem Handelspaar **USDC/EUR** im Trading-Panel. Für langfristige Sparanlagen ist USDC USDT vorzuziehen: Circle veröffentlicht monatliche, von Deloitte geprüfte Attestierungen und ist unter der EU-MiCA-Verordnung besser positioniert.
+Nach der Kontobestätigung suchen Sie nach dem Handelspaar **USDC/EUR** im Trading-Panel. Für langfristige Sparanlagen ist USDC gegenüber USDT vorzuziehen: Circle veröffentlicht monatliche, von Deloitte geprüfte Attestierungen und ist unter der EU-MiCA-Verordnung besser positioniert.
 
 Eine vollständige Vergleichsübersicht finden Sie unter [was ist USDC](/was-ist-usdc/) und [was ist USDT](/was-ist-usdt-tether/).
 
