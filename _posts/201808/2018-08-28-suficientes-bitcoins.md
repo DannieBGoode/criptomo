@@ -4,8 +4,7 @@ date: 2018-08-28 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Sólo existirán 21 millones de bitcoins, ¿serán suficientes para toda
-  la población si el Bitcoin triunfa? ¿Cuánto se puede dividir cada Bitcoin?
+description: Descubre por qué el límite de 21 millones de bitcoins es suficiente para una economía global, cómo se calculó ese número y qué ocurre cuando se pierden bitcoins.
 banner_image: 201808/bitcoin-mining.jpg
 rating: 5
 totalVotes: 5

@@ -4,8 +4,7 @@ published: true
 netlifycms: true
 title: Qué son los canales de estado (state channels)
 date: 2022-12-10
-description: "Los state channels o canales de estado permiten a dos o más partes
-  realizar transacciones entre sí de manera rápida y eficiente "
+description: Aprende qué son los canales de estado, cómo permiten transacciones rápidas fuera de la blockchain y por qué son clave para la escalabilidad de criptomonedas.
 tags:
   - blockchain
 banner_image: /images/posts/image_2022-12-10_235305341.png

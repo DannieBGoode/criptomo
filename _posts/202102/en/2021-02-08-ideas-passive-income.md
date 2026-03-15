@@ -4,7 +4,7 @@ date: 2021-02-08 00:00:00 Z
 tags:
 - fi
 layout: post
-description: Ideas for businesses that generate passive income in 2021
+description: Discover 15 practical ideas to generate passive income, from real estate crowdfunding and index fund investing to blogs, YouTube channels, and P2P lending.
 banner_image: 202102/income.webp
 rating: 4.8
 TotalVotes: 19

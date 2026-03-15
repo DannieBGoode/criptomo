@@ -4,7 +4,7 @@ layout: post
 published: true
 title: Qué es una frase mnemónica
 date: 2021-Jun-11
-description: Qué es una frase mnemónica o un seed y cómo de seguro es
+description: Descubre qué es una frase mnemónica o seed, cómo protege tu clave privada en criptomonedas y por qué es esencial para la seguridad de tu wallet personal.
 tags:
   - bitcoin
 banner_image: 202101/mnemonic.webp

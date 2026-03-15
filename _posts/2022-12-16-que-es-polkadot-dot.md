@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Polkadot (DOT)
 date: 2022-Dec-16
-description: Guía de qué es Polkadot (DOT)
+description: Aprende qué es Polkadot (DOT), cómo funcionan sus parachains para lograr interoperabilidad entre blockchains y por qué destaca en escalabilidad y gobernanza.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_102434620.png

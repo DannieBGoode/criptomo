@@ -4,8 +4,7 @@ date: 2020-02-21 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Guía para principiantes sobre qué es Tezos y como se diferencia de Cardano
-  (ADA).
+description: Descubre qué es Tezos (XTZ), cómo funciona su mecanismo Liquid Proof of Stake y en qué se diferencia de otras criptomonedas como Cardano o Ethereum.
 banner_image: 202002/tezos.jpg
 rating: 5
 totalVotes: 16

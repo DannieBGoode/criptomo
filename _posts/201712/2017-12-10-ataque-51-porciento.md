@@ -5,8 +5,7 @@ tags:
 - bitcoin
 - blockchain
 layout: post
-description: El ataque del 51% es una de las vulnerabilidades de las criptomonedas
-  basadas en blockchain y proof of work.
+description: Descubre cómo funciona el ataque del 51% en blockchain. Aprende qué ocurre si alguien controla la mayoría del poder computacional y por qué no amenaza a Bitcoin hoy.
 banner_image: 201712/attack.jpg
 rating: 4.75
 totalVotes: 4

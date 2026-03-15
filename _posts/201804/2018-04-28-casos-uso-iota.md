@@ -4,7 +4,7 @@ date: 2018-04-28 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Los usos de IOTA como sistema en una cuarta revolución tecnoindustrial
+description: Descubre los principales casos de uso de IOTA en el internet de las cosas, vehículos autónomos, micropagos y smart cities gracias a su tecnología Tangle.
 author: tatiana
 banner_image: 201804/iota.png
 rating: 5

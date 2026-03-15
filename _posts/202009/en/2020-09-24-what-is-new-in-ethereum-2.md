@@ -5,7 +5,7 @@ tags:
 - ethereum
 - altcoins
 layout: post
-description: What's new in Ethereum 2.0. Proof of Stake and other features.
+description: "Learn what Ethereum 2.0 brings: Proof of Stake consensus, sharding with 64 parallel chains, validators, and how the upgrade improves speed and energy use."
 banner_image: 202009/eth2.webp
 rating: 5
 TotalVotes: 11

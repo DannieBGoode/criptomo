@@ -4,7 +4,7 @@ date: 2020-05-06 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: What is bitcoin halving how does it compare to gold or central banks
+description: Learn what the Bitcoin halving is, why it cuts the block reward in half every four years, and how it historically drives BTC price increases.
 banner_image: 202005/bitcoin-halving.webp
 rating: 5
 totalVotes: 6

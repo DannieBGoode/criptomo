@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Decentralized Storage
 date: 2022-Dec-14
-description: What is decentralized storage, advantages, disadvantages and examples
+description: Learn what decentralized storage is, its advantages and disadvantages over centralized systems, and top examples like IPFS, Filecoin, Storj, and Sia.
 tags:
   - altcoins
   - technology

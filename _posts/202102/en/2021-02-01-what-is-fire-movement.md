@@ -4,7 +4,7 @@ date: 2021-02-01 00:00:00 Z
 tags:
 - fi
 layout: post
-description: What is FIRE, Financial Independence Retire Early. The new financial movement.
+description: Learn what the FIRE movement is, how Financial Independence Retire Early works, the 4% withdrawal rule, and how to calculate your retirement number.
 banner_image: 202102/fire2.webp
 rating: 5
 TotalVotes: 7

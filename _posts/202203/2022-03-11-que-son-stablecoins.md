@@ -3,7 +3,7 @@ title: Qué son las Stablecoins
 tags:
 - altcoins
 layout: post
-description: Guía y explicación de qué es una stablecoin y tipos de stablecoins.
+description: Descubre qué son las stablecoins, cómo mantienen su precio estable respecto al dólar u otros activos, sus diferentes tipos y por qué son esenciales en el ecosistema DeFi.
 banner_image: 202203/stablecoins.webp
 rating: 5
 TotalVotes: 10

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es ChainLink
 date: 2022-Dec-22
-description: Que es ChainLink guía para principiantes (LINK)
+description: Aprende qué es Chainlink (LINK), cómo funciona su red de oráculos descentralizada y por qué es clave para conectar contratos inteligentes con datos externos reales.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-22_095836174.png

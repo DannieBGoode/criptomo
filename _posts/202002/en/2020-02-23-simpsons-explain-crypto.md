@@ -4,8 +4,7 @@ date: 2020-02-23 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: The Simpsons explain cryptocurrencies in a small video. Also video of
-  Family Guy and Bitcoin.
+description: Watch The Simpsons explain cryptocurrency in a viral video, plus earlier Bitcoin references from The Simpsons and Family Guy. Pop culture meets crypto.
 banner_image: 202002/simpsons.webp
 rating: 5
 totalVotes: 3

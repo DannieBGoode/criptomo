@@ -4,8 +4,7 @@ date: 2018-01-07 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Litecoin es una de las más valoradas del mercado. Aprende
-  qué es, cómo y por qué se creó, y dónde comprar LTC
+description: Descubre qué es Litecoin LTC, la alternativa más rápida a Bitcoin. Aprende sobre su algoritmo Scrypt, su creador Charlie Lee y por qué se usa como plata digital.
 banner_image: 201801/litecoin.webp
 rating: 4.5
 totalVotes: 2

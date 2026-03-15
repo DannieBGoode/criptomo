@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Binance Coin (BNB)
 date: 2022-Dec-18
-description: What is Binance Coin BNB
+description: Learn what Binance Coin (BNB) is, how it works as a utility token on the Binance exchange, its role in DeFi and IEOs, and its growth potential going forward.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-18_204018288.png

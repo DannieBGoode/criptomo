@@ -4,7 +4,7 @@ date: 2020-02-22 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Estrenamos sección sobre valoración de criptomonedas con ICOs
+description: Descubre la nueva sección de ICOs de Criptomo con el listado de las ICOs más exitosas, cuánto dinero recaudaron y cuál es su valoración actual en el mercado.
 banner_image: 202002/ico.webp
 rating: 4
 totalVotes: 4

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is the Lightning network
 date: 2022-Dec-15
-description: What is the Lightning network
+description: Learn what the Lightning Network is, how Bitcoin payment channels enable instant low-fee microtransactions, and why it is Bitcoin's key scalability solution.
 tags:
   - bitcoin
   - blockchain

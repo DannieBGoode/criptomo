@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Qué es la red Lightning
 date: 2022-Dec-15
-description: Guía de la Lightning Network
+description: Aprende qué es la Lightning Network, la segunda capa de Bitcoin basada en canales de pago que permite microtransacciones instantáneas con tarifas mínimas.
 tags:
   - bitcoin
   - blockchain

@@ -4,8 +4,7 @@ date: 2017-12-14 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda SALT ofrece un potencialmente lucrativo puente entre
-  el mundo de los prestamos y el de las criptomonedas.
+description: Descubre qué es SALT, la plataforma que permite pedir préstamos en fiat usando criptomonedas como garantía mediante smart contracts. Análisis completo con opinión final.
 banner_image: 201712/salt.jpg
 rating: 5
 totalVotes: 1

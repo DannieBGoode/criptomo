@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Metamask
 date: 2022-Dec-30
-description: Guide on how to use metamask
+description: Learn what MetaMask is, how to set it up as an Ethereum wallet, and how to use it to access DApps, manage tokens, and interact with DeFi protocols securely.
 tags:
   - altcoins
   - ""

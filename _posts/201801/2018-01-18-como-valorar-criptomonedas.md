@@ -4,7 +4,7 @@ date: 2018-01-18 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Principios básicos para valorar criptomonedas. Consejos.
+description: Aprende los 5 principios clave para valorar criptomonedas antes de invertir. Whitepaper, equipo, tecnología y más criterios esenciales para evitar estafas.
 banner_image: 201801/investing.png
 rating: 5
 totalVotes: 1

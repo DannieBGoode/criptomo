@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Filecoin e IPFS
 date: 2022-Dec-16
-description: Que es Filecoin e IPFS para principiantes
+description: Descubre qué son Filecoin e IPFS, cómo funciona este sistema de almacenamiento descentralizado y por qué es una alternativa segura a Google Drive o Dropbox.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_135620104.png

@@ -4,8 +4,7 @@ date: 2018-10-10 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Cómo detectar si tenemos forks asignados en nuestras direcciones de BTC
-  y como extraerlos y venderlos.
+description: Guía paso a paso para detectar, reclamar y vender los hard forks de Bitcoin asignados en tus direcciones BTC, con consejos de seguridad para evitar estafas.
 banner_image: 201810/forks.png
 rating: 5
 totalVotes: 6

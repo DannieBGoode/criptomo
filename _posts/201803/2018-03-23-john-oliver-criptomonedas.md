@@ -4,7 +4,7 @@ date: 2018-03-23 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: John Oliver habla de las criptomonedas en el programa The Latenight Show.
+description: John Oliver analiza las criptomonedas en Last Week Tonight, advierte que invertir en Bitcoin es apostar y explica cómo las ICOs mueven millones en segundos.
 banner_image: 201803/john-oliver.jpg
 author: marisa
 lang: es

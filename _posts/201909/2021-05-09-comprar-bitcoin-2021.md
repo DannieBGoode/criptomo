@@ -4,7 +4,7 @@ date: 2021-05-09 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Guía para principiantes de cómo comprar Bitcoin en 2021. Actualizado.
+description: Guía completa para comprar Bitcoin en 2021 usando Coinbase. Aprende a crear tu cuenta, depositar dinero y realizar tu primera compra de BTC paso a paso.
 banner_image: 201909/bitcoin-2019.webp
 rating: 5
 totalVotes: 6

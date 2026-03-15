@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Polkadot (DOT)
 date: 2022-Dec-16
-description: Guide about what polkadot (DOT) is. Parachains. Substrate.
+description: Learn what Polkadot (DOT) is, how parachains and the Substrate framework enable cross-chain interoperability, and why it stands out in the blockchain ecosystem.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_102434620.png

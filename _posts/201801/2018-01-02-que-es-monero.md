@@ -4,7 +4,7 @@ date: 2018-01-02 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Monero es la criptomoneda que mejores aplicaciones de privacidad ha implementado.
+description: Descubre qué es Monero XMR, la criptomoneda privada que hace imposible rastrear transacciones. Aprende cómo funcionan Ring Signatures y Stealth Addresses.
 banner_image: 201801/monero.png
 rating: 5
 totalVotes: 1

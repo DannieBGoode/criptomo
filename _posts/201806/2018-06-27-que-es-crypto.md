@@ -4,7 +4,7 @@ date: 2022-01-13 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Hasta 8% de cashback con 12% de interés en staking
+description: Guía completa de las tarjetas de débito VISA de Crypto.com, con hasta 8% de cashback, Netflix, Spotify y acceso a salas VIP. Comparativa de niveles y beneficios.
 banner_image: 202201/crypto-cover.webp
 rating: 5
 totalVotes: 19

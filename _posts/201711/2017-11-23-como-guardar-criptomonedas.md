@@ -5,7 +5,7 @@ tags:
 - bitcoin
 - altcoins
 layout: post
-description: La mejor manera de almacenar y guardar bitcoins y otras criptomonedas.
+description: Aprende cómo guardar criptomonedas de forma segura. Comparamos hot wallets, cold wallets y hardware wallets como Ledger o Trezor para elegir la mejor opción.
 banner_image: 201711/bitcoin-wallet.jpg
 rating: 4.5
 totalVotes: 2

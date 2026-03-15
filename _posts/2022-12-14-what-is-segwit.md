@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Segwit
 date: 2022-Dec-14
-description: what is segwit and why is it important
+description: Learn what SegWit is, how it fixed transaction malleability and Bitcoin's block size limit, and why it was a key upgrade enabling the Lightning Network.
 tags:
   - bitcoin
   - blockchain

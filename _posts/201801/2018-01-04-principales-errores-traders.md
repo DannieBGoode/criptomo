@@ -4,8 +4,7 @@ date: 2018-01-04 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Descubre los cinco principales errores que todos hemos cometido a la
-  hora de invertir a largo plazo en criptomonedas y cómo evitarlos.
+description: Descubre los cinco errores más comunes al invertir en criptomonedas. Aprende a evitar FOMO, FUD y a medir tus beneficios en satoshis para tomar mejores decisiones.
 banner_image: 201801/mistakes.png
 lang: es
 ---

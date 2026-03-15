@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Elecciones y Blockchain
 date: 2022-Dec-16
-description: Cómo podría Blockchain potenciar las elecciones y proveer de más transparencia
+description: Descubre cómo blockchain podría transformar los sistemas de votación aportando transparencia, seguridad e inmutabilidad al proceso electoral. Casos de uso reales.
 tags:
   - tecnologia
 banner_image: /images/posts/image_2022-12-16_104127206.png

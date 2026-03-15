@@ -4,8 +4,7 @@ date: 2018-03-23 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: Electric Power Company empezará a utilizar the Lightning Network como
-  registro de recargas de coches eléctricos.
+description: Empresa eléctrica japonesa experimenta con Lightning Network para registrar y gestionar recargas de coches eléctricos en blockchain. Un caso de uso real de Bitcoin IoT.
 banner_image: 201803/electric-car.jpg
 sourceName: CoinTelegraph
 source: https://cointelegraph.com/news/japanese-electric-company-tests-bitcoin-lightning-network-payments-for-car-charging

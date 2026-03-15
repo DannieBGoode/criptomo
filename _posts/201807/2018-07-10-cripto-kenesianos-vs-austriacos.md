@@ -4,7 +4,7 @@ date: 2018-07-10 00:00:00 Z
 tags:
 - tecnologia
 layout: post
-description: Bitcoin vs Bitcoin Cash. Motivaciones de cada moneda. Criptoeconomía.
+description: Aprende qué separa a los cripto-austriacos de los cripto-keynesianos, cómo estas visiones económicas explican la división entre Bitcoin y Bitcoin Cash.
 banner_image: 201807/jimmy-song2.jpg
 rating: 5
 totalVotes: 1

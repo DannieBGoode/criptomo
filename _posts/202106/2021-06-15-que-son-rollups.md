@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Todo lo que necesitas saber sobre los rollups: ¿Qué son y cómo funcionan?"
 date: 2023-Aug-30
-description: Qué es un Rollup
+description: Todo lo que necesitas saber sobre los rollups en Ethereum, qué son, cómo escalan la red como solución de capa 2 y diferencias entre ZK Rollups y Optimistic Rollups.
 tags:
   - ethereum
 banner_image: 202106/rollup.webp

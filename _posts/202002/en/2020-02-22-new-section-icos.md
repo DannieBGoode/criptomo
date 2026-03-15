@@ -4,7 +4,7 @@ date: 2020-02-22 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: New section listing the ICOs that raised the most capital
+description: Discover our new ICO valuation section listing the initial coin offerings that raised the most capital and their current market value.
 banner_image: 202002/ico.webp
 rating: 4
 totalVotes: 4

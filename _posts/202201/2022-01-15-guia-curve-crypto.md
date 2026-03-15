@@ -3,7 +3,7 @@ title: La Guía Definitiva para usar CURVE
 tags:
 - fi
 layout: post
-description: Cómo optimizar la tarjeta de Crypto.com o Plutus.it con la tarjeta Curve. Apple Pay. Google Pay. Samsung Pay.
+description: "Guía completa sobre la tarjeta Curve: qué es, cómo combinarla con Crypto.com y cómo usarla en Apple Pay, Google Pay y Samsung Pay para maximizar tus recompensas."
 banner_image: 202201/curve-card.webp
 rating: 5
 TotalVotes: 10

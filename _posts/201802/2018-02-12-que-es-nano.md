@@ -4,8 +4,7 @@ date: 2018-02-12 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Nano, anteriormente conocida como Raiblocks, XRB explicada
-  de manera sencilla. Diferencias con Bitcoin y Ethereum. Dónde comprar y guardar.
+description: Descubre qué es Nano (XRB), antes Raiblocks, cómo funciona su tecnología block-lattice para lograr transacciones gratuitas e instantáneas y en qué se diferencia de Bitcoin.
 banner_image: 201802/xrb.jpg
 rating: 5
 totalVotes: 2

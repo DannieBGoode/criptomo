@@ -5,7 +5,7 @@ netlifycms: true
 title: "The End of Veracity: AI's Threat to Truth and the Role of SSI and
   Cryptographic Signatures"
 date: 2023-Apr-26
-description: AI's Threat to Truth and the Role of SSI and Cryptographic Signatures
+description: Discover how deepfakes and AI disinformation threaten truth, and how Self-Sovereign Identity and cryptographic signatures on blockchain can verify authentic content.
 tags:
   - blockchain
   - security

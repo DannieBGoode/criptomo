@@ -4,8 +4,7 @@ date: 2020-11-11 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Es el sistema bancario una estafa piramidal ponzi? Bitcoin vs sistema
-  bancario tradicional.
+description: Aprende por qué el sistema bancario se parece a una estafa ponzi gracias a la reserva fraccionaria y cómo Bitcoin ofrece una alternativa descentralizada y segura.
 banner_image: 202011/banking.webp
 rating: 5
 totalVotes: 16

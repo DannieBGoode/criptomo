@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Algorand (ALGO)
 date: 2023-Jan-14
-description: Guía sobre qué es Algorand para principiantes
+description: Descubre qué es Algorand (ALGO), su algoritmo Pure Proof of Stake creado por Silvio Micali, sus ventajas en escalabilidad, bajas comisiones y casos de uso DeFi.
 tags:
   - altcoins
 banner_image: /images/posts/image_2023-01-14_192102876.webp

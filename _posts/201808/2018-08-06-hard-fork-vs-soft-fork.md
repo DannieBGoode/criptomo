@@ -4,8 +4,7 @@ date: 2018-08-06 00:00:00 Z
 tags:
 - tecnologia
 layout: post
-description: Qué es un Soft Fork? Qué es un Hard Fork? Explicaciones básicas y diferencias
-  entre los dos.
+description: Explicación detallada de qué es un hard fork y un soft fork en criptomonedas, sus diferencias, cuándo ocurren y ejemplos reales como Bitcoin Cash y Segwit.
 banner_image: 201808/fork.jpg
 rating: 5
 totalVotes: 7

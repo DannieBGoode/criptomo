@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Self Sovereign Identity
 date: 2022-Dec-15
-description: What is Self Sovereign Identity (SSI)
+description: Learn what Self-Sovereign Identity (SSI) is, how blockchain enables user-controlled digital identity, and examples like uPort, Sovrin, and ATALA Prism.
 tags:
   - technology
 banner_image: /images/posts/image_2022-12-15_153112423.png

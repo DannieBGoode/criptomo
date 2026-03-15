@@ -4,8 +4,7 @@ date: 2018-03-14 00:00:00 Z
 tags:
 - seguridad
 layout: post
-description: Qué ha obtenido exactamente un hacker cuando roba criptomonedas y maneras
-  de poder evitarlo.
+description: Aprende cómo funcionan los robos de criptomonedas, qué obtiene realmente un hacker al robar claves privadas y cómo proteger tus Bitcoin y Ethereum de forma efectiva.
 banner_image: 201803/hacker.jpg
 lang: es
 ---

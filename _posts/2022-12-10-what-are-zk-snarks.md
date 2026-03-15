@@ -4,8 +4,7 @@ published: true
 netlifycms: true
 title: What are zk-snarks
 date: 2022-12-10T23:23:49.732Z
-description: Zk-SNARKs are used to verify the integrity of information without
-  revealing the information itself.
+description: Learn what zk-SNARKs are, how zero-knowledge proofs work, and why this cryptography technology is used for privacy in Zcash and Ethereum zk-rollups.
 tags:
   - altcoins
   - technology

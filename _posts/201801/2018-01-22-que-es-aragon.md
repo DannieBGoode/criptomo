@@ -4,8 +4,7 @@ date: 2018-01-22 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Explicación de qué es la criptomoneda Aragon, su equipo, ICO, por qué
-  fue creado y un repaso general de su tecnología.
+description: Descubre qué es Aragon, la plataforma descentralizada sobre Ethereum para crear y gestionar DAOs con votaciones, nóminas y contabilidad sin intermediarios.
 banner_image: 201801/aragon.png
 rating: 5
 totalVotes: 1

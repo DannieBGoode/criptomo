@@ -4,8 +4,7 @@ date: 2018-01-03 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Ripple explicada para principiantes. La moneda de los
-  bancos.
+description: Descubre qué es Ripple XRP, la criptomoneda para pagos interbancarios. Aprende cómo funciona, sus diferencias con Bitcoin y por qué genera tanta controversia en el sector.
 banner_image: 201801/ripple-banks.jpg
 rating: 5
 totalVotes: 2

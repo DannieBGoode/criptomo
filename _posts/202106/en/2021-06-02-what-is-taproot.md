@@ -3,7 +3,7 @@ title: What is Taproot
 tags:
 - bitcoin
 layout: post
-description: What is Taproot and how it benefits Bitcoin
+description: Learn what Taproot is and how this Bitcoin soft fork improves privacy, scalability, and security by masking complex transactions alongside Schnorr signatures.
 banner_image: 202106/taproot.webp
 rating: 5
 TotalVotes: 12

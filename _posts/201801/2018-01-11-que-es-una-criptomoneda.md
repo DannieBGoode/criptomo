@@ -2,8 +2,7 @@
 title: Qué es una criptomoneda
 date: 2018-01-11 00:00:00 Z
 layout: post
-description: Qué es una criptomoneda, cómo funciona, por qué es tan especial, a que
-  debe su valor. Explicaciones básicas para principiantes.
+description: Descubre qué es una criptomoneda, cómo funciona el blockchain, qué es la minería y por qué las criptos están revolucionando el sistema financiero a nivel mundial.
 banner_image: 201801/cryptocurrencies.jpg
 lang: es
 ---

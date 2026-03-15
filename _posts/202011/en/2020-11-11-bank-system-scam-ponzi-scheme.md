@@ -4,8 +4,7 @@ date: 2020-11-11 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Is the banking system a pyramid ponzi scam? Bitcoin vs traditional banking
-  system.
+description: Is the banking system a Ponzi scheme? Explore how fractional reserve banking works, why it can harm everyone, and how Bitcoin offers an alternative.
 banner_image: 202011/banking.webp
 rating: 5
 TotalVotes: 16

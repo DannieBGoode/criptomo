@@ -4,7 +4,7 @@ date: 2020-04-27 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: La descentralización en las criptomonedas y Bitcoin explicadas.
+description: Aprende qué es la descentralización en criptomonedas, por qué es fundamental en Bitcoin y cómo afecta al minado, el desarrollo y la resistencia a la censura.
 banner_image: 202004/decentralization.webp
 rating: 5
 totalVotes: 4

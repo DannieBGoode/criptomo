@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Uniswap
 date: 2022-Dec-30
-description: Guide explaining what is Uniswap
+description: Learn what Uniswap is, how its decentralized exchange and liquidity pool model works, and why it became the leading DeFi protocol on the Ethereum blockchain.
 tags:
   - altcoins
   - ethereum

@@ -4,8 +4,7 @@ published: true
 netlifycms: true
 title: Qué es DeFi
 date: 2022-12-10T23:05:38.278Z
-description: DeFi busca desarrollar productos y servicios financieros basados en
-  tecnología blockchain
+description: Descubre qué es DeFi o finanzas descentralizadas, cómo usa la blockchain para eliminar intermediarios y qué servicios como préstamos e inversión ofrece.
 tags:
   - finance
   - blockchain

@@ -4,8 +4,7 @@ date: 2021-02-25 00:00:00 Z
 tags:
 - technology
 layout: post
-description: Explanation of what a hash is, what encryption is and how they are used
-  in cryptocurrency networks.
+description: Learn what a hash is, how hashing differs from encryption, and how Bitcoin and other cryptocurrencies use SHA-256 and asymmetric keys to secure the network.
 banner_image: 202104/hashing.webp
 rating: 5
 TotalVotes: 9

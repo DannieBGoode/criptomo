@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Filecoin and IPFS
 date: 2022-Dec-16
-description: Filecoin and IPFS for beginners
+description: Learn what Filecoin and IPFS are, how decentralized storage and peer-to-peer file sharing work, and why they offer a more resilient alternative to cloud storage.
 tags:
   - altcoins
   - ""

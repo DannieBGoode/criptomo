@@ -4,8 +4,7 @@ date: 2018-03-22 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: La criptomoneda tomará un lugar dominante en finanzas mundiales y se
-  convertirá en la principal moneda mundial para pagos, superando al dólar en importancia.
+description: Jack Dorsey, CEO de Twitter, afirma que Bitcoin será la moneda única de internet en una década. Descubre sus argumentos y el debate sobre el futuro de las criptomonedas.
 banner_image: 201803/dorsey.jpg
 source: https://www.coindesk.com/twitter-ceo-jack-dorsey-bitcoin-will-be-the-worlds-single-currency/
 sourceName: CoinDesk

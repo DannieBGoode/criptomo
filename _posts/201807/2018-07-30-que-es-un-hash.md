@@ -4,8 +4,7 @@ date: 2018-07-30 00:00:00 Z
 tags:
 - tecnologia
 layout: post
-description: Explicación de qué es un hash, que es el cifrado y cómo se utilizan en
-  las redes de criptomonedas.
+description: Aprende qué es un hash, cómo funcionan las funciones de hashing y el cifrado asimétrico, y por qué son fundamentales para la seguridad de Bitcoin y las criptomonedas.
 banner_image: 201807/hashing.png
 rating: 5
 totalVotes: 9

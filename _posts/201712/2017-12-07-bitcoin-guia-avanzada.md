@@ -5,7 +5,7 @@ published: false
 tags:
 - altcoins
 layout: post
-description: Guía para principiantes de cómo comprar criptomonedas
+description: Guía avanzada de Bitcoin para usuarios con experiencia. Explicación técnica del protocolo, la criptografía, los nodos y el funcionamiento interno de la red Bitcoin.
 banner_image: 201712/exchange.jpg
 ---
 

@@ -4,7 +4,7 @@ date: 2018-03-25 08:08:39 Z
 tags:
 - noticias
 layout: post
-description: Binance, el exchange chino mueve sus operaciones a Malta.
+description: Binance traslada sus operaciones a Malta para lanzar un exchange fiat-cripto en Europa. Descubre por qué eligió la isla y cómo afectan las regulaciones de EEUU y China.
 banner_image: 201803/malta.jpg
 source: https://www.newsbtc.com/2018/03/23/binance-reveals-its-planning-on-opening-a-new-office-in-malta/#
 sourceName: News BTC

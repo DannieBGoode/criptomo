@@ -3,7 +3,7 @@ title: What are Rollups
 tags:
 - ethereum
 layout: post
-description: What is a Rollup
+description: Learn what rollups are, how Optimistic and ZK-Rollups scale Ethereum as second-layer solutions, and why they reduce gas costs while keeping the chain secure.
 banner_image: 202106/rollup.webp
 rating: 5
 Total votes: 3

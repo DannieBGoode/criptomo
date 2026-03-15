@@ -4,8 +4,7 @@ date: 2018-03-27 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Diferencias entre utility / access tokens y security / equity tokens.
-  Qué son cada una.
+description: Aprende las diferencias entre utility tokens y security tokens en el mundo de las ICOs, qué implica cada clasificación legalmente y ejemplos reales de cada tipo.
 banner_image: 201803/securities.jpg
 lang: es
 ---

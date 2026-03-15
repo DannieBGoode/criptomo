@@ -5,7 +5,7 @@ tags:
 - bitcoin
 - altcoins
 layout: post
-description: Las mejores tarjetas de crédito, débito y prepago de bitcoins y otras criptomonedas.
+description: Descubre las mejores tarjetas de débito para usar criptomonedas en el día a día. Comparamos Bitwala, TenX, Wirex y Xapo en tasas, comisiones y monedas soportadas.
 banner_image: 201712/debit-cards.jpg
 rating: 5
 totalVotes: 3

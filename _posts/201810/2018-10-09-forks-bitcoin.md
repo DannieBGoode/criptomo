@@ -4,7 +4,7 @@ date: 2018-10-09 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Todos los hard forks del blockchain de Bitcoin (BTC) relevantes listados.
+description: Lista completa de los hard forks de Bitcoin, por qué existen más de 74, cómo los poseedores de BTC reciben monedas nuevas y cómo evitar wallets fraudulentos en airdrops.
 banner_image: 201810/bitcoin-split.jpg
 rating: 5
 totalVotes: 6

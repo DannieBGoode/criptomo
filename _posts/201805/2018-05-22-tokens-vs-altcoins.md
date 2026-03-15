@@ -4,7 +4,7 @@ date: 2018-05-22 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Cuáles son las diferencias entre tokens y altcoins o criptomonedas.
+description: Aprende las diferencias clave entre tokens y altcoins, qué es un blockchain propio, y por qué los tokens ERC-20 no son lo mismo que una criptomoneda independiente.
 banner_image: 201805/tokens.jpg
 rating: 5
 totalVotes: 1

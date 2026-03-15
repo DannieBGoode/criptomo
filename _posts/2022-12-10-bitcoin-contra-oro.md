@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Bitcoin contra Oro
 date: 2022-12-10T17:37:11.164Z
-description: Bitcoin contra Oro - cuál es mejor
+description: Descubre las diferencias entre Bitcoin y oro como reservas de valor, su producción, volatilidad, liquidez y cuál puede ser mejor inversión a largo plazo.
 tags:
   - bitcoin
 banner_image: /images/posts/image_2022-12-10_180746339.png

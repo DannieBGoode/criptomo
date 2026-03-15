@@ -4,7 +4,7 @@ date: 2021-01-11 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: What is a mnemonic phrase or seed and how safe is it
+description: Learn what a mnemonic phrase is, how this 12-24 word seed secures your crypto wallet, and why it is mathematically impossible to guess. Complete guide.
 banner_image: 202101/mnemonic.webp
 rating: 5
 TotalVotes: 10

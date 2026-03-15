@@ -4,8 +4,7 @@ date: 2020-02-21 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Beginner's guide to what Tezos (XTZ) is and how it differs from Cardano
-  (ADA).
+description: Learn what Tezos (XTZ) is, how its liquid Proof of Stake consensus works, and how it compares to Cardano. A beginner's guide to the self-governing blockchain.
 banner_image: 202002/tezos.jpg
 rating: 5
 totalVotes: 16

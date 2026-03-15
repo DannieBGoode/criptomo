@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Criptomonedas respaldadas por oro
 date: 2022-Dec-15
-description: Criptomonedas respaldadas por oro
+description: Descubre qué son las criptomonedas respaldadas por oro, cómo funcionan, sus ventajas frente al oro físico y los riesgos de este tipo de activo digital.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-15_111356053.png

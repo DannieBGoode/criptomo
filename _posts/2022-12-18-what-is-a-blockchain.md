@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is a Blockchain
 date: 2022-Dec-18
-description: Guía básica de que es blockchain
+description: Learn what a blockchain is, how decentralized ledger technology works, and its real-world use cases in finance, supply chain, voting, and healthcare.
 tags:
   - blockchain
 banner_image: /images/posts/image_2022-12-18_210353405.png

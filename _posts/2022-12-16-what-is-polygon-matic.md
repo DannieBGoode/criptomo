@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Polygon (MATIC)
 date: 2022-Dec-16
-description: Guide of What Polygon (Matic) is.
+description: Learn what Polygon (MATIC) is, how its sidechain approach reduces Ethereum gas fees and increases transaction speed, and why developers choose it for dApps.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_100609736.png

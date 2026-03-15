@@ -5,7 +5,7 @@ published: false
 tags:
 - altcoins
 layout: post
-description: Guía para principiantes de cómo comprar criptomonedas
+description: Aprende cómo funciona Bitcoin en profundidad. El sistema P2P, la escalabilidad, SegWit y Lightning Network explicados para usuarios con conocimientos intermedios.
 banner_image: 201712/exchange.jpg
 lang: es
 ---

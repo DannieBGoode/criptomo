@@ -4,8 +4,7 @@ date: 2018-08-22 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: La inflación en Venezuela y cómo se quiere vincular el precio del bolívar
-  a la criptomoneda Petro.
+description: Venezuela devalúa el bolívar un 95% y lanza el Petro, su criptomoneda estatal vinculada al petróleo. Análisis del impacto de la hiperinflación y la nueva política monetaria.
 banner_image: 201808/venezuela.jpg
 source: https://www.bloomberg.com/news/articles/2018-08-19/venezuela-s-95-devaluation-adds-to-turmoil-after-drone-attack
 sourceName: Bloomberg

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Binance Coin (BNB)
 date: 2022-Dec-18
-description: Guía sobre Binance coin (BNB) para principiantes
+description: Descubre qué es Binance Coin (BNB), el token nativo del exchange Binance, sus usos para pagar comisiones con descuento, IEOs y su papel en el ecosistema DeFi.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-18_204018288.png

@@ -3,7 +3,7 @@ title: 💰 How much money does a person need to retire
 tags:
 - fi
 layout: post
-description: ¿💰 Calculate how soon can I retire
+description: Learn how much money you need to retire using the 4% rule. Multiply annual expenses by 25 to find your financial independence number and retire on schedule.
 banner_image: 202109/retirement.webp
 rating: 5
 TotalVotes: 10

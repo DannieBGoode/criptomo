@@ -3,7 +3,7 @@ title: Qué es la Fungibilidad
 date: 2018-09-25 00:00:00 Z
 tags:
 - tecnologia
-description: Qué es la fungibilidad y las monedas de privacidad.
+description: Aprende qué es la fungibilidad, por qué Bitcoin no es completamente fungible debido al blockchain público y cómo Monero y otras monedas de privacidad intentan resolverlo.
 layout: post
 banner_image: 201809/monero.jpg
 rating: 5

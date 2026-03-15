@@ -4,8 +4,7 @@ date: 2018-02-01 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Qué es una ICO, como invertir en ellas, ICOs mas rentables con mayores
-  beneficios hasta el momento y por qué son tan efectivas recaudando dinero.
+description: Descubre qué es una ICO, cómo funciona este mecanismo de financiación con criptomonedas, los riesgos de invertir y los casos más rentables de la historia.
 banner_image: 201802/ico.jpg
 rating: 5
 totalVotes: 1

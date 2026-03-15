@@ -4,8 +4,7 @@ date: 2017-12-13 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Guía de cómo comprar criptomonedas altcoins con Bitcoin con imágenes
-  y explicado paso a paso.
+description: Aprende cómo comprar altcoins en Binance con Bitcoin paso a paso. Cómo depositar, encontrar el par de trading correcto y retirar tus criptomonedas de forma segura.
 banner_image: 201712/coins.jpg
 rating: 5
 totalVotes: 3

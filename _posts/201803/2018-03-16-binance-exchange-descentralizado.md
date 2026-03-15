@@ -4,8 +4,7 @@ date: 2018-03-16 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: Binance anuncia que lanzará un exchange descentralizado y un blockchain
-  público.
+description: Binance anuncia el lanzamiento de su propio blockchain y un exchange descentralizado. Qué implica este movimiento para el ecosistema cripto y el precio de BNB.
 banner_image: 201803/chain.jpg
 source: https://www.ccn.com/crypto-trading-giant-binance-to-launch-decentralized-exchange-and-public-blockchain/
 sourceName: CoinTelegraph

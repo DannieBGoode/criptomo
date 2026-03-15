@@ -3,7 +3,7 @@ title: What are Schnorr signatures
 tags:
 - bitcoin
 layout: post
-description: Benefits of schnorr signatures vs ECDSA signatures
+description: Learn what Schnorr signatures are, how they improve on ECDSA in Bitcoin, and why aggregating multisig keys boosts privacy, scalability, and lower fees.
 banner_image: 202106/schnorr.webp
 rating: 5
 TotalVotes: 16

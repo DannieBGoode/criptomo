@@ -4,8 +4,7 @@ date: 2018-03-24 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: Diferencias entre utility tokens, security tokens y equity tokens. Qué
-  son cada una.
+description: Roger Ver anuncia que el wallet de Bitcoin.com dejará de soportar BTC para promover exclusivamente Bitcoin Cash. Las implicaciones de esta decisión en la comunidad cripto.
 banner_image: 201803/roger-ver.png
 lang: es
 ---

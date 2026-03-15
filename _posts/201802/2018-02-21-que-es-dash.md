@@ -4,8 +4,7 @@ date: 2018-02-21 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda DASH, anteriormente conocida como Darkcoin, explicada
-  de manera sencilla. Dónde comprar y guardar. Comparación con Bitcoin
+description: Descubre qué es DASH, la criptomoneda con transacciones privadas e instantáneas. Cómo funciona su gobernanza descentralizada y en qué se diferencia de Bitcoin.
 banner_image: 201802/dash.png
 rating: 4.75
 totalVotes: 3

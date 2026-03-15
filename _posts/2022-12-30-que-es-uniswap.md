@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Uniswap
 date: 2022-Dec-30
-description: Explicación de qué es UNISWAP
+description: Descubre qué es Uniswap, el protocolo DeFi descentralizado en Ethereum que permite intercambiar criptomonedas mediante pools de liquidez sin intermediarios ni KYC.
 tags:
   - altcoins
   - ethereum

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Blockchain
 date: 2022-Dec-18
-description: Guía sobre que es blockchain
+description: Aprende qué es blockchain, cómo funciona esta tecnología de registro distribuido e inmutable y cuáles son sus principales usos en finanzas, salud y más sectores.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-18_210353405.png

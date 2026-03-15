@@ -4,7 +4,7 @@ date: 2020-06-06 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Qué ocurre si en Bitcoin si se minan dos bloques simultáneos
+description: Explicación detallada de qué ocurre en Bitcoin cuando dos mineros encuentran un bloque simultáneamente y cómo la red resuelve automáticamente el conflicto.
 banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11

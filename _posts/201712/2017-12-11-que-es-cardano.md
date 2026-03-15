@@ -4,8 +4,7 @@ date: 2017-12-11 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Cardano ADA podría ser el nuevo rival de la criptodivisa
-  Ethereum y durante los últimos meses se ha revalorizado un 400%.
+description: Descubre qué es Cardano ADA, la criptomoneda de tercera generación creada por científicos para superar los problemas de escalabilidad de Bitcoin y Ethereum.
 banner_image: 201712/cardano.jpg
 rating: 4.75
 totalVotes: 3

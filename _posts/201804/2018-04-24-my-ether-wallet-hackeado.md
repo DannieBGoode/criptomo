@@ -4,7 +4,7 @@ date: 2018-04-24 08:08:39 Z
 tags:
 - noticias
 layout: post
-description: El wallet de Ethereum My Ether Wallet hackeado durante 2018. Detalles.
+description: MyEtherWallet fue hackeado mediante un ataque DNS que robó medio millón en Ethereum en minutos. Descubre cómo funcionó el ataque y cómo proteger tu wallet de Ethereum.
 banner_image: 201804/mew.jpg
 lang: es
 ---

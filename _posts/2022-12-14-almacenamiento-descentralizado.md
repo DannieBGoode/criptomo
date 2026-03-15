@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Qué es el almacenamiento descentralizado
 date: 2022-Dec-13
-description: Qué es el amacenamiento descentralizado, ventajas, desventajas y ejemplos
+description: Descubre qué es el almacenamiento descentralizado, sus ventajas frente al centralizado, desventajas y ejemplos como Filecoin e IPFS para proteger tus datos.
 tags:
   - altcoins
   - tecnologia

@@ -4,7 +4,7 @@ date: 2021-02-24 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: The Simpsons value Bitcoin with a value of infinity
+description: In season 32 episode 18, The Simpsons displayed Bitcoin with an infinite value on their ticker. Discover what this pop-culture moment means for crypto adoption.
 banner_image: 202104/simpsons.webp
 rating: '5'
 TotalVotes: '2'

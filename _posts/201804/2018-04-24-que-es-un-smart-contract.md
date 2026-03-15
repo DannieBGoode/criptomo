@@ -4,8 +4,7 @@ date: 2018-04-24 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Qué es un smart contract, también llamado contrato inteligente. El problema
-  de los oráculos.
+description: Descubre qué es un smart contract o contrato inteligente, cómo funciona en el blockchain, para qué sirve y qué plataformas como Ethereum o EOS los hacen posibles.
 banner_image: 201804/agreement.jpg
 rating: 5
 totalVotes: 1

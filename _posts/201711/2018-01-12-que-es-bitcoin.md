@@ -4,8 +4,7 @@ date: 2018-01-12 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Qué es Bitcoin, cómo funciona, quien la creo, es o no una burbuja. Explicaciones
-  para principiantes. Guía básica.
+description: Descubre qué es Bitcoin, cómo funciona y quién lo creó. Aprende sobre minería, transacciones en blockchain y por qué es la criptomoneda más importante global.
 banner_image: 201711/bitcoin.png
 rating: 4.75
 totalVotes: 3

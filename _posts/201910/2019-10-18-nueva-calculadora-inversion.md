@@ -4,7 +4,7 @@ date: 2019-10-18 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: Guía para principiantes de cómo comprar Bitcoin en 2019. Actualizado.
+description: Descubre la nueva calculadora de inversión en Bitcoin de Criptomo para simular el rendimiento de tu cartera con aportaciones constantes a lo largo del tiempo.
 banner_image: 201910/investment-blog.png
 rating: 5
 totalVotes: 6

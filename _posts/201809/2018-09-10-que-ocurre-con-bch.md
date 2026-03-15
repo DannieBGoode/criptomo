@@ -4,7 +4,7 @@ date: 2018-09-10 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: Bitcoin Cash sufre un split hard fork y se divide en dos criptomonedas distintas.
+description: Análisis de la crisis de Bitcoin Cash, las razones detrás del hard fork de noviembre de 2018 y cómo Roger Ver, Craig Wright y Jihan Wu llevaron a BCH a dividirse.
 banner_image: 201809/bch.jpg
 rating: 5
 totalVotes: 5

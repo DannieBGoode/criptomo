@@ -3,7 +3,7 @@ title: 💰 Cuánto dinero necesita una persona para retirarse
 tags:
 - fi
 layout: post
-description: ¿ 💰 Cuánto dinero necesito para retirarme y no trabajar nunca más?
+description: Descubre cuánto dinero necesitas para retirarte usando la regla del 4% y el estudio Trinity. Calcula tu número FIRE y alcanza la independencia financiera anticipada.
 banner_image: 202109/retirement.webp
 rating: 5
 TotalVotes: 10

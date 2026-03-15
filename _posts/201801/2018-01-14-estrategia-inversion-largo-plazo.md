@@ -4,7 +4,7 @@ date: 2018-01-14 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Como ganar dinero con criptomonedas invirtiendo a largo plazo
+description: Aprende cómo funciona la inversión a largo plazo en criptomonedas. Experimento real con 10.000$ en las 10 monedas top de 2017 y un retorno de más del 4200%.
 banner_image: 201801/investments.png
 lang: es
 ---

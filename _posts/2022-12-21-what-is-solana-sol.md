@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Solana (SOL)
 date: 2022-Dec-21
-description: What is Solana (SOL) guide for beginners
+description: Learn what Solana (SOL) is, how its Proof-of-History consensus achieves thousands of transactions per second, and why it is a top platform for DeFi and dApps.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-21_200639063.png

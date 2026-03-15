@@ -4,8 +4,7 @@ date: 2017-12-19 00:00:00 Z
 tags:
 - seguridad
 layout: post
-description: Cómo obtener claves públicas y privadas a partir de un seed para recuperar
-  criptomonedas. Diferencia entre sweep y import.
+description: Aprende a obtener tu clave privada a partir de un seed con BIP39 y entiende la diferencia entre import y sweep para recuperar tus criptomonedas de forma segura.
 banner_image: 201712/key-restore.jpg
 lang: es
 ---

@@ -3,7 +3,7 @@ title: La Guía Definitiva de Tarjetas de Plutus (hasta 8% de cashback)
 tags:
 - altcoins
 layout: post
-description: Tarjetas de Crypto Plutus.it, hasta un 8% de cashback.
+description: "Guía completa de la tarjeta Plutus: hasta un 8% de cashback en compras con criptomonedas ETH y PLU. Planes, perks y cómo sacarle el máximo partido."
 banner_image: 202206/plutus.webp
 rating: 5
 TotalVotes: 4

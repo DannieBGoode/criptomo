@@ -5,7 +5,7 @@ tags:
 - ethereum
 - altcoins
 layout: post
-description: What is an NFT - ERC721 (Non Fungible Token), a non-fungible token.
+description: Learn what NFTs are, how ERC721 non-fungible tokens work on Ethereum, and explore real examples like CryptoKitties, Decentraland, and digital art markets.
 banner_image: 202102/erc721.webp
 rating: '5'
 TotalVotes: '17'

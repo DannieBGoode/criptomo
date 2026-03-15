@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Identidad Soberana Propia (SSI)
 date: 2022-Dec-16
-description: Qué es el Self Sovereign Identity (SSI) casos de uso y ejemplos
+description: Aprende qué es la identidad soberana propia o SSI, cómo devuelve el control de los datos personales al usuario y elimina la dependencia de terceros para verificarte.
 tags:
   - altcoins
   - technología

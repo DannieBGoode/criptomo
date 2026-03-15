@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Sharding
 date: 2022-Dec-15
-description: What is Sharding in Ethereum
+description: Learn what sharding is, how it boosts blockchain scalability by splitting networks into parallel shards, and how Ethereum 2.0 uses it to handle more transactions.
 tags:
   - ethereum
   - blockchain

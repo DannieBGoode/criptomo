@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Avalanche (AVAX)
 date: 2022-Dec-28
-description: Guía para principiantes sobre Avalanche AVAX
+description: Descubre qué es Avalanche (AVAX), cómo su consenso Snowflake permite miles de transacciones por segundo y sus ventajas en seguridad y gobernanza descentralizada.
 tags:
   - altcoins
   - ""

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Que es Metamask
 date: 2022-Dec-30
-description: Guía de como usar Metamask
+description: Aprende qué es MetaMask, cómo instalar esta cartera Ethereum en tu navegador y cómo usarla para gestionar criptomonedas y acceder a aplicaciones DeFi y Web3.
 tags:
   - altcoins
   - trading

@@ -4,7 +4,7 @@ date: 2021-02-08 00:00:00 Z
 tags:
 - fi
 layout: post
-description: Ideas para negocios que generen ingresos pasivos en 2021
+description: Descubre 15 ideas de negocios para generar ingresos pasivos en 2021, desde crowdfunding inmobiliario e inversión en bolsa hasta criptomonedas y contenido digital.
 banner_image: 202102/income.webp
 rating: 5
 totalVotes: 11

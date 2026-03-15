@@ -4,8 +4,7 @@ date: 2018-07-27 00:00:00 Z
 tags:
 - tecnologia
 layout: post
-description: Explicación del problema de los generales bizantinos y cómo se resuelve
-  en Bitcoin mediante el algoritmo Proof of Work.
+description: Descubre qué es el problema de los generales bizantinos, por qué es fundamental en redes distribuidas y cómo Bitcoin lo resuelve mediante el algoritmo Proof of Work.
 banner_image: 201807/byzantine.jpg
 rating: 5
 totalVotes: 11

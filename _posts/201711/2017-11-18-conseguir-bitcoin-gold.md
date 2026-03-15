@@ -4,8 +4,7 @@ date: 2017-11-18 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Explicación básica de qué es Bitcoin Gold y qué hacer y que no hacer
-  para obtenerlo.
+description: Aprende qué es Bitcoin Gold, cómo se originó su hard fork y los pasos exactos para obtener y vender tus BTG de forma segura sin exponer tus claves privadas.
 banner_image: 201711/bitcoin-gold-logo.jpg
 redirect_from:
 - "/sacar-bitcoin-gold"

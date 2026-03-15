@@ -4,8 +4,7 @@ date: 2017-12-18 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda IOTA explicada, en qué consiste, dónde comprarla y cómo
-  almancerla de manera segura.
+description: Descubre qué es IOTA y el Tangle, alternativa al blockchain con cero tasas para micropagos en el Internet de las Cosas. Dónde comprarla y cómo almacenarla seguro.
 banner_image: 201712/iota.jpg
 rating: 5
 totalVotes: 1

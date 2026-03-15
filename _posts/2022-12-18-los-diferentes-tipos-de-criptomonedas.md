@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Los diferentes tipos de criptomonedas
 date: 2022-Dec-18
-description: Los diferentes tipos de criptomonedas que hay y sus diferencias.
+description: Aprende cuáles son los diferentes tipos de criptomonedas, stablecoins, altcoins, privacy coins y tokens de utilidad. Guía completa para entender el mercado.
 tags:
   - altcoins
   - ""

@@ -4,8 +4,7 @@ date: 2018-03-25 00:00:00 Z
 tags:
 - noticias
 layout: post
-description: Santander ha anunciado que empezará a ofrecer transferencias basadas
-  en tecnología blockchain a través de Ripple.
+description: Santander lanzará transferencias internacionales en 24 horas usando tecnología blockchain de Ripple. Aprende cómo esto reduce costes y mejora los pagos sin fronteras.
 banner_image: 201803/santander.jpg
 source: http://www.businessinsider.com/santander-ripple-money-transfer-app-2018-3
 sourceName: Business Insider

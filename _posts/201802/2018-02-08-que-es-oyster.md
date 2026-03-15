@@ -4,8 +4,7 @@ date: 2018-02-08 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Qué es Oyster Protocol y su token PRL, cómo utiliza el Tangle de IOTA.
-  Comparativa con Storj, Filecoin y Siacoin. Predicciones de precio.
+description: Descubre qué es Oyster Protocol y su token PRL, cómo ofrece almacenamiento anónimo en el Tangle de IOTA y sustituye la publicidad web. Comparativa con Storj y Siacoin.
 banner_image: 201802/oyster.jpg
 rating: 5
 totalVotes: 1

@@ -3,7 +3,7 @@ title: What are Stablecoins
 tags:
 - altcoins
 layout: post
-description: Guide about what a stablecoin is and types of stablecoins
+description: "Learn what stablecoins are, how they maintain their peg, and explore the four types: fiat-backed, dual-currency, algorithmic, and leveraged loan stablecoins."
 banner_image: 202203/stablecoins.webp
 rating: 5
 TotalVotes: 10

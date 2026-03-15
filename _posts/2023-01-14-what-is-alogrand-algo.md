@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Alogrand (ALGO)
 date: 2023-Jan-14
-description: Guide for beginners about Algorand crypto
+description: Learn what Algorand (ALGO) is, how Pure Proof of Stake and threshold signatures enable fast and secure transactions, and why it is built for scalable dApps.
 tags:
   - altcoins
 banner_image: /images/posts/image_2023-01-14_192102876.webp

@@ -4,7 +4,7 @@ date: 2018-06-07 00:00:00 Z
 tags:
 - tecnologia
 layout: post
-description: El compromiso entre descentralización, seguridad y escalabilidad.
+description: Explicación detallada del trilema de escalabilidad de Vitalik Buterin, el conflicto entre descentralización, seguridad y escalabilidad en Bitcoin y Ethereum.
 banner_image: 201806/buildings.jpg
 rating: 5
 totalVotes: 4

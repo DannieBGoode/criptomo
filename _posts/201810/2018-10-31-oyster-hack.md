@@ -4,8 +4,7 @@ date: 2018-10-31 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: El smart contract de Oyster Protocol vulnerado, nuevos tokens creados
-  y guerra civil interna.
+description: El fundador anónimo de Oyster Protocol explotó su propio smart contract para crear 3 millones de tokens y venderlos en KuCoin, obteniendo 300.000 dólares en horas.
 banner_image: 201810/oyster.jpg
 rating: 5
 totalVotes: 1

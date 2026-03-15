@@ -4,8 +4,7 @@ date: 2017-11-28 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Las mejores criptomonedas altcoins, más prometedoras y que más podrían
-  subir en 2018.
+description: Descubre las altcoins más prometedoras de 2018. Analizamos Ethereum, Cardano, IOTA, Monero, Ripple y más para que sepas en cuáles vale la pena invertir este año.
 banner_image: 201711/altcoins.jpg
 rating: 5
 totalVotes: 3

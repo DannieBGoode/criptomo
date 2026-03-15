@@ -4,8 +4,7 @@ date: 2018-03-19 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Zcash ZEC explicada de manera sencilla. Dónde comprar
-  y guardar. Comparación con ZClassic, zenCash y Bitcoin Private.
+description: Descubre qué es Zcash (ZEC), la criptomoneda que ofrece transacciones privadas mediante zero-knowledge proofs. Cómo funciona y diferencias con Bitcoin y Monero.
 banner_image: 201803/zcash.png
 rating: 5
 totalVotes: 3

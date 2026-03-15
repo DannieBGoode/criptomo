@@ -4,7 +4,7 @@ date: 2017-12-03 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: Guía para principiantes de cómo comprar criptomonedas, Bitcon (BTC) y otras.
+description: Guía paso a paso para comprar Bitcoin y otras criptomonedas. Aprende a elegir un exchange, verificar tu identidad y proteger tus fondos en un wallet seguro.
 banner_image: 201712/exchange.jpg
 rating: 5
 totalVotes: 6

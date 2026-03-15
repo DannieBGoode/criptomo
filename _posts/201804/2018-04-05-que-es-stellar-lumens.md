@@ -4,8 +4,7 @@ date: 2018-04-05 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Stellar Lumens (XLM) explicada de manera sencilla. Dónde
-  comprar y guardar.
+description: Descubre qué es Stellar Lumens (XLM), cómo facilita transferencias inter-divisas con comisiones mínimas y por qué busca democratizar el acceso a servicios financieros globales.
 banner_image: 201804/stellar.png
 rating: 5
 totalVotes: 2

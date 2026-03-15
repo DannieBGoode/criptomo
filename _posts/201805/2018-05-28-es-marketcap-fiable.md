@@ -4,8 +4,7 @@ date: 2018-05-28 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Análisis sobre si es el marketcap fiable para valorar una criptomoneda
-  o si es suficiente con valorar el volumen de intercambio.
+description: Aprende por qué el marketcap puede ser engañoso para valorar criptomonedas, cómo se calcula y qué otros indicadores debes considerar antes de invertir.
 banner_image: 201805/marketcap.jpg
 rating: 5
 totalVotes: 1

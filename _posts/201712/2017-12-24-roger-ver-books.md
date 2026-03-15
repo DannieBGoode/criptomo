@@ -5,7 +5,7 @@ published: false
 tags:
 - altcoins
 layout: post
-description: "..."
+description: Descubre la lista de libros de economía recomendados por Roger Ver, conocido como Bitcoin Jesus y uno de los inversores más influyentes del mundo de las criptomonedas.
 banner_image: 201804/nem.png
 rating: 5
 totalVotes: 1

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: The different types of cryptocurrencies
 date: 2022-Dec-18
-description: What types of cryptocurrencies are there
+description: "Discover the different types of cryptocurrencies: Bitcoin, altcoins, stablecoins, privacy coins, utility tokens, and commodity-backed crypto explained clearly."
 tags:
   - altcoins
 banner_image: https://criptomo.com/images/posts/201711/criptomonedas.jpg

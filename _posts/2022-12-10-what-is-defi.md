@@ -4,8 +4,7 @@ published: true
 netlifycms: true
 title: What is DeFi
 date: 2022-12-10T23:13:42.472Z
-description: DeFi aims to develop financial products and services based on
-  blockchain technology.
+description: Learn what DeFi (decentralized finance) is, how it works, its main applications like lending and DEXs, and the risks involved. A complete beginner's guide.
 tags:
   - finance
   - blockchain

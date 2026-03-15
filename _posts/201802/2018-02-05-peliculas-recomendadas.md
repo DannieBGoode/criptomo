@@ -4,8 +4,7 @@ date: 2018-02-05 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Películas y documentales recomendados de criptomonedas, Bitcoin, economía,
-  stock brokers, inversión, corrupción y finanzas.
+description: Guía completa de películas y documentales recomendados sobre Bitcoin, criptomonedas, economía e inversión para entender el sistema financiero antes de invertir.
 banner_image: 201802/rise-bitcoin.jpg
 lang: es
 ---

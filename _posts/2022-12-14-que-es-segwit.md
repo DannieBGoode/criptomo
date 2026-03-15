@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: Qué es Segwit
 date: 2022-Dec-14
-description: Explicación de qué es Segwit y casos de uso
+description: Aprende qué es SegWit en Bitcoin, cómo resolvió la congestión de la red al aumentar la capacidad de bloque y qué mejoras de seguridad y escalabilidad aportó.
 tags:
   - bitcoin
   - blockchain

@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is ChainLink
 date: 2022-Dec-22
-description: What is ChainLink, guide for beginners
+description: Learn what Chainlink is, how its decentralized oracle network connects smart contracts to real-world data, and why it is essential for DeFi applications.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-22_095836174.png

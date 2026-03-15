@@ -4,7 +4,7 @@ published: true
 netlifycms: true
 title: What is Avalanche (AVAX)
 date: 2022-Dec-28
-description: Guide about Avalanche AVAX for beginners
+description: Learn what Avalanche (AVAX) is, how its Snowflake consensus enables thousands of transactions per second, and why its versatile platform attracts DeFi projects.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-28_111843814.png

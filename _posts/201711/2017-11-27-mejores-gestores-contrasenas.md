@@ -4,8 +4,7 @@ date: 2017-11-27 00:00:00 Z
 tags:
 - seguridad
 layout: post
-description: Qué es una buena contraseña, como guardarlas en la mundo de internet
-  con los mejores gestores de contraseñas.
+description: Descubre qué es una contraseña segura y cuáles son los mejores gestores de contraseñas. Comparamos LastPass, 1Password, KeePass y Dashlane para proteger tus cuentas.
 banner_image: 201711/lastpass.jpg
 rating: 4
 totalVotes: 5

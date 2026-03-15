@@ -4,8 +4,7 @@ date: 2017-12-23 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La criptomoneda Bitcoin Cash explicada, qué es, que diferencias tiene
-  con Bitcoin y dónde comprarla
+description: Descubre qué es Bitcoin Cash, por qué surgió del hard fork de Bitcoin y cuáles son las diferencias en tamaño de bloque, tasas y velocidad de transacción.
 banner_image: 201712/bitcoin-cash.jpg
 lang: es
 ---

@@ -4,8 +4,7 @@ date: 2018-08-14 00:00:00 Z
 tags:
 - trading
 layout: post
-description: Qué significa holdear o HODL y por qué es tan complicado, especialmente
-  en bear markets?
+description: Descubre qué significa HODL, por qué es tan difícil aguantar en bear markets y cuáles son los factores psicológicos y económicos que dificultan mantener criptomonedas.
 banner_image: 201808/hodl.jpg
 rating: 5
 totalVotes: 1

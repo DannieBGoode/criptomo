@@ -4,7 +4,7 @@ date: 2020-06-06 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: What happens if in Bitcoin two blocks are mined simultaneously
+description: Discover what happens when two Bitcoin miners solve a block simultaneously, how orphan blocks are created, and why the longest chain always wins.
 banner_image: 202006/btc-coin.webp
 rating: 4.5
 totalVotes: 11

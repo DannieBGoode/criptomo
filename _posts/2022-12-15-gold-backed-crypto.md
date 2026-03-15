@@ -4,8 +4,7 @@ published: true
 netlifycms: true
 title: Gold Backed Crypto
 date: 2022-Dec-15
-description: what is gold backed crypto and what differences does it have with
-  conventional cryptocurrencies
+description: Discover what gold-backed cryptocurrencies are, how they work, their benefits over traditional gold investments, and the challenges of regulation and backing.
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-15_111356053.png

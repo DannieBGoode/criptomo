@@ -4,8 +4,7 @@ layout: post
 published: true
 title: Qué es Ethereum
 date: 2017-12-26 00:00:00 Z
-description: La criptomoneda Ethereum explicada, qué es, qué diferencias tiene
-  con Bitcoin y dónde comprarla
+description: Descubre qué es Ethereum, cómo funcionan los smart contracts y las DApps, quién lo creó y por qué es la segunda criptomoneda más importante del mercado cripto.
 tags:
   - altcoins
 banner_image: 201712/ethereum.jpg

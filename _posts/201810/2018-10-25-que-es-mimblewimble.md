@@ -4,7 +4,7 @@ date: 2018-10-25 00:00:00 Z
 tags:
 - bitcoin
 layout: post
-description: El soft fotk de Bitcoin (BTC) Mimble Wimble explicado
+description: Descubre qué es MimbleWimble, el protocolo que mejora la privacidad y escalabilidad de Bitcoin eliminando datos de transacciones sin comprometer la seguridad de la red.
 banner_image: 201810/mimblewimble.jpg
 rating: 5
 totalVotes: 3

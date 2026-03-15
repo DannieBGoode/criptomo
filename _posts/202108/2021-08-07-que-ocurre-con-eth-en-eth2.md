@@ -4,7 +4,7 @@ tags:
 - ethereum
 - altcoins
 layout: post
-description: Ethereum 2.0 llega en 2020. Staking y hard forks.
+description: Descubre qué ocurre con tus ETH al llegar Ethereum 2.0, cómo funciona la migración sin acción del usuario y las opciones de staking disponibles en la nueva red.
 banner_image: 202108/ethereum2.webp
 rating: 5
 TotalVotes: 10

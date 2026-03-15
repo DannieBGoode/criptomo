@@ -4,8 +4,7 @@ date: 2018-06-21 00:00:00 Z
 tags:
 - altcoins
 layout: post
-description: La de la nueva plataforma de smart contracts, alquiler computacional
-  y asambleas de oráculos de IOTA, Qubic.
+description: Descubre qué es Qubic, el protocolo de IOTA para smart contracts, oráculos y alquiler de poder computacional que permite ejecutar cálculos directamente en el Tangle.
 banner_image: 201806/qubic.jpg
 rating: 5
 totalVotes: 4

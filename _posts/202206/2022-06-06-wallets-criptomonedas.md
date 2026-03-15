@@ -4,7 +4,7 @@ tags:
 - altcoins
 - bitcoin
 layout: post
-description: Guía de las mejores wallets de bitcoin y criptomonedas. Qué es un wallet, una cartera de criptomonedas.
+description: Aprende qué es un wallet de criptomonedas, cómo funcionan las claves privadas y cuáles son los mejores tipos de carteras para guardar Bitcoin y altcoins.
 banner_image: 202206/wallet.webp
 rating: 5
 TotalVotes: 4
