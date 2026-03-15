@@ -50,6 +50,8 @@ layout: default
                 <div class="entry-content">
                     {{content}}
 
+                    {% include faq.html %}
+
                     {% if page.source and page.sourceName %}
                     <div class="news-source">
                         Fuente: <a rel="nofollow" href="{{page.source}}">{{ page.sourceName }}</a>
@@ -79,7 +81,7 @@ layout: default
                         {% assign translations = site.data.translations.about %}
 
                         <h2 class="author-title">{{ translations.title[lang] }} {{ writer.author_name }}</h2>
-                        <p class="author-bio">{{ writer.author_bio }}</p>
+                        <p class="author-bio">{{ writer.author_bio[lang] }}</p>
                         <span class="author-location"><i class="icon-location" aria-hidden="true"></i> {{ writer.author_location }}</span>
                         {% if writer.author_url %}
                         <span class="author-website">

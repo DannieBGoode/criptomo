@@ -11,6 +11,17 @@ rating: 5
 TotalVotes: 11
 lang: en
 ref: new-eth2
+faq:
+  - question: "What is Ethereum 2.0?"
+    answer: "Ethereum 2.0 is a complete redesign of the original Ethereum network, built from scratch by the same creators to replace Ethereum 1.0 with a more efficient and scalable system."
+  - question: "What consensus algorithm does Ethereum 2.0 use?"
+    answer: "Ethereum 2.0 switches from Proof of Work to Proof of Stake, which significantly reduces the energy required to secure the network."
+  - question: "What is sharding in Ethereum 2.0?"
+    answer: "Sharding allows Ethereum 2.0 to run up to 64 parallel chains simultaneously instead of a single blockchain, all converging on a central Beacon chain, greatly improving network scalability."
+  - question: "How much ETH do I need to become an Ethereum 2.0 validator?"
+    answer: "A minimum of 32 ETH is required to become a validator. Validators earn rewards of 2–18% per year on their stake but can be penalized or expelled if they validate incorrectly or go offline."
+  - question: "Do I need to do anything to migrate my ETH to Ethereum 2.0?"
+    answer: "No action is required. In phase 2 of the rollout, all Ether balances from ETH 1.0 will be automatically migrated to ETH 2.0 by copying their state."
 ---
 
 Ethereum 2.0 is a complete revision of the current Ethereum (1.0) created by the same creators with the intention of replacing Ethereum 1.0 entirely.

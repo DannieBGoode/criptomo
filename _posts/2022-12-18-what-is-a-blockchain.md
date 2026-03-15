@@ -13,6 +13,17 @@ TotalVotes: 3
 popular: false
 ref: blockchain
 lang: en
+faq:
+  - question: "What is a blockchain?"
+    answer: "A blockchain is a decentralized, distributed digital ledger made up of a chain of blocks, each containing a list of transactions. It is maintained by a network of computers (nodes) rather than a single central authority."
+  - question: "Why is blockchain data difficult to tamper with?"
+    answer: "Each block is cryptographically linked to the one before it, so altering any block would invalidate all subsequent blocks. This immutability makes blockchain highly secure for storing sensitive records."
+  - question: "What are the main use cases for blockchain technology?"
+    answer: "Blockchain is used in finance (smart contracts, payments), supply chain management, voting systems, healthcare records, real estate title tracking, and digital rights management in the music industry, among other fields."
+  - question: "How does blockchain eliminate the need for intermediaries?"
+    answer: "Because transactions are validated by a distributed network of nodes and recorded transparently, parties can transact directly (peer-to-peer) without relying on banks, lawyers, or other intermediaries."
+  - question: "When was blockchain technology invented?"
+    answer: "Blockchain was introduced in 2008 as the underlying technology for Bitcoin. Since then it has expanded far beyond digital currencies into many industries that benefit from transparent and tamper-proof record-keeping."
 ---
 Blockchain is a decentralized, distributed ledger technology that allows for secure, transparent and immutable record-keeping. It was first introduced in 2008 as the underlying technology for the cryptocurrency, Bitcoin, but has since been applied to a wide range of use cases [beyond just digital cu﻿rrencies](https://criptomo.com/the-different-types-of-cryptocurrencies/).
 

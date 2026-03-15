@@ -14,6 +14,17 @@ TotalVotes: 13
 popular: false
 ref: segwit
 lang: en
+faq:
+  - question: "What is SegWit in Bitcoin?"
+    answer: "SegWit (Segregated Witness) is a Bitcoin protocol upgrade proposed in 2015 and activated in August 2017. It separates transaction signatures from transaction data to fix transaction malleability and increase effective block capacity."
+  - question: "What problem does SegWit solve?"
+    answer: "SegWit fixes two main issues: transaction malleability (where a third party could alter a transaction ID before confirmation) and the 1 MB block size limit, which caused congestion and high fees."
+  - question: "How does SegWit reduce Bitcoin transaction fees?"
+    answer: "By separating the witness data from transactions, SegWit allows more transactions to fit in each block. This reduces competition for block space, which in turn lowers transaction fees for users."
+  - question: "What is the Lightning Network and how does SegWit enable it?"
+    answer: "The Lightning Network is a second-layer payment solution that enables fast, cheap Bitcoin transactions off-chain. SegWit's fix for transaction malleability was a prerequisite for the Lightning Network to function correctly."
+  - question: "When was SegWit activated on Bitcoin?"
+    answer: "SegWit was activated on the Bitcoin network in August 2017 and has since been adopted by a significant number of users and businesses."
 ---
 Segregated Witness (segwit) is a protocol upgrade that was first proposed in 2015 by Bitcoin Core developer Pieter Wuille. It was designed to address a number of issues with the Bitcoin blockchain, including transaction malleability and block size limitations.
 

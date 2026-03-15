@@ -14,6 +14,17 @@ TotalVotes: 5
 popular: false
 ref: metamask
 lang: en
+faq:
+  - question: "What is MetaMask?"
+    answer: "MetaMask is a popular browser extension and mobile app developed by ConsenSys that allows users to interact with the Ethereum blockchain and decentralized applications (DApps) directly from their browser."
+  - question: "Is MetaMask safe to use?"
+    answer: "MetaMask gives users full control of their private keys rather than holding them on a centralized server, which reduces custody risk. However, users must keep their seed phrase safe, as it is the only way to recover an account."
+  - question: "What browsers does MetaMask support?"
+    answer: "MetaMask is available as a browser extension for Chrome, Firefox, and Brave. It is also available as a mobile app on Android and iOS."
+  - question: "What is a MetaMask seed phrase?"
+    answer: "A seed phrase is a set of 12–24 words generated when you create a MetaMask account. It serves as a backup and is the only way to recover your account if you lose access to it."
+  - question: "What tokens does MetaMask support?"
+    answer: "MetaMask supports Ethereum and a wide range of Ethereum-based tokens, including ERC-20 fungible tokens and ERC-721 NFTs, allowing users to manage many different cryptocurrencies in one place."
 ---
 [MetaMask](https://metamask.io/) is a popular browser extension that allows users to interact with the Ethereum blockchain and decentralized applications (DApps) from their web browser. Developed by ConsenSys, MetaMask was first released in 2016 and has since become one of the most widely used Ethereum wallets in the world.
 

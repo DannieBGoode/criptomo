@@ -14,6 +14,17 @@ TotalVotes: 11
 popular: false
 ref: lightning-network
 lang: en
+faq:
+  - question: "What is the Lightning Network?"
+    answer: "The Lightning Network is a second layer built on top of Bitcoin that enables fast and low-cost transactions by using off-chain payment channels, without needing confirmation from the main Bitcoin network for each transaction."
+  - question: "How do Lightning Network payment channels work?"
+    answer: "Two users deposit Bitcoin into a shared multisig address to open a channel, then transact instantly between themselves off-chain. When they close the channel, only the final balance is broadcast to the Bitcoin blockchain."
+  - question: "Does the Lightning Network improve Bitcoin scalability?"
+    answer: "Yes. By routing many transactions off-chain through payment channels, the Lightning Network allows Bitcoin to process a much larger number of transactions simultaneously, significantly reducing congestion on the main network."
+  - question: "Is the Lightning Network secure?"
+    answer: "The Lightning Network uses multisig addresses to secure funds within payment channels, making transactions harder to forge. If participants disagree on a closing balance, a unilateral close mechanism protects users' funds."
+  - question: "Can the Lightning Network be used for microtransactions?"
+    answer: "Yes. Because Lightning transactions settle instantly with negligible fees, it is well-suited for small-value payments that would otherwise be impractical on the Bitcoin base layer."
 ---
 The Lightning Network is a second layer on top of the Bitcoin network based in [state channels](https://criptomo.com/what-are-state-channels/) that allows for fast and efficient transactions. This network uses routing techniques and payment channels to allow users to transact with each other without the need for confirmation from the Bitcoin main network. This makes it possible to use Bitcoin for quick and efficient microtransactions, opening the door to a wide range of new uses for the cryptocurrency.
 

@@ -10,6 +10,17 @@ rating: 5
 totalVotes: 29
 lang: en
 ref: crypto-com
+faq:
+  - question: "What is the Crypto.com VISA card?"
+    answer: "The Crypto.com VISA card is a prepaid debit card with no annual fee that can be loaded with cryptocurrencies or fiat money and offers benefits like cashback between 1% and 8%, free Netflix, Spotify, and airport lounge access depending on the card tier."
+  - question: "How do I qualify for a higher Crypto.com card tier?"
+    answer: "Each card tier requires staking a certain amount of CRO, the Crypto.com native token. For example, the Ruby Steel card requires staking $400 worth of CRO for 6 months."
+  - question: "How does cashback work with Crypto.com cards?"
+    answer: "All purchases made with a Crypto.com card generate cashback paid in CRO. You can sell the CRO for fiat or another cryptocurrency, save it, or stake it for additional returns."
+  - question: "Can I hold multiple currencies with Crypto.com?"
+    answer: "Yes, the Crypto.com app allows you to hold funds in multiple fiat currencies and cryptocurrencies, with real-time interbank exchange rates and 0% commission on currency conversions."
+  - question: "What is the referral code for Crypto.com?"
+    answer: "You can sign up using the referral code h2k1uihz91 to access Crypto.com card benefits."
 ---
 
 <style>

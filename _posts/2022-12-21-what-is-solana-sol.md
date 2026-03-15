@@ -13,6 +13,17 @@ TotalVotes: 11
 popular: false
 ref: solana
 lang: en
+faq:
+  - question: "What is Solana (SOL)?"
+    answer: "Solana is a decentralized, open-source blockchain platform designed for fast, scalable, and secure decentralized applications (dApps). It was launched in March 2020 by Solana Labs."
+  - question: "How fast is Solana compared to other blockchains?"
+    answer: "Solana can process thousands of transactions per second (TPS) thanks to its Proof-of-History (PoH) consensus mechanism, making it significantly faster than Bitcoin and Ethereum."
+  - question: "What is Proof-of-History (PoH)?"
+    answer: "Proof-of-History is Solana's novel consensus mechanism that timestamps transactions cryptographically, allowing the network to process transactions in parallel and achieve very high throughput with low fees."
+  - question: "Is Solana energy efficient?"
+    answer: "Yes. Unlike Proof-of-Work blockchains such as Bitcoin, Solana's PoH consensus requires far less energy, making it a more environmentally friendly blockchain platform."
+  - question: "What can you build on Solana?"
+    answer: "Developers build decentralized exchanges (DEXs), DeFi protocols, prediction markets, social media platforms, and NFT marketplaces on Solana, benefiting from its high speed and low transaction costs."
 ---
 Solana is a decentralized, open-source blockchain platform that aims to provide **fast, scalable, and secure infrastructure for decentralized applications** (dApps). Developed by Solana Labs, the Solana network was launched in March 2020 and has since become one of the fastest-growing blockchain networks in the world, with a growing number of developers and users building and using dApps on the platform.
 

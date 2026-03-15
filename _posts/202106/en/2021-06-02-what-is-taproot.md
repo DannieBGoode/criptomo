@@ -9,6 +9,17 @@ rating: 5
 TotalVotes: 12
 lang: en
 ref: taproot
+faq:
+  - question: "What is Taproot in Bitcoin?"
+    answer: "Taproot is a Bitcoin soft fork upgrade that improves the privacy, scalability, and security of the network. It works alongside Schnorr signatures to mask complex transactions so they are indistinguishable from regular ones."
+  - question: "How does Taproot improve Bitcoin privacy?"
+    answer: "Taproot masks complex transactions — such as multisig, timelocks, and Lightning Network payments — so they appear identical to standard transactions on the blockchain, making it harder for external observers to identify transaction types."
+  - question: "When was Taproot activated on Bitcoin?"
+    answer: "Taproot was first proposed by Bitcoin Core developer Greg Maxwell in January 2018 and was later implemented as a soft fork. It required consensus among node operators to activate."
+  - question: "What is signature malleability and how does Taproot fix it?"
+    answer: "Signature malleability is the ability to alter a transaction's signature before confirmation, which could enable double-spending. Taproot eliminates this vulnerability by making digital signatures non-malleable."
+  - question: "Does Taproot lower Bitcoin transaction fees?"
+    answer: "Yes. By simplifying complex transactions and reducing the data they occupy in the blockchain, Taproot lowers the cost of multisig and other advanced transaction types, benefiting scalability and fees."
 ---
 
 One of the main characteristics of Bitcoin is that there is no entity behind it. This means that any change made on tBitcoin Cash. Making changes through soft-forks guarantees backward compatibility and also respects the fact that BTC has never been hard-forked (unlike ETH, BCH and a myriad of cryptocurrencies).

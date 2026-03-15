@@ -10,6 +10,17 @@ rating: 5
 TotalVotes: 7
 lang: en
 ref: what-fire
+faq:
+  - question: "What does FIRE stand for?"
+    answer: "FIRE stands for Financial Independence Retire Early. It is a movement focused on aggressively saving and investing in order to retire as early as possible, potentially before the age of 30."
+  - question: "What is the 4% rule in the FIRE movement?"
+    answer: "The 4% rule, derived from the Trinity Study, states that if you can cover your annual expenses by withdrawing 4% of your invested portfolio each year, you will statistically never run out of money due to long-term market returns averaging around 10%."
+  - question: "How do FIRE followers invest their savings?"
+    answer: "FIRE followers typically invest most of their savings in low-cost index funds such as the S&P500, investing consistently every month regardless of market conditions rather than picking individual stocks."
+  - question: "How do I calculate my FIRE retirement number?"
+    answer: "Use a FIRE calculator: input your estimated annual expenses in retirement and apply a 4% safe withdrawal rate. The result tells you the total portfolio size needed and the age at which you can retire."
+  - question: "What if I have unexpected expenses after retiring early?"
+    answer: "You can build in a safety margin by using a lower withdrawal rate of 3% to 3.5%, increasing your estimated annual expenses in your calculations, or temporarily withdrawing less during bad market years."
 ---
 
 There is no law that requires people to work until they are 65+ years old, much less in a job that we do not like. That is why there is a wave of young people joining the F.I.R.E. (Financial Independence Retire Early) movement.

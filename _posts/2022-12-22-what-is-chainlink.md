@@ -13,6 +13,17 @@ TotalVotes: 1
 popular: false
 ref: chainlink
 lang: en
+faq:
+  - question: "What is Chainlink?"
+    answer: "Chainlink is a decentralized oracle network that connects smart contracts on the Ethereum blockchain to real-world, off-chain data feeds, APIs, and other external resources."
+  - question: "What is an oracle in blockchain?"
+    answer: "An oracle is middleware that bridges the blockchain and the real world, allowing smart contracts to retrieve and act on external data such as stock prices, weather conditions, or sports results."
+  - question: "Who founded Chainlink?"
+    answer: "Chainlink was founded in 2014 by Sergey Nazarov, who recognized that smart contracts needed a reliable way to access external data to reach their full potential."
+  - question: "What is the LINK token used for?"
+    answer: "LINK is the native token of the Chainlink network. It is used to reward node operators who provide accurate and reliable data to smart contracts, and to penalize those who do not."
+  - question: "What are Chainlink's main competitors?"
+    answer: "Chainlink's main competitors in the decentralized oracle space include Band Protocol, Tellor, and ChainGuardian, as well as centralized alternatives like Oraclize and API3."
 ---
 ChainLink is a decentralized oracle network that enables smart contracts on the Ethereum blockchain to securely access off-chain data feeds, web APIs, and other resources. Oracles are essentially middleware that provide a bridge between the blockchain and the real world, allowing smart contracts to retrieve data from external sources and use it to trigger their execution.
 

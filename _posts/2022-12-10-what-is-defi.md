@@ -15,6 +15,17 @@ TotalVotes: 11
 popular: false
 ref: defi
 lang: en
+faq:
+  - question: "What is DeFi in cryptocurrency?"
+    answer: "DeFi, or decentralized finance, is a movement that uses blockchain technology to offer financial services — such as lending, investing, and payments — without relying on traditional banks or intermediaries."
+  - question: "What are the main use cases of DeFi?"
+    answer: "DeFi applications include decentralized lending and borrowing, investing platforms, cryptocurrency exchanges (DEXs), payment services, and decentralized insurance products."
+  - question: "What are some popular DeFi applications?"
+    answer: "Well-known DeFi apps include MakerDAO for decentralized lending, Compound for investing, dYdX for trading, and Uniswap for swapping cryptocurrencies in a decentralized way."
+  - question: "Is DeFi safe to use?"
+    answer: "DeFi carries significant risks, including smart contract vulnerabilities, hacks, and market volatility. Notable incidents include a $25 million theft from Compound in 2020 and two attacks on bZx totaling around $640,000 in 2019."
+  - question: "How does DeFi promote financial inclusion?"
+    answer: "DeFi can provide financial services to anyone with an internet connection, removing barriers such as lack of documentation, geographic restrictions, or the high cost of traditional banking."
 ---
 DeFi, also known as decentralized finance, is a movement in the world of cryptocurrencies that aims to develop financial products and services based on blockchain technology. The idea behind DeFi is to provide financial services more efficiently, accessibly, and securely, using blockchain technology and eliminating the need for trusted intermediaries.
 

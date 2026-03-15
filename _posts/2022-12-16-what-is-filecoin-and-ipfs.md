@@ -14,6 +14,17 @@ TotalVotes: 11
 popular: false
 ref: filecoin
 lang: en
+faq:
+  - question: "What is Filecoin?"
+    answer: "Filecoin is a decentralized storage network that allows users to store and retrieve data on a distributed network of nodes, offering a more secure and censorship-resistant alternative to centralized cloud storage services like Google Drive or Dropbox."
+  - question: "What is IPFS and how does it relate to Filecoin?"
+    answer: "IPFS (InterPlanetary File System) is a peer-to-peer protocol for sharing and accessing data without a central server. Filecoin builds on top of IPFS and adds an incentive layer, rewarding node operators with FIL tokens for providing storage space."
+  - question: "How does Filecoin incentivize storage providers?"
+    answer: "Filecoin uses a proof-of-storage consensus algorithm that rewards nodes with FIL tokens for contributing storage capacity to the network, ensuring that sufficient storage is always available for users."
+  - question: "Is data stored on Filecoin durable?"
+    answer: "Yes. Because data is distributed across many nodes, it is much less likely to be lost from a single node failure compared to centralized storage, giving Filecoin high durability by design."
+  - question: "What are the main challenges facing Filecoin?"
+    answer: "The biggest challenge for Filecoin is adoption. The network is still relatively new, so finding other users and developers building on it can be harder than with more established storage platforms."
 ---
 Filecoin is a decentralized storage network that uses the InterPlanetary File System (IPFS) to store and share data in a distributed manner. It is designed to be a more secure and decentralized alternative to traditional centralized storage solutions like Google Drive or Dropbox.
 

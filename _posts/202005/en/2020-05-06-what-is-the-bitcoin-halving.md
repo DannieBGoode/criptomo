@@ -10,6 +10,17 @@ rating: 5
 totalVotes: 6
 lang: en
 ref: what-bitcoin-halving
+faq:
+  - question: "What is the Bitcoin halving?"
+    answer: "The Bitcoin halving is an event that occurs approximately every four years (every 210,000 blocks) where the block reward paid to miners is cut in half, reducing the rate at which new bitcoins are created."
+  - question: "How often does the Bitcoin halving happen?"
+    answer: "The Bitcoin halving happens every 210,000 blocks, which at an average block time of 10 minutes works out to roughly every four years."
+  - question: "Why does the Bitcoin halving affect the price?"
+    answer: "After each halving, miners receive fewer BTC to sell, creating a supply shortage. Historically, this reduction in new supply combined with steady or growing demand has led to significant price increases."
+  - question: "When will Bitcoin reach its maximum supply?"
+    answer: "Bitcoin will reach its maximum supply of approximately 21 million coins around the year 2140, after which no new bitcoins will be created and miners will be funded solely by transaction fees."
+  - question: "Where is the halving logic defined in the Bitcoin code?"
+    answer: "The halving logic is defined in Bitcoin's validation.cpp file. After 64 halvings the block reward reaches zero, and each halving occurs every 210,000 mined blocks."
 ---
 
 Initially, in 2009 when Bitcoin was born, a mine block reward of 50BTC was distributed, that is, every 10 minutes 50BTC were generated out of nowhere assigned to the winning miner. According to the Bitcoin protocol, every approximately four years the reward will drop by half.

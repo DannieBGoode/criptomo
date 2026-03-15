@@ -9,6 +9,17 @@ banner_image: 202002/tezos.jpg
 rating: 5
 totalVotes: 16
 lang: en
+faq:
+  - question: "What is Tezos (XTZ)?"
+    answer: "Tezos is a blockchain network that uses a liquid Proof of Stake consensus algorithm, allowing token holders to participate in network governance and block validation. It raised $232 million in its 2017 ICO."
+  - question: "What is liquid Proof of Stake in Tezos?"
+    answer: "Liquid Proof of Stake allows XTZ holders (called bakers) to stake their tokens and participate in network consensus, or voluntarily delegate their voting power to another party without transferring ownership of the tokens."
+  - question: "How does Tezos avoid hard forks?"
+    answer: "Tezos self-governs by allowing developers to propose protocol upgrades that are voted on by bakers. If approved, the upgrade is automatically implemented, preventing the community splits that caused hard forks in Bitcoin and Ethereum."
+  - question: "How is Tezos different from Cardano?"
+    answer: "Both Tezos and Cardano use functional programming languages and target a similar vision of interoperable blockchain networks, but they are entirely different projects built by different teams using different implementations."
+  - question: "Where can I store Tezos (XTZ)?"
+    answer: "Tezos can be stored on a Ledger Nano S hardware wallet or the official Tezos client, and it can be purchased on Coinbase."
 ---
 
 Tezos broke into the cryptocurrency ecosystem raising 232 million dollars in BTC, and ETH thanks to a successful ICO in the first two weeks of July 2017 which made it one of The most successful ICOs to date.

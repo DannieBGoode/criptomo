@@ -159,16 +159,3 @@ Si solo puedes elegir uno, elige Kraken.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Abrir cuenta en Kraken**</a>
 
-## Preguntas frecuentes
-
-### ¿Es seguro usar Binance en España en 2026?
-Binance sigue operando pero ha reducido servicios en Europa por las nuevas regulaciones MiCA. Para usuarios españoles, exchanges como Kraken o Coinbase ofrecen mayor certeza regulatoria.
-
-### ¿Cuál es el exchange más barato de los 4?
-KuCoin tiene las comisiones más bajas (0.10% taker), seguido de Kraken (0.26%). Sin embargo, para usuarios europeos Kraken ofrece mejor regulación a un precio muy competitivo.
-
-### ¿Qué exchange recomiendas para principiantes?
-Coinbase es el más sencillo de usar para empezar, aunque sus comisiones son más altas. Kraken es una excelente segunda opción con mejor precio y más herramientas.
-
-### ¿Necesito verificar mi identidad (KYC) en todos?
-Sí, todos los exchanges de esta comparativa requieren verificación KYC para cumplir con la normativa europea contra el blanqueo de capitales.

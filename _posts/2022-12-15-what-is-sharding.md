@@ -14,6 +14,17 @@ TotalVotes: 5
 popular: false
 ref: sharding
 lang: en
+faq:
+  - question: "What is sharding in blockchain?"
+    answer: "Sharding is a scalability technique that divides a blockchain network into smaller parallel units called shards. Each shard processes its own transactions independently, increasing the overall transaction throughput of the network."
+  - question: "Why is sharding needed?"
+    answer: "As more users join a decentralized network, individual nodes become overloaded, causing congestion and slow transaction times. Sharding reduces each node's workload by splitting the network into smaller, independently operating segments."
+  - question: "How does sharding increase transaction speed?"
+    answer: "Because each shard processes transactions in parallel rather than sequentially, the network's total capacity multiplies. For example, dividing a network into 10 shards can theoretically increase throughput by 10 times."
+  - question: "What is cross-shard communication?"
+    answer: "Cross-shard communication is the mechanism that allows individual shards to exchange information about their workload and transaction state. It is essential for keeping the shards balanced and the overall network consistent."
+  - question: "How does Ethereum 2.0 use sharding?"
+    answer: "Ethereum 2.0 implements sharding to divide the network into multiple parallel shards, each processing transactions independently. This enables the network to handle significantly more transactions per second and support a larger number of dApps and users."
 ---
 Sharding is a technique used to increase the scalability of a network by dividing it into smaller units called shards. Each shard is a separate network that is capable of processing transactions independently from the others. By dividing the network into smaller units, sharding allows for a higher transaction throughput and reduces the workload on individual nodes.
 

@@ -13,6 +13,17 @@ TotalVotes: 3
 popular: false
 ref: dot
 lang: en
+faq:
+  - question: "What is Polkadot (DOT)?"
+    answer: "Polkadot is a decentralized platform that enables multiple independent blockchains, called parachains, to interoperate and share security. It was created by Gavin Wood, a co-founder of Ethereum, through the Web3 Foundation."
+  - question: "What are parachains in Polkadot?"
+    answer: "Parachains are independent blockchain networks that run in parallel within the Polkadot ecosystem. They can each be customized for specific use cases and communicate with one another through Polkadot's relay chain."
+  - question: "How does Polkadot achieve scalability?"
+    answer: "Polkadot uses sharding to process transactions in parallel across multiple parachains, rather than on a single chain. Collators validate and organize transactions within each parachain, reducing overall network load."
+  - question: "What is the role of the DOT token?"
+    answer: "DOT is Polkadot's native token used for governance, staking, and bonding parachains to the network. Holders can vote in referenda that determine the direction and upgrades of the platform."
+  - question: "Who created Polkadot and why?"
+    answer: "Gavin Wood created Polkadot after leaving Ethereum to address its limitations, such as high gas fees and lack of upgradeability. He built the Substrate framework as the foundation for a multichain, interoperable internet."
 ---
 Polkadot is a decentralized platform that uses blockchain technology to enable the creation of interconnected, independent networks called "**parachains**." It was developed by the Web3 Foundation and has gained significant attention in the blockchain industry due to its innovative approach to scalability, interoperability, and governance. In this article, we will explore what Polkadot is, how it works, and its potential impact on the future of decentralized technology.
 

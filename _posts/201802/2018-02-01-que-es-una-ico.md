@@ -9,6 +9,17 @@ banner_image: 201802/ico.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es una ICO en criptomonedas?"
+    answer: "Una ICO (Initial Coin Offering) es un mecanismo de recaudación de fondos en el que nuevos proyectos de criptomonedas venden tokens a inversores a cambio de Bitcoin o Ether, de forma similar a una oferta pública inicial (IPO) en bolsa."
+  - question: "¿Son legales las ICOs?"
+    answer: "La legalidad de las ICOs es incierta ya que el token no se vende como un bien financiero regulado sino como un bien digital. Es probable que en el futuro se regulen, lo que podría traer riesgos financieros y legales a los inversores."
+  - question: "¿Cuál fue la primera ICO de la historia?"
+    answer: "La primera ICO fue la de Ripple a principios de 2013, cuando crearon 100.000 millones de tokens XRP y los ofrecieron al público a precio fijo."
+  - question: "¿Cuáles son los riesgos de invertir en una ICO?"
+    answer: "Los principales riesgos son comprar tokens de proyectos que nunca se llegan a desarrollar, caer en estafas con whitepapers vacíos, y la posibilidad de perder toda la inversión sin posibilidad de recuperarla."
+  - question: "¿Por qué fue tan importante la ICO de Ethereum?"
+    answer: "Ethereum recaudó el equivalente a 20 millones de dólares en 2014 y sus inversores obtuvieron una rentabilidad del 24.400%. Además, Ethereum introdujo la posibilidad de crear ICOs directamente en su plataforma mediante tokens ERC-20."
 ---
 
 Un Initial Coin Offering (ICO) es un mecanismo de recaudación de fondos a través del cual nuevos proyectos de criptomonedas venden tokens (lease criptomonedas) a cambio de bitcoins o Ether y podrían convertirse en la manera de distribuir participaciones en el futuro. Es de alguna manera parecida a un Initial Public Offering (IPO) donde inversores venden participaciones de una empresa.

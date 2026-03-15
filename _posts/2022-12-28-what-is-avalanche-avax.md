@@ -13,6 +13,17 @@ TotalVotes: 2
 popular: false
 ref: avax
 lang: en
+faq:
+  - question: "What is Avalanche (AVAX)?"
+    answer: "Avalanche is a decentralized blockchain platform launched in September 2020 that enables fast, secure validation and the creation of digital assets such as currencies, tokens, and smart contracts."
+  - question: "How does Avalanche achieve high transaction speed?"
+    answer: "Avalanche uses a consensus algorithm called Snowflake, which allows its decentralized network of nodes to quickly reach agreement on transaction validation, enabling thousands of transactions per second."
+  - question: "What consensus mechanism does Avalanche use?"
+    answer: "Avalanche uses Proof of Stake (PoS), where nodes validate transactions based on the amount of AVAX tokens they hold, removing the need for a centralized group of validators."
+  - question: "What types of assets can be created on Avalanche?"
+    answer: "Avalanche supports a wide variety of digital assets including cryptocurrencies, tokens, smart contracts, and representations of real-world assets like company shares or bonds."
+  - question: "Does Avalanche have a governance system?"
+    answer: "Yes. Avalanche includes a decentralized governance system that allows token holders to vote on important decisions such as network validator selection, software updates, and technical changes."
 ---
 Avalanche (AVAX) is a decentralized cryptocurrency platform that is based on blockchain technology. Its goal is to provide a fast and secure validation network for the creation and exchange of digital assets. The Avalanche platform was launched in September 2020 and since then it has gained a lot of popularity in the world of cryptocurrencies.
 

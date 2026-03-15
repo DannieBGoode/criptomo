@@ -10,6 +10,17 @@ rating: 5
 TotalVotes: 10
 lang: en
 ref: what-mnemonic
+faq:
+  - question: "What is a mnemonic phrase?"
+    answer: "A mnemonic phrase (also called a seed phrase) is a set of 12 to 24 words that acts as a backup for a non-custodial cryptocurrency wallet. Anyone who has the phrase can fully restore the wallet and access all its funds."
+  - question: "How many words are in a mnemonic phrase?"
+    answer: "A mnemonic phrase consists of 12 to 24 words chosen from a standardized English dictionary of 2,048 words, as defined in the BIP39 specification."
+  - question: "Is it safe to store crypto in a custodial wallet?"
+    answer: "Custodial wallets carry a higher risk because a third party holds your private keys, meaning the platform could be hacked or shut down and you could lose access to your funds, as happened with Mt.Gox."
+  - question: "Can someone guess my mnemonic phrase?"
+    answer: "It is mathematically impossible in practice. The number of possible combinations is 2,048 to the power of 24, equivalent to 2^264, which is comparable to picking a specific atom from the entire observable universe."
+  - question: "What standard do mnemonic phrases follow?"
+    answer: "Mnemonic phrases follow the BIP39 (Bitcoin Improvement Proposal 39) standard, originally proposed by Satoshi Labs, which is used across the vast majority of non-custodial cryptocurrency wallets."
 ---
 
 To understand the concept of a mnemonic phrase or seed, we must first understand the difference between a custodial and a non-custodial wallet.

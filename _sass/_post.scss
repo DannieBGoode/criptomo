@@ -170,6 +170,61 @@
     background-color: lighten( $picton-blue, 11% );
 }
 
+/* FAQ section */
+.faq-section {
+    margin-top: 48px;
+    border-top: 2px solid $gallery;
+    padding-top: 32px;
+}
+
+.faq-title {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.faq-item {
+    border-bottom: 1px solid $gallery;
+    padding: 12px 0;
+
+    &[open] .faq-question {
+        color: $picton-blue;
+    }
+}
+
+.faq-question {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    list-style: none;
+    padding-right: 24px;
+    position: relative;
+    user-select: none;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::after {
+        content: '+';
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: $picton-blue;
+    }
+
+    details[open] &::after {
+        content: '−';
+    }
+}
+
+.faq-answer {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-top: 10px;
+    color: $body-text;
+}
+
 .entry-footer {
     font-size: 11px;
     letter-spacing: 1px;

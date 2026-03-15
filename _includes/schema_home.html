@@ -1,21 +1,37 @@
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    "keywords": "{{ site.keywords }}", 
-    "url": "{{ site.url }}",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "{{ site.url }}"
-    },
-    "author": {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/images/logo.png"
+      },
+      "description": "{{ site.description | strip_newlines | escape }}",
+      "founder": {
         "@type": "Person",
-        "name": "{{ site.author_name }}",
-        "sameAs": [
-            "https://twitter.com/{{ site.twitter_username }}",
-            "https://github.com/{{ site.github_username }}"
-        ]
+        "name": "{{ site.author_name }}"
+      },
+      "sameAs": [
+        "https://twitter.com/{{ site.twitter_username }}",
+        "https://github.com/{{ site.github_username }}"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description | strip_newlines | escape }}",
+      "publisher": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "inLanguage": "{{ page.lang | default: site.locale | slice: 0, 2 | default: 'es' }}"
     }
+  ]
 }
 </script>
-

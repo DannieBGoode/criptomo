@@ -15,6 +15,17 @@ TotalVotes: 3
 popular: false
 ref: decentralized-storage
 lang: en
+faq:
+  - question: "What is decentralized storage?"
+    answer: "Decentralized storage is a method of storing data across a distributed network of nodes rather than on a central server. This approach improves security, reliability, and user control over data."
+  - question: "What are the advantages of decentralized storage?"
+    answer: "Key advantages include increased security (no single point of failure), improved fault tolerance, greater user control over data, and lower costs by leveraging resources across many nodes."
+  - question: "What are the disadvantages of decentralized storage?"
+    answer: "Drawbacks include limited scalability, potentially slower data retrieval times, lack of standardized protocols for interoperability, and lower data redundancy compared to centralized systems."
+  - question: "What are some examples of decentralized storage platforms?"
+    answer: "Popular examples include IPFS (InterPlanetary File System) for peer-to-peer file sharing, Filecoin for incentivized storage using a blockchain, Storj for encrypted distributed storage, and Sia for a blockchain-based storage marketplace."
+  - question: "How is decentralized storage different from cloud storage?"
+    answer: "Traditional cloud storage relies on central servers controlled by a single company, while decentralized storage distributes data across many independent nodes, reducing reliance on any single authority and improving resilience."
 ---
 Decentralized storage refers to the use of distributed networks and systems to store and manage data, rather than relying on a central server or authority. In a decentralized storage system, **data is distributed across multiple nodes, or computers, in the network**. 
 

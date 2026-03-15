@@ -14,6 +14,17 @@ TotalVotes: 6
 popular: false
 ref: uniswap
 lang: en
+faq:
+  - question: "What is Uniswap?"
+    answer: "Uniswap is a decentralized exchange (DEX) protocol built on the Ethereum blockchain that allows users to swap cryptocurrencies directly from their own wallets without a central intermediary."
+  - question: "How do liquidity pools work on Uniswap?"
+    answer: "Users deposit pairs of tokens into liquidity pools and receive liquidity tokens representing their share. When trades occur, the constant product formula determines the exchange rate and liquidity providers earn a portion of the trading fees."
+  - question: "What is the UNI token?"
+    answer: "UNI is the governance token of the Uniswap protocol, introduced in September 2020. It can be earned through liquidity mining and gives holders the ability to vote on protocol changes."
+  - question: "Does Uniswap require identity verification (KYC)?"
+    answer: "No. Unlike centralized exchanges, Uniswap does not require KYC or AML verification. Anyone with an Ethereum wallet and an internet connection can trade on the platform."
+  - question: "What are the risks of using Uniswap?"
+    answer: "Key risks include liquidity variation for less popular trading pairs, the potential for wide price spreads, and the lack of regulatory oversight, as Uniswap is a decentralized protocol with no central authority to protect users."
 ---
 [Uniswap](https://app.uniswap.org/) is a decentralized finance (DeFi) protocol that allows users to exchange cryptocurrencies on the Ethereum blockchain. It was launched in November 2018 by Hayden Adams, a software engineer and entrepreneur, and has since become one of the most popular [DeFi protocols](https://criptomo.com/what-is-defi/) in the world.
 

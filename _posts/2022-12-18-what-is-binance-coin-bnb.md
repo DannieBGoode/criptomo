@@ -13,6 +13,17 @@ TotalVotes: 11
 popular: false
 ref: bnb
 lang: en
+faq:
+  - question: "What is Binance Coin (BNB)?"
+    answer: "Binance Coin (BNB) is the native cryptocurrency of the Binance exchange, launched in 2017. It functions primarily as a utility token that gives users discounts on trading fees and access to various services within the Binance ecosystem."
+  - question: "What discount does BNB give on Binance trading fees?"
+    answer: "BNB holders who use BNB to pay for trading fees on Binance receive a discount, which was 25% as of 2021. The discount percentage decreases gradually over time."
+  - question: "What blockchain does BNB run on?"
+    answer: "BNB was originally launched as an ERC-20 token on Ethereum but was later migrated to Binance's own blockchain, Binance Chain."
+  - question: "What is an IEO and how does BNB relate to it?"
+    answer: "An Initial Exchange Offering (IEO) is a form of crowdfunding where new crypto projects sell tokens directly on an exchange. Binance is a leading IEO platform and BNB is often used as the primary currency to participate in these offerings."
+  - question: "Can BNB be used in DeFi?"
+    answer: "Yes. BNB has been integrated into multiple decentralized finance (DeFi) protocols and can be used as collateral for stablecoins, positioning it as a potential key token in the broader DeFi ecosystem."
 ---
 Binance Coin (BNB) is a cryptocurrency that was launched in 2017 by the major cryptocurrency exchange Binance. Binance is one of the largest and most popular cryptocurrency exchanges in the world, and BNB has become an integral part of the Binance ecosystem. In this essay, we will discuss the history and development of BNB, as well as its current use cases and future potential.
 

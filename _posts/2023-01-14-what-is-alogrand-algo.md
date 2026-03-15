@@ -11,6 +11,17 @@ banner_image: /images/posts/image_2023-01-14_192102876.webp
 popular: false
 ref: algorand
 lang: en
+faq:
+  - question: "What is Algorand (ALGO)?"
+    answer: "Algorand is a next-generation blockchain platform developed by Turing Award winner Silvio Micali, designed to provide a scalable and secure infrastructure for decentralized applications and digital assets."
+  - question: "What consensus mechanism does Algorand use?"
+    answer: "Algorand uses Pure Proof of Stake (PPoS), which selects validators randomly based on their stake in the network using cryptographic techniques, making it energy-efficient and resistant to centralized control."
+  - question: "What are threshold signatures on Algorand?"
+    answer: "Threshold signatures allow multi-party computations on the blockchain, enabling use cases such as decentralized exchanges and private transactions without requiring a centralized intermediary."
+  - question: "What is an atomic swap on Algorand?"
+    answer: "An atomic swap allows two parties to exchange different digital assets across chains without a trusted intermediary, enabling decentralized marketplaces and cross-chain trading."
+  - question: "How fast and cheap is Algorand?"
+    answer: "Algorand can handle thousands of transactions per second with low fees, making it well-suited for high-throughput applications such as DeFi, micropayments, and online gaming."
 ---
 Algorand is a next-generation blockchain platform that aims to provide a scalable and secure infrastructure for decentralized applications and digital assets. Developed by Turing Award winner Silvio Micali, Algorand is based on a unique consensus algorithm that is designed to overcome the scalability limitations of traditional blockchain networks such as Bitcoin and Ethereum.
 

@@ -152,17 +152,3 @@ Se procura a alternativa ao Binance mais sólida e regulada na Europa, **o Krake
 Se só puder escolher um, escolha o Kraken.
 
 <a rel="nofollow sponsored" href="https://invite.kraken.com/JDNW/668obv32">**→ Abrir conta no Kraken**</a>
-
-## Perguntas frequentes
-
-### O Binance ainda é seguro na Europa em 2026?
-O Binance continua operacional mas reduziu os seus serviços na UE devido às regulamentações MiCA. Exchanges como Kraken ou Coinbase oferecem maior segurança jurídica.
-
-### Qual exchange tem as taxas mais baixas?
-O KuCoin tem as taxas taker mais baixas (0,10%), seguido do Kraken (0,26%). Para utilizadores europeus, o Kraken oferece melhor regulamentação a preço competitivo.
-
-### Qual exchange é melhor para iniciantes?
-O Coinbase é o mais fácil de usar. O Kraken é uma excelente segunda escolha com melhores preços.
-
-### Todos os exchanges exigem verificação KYC?
-Sim, todos os exchanges nesta comparação exigem verificação de identidade KYC de acordo com as regulamentações europeias anti-lavagem de dinheiro.

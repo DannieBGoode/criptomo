@@ -1,0 +1,19 @@
+{% if page.faq %}
+{% assign lang = page.lang | default: 'es' %}
+{% case lang %}
+  {% when 'en' %}{% assign faq_title = 'Frequently Asked Questions' %}
+  {% when 'de' %}{% assign faq_title = 'Häufig gestellte Fragen' %}
+  {% when 'fr' %}{% assign faq_title = 'Questions fréquentes' %}
+  {% when 'pt' %}{% assign faq_title = 'Perguntas frequentes' %}
+  {% else %}{% assign faq_title = 'Preguntas frecuentes' %}
+{% endcase %}
+<section class="faq-section">
+  <h2 class="faq-title">{{ faq_title }}</h2>
+  {% for item in page.faq %}
+  <details class="faq-item">
+    <summary class="faq-question">{{ item.question }}</summary>
+    <div class="faq-answer">{{ item.answer }}</div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}

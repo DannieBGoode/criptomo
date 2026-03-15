@@ -9,6 +9,17 @@ banner_image: 202104/hashing.webp
 rating: 5
 TotalVotes: 9
 lang: en
+faq:
+  - question: "What is a hash in simple terms?"
+    answer: "A hash is a fixed-length alphanumeric string generated from any input text using a mathematical function. The same input always produces the same hash, but even a tiny change to the input produces a completely different result."
+  - question: "What is the difference between hashing and encryption?"
+    answer: "Hashing is a one-way, irreversible process — you cannot recover the original text from a hash. Encryption is bidirectional, meaning the original data can be recovered if you have the correct decryption key."
+  - question: "What hash function does Bitcoin use?"
+    answer: "Bitcoin uses SHA-256, which has proven to be a highly secure hashing function. Other functions like MD5 are considered vulnerable and should not be used for security-sensitive purposes."
+  - question: "What is a hash collision?"
+    answer: "A collision occurs when two different inputs produce the same hash. While theoretically possible, secure hash algorithms make collisions so improbable that they are considered practically impossible."
+  - question: "What is a digital signature and how does it use hashing?"
+    answer: "A digital signature is created by hashing a document and then encrypting that hash with a private key. Recipients can verify authenticity by decrypting the signature with the sender's public key and comparing it to their own hash of the document."
 ---
 
 We often speak in this world of hashes and asymmetric encryption, so it is important to be clear about these concepts that are so widely used in the world of cryptocurrencies.
