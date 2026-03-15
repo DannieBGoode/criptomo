@@ -10,6 +10,13 @@ source: https://www.ccn.com/crypto-trading-giant-binance-to-launch-decentralized
 sourceName: CoinTelegraph
 author: daniel
 lang: es
+faq:
+  - question: "¿Qué anunció Binance sobre su exchange descentralizado?"
+    answer: "En marzo de 2018, Binance anunció el lanzamiento de su propio blockchain, llamado Binance Chain, con el objetivo de construir un exchange descentralizado (DEX). El anuncio provocó que el valor de su token BNB aumentara un 27%."
+  - question: "¿Qué es un exchange descentralizado (DEX)?"
+    answer: "Un exchange descentralizado permite intercambiar criptomonedas sin depositar los fondos en una plataforma centralizada. Esto reduce el riesgo de hackeos masivos, aunque los smart contracts defectuosos siguen siendo un riesgo potencial."
+  - question: "¿Cuál es la diferencia entre un exchange centralizado y uno descentralizado?"
+    answer: "En un exchange centralizado, los fondos se custodian en la plataforma, lo que la convierte en un objetivo atractivo para hackers. En un DEX, el intercambio se realiza directamente entre usuarios mediante contratos inteligentes, sin ceder el control de los fondos a un tercero."
 ---
 
 El gigante de intercambio de criptomonedas Binance ha anunciado que lanzará su propio blockchain en un aparente primer paso hacia la construcción de un intercambio descentralizado (DEX). Esto ha ocasionado que el valor de su moneda aumente un 27%.

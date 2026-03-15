@@ -10,6 +10,13 @@ banner_image: 201810/oyster.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué ocurrió con el hard fork de Bitcoin Cash en noviembre de 2018?"
+    answer: "El 15 de noviembre de 2018 se produjo un doble hard fork de Bitcoin Cash que dividió la cadena en dos proyectos distintos: Bitcoin ABC, liderado por Roger Ver y Jihan Wu, y Bitcoin SV, liderado por Craig Wright y Calvin Ayre."
+  - question: "¿Qué es una guerra de hashes en blockchain?"
+    answer: "Una guerra de hashes ocurre cuando dos grupos rivales de mineros compiten por imponer su versión del blockchain, cada uno intentando generar más bloques que el otro para que la red adopte su cadena como la válida."
+  - question: "¿Qué implica que una cadena tenga más del 50% del poder de hasheo?"
+    answer: "Quien controla más del 50% del poder computacional puede minar bloques vacíos en la cadena rival para ralentizarla, y en última instancia imponer su versión del historial de transacciones según el protocolo de la cadena más larga."
 ---
 
 - bch fork

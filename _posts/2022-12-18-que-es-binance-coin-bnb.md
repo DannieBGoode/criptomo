@@ -13,6 +13,15 @@ TotalVotes: 11
 popular: false
 ref: bnb
 lang: es
+faq:
+  - question: "¿Qué es Binance Coin (BNB)?"
+    answer: "BNB es la criptomoneda nativa del exchange Binance, lanzada en 2017. Se utiliza principalmente para pagar comisiones dentro de la plataforma con un descuento."
+  - question: "¿Para qué sirve BNB?"
+    answer: "BNB sirve para pagar tarifas en Binance con descuento, participar en IEOs (Initial Exchange Offerings), utilizarse en protocolos DeFi y como medio de donación en iniciativas benéficas."
+  - question: "¿BNB es un token de Ethereum?"
+    answer: "Originalmente BNB fue lanzado como un token ERC-20 sobre Ethereum, pero posteriormente fue migrado a Binance Chain, la blockchain propia de Binance."
+  - question: "¿Qué críticas tiene BNB?"
+    answer: "Las principales críticas a BNB son su centralización en torno a Binance y el escrutinio regulatorio que ha recibido la plataforma en diversas jurisdicciones."
 ---
 Binance Coin (BNB) es una criptomoneda lanzada en 2017 por la importante plataforma de intercambio de criptomonedas Binance. Binance es una de las plataformas de criptomonedas más grandes y populares del mundo y BNB se ha convertido en una parte integral del ecosistema de Binance. En este ensayo, discutiremos la historia y el desarrollo de BNB, así como sus usos actuales y su potencial futuro.
 

@@ -9,6 +9,15 @@ banner_image: 201801/monero.png
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es Monero (XMR)?"
+    answer: "Monero es una criptomoneda centrada en la privacidad que hace imposible rastrear las transacciones y oculta los balances de los usuarios. A diferencia de Bitcoin, cuyas transacciones son públicas, Monero ofrece anonimato obligatorio desde el diseño base del protocolo."
+  - question: "¿Cómo funciona la privacidad en Monero?"
+    answer: "Monero utiliza tres tecnologías principales: Ring Signatures para mezclar transacciones y ocultar al emisor, Stealth Addresses para esconder al receptor y los balances, y Ring Confidential Transactions para ocultar el importe enviado."
+  - question: "¿Qué es la fungibilidad y por qué es importante en Monero?"
+    answer: "La fungibilidad significa que dos unidades de la misma moneda tienen el mismo valor independientemente de su historial. Monero es fungible porque sus transacciones privadas impiden marcar monedas por haber sido usadas en actividades ilegales, al contrario de lo que ocurre con Bitcoin."
+  - question: "¿Cuántos XMR existen en circulación?"
+    answer: "En el momento de publicación del artículo había 16 millones de tokens XMR en circulación. Monero tiene una inflación controlada de 0.3 XMR por minuto para garantizar incentivos permanentes a los mineros."
 ---
 
 A pesar de que en ocasiones se ha mencionado que Bitcoin es una tecnología anónima, en realidad es pseudónima. El principio básico en el que se basa es en que todas las transacciones son públicamente almacenadas en el blockchain, por lo que si alguien identifica al dueño de una dirección de BTC puede en todo momento conocer su balance y transacciones. Esta propiedad trae muchísima transparencia al mundo de las criptomonedas puesto que cualquier transacción puede ser auditada por cualquier persona y se puede ver como los fondos van moviéndose de cuenta en cuenta lo cual podría acabar con la corrupción en entidades gubernamentales o en ONGs, pero no resulta tan valiosa para individuos o empresas. Aquí es donde entra Monero.

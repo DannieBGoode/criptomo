@@ -10,6 +10,15 @@ banner_image: 201711/bitcoin-wallet.jpg
 rating: 4.5
 totalVotes: 2
 lang: es
+faq:
+  - question: "¿Cuál es la manera más segura de guardar criptomonedas?"
+    answer: "La manera más segura es un cold wallet, especialmente una hardware wallet como Ledger o Trezor, ya que la clave privada nunca se expone a internet. Para inversión a largo plazo es la opción recomendada."
+  - question: "¿Qué diferencia hay entre un hot wallet y un cold wallet?"
+    answer: "Un hot wallet está conectado a internet y permite mover fondos rápidamente, pero es más vulnerable. Un cold wallet mantiene la clave privada desconectada de internet, ofreciendo mayor seguridad."
+  - question: "¿Es seguro dejar criptomonedas en un exchange?"
+    answer: "No es recomendable. Si el exchange es hackeado o cierra, puedes perder tus fondos ya que no controlas la clave privada. Lo ideal es retirar las criptomonedas a un wallet propio lo antes posible."
+  - question: "¿Qué es una clave privada y por qué es importante?"
+    answer: "La clave privada es la contraseña que te da control total sobre tus fondos en una dirección. Sin ella no tienes control real sobre tus criptomonedas, y si la pierdes no podrás recuperar tus fondos."
 ---
 
 Es importante preguntarse para qué queremos guardar criptomonedas, es distinto tener una gran cartera económica de criptomonedas con el fin de invertir en ellas a largo plazo, a corto plazo, o para uso en el día a día.

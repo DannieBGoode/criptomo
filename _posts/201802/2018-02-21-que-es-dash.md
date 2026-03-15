@@ -9,6 +9,15 @@ banner_image: 201802/dash.png
 rating: 4.75
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Qué es DASH?"
+    answer: "DASH es una criptomoneda open-source basada en Bitcoin que añade transacciones privadas e instantáneas, junto con un modelo de gobernanza y autofinanciación descentralizada. Fue creada en 2014 por Evan Duffield con el objetivo de ser más privada y rápida que Bitcoin."
+  - question: "¿Qué son los Masternodes de DASH?"
+    answer: "Los Masternodes son nodos especiales de la red DASH que requieren un depósito de 1000 DASH como garantía. Son los encargados de procesar las transacciones instantáneas (InstantSend) y privadas (PrivateSend), y tienen derecho a voto en las decisiones de la comunidad."
+  - question: "¿Cómo funciona la gobernanza de DASH?"
+    answer: "El 10% de cada recompensa de bloque minado va a una Tesorería común. Los Masternodes votan en qué proyectos o mejoras se gastan esos fondos. Una propuesta se aprueba si la diferencia entre votos a favor y en contra supera el 10% del total de Masternodes."
+  - question: "¿Cómo se reparte la recompensa de minado en DASH?"
+    answer: "La recompensa de cada bloque minado se distribuye así: 45% para los mineros, 45% para los poseedores de Masternodes y 10% para los desarrolladores a través del sistema de Tesorería."
 ---
 
 Dash (anteriormente conocido como Darkcoin y XCoin) en una criptomoneda open source construida sobre Bitcoin que además ofrece transacciones instantáneas y privadas así como un modelo de auto financiación y gobernanza que permite a la red incentivar a los participantes por colaborar constructivamente. Se podría decir que la gobernanza descentralizada de que la hace uso la convierte en una organización autónoma descentralizada (DAO).

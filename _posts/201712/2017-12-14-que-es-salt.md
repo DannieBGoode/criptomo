@@ -9,6 +9,15 @@ banner_image: 201712/salt.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es SALT Lending?"
+    answer: "SALT es una plataforma basada en blockchain que permite obtener préstamos en dinero fiat usando criptomonedas como garantía, sin necesidad de venderlas. Los fondos quedan bloqueados en un smart contract hasta que el préstamo es devuelto."
+  - question: "¿Cómo funciona un préstamo en SALT?"
+    answer: "El usuario envía sus criptomonedas a un smart contract como garantía y recibe el préstamo en fiat en su cuenta bancaria. Al devolver el préstamo con sus intereses, las criptomonedas son liberadas."
+  - question: "¿Para qué sirve el token SALT?"
+    answer: "El token SALT se utiliza para reducir los intereses que paga el prestatario, de modo que a más tokens SALT poseídos, menores son los intereses aplicados al préstamo."
+  - question: "¿Qué riesgos tiene la plataforma SALT?"
+    answer: "Los principales riesgos incluyen la volatilidad de las criptomonedas ofrecidas como garantía, el cumplimiento regulatorio en distintos países, y la incertidumbre sobre la disponibilidad real de una red de prestamistas."
 ---
 
 [SALT](https://www.saltlending.com/) pretende traer préstamos basados en blockchain al mundo de las criptomonedas. Es una moneda ERC-20, es decir, basada en Ethereum, por lo cual podemos almacenarla en cualquier wallet que soporte Ether y tendrá 120 millones de tokens en circulación.

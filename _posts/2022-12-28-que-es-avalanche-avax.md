@@ -14,6 +14,15 @@ TotalVotes: 3
 popular: false
 ref: avax
 lang: es
+faq:
+  - question: "¿Qué es Avalanche (AVAX)?"
+    answer: "Avalanche es una plataforma blockchain descentralizada lanzada en septiembre de 2020, diseñada para procesar miles de transacciones por segundo de forma rápida y segura."
+  - question: "¿Cómo funciona el consenso de Avalanche?"
+    answer: "Avalanche utiliza un algoritmo de consenso llamado Snowflake, que permite a los nodos de la red validar transacciones de manera rápida y eficiente sin depender de un grupo centralizado."
+  - question: "¿Qué es el Proof of Stake en Avalanche?"
+    answer: "En Avalanche, los nodos validan transacciones mediante Proof of Stake, donde cualquier persona que posea tokens AVAX puede participar en la validación según la cantidad que posea."
+  - question: "¿Qué tipos de activos se pueden crear en Avalanche?"
+    answer: "Avalanche permite crear monedas, tokens, contratos inteligentes y otros activos digitales, incluyendo representaciones de acciones, bonos o bienes tangibles."
 ---
 Avalanche (AVAX) es una plataforma de criptomonedas descentralizada que se basa en la tecnología blockchain. Su objetivo es proporcionar una red de validación de transacciones rápida y segura para la creación y el intercambio de activos digitales. La plataforma Avalanche se lanzó en septiembre de 2020 y desde entonces ha ganado una gran popularidad en el mundo de las criptomonedas.
 

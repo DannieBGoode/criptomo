@@ -13,6 +13,15 @@ TotalVotes: 11
 popular: false
 ref: filecoin
 lang: es
+faq:
+  - question: "¿Qué es Filecoin?"
+    answer: "Filecoin es una red de almacenamiento descentralizada que utiliza el protocolo IPFS para almacenar y compartir datos de forma distribuida. Está diseñada como alternativa a servicios centralizados como Google Drive o Dropbox."
+  - question: "¿Qué es IPFS y cómo funciona?"
+    answer: "IPFS (InterPlanetary File System) es un protocolo punto a punto que distribuye los datos entre una red de nodos en lugar de almacenarlos en un servidor central, lo que dificulta la pérdida o censura de la información."
+  - question: "¿Cómo se incentiva a los nodos en Filecoin?"
+    answer: "Filecoin usa un algoritmo de consenso de prueba de almacenamiento mediante el cual los nodos reciben recompensas en la criptomoneda FIL a cambio de proporcionar espacio de almacenamiento a la red."
+  - question: "¿Cuál es el principal desafío de Filecoin?"
+    answer: "El principal desafío es la adopción. La tecnología es prometedora pero todavía tiene un uso limitado, lo que dificulta encontrar otros usuarios en la red y desarrollar aplicaciones con suficiente base de usuarios."
 ---
 Filecoin es una red de almacenamiento descentralizada que utiliza el InterPlanetary File System (IPFS) para almacenar y compartir datos de manera distribuida. Está diseñado para ser una alternativa más segura y descentralizada a las soluciones de almacenamiento centralizado tradicionales como Google Drive o Dropbox.
 

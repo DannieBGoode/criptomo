@@ -9,6 +9,15 @@ banner_image: 201712/cardano.jpg
 rating: 4.75
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Qué es Cardano (ADA)?"
+    answer: "Cardano es una plataforma blockchain de tercera generación lanzada en 2017 por IOHK, cuya criptomoneda se llama ADA. Está construida desde cero con un enfoque académico y científico, a diferencia de muchas otras monedas que copian el código de Bitcoin."
+  - question: "¿Qué algoritmo de consenso usa Cardano?"
+    answer: "Cardano utiliza Ouroboros, un algoritmo Proof of Stake desarrollado por su propio equipo. Es más eficiente energéticamente que el Proof of Work que usa Bitcoin."
+  - question: "¿Qué problemas intenta resolver Cardano?"
+    answer: "Cardano aborda tres problemas principales de las criptomonedas existentes: escalabilidad (más transacciones por segundo), interoperabilidad (comunicación entre distintas blockchains) y sostenibilidad (financiación del desarrollo y gobernanza descentralizada)."
+  - question: "¿Qué es Daedalus en Cardano?"
+    answer: "Daedalus es el wallet oficial de Cardano desarrollado por IOHK. Con el tiempo tiene como objetivo soportar otras criptomonedas y convertirse en un wallet universal."
 ---
 
 <a rel="nofollow" href="https://www.cardanohub.org/en/home/">Cardano</a> es una plataforma open-source lanzada por IOHK en Septiembre de 2017 que constituye un proyecto muy ambicioso. Dicen estar intentando construir la tercera generación de criptomonedas donde la primera generación sería Bitcoin y la segunda Ethereum.

@@ -7,6 +7,15 @@ layout: post
 description: Aprende cómo funciona la inversión a largo plazo en criptomonedas. Experimento real con 10.000$ en las 10 monedas top de 2017 y un retorno de más del 4200%.
 banner_image: 201801/investments.png
 lang: es
+faq:
+  - question: "¿En qué consiste la estrategia de inversión a largo plazo en criptomonedas?"
+    answer: "Consiste en realizar una inversión inicial repartida entre varias criptomonedas y mantenerla sin operar durante un periodo prolongado, sin atender a las fluctuaciones del mercado a corto plazo."
+  - question: "¿Cuánto habría ganado alguien que invirtiera en el top 10 de criptomonedas en enero de 2017?"
+    answer: "Una inversión de 10.000$ repartida entre las 10 principales criptomonedas en enero de 2017 habría alcanzado aproximadamente 423.000$ a diciembre del mismo año, un incremento cercano al 4.200%."
+  - question: "¿Cuál es la diferencia entre inversión activa e inversión pasiva en criptomonedas?"
+    answer: "La inversión pasiva implica comprar y mantener sin operar, similar a un índice bursátil. La inversión activa requiere seguir el mercado a diario buscando oportunidades de compra y venta para superar al mercado."
+  - question: "¿Es necesario entender la tecnología de cada criptomoneda para invertir a largo plazo?"
+    answer: "No necesariamente. Apostar por las monedas con mayor capitalización es una forma de delegar ese análisis en el mercado colectivo, aunque siempre implica cierto riesgo dado el alto nivel de volatilidad del sector."
 ---
 
 Hoy os voy a mostrar un experimento de inversión a largo plazo llevado a lo largo de 2017. Con inversión a largo plazo nos referimos a un periodo de apenas 12 meses, donde hacemos una inversión inicial y nos olvidamos de ella y la miramos un año después.

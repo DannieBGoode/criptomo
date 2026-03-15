@@ -14,6 +14,15 @@ TotalVotes: 5
 popular: false
 ref: metamask
 lang: es
+faq:
+  - question: "¿Qué es MetaMask y para qué sirve?"
+    answer: "MetaMask es una extensión de navegador y aplicación móvil que funciona como cartera de Ethereum. Permite gestionar criptomonedas, conectarse a aplicaciones descentralizadas (DApps) y acceder a plataformas DeFi directamente desde el navegador."
+  - question: "¿Es seguro usar MetaMask?"
+    answer: "MetaMask permite a los usuarios controlar sus propias claves privadas sin depender de terceros, lo que reduce el riesgo de hackeos en exchanges centralizados. Sin embargo, es fundamental guardar de forma segura la frase semilla de 12-24 palabras, ya que es la única manera de recuperar la cuenta."
+  - question: "¿En qué navegadores funciona MetaMask?"
+    answer: "MetaMask está disponible como extensión para Chrome, Firefox y Brave, y también como aplicación móvil para Android e iOS."
+  - question: "¿Qué tokens soporta MetaMask?"
+    answer: "MetaMask soporta Ether (ETH) y cualquier token basado en Ethereum, incluyendo los estándares ERC-20 y ERC-721 (NFTs)."
 ---
 [MetaMask](https://metamask.io) es una extensión de navegador popular que permite a los usuarios interactuar con la cadena de bloques [Ethereum](https://criptomo.com/que-es-ethereum/) y las aplicaciones descentralizadas (DApps) desde su navegador web. Desarrollado por ConsenSys, MetaMask fue lanzado por primera vez en 2016 y desde entonces se ha convertido en uno de los monederos Ethereum más utilizados en el mundo.
 

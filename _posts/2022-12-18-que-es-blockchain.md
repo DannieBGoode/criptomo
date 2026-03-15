@@ -13,6 +13,15 @@ TotalVotes: 2
 popular: false
 ref: blockchain
 lang: es
+faq:
+  - question: "¿Qué es blockchain y cómo funciona?"
+    answer: "Blockchain es una base de datos distribuida formada por bloques de información enlazados criptográficamente. Es mantenida por una red de nodos que validan y registran cada transacción, sin que ninguna entidad central la controle."
+  - question: "¿Por qué los datos en un blockchain no se pueden modificar?"
+    answer: "Cada bloque está vinculado al anterior mediante una firma criptográfica, por lo que alterar un bloque requeriría recalcular todos los bloques posteriores en toda la red, lo que resulta prácticamente inviable."
+  - question: "¿Para qué se usa la tecnología blockchain más allá de las criptomonedas?"
+    answer: "El blockchain se aplica en sectores como las finanzas, la gestión de cadenas de suministro, la sanidad, la votación electrónica y la industria inmobiliaria, donde la trazabilidad y la transparencia son importantes."
+  - question: "¿Qué ventaja ofrece el blockchain frente a los sistemas tradicionales?"
+    answer: "Permite transacciones entre partes sin intermediarios, reduciendo costes y tiempos, y garantiza que los registros sean transparentes e inmutables."
 ---
 Blockchain es una tecnología descentralizada y distribuida de libros contables que permite el registro seguro, transparente e inmutable. Fue presentada por primera vez en 2008 como la tecnología subyacente de la criptomoneda, [Bitcoin](https://criptomo.com/que-es-bitcoin/), pero desde entonces ha sido aplicada a una [amplia gama de usos más allá de las monedas digitales](https://criptomo.com/los-diferentes-tipos-de-criptomonedas/). En este ensayo, discutiremos los conceptos básicos de la tecnología blockchain y exploraremos algunos de sus principales usos.
 

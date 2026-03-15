@@ -9,6 +9,15 @@ banner_image: 201801/bitcoin-scalability.jpg
 rating: 4.75
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Cuántas transacciones por segundo puede procesar Bitcoin?"
+    answer: "Bitcoin procesa entre 4 y 10 transacciones por segundo, muy por debajo de redes de pago como VISA o Mastercard, que gestionan decenas de miles de transacciones por segundo."
+  - question: "¿Por qué reducir el tiempo de bloque de Bitcoin no mejora su escalabilidad?"
+    answer: "Reducir el tiempo de bloque aumenta los bloques huérfanos y stale blocks, lo que fragmenta la potencia de minado y puede resultar en validaciones más lentas en lugar de más rápidas."
+  - question: "¿Qué es Segregated Witness (SegWit) y cómo ayuda a la escalabilidad?"
+    answer: "SegWit separa las firmas digitales de los datos de transacción, aumentando el espacio disponible en cada bloque de 1 MB a un equivalente virtual de hasta 4 MB. Además prepara la red para implementar Lightning Network."
+  - question: "¿Qué es Lightning Network?"
+    answer: "Lightning Network es una solución de segunda capa que permite abrir canales de pago entre usuarios fuera del blockchain principal, reduciendo el número de transacciones que se registran en la cadena y aumentando drásticamente la capacidad de la red."
 ---
 
 El problema de escalabilidad de Bitcoin es un tema que crea mucho debate y que ha ocasionado numerosas creaciones de nuevas criptomonedas intentando resolverse. Su limitada capacidad de 4-10 transacciones por segundo queda muy lejos de rivalizar a los gigantes de la industria como VISA o Mastercard que manejan decenas de miles de tps. Se han discutido varios métodos de arreglar este problema.

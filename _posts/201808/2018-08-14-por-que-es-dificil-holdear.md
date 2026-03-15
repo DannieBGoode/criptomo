@@ -9,6 +9,13 @@ banner_image: 201808/hodl.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué significa HODL en criptomonedas?"
+    answer: "HODL es un término popular en la comunidad cripto que significa mantener los fondos sin venderlos, independientemente de las caídas del mercado. Se considera una estrategia de inversión a largo plazo."
+  - question: "¿Por qué es difícil mantener criptomonedas en un mercado bajista?"
+    answer: "Ver cómo el valor de las inversiones cae puede generar un fuerte impulso de vender para minimizar pérdidas. A esto se suman presiones externas como la inflación, la publicidad y los deseos propios de gasto."
+  - question: "¿Por qué los gobiernos incentivan el gasto en lugar del ahorro?"
+    answer: "Los gobiernos con políticas keynesianas fomentan el consumo porque recaudan impuestos sobre las transacciones y consideran que el gasto dinamiza la economía. La inflación es uno de los mecanismos que desincentiva el ahorro a largo plazo."
 ---
 
 Se conoce como *HODL* aguantar los fondos a través de todas las bajadas, pase lo que pase. De hecho, es en estos momentos tan oscuros cuando resulta mejor idea invertir en aquellos proyectos en los que realmente creemos y que queremos apoyar económicamente para además maximizar nuestras futuras ganancias.

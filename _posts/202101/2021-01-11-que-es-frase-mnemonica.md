@@ -13,6 +13,15 @@ TotalVotes: 38
 popular: true
 ref: what-mnemonic
 lang: es
+faq:
+  - question: "¿Qué es una frase mnemónica en criptomonedas?"
+    answer: "Es un conjunto de 12 a 24 palabras en inglés que sirve como copia de seguridad de un wallet de no-custodia. Cualquier persona que posea esta frase puede restaurar el wallet completo y acceder a todos sus fondos."
+  - question: "¿Cuál es la diferencia entre un wallet de custodia y uno de no-custodia?"
+    answer: "En un wallet de custodia, una empresa guarda las claves privadas del usuario, similar a un banco. En un wallet de no-custodia, el usuario es el único poseedor de sus claves y de su frase mnemónica, por lo que perderlas implica perder el acceso irreversible a los fondos."
+  - question: "¿Qué estándar define las frases mnemónicas?"
+    answer: "Las frases mnemónicas siguen el estándar BIP39 (Bitcoin Improvement Proposal 39), sugerido originalmente por Satoshi Labs. Las palabras se eligen de un diccionario en inglés de 2048 términos."
+  - question: "¿Qué tan segura es una frase mnemónica de 24 palabras?"
+    answer: "La probabilidad de adivinar una frase mnemónica de 24 palabras es de 1 entre 2 elevado a 264, lo que equivale aproximadamente al número de átomos del universo observable. Esto la hace prácticamente imposible de vulnerar sin ordenadores cuánticos."
 ---
 Una frase mnemónica, también conocida como una semilla (seed), es un grupo de palabras que se utilizan como ayuda para la memoria para ayudar a una persona a recordar una información compleja o larga. Esta frase a menudo se utiliza para ayudar a las personas a recordar contraseñas.
 

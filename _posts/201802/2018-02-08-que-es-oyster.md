@@ -9,6 +9,15 @@ banner_image: 201802/oyster.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es Oyster Protocol (PRL)?"
+    answer: "Oyster Protocol es un proyecto que ofrece almacenamiento descentralizado y anónimo en el Tangle de IOTA, con la particularidad de proponer sustituir la publicidad web como modelo de financiación para páginas web."
+  - question: "¿Cómo almacena archivos Oyster Protocol?"
+    answer: "Los archivos se cifran y fragmentan en el dispositivo del usuario antes de ser distribuidos en el Tangle de IOTA, de modo que solo quien posea el handle puede acceder al contenido."
+  - question: "¿En qué se diferencia Oyster de Storj o Siacoin?"
+    answer: "Oyster es totalmente anónimo y descentralizado, ofrece descargas ilimitadas una vez subido el archivo, y no requiere descargar el blockchain completo como Siacoin para poder usarlo."
+  - question: "¿Qué es el PEG de Oyster PRL?"
+    answer: "El PEG es el mecanismo por el cual el valor de 1 PRL queda vinculado a una cantidad fija de almacenamiento, lo que pretende reducir la volatilidad del token al anclar su precio al mercado de almacenamiento."
 ---
 
 Oyster Protocol es una moneda que se caracteriza por ofrecer tres cosas distintas, cualquiera de las tres habría podido justificar la creación de una moneda en sí, pero es la combinación de las tres lo que la hace tan prometedora.

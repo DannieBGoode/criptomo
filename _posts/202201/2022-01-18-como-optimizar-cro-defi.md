@@ -9,6 +9,15 @@ rating: 5
 TotalVotes: 10
 ref: cro-defi
 lang: es
+faq:
+  - question: "¿Cuál es la mejor forma de hacer staking con CRO para maximizar el rendimiento?"
+    answer: "La plataforma DeFi de Crypto.com ofrece los retornos más altos, de hasta un 12% anual, frente al Exchange (10%) y Crypto Earn (6%). Además, con la DeFi Wallet mantienes el control de tu clave privada."
+  - question: "¿Qué diferencia hay entre CRO ERC-20 y CRO nativa?"
+    answer: "El CRO ERC-20 corre sobre Ethereum y requiere gas para las transacciones. El CRO nativo opera directamente sobre el blockchain de Crypto.com, con tasas de transacción mucho más bajas."
+  - question: "¿Qué es el período de unbounding en la DeFi Wallet de Crypto.com?"
+    answer: "Es el plazo de 28 días que debes esperar para retirar fondos una vez que dejas de delegar en un validador. Si cambias de validador sin retirar fondos, no hay penalización de espera."
+  - question: "¿Puedo hacer staking de CRO desde un hardware wallet?"
+    answer: "Sí, la aplicación DeFi de Crypto.com permite realizar staking con fondos almacenados en un hardware wallet como Ledger Nano, lo que añade una capa adicional de seguridad a tus activos."
 ---
 
 ## Qué es DeFi ?

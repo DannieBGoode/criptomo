@@ -14,6 +14,15 @@ TotalVotes: 6
 popular: false
 ref: uniswap
 lang: es
+faq:
+  - question: "¿Qué es Uniswap y cómo funciona?"
+    answer: "Uniswap es un protocolo de intercambio descentralizado (DEX) sobre Ethereum que permite cambiar criptomonedas directamente entre usuarios mediante contratos inteligentes y pozos de liquidez, sin necesidad de un intermediario centralizado."
+  - question: "¿Qué son los pozos de liquidez en Uniswap?"
+    answer: "Son fondos de criptomonedas aportados por usuarios llamados proveedores de liquidez. Cuando alguien realiza un intercambio, los tokens se toman de estos fondos y el proveedor recibe tokens de liquidez que representan su participación y generan comisiones."
+  - question: "¿Necesito registrarme o pasar verificación KYC para usar Uniswap?"
+    answer: "No. Uniswap no requiere registro ni proceso de verificación de identidad. Solo se necesita una cartera Ethereum como MetaMask y una conexión a Internet."
+  - question: "¿Cuáles son los principales riesgos de usar Uniswap?"
+    answer: "Los principales riesgos son la variabilidad de la liquidez según el par de criptomonedas, la falta de regulación en el sector DeFi y la ausencia de una autoridad central que proteja a los usuarios ante incidentes de seguridad."
 ---
 [Uniswap](https://app.uniswap.org/)es un protocolo de financiamiento descentralizado (DeFi) que permite a los usuarios intercambiar criptomonedas en la cadena de bloques Ethereum. Fue lanzado en noviembre de 2018 por Hayden Adams, un ingeniero de software y emprendedor, y desde entonces se ha convertido en uno de los protocolos DeFi más populares del mundo.
 

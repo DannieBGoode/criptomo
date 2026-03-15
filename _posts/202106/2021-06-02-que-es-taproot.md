@@ -9,6 +9,15 @@ rating: 5
 TotalVotes: 12
 ref: taproot
 lang: es
+faq:
+  - question: "¿Qué es Taproot en Bitcoin?"
+    answer: "Taproot es una actualización de Bitcoin implementada como soft fork que mejora la privacidad, la seguridad y la escalabilidad de la red. Permite que transacciones complejas como multisig o contratos con timelock sean indistinguibles de las transacciones ordinarias."
+  - question: "¿Qué ventajas aporta Taproot a la privacidad?"
+    answer: "Con Taproot, un observador externo no puede distinguir si una transacción pertenece a un multisig, a un contrato inteligente, a la Lightning Network o a una transferencia normal, lo que mejora el anonimato de los usuarios."
+  - question: "¿Qué relación tiene Taproot con las firmas Schnorr?"
+    answer: "Las firmas Schnorr son un requisito indispensable para el funcionamiento de Taproot. Permiten agregar múltiples firmas en una sola, reduciendo el tamaño de las transacciones y sus comisiones."
+  - question: "¿Qué es la maleabilidad de las firmas que corrige Taproot?"
+    answer: "La maleabilidad de las firmas es la posibilidad de alterar una firma de transacción antes de su confirmación, lo que podría permitir un doble gasto. Taproot elimina este riesgo al cambiar el esquema de firma utilizado."
 ---
 
 Una de las principales características de Bitcoin es que no hay ninguna entidad detrás. Esto significa que cualquier cambio realizado sobre la red debe tener un consenso máximo o será rechazado por distintos nodos y se originará una nueva moneda, como ya pasó con [Bitcoin Cash](/que-es-bitcoin-cash/). Realizar los cambios mediante soft-forks garantiza la retro-compatibilidad y además respeta el hecho de que BTC no haya sido hard-forkeado jamás (a diferencia de ETH, BCH y una infinidad de criptomonedas).

@@ -12,6 +12,15 @@ rating: 5
 TotalVotes: 4
 popular: false
 lang: es
+faq:
+  - question: "¿Qué es Ethereum y en qué se diferencia de Bitcoin?"
+    answer: "Ethereum es una plataforma blockchain que permite crear aplicaciones descentralizadas y contratos inteligentes, mientras que Bitcoin está diseñado principalmente como moneda digital. Ethereum usa Ether como moneda nativa para pagar la ejecución de esas aplicaciones."
+  - question: "¿Qué es un smart contract en Ethereum?"
+    answer: "Un contrato inteligente es código que se ejecuta automáticamente en el blockchain cuando se cumplen unas condiciones predefinidas, sin necesidad de intermediarios."
+  - question: "¿Quién creó Ethereum?"
+    answer: "Ethereum fue propuesto por Vitalik Buterin en 2013 y lanzado oficialmente en 2015 tras una financiación inicial de más de 18 millones de dólares."
+  - question: "¿Qué es el gas en Ethereum?"
+    answer: "El gas es la unidad que mide el coste computacional de ejecutar operaciones en la red Ethereum. Cada transacción o contrato inteligente requiere pagar una tasa en gas, denominada en gwei."
 ---
 [Ethereum](https://www.ethereum.org/) es una plataforma open source basada en tecnología blockchain que permite a desarrolladores construir y desplegar sus propias aplicaciones descentralizadas que correrán exactamente de la manera en que han sido programadas sin que se puedan censurar, interferir o desconectar.
 

@@ -9,6 +9,15 @@ banner_image: 201805/pow-pos.jpg
 rating: 5
 totalVotes: 4
 lang: es
+faq:
+  - question: "¿Cuál es la diferencia entre Proof of Work y Proof of Stake?"
+    answer: "En Proof of Work los participantes compiten resolviendo problemas matemáticos gastando electricidad, mientras que en Proof of Stake los validadores bloquean una cantidad de criptomoneda como garantía. PoW consume mucha energía; PoS prácticamente ninguna."
+  - question: "¿Qué es el problema de 'nada en juego' en Proof of Stake?"
+    answer: "El problema de nada en juego ocurre cuando un validador apoya simultáneamente varias versiones del blockchain porque hacerlo no le cuesta nada, lo que dificulta la resolución de conflictos y podría permitir el doble gasto."
+  - question: "¿Qué criptomonedas usan Proof of Stake?"
+    answer: "Ethereum migró a Proof of Stake con su actualización The Merge. Cardano también utiliza PoS mediante su protocolo Ouroboros."
+  - question: "¿Favorece Proof of Work a los mineros con más recursos?"
+    answer: "Sí. Quien dispone de más capital puede adquirir más hardware de minado y obtener mayores recompensas, lo que genera una economía de escalado donde los participantes con más recursos acumulan más beneficios."
 ---
 
 Proof of Work y Proof of Stake son los mecanismos de consenso principales utilizados en el mundo de las criptomonedas y existe mucho debate sobre cuál es el mejor. Ambos algoritmos ofrecen un sistema de incentivos para los participantes de una red de manera que cumplan con las reglas del sistema.

@@ -10,6 +10,15 @@ banner_image: 201712/attack.jpg
 rating: 4.75
 totalVotes: 4
 lang: es
+faq:
+  - question: "¿Qué es el ataque del 51% en una blockchain?"
+    answer: "Es un ataque en el que una entidad consigue controlar más del 51% del poder computacional de la red. Esto le permite minar bloques más rápido que el resto, pudiendo reescribir el historial de transacciones o censurar operaciones específicas."
+  - question: "¿Qué puede hacer un atacante con el 51% del poder computacional?"
+    answer: "Puede minar bloques en secreto para luego reemplazar la cadena pública, anulando transacciones ya realizadas (doble gasto), o censurar transacciones de determinadas direcciones impidiendo que sean incluidas en el blockchain."
+  - question: "¿Por qué el ataque del 51% no se considera una amenaza real para Bitcoin?"
+    answer: "El coste económico de adquirir el 51% del poder computacional de Bitcoin es extremadamente elevado. Además, por la teoría de juegos, al atacante le resulta más rentable usar ese poder para minar honestamente y obtener recompensas que destruir el sistema."
+  - question: "¿Cómo resuelve Bitcoin los conflictos entre cadenas?"
+    answer: "El protocolo de Bitcoin siempre elige la cadena más larga como la válida. Este principio es fundamental para el funcionamiento del consenso distribuido y es la razón por la que un atacante necesita generar bloques más rápido que el resto de la red."
 ---
 
 El ataque del 51 por ciento es altamente discutido entre la comunidad de las criptomonedas por las consecuencias catastróficas para la red que podría llegar a tener.

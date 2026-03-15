@@ -9,6 +9,15 @@ banner_image: 201807/hashing.png
 rating: 5
 totalVotes: 9
 lang: es
+faq:
+  - question: "¿Qué es un hash en criptomonedas?"
+    answer: "Un hash es una cadena alfanumérica de longitud fija generada a partir de cualquier dato mediante una función matemática. Es determinístico e irreversible, lo que significa que el mismo dato siempre produce el mismo hash pero no es posible recuperar el dato original a partir del hash."
+  - question: "¿Qué función de hash usa Bitcoin?"
+    answer: "Bitcoin utiliza SHA-256, una función de hash considerada segura y ampliamente auditada."
+  - question: "¿Qué diferencia hay entre hash y cifrado?"
+    answer: "El hashing es un proceso unidireccional sin posibilidad de revertirse, mientras que el cifrado es bidireccional y permite recuperar el dato original si se dispone de la clave correcta."
+  - question: "¿Qué es una firma digital?"
+    answer: "Una firma digital es el resultado de cifrar el hash de un mensaje con una clave privada. Cualquiera que disponga de la clave pública correspondiente puede verificar que el mensaje fue enviado por el titular de dicha clave."
 ---
 
 Con frecuencia hablamos en este mundo de hashes y cifrados asimétricos, por lo que es importante tener claro estos conceptos que tanto uso se le dan en el mundo de las criptomonedas.

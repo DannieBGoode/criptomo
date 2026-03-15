@@ -10,6 +10,15 @@ banner_image: 201712/proof-of-work.jpg
 rating: 5
 totalVotes: 9
 lang: es
+faq:
+  - question: "¿Qué es Proof of Work en Bitcoin?"
+    answer: "Proof of Work es un mecanismo de consenso que exige a los mineros resolver un problema matemático computacionalmente costoso para añadir un bloque a la cadena. Esto evita el spam y los ataques a la red sin necesidad de una autoridad central."
+  - question: "¿Cómo funciona la minería de Bitcoin?"
+    answer: "Los mineros agrupan transacciones en un bloque candidato, añaden un valor aleatorio llamado nonce y aplican SHA-256 hasta obtener un hash con el número de ceros exigido por la dificultad de la red. El primero en lograrlo recibe la recompensa del bloque."
+  - question: "¿Por qué Proof of Work consume tanta energía?"
+    answer: "Cuantos más mineros compiten, mayor es la dificultad ajustada por la red, lo que obliga a realizar más cálculos y a consumir más electricidad. Este gasto energético es el coste de seguridad de la red."
+  - question: "¿Cada cuánto tiempo se mina un bloque de Bitcoin?"
+    answer: "La red ajusta la dificultad cada dos semanas aproximadamente para que el tiempo medio entre bloques se mantenga en torno a diez minutos."
 ---
 
 Proof of Work es un protocolo que evita que se hagan ataques DDoS o spam a la red de Bitcoin. Es probablemente la pieza clave de todo el whitepaper original de Bitcoin y al mismo tiempo es altamente criticado por su consumo energético.

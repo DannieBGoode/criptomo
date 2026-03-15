@@ -9,6 +9,15 @@ banner_image: 201804/stellar.png
 rating: 5
 totalVotes: 2
 lang: es
+faq:
+  - question: "¿Qué es Stellar Lumens (XLM)?"
+    answer: "Stellar es una plataforma blockchain descentralizada creada en 2014 como fork de Ripple que facilita transferencias de dinero entre distintas divisas con comisiones inferiores a un céntimo. Su objetivo es ofrecer servicios financieros accesibles a personas de cualquier nivel económico en todo el mundo."
+  - question: "¿Qué es un anchor en la red Stellar?"
+    answer: "Un anchor es una entidad de confianza que recibe dinero real de los usuarios y les otorga crédito virtual equivalente en la red Stellar. Actúa como puente entre las divisas tradicionales y la red, de forma similar a cómo funciona PayPal con el dinero de los usuarios."
+  - question: "¿Para qué sirven los Lumens (XLM)?"
+    answer: "Los Lumens tienen dos funciones principales dentro de la red Stellar: servir como pequeña tasa anti-spam en cada transacción (0.00001 XLM) y actuar como moneda puente en intercambios entre distintas divisas cuando no existe un par de cambio directo."
+  - question: "¿En qué se diferencia Stellar de Ripple?"
+    answer: "Ambos proyectos facilitan transferencias inter-divisas, pero Stellar opera como organización sin ánimo de lucro y está enfocada en la inclusión financiera de personas no bancarizadas. Ripple en cambio está orientada a bancos e instituciones financieras y opera como empresa privada."
 ---
 
 Stellar es una plataforma híbrida descentralizada basada en blockchain que pretende facilitar transacciones inter-divisas por comisiones menores a un céntimo creando un sistema financiero que permite a gente de todos los niveles sociales acceder a servicios financieros baratos.

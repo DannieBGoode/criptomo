@@ -9,6 +9,15 @@ banner_image: 202004/decentralization.webp
 rating: 5
 totalVotes: 4
 lang: es
+faq:
+  - question: "¿Qué es la descentralización en criptomonedas?"
+    answer: "La descentralización se da cuando ninguna entidad única domina o controla el ecosistema. En criptomonedas se manifiesta en tres áreas principales: el minado, el proceso de forks y el desarrollo del protocolo."
+  - question: "¿Por qué más mineros hace una red más descentralizada?"
+    answer: "Con muchos mineros es mucho más difícil que todos se pongan de acuerdo para censurar transacciones o realizar un ataque del 51%. Cuantos más participantes independientes haya, más costoso y complicado es controlar la red."
+  - question: "¿Cuáles son las desventajas de la descentralización?"
+    answer: "Una mayor descentralización reduce la velocidad de las transacciones por segundo, ya que se necesita que más nodos alcancen consenso. Además, los errores o fallos en contratos inteligentes son difíciles de corregir sin el acuerdo de toda la comunidad."
+  - question: "¿Puede una criptomoneda ser suficientemente descentralizada?"
+    answer: "No existe un umbral fijo, ya que el nivel de descentralización varía con el tiempo según factores como la incorporación de nuevos mineros, el precio de la electricidad y la aparición de hardware más potente. El coste de atacar la red es el indicador más práctico."
 ---
 
 Todo el mundo habla de la descentralización, de cómo es lo mejor de las criptomonedas y se debate qué criptomoneda está más descentralizada que cual otra. ¿ Pero qué es la descentralización realmente?

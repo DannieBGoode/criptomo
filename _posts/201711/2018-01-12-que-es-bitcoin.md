@@ -9,6 +9,15 @@ banner_image: 201711/bitcoin.png
 rating: 4.75
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Qué es Bitcoin y cómo funciona?"
+    answer: "Bitcoin es una moneda digital descentralizada creada en 2009 por Satoshi Nakamoto. Funciona mediante una red de mineros que validan transacciones y las registran en una cadena de bloques pública llamada blockchain, sin necesidad de bancos ni autoridades centrales."
+  - question: "¿Cuántos bitcoins existen en total?"
+    answer: "El protocolo de Bitcoin limita la oferta total a 21 millones de monedas, que se habrán distribuido completamente a los mineros aproximadamente en el año 2140."
+  - question: "¿Cuánto tarda una transacción de Bitcoin en confirmarse?"
+    answer: "Una transacción se añade a un bloque aproximadamente cada 10 minutos. Se considera totalmente confirmada tras 6 bloques, lo que equivale a unos 60 minutos."
+  - question: "¿Es Bitcoin anónimo?"
+    answer: "Bitcoin es seudónimo, no anónimo. Todas las transacciones y direcciones son públicas en el blockchain, aunque no muestran directamente el nombre del propietario."
 ---
 
 Bitcoin es una moneda electrónica creada digitalmente basándose en principios de criptografía. Nadie puede controlarla, no puede ser impresa, ni copiada y es generada mediante un procedimiento de inflación controlada que premia a los colaboradores (mineros) con más unidades.

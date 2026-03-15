@@ -9,6 +9,15 @@ rating: 5
 TotalVotes: 16
 ref: schnorr
 lang: es
+faq:
+  - question: "¿Qué son las firmas Schnorr?"
+    answer: "Las firmas Schnorr son un algoritmo de firma digital desarrollado por Claus Schnorr, más simple y eficiente que ECDSA. En Bitcoin permiten agregar varias firmas de una transacción multisig en una única firma, reduciendo el tamaño y el coste de la transacción."
+  - question: "¿Por qué Bitcoin no usó firmas Schnorr desde el principio?"
+    answer: "Satoshi Nakamoto optó por ECDSA porque era un algoritmo bien conocido, seguro y de código abierto en el momento de crear Bitcoin. Las firmas Schnorr estaban protegidas por una patente que no expiró hasta 2008."
+  - question: "¿Qué ventajas tienen las firmas Schnorr sobre ECDSA?"
+    answer: "Las firmas Schnorr son más simples, se consideran más seguras y permiten la agregación de firmas, lo que abarata las transacciones multisig y dificulta que un observador identifique que una transacción requirió varias firmas."
+  - question: "¿Para qué sirven las firmas Schnorr en Bitcoin?"
+    answer: "Son la base técnica de Taproot y facilitan mejoras en atomic swaps y la Lightning Network. Permiten que las transacciones multisig sean más baratas y privadas al combinar todas las firmas en una sola."
 ---
 
 Las firmas schnorr fueron desarrolladas por Claus Schnorr, un criptógrafo y matemático alemán que decidió protegerlas mediante una patente durante muchos años y que finalmente expiró en 2008 (meses antes del whitepaper de Bitcoin). Entre otros beneficios las firmas schnorr destacan por su simplicidad y eficiencia.

@@ -9,6 +9,15 @@ banner_image: 201712/coins.jpg
 rating: 5
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Cómo puedo comprar altcoins que no están en Coinbase?"
+    answer: "Primero debes comprar Bitcoin o Ethereum en un exchange como Coinbase, luego transferirlos a Binance y cambiarlos por la altcoin que desees. Puedes consultar en CoinMarketCap qué exchanges venden cada moneda."
+  - question: "¿Por qué es más barato enviar Litecoin que Bitcoin entre exchanges?"
+    answer: "Las tasas de transacción de Bitcoin pueden ser muy elevadas en momentos de congestión de red, mientras que otras monedas como Litecoin tienen tasas mucho menores, lo que reduce el coste del envío."
+  - question: "¿Qué ocurre si envío criptomonedas a una dirección del tipo incorrecto?"
+    answer: "Perderías los fondos de forma permanente. Siempre debes asegurarte de que la dirección de destino corresponde exactamente al tipo de criptomoneda que estás enviando."
+  - question: "¿Cómo vendo mis altcoins y convierto las ganancias a dinero fiat?"
+    answer: "Debes enviar tus altcoins a Binance, venderlas por Bitcoin, transferir ese Bitcoin a Coinbase, venderlo allí por euros o dólares, y finalmente retirar el dinero a tu cuenta bancaria."
 ---
 
 Esta entrada es la continuación del artículo [cómo comprar criptomonedas](/como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas a cambio de BTC suponiendo que ya  poseemos está u otra criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q) para ello. El motivo por el que haríamos esto es por que la mayor parte de los Exchanges que venden estas monedas no aceptan transferencias bancarias.

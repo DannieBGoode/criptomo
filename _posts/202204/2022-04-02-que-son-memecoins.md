@@ -9,6 +9,15 @@ rating: 5
 TotalVotes: 4
 ref: memecoins
 lang: es
+faq:
+  - question: "¿Qué son los memecoins?"
+    answer: "Los memecoins son criptomonedas inspiradas en memes o chistes de internet. No suelen tener un caso de uso técnico sólido y su valor depende principalmente de la popularidad y la especulación."
+  - question: "¿Cómo nació Dogecoin?"
+    answer: "Dogecoin fue creado en 2013 por Billy Markus y Jackson Palmer como una broma y crítica hacia las criptomonedas. Sus creadores no esperaban que tuviera valor y vendieron sus tokens a precios muy bajos."
+  - question: "¿Son los memecoins una buena inversión?"
+    answer: "Los memecoins son altamente volátiles y están sujetos a factores externos impredecibles como tweets de celebridades. Se consideran una inversión de alto riesgo con fundamentales poco sólidos."
+  - question: "¿Qué precauciones hay que tomar al invertir en memecoins?"
+    answer: "Es recomendable verificar que los pools de liquidez vayan a direcciones quemadas, invertir solo en contratos auditados por la comunidad y desconfiar de proyectos donde una sola persona controle más del 5% del suministro."
 ---
 
 

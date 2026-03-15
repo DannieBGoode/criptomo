@@ -10,6 +10,15 @@ rating: 5
 totalVotes: 1
 popular:  true
 lang: es
+faq:
+  - question: "¿Cómo puedo saber si una criptomoneda es una estafa?"
+    answer: "Desconfía de proyectos con equipo anónimo, sin whitepaper claro, sin código en GitHub o con página web deficiente. Si no puedes identificar qué problema resuelve la moneda, es una señal de alerta."
+  - question: "¿Qué es un whitepaper y por qué debo leerlo antes de invertir?"
+    answer: "El whitepaper es el documento técnico que describe el problema que resuelve la criptomoneda, su tecnología y su modelo económico. Leerlo permite evaluar si el proyecto tiene utilidad real antes de invertir."
+  - question: "¿Por qué es importante que una criptomoneda sea open source?"
+    answer: "El código abierto permite auditar la actividad del equipo en GitHub, verificar la calidad del código y comprobar que el proyecto está en desarrollo activo. Un proyecto sin código público es imposible de evaluar de forma independiente."
+  - question: "¿Es seguro invertir en las 10 criptomonedas con mayor capitalización?"
+    answer: "Es una estrategia más conservadora que apostar por monedas desconocidas, ya que confías en el análisis colectivo del mercado. Aun así conlleva riesgos inherentes a la alta volatilidad del sector."
 ---
 
 Debemos tener muy claro que el 90% de las altcoins fracasarán, y que muchas de ellas son directamente estafas para levantar mucho dinero en ICOs y desaparecer sin dejar rastro. Con las miles de criptomonedas que hay en el mercado puede ser posible elegir en cual invertir. Veamos de qué manera debemos valorar las monedas antes de decidirnos a meter dinero.

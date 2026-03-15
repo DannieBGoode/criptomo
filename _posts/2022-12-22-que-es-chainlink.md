@@ -13,6 +13,15 @@ TotalVotes: 1
 popular: false
 ref: chainlink
 lang: es
+faq:
+  - question: "¿Qué es Chainlink y para qué sirve?"
+    answer: "Chainlink es una red descentralizada de oráculos que conecta contratos inteligentes del blockchain con datos del mundo real, como precios de activos, condiciones meteorológicas o respuestas de APIs externas."
+  - question: "¿Qué es un oráculo en blockchain?"
+    answer: "Un oráculo es un servicio que actúa como puente entre el blockchain y fuentes de datos externas, permitiendo que los contratos inteligentes accedan a información que no está almacenada en la propia cadena."
+  - question: "¿Cómo garantiza Chainlink la fiabilidad de los datos?"
+    answer: "Chainlink usa una red de nodos operados de forma independiente y un sistema de reputación que recompensa con tokens LINK a los nodos que ofrecen datos precisos, y sanciona a los que proporcionan información incorrecta."
+  - question: "¿Quién fundó Chainlink?"
+    answer: "Chainlink fue fundada en 2014 por Sergey Nazarov, quien identificó la necesidad de que los contratos inteligentes pudieran acceder de forma segura a datos externos al blockchain."
 ---
 ChainLink es una red descentralizada de oráculos que permite a los contratos inteligentes de la cadena de bloques Ethereum acceder de forma segura a fuentes de datos fuera de la cadena, APIs web y otros recursos. Los oráculos son, esencialmente, middleware que proporcionan un puente entre la cadena de bloques y el mundo real, permitiendo a los contratos inteligentes recuperar datos de fuentes externas y utilizarlos para desencadenar su ejecución.
 

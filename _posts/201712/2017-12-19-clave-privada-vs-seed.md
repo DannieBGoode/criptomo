@@ -7,6 +7,15 @@ layout: post
 description: Aprende a obtener tu clave privada a partir de un seed con BIP39 y entiende la diferencia entre import y sweep para recuperar tus criptomonedas de forma segura.
 banner_image: 201712/key-restore.jpg
 lang: es
+faq:
+  - question: "¿Qué diferencia hay entre una clave privada y un seed?"
+    answer: "Un seed es una frase que permite derivar un conjunto completo de claves privadas, mientras que una clave privada controla únicamente los fondos de una dirección concreta. A partir del seed se pueden obtener claves privadas, pero no al revés."
+  - question: "¿Cómo puedo obtener mi clave privada a partir de un seed?"
+    answer: "Se puede usar la herramienta BIP39 de Ian Coleman, introduciendo el seed y seleccionando la moneda y la ruta de derivación BIP44. En la sección de direcciones derivadas aparecerán las claves públicas y privadas correspondientes."
+  - question: "¿Qué es la diferencia entre import y sweep de una clave privada?"
+    answer: "Con import, la clave privada se añade al nuevo wallet pero sigue siendo válida en cualquier otro wallet que la importe. Con sweep, los fondos se transfieren a una nueva dirección, dejando la antigua vacía, lo que es más seguro si la clave pudo haber sido comprometida."
+  - question: "¿Es seguro usar la herramienta BIP39 online?"
+    answer: "Se recomienda descargar la herramienta y usarla en un dispositivo sin conexión a internet, ya que existen programas maliciosos que simulan ser herramientas similares para robar el seed del usuario."
 ---
 
 Muchos wallets nos suministrarán un seed con el cual poder recuperar nuestros fondos en el caso en que perdamos el wallet en sí. Por desgracia no siempre es tan fácil importar estos seeds a wallets nuevos como nos gustaría.

@@ -12,6 +12,15 @@ TotalVotes: 3
 popular: false
 ref: rollups
 lang: es
+faq:
+  - question: "¿Qué son los rollups en Ethereum?"
+    answer: "Los rollups son soluciones de escalado de segunda capa que mueven la computación y el almacenamiento del estado fuera de la cadena principal, dejando solo información de verificación en el blockchain. Esto reduce drásticamente el coste por transacción."
+  - question: "¿Cuál es la diferencia entre Optimistic Rollups y ZK Rollups?"
+    answer: "Los Optimistic Rollups usan pruebas de fraude y tienen un periodo de retiro de aproximadamente una semana, mientras que los ZK Rollups usan pruebas criptográficas zk-snark que validan cada lote al instante pero con mayor coste computacional."
+  - question: "¿Para qué sirven los rollups?"
+    answer: "Los rollups sirven para aumentar la capacidad de transacciones de Ethereum reduciendo el coste del gas. Por ejemplo, una transferencia ERC20 puede pasar de costar 45.000 gas a solo 300 gas usando rollups."
+  - question: "¿Los rollups son compatibles con smart contracts?"
+    answer: "Sí, los rollups soportan la EVM (Ethereum Virtual Machine), lo que permite ejecutar smart contracts dentro de la segunda capa y mejora enormemente la escalabilidad de la red."
 ---
 ¿Quieres saber todo sobre los roll ups? ¡Estás en el lugar correcto! En este artículo, te ofrecemos una guía completa sobre qué son los roll ups y cómo funcionan. 
 

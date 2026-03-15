@@ -16,6 +16,15 @@ redirect_from:
 - "/qué-es-defi"
 ref: defi
 lang: es
+faq:
+  - question: "¿Qué es DeFi o finanzas descentralizadas?"
+    answer: "DeFi es un conjunto de productos y servicios financieros construidos sobre blockchain que operan sin intermediarios como bancos. Incluye préstamos, inversiones, pagos y seguros gestionados mediante contratos inteligentes."
+  - question: "¿Qué ventajas tiene DeFi frente a la banca tradicional?"
+    answer: "DeFi es accesible para cualquier persona con conexión a Internet, sin importar su ubicación o documentación. Elimina intermediarios, lo que puede reducir costes y tiempos de transacción."
+  - question: "¿Cuáles son ejemplos de plataformas DeFi?"
+    answer: "Algunos ejemplos son MakerDAO para préstamos descentralizados, Compound para inversión, dYdX para trading y Uniswap para intercambio de criptomonedas."
+  - question: "¿Qué riesgos tiene DeFi?"
+    answer: "Los principales riesgos son los fallos en el código de los contratos inteligentes, la volatilidad del mercado cripto y la falta de mecanismos de protección al usuario, como demuestra el robo de fondos ocurrido en varias plataformas DeFi."
 ---
 DeFi, también conocido como financiamiento descentralizado, es un movimiento en el mundo de las criptomonedas que busca desarrollar productos y servicios financieros basados en tecnología blockchain. La idea detrás de DeFi es proporcionar servicios financieros de **manera más eficiente, accesible y segura**, utilizando la tecnología blockchain y **eliminando la necesidad de intermediarios confiables**.
 

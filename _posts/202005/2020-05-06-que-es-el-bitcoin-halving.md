@@ -10,6 +10,15 @@ rating: 5
 totalVotes: 6
 lang: es
 ref: what-bitcoin-halving
+faq:
+  - question: "¿Qué es el halving de Bitcoin?"
+    answer: "El halving es un evento programado en el protocolo de Bitcoin por el cual la recompensa que reciben los mineros por cada bloque se reduce a la mitad. Ocurre aproximadamente cada cuatro años, o cada 210.000 bloques minados."
+  - question: "¿Cada cuánto tiempo ocurre el halving de Bitcoin?"
+    answer: "El halving ocurre cada 210.000 bloques, lo que equivale aproximadamente a cuatro años, dado que un bloque se mina cada diez minutos de media."
+  - question: "¿Cuántos bitcoins se emitirán en total?"
+    answer: "El suministro máximo de Bitcoin está fijado en aproximadamente 21 millones de unidades. Se estima que el último bitcoin será minado alrededor del año 2140."
+  - question: "¿Cómo afecta el halving al precio de Bitcoin?"
+    answer: "Históricamente, el precio de Bitcoin ha aumentado significativamente tras cada halving. La reducción de la recompensa disminuye la oferta nueva de BTC y, si la demanda se mantiene o crece, el precio tiende a subir."
 ---
 
 Inicialmente, en 2009 cuando nació Bitcoin, se distribuía una [recompensa por bloque minado](/que-es-proof-of-work) de 50BTC, es decir cada 10 minutos se generaban 50BTC de la nada asignados al minero ganador. Según el protocolo de [Bitcoin](/que-es-bitcoin), cada aproximadamente cuatro años la recompensará bajará a la mitad.

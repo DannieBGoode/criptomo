@@ -13,6 +13,15 @@ redirect_from:
 - "/que-es-monaco/"
 lang: es
 ref: crypto-com
+faq:
+  - question: "¿Qué es la tarjeta de débito VISA de Crypto.com?"
+    answer: "Es una tarjeta de prepago sin costes anuales que permite pagar con criptomonedas y dinero fiat. Ofrece cashback de entre el 1% y el 8% según el nivel de tarjeta, además de beneficios como Spotify, Netflix o acceso a salas VIP en aeropuertos."
+  - question: "¿Cuánto CRO hay que bloquear para obtener la tarjeta Ruby Steel?"
+    answer: "Es necesario bloquear el equivalente a 400$ en CRO durante al menos 6 meses. A cambio se obtiene un 2% de cashback en todos los pagos y Spotify gratuito."
+  - question: "¿Qué diferencia hay entre Crypto Earn y la DeFi Wallet de Crypto.com?"
+    answer: "Crypto Earn es una solución centralizada donde Crypto.com custodia tus fondos, mientras que la DeFi Wallet te proporciona la clave privada y participas en finanzas descentralizadas con retornos generalmente más altos."
+  - question: "¿Cómo puedo cargar dinero en la tarjeta de Crypto.com?"
+    answer: "Puedes hacerlo mediante tarjeta de débito bancaria de forma gratuita en Europa, por transferencia bancaria SEPA sin comisión, o vendiendo criptomonedas dentro de la propia aplicación."
 ---
 
 <style>

@@ -15,6 +15,15 @@ TotalVotes: 3
 popular: false
 ref: decentralized-storage
 lang: es
+faq:
+  - question: "¿Qué es el almacenamiento descentralizado?"
+    answer: "El almacenamiento descentralizado consiste en distribuir los datos entre múltiples ordenadores en lugar de almacenarlos en un único servidor central, lo que mejora la resistencia ante fallos y la privacidad."
+  - question: "¿Cuáles son las ventajas del almacenamiento descentralizado?"
+    answer: "Las principales ventajas son mayor resistencia ante fallos y ataques, mayor disponibilidad de los datos, mayor seguridad y privacidad, y mayor escalabilidad al poder añadir nodos de forma sencilla."
+  - question: "¿Cuáles son las desventajas del almacenamiento descentralizado?"
+    answer: "Las principales desventajas son mayor complejidad de gestión, mayor coste por requerir más servidores, mayor latencia en el acceso a los datos y una implementación técnicamente más exigente."
+  - question: "¿Cuáles son ejemplos de almacenamiento descentralizado?"
+    answer: "Los ejemplos más conocidos son IPFS, Storj, Filecoin y MaidSafe, cada uno con distintos enfoques para distribuir y proteger los datos de los usuarios."
 ---
 El almacenamiento descentralizado se refiere a la práctica de distribuir la información y el almacenamiento de datos entre varios ordenadores en lugar de tener todos los datos almacenados en un solo servidor centralizado. 
 

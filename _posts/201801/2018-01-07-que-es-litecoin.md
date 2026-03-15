@@ -9,6 +9,15 @@ banner_image: 201801/litecoin.webp
 rating: 4.5
 totalVotes: 2
 lang: es
+faq:
+  - question: "¿Qué es Litecoin (LTC)?"
+    answer: "Litecoin es una criptomoneda peer-to-peer y open-source creada en 2011 por Charlie Lee como alternativa más rápida a Bitcoin. Comparte la misma base tecnológica que BTC pero con parámetros modificados para facilitar transacciones más ágiles del día a día."
+  - question: "¿En qué se diferencia Litecoin de Bitcoin?"
+    answer: "Litecoin tiene un suministro máximo de 84 millones de monedas frente a los 21 millones de Bitcoin, y su tiempo de bloque es de 2.5 minutos frente a los 10 minutos de Bitcoin. Además utiliza el algoritmo de minado Scrypt en lugar de SHA-256, lo que dificulta la centralización mediante dispositivos ASIC."
+  - question: "¿Para qué se usa Litecoin en la práctica?"
+    answer: "Litecoin se usa frecuentemente para mover fondos entre exchanges de forma más económica que Bitcoin, ya que sus tasas de transferencia son más bajas. También es utilizado como red de pruebas para mejoras que luego se aplican a Bitcoin, como fue el caso de SegWit."
+  - question: "¿Quién creó Litecoin?"
+    answer: "Litecoin fue creado por Charlie Lee, ex ingeniero de Google, que lo lanzó el 7 de octubre de 2011. Lee es una figura pública reconocida en la comunidad cripto y ha ejercido como portavoz del proyecto."
 ---
 
 Litecoin (LTC or Ł) es una de las primeras y más grandes criptomonedas p2p y open-source. Al igual que Bitcoin se basa en tecnología blockchain para procesar transacciones, pero por distintos motivos se decidió modificar algunos de los parámetros de Bitcoin para cambiar su utilidad.

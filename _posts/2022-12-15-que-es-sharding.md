@@ -16,6 +16,15 @@ redirect_from:
 - "/qué-es-sharding"
 ref: sharding
 lang: es
+faq:
+  - question: "¿Qué es el sharding en blockchain?"
+    answer: "El sharding es una técnica de escalabilidad que divide la red en fragmentos más pequeños llamados shards, cada uno capaz de procesar transacciones de forma independiente, lo que aumenta el rendimiento total de la red."
+  - question: "¿Por qué es necesario el sharding?"
+    answer: "A medida que crece el número de usuarios y transacciones, cada nodo debe procesar toda la actividad de la red, lo que genera congestión. El sharding distribuye esa carga entre múltiples fragmentos para que la red pueda escalar."
+  - question: "¿Cómo garantiza la seguridad el sharding?"
+    answer: "El sharding emplea mecanismos de consenso y comunicación inter-shard para asegurar la coherencia entre fragmentos y evitar que un actor malintencionado manipule los datos de un shard sin que el resto de la red lo detecte."
+  - question: "¿Cómo usa Ethereum el sharding?"
+    answer: "Ethereum 2.0 incorpora sharding para dividir la red en múltiples fragmentos que procesan transacciones en paralelo, aumentando la capacidad de la red y mejorando la privacidad al aislar las transacciones de cada shard."
 ---
 Sharding es una técnica utilizada para aumentar la escalabilidad de una red al dividirla en unidades más pequeñas llamadas shards. Cada shard es una red separada que es capaz de procesar transacciones de manera independiente de las demás. Al dividir la red en unidades más pequeñas, el sharding permite un mayor rendimiento de transacciones y reduce la carga en nodos individuales.
 

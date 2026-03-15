@@ -243,6 +243,74 @@
     color: $picton-blue;
 }
 
+.author-social {
+    color: $silver;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.author-social a {
+    color: $silver;
+    text-decoration: none;
+}
+
+.author-social a:hover {
+    color: $picton-blue;
+}
+
+.author-job-title {
+    color: $silver;
+    font-size: 13px;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+/* Author page post list */
+.author-posts {
+    background-color: $white;
+    margin-bottom: $block-separation-desktop;
+    padding: 40px;
+}
+
+.author-posts h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.author-posts .post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.author-posts .post-list li {
+    border-bottom: 1px solid $gallery;
+    padding: 8px 0;
+}
+
+.author-posts .post-list li:last-child {
+    border-bottom: none;
+}
+
+.author-posts .post-list time {
+    color: $silver;
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.author-posts .post-list a {
+    text-decoration: none;
+}
+
+.author-posts .post-list a:hover {
+    color: $picton-blue;
+}
+
 /* Tags archive */
 .archive-tags-list {
     margin-bottom: 24px;

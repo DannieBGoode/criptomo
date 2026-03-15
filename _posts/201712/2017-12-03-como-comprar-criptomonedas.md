@@ -9,6 +9,15 @@ banner_image: 201712/exchange.jpg
 rating: 5
 totalVotes: 6
 lang: es
+faq:
+  - question: "¿Cómo puedo comprar Bitcoin por primera vez?"
+    answer: "Debes registrarte en un exchange como Coinbase o Bitstamp, verificar tu identidad, depositar dinero fiat mediante transferencia SEPA o tarjeta, y comprar Bitcoin al precio de mercado."
+  - question: "¿Qué documentos necesito para verificarme en un exchange?"
+    answer: "La mayoría de exchanges solicitan DNI, pasaporte o carnet de conducir. Dependiendo del importe a invertir pueden pedir documentación adicional como una factura de servicios. El proceso puede tardar horas o días."
+  - question: "¿Qué comisiones cobra Coinbase al comprar criptomonedas?"
+    answer: "Coinbase cobra un 1,5% por compra. Para reducir comisiones al 0,25% puedes usar Coinbase Pro, accesible con la misma cuenta, que ofrece un entorno de trading más avanzado."
+  - question: "¿Por qué debo mover mis criptomonedas fuera del exchange tras comprarlas?"
+    answer: "Los exchanges pueden ser hackeados o desaparecer, lo que supondría la pérdida de tus fondos. Transferir las criptomonedas a un wallet donde controles la clave privada elimina ese riesgo."
 ---
 
 Con tantas noticias de robos, hackeos y blanqueo de dinero puede resultar un poco desafiante empezar en el mundo de las criptomonedas.

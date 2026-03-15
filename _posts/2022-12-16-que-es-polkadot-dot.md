@@ -13,6 +13,15 @@ TotalVotes: 3
 popular: false
 ref: dot
 lang: es
+faq:
+  - question: "¿Qué es Polkadot (DOT)?"
+    answer: "Polkadot es una plataforma blockchain descentralizada desarrollada por la Web3 Foundation que permite la creación de redes interconectadas llamadas parachains, orientadas a la escalabilidad e interoperabilidad."
+  - question: "¿Qué son las parachains de Polkadot?"
+    answer: "Las parachains son redes blockchain independientes que se ejecutan en paralelo dentro del ecosistema de Polkadot, permitiéndoles interoperar entre sí e intercambiar datos y valor."
+  - question: "¿Quién creó Polkadot?"
+    answer: "Polkadot fue creado por Gavin Wood, cofundador y ex-CTO de Ethereum, junto con la Web3 Foundation, con el objetivo de superar las limitaciones de escalabilidad de las blockchains de propósito general."
+  - question: "¿Cómo funciona la gobernanza en Polkadot?"
+    answer: "Polkadot utiliza un proceso de toma de decisiones descentralizado llamado referendum, donde la comunidad vota sobre cambios importantes en la plataforma mediante el token DOT."
 ---
 Polkadot es una plataforma descentralizada que utiliza tecnología blockchain para permitir la creación de redes interconectadas e independientes llamadas "**parachains**". Fue desarrollada por la Web3 Foundation y ha atraído mucha atención en la industria blockchain debido a su enfoque innovador en escalabilidad, interoperabilidad y gobernanza. En este artículo, exploraremos qué es Polkadot, cómo funciona y su posible impacto en el futuro de la tecnología descentralizada.
 

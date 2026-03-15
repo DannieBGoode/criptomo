@@ -9,6 +9,15 @@ banner_image: 201806/qubic.jpg
 rating: 5
 totalVotes: 4
 lang: es
+faq:
+  - question: "¿Qué es Qubic?"
+    answer: "Qubic es un protocolo de IOTA que permite ejecutar smart contracts, oráculos y alquiler de poder computacional directamente en el Tangle, sin costos de transacción."
+  - question: "¿Qué son los oráculos en Qubic?"
+    answer: "Los oráculos de Qubic son sistemas que introducen datos del mundo real en el Tangle, como precios de bolsa, temperaturas o resultados electorales, para desencadenar la ejecución de contratos inteligentes."
+  - question: "¿Cómo funciona el alquiler de poder computacional en Qubic?"
+    answer: "Qubic permite a dispositivos con recursos limitados solicitar capacidad computacional a otros nodos de la red a cambio de un pago en IOTAs, creando un incentivo para mantener nodos completos."
+  - question: "¿En qué se diferencia Qubic de Ethereum en smart contracts?"
+    answer: "A diferencia de Ethereum, las transacciones en el entorno de Qubic son gratuitas, aunque Qubic no es Turing completo, lo que limita ciertos tipos de bucles en los contratos inteligentes."
 ---
 
 Qubic es un protocolo que especifica una solución para cálculos computacionales basadas en quorum de [IOTA](/que-es-iota/), incluyendo smart contracts, oráculos y alquiler de poder computacional. De esta manera Qubic permite realizar dichas tareas directamente en el Tangle habilitando a potencialmente millones de personas de hacer uso de potencia computacional no aprovechada mientras ayudan a escalar el Tangle de manera segura.

@@ -7,6 +7,15 @@ layout: post
 description: Descubre qué es Bitcoin Cash, por qué surgió del hard fork de Bitcoin y cuáles son las diferencias en tamaño de bloque, tasas y velocidad de transacción.
 banner_image: 201712/bitcoin-cash.jpg
 lang: es
+faq:
+  - question: "¿Qué es Bitcoin Cash (BCH)?"
+    answer: "Bitcoin Cash es una criptomoneda surgida el 1 de agosto de 2017 mediante un hard fork de Bitcoin. Su principal diferencia es que aumentó el tamaño de bloque de 1MB a 8MB para permitir más transacciones por segundo y reducir las tasas y los tiempos de espera."
+  - question: "¿Cuál es la diferencia entre Bitcoin y Bitcoin Cash?"
+    answer: "Bitcoin y Bitcoin Cash son monedas distintas que se venden a precios diferentes y no son intercambiables. Bitcoin Cash tiene bloques de 8MB frente al 1MB de Bitcoin, lo que le permite procesar más transacciones con tasas más bajas, aunque a costa de requerir más almacenamiento para los nodos."
+  - question: "¿Por qué se creó Bitcoin Cash?"
+    answer: "Bitcoin Cash se creó porque no se llegó a un acuerdo dentro de la comunidad de Bitcoin sobre cómo solucionar el problema de escalabilidad. Quienes apoyaban aumentar el tamaño de bloque decidieron crear una nueva moneda con bloques de 8MB para permitir un mayor volumen de transacciones diarias."
+  - question: "¿Qué pasó con los bitcoins que tenía antes del fork?"
+    answer: "Todos los usuarios que tenían Bitcoin en sus wallets en la fecha del fork recibieron automáticamente la misma cantidad de Bitcoin Cash. Esto se debe a que BCH copió todo el historial de transacciones de la cadena original de Bitcoin en el momento de la separación."
 ---
 
 Bitcoin (BTC), la primera criptomoneda, está todavía sujeta a importantes problemas de escalabilidad lo cual incrementa enormemente las tasas de transferencia así como la velocidad de las mismas y ha sido extensamente criticada por ello.

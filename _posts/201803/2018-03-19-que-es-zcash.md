@@ -9,6 +9,15 @@ banner_image: 201803/zcash.png
 rating: 5
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Qué es Zcash (ZEC)?"
+    answer: "Zcash es una criptomoneda creada en 2016 como fork de Bitcoin que añade la opción de realizar transacciones completamente privadas. Al igual que Bitcoin, tendrá un máximo de 21 millones de unidades y nunca se realizó preminado ni ICO."
+  - question: "¿Cómo funciona la privacidad en Zcash?"
+    answer: "Zcash permite elegir entre transacciones públicas (como en Bitcoin) o transacciones privadas mediante zk-SNARKs, que ocultan el emisor, el receptor y el importe. Las transacciones privadas tienen un coste de transferencia mayor que las públicas."
+  - question: "¿Qué son los zk-SNARKs?"
+    answer: "Los zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) son un protocolo criptográfico que permite a un tercero verificar que una transacción es válida sin conocer ningún detalle de la misma, como los importes o las identidades involucradas."
+  - question: "¿Qué es ZClassic y en qué se diferencia de Zcash?"
+    answer: "ZClassic es un fork de Zcash que elimina el sistema de tesorería del 20% por bloque destinado a los fundadores y el período de inicio lento. Tecnológicamente es idéntico a Zcash pero con un modelo de distribución de recompensas diferente."
 ---
 
 Por el modo en que la tecnología blockchain funciona, todas las transacciones jamás realizadas son de carácter público. Esta característica traerá mucha transparencia una vez sea adoptada por sistemas gubernamentales o sin ánimo de lucro puesto que ayudarán a evitar corrupción en el sistema al ofrecer transacciones totalmente transparentes que cualquier persona pueda auditar.

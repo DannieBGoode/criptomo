@@ -14,6 +14,15 @@ TotalVotes: 11
 popular: false
 ref: solana
 lang: es
+faq:
+  - question: "¿Qué es Solana y en qué se diferencia de otras blockchains?"
+    answer: "Solana es una blockchain de código abierto diseñada para ser rápida y escalable. Su principal diferencia es el mecanismo de consenso Proof of History (PoH), que le permite procesar miles de transacciones por segundo con tarifas muy bajas."
+  - question: "¿Qué es el Proof of History de Solana?"
+    answer: "Proof of History es un mecanismo que registra eventos en el tiempo de forma criptográfica, lo que permite a los nodos de Solana acordar el orden de las transacciones de manera eficiente sin necesidad de comunicarse constantemente entre sí."
+  - question: "¿Para qué se usa Solana?"
+    answer: "Solana se usa principalmente para aplicaciones DeFi, intercambios descentralizados (DEXs), mercados de NFTs y otras dApps que requieren muchas transacciones rápidas y de bajo coste."
+  - question: "¿Cuáles son las limitaciones de Solana?"
+    answer: "Al ser una plataforma relativamente reciente, puede tener menor seguridad probada que blockchains más antiguas. También está sujeta a los retos regulatorios y de adopción comunes en el sector DeFi."
 ---
 Solana es una plataforma de blockchain descentralizada y de código abierto que tiene como objetivo proporcionar infraestructura **rápida, escalable y segura para aplicaciones descentralizadas** (dApps). Desarrollado por Solana Labs, la red Solana fue lanzada en marzo de 2020 y desde entonces se ha convertido en una de las redes de blockchain con mayor crecimiento en el mundo, con un número creciente de desarrolladores y usuarios que construyen y usan dApps en la plataforma.
 

@@ -10,6 +10,15 @@ rating: 5
 totalVotes: 7
 lang: es
 ref: what-fire
+faq:
+  - question: "¿Qué es el movimiento FIRE?"
+    answer: "FIRE son las siglas de Financial Independence Retire Early, o en español Independencia Financiera Retirarse Temprano. Es un movimiento que promueve ahorrar e invertir de forma agresiva para poder jubilarse anticipadamente, en muchos casos antes de los 40 años."
+  - question: "¿Cómo funciona la regla del 4% en FIRE?"
+    answer: "La regla del 4% indica que si el 4% del portafolio invertido en un índice cubre los gastos anuales, el dinero no se agotará. Se basa en el Estudio Trinity, que muestra que el S&P500 ha ofrecido retornos anualizados del 10% a largo plazo."
+  - question: "¿En qué se invierte siguiendo la estrategia FIRE?"
+    answer: "La estrategia más habitual es invertir mensualmente en fondos indexados como el S&P500, independientemente de cómo esté el mercado, y no retirar el dinero salvo en una emergencia grave."
+  - question: "¿Qué pasa si hay gastos inesperados durante la jubilación anticipada?"
+    answer: "Se recomienda incluir un margen de seguridad, como usar una tasa de retiro del 3,5% en lugar del 4%, o calcular los gastos anuales con un importe mayor. En años de mercado bajista se puede reducir el retiro al 3% temporalmente."
 ---
 
 No existe ninguna ley que obligue a la gente a trabajar hasta los 65+ años, y mucho menos en un trabajo que no nos gusta. Es por ello que hay una oleada de gente joven uniéndose al movimiento F.I.R.E. (Financial Independence Retire Early o en español Independencia Financiera Retirarse Temprano).

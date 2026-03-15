@@ -14,6 +14,15 @@ TotalVotes: 11
 popular: false
 ref: lightning-network
 lang: es
+faq:
+  - question: "¿Qué es la Lightning Network?"
+    answer: "La Lightning Network es una segunda capa sobre Bitcoin que permite realizar transacciones instantáneas y de bajo coste mediante canales de pago privados entre usuarios, sin necesitar confirmación de la red principal en cada operación."
+  - question: "¿Cómo funciona un canal de pago en Lightning?"
+    answer: "Dos usuarios depositan Bitcoin en una dirección multisig y pueden enviarse fondos entre sí de forma instantánea. Al cerrar el canal, solo se registra el estado final en la blockchain principal."
+  - question: "¿Para qué sirve la Lightning Network?"
+    answer: "Está diseñada principalmente para microtransacciones rápidas y frecuentes, como pagos en comercios o transferencias entre usuarios, donde las comisiones y la velocidad de la red principal de Bitcoin resultarían poco prácticas."
+  - question: "¿Es segura la Lightning Network?"
+    answer: "El uso de direcciones multisig dificulta la falsificación de transacciones. No obstante, mantener un canal abierto requiere que los usuarios estén atentos a posibles intentos de cierre fraudulento por parte de la contraparte."
 ---
 La Lightning Network es una segunda capa sobre la red de Bitcoin basada en [canales de estado](https://criptomo.com/que-son-los-canales-de-estado/) que permite realizar transacciones de manera rápida y eficiente. Esta red utiliza técnicas de enrutamiento y canales de pago para permitir que los usuarios realicen transacciones entre sí sin necesidad de contar con la confirmación de la red principal de Bitcoin. Esto hace posible el uso de Bitcoin para realizar microtransacciones de manera rápida y eficiente, lo que abre la puerta a una amplia gama de nuevos usos para la criptomoneda.
 

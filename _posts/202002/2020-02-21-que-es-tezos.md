@@ -9,6 +9,15 @@ banner_image: 202002/tezos.jpg
 rating: 5
 totalVotes: 16
 lang: es
+faq:
+  - question: "¿Qué es Tezos (XTZ)?"
+    answer: "Tezos es una red blockchain con su propio token digital llamado tez o tezzie, que utiliza un algoritmo de consenso propio denominado Liquid Proof of Stake para validar transacciones."
+  - question: "¿Qué es el Liquid Proof of Stake de Tezos?"
+    answer: "Liquid Proof of Stake permite a cualquier poseedor de tezzies participar en el consenso de la red haciendo staking, con la posibilidad de delegar el voto de manera voluntaria y revocable."
+  - question: "¿Cómo se actualiza la red de Tezos?"
+    answer: "Tezos se auto-gobierna mediante votaciones de los bakers, permitiendo actualizar el protocolo sin necesidad de un hard fork que divida la comunidad."
+  - question: "¿En qué se diferencia Tezos de Cardano?"
+    answer: "Aunque Tezos y Cardano comparten objetivos similares y usan lenguajes funcionales, son desarrollos distintos realizados por equipos separados, con lenguajes de contratos inteligentes propios (Michelson y Plutus respectivamente)."
 ---
 
 Tezos irrumpió en el ecosistema de las criptomonedas levantando 232 millones de dólares en BTC, y ETH gracias a una exitosa [ICO](/que-es-una-ico) en las dos primeras semanas de Julio de 2017 lo que la convirtió en una de las ICO más exitosa hasta la fecha.

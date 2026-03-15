@@ -9,6 +9,15 @@ banner_image: 201712/iota.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es IOTA y en qué se diferencia de Bitcoin?"
+    answer: "IOTA es una criptomoneda diseñada para el Internet de las Cosas que no utiliza blockchain sino el Tangle, una tecnología DAG propia. A diferencia de Bitcoin, IOTA no tiene mineros ni tasas de transacción, y cada usuario que realiza una transferencia debe verificar otras dos transacciones de la red."
+  - question: "¿Qué es el Tangle de IOTA?"
+    answer: "El Tangle es la tecnología propia de IOTA que reemplaza al blockchain. Cada transacción debe confirmar otras dos transacciones anteriores, lo que elimina la necesidad de mineros y permite transacciones con coste cero. Además, cuanto más usuarios haya, más rápida se vuelve la red."
+  - question: "¿Para qué sirve IOTA en el Internet de las Cosas?"
+    answer: "IOTA permite micropagos entre dispositivos conectados, como sensores, electrodomésticos o vehículos autónomos. Sus transacciones gratuitas e instantáneas lo hacen viable para pagos de cantidades muy pequeñas que serían inviables con Bitcoin debido a sus tasas."
+  - question: "¿Cuántas unidades de IOTA existen?"
+    answer: "Existen un total de aproximadamente 2.78 cuatrillones de IOTAs, todos preminados y distribuidos entre los inversores de la ICO inicial. La unidad práctica más utilizada es el Gi (Giga-IOTA), y en total existen 2 millones de Gi-IOTAs."
 ---
 
 [IOTA](https://iota.org/) es una de las altcoins que más ha subido de precio durante las últimas semanas, cuenta con un mercado de 11000 millones de dólares. Aunque permite comunicación económica entre wallets de la misma manera que BTC o Ethereum, este no es su principal propósito, lo que pretende es ofrecer una plataforma para la economía entre dispositivos en el Internet Of Things.

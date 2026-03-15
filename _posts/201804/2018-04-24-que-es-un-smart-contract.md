@@ -9,6 +9,15 @@ banner_image: 201804/agreement.jpg
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es un smart contract?"
+    answer: "Un smart contract es un programa almacenado en el blockchain que ejecuta automáticamente los términos de un acuerdo cuando se cumplen las condiciones definidas en su código, sin necesidad de intermediarios."
+  - question: "¿Se puede modificar un smart contract una vez publicado?"
+    answer: "No. Una vez desplegado en el blockchain, el código de un smart contract es inmutable. Cualquier error en el código no puede corregirse sin un mecanismo de actualización previsto en el propio contrato."
+  - question: "¿Qué es el problema de los oráculos en los smart contracts?"
+    answer: "Los oráculos son fuentes externas de información que alimentan a los smart contracts. Si el oráculo es centralizado o puede manipularse, la fiabilidad del contrato queda comprometida aunque el código sea perfecto."
+  - question: "¿Qué plataformas soportan smart contracts?"
+    answer: "Entre las principales plataformas de smart contracts se encuentran Ethereum, Cardano, EOS, NEM y NEO."
 ---
 
 Un smart contract, o contrato inteligente, es un programa de ordenador que reside directamente en el blockchain por lo que ninguna entidad debería tener acceso directo sobre ella. Su labor es la de verificar y ejecutar los términos acordados en un contrato sin la necesidad de un tercero y sus operaciones son irreversibles, traceables y transparentes. El concepto de smart contract fue inicialmente propuesto por Nick Szabo en 1996 pero es con el auge de la tecnología blockchain cuando realmente han encontrado su oportunidad de brillar.

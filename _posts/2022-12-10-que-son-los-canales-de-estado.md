@@ -13,6 +13,15 @@ TotalVotes: 18
 popular: false
 ref: state-channels
 lang: es
+faq:
+  - question: "¿Qué son los canales de estado en criptomonedas?"
+    answer: "Los canales de estado son acuerdos entre dos o más partes para realizar transacciones fuera de la blockchain de forma rápida y segura. Solo el estado inicial y el estado final se registran en la cadena principal."
+  - question: "¿Cómo funcionan los canales de estado?"
+    answer: "Las partes acuerdan un estado inicial almacenado en la blockchain y luego intercambian transacciones entre ellas sin publicarlas en la red. Al cerrar el canal, únicamente se registra el estado final en la cadena."
+  - question: "¿Qué ventajas tienen los canales de estado?"
+    answer: "Permiten transacciones casi instantáneas, reducen significativamente las comisiones (ya que solo se paga una transacción al abrir y cerrar el canal) y admiten transacciones multi-firma para mayor seguridad."
+  - question: "¿Cuáles son ejemplos de canales de estado?"
+    answer: "Los ejemplos más conocidos son Lightning Network para Bitcoin, Raiden Network para Ethereum y Lumino para Ripple."
 ---
 Los canales de estado de criptomonedas son una tecnología que permite a dos o más partes realizar transacciones entre ellas de manera **rápida, segura y eficiente sin necesidad de contar con una tercera parte confiable**. Estos canales se basan en la idea de que las transacciones se realicen fuera de la cadena de bloques de una criptomoneda, lo que permite una mayor velocidad y eficiencia en las operaciones.
 

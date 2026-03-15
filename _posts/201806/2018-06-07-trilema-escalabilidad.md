@@ -9,6 +9,15 @@ banner_image: 201806/buildings.jpg
 rating: 5
 totalVotes: 4
 lang: es
+faq:
+  - question: "¿Qué es el trilema de escalabilidad de las criptomonedas?"
+    answer: "Es el principio formulado por Vitalik Buterin que establece que ningún sistema blockchain puede satisfacer simultáneamente las tres propiedades de descentralización, escalabilidad y seguridad; siempre se sacrifica al menos una."
+  - question: "¿Por qué EOS o Ripple procesan más transacciones que Bitcoin o Ethereum?"
+    answer: "Porque sacrifican la descentralización. EOS utiliza solo 21 nodos validadores y Ripple opera con nodos controlados por la propia empresa, lo que les permite mayor velocidad pero a costa de resistencia a la censura."
+  - question: "¿Cuál es la solución propuesta por Bitcoin y Ethereum al problema de escalabilidad?"
+    answer: "Ambas redes apuestan por soluciones de segunda capa que procesan transacciones fuera del blockchain y solo registran el resultado final. Bitcoin usa Lightning Network y Ethereum usa Raiden Network."
+  - question: "¿Es aceptable sacrificar la descentralización en una blockchain?"
+    answer: "En entornos empresariales con alto nivel de confianza entre participantes puede ser aceptable. Sin embargo, para pagos entre desconocidos la descentralización es esencial porque un sistema centralizado es vulnerable a la censura y al abuso de poder."
 ---
 
 En muchas ocasiones se critica a Bitcoin o Ethereum por el reducido número de transacciones que son capaces de soportar, y rápidamente se habla de que otras plataformas como EOS, IOTA, Hashgraph o Ripple son capaces de soportar muchísimas más transacciones por segundo, y en ocasiones incluso de manera gratuita, deprecando totalmente otras tecnologías anteriores.

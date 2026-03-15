@@ -9,6 +9,15 @@ rating: 5
 TotalVotes: 10
 ref: curve-card
 lang: es
+faq:
+  - question: "¿Qué es la tarjeta Curve?"
+    answer: "Curve es una tarjeta de débito física y aplicación financiera que permite cargar los pagos a otras tarjetas bancarias ya existentes. Actúa como intermediaria entre el comercio y las tarjetas del usuario."
+  - question: "¿Para qué sirve Curve con Apple Pay o Google Pay?"
+    answer: "Curve permite añadir tarjetas de bancos que no son compatibles con Apple Pay, Google Pay o Samsung Pay, ya que la tarjeta Curve sí es aceptada en estos sistemas de pago móvil."
+  - question: "¿Qué es la función 'Go Back in Time' de Curve?"
+    answer: "Es una funcionalidad que permite reasignar un cobro ya realizado a otra tarjeta diferente dentro de un plazo de 30 días desde la transacción."
+  - question: "¿Cómo se combina Curve con la tarjeta de Crypto.com?"
+    answer: "La tarjeta de Crypto.com no es compatible directamente con Apple Pay o Google Pay, pero añadiéndola a Curve se puede usar en esos sistemas. Además, se puede acumular el cashback de Crypto.com junto con el 1% de Curve."
 ---
 
 <style>

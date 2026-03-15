@@ -14,6 +14,15 @@ TotalVotes: 12
 popular: false
 ref: segwit
 lang: es
+faq:
+  - question: "¿Qué es SegWit en Bitcoin?"
+    answer: "SegWit (Segregated Witness) es una actualización del protocolo de Bitcoin implementada en agosto de 2017 que separa la información de las firmas del resto de la transacción, permitiendo aumentar el límite efectivo de tamaño de bloque hasta 4 MB."
+  - question: "¿Qué problema resolvió SegWit?"
+    answer: "SegWit resolvió principalmente la congestión de la red, que provocaba que muchas transacciones esperaran en cola durante horas o días antes de ser confirmadas."
+  - question: "¿Qué mejoras de seguridad introdujo SegWit?"
+    answer: "SegWit corrigió la maleabilidad de las transacciones y mejoró el soporte para transacciones multisig, lo que facilita que varios usuarios firmen conjuntamente una misma transacción."
+  - question: "¿Qué relación tiene SegWit con la Lightning Network?"
+    answer: "SegWit es un requisito técnico para la Lightning Network, ya que la corrección de la maleabilidad de transacciones que introduce SegWit es necesaria para que los canales de pago de Lightning funcionen correctamente."
 ---
 La implementación de SegWit en la red Bitcoin ha sido uno de los cambios más importantes en la historia de la criptomoneda. SegWit, que es la abreviatura de Segregated Witness, es una actualización del protocolo de Bitcoin que fue implementada en agosto de 2017 con el objetivo de solucionar [algunos de los problemas más importantes que afectaban a la red](https://criptomo.com/problema-escalabilidad/), como la congestión de la red y el límite de tamaño de bloque.
 

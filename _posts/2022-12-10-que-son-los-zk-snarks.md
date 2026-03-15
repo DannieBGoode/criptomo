@@ -12,6 +12,15 @@ banner_image: https://criptomo.com/images/posts/201803/wally.jpg
 popular: false
 ref: zk-snarks
 lang: es
+faq:
+  - question: "¿Qué son los zk-SNARKs?"
+    answer: "Los zk-SNARKs son un tipo de prueba criptográfica que permite demostrar la validez de una declaración sin revelar ningún detalle sobre la declaración misma. Sus siglas significan 'Succinct Non-Interactive Argument of Knowledge'."
+  - question: "¿Para qué se usan los zk-SNARKs en criptomonedas?"
+    answer: "Se usan principalmente para garantizar la privacidad de las transacciones. Por ejemplo, Zcash los utiliza para permitir transacciones anónimas, y Ethereum los emplea en el protocolo zk-rollup para aumentar la privacidad y eficiencia."
+  - question: "¿Cómo funciona una prueba zk-SNARK?"
+    answer: "Funciona mediante un par de claves criptográficas: la clave privada genera una prueba válida y la clave pública permite a cualquier verificador comprobar que la prueba es correcta sin acceder a la información subyacente."
+  - question: "¿Cuáles son los desafíos de los zk-SNARKs?"
+    answer: "Los principales desafíos son la alta complejidad de implementación y el elevado coste computacional de generar las pruebas, lo que puede dificultar su adopción a gran escala."
 ---
 Zk-SNARKs es una tecnología de criptografía utilizada para verificar la integridad de información sin necesidad de revelar la información en sí. La tecnología zk-SNARKs, que significa "prueba de conocimiento cero-conocimiento Succinct Non-Interactive Argument of Knowledge", permite a una parte demostrar la validez de una declaración sin revelar ningún detalle sobre la declaración misma.
 

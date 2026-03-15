@@ -12,6 +12,15 @@ TotalVotes: 12
 popular: false
 ref: matic
 lang: es
+faq:
+  - question: "¿Qué es Polygon (MATIC)?"
+    answer: "Polygon, anteriormente conocido como Matic Network, es una plataforma blockchain que funciona como cadena lateral de Ethereum, orientada a mejorar la escalabilidad y reducir los costos de transacción."
+  - question: "¿Cómo reduce Polygon los costos de Ethereum?"
+    answer: "Polygon utiliza un enfoque de cadenas ligeras paralelas que permite procesar más transacciones por segundo que Ethereum, lo que reduce la congestión y las tarifas en la red principal."
+  - question: "¿Qué ventaja tiene Polygon frente a otras blockchains?"
+    answer: "Al ser una cadena lateral de Ethereum, los desarrolladores pueden usar las mismas herramientas y tecnologías de Ethereum para crear aplicaciones en Polygon, reduciendo la barrera de entrada."
+  - question: "¿Cómo funciona la gobernanza de Polygon?"
+    answer: "Polygon utiliza un sistema de votación descentralizada basado en la participación con el token MATIC, y cuenta con un Consejo de Gobernadores que asesora sobre el rumbo de la red."
 ---
 Polygon, anteriormente conocido como Matic Network, es una plataforma descentralizada basada en la tecnología blockchain que se enfoca en resolver algunos de los problemas de escalabilidad y adopción de la cadena de bloques Ethereum. En este ensayo, exploraré en profundidad qué es Polygon y cómo funciona.
 

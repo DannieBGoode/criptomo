@@ -9,6 +9,15 @@ banner_image: 201810/mimblewimble.jpg
 rating: 5
 totalVotes: 3
 lang: es
+faq:
+  - question: "¿Qué es MimbleWimble?"
+    answer: "MimbleWimble es un protocolo de blockchain que mejora la privacidad y la escalabilidad eliminando datos intermedios de las transacciones, de forma que solo se conservan las entradas, las salidas y una firma digital."
+  - question: "¿Cómo mejora MimbleWimble la privacidad respecto a Bitcoin?"
+    answer: "Bitcoin expone públicamente el emisor, el receptor y la cantidad de cada transacción. MimbleWimble oculta estos tres parámetros combinando transacciones y eliminando la información intermedia innecesaria."
+  - question: "¿Qué criptomonedas implementan MimbleWimble?"
+    answer: "Grin y BEAM son las dos implementaciones principales del protocolo MimbleWimble."
+  - question: "¿Cómo se puede integrar MimbleWimble en Bitcoin?"
+    answer: "MimbleWimble puede incorporarse a Bitcoin como un soft fork o como una sidechain, permitiendo a los usuarios mover fondos mediante atomic swaps para realizar transacciones privadas."
 ---
 
 Mimblewimble es un protocolo publicado por un usuario anónimo en un chat de developers de Bitcoin con el nombre de Tom Elvis Jedusor (el nombre francés de Voldemort en los libros de Harry Potter). Mimblewimble en sí es el nombre del hechizo de Harry Potter utilizado para sellar lenguas de víctimas en los libros de J.K. Rowling.

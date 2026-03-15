@@ -9,6 +9,15 @@ banner_image: 201801/ripple-banks.jpg
 rating: 5
 totalVotes: 2
 lang: es
+faq:
+  - question: "¿Qué es Ripple y para qué sirve?"
+    answer: "Ripple es un protocolo de pagos diseñado para facilitar transferencias entre bancos de manera rápida y económica, con el objetivo de reemplazar al sistema SWIFT. Permite reducir el tiempo de una transferencia internacional de varios días a unos pocos segundos."
+  - question: "¿Qué diferencia hay entre Ripple y XRP?"
+    answer: "Ripple es tanto la empresa como el protocolo, y ambos son de propiedad privada. XRP es la criptomoneda asociada que se puede comprar en exchanges y se utiliza para pagar las tasas de transacción dentro del protocolo Ripple."
+  - question: "¿Cuántas transacciones por segundo soporta Ripple?"
+    answer: "El protocolo Ripple soporta hasta 1500 transacciones por segundo, con un tiempo de confirmación de aproximadamente 3 segundos y un coste de transacción de alrededor de 0.004 dólares."
+  - question: "¿Es Ripple una red descentralizada?"
+    answer: "No del todo. Ripple utiliza una red de 55 nodos privados para validar transacciones, lo que la hace más centralizada que Bitcoin. La empresa Ripple Labs controla la inflación y puede detener la red ante problemas de consenso."
 ---
 
 Ripple está considerada la moneda de los bancos y pretende reemplazar a SWIFT como medio de pago entre entidades bancarias, pero en realidad es mucho más que eso. Durante las últimas semanas ha superado a Ethereum como la segunda moneda con más capitalización del mercado por detrás únicamente de Bitcoin.

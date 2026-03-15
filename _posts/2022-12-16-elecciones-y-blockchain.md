@@ -13,6 +13,15 @@ TotalVotes: 3
 popular: false
 ref: voting
 lang: es
+faq:
+  - question: "¿Cómo puede usarse la blockchain en elecciones?"
+    answer: "La blockchain puede ofrecer un registro descentralizado e inmutable de los votos, lo que hace virtualmente imposible alterar los resultados y aumenta la transparencia y confianza en el proceso electoral."
+  - question: "¿Qué ventajas tiene votar con blockchain?"
+    answer: "Las principales ventajas son la seguridad e inmutabilidad del registro, la transparencia al permitir seguimiento en tiempo real, y la posibilidad de facilitar el voto remoto para personas con dificultades de desplazamiento."
+  - question: "¿Existen casos reales de votación con blockchain?"
+    answer: "Sí, los estados de West Virginia y Utah en EE.UU. y el cantón suizo de Ginebra han llevado a cabo proyectos piloto exitosos con sistemas de votación basados en blockchain."
+  - question: "¿Cuáles son los desafíos de implementar votación en blockchain?"
+    answer: "Los principales desafíos son la necesidad de infraestructura técnica especializada, el coste de implementación y el requisito de cierta alfabetización tecnológica por parte de los votantes."
 ---
 La tecnología blockchain tiene el potencial de revolucionar la forma en que votamos al ofrecer una forma segura, transparente y auditada de emitir y contar votos. En este ensayo, exploraremos los beneficios y desafíos de usar blockchain para votar, así como algunos de los usos actuales y potenciales de esta tecnología en el proceso electoral.
 

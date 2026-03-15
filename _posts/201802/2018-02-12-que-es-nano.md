@@ -9,6 +9,15 @@ banner_image: 201802/xrb.jpg
 rating: 5
 totalVotes: 2
 lang: es
+faq:
+  - question: "¿Qué es Nano (XRB)?"
+    answer: "Nano, anteriormente llamado RaiBlocks, es una criptomoneda diseñada exclusivamente como medio de pago que utiliza tecnología block-lattice en lugar de blockchain. Ofrece transacciones gratuitas e instantáneas sin necesidad de mineros."
+  - question: "¿Cómo funciona la tecnología block-lattice de Nano?"
+    answer: "En Nano cada usuario tiene su propia blockchain personal que solo él puede modificar. Cada transacción requiere dos operaciones: una del emisor y otra del receptor. No se utiliza Proof of Work ni Proof of Stake para validar transferencias normales, lo que elimina los costes de transacción."
+  - question: "¿Cuáles son las principales ventajas de Nano frente a Bitcoin?"
+    answer: "Nano ofrece costes de transacción nulos, velocidad de transferencia casi instantánea y mayor escalabilidad (hasta 7000 tps). Además, su ledger es más ligero porque cada cuenta almacena solo su balance actual, no el historial completo de transacciones."
+  - question: "¿Cuántos tokens XRB existen?"
+    answer: "Hay 133.248.290 tokens Nano en circulación, cantidad fija que no puede aumentar. Fueron distribuidos gratuitamente hasta octubre de 2017 entre personas que resolvieron captchas online, sin ICO ni preminado."
 ---
 
 Nano, anteriormente conocida como Raiblocks, es un proyecto bastante joven que frecuentemente es comparado con IOTA por el hecho de que no utiliza tecnología blockchain, sino tecnología DAG, más concretamente tecnología *block lattice*. Es importante tener en cuenta que XRB no pretende competir con Ethereum en cuanto a smart contracts, sino que su intención es limitarse únicamente a ser usados como medio de pago.

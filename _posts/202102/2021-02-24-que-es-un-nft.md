@@ -11,6 +11,15 @@ rating: '5'
 totalVotes: '7'
 lang: es
 ref: what-nfts
+faq:
+  - question: "¿Qué es un NFT?"
+    answer: "Un NFT (Non-Fungible Token) es un token digital único, indivisible e irremplazable que representa un objeto digital o real. A diferencia de las criptomonedas convencionales, cada NFT es único y no puede intercambiarse por otro de igual valor."
+  - question: "¿Para qué sirven los NFTs?"
+    answer: "Los NFTs se utilizan para representar coleccionables digitales, obras de arte, ítems de videojuegos, terrenos virtuales y potencialmente objetos del mundo real como viviendas o vehículos."
+  - question: "¿En qué blockchain se crean los NFTs?"
+    answer: "La mayoría de los NFTs se crean sobre la red Ethereum siguiendo el estándar ERC721, aunque también pueden crearse en otras blockchains compatibles con smart contracts."
+  - question: "¿Pueden copiarse los NFTs?"
+    answer: "La imagen o archivo digital puede copiarse, pero el token ERC721 que certifica la propiedad es único y verificable públicamente en la blockchain. Lo que tiene valor es la titularidad del token, no el archivo en sí."
 ---
 
 Los tokens ERC721 también llamados NFTs o Non-Fungible-Tokens son tokens [no fungibles](/fungibilidad/) que representan un objeto digital o de la vida real único, indivisible, indestructible, verificable e irremplazable.

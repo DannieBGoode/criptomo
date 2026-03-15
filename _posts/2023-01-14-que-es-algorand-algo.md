@@ -11,6 +11,15 @@ banner_image: /images/posts/image_2023-01-14_192102876.webp
 popular: false
 ref: algorand
 lang: es
+faq:
+  - question: "¿Qué es Algorand (ALGO)?"
+    answer: "Algorand es una plataforma blockchain de próxima generación desarrollada por el premio Turing Silvio Micali, diseñada para ofrecer escalabilidad, seguridad y bajas tarifas de transacción."
+  - question: "¿Qué es Pure Proof of Stake en Algorand?"
+    answer: "Pure Proof of Stake (PPoS) es el algoritmo de consenso de Algorand, donde los validadores son elegidos aleatoriamente en función de su participación en la red, sin depender de minería computacional."
+  - question: "¿Cuántas transacciones por segundo puede procesar Algorand?"
+    answer: "Algorand puede procesar miles de transacciones por segundo, muy por encima de las capacidades de Bitcoin o Ethereum, lo que lo hace adecuado para aplicaciones DeFi y micropagos."
+  - question: "¿Qué es un atomic swap en Algorand?"
+    answer: "Un atomic swap en Algorand permite que dos partes intercambien activos diferentes de forma directa y sin intermediarios, lo que facilita la creación de mercados descentralizados."
 ---
 Algorand es una plataforma de blockchain de próxima generación que busca proporcionar una infraestructura escalable y segura para aplicaciones descentralizadas y activos digitales. Desarrollado por el ganador del premio Turing Silvio Micali, Algorand se basa en un algoritmo de consenso único diseñado para superar las limitaciones de escalabilidad de las redes blockchain tradicionales como Bitcoin y Ethereum.
 

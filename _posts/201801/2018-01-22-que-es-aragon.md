@@ -9,6 +9,15 @@ banner_image: 201801/aragon.png
 rating: 5
 totalVotes: 1
 lang: es
+faq:
+  - question: "¿Qué es Aragon?"
+    answer: "Aragon es una plataforma descentralizada construida sobre Ethereum que permite crear y gestionar organizaciones autónomas descentralizadas (DAOs) con funcionalidades como votaciones, nóminas, contabilidad y recaudación de capital."
+  - question: "¿Para qué sirve el token ANT de Aragon?"
+    answer: "El token ANT otorga derechos de voto y acceso dentro de las organizaciones creadas en Aragon, y su suministro total estará limitado a 39 millones de unidades."
+  - question: "¿Quiénes fundaron Aragon?"
+    answer: "Aragon fue fundado por los españoles Luis Cuende y Jorge Izquierdo, aunque la empresa está registrada en Estonia y opera de forma totalmente distribuida sin oficina física."
+  - question: "¿Cómo se diferencia Aragon de Otonomos?"
+    answer: "A diferencia de Otonomos, que incorpora entidad legal a sus organizaciones, Aragon se considera legalmente agnóstico y no está vinculado a ninguna jurisdicción específica."
 ---
 
 Aragon es una plataforma descentralizada construida sobre Ethereum que permite a cualquier persona crear y gestionar organizaciones o más concretamente permite construir DAOs completas con funcionalidades básicas como votaciones, recaudación de capital, distribución de dividendos, pago de nóminas, contabilidad, etc... de manera automática y sin necesidad de tener intermediarios realizando todas estas gestiones. Además lo están haciendo a través de una UI final mostrada al usuario muy fácil de usar y accesible.

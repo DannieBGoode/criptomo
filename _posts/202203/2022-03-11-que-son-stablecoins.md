@@ -9,6 +9,15 @@ rating: 5
 TotalVotes: 10
 ref: stable-coins
 lang: es
+faq:
+  - question: "¿Qué es una stablecoin?"
+    answer: "Una stablecoin es una criptomoneda cuyo precio está fijado a otro activo, como el dólar estadounidense, el oro o el petróleo, con el objetivo de reducir la volatilidad habitual de las criptomonedas."
+  - question: "¿Cuáles son los tipos de stablecoins?"
+    answer: "Existen cuatro tipos principales: las respaldadas con reserva 1 a 1 (como USDT), las de divisa dual, las algorítmicas (como UST) y las respaldadas por préstamos apalancados sobrecolateralizados (como DAI)."
+  - question: "¿Son seguras las stablecoins?"
+    answer: "No todas ofrecen el mismo nivel de seguridad. Si la empresa emisora resulta insolvente o los usuarios pierden la confianza en ella, el precio puede caer por debajo del activo al que está anclada, como ocurrió con UST en 2021."
+  - question: "¿Para qué se usan las stablecoins?"
+    answer: "Se usan para facilitar intercambios en exchanges, realizar pagos internacionales evitando intermediarios bancarios y como refugio frente a la volatilidad dentro del ecosistema cripto sin necesidad de convertir a dinero fiat."
 ---
 
 

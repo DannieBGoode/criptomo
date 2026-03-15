@@ -5,6 +5,15 @@ layout: post
 description: Descubre qué es una criptomoneda, cómo funciona el blockchain, qué es la minería y por qué las criptos están revolucionando el sistema financiero a nivel mundial.
 banner_image: 201801/cryptocurrencies.jpg
 lang: es
+faq:
+  - question: "¿Qué es una criptomoneda?"
+    answer: "Una criptomoneda es una moneda virtual descentralizada que usa criptografía para asegurar las transacciones y controlar la creación de nuevas unidades. Funciona sobre un blockchain compartido por todos los participantes de la red."
+  - question: "¿Qué diferencia hay entre clave pública y clave privada en criptomonedas?"
+    answer: "La clave pública es la dirección que se comparte para recibir fondos, equivalente al IBAN bancario. La clave privada es la contraseña que autoriza el gasto de esos fondos y nunca debe compartirse."
+  - question: "¿Las transacciones con criptomonedas se pueden revertir?"
+    answer: "No. Una vez que una transacción queda registrada en el blockchain es irreversible, ya que el historial está distribuido en todos los nodos de la red."
+  - question: "¿Qué determina el precio de una criptomoneda?"
+    answer: "El precio lo determina el mercado según la oferta y la demanda, igual que ocurre con cualquier activo que se negocia en un mercado abierto."
 ---
 
 Una criptomoneda es una moneda virtual, peer to peer y distribuida cuyo concepto nació con el whitepaper de la primera criptomoneda, el Bitcoin.
