@@ -1,28 +1,26 @@
-# authors.
-daniel                      :
+# authors
+daniel:
   author_name               : "Daniel"
-  author_bio                : "Project Manager @ Cardano (IOHK)"
+  author_job_title          : "Blockchain Engineer"
+  author_bio                : "Ingeniero especializado en tecnologías Frontend y apasionado del mundo blockchain. Fundador de Criptomo."
   author_url                : "https://criptomo.com"
   author_url_name           : "CRIPTOMO"
-  author_location           : "Madrid, Spain"
+  author_location           : "Spain"
   author_image              : /images/authors/daniel.png
-david                       :
+  social:
+    twitter                 : "danniebgoode"
+    github                  : "danniebgoode"
+    medium                  : "@danielcalatayud"
+    linkedin                :
+
+david:
   author_name               : "David"
-  author_bio                : "Ingeniero de telecomunicaciones de Zaragoza."
-  author_url                :  # "http://example.com"
-  author_location           : "Zaragoza, Spain"
+  author_job_title          : "Telecommunications Engineer"
+  author_bio                : "Ingeniero de telecomunicaciones especializado en tecnología blockchain y criptomonedas."
+  author_location           : "USA"
   author_image              : /images/authors/charles.jpg
-marisa                      :
-  author_name               : "Marisa"
-  author_bio                : "Periodista especializada en comunicación y marketing digital."
-  author_url                : "https://www.linkedin.com/in/marisa-badia/"
-  author_url_name           : "Linkedin"
-  author_location           : "Zaragoza, Spain"
-  author_image              : /images/authors/marisa.jpg
-tatiana                     :
-  author_name               : "Tatiana"
-  author_bio                : "Magister en Informática Educativa"
-  author_url                : "https://twitter.com/tatiHdez"
-  author_url_name           : "Twitter"
-  author_location           : "Bogotá, Colombia"
-  author_image              : /images/authors/tatiana.jpg
+  social:
+    twitter                 :
+    github                  :
+    medium                  :
+    linkedin                : "https://www.linkedin.com/in/dcgoodridge/"
