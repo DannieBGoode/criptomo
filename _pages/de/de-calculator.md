@@ -29,7 +29,7 @@ redirect_from:
         <small>For periodical investments please use our <a href="/investment">advanced calculator</a>.</small>
     </div>
 </div>
-<div class="calculator-block">
+<div class="calculator-block" data-recommendations-script="{{ site.baseurl }}/js/recommendations.js?{{site.time | date: '%s%N'}}">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
             <label for="invest-quantity">Investition</label>

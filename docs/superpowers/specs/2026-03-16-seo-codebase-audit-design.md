@@ -1,7 +1,7 @@
 # Design: SEO Codebase Audit — Step 2.5 for seo-report skill
 
 **Date:** 2026-03-16
-**Status:** Approved
+**Status:** Under Review
 
 ## Problem
 
@@ -19,7 +19,7 @@ Insert a **Step 2.5** between the competitive intelligence web searches (Step 2)
 
 ```
 Step 2  — 5 parallel web searches → CI markdown text
-Step 2.5 — Codebase audit         → implemented[] / missing[] JSON
+Step 2.5 — Codebase audit         → { implemented[], missing[], unchecked[] }
 Step 3  — Post GitHub comment     → only missing[] items shown
 ```
 
@@ -31,61 +31,83 @@ Step 3's API call is unchanged; only the comment body construction changes.
 
 Dispatch an Explore subagent with:
 - The full CI markdown text from Step 2
-- The structured checklist (see below)
+- The full structured checklist (inlined verbatim — see section 2.5b)
 - The codebase root path
-- Output format: JSON `{ "implemented": [...], "missing": [...] }`
+- Explicit exclusion list: `_site/`, `node_modules/`, `.git/`, `vendor/`
+- Output format: JSON with three arrays (see below)
 
-Each item in both arrays has:
+Each item across all arrays has:
 ```json
-{ "name": "FAQPage schema", "evidence": "_includes/schema_faq.html:5" }
+{
+  "name": "FAQPage schema",
+  "evaluated": true,
+  "evidence": "_includes/schema_faq.html:5"
+}
 ```
-`evidence` is `null` for missing items.
 
-### 2.5b — Structured checklist
+The JSON structure uses **three distinct arrays**:
+- `implemented[]` — found in codebase; `evidence` is a file path (and line if applicable)
+- `missing[]` — searched and not found; `evidence` is `null`; `evaluated` is `true`
+- `unchecked[]` — subagent could not evaluate (e.g. ambiguous pattern, timeout); `evaluated` is `false`
 
-The subagent audits every item in this checklist, regardless of whether CI mentioned it:
+### 2.5b — Error handling
+
+If the subagent returns malformed JSON, empty output, or an error:
+- Log a warning: `⚠️ Codebase audit failed: <reason>`
+- Fall back to posting the full CI comment unfiltered
+- Prepend a visible notice to the comment:
+  > ⚠️ Codebase audit could not run this week — recommendations may include items already implemented.
+
+This ensures the comment is never silently wrong.
+
+### 2.5c — Structured checklist (inlined verbatim in subagent prompt)
+
+The subagent audits every item below. For each item, the detection guidance tells it where to look. Exclude `_site/`, `node_modules/`, `.git/`, `vendor/` from all searches.
 
 **Schema Markup**
-- Article JSON-LD — look for `"@type": "Article"` in `_includes/`
-- Person JSON-LD — look for `"@type": "Person"` in `_includes/`
-- FAQPage JSON-LD — look for `"@type": "FAQPage"` in `_includes/`
-- Organization JSON-LD — look for `"@type": "Organization"` in `_includes/`
-- WebSite JSON-LD — look for `"@type": "WebSite"` in `_includes/`
-- BreadcrumbList JSON-LD — look for `"@type": "BreadcrumbList"` in `_includes/`
-- HowTo JSON-LD — look for `"@type": "HowTo"` in `_includes/`
-- Review/AggregateRating JSON-LD — look for `"@type": "Review"` in `_includes/`
-- `inLanguage` on Article — look for `inLanguage` in schema includes
+- `Article` JSON-LD — search `_includes/` for `"@type": "Article"`
+- `Person` JSON-LD — search `_includes/` for `"@type": "Person"`
+- `FAQPage` JSON-LD — search `_includes/` for `"@type": "FAQPage"`
+- `Organization` JSON-LD — search `_includes/schema_home.html` for `"@type": "Organization"` (primary file; ignore other occurrences)
+- `WebSite` JSON-LD — search `_includes/schema_home.html` for `"@type": "WebSite"`
+- `BreadcrumbList` JSON-LD — search `_includes/` for `"@type": "BreadcrumbList"`
+- `HowTo` JSON-LD — search `_includes/` for `"@type": "HowTo"`
+- `Review` JSON-LD — search `_includes/` for `"@type": "Review"` (distinct from AggregateRating)
+- `AggregateRating` JSON-LD — search `_includes/` for `"@type": "AggregateRating"` (distinct from Review)
+- `inLanguage` on Article — search `_includes/schema_post.html` specifically for `inLanguage` (not other schema files)
 
 **Head / Meta**
-- Meta description — look for `meta name="description"` in `_includes/`
-- Open Graph tags — look for `og:title`, `og:description` in `_includes/`
-- Twitter Card tags — look for `twitter:card` in `_includes/`
-- Canonical URL — look for `rel="canonical"` in `_includes/`
-- hreflang alternate links — look for `rel="alternate"` and `hreflang` in `_includes/`
+- Meta description — search `_includes/` for `meta name="description"`
+- Open Graph tags — search `_includes/` for `og:title`
+- Twitter Card tags — search `_includes/` for `twitter:card`
+- Canonical URL — search `_includes/` for `rel="canonical"`
+- hreflang alternate links — search `_includes/` for `hreflang` AND `rel="alternate"` in the same file
 
 **Multilingual**
-- `lang` attribute on `<html>` — look in `_layouts/default.html`
-- Per-language page variants — look for language subdirectories in `_pages/` or `_posts/`
-- Language-aware layouts — look for `page.lang` usage in layouts/includes
+- `lang` attribute on `<html>` driven by page variable — search `_layouts/default.html` for `page.lang` assigned to the `<html>` tag (not just the presence of `lang=`)
+- Per-language page variants — check if `_posts/` or `_pages/` contains subdirectories named `en`, `de`, `fr`, `pt`, or similar language codes
+- Language-aware layouts — search `_layouts/` and `_includes/` for `page.lang` usage
 
 **Technical**
-- sitemap.xml — look for `sitemap.xml` or sitemap plugin in `_config.yml`
+- sitemap.xml — look for `sitemap.xml` in root or a Jekyll sitemap plugin entry in `_config.yml` (e.g. `jekyll-sitemap`)
 - robots.txt — look for `robots.txt` in root or `_pages/`
-- Image alt attributes — look for `alt=` usage in post/page layouts
-- Asset preload hints — look for `<link rel="preload"` in `_layouts/`
+- Asset preload hints — search `_layouts/default.html` for `<link rel="preload"`
 
 **Content**
-- Author byline in post template — look for author name rendering in `_layouts/post.html`
-- Author bio/page — look for author layout or author pages in `_layouts/` or `_pages/`
-- Internal linking — look for related posts or link includes in `_includes/`
+- Author byline rendered in post template — search `_layouts/post.html` for `author` variable being rendered (e.g. `page.author`, `author_name`)
+- Author bio/page — look for an `author` layout in `_layouts/` or author pages in `_pages/`
 
-### 2.5c — CI cross-reference
+**Notes on checklist items intentionally excluded:**
+- "Image alt attributes" — `alt=` is always present on templated images; whether alt values are meaningful cannot be determined by static file search. Excluded to avoid systematic false positives.
+- "Internal linking" — implementation varies too much across Jekyll sites to define a reliable static detection pattern. Excluded.
 
-The subagent also scans the CI markdown text for any freeform recommendations not on the checklist (e.g. "publish a MiCA post", "add DeFi content pillar") and evaluates each:
-- Content recommendations: check if a matching post/page already exists in `_posts/` or `_pages/`
-- Technical recommendations: attempt to find evidence in the codebase
+### 2.5d — CI cross-reference
 
-Any freeform recommendation found to be already implemented is added to `implemented[]`.
+The subagent also scans the CI markdown text for any freeform recommendations not on the checklist. For each:
+- **Content recommendations** (e.g. "publish a MiCA post"): perform a best-effort keyword match against front matter `title` and `tags` fields in `_posts/`. If a clear match is found, add to `implemented[]` with the matching file as evidence. If ambiguous or no match, add to `missing[]`.
+- **Technical recommendations**: attempt to find evidence in the codebase using the same search approach as the checklist.
+
+"Best-effort" means: if the subagent cannot confidently determine the status, it should add the item to `unchecked[]` rather than guessing.
 
 ## Modified Comment Structure (Step 3)
 
@@ -113,35 +135,45 @@ Any freeform recommendation found to be already implemented is added to `impleme
 [only actionable pending items, prioritised]
 ```
 
-Items already implemented are **silently omitted**. No "already implemented" section — the comment stays fully focused on what needs doing.
+Items already implemented are **silently omitted**. Items in `unchecked[]` are included in the relevant section with a note: `(could not verify — check manually)`.
+
+If the audit failed entirely, the full unfiltered CI comment is posted with the warning notice prepended.
 
 ## Explore Subagent Prompt Template
+
+The skill instructs Claude to dispatch an Explore subagent with this prompt (the checklist from section 2.5c is inlined verbatim where indicated):
 
 ```
 You are auditing a Jekyll codebase for technical SEO implementation.
 
 CODEBASE ROOT: <path>
+EXCLUDE from all searches: _site/, node_modules/, .git/, vendor/
 
 COMPETITIVE INTELLIGENCE TEXT (from this week's web searches):
 <ci_text>
 
-CHECKLIST:
-<5-category checklist>
+CHECKLIST (audit every item regardless of whether CI mentioned it):
+<full text of section 2.5c checklist inlined here>
 
 Instructions:
-1. For each checklist item, search the codebase and determine: implemented or missing
-2. For each CI recommendation not on the checklist, check if it's already done (content exists, feature implemented)
-3. Return ONLY valid JSON:
+1. For each checklist item, search the codebase using the detection guidance provided.
+   Use the primary file specified where given (e.g. schema_home.html for Organization).
+2. For each freeform CI recommendation not on the checklist, attempt to determine
+   if it is already implemented. If you cannot determine this with confidence,
+   mark it as unchecked.
+3. Return ONLY a valid JSON object — no prose, no markdown, no explanation:
+
 {
   "implemented": [
-    { "name": "FAQPage schema", "evidence": "_includes/schema_faq.html:5" }
+    { "name": "FAQPage schema", "evaluated": true, "evidence": "_includes/schema_faq.html:5" }
   ],
   "missing": [
-    { "name": "HowTo schema", "evidence": null },
-    { "name": "MiCA regulation post", "evidence": null }
+    { "name": "HowTo schema", "evaluated": true, "evidence": null }
+  ],
+  "unchecked": [
+    { "name": "MiCA regulation post", "evaluated": false, "evidence": null }
   ]
 }
-Do not include any text outside the JSON object.
 ```
 
 ## Success Criteria
@@ -149,11 +181,12 @@ Do not include any text outside the JSON object.
 - The weekly comment never recommends something already in the codebase
 - All checklist items are audited every week regardless of what CI web searches returned
 - Comment is shorter and more actionable than before
-- No new external dependencies or API calls required
-- Works for any Jekyll site, not just criptomo
+- If the audit fails, the comment is posted unfiltered with a visible warning (never silently wrong)
+- Works for standard Jekyll sites with `_includes/`, `_layouts/`, `_posts/`, `_pages/` structure
 
 ## Out of Scope
 
 - Fixing missing items automatically (the skill only reports, not implements)
 - Auditing JS/CSS quality or bundle size
 - Checking runtime behaviour (only static file analysis)
+- Checking image alt text quality (excluded due to false positive risk)

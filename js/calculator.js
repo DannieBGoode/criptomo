@@ -1,4 +1,58 @@
 var firstTime = true;
+var scriptLoaders = {};
+
+function getCalculatorBlock() {
+  return document.querySelector('.calculator-block');
+}
+
+function getCalculatorDataAttribute(attributeName) {
+  var calculatorBlock = getCalculatorBlock();
+
+  if (!calculatorBlock) {
+    return '';
+  }
+
+  return calculatorBlock.getAttribute(attributeName) || '';
+}
+
+function loadScriptOnce(scriptUrl) {
+  var scriptParent;
+
+  if (!scriptUrl) {
+    return Promise.resolve(false);
+  }
+
+  if (scriptLoaders[scriptUrl]) {
+    return scriptLoaders[scriptUrl];
+  }
+
+  scriptParent = document.body || document.head || document.documentElement;
+  scriptLoaders[scriptUrl] = new Promise(function(resolve, reject) {
+    var existingScript = document.querySelector('script[src="' + scriptUrl + '"]');
+    var script = existingScript || document.createElement('script');
+
+    function handleLoad() {
+      resolve(true);
+    }
+
+    function handleError() {
+      reject(new Error('Unable to load script: ' + scriptUrl));
+    }
+
+    if (existingScript) {
+      resolve(true);
+      return;
+    }
+
+    script.async = true;
+    script.onload = handleLoad;
+    script.onerror = handleError;
+    script.src = scriptUrl;
+    scriptParent.appendChild(script);
+  });
+
+  return scriptLoaders[scriptUrl];
+}
 
 function parseCurrentPriceResponse(response, fiat) {
   const currentPrice = parseFloat(response && response[fiat]);
@@ -35,6 +89,190 @@ function calculateInvestmentResults(oldValue, oldPrice, currentPrice) {
     percentageGained: percentageGained,
     tokensBought: tokensBought
   };
+}
+
+function loadRecommendationArticles(tokenSymbol) {
+  var recommendationsScriptUrl = getCalculatorDataAttribute('data-recommendations-script');
+
+  if (typeof recommendArticles === 'function') {
+    recommendArticles(tokenSymbol);
+    return Promise.resolve(true);
+  }
+
+  if (!recommendationsScriptUrl) {
+    return Promise.resolve(false);
+  }
+
+  return loadScriptOnce(recommendationsScriptUrl)
+    .then(function() {
+      if (typeof recommendArticles === 'function') {
+        recommendArticles(tokenSymbol);
+      }
+
+      return true;
+    })
+    .catch(function() {
+      return false;
+    });
+}
+
+function fallbackCopyText(text) {
+  var textArea = document.createElement('textarea');
+
+  textArea.value = text;
+  textArea.style.cssText = 'position:fixed;opacity:0;top:0;left:0;pointer-events:none';
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+
+  try {
+    document.execCommand('copy');
+  } catch (error) {
+    // Ignore unsupported legacy copy failures.
+  }
+
+  document.body.removeChild(textArea);
+}
+
+function copyText(text) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    return navigator.clipboard.writeText(text).catch(function() {
+      fallbackCopyText(text);
+    });
+  }
+
+  fallbackCopyText(text);
+  return Promise.resolve();
+}
+
+function copyShareText(button) {
+  var field = button.closest('.field');
+  var input = field ? field.querySelector('.share-text') : null;
+  var copyLabel = button.getAttribute('data-copy-label') || button.textContent;
+  var copiedLabel = button.getAttribute('data-copied-label') || copyLabel;
+
+  if (!field || !input) {
+    return Promise.resolve(false);
+  }
+
+  return copyText(input.value).then(function() {
+    field.classList.add('active');
+    button.textContent = copiedLabel;
+
+    setTimeout(function() {
+      field.classList.remove('active');
+      button.textContent = copyLabel;
+    }, 3000);
+
+    return true;
+  });
+}
+
+function getShareUrl(social, pageUrl, text) {
+  if (social === 'facebook') {
+    return 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl + '&amp;t=' + text;
+  } else if (social === 'twitter') {
+    return 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + text + ' %23criptomo';
+  } else if (social === 'whatsapp') {
+    return 'https://api.whatsapp.com/send?phone=whatsappphonenumber&text=' + text + ' ' + pageUrl;
+  } else if (social === 'telegram') {
+    return 'https://telegram.me/share/url?url=' + pageUrl + '&text=' + text;
+  } else if (social === 'linkedin') {
+    return 'https://www.linkedin.com/shareArticle?mini=true&url=' + pageUrl + '&title=' + text;
+  } else if (social === 'reddit') {
+    return 'http://www.reddit.com/submit?url=' + pageUrl +' &title=' + text;
+  }
+
+  return '';
+}
+
+function shareOnSocial(social) {
+  var pageUrl = encodeURIComponent(window.location.href);
+  var resultsText = document.querySelector('.calculator-results-text');
+  var text = encodeURIComponent(resultsText ? resultsText.textContent : '');
+  var shareUrl = getShareUrl(social, pageUrl, text);
+
+  if (!shareUrl) {
+    return false;
+  }
+
+  window.open(shareUrl, 'newWindow', 'width=600,height=300');
+  return false;
+}
+
+function initShareInteractions() {
+  var popup = document.querySelector('.popup');
+
+  if (!popup || popup.getAttribute('data-share-bound') === 'true') {
+    return;
+  }
+
+  popup.setAttribute('data-share-bound', 'true');
+  popup.addEventListener('click', function(event) {
+    var shareLink = event.target.closest('[data-social]');
+    var copyButton = event.target.closest('button.copy');
+
+    if (shareLink) {
+      event.preventDefault();
+      shareOnSocial(shareLink.getAttribute('data-social'));
+      return;
+    }
+
+    if (copyButton) {
+      event.preventDefault();
+      copyShareText(copyButton);
+    }
+  });
+}
+
+function copyAffiliateCode(box) {
+  var codeElement = box.querySelector('.calculator-affiliate-code');
+  var code = codeElement ? codeElement.getAttribute('data-code') : '';
+  var copiedLabel = box.getAttribute('data-copied') || 'Copied';
+
+  if (!codeElement || !code) {
+    return Promise.resolve(false);
+  }
+
+  return copyText(code).then(function() {
+    codeElement.textContent = copiedLabel;
+
+    setTimeout(function() {
+      codeElement.textContent = code;
+    }, 2000);
+
+    return true;
+  });
+}
+
+function initAffiliateCopy() {
+  var affiliateBanner = document.querySelector('.calculator-affiliate-banner');
+
+  if (!affiliateBanner || affiliateBanner.getAttribute('data-affiliate-bound') === 'true') {
+    return;
+  }
+
+  affiliateBanner.setAttribute('data-affiliate-bound', 'true');
+  affiliateBanner.addEventListener('click', function(event) {
+    var codeBox = event.target.closest('.calculator-affiliate-codebox');
+
+    if (!codeBox) {
+      return;
+    }
+
+    event.preventDefault();
+    copyAffiliateCode(codeBox);
+  });
+  affiliateBanner.addEventListener('keydown', function(event) {
+    var codeBox = event.target.closest('.calculator-affiliate-codebox');
+
+    if (!codeBox || (event.key !== 'Enter' && event.key !== ' ')) {
+      return;
+    }
+
+    event.preventDefault();
+    copyAffiliateCode(codeBox);
+  });
 }
 
 function preFill () {
@@ -187,9 +425,7 @@ function calculateEarnings() {
     history.replaceState({}, null, window.location.pathname + newParams);
     document.getElementsByClassName('share-text')[0].value = window.location.href;
 
-    if (typeof recommendArticles === 'function') {
-      recommendArticles(investData.tokenSymbol);
-    }
+    loadRecommendationArticles(investData.tokenSymbol);
 
   }
 
@@ -236,6 +472,10 @@ function initializeCalculatorExamples() {
 
 function init() {
   let investDate = document.getElementById('invest-date');
+
+  initShareInteractions();
+  initAffiliateCopy();
+
   if (!investDate) {
     return;
   }
@@ -252,10 +492,18 @@ if (typeof module !== 'undefined') {
   module.exports = {
     calculateInvestmentResults: calculateInvestmentResults,
     calculateEarnings: calculateEarnings,
+    copyAffiliateCode: copyAffiliateCode,
+    copyShareText: copyShareText,
+    getShareUrl: getShareUrl,
     init: init,
+    initAffiliateCopy: initAffiliateCopy,
     initializeCalculatorExamples: initializeCalculatorExamples,
+    initShareInteractions: initShareInteractions,
+    loadRecommendationArticles: loadRecommendationArticles,
+    loadScriptOnce: loadScriptOnce,
     parseCurrentPriceResponse: parseCurrentPriceResponse,
     parseHistoricalPriceResponse: parseHistoricalPriceResponse,
-    preFill: preFill
+    preFill: preFill,
+    shareOnSocial: shareOnSocial
   };
 }

@@ -27,7 +27,7 @@ mailchimp_tracking: false
         <small>For periodical investments please use our <a href="/investment">advanced calculator</a>.</small>
     </div>
 </div>
-<div class="calculator-block">
+<div class="calculator-block" data-recommendations-script="{{ site.baseurl }}/js/recommendations.js?{{site.time | date: '%s%N'}}">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
             <label for="invest-quantity">Investment</label>
@@ -157,7 +157,6 @@ mailchimp_tracking: false
 
 <script defer src="{{ site.baseurl }}/js/calculator-common.js?{{site.time | date: '%s%N'}}"></script>
 <script defer src="{{ site.baseurl }}/js/calculator.js?{{site.time | date: '%s%N'}}"></script>
-<script defer src="{{ site.baseurl }}/js/recommendations.js?{{site.time | date: '%s%N'}}"></script>
 
 
 
