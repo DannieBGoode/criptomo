@@ -1,7 +1,7 @@
 # Design: SEO Codebase Audit — Step 2.5 for seo-report skill
 
 **Date:** 2026-03-16
-**Status:** Under Review
+**Status:** Approved
 
 ## Problem
 
@@ -66,7 +66,7 @@ The subagent audits every item below. For each item, the detection guidance tell
 
 **Schema Markup**
 - `Article` JSON-LD — search `_includes/` for `"@type": "Article"`
-- `Person` JSON-LD — search `_includes/` for `"@type": "Person"`
+- `Person` JSON-LD — search `_includes/` for `"@type": "Person"` (presence in any file is sufficient to mark implemented; this type may appear as a nested object in multiple schema includes)
 - `FAQPage` JSON-LD — search `_includes/` for `"@type": "FAQPage"`
 - `Organization` JSON-LD — search `_includes/schema_home.html` for `"@type": "Organization"` (primary file; ignore other occurrences)
 - `WebSite` JSON-LD — search `_includes/schema_home.html` for `"@type": "WebSite"`
@@ -89,13 +89,13 @@ The subagent audits every item below. For each item, the detection guidance tell
 - Language-aware layouts — search `_layouts/` and `_includes/` for `page.lang` usage
 
 **Technical**
-- sitemap.xml — look for `sitemap.xml` in root or a Jekyll sitemap plugin entry in `_config.yml` (e.g. `jekyll-sitemap`)
+- sitemap.xml — look for `sitemap.xml` in root OR a Jekyll sitemap plugin entry in `_config.yml` (e.g. `jekyll-sitemap`); first match found is sufficient — prefer the `_config.yml` entry as evidence if both exist
 - robots.txt — look for `robots.txt` in root or `_pages/`
 - Asset preload hints — search `_layouts/default.html` for `<link rel="preload"`
 
 **Content**
 - Author byline rendered in post template — search `_layouts/post.html` for `author` variable being rendered (e.g. `page.author`, `author_name`)
-- Author bio/page — look for an `author` layout in `_layouts/` or author pages in `_pages/`
+- Author bio/page — look for an `author` layout in `_layouts/`, author pages in `_pages/`, or files matching `author-*.md` in `_posts/` root
 
 **Notes on checklist items intentionally excluded:**
 - "Image alt attributes" — `alt=` is always present on templated images; whether alt values are meaningful cannot be determined by static file search. Excluded to avoid systematic false positives.
@@ -104,7 +104,7 @@ The subagent audits every item below. For each item, the detection guidance tell
 ### 2.5d — CI cross-reference
 
 The subagent also scans the CI markdown text for any freeform recommendations not on the checklist. For each:
-- **Content recommendations** (e.g. "publish a MiCA post"): perform a best-effort keyword match against front matter `title` and `tags` fields in `_posts/`. If a clear match is found, add to `implemented[]` with the matching file as evidence. If ambiguous or no match, add to `missing[]`.
+- **Content recommendations** (e.g. "publish a MiCA post"): perform a best-effort keyword match against front matter `title` and `tags` fields in `_posts/`. A match is clear if a post's `title` contains at least one significant keyword from the recommendation, or if a `tags` value is an exact or stemmed match (e.g. "MiCA" matches tag "mica" or "regulacion-mica"). If a clear match is found, add to `implemented[]` with the matching file as evidence. If ambiguous, add to `unchecked[]`. If no match, add to `missing[]`.
 - **Technical recommendations**: attempt to find evidence in the codebase using the same search approach as the checklist.
 
 "Best-effort" means: if the subagent cannot confidently determine the status, it should add the item to `unchecked[]` rather than guessing.
