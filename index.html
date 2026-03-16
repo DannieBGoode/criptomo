@@ -15,24 +15,39 @@ lang: es
         <main class="site-main"> 
 
             <div class="grid-view">
-                {% assign lang = es %}
-                {% for post in paginator.posts %}
-                {% if post.lang == page.lang %}
-                    {%  include post_grid.html %}
-                {% endif %}
-
+                {% assign localized_posts = site.posts | where: "lang", page.lang %}
+                {% assign posts_per_page = site.paginate | default: 12 %}
+                {% assign current_page = paginator.page | default: 1 %}
+                {% assign page_offset = current_page | minus: 1 | times: posts_per_page %}
+                {% for post in localized_posts limit: posts_per_page offset: page_offset %}
+                    {% include post_grid.html %}
                 {% endfor %}
             </div>
 
-            {% if paginator.total_pages > 1 %}
+            {% assign localized_total_posts = localized_posts | size %}
+            {% assign localized_total_pages = localized_total_posts | divided_by: posts_per_page %}
+            {% assign localized_remainder = localized_total_posts | modulo: posts_per_page %}
+            {% if localized_remainder > 0 %}
+                {% assign localized_total_pages = localized_total_pages | plus: 1 %}
+            {% endif %}
+
+            {% if localized_total_pages > 1 %}
             <nav class="pagination">
                 <h2 class="screen-reader-text">Navegación</h2>
-                {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts icon-chevron-left square fill-horizontal"><span class="screen-reader-text">Siguientes</span></a>
+                {% assign previous_page_number = current_page | minus: 1 %}
+                {% assign next_page_number = current_page | plus: 1 %}
+                {% if current_page > 1 %}
+                    {% if previous_page_number == 1 %}
+                        {% assign previous_page_path = "/" %}
+                    {% else %}
+                        {% assign previous_page_path = site.paginate_path | replace: ":num", previous_page_number %}
+                    {% endif %}
+                <a href="{{ previous_page_path | prepend: site.baseurl }}" class="newer-posts icon-chevron-left square fill-horizontal"><span class="screen-reader-text">Siguientes</span></a>
                 {% endif %}
-                <span class="page-number">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
-                {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts icon-chevron-right square fill-horizontal"><span class="screen-reader-text">Anteriores</span></a>
+                <span class="page-number">Página {{ current_page }} de {{ localized_total_pages }}</span>
+                {% if current_page < localized_total_pages %}
+                    {% assign next_page_path = site.paginate_path | replace: ":num", next_page_number %}
+                <a href="{{ next_page_path | prepend: site.baseurl }}" class="older-posts icon-chevron-right square fill-horizontal"><span class="screen-reader-text">Anteriores</span></a>
                 {% endif %}
             </nav><!-- .pagination -->
             {% endif %}

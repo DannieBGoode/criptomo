@@ -1,0 +1,50 @@
+{% assign _schema_person_lang = include.lang | default: page.lang | default: site.locale | slice: 0, 2 | default: "es" %}
+{% assign _schema_person_key = include.author_key | default: page.author_key | default: page.author | default: "daniel" %}
+{% assign _schema_person = site.data.authors[_schema_person_key] | default: site.data.authors.daniel %}
+{% assign _schema_person_url = include.person_url %}
+{% if _schema_person_url == nil or _schema_person_url == "" %}
+  {% capture _schema_person_url %}{% include author_page_url.html author_key=_schema_person_key lang=_schema_person_lang %}{% endcapture %}
+{% endif %}
+{% assign _schema_person_url = _schema_person_url | strip %}
+{% unless _schema_person_url contains "://" %}
+  {% assign _schema_person_url = _schema_person_url | prepend: site.url %}
+{% endunless %}
+{% assign _schema_person_id = include.person_id %}
+{% if _schema_person_id == nil or _schema_person_id == "" %}
+  {% assign _schema_person_id = _schema_person_url | append: "#person" %}
+{% endif %}
+{% assign _schema_person_id = _schema_person_id | strip %}
+{% unless _schema_person_id contains "://" %}
+  {% assign _schema_person_id = _schema_person_id | prepend: site.url %}
+{% endunless %}
+{% assign _schema_person_image = _schema_person.author_image | default: site.author_image %}
+{% unless _schema_person_image contains "://" %}
+  {% assign _schema_person_image = _schema_person_image | prepend: site.url %}
+{% endunless %}
+{% assign _schema_person_same_as_str = "" %}
+{% if _schema_person.social.twitter %}{% assign _schema_person_same_as_str = _schema_person_same_as_str | append: "https://twitter.com/" | append: _schema_person.social.twitter | append: "," %}{% endif %}
+{% if _schema_person.social.github %}{% assign _schema_person_same_as_str = _schema_person_same_as_str | append: "https://github.com/" | append: _schema_person.social.github | append: "," %}{% endif %}
+{% if _schema_person.social.medium %}{% assign _schema_person_same_as_str = _schema_person_same_as_str | append: "https://medium.com/" | append: _schema_person.social.medium | append: "," %}{% endif %}
+{% if _schema_person.social.linkedin %}{% assign _schema_person_same_as_str = _schema_person_same_as_str | append: _schema_person.social.linkedin | append: "," %}{% endif %}
+{% assign _schema_person_same_as = _schema_person_same_as_str | split: "," %}
+{
+  "@type": "Person",
+  "@id": {{ _schema_person_id | jsonify }},
+  "name": {{ _schema_person.author_name | default: site.author_name | jsonify }},
+  "url": {{ _schema_person_url | jsonify }},
+  "image": {{ _schema_person_image | jsonify }},
+  "jobTitle": {{ _schema_person.author_job_title[_schema_person_lang] | default: _schema_person.author_job_title.en | jsonify }},
+  "description": {{ _schema_person.author_bio[_schema_person_lang] | default: _schema_person.author_bio.en | strip_html | strip_newlines | jsonify }},
+  "worksFor": {
+    "@id": {{ site.url | append: "/#organization" | jsonify }}
+  }{% if _schema_person.author_location %},
+  "homeLocation": {
+    "@type": "Place",
+    "name": {{ _schema_person.author_location | jsonify }}
+  }{% endif %}{% assign _schema_person_same_as_count = 0 %}{% for _url in _schema_person_same_as %}{% if _url != "" %}{% assign _schema_person_same_as_count = _schema_person_same_as_count | plus: 1 %}{% endif %}{% endfor %}{% if include.include_main_entity %},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ site.url | append: page.url | jsonify }}
+  }{% endif %}{% if _schema_person_same_as_count > 0 %},
+  "sameAs": [{% assign _schema_person_same_as_first = true %}{% for _url in _schema_person_same_as %}{% if _url != "" %}{% unless _schema_person_same_as_first %},{% endunless %}{{ _url | jsonify }}{% assign _schema_person_same_as_first = false %}{% endif %}{% endfor %}]{% endif %}
+}

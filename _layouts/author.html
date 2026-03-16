@@ -7,27 +7,12 @@ layout: default
 {% assign t_about = site.data.translations.about %}
 {% assign t_author = site.data.translations.author %}
 
-{% assign _same_as_str = "" %}
-{% if author.social.twitter %}{% assign _same_as_str = _same_as_str | append: "https://twitter.com/" | append: author.social.twitter | append: "," %}{% endif %}
-{% if author.social.github %}{% assign _same_as_str = _same_as_str | append: "https://github.com/" | append: author.social.github | append: "," %}{% endif %}
-{% if author.social.medium %}{% assign _same_as_str = _same_as_str | append: "https://medium.com/" | append: author.social.medium | append: "," %}{% endif %}
-{% if author.social.linkedin %}{% assign _same_as_str = _same_as_str | append: author.social.linkedin | append: "," %}{% endif %}
-{% assign _same_as = _same_as_str | split: "," %}
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "{{ author.author_name }}",
-  "url": "{{ site.url }}{{ page.url }}",
-  "image": "{{ site.url }}{{ author.author_image }}",
-  "jobTitle": "{{ author.author_job_title }}",
-  "description": "{{ author.author_bio[lang] | default: author.author_bio.en }}",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ site.url }}{{ page.url }}"
-  }{% assign _sameAs_count = 0 %}{% for url in _same_as %}{% if url != "" %}{% assign _sameAs_count = _sameAs_count | plus: 1 %}{% endif %}{% endfor %}{% if _sameAs_count > 0 %},
-  "sameAs": [{% assign _first = true %}{% for url in _same_as %}{% if url != "" %}{% unless _first %},{% endunless %}"{{ url }}"{% assign _first = false %}{% endif %}{% endfor %}]{% endif %}
+  "@graph": [
+    {% include schema_person_object.html author_key=page.author_key lang=lang person_url=page.url include_main_entity=true %}
+  ]
 }
 </script>
 

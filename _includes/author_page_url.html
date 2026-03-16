@@ -1,0 +1,8 @@
+{% assign _author_page_lang = include.lang | default: page.lang | default: site.locale | slice: 0, 2 | default: "es" %}
+{% assign _author_page_key = include.author_key | default: page.author_key | default: page.author | default: "daniel" %}
+{% assign _author_page_url = "/es/autor/" | append: _author_page_key | append: "/" %}
+{% if _author_page_lang == "en" %}{% assign _author_page_url = "/en/author/" | append: _author_page_key | append: "/" %}{% endif %}
+{% if _author_page_lang == "de" %}{% assign _author_page_url = "/de/autor/" | append: _author_page_key | append: "/" %}{% endif %}
+{% if _author_page_lang == "fr" %}{% assign _author_page_url = "/fr/auteur/" | append: _author_page_key | append: "/" %}{% endif %}
+{% if _author_page_lang == "pt" %}{% assign _author_page_url = "/pt/autor/" | append: _author_page_key | append: "/" %}{% endif %}
+{{ _author_page_url }}

@@ -15,16 +15,11 @@ layout: default
 {% endif %}
 
 {% assign _author_key = page.author | default: "daniel" %}
-{% assign author_page_url = "/es/autor/" | append: _author_key | append: "/" %}
-{% if lang == "en" %}{% assign author_page_url = "/en/author/" | append: _author_key | append: "/" %}{% endif %}
-{% if lang == "de" %}{% assign author_page_url = "/de/autor/" | append: _author_key | append: "/" %}{% endif %}
-{% if lang == "fr" %}{% assign author_page_url = "/fr/auteur/" | append: _author_key | append: "/" %}{% endif %}
-{% if lang == "pt" %}{% assign author_page_url = "/pt/autor/" | append: _author_key | append: "/" %}{% endif %}
+{% capture author_page_url %}{% include author_page_url.html author_key=_author_key lang=lang %}{% endcapture %}
+{% assign author_page_url = author_page_url | strip %}
 
 <div class="site-content">
-    {% include schema_post.html %}
     {% include schema_breadcrumb.html %}
-    {% include schema_faq.html %}
     <div class="inner">
         <main class="site-main">
             <article class="post">

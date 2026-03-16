@@ -1,54 +1,56 @@
 <script type="application/ld+json">
 {
-	"@context":"https://schema.org/",
-	"@type":"BlogPosting",
-	"datePublished": "{{page.date | date_to_xmlschema}}",
-	"dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-	"mainEntityOfPage":{
-		"@type":"WebPage",
-		"@id":"{{site.url}}{{page.url}}"
-	},
-	"headline":"{{ page.title | truncate: 110 }}",
-	"description":"{{ page.description | truncate: 110 }}",
+  "@context": "https://schema.org",
+  "@graph": [
+{% assign _post_lang = page.lang | default: site.locale | slice: 0, 2 | default: "es" %}
 {% assign _post_author_key = page.author | default: "daniel" %}
-{% assign _post_author = site.data.authors[_post_author_key] %}
-{% assign _pa_same_as_str = "" %}
-{% if _post_author.social.twitter %}{% assign _pa_same_as_str = _pa_same_as_str | append: "https://twitter.com/" | append: _post_author.social.twitter | append: "," %}{% endif %}
-{% if _post_author.social.github %}{% assign _pa_same_as_str = _pa_same_as_str | append: "https://github.com/" | append: _post_author.social.github | append: "," %}{% endif %}
-{% if _post_author.social.medium %}{% assign _pa_same_as_str = _pa_same_as_str | append: "https://medium.com/" | append: _post_author.social.medium | append: "," %}{% endif %}
-{% if _post_author.social.linkedin %}{% assign _pa_same_as_str = _pa_same_as_str | append: _post_author.social.linkedin | append: "," %}{% endif %}
-{% assign _pa_same_as = _pa_same_as_str | split: "," %}
-	"author":{
-		"@type":"Person",
-		"name":"{{ _post_author.author_name | default: site.author_name }}",
-		"url":"{{ site.url }}{{ author_page_url }}",
-		"image":"{{ site.url }}{{ _post_author.author_image }}",
-		"jobTitle":"{{ _post_author.author_job_title[lang] | default: _post_author.author_job_title.en }}",
-		"description":"{{ _post_author.author_bio[lang] | default: _post_author.author_bio.en }}"{% assign _pa_count = 0 %}{% for url in _pa_same_as %}{% if url != "" %}{% assign _pa_count = _pa_count | plus: 1 %}{% endif %}{% endfor %}{% if _pa_count > 0 %},
-		"sameAs":[{% assign _pa_first = true %}{% for url in _pa_same_as %}{% if url != "" %}{% unless _pa_first %},{% endunless %}"{{ url }}"{% assign _pa_first = false %}{% endif %}{% endfor %}]{% endif %}
-	},
-	"image":{
-		"@type":"ImageObject",
-		"url":"{{site.url}}/images/posts/{{page.banner_image}}",
-		"width":"600",
-		"height":"400"
-	},
-	"publisher":{
-		"@type":"Organization",
-		"name":"{{ site.title }}",
-		"logo":{
-			"@type":"ImageObject",
-			"url":"https://criptomo.com/images/logo.png",
-			"width":128,
-			"height":32
-		}
-	}
-	{% if page.rating and page.totalVotes %}
-	,"aggregateRating":{
-		"@type":"AggregateRating",
-		"ratingValue":"{{ page.rating | default: 4}}",
-		"ratingCount": {{ page.totalVotes | default: 2}}
-	}
-	{% endif %}
+{% capture _post_author_page_url %}{% include author_page_url.html author_key=_post_author_key lang=_post_lang %}{% endcapture %}
+{% assign _post_author_page_url = _post_author_page_url | strip %}
+{% assign _post_author_person_id = site.url | append: _post_author_page_url | append: "#person" %}
+{% assign _post_image = page.banner_image | default: site.banner_image %}
+{% assign _post_image_url = "" %}
+{% if _post_image %}
+  {% assign _post_image_prefix = _post_image | slice: 0, 4 %}
+  {% if _post_image_prefix == "http" %}
+    {% assign _post_image_url = _post_image %}
+  {% elsif _post_image contains "/images/posts/" or _post_image contains "/images/" %}
+    {% assign _post_image_url = _post_image | prepend: site.url %}
+  {% else %}
+    {% assign _post_image_url = _post_image | prepend: "/images/posts/" | prepend: site.url %}
+  {% endif %}
+{% endif %}
+    {% include schema_person_object.html author_key=_post_author_key lang=_post_lang person_id=_post_author_person_id %},
+    {
+      "@type": "Article",
+      "@id": {{ site.url | append: page.url | append: "#article" | jsonify }},
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": {{ site.url | append: page.url | jsonify }}
+      },
+      "headline": {{ page.title | truncate: 110 | jsonify }},
+      "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "inLanguage": {{ _post_lang | jsonify }},
+      "author": {
+        "@id": {{ _post_author_person_id | jsonify }}
+      },
+      "publisher": {
+        "@id": {{ site.url | append: "/#organization" | jsonify }}
+      },
+      "isPartOf": {
+        "@id": {{ site.url | append: "/#website" | jsonify }}
+      }{% if _post_image_url != "" %},
+      "image": {
+        "@type": "ImageObject",
+        "url": {{ _post_image_url | jsonify }}
+      }{% endif %}{% if page.rating and page.totalVotes %},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{ page.rating | default: 4 | jsonify }},
+        "ratingCount": {{ page.totalVotes | default: 2 }}
+      }{% endif %}
+    }
+  ]
 }
 </script>

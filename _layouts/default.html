@@ -15,6 +15,12 @@ layout: compress
     <meta charset="utf-8">
     {% include seo.html %}
     {% include schema_home.html %}
+    {% if page.layout == 'post' %}
+    {% include schema_post.html %}
+    {% endif %}
+    {% if page.faq %}
+    {% include schema_faq.html %}
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
     <link rel="preload" href="/fonts/icomoon.ttf?lc16yo" as="font" crossorigin="anonymous" />
