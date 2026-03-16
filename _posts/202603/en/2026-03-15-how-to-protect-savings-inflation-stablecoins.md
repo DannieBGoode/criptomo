@@ -5,7 +5,7 @@ tags:
   - altcoins
 layout: post
 description: "Learn how to use USDC and USDT dollar stablecoins to protect your savings from inflation. Step-by-step guide for users in high-inflation countries."
-banner_image: 202203/stablecoins.webp
+banner_image: 202603/stablecoins-inflacion.webp
 banner_image_alt: "How to protect savings from inflation with stablecoins"
 lang: en
 ref: stablecoins-inflation-hedge

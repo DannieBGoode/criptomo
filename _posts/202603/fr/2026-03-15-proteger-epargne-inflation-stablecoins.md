@@ -5,7 +5,7 @@ tags:
   - altcoins
 layout: post
 description: "Découvrez comment utiliser USDC et USDT pour protéger votre épargne contre l'inflation. Guide pratique étape par étape pour les épargnants européens."
-banner_image: 202203/stablecoins.webp
+banner_image: 202603/stablecoins-inflacion.webp
 banner_image_alt: "Comment protéger son épargne contre l'inflation avec les stablecoins"
 lang: fr
 ref: stablecoins-inflation-hedge

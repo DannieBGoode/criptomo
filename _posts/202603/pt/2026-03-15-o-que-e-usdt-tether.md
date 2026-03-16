@@ -5,7 +5,7 @@ tags:
   - altcoins
 layout: post
 description: "Descubra o que é USDT, como funciona o sistema de reservas da Tether, seus riscos e por que é a stablecoin mais utilizada no ecossistema cripto."
-banner_image: 202203/stablecoins.webp
+banner_image: 202603/usdt.webp
 banner_image_alt: "O que é USDT Tether stablecoin"
 lang: pt
 ref: what-is-usdt

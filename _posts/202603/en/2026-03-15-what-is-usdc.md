@@ -5,7 +5,7 @@ tags:
   - altcoins
 layout: post
 description: "Learn what USDC is, how its Deloitte-audited reserves work, its regulatory advantage under MiCA, and when to choose it over USDT."
-banner_image: 202203/stablecoins.webp
+banner_image: 202603/usdc.webp
 banner_image_alt: "What is USDC stablecoin"
 lang: en
 ref: what-is-usdc

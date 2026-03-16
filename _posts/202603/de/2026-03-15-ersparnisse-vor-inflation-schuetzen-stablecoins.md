@@ -5,7 +5,7 @@ tags:
   - altcoins
 layout: post
 description: "Wie Sie USDC und USDT nutzen, um Ersparnisse vor Inflation zu schützen. Schritt-für-Schritt-Anleitung für europäische Sparer auf Kraken."
-banner_image: 202203/stablecoins.webp
+banner_image: 202603/stablecoins-inflacion.webp
 banner_image_alt: "Ersparnisse vor Inflation schützen mit Stablecoins"
 lang: de
 ref: stablecoins-inflation-hedge

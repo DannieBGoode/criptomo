@@ -5,7 +5,7 @@ tags:
   - altcoins
 layout: post
 description: "Aprenda como usar USDC e USDT para proteger suas economias da inflação no Brasil e na América Latina. Guia passo a passo na Kraken."
-banner_image: 202203/stablecoins.webp
+banner_image: 202603/stablecoins-inflacion.webp
 banner_image_alt: "Como proteger poupanças da inflação com stablecoins"
 lang: pt
 ref: stablecoins-inflation-hedge
