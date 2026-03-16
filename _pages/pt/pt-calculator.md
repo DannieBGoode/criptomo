@@ -10,8 +10,7 @@ banner_image_height: 360
 banner_image_mobile: pages/calculator-mobile.webp
 banner_image_mobile_width: 450
 banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
-critical_css: calculator
-async_css: true
+deferred_css: calculator-deferred
 schema: true
 rating: 5
 totalVotes: 39
