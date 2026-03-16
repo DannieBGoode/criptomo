@@ -8,8 +8,9 @@
     {% assign home_url = "/" %}
 {% endif %}
 
-{% if site.mailchimp_url_es %}
-    {% assign subscribe_link = site.mailchimp_url_es | replace: '/subscribe/post?', '/subscribe?' %}
+{% assign mailchimp_url = site.mailchimp.url | default: site.mailchimp_url_es %}
+{% if mailchimp_url %}
+    {% assign subscribe_link = mailchimp_url | replace: '/subscribe/post?', '/subscribe?' %}
 {% endif %}
 
 {% assign page_translations = nil %}

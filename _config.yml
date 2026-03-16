@@ -75,6 +75,21 @@ banner_image: images/banner.jpg
 ads:
   google: false
 mailchimp_url_es: https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c
+mailchimp:
+  url: https://criptomo.us12.list-manage.com/subscribe/post?u=b9de4a6450813cafe2bddbf2b&amp;id=31e9dc380c
+  language_field_name: MERGE4
+  fallback_lang: es
+  language_options:
+    en:
+      value: English
+    es:
+      value: Español
+    de:
+      value: Deutsch
+    fr:
+      value: Français
+    pt:
+      value: Português
 twitter_username: danniebgoode
 facebook_username: 
 github_username: danniebgoode

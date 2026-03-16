@@ -54,11 +54,11 @@ Criptomo is the independent, education-first crypto resource for Spanish-speakin
 1. **Grow organic search traffic** (primary) — especially long-tail informational and transactional queries in Spanish and English
 2. **Grow affiliate revenue** via organic traffic growth (Kraken affiliate is the primary monetization lever)
 3. **Build topical authority** in the Spanish-language crypto education space to compete with Bit2Me Academy and CriptoNoticias
-4. **Grow email list** (Mailchimp, ES) as a traffic retention and re-engagement channel
+4. **Grow email list** (Mailchimp) as a traffic retention and re-engagement channel
 
 ## Marketing Channels
 
-- **Active:** Organic SEO (primary), Twitter/X (@danniebgoode), Mailchimp email newsletter (ES)
+- **Active:** Organic SEO (primary), Twitter/X (@danniebgoode), Mailchimp email newsletter
 - **Planned:** Potential reintroduction of display ads (Google Ads — currently disabled for pagespeed; worth revisiting with lazy-loading or Partytown)
 - **Not pursuing:** Paid search, YouTube, social media content creation, influencer marketing
 
@@ -131,7 +131,7 @@ Criptomo is the independent, education-first crypto resource for Spanish-speakin
 - **Ledger affiliate** *(inactive)*: Mentioned by owner as never gaining traction. No link/code currently in `_config.yml`. **Opportunity: apply for Ledger affiliate program and add to wallet/security content.**
 - **Crypto donations**: BTC (`bc1qgjqj7du7h5mtvt4wq7q68uneyhyu0730f79g35`), BCH, ETH. Displayed on About page.
 - **Google Display Ads** *(disabled)*: Turned off to improve Core Web Vitals / pagespeed. `ads.google: false` in `_config.yml`. **Opportunity: re-evaluate with Partytown (`partytown: true`) or lazy-loading approach to recover revenue without sacrificing pagespeed score.**
-- **Email list**: Mailchimp (ES only). URL in `_config.yml` under `mailchimp_url_es`. Used for traffic retention.
+- **Email list**: Mailchimp. URL in `_config.yml` under `mailchimp.url` (legacy `mailchimp_url_es` still exists). The site submits locale through Mailchimp's language dropdown field configured in `_config.yml`.
 
 ## Key Pages
 
@@ -151,7 +151,7 @@ Criptomo is the independent, education-first crypto resource for Spanish-speakin
 - **Google Analytics 4:** Set up via Google Tag Manager (GTM-TV5P5BH)
 - **Google Search Console:** Verified (`google_site_verification` key set in `_config.yml`)
 - **Disqus comments:** Shortname `criptomo` (comment engagement data)
-- **Email:** Mailchimp (ES list only)
+- **Email:** Mailchimp (per-locale signup language is submitted by the site)
 
 ## Action Items
 
@@ -161,4 +161,4 @@ Criptomo is the independent, education-first crypto resource for Spanish-speakin
 - [ ] Apply for Ledger affiliate program and add affiliate links to wallet and security posts
 - [ ] Audit existing "how to buy bitcoin/crypto" posts for Kraken affiliate CTA placement
 - [ ] Research and target top 10 informational keywords not yet covered in Spanish
-- [ ] Set up Mailchimp lists for EN, DE, FR, PT audiences (currently ES-only)
+- [ ] Keep `_config.yml` Mailchimp language values aligned with the hosted Mailchimp form if dropdown options change

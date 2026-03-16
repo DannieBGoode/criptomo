@@ -1,0 +1,13 @@
+{% assign mailchimp = site.mailchimp %}
+{% assign field_name = mailchimp.language_field_name %}
+{% assign options = mailchimp.language_options %}
+{% assign current_lang = include.lang | default: page.lang | default: site.locale | slice: 0,2 | default: "es" %}
+{% assign fallback_lang = mailchimp.fallback_lang | default: "es" %}
+{% assign selected_option = options[current_lang] %}
+{% unless selected_option and selected_option.value %}
+    {% assign selected_option = options[fallback_lang] %}
+{% endunless %}
+
+{% if field_name and selected_option and selected_option.value %}
+    <input type="hidden" name="{{ field_name }}" value="{{ selected_option.value }}">
+{% endif %}

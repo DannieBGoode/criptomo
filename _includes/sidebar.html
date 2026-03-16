@@ -39,38 +39,20 @@
     {% endif %}
 
         {% if page.layout != 'post' %}
-            {% if site.mailchimp_url_es %}
+            {% assign mailchimp_url = site.mailchimp.url | default: site.mailchimp_url_es %}
+            {% if mailchimp_url %}
                 {% assign translations = site.data.translations.subscribe %}
             <section class="widget widget-newsletter">
                 <p class="widget-title">{{ site.title}} Newsletter</p>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
-                    <form action="{{ site.mailchimp_url_es }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <form action="{{ mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll">
                             <label for="mce-EMAIL">{{ translations.sidebar-message[lang] }}</label>
                             <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ translations.placeholder[lang] }}" required>
                             <div class="clear"><input type="submit" value="{{ translations.button[lang] }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
                         </div>
-                        <div class="mc-field-group input-group hidden">
-                            <strong>Language</strong>
-                            <ul>
-                                {% if lang == 'en' %}
-                                    {% assign EN = 'checked' %}
-                                    {% assign ES = '' %}
-                                {% else %}
-                                    {% assign EN = '' %}
-                                    {% assign ES = 'checked' %}
-                                {% endif %}
-                                <li>
-                                    <input type="checkbox" value="1" name="group[21977][1]" id="mce-group[21977]-21977-0" {{ EN }}>
-                                    <label for="mce-group[21977]-21977-0">English</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" value="2" name="group[21977][2]" id="mce-group[21977]-21977-1" {{ ES }}>
-                                    <label for="mce-group[21977]-21977-1">Spanish</label>
-                                </li>
-                            </ul>
-                        </div>
+                        {% include mailchimp_language_group.html lang=lang id_prefix='sidebar' %}
                     </form>
                 </div>
                 <!--End mc_embed_signup-->
