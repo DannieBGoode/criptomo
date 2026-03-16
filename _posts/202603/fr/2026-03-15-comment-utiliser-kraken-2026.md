@@ -20,6 +20,15 @@ faq:
     answer: "Oui. Kraken accepte les virements SEPA gratuits depuis n'importe quelle banque française. Le dépôt arrive généralement en 1 à 2 jours ouvrables."
   - question: "Quel est le montant minimum pour acheter du Bitcoin sur Kraken ?"
     answer: "Le montant minimum d'achat sur Kraken est d'environ 10€ pour le Bitcoin."
+how_to:
+  - name: "Créer votre compte Kraken"
+    text: "Rendez-vous sur kraken.com et cliquez sur Créer un compte. Saisissez votre adresse e-mail et un mot de passe sécurisé, confirmez le lien d'activation et activez l'authentification à deux facteurs (2FA) dans Paramètres → Sécurité."
+  - name: "Vérifier votre identité (KYC)"
+    text: "Allez dans Paramètres → Vérification, sélectionnez le niveau Intermédiaire et téléchargez une photo de votre passeport ou carte d'identité. Complétez l'étape selfie. L'approbation prend généralement 1 à 3 jours ouvrables."
+  - name: "Déposer des euros par virement SEPA"
+    text: "Allez dans Financer → Dépôt → EUR, sélectionnez Virement bancaire (SEPA) et copiez l'IBAN et la référence unique affichés par Kraken. Effectuez le virement depuis votre banque avec la référence dans le libellé. Gratuit, arrivée en 1–2 jours ouvrables."
+  - name: "Acheter du Bitcoin"
+    text: "Avec des euros sur votre compte, allez dans Acheter/Vendre, sélectionnez BTC/EUR, saisissez le montant en euros et confirmez un ordre au prix du marché. L'achat est presque instantané."
 ---
 
 Kraken est l'une des plateformes d'échange de cryptomonnaies les plus régulées d'Europe. Fondé en 2011 et titulaire d'une licence MiCA dans toute l'Union européenne, c'est l'une des plateformes les plus sûres pour acheter du Bitcoin et d'autres cryptomonnaies depuis la France. Ce guide vous explique exactement comment vous inscrire, vérifier votre identité et effectuer votre premier achat, étape par étape.

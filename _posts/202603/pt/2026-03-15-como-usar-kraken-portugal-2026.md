@@ -20,6 +20,15 @@ faq:
     answer: "Sim. A Kraken aceita transferências SEPA gratuitas de qualquer banco português. O depósito chega normalmente em 1 a 2 dias úteis."
   - question: "Qual é o valor mínimo para comprar Bitcoin na Kraken?"
     answer: "O valor mínimo de compra na Kraken é de aproximadamente 10€ para Bitcoin."
+how_to:
+  - name: "Criar a sua conta na Kraken"
+    text: "Aceda a kraken.com e clique em Criar conta. Introduza o seu email e uma palavra-passe segura, confirme o link de ativação e ative a autenticação em dois fatores (2FA) em Definições → Segurança."
+  - name: "Verificar a sua identidade (KYC)"
+    text: "Vá a Definições → Verificação, selecione o nível Intermédio e carregue uma foto do seu BI ou passaporte. Complete o passo do selfie. A aprovação demora normalmente 1 a 3 dias úteis."
+  - name: "Depositar euros por transferência SEPA"
+    text: "Vá a Financiar → Depósito → EUR, selecione Transferência bancária (SEPA) e copie o IBAN e a referência única que a Kraken apresenta. Faça a transferência pelo seu banco com a referência na descrição. Gratuito e chega em 1-2 dias úteis."
+  - name: "Comprar Bitcoin"
+    text: "Com euros na sua conta, vá a Comprar/Vender, selecione BTC/EUR, introduza o montante em euros e confirme uma ordem a mercado. A compra é concluída quase instantaneamente."
 ---
 
 A Kraken é uma das exchanges de criptomoedas mais reguladas da Europa. Fundada em 2011 e com licença MiCA em toda a União Europeia, é uma das plataformas mais seguras para comprar Bitcoin e outras criptomoedas a partir de Portugal. Este guia explica exatamente como se registar, verificar a sua identidade e realizar a sua primeira compra, passo a passo.

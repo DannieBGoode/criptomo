@@ -20,6 +20,15 @@ faq:
     answer: "Sí. Kraken acepta transferencias SEPA gratuitas desde cualquier banco español. El ingreso tarda entre 1 y 2 días hábiles."
   - question: "¿Cuál es la cantidad mínima para comprar Bitcoin en Kraken?"
     answer: "El mínimo de compra en Kraken es de aproximadamente 10€ para Bitcoin."
+how_to:
+  - name: "Crear tu cuenta en Kraken"
+    text: "Ve a kraken.com y haz clic en Crear cuenta. Introduce tu email y una contraseña segura, confirma el enlace de activación y activa la autenticación en dos pasos (2FA) desde Configuración → Seguridad."
+  - name: "Verificar tu identidad (KYC)"
+    text: "Ve a Configuración → Verificación, selecciona el nivel Intermedio y sube una foto de tu DNI o pasaporte. Realiza una foto selfie según las instrucciones. La aprobación tarda entre 1 y 3 días hábiles."
+  - name: "Depositar euros por transferencia SEPA"
+    text: "Ve a Financiar → Depósito → EUR, selecciona Transferencia bancaria (SEPA) y copia el IBAN y la referencia única que te muestra Kraken. Realiza la transferencia desde tu banco incluyendo la referencia en el concepto. El ingreso es gratuito y llega en 1-2 días hábiles."
+  - name: "Comprar Bitcoin"
+    text: "Con euros en tu cuenta, ve a Comprar/Vender, selecciona BTC/EUR, introduce el importe en euros y confirma la orden al precio de mercado. La compra es prácticamente instantánea."
 ---
 
 Kraken es actualmente uno de los exchanges de criptomonedas más regulados de Europa. Fundado en 2011 y con licencia MiCA en toda la Unión Europea, es una de las plataformas más seguras para comprar Bitcoin y otras criptomonedas desde España. Si nunca has usado un exchange o buscas una alternativa más regulada, esta guía te explica exactamente qué hacer, paso a paso.

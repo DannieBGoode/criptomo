@@ -20,6 +20,15 @@ faq:
     answer: "Yes. Kraken supports free SEPA bank transfers for EUR deposits in Europe, and wire transfers for USD and other currencies internationally."
   - question: "What is the minimum amount to buy Bitcoin on Kraken?"
     answer: "The minimum order size on Kraken is approximately $10 or €10 equivalent for Bitcoin."
+how_to:
+  - name: "Create your Kraken account"
+    text: "Go to kraken.com and click Create account. Enter your email and a strong password, confirm the activation link, and enable two-factor authentication (2FA) under Settings → Security."
+  - name: "Verify your identity (KYC)"
+    text: "Go to Settings → Verification, select the Intermediate level and upload a photo of your passport or ID. Complete the selfie step. Approval typically takes 1–3 business days."
+  - name: "Deposit funds"
+    text: "Go to Funding → Deposit → EUR, select Bank transfer (SEPA) and copy the IBAN and unique reference Kraken provides. Send the transfer from your bank with the reference in the payment description. Free and arrives in 1–2 business days."
+  - name: "Buy Bitcoin"
+    text: "With EUR in your account, go to Buy/Sell, select BTC/EUR, enter the amount in euros and confirm a market order. The purchase completes almost instantly."
 ---
 
 Kraken is one of the most regulated and trusted cryptocurrency exchanges in the world. Founded in 2011, it holds a MiCA licence across the European Union and has an unblemished security record — it has never been hacked. Whether you are buying Bitcoin for the first time or moving away from a less regulated platform, this guide walks you through every step.

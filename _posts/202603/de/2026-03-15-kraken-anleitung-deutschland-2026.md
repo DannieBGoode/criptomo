@@ -20,6 +20,15 @@ faq:
     answer: "Ja. Kraken akzeptiert kostenlose SEPA-Überweisungen von jedem deutschen Bankkonto. Die Einzahlung dauert in der Regel 1-2 Werktage."
   - question: "Was ist der Mindestbetrag für den Kauf von Bitcoin bei Kraken?"
     answer: "Der Mindestbestellbetrag bei Kraken beträgt etwa 10€ für Bitcoin."
+how_to:
+  - name: "Konto bei Kraken erstellen"
+    text: "Gehe auf kraken.com und klicke auf Konto erstellen. Gib deine E-Mail-Adresse und ein sicheres Passwort ein, bestätige den Aktivierungslink und aktiviere die Zwei-Faktor-Authentifizierung (2FA) unter Einstellungen → Sicherheit."
+  - name: "Identität verifizieren (KYC)"
+    text: "Gehe zu Einstellungen → Verifizierung, wähle die Stufe Mittel und lade ein Foto deines Personalausweises oder Reisepasses hoch. Schließe den Selfie-Schritt ab. Die Genehmigung dauert in der Regel 1–3 Werktage."
+  - name: "Euro per SEPA einzahlen"
+    text: "Gehe zu Einzahlung → EUR, wähle Banküberweisung (SEPA) und kopiere die IBAN und die eindeutige Referenz, die Kraken anzeigt. Überweise den Betrag mit der Referenz im Verwendungszweck. Kostenlos, Eingang in 1–2 Werktagen."
+  - name: "Bitcoin kaufen"
+    text: "Mit Euro auf deinem Konto gehe zu Kaufen/Verkaufen, wähle BTC/EUR, gib den Betrag in Euro ein und bestätige eine Market-Order. Der Kauf ist nahezu sofort abgeschlossen."
 ---
 
 Kraken ist eine der am stärksten regulierten Kryptobörsen Europas. Seit 2011 in Betrieb und mit einer vollständigen MiCA-Lizenz in der Europäischen Union ist Kraken eine der sichersten Plattformen für den Kauf von Bitcoin und anderen Kryptowährungen in Deutschland. Diese Anleitung erklärt Ihnen Schritt für Schritt, wie Sie sich registrieren, Ihre Identität verifizieren und Ihren ersten Kauf tätigen.
