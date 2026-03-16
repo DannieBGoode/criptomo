@@ -10,6 +10,8 @@ banner_image_height: 360
 banner_image_mobile: pages/calculator-mobile.webp
 banner_image_mobile_width: 450
 banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
+critical_css: calculator
+async_css: true
 schema: true
 rating: 5
 totalVotes: 39
@@ -57,7 +59,7 @@ redirect_from:
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Autre atout...</option>
 			</select>
-            <input width="150" class="calculator-othercoins data-hj-allow" autofocus placeholder="XYZ" />
+            <input width="150" class="calculator-othercoins data-hj-allow" placeholder="XYZ" />
         </div>
     </div>
     <div class="calculator-othercoins"><span>Il se peut que toutes les crypto-monnaies ne soient pas couvertes par le serveur.</span></div>

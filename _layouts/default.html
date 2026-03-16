@@ -47,19 +47,30 @@ layout: compress
     {% else %}
     {% assign _banner_preload_mobile_src = page.banner_image_mobile | prepend: "/images/" | prepend: site.baseurl %}
     {% endif %}
-    <link rel="preload" as="image" href="{{ _banner_preload_src }}" imagesrcset="{{ _banner_preload_mobile_src }} {{ _banner_mobile_width }}w, {{ _banner_preload_src }} {{ _banner_width }}w" imagesizes="{{ page.banner_image_sizes | default: '100vw' }}" />
+    <link rel="preload" as="image" href="{{ _banner_preload_src }}" imagesrcset="{{ _banner_preload_mobile_src }} {{ _banner_mobile_width }}w, {{ _banner_preload_src }} {{ _banner_width }}w" imagesizes="{{ page.banner_image_sizes | default: '100vw' }}" fetchpriority="high" />
     {% else %}
-    <link rel="preload" as="image" href="{{ _banner_preload_src }}" />
+    <link rel="preload" as="image" href="{{ _banner_preload_src }}" fetchpriority="high" />
     {% endif %}
     {% endif %}
-    <link rel="preload" href="/fonts/icomoon.ttf?lc16yo" as="font" crossorigin="anonymous" />
+    {% if page.preload_icon_font == true %}
+    <link rel="preload" href="/fonts/icomoon.woff?64or3u" as="font" type="font/woff" crossorigin="anonymous" />
+    {% endif %}
+
+    {% if page.critical_css == 'calculator' %}
+    <style>{% include critical_css_calculator.html %}</style>
+    {% endif %}
 
     {% if page.css %}
-    <link rel="preload" href="{{ site.baseurl }}/css/{{page.css}}.css?{{site.time | date: '%s%N'}}" as="style" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/{{page.css}}.css?{{site.time | date: '%s%N'}}" />
+    {% capture _css_href %}{{ site.baseurl }}/css/{{page.css}}.css?{{site.time | date: '%s%N'}}{% endcapture %}
     {% else %}
-    <link rel="preload" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" as="style" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}" />
+    {% capture _css_href %}{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}{% endcapture %}
+    {% endif %}
+    <link rel="preload" href="{{ _css_href | strip }}" as="style" />
+    {% if page.async_css == true %}
+    <link rel="stylesheet" href="{{ _css_href | strip }}" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="{{ _css_href | strip }}" /></noscript>
+    {% else %}
+    <link rel="stylesheet" href="{{ _css_href | strip }}" />
     {% endif %}
 
     {% if lang == 'en' %}

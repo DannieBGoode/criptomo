@@ -9,6 +9,8 @@ banner_image_height: 360
 banner_image_mobile: pages/calculator-mobile.webp
 banner_image_mobile_width: 450
 banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
+critical_css: calculator
+async_css: true
 schema: true
 rating: 5
 totalVotes: 15
@@ -56,7 +58,7 @@ mailchimp_tracking: false
 				<option value="XRP"  min="2015-01-30">Ripple</option>
 				<option class="editable">Otra moneda...</option>
 			</select>
-            <input width="150" class="calculator-othercoins data-hj-allow" autofocus placeholder="XYZ" />
+            <input width="150" class="calculator-othercoins data-hj-allow" placeholder="XYZ" />
         </div>
     </div>
     <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>
