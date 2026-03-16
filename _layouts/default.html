@@ -23,6 +23,19 @@ layout: compress
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+    {% if page.banner_image and page.show_banner_image != false %}
+    {% assign _banner_prefix = page.banner_image | slice: 0, 4 %}
+    {% if _banner_prefix == "http" %}
+    {% assign _banner_preload_src = page.banner_image %}
+    {% elsif page.banner_image contains "/images/" %}
+    {% assign _banner_preload_src = page.banner_image | prepend: site.baseurl %}
+    {% elsif page.layout == 'post' %}
+    {% assign _banner_preload_src = page.banner_image | prepend: "/images/posts/" | prepend: site.baseurl %}
+    {% else %}
+    {% assign _banner_preload_src = page.banner_image | prepend: "/images/" | prepend: site.baseurl %}
+    {% endif %}
+    <link rel="preload" as="image" href="{{ _banner_preload_src }}" />
+    {% endif %}
     <link rel="preload" href="/fonts/icomoon.ttf?lc16yo" as="font" crossorigin="anonymous" />
 
     {% if page.css %}
