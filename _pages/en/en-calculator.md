@@ -5,6 +5,11 @@ layout: page
 description: "\U0001F4B5 Bitcoin Returns Calculator, Ethereum Calculator. Crypto Investment
   Profits."
 banner_image: pages/calculator.webp
+banner_image_width: 900
+banner_image_height: 360
+banner_image_mobile: pages/calculator-mobile.webp
+banner_image_mobile_width: 450
+banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
 schema: true
 rating: 5
 totalVotes: 39
@@ -14,6 +19,7 @@ lang: en
 css: calculator
 ref: calculator
 popular: true
+mailchimp_tracking: false
 ---
 
 <div style="margin-bottom: 10px">

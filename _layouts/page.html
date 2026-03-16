@@ -16,10 +16,22 @@ layout: default
                 <header class="entry-header {% if page.noMargins %} no-margins {% endif %}">
                     <div class="entry-header-wrap{% unless page.banner_image and page.show_banner_image != false %} entry-header-wrap--title-only{% endunless %}">
                         {% if page.banner_image and page.show_banner_image != false %}
+                            {% assign _banner_src = "/images/" | append: page.banner_image | prepend: site.baseurl %}
+                            {% assign _banner_width = page.banner_image_width | default: 600 %}
                             {% if page.thumbnail_full %}
-                                <img width="600" height="400" fetchpriority="high" class="post-thumbnail-full" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                                {% assign _banner_height = page.banner_image_height | default: 400 %}
+                                {% assign _banner_class = "post-thumbnail-full" %}
                             {% else %}
-                                <img width="600" height="360" fetchpriority="high" class="post-thumbnail" src="{{ "/images/" | append: page.banner_image | prepend: site.baseurl }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                                {% assign _banner_height = page.banner_image_height | default: 360 %}
+                                {% assign _banner_class = "post-thumbnail" %}
+                            {% endif %}
+                            {% if page.banner_image_mobile %}
+                                {% assign _banner_mobile_width = page.banner_image_mobile_width | default: 450 %}
+                                {% assign _banner_mobile_src = "/images/" | append: page.banner_image_mobile | prepend: site.baseurl %}
+                                {% capture _banner_srcset %}{{ _banner_mobile_src }} {{ _banner_mobile_width }}w, {{ _banner_src }} {{ _banner_width }}w{% endcapture %}
+                                <img width="{{ _banner_width }}" height="{{ _banner_height }}" fetchpriority="high" class="{{ _banner_class }}" src="{{ _banner_src }}" srcset="{{ _banner_srcset | strip }}" sizes="{{ page.banner_image_sizes | default: '100vw' }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
+                            {% else %}
+                                <img width="{{ _banner_width }}" height="{{ _banner_height }}" fetchpriority="high" class="{{ _banner_class }}" src="{{ _banner_src }}" alt="{% if page.banner_image_alt %}{{ page.banner_image_alt }}{% else %}{{ page.title }}{% endif %}">
                             {% endif %}
                         {% endif %}
                         <h1 class="entry-title{% unless page.banner_image and page.show_banner_image != false %} entry-title--title-only{% endunless %}">{{page.title}}</h1>

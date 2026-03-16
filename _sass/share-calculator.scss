@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .view-modal, .popup {
   margin: 0 auto;
 }
@@ -22,6 +21,7 @@ button.copy {
   opacity: 0;
   pointer-events: none;
   border: 1px solid #ddd;
+  font-family: inherit;
 }
 .popup.show {
   top: 50%;

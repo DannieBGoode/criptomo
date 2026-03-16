@@ -24,6 +24,7 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
     {% if page.banner_image and page.show_banner_image != false %}
+    {% assign _banner_width = page.banner_image_width | default: 600 %}
     {% assign _banner_prefix = page.banner_image | slice: 0, 4 %}
     {% if _banner_prefix == "http" %}
     {% assign _banner_preload_src = page.banner_image %}
@@ -34,7 +35,22 @@ layout: compress
     {% else %}
     {% assign _banner_preload_src = page.banner_image | prepend: "/images/" | prepend: site.baseurl %}
     {% endif %}
+    {% if page.banner_image_mobile %}
+    {% assign _banner_mobile_width = page.banner_image_mobile_width | default: 450 %}
+    {% assign _banner_mobile_prefix = page.banner_image_mobile | slice: 0, 4 %}
+    {% if _banner_mobile_prefix == "http" %}
+    {% assign _banner_preload_mobile_src = page.banner_image_mobile %}
+    {% elsif page.banner_image_mobile contains "/images/" %}
+    {% assign _banner_preload_mobile_src = page.banner_image_mobile | prepend: site.baseurl %}
+    {% elsif page.layout == 'post' %}
+    {% assign _banner_preload_mobile_src = page.banner_image_mobile | prepend: "/images/posts/" | prepend: site.baseurl %}
+    {% else %}
+    {% assign _banner_preload_mobile_src = page.banner_image_mobile | prepend: "/images/" | prepend: site.baseurl %}
+    {% endif %}
+    <link rel="preload" as="image" href="{{ _banner_preload_src }}" imagesrcset="{{ _banner_preload_mobile_src }} {{ _banner_mobile_width }}w, {{ _banner_preload_src }} {{ _banner_width }}w" imagesizes="{{ page.banner_image_sizes | default: '100vw' }}" />
+    {% else %}
     <link rel="preload" as="image" href="{{ _banner_preload_src }}" />
+    {% endif %}
     {% endif %}
     <link rel="preload" href="/fonts/icomoon.ttf?lc16yo" as="font" crossorigin="anonymous" />
 
@@ -117,7 +133,9 @@ layout: compress
         {% include tag-manager-head.html %}
         {% include tag-manager-body.html %}
     {% endif %}
-    {% include mailchimp.html %}
+    {% unless page.mailchimp_tracking == false %}
+        {% include mailchimp.html %}
+    {% endunless %}
 
     <script defer src="/js/essentials.js?{{site.time | date: '%s%N'}}"></script>
 

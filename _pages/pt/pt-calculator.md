@@ -5,6 +5,11 @@ layout: page
 description: "\U0001F4B5 Calculadora Bitcoin, calcule quanto lucro você poderia ter
   ganho investindo em Bitcoin e outras criptomoedas. \U0001F4B9 Lucros."
 banner_image: pages/calculator.webp
+banner_image_width: 900
+banner_image_height: 360
+banner_image_mobile: pages/calculator-mobile.webp
+banner_image_mobile_width: 450
+banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
 schema: true
 rating: 5
 totalVotes: 39
@@ -13,6 +18,7 @@ sitemap: true
 lang: pt
 css: calculator
 ref: calculator
+mailchimp_tracking: false
 redirect_from:
 - "/pt"
 - "/br"
