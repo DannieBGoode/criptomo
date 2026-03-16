@@ -18,6 +18,17 @@ faq:
     answer: "Perderías los fondos de forma permanente. Siempre debes asegurarte de que la dirección de destino corresponde exactamente al tipo de criptomoneda que estás enviando."
   - question: "¿Cómo vendo mis altcoins y convierto las ganancias a dinero fiat?"
     answer: "Debes enviar tus altcoins a Binance, venderlas por Bitcoin, transferir ese Bitcoin a Coinbase, venderlo allí por euros o dólares, y finalmente retirar el dinero a tu cuenta bancaria."
+how_to:
+  - name: "Decidir dónde comprar la altcoin"
+    text: "Consulta CoinMarketCap, busca la altcoin deseada y mira en qué exchanges se vende. Si el exchange acepta transferencias SEPA, puedes comprar directamente con euros; si no, necesitarás Bitcoin o Ethereum como paso intermedio."
+  - name: "Obtener la dirección de envío en Binance"
+    text: "Regístrate en Binance, ve a Billetera → Depósito, selecciona Bitcoin o Ethereum y copia la dirección de depósito. Verifica que la red coincide exactamente antes de enviar fondos."
+  - name: "Enviar fondos desde Coinbase a Binance"
+    text: "En Coinbase, ve a Enviar, pega la dirección de Binance y envía Bitcoin o Ethereum. Para reducir comisiones usa Litecoin si el exchange destino lo acepta. Espera a que la transacción sea confirmada."
+  - name: "Comprar la altcoin en Binance"
+    text: "En Binance, busca el par de trading (por ejemplo ETH/ALT), selecciona Mercado y compra al precio actual con los fondos que acabas de depositar."
+  - name: "Vender y convertir a fiat"
+    text: "Para retirar dinero fiat, vende la altcoin por Bitcoin en Binance, transfiere el Bitcoin a Coinbase, véndelo por euros y retira a tu cuenta bancaria mediante transferencia SEPA."
 ---
 
 Esta entrada es la continuación del artículo [cómo comprar criptomonedas](/como-comprar-criptomonedas) dónde explicabamos cómo comprar tus primeras criptomonedas a cambio de euros o dólares. En este artículo haremos más hincapie en cómo comprar otras criptomonedas a cambio de BTC suponiendo que ya  poseemos está u otra criptomoneda en [Coinbase](https://www.coinbase.com/join/52f9eda19f27be821400004e) y utilizaremos [Binance](https://www.binance.com/activity/referral-entry/CPA?ref=CPA_001SI1A33Q) para ello. El motivo por el que haríamos esto es por que la mayor parte de los Exchanges que venden estas monedas no aceptan transferencias bancarias.

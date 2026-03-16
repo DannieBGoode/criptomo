@@ -18,6 +18,19 @@ faq:
     answer: "Coinbase cobra un 1,5% por compra. Para reducir comisiones al 0,25% puedes usar Coinbase Pro, accesible con la misma cuenta, que ofrece un entorno de trading más avanzado."
   - question: "¿Por qué debo mover mis criptomonedas fuera del exchange tras comprarlas?"
     answer: "Los exchanges pueden ser hackeados o desaparecer, lo que supondría la pérdida de tus fondos. Transferir las criptomonedas a un wallet donde controles la clave privada elimina ese riesgo."
+how_to:
+  - name: "Elegir la criptomoneda a comprar"
+    text: "Consulta CoinMarketCap para decidir qué criptomoneda comprar y en qué exchange se vende. Bitcoin y Ethereum están disponibles en todos los exchanges con soporte fiat; otras monedas pueden requerir un exchange intermedio."
+  - name: "Crear una cuenta en el exchange"
+    text: "Regístrate en un exchange como Coinbase o Bitstamp. Activa la autenticación en dos pasos (2FA) y usa una contraseña única y segura."
+  - name: "Verificar tu identidad"
+    text: "Sube los documentos que solicite el exchange (DNI, pasaporte, a veces una factura de servicios). La verificación puede tardar horas o días y es obligatoria para depositar dinero fiat."
+  - name: "Enviar dinero al exchange"
+    text: "Deposita euros o dólares mediante transferencia SEPA o tarjeta. Incluye la referencia que te indica el exchange en el concepto de la transferencia para que puedan identificarte."
+  - name: "Comprar la criptomoneda"
+    text: "Con fondos disponibles, compra la criptomoneda al precio de mercado. La compra es prácticamente instantánea y verás los fondos reflejados en tu cuenta."
+  - name: "Mover los fondos a un wallet"
+    text: "Transfiere las criptomonedas a un wallet donde controles la clave privada (como Ledger o Trezor). Dejar fondos en el exchange los expone a hackeos o cierres inesperados."
 ---
 
 Con tantas noticias de robos, hackeos y blanqueo de dinero puede resultar un poco desafiante empezar en el mundo de las criptomonedas.
