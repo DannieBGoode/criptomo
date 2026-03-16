@@ -21,6 +21,7 @@ lang: de
 css: calculator
 ref: calculator
 mailchimp_tracking: false
+body_class: calculator-page
 redirect_from:
 - "/de/calculator/"
 ---

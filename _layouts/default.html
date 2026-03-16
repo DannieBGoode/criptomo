@@ -80,7 +80,7 @@ layout: compress
     <script defer src="/js/jquery.js?{{site.time | date: '%s%N'}}"></script>
     {% endif %}
 </head>
-<body>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% if page.progress %}
     <div id="_progress"></div>
     {% endif %}

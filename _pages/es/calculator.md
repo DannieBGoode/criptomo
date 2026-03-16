@@ -20,6 +20,7 @@ ref: calculator
 popular: true
 lang: es
 mailchimp_tracking: false
+body_class: calculator-page
 ---
 
 <div style="margin-bottom: 10px">

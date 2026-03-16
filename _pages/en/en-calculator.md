@@ -21,6 +21,7 @@ css: calculator
 ref: calculator
 popular: true
 mailchimp_tracking: false
+body_class: calculator-page
 ---
 
 <div style="margin-bottom: 10px">
