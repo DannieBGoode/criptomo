@@ -106,13 +106,30 @@ layout: compress
                 {% endif %}
 
                 {% for link in navigation %}
-                  {% assign current = nil %}
-                  {% if page.url == link.url %}
-                    {% assign current = 'nav-current' %}
+                  {% if link.children %}
+                    {% assign is_current_parent = false %}
+                    {% for child in link.children %}
+                      {% if page.url == child.url %}{% assign is_current_parent = true %}{% endif %}
+                    {% endfor %}
+                    <li class="has-dropdown{% if is_current_parent %} nav-current{% endif %}">
+                      <a href="#">{{ link.text }}</a>
+                      <ul class="dropdown-menu">
+                        {% for child in link.children %}
+                          {% assign child_current = nil %}
+                          {% if page.url == child.url %}{% assign child_current = 'nav-current' %}{% endif %}
+                          <li class="{{ child_current }}">
+                            <a class="{{ child_current }}" href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% else %}
+                    {% assign current = nil %}
+                    {% if page.url == link.url %}{% assign current = 'nav-current' %}{% endif %}
+                    <li class="{{ current }}">
+                      <a class="{{ current }}" href="{{site.baseurl}}{{ link.url }}">{{ link.text }}</a>
+                    </li>
                   {% endif %}
-                  <li class="{{ current }}">
-                    <a class="{{ current }}" href="{{site.baseurl}}{{ link.url }}">{{ link.text }}</a>
-                  </li>
                 {% endfor %}
 
                 </ul>
