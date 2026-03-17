@@ -1,0 +1,104 @@
+function getSimulatorCoin() {
+  var select = document.querySelector('#invest-currency');
+  var selected = select && select.selectedOptions[0];
+  if (selected && selected.classList.contains('editable')) {
+    var other = document.querySelector('.calculator-othercoins');
+    return other ? other.value.trim().toUpperCase() : '';
+  }
+  return selected ? selected.value : '';
+}
+
+function formatCurrency(amount, fiat) {
+  return fiat + ' ' + amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function formatPercentage(pct) {
+  return (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+}
+
+function showSimulatorError() {
+  document.querySelector('.coin-error').classList.add('is-visible');
+  document.querySelector('#simulator-results').classList.remove('is-visible');
+  document.querySelector('.calculator-loader-container').classList.remove('is-visible');
+  document.querySelector('.calculator-result-container').classList.add('is-visible');
+}
+
+function hideSimulatorError() {
+  document.querySelector('.coin-error').classList.remove('is-visible');
+  if (document.querySelector('.calculator-othercoins')) {
+    document.querySelector('.calculator-othercoins').classList.remove('input-error');
+  }
+}
+
+function showSimulatorLoading() {
+  document.querySelector('.calculator-loader-container').classList.add('is-visible');
+  document.querySelector('.calculator-result-container').classList.remove('is-visible');
+  document.querySelector('#simulator-results').classList.remove('is-visible');
+  hideSimulatorError();
+}
+
+function showSimulatorResults() {
+  document.querySelector('.calculator-loader-container').classList.remove('is-visible');
+  document.querySelector('.calculator-result-container').classList.add('is-visible');
+  document.querySelector('#simulator-results').classList.add('is-visible');
+}
+
+function paintSimulatorResults(coin, quantity, fiat, currentPrice, targetPrice) {
+  var currentValue = quantity * currentPrice;
+  var futureValue = quantity * targetPrice;
+  var gain = futureValue - currentValue;
+  var gainPct = currentValue > 0 ? ((futureValue / currentValue) - 1) * 100 : 0;
+
+  document.querySelector('.result-coin').textContent = coin;
+  document.querySelector('.result-quantity').textContent = quantity;
+  document.querySelector('.result-current-price').textContent = formatCurrency(currentPrice, fiat);
+  document.querySelector('.result-current-value').textContent = formatCurrency(currentValue, fiat);
+  document.querySelector('.result-target-price').textContent = formatCurrency(targetPrice, fiat);
+  document.querySelector('.result-future-value').textContent = formatCurrency(futureValue, fiat);
+  document.querySelector('.result-gain').textContent = formatCurrency(gain, fiat);
+
+  var gainPctEl = document.querySelector('.gained-percentage');
+  gainPctEl.textContent = formatPercentage(gainPct);
+  gainPctEl.className = 'gained-percentage ' + (gainPct >= 0 ? 'gained-percentage-positive' : 'gained-percentage-negative');
+}
+
+function calculateSimulator() {
+  var coin = getSimulatorCoin();
+  var quantityInput = document.querySelector('#invest-quantity');
+  var targetPriceInput = document.querySelector('#invest-target-price');
+  var fiatSelect = document.querySelector('#invest-fiat');
+
+  var quantity = quantityInput ? parseFloat(quantityInput.value) : NaN;
+  var targetPrice = targetPriceInput ? parseFloat(targetPriceInput.value) : NaN;
+  var fiat = fiatSelect ? fiatSelect.value : 'USD';
+
+  if (!coin || !Number.isFinite(quantity) || quantity <= 0 || !Number.isFinite(targetPrice) || targetPrice <= 0) {
+    showSimulatorError();
+    return;
+  }
+
+  showSimulatorLoading();
+
+  var url = 'https://min-api.cryptocompare.com/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat);
+
+  fetch(url)
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      if (data && data.Response === 'Error') {
+        showSimulatorError();
+        return;
+      }
+      var currentPrice = parseFloat(data && data[fiat]);
+      if (!Number.isFinite(currentPrice) || currentPrice <= 0) {
+        showSimulatorError();
+        return;
+      }
+      paintSimulatorResults(coin, quantity, fiat, currentPrice, targetPrice);
+      showSimulatorResults();
+    })
+    .catch(function() {
+      showSimulatorError();
+    });
+}
