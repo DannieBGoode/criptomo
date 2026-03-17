@@ -23,6 +23,8 @@ faq:
     answer: "Não. A calculadora mostra o lucro bruto com base apenas na variação de preço. As taxas de trading (normalmente entre 0,1% e 0,6%) e taxas de saque reduziriam um pouco o lucro real."
 ---
 
+**Prefere pular os cálculos?** Use diretamente a [calculadora de lucro de Bitcoin](/pt/calculadora/).
+
 Você comprou Bitcoin há algum tempo e quer saber quanto ganhou. Ou está revisando uma operação para ver se ela foi rentável. Calcular o lucro em criptomoedas é direto ao ponto: você precisa de dois números e uma fórmula simples.
 
 <!--more-->

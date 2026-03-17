@@ -23,6 +23,8 @@ faq:
     answer: "Non, la calculatrice affiche le profit brut basé uniquement sur la variation de prix. Les frais de trading (généralement entre 0,1 % et 0,6 %) et les frais de retrait réduiraient légèrement le profit réel."
 ---
 
+**Vous préférez passer directement au calcul ?** Utilisez la [calculatrice de profit Bitcoin](/fr/calculateur/).
+
 Vous avez acheté du Bitcoin ou une autre cryptomonnaie et vous voulez savoir combien vous avez gagné. Ou vous cherchez à évaluer une ancienne opération pour voir si elle était réellement rentable. Le calcul est simple une fois que vous connaissez la formule -- il suffit de deux chiffres et d'un peu d'arithmétique.
 
 <!--more-->

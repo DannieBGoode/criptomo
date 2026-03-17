@@ -23,6 +23,8 @@ faq:
     answer: "No, la calculadora muestra la ganancia bruta basada solo en el cambio de precio. Las comisiones de trading (normalmente entre 0,1% y 0,6%) y las comisiones de retirada reducirían ligeramente el beneficio real."
 ---
 
+**¿Prefieres saltarte los cálculos?** Usa directamente la [calculadora de ganancias](/calculadora/).
+
 Compraste Bitcoin hace unos meses y ahora quieres saber cuánto has ganado. O quizás estás evaluando si una operación fue rentable. Calcular las ganancias en criptomonedas es más sencillo de lo que parece: solo necesitas dos datos y una fórmula básica.
 
 <!--more-->

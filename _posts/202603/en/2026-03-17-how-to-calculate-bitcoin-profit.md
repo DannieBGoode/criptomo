@@ -23,6 +23,8 @@ faq:
     answer: "No, the calculator shows gross profit based on price change only. Trading fees (typically 0.1%-0.6%) and withdrawal fees would reduce the actual profit slightly."
 ---
 
+**Want to skip the manual calculation?** Go straight to the [Bitcoin profit calculator](/en/calculator/).
+
 You bought Bitcoin a while back and now you want to know how much you have made. Or you are reviewing a trade and want to know whether it was actually profitable. Calculating crypto profit is straightforward once you know the formula -- you only need two numbers and a little arithmetic.
 
 <!--more-->

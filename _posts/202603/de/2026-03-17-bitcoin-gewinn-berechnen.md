@@ -23,6 +23,8 @@ faq:
     answer: "Nein, der Rechner zeigt den Bruttogewinn auf Basis der Preisveränderung. Handelsgebühren (typischerweise 0,1 % bis 0,6 %) und Auszahlungsgebühren würden den tatsächlichen Gewinn etwas verringern."
 ---
 
+**Lieber direkt rechnen lassen?** Nutze den [Bitcoin-Gewinnrechner](/de/gewinnrechner/).
+
 Du hast Bitcoin oder eine andere Kryptowährung gekauft und fragst dich, wie viel du damit verdient -- oder verloren -- hast. Die Berechnung ist einfacher als viele denken: Du brauchst nur den Kaufpreis, den aktuellen Preis und die Menge deiner Coins.
 
 <!--more-->
