@@ -45,6 +45,8 @@ ROI (%) = ((Valor actual / Inversión inicial) - 1) × 100
 
 Ambas fórmulas te dan información distinta y complementaria. La primera te dice cuánto dinero has ganado o perdido. La segunda te dice qué tan eficiente fue tu inversión, algo especialmente útil para comparar entre distintos activos o distintos momentos de compra.
 
+Si prefieres no hacer los cálculos a mano, puedes usar la [calculadora de ganancias](/calculadora/) directamente.
+
 ## Ejemplo paso a paso con Bitcoin
 
 Supón que el año pasado compraste Bitcoin cuando cotizaba a $10,000.
