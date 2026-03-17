@@ -1,4 +1,12 @@
 - text: Início
   url: /pt/
-- text: Calculadora
-  url: /pt/calculadora/
+- text: Calculadoras
+  children:
+    - text: Calculadora
+      url: /pt/calculadora/
+    - text: Investimento
+      url: /en/investment/
+    - text: FIRE
+      url: /en/fire-calculator/
+    - text: Simulador
+      url: /pt/simulador/

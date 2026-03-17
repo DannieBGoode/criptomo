@@ -1,4 +1,12 @@
 - text: Accueil
   url: /fr/
-- text: Calculateur
-  url: /fr/calculateur/
+- text: Calculateurs
+  children:
+    - text: Calculateur
+      url: /fr/calculateur/
+    - text: Investissement
+      url: /en/investment/
+    - text: FIRE
+      url: /en/fire-calculator/
+    - text: Simulateur
+      url: /fr/simulateur/

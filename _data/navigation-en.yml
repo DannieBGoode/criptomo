@@ -4,11 +4,15 @@
   url: /en/cryptocurrencies/
 - text: Marketcaps
   url: /en/marketcaps/
-- text: Calculator
-  url: /en/calculator/
-- text: Investment
-  url: /en/investment/
-- text: FIRE
-  url: /en/fire-calculator/
+- text: Calculators
+  children:
+    - text: Profit Calculator
+      url: /en/calculator/
+    - text: Investment
+      url: /en/investment/
+    - text: FIRE
+      url: /en/fire-calculator/
+    - text: Simulator
+      url: /en/simulator/
 - text: ICO
   url: /en/icos/

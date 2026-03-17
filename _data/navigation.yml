@@ -8,12 +8,16 @@
   url: /criptomonedas/
 - text: Cotizaciones
   url: /cotizaciones/
-- text: Calculadora
-  url: /calculadora/
-- text: Inversión
-  url: /inversion/
-- text: FIRE
-  url: /calculadora-fire/
+- text: Calculadoras
+  children:
+    - text: Calculadora
+      url: /calculadora/
+    - text: Inversión
+      url: /inversion/
+    - text: FIRE
+      url: /calculadora-fire/
+    - text: Simulador
+      url: /simulador/
 - text: ICO
   url: /icos/
 - text: Glo

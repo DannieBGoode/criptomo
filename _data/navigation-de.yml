@@ -1,4 +1,12 @@
 - text: Home
   url: /de/
-- text: Gewinnrechner
-  url: /de/gewinnrechner/
+- text: Rechner
+  children:
+    - text: Gewinnrechner
+      url: /de/gewinnrechner/
+    - text: Investition
+      url: /en/investment/
+    - text: FIRE
+      url: /en/fire-calculator/
+    - text: Simulator
+      url: /de/preissimulator/
