@@ -17,3 +17,4 @@ docs/superpowers/*
 seo/*.json
 seo/weekly_seo_run.js
 gsc data dump/*
+.superpowers/*
