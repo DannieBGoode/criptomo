@@ -26,10 +26,12 @@
 		"coveragePathIgnorePatterns": [
 			"/node_modules/",
 			"/js/public/",
+			"/artifacts/",
 			"/_site/"
 		],
 		"testPathIgnorePatterns": [
 			"/node_modules/",
+			"/artifacts/",
 			"/_site/"
 		],
 		"coverageThreshold": {

@@ -13,6 +13,9 @@ describe('lang.js and share-calculator-results.js', () => {
 
     expect(lang.getTableDataLang('en').global.today).toBe('Today');
     expect(lang.getTableDataLang('es').icoColumns.gains).toBe('Ganancias');
+    expect(lang.getTableDataLang('de').investmentColumns.date).toBe('Datum');
+    expect(lang.getTableDataLang('fr').global.today).toBe("Aujourd'hui");
+    expect(lang.getTableDataLang('pt').investmentColumns.totalSpent).toBe('Total investido');
   });
 
   test('builds share urls and opens a window', () => {

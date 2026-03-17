@@ -35,7 +35,8 @@ describe('provider edge branches', () => {
     expect(document.getElementById('invest-fiat').value).toBe('USD');
     expect(document.getElementById('invest-currency').value).toBe('BTC');
     expect(document.getElementById('invest-interval').value).toBe('30');
-    expect($.get).toHaveBeenCalledWith(expect.stringContaining('instrument=XBX-USD'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('min-api.cryptocompare.com/data/v2/histoday'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('fsym=BTC'));
 
     buildInvestDom();
     setupJQuery(table);

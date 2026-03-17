@@ -63,6 +63,8 @@ describe('calculator.js and invest.js', () => {
 
     expect(invest.isValidInterval(7)).toBe(true);
     expect(invest.isValidInterval(14)).toBe(false);
+    expect(invest.isSupportedPresetSymbol('ETH')).toBe(true);
+    expect(invest.isSupportedPresetSymbol('DOGE')).toBe(false);
     expect(rows).toEqual([
       {
         totalCC: '1.000000',
@@ -88,17 +90,41 @@ describe('calculator.js and invest.js', () => {
     ]);
     expect(invest.parseCurrentPriceResponse({ EUR: 300 }, 'USD')).toBeNull();
     expect(invest.parseHistoricalResponse({ Data: [] })).toEqual({ Data: [] });
-    expect(invest.normalizeCoindeskResponse({
+    expect(invest.getDateDiffDays('2024-01-01', '2024-01-10')).toBe(9);
+    expect(invest.getCryptoCompareHistodayLimit('2024-01-01', '2024-01-10')).toBe(9);
+    expect(invest.getCryptoCompareCoverageStartDate('2026-03-17')).toBe('2020-09-24');
+    expect(invest.getEffectiveInvestMinDate('2017-10-01', '2026-03-17')).toBe('2020-09-24');
+    expect(invest.normalizeHistoricalResponse({
       Data: {
         Data: [
           { timestamp: new Date('2024-01-22').getTime() / 1000, close: 75 }
         ]
       }
     })).toEqual({
+      error: null,
       bpi: {
         '2024-01-22': 75
       }
     });
+    expect(invest.normalizeHistoricalResponse({
+      Response: 'Error',
+      Message: 'limit is larger than max value.'
+    })).toEqual({
+      error: 'date',
+      bpi: null
+    });
+    expect(invest.normalizeHistoricalResponse({
+      Response: 'Error',
+      Message: 'CCCAGG market does not exist for this coin pair (UNKNOWN-USD)'
+    })).toEqual({
+      error: 'currency',
+      bpi: null
+    });
+    expect(invest.buildCryptoCompareHistoricalUrl('ETH', 'USD', '2024-01-01', '2024-01-10')).toContain('/data/v2/histoday');
+    expect(invest.buildCryptoCompareHistoricalUrl('ETH', 'USD', '2024-01-01', '2024-01-10')).toContain('limit=9');
+    expect(invest.setEditableCoin('DOGE')).toBe(true);
+    expect(document.querySelector('input.calculator-othercoins').value).toBe('DOGE');
+    expect(document.querySelector('#invest-currency .editable').value).toBe('DOGE');
     expect(invest.buildCurrentInvestment(rows[2], 300, '2024-01-20T00:00:00.000Z')).toEqual({
       investmentValue: '1200.00',
       totalSpent: 300,
@@ -106,6 +132,22 @@ describe('calculator.js and invest.js', () => {
       purchasePrice: 300,
       date: '2024-01-20T00:00:00.000Z'
     });
+  });
+
+  test('invest.js clamps the default date to the current API coverage floor', () => {
+    jest.useFakeTimers();
+    jest.setSystemTime(new Date('2026-03-17T12:00:00.000Z'));
+
+    buildInvestDom();
+    document.getElementById('invest-date').value = '2014-12-10';
+    setupJQuery(createDataTableStub());
+
+    loadModule('../js/invest.js');
+
+    expect(document.getElementById('invest-date').min).toBe('2020-09-24');
+    expect(document.getElementById('invest-date').value).toBe('2020-09-24');
+    expect(document.querySelector('#invest-currency option[value="BTC"]').getAttribute('min')).toBe('2020-09-24');
+    expect(document.querySelector('#invest-currency option[value="ADA"]').getAttribute('min')).toBe('2020-09-24');
   });
 
   test('calculator.js computes exact earnings outputs', async () => {
@@ -222,21 +264,24 @@ describe('calculator.js and invest.js', () => {
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
-  test('invest.js uses CoinDesk historical days in USD and builds rows correctly', () => {
+  test('invest.js uses CryptoCompare histoday for non-BTC assets and builds rows correctly', () => {
     jest.useFakeTimers();
     jest.setSystemTime(new Date('2024-01-15T12:00:00.000Z'));
 
     buildInvestDom();
+    document.getElementById('invest-currency').value = 'ETH';
     const table = createDataTableStub();
     setupJQuery(table);
     setupGetQueue([
       {
         response: {
-          Data: [
-            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 90 },
-            { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 180 },
-            { TIMESTAMP: new Date('2024-01-15').getTime() / 1000, CLOSE: 45 }
-          ]
+          Data: {
+            Data: [
+              { time: new Date('2024-01-01').getTime() / 1000, close: 90 },
+              { time: new Date('2024-01-08').getTime() / 1000, close: 180 },
+              { time: new Date('2024-01-15').getTime() / 1000, close: 45 }
+            ]
+          }
         }
       },
       {
@@ -247,8 +292,9 @@ describe('calculator.js and invest.js', () => {
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
 
-    expect($.get).toHaveBeenCalledWith(expect.stringContaining('data-api.coindesk.com/index/cc/v1/historical/days'));
-    expect($.get).toHaveBeenCalledWith(expect.stringContaining('instrument=XBX-USD'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('min-api.cryptocompare.com/data/v2/histoday'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('fsym=ETH'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('tsym=USD'));
     expect(table.rows.add).toHaveBeenCalledWith(expect.arrayContaining([
       expect.objectContaining({ date: '2024-01-01', purchasePrice: 90 }),
       expect.objectContaining({ date: '2024-01-08', purchasePrice: 180 }),
@@ -279,5 +325,26 @@ describe('calculator.js and invest.js', () => {
 
     expect(global.handleError).toHaveBeenCalledWith('date');
     expect(table.rows.add).not.toHaveBeenCalled();
+  });
+
+  test('invest.js treats manually entered dates before the API coverage floor as date errors', () => {
+    jest.useFakeTimers();
+    jest.setSystemTime(new Date('2026-03-17T12:00:00.000Z'));
+
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([{ response: {} }]);
+    const invest = loadModule('../js/invest.js');
+
+    document.getElementById('invest-date').value = '2020-09-23';
+    global.handleError.mockClear();
+    $.get.mockClear();
+
+    invest.calculateEarnings();
+
+    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect($.get).not.toHaveBeenCalled();
+    expect(table.processing).toHaveBeenLastCalledWith(false);
   });
 });

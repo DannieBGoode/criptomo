@@ -1,10 +1,97 @@
 let investment = {};
 var supportedPresetSymbols = ['BTC', 'ETH', 'LTC', 'MIOTA', 'XMR', 'ADA', 'XRP'];
+var cryptoCompareMaxHistodayLimit = 2000;
 
 function addDays(date, days) {
     var result = new Date(date.valueOf());
     result.setDate(result.getDate() + days);
     return result;
+}
+
+function parseDateAsUtc(dateString) {
+  return new Date(dateString + 'T00:00:00Z');
+}
+
+function formatDateString(date) {
+  return date.toISOString().split('T')[0];
+}
+
+function getDateDiffDays(startDate, endDate) {
+  var msPerDay = 1000 * 60 * 60 * 24;
+  return Math.floor((parseDateAsUtc(endDate).getTime() - parseDateAsUtc(startDate).getTime()) / msPerDay);
+}
+
+function getCryptoCompareHistodayLimit(startDate, endDate) {
+  return Math.max(1, getDateDiffDays(startDate, endDate));
+}
+
+function getCryptoCompareCoverageStartDate(endDate) {
+  var coverageStartDate = parseDateAsUtc(endDate);
+
+  coverageStartDate.setUTCDate(coverageStartDate.getUTCDate() - cryptoCompareMaxHistodayLimit);
+  return formatDateString(coverageStartDate);
+}
+
+function getEffectiveInvestMinDate(baseMinDate, endDate) {
+  var coverageStartDate = getCryptoCompareCoverageStartDate(endDate);
+
+  if (baseMinDate && baseMinDate > coverageStartDate) {
+    return baseMinDate;
+  }
+
+  return coverageStartDate;
+}
+
+function applyInvestCoverageMinDates(endDate) {
+  var investCurrency = document.getElementById('invest-currency');
+  var effectiveEndDate = endDate || formatDateString(new Date());
+
+  if (!investCurrency) {
+    return '';
+  }
+
+  Array.from(investCurrency.options).forEach(function(option) {
+    var baseMinDate = option.getAttribute('data-base-min');
+    var currentMinDate = option.getAttribute('min');
+
+    if (baseMinDate === null && currentMinDate !== null) {
+      option.setAttribute('data-base-min', currentMinDate);
+      baseMinDate = currentMinDate;
+    }
+
+    option.setAttribute('min', getEffectiveInvestMinDate(baseMinDate || '', effectiveEndDate));
+  });
+
+  return getSelectedInvestMinDate(effectiveEndDate);
+}
+
+function getSelectedInvestMinDate(endDate) {
+  var investCurrency = document.getElementById('invest-currency');
+  var selectedOption = investCurrency && investCurrency.selectedOptions ? investCurrency.selectedOptions[0] : null;
+
+  if (!selectedOption) {
+    return getCryptoCompareCoverageStartDate(endDate || formatDateString(new Date()));
+  }
+
+  return selectedOption.getAttribute('min') || getCryptoCompareCoverageStartDate(endDate || formatDateString(new Date()));
+}
+
+function syncInvestDateMin(preserveValue, endDate) {
+  var investDate = document.getElementById('invest-date');
+  var selectedMinDate;
+
+  if (!investDate) {
+    return '';
+  }
+
+  selectedMinDate = getSelectedInvestMinDate(endDate);
+  investDate.setAttribute('min', selectedMinDate);
+
+  if (preserveValue !== true || !investDate.value || investDate.value < selectedMinDate) {
+    investDate.value = selectedMinDate;
+  }
+
+  return selectedMinDate;
 }
 
 function parseHistoricalResponse(data) {
@@ -94,10 +181,8 @@ function buildInvestmentRows(bpi, investmentData) {
 }
 
 function buildCryptoCompareHistoricalUrl(tokenSymbol, fiat, startDate, endDate) {
-  var startMs = new Date(startDate).getTime();
-  var endMs = new Date(endDate).getTime();
-  var limit = Math.max(2, Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2);
-  var toTs = Math.floor(endMs / 1000);
+  var limit = getCryptoCompareHistodayLimit(startDate, endDate);
+  var toTs = Math.floor(parseDateAsUtc(endDate).getTime() / 1000);
   return 'https://min-api.cryptocompare.com/data/v2/histoday'
     + '?fsym=' + encodeURIComponent(tokenSymbol)
     + '&tsym=' + encodeURIComponent(fiat)
@@ -116,6 +201,16 @@ function hasValue(value) {
   return value !== null && value !== undefined;
 }
 
+function getCryptoCompareHistoricalErrorType(data) {
+  var message = String(data && data.Message ? data.Message : '').toLowerCase();
+
+  if (message.indexOf('market does not exist') !== -1 || message.indexOf('no data for the symbol') !== -1) {
+    return 'currency';
+  }
+
+  return 'date';
+}
+
 function normalizeHistoricalResponse(data) {
   var entries;
   var bpi = {};
@@ -124,7 +219,7 @@ function normalizeHistoricalResponse(data) {
     return { error: 'date', bpi: null };
   }
   if (data.Response === 'Error') {
-    return { error: 'currency', bpi: null };
+    return { error: getCryptoCompareHistoricalErrorType(data), bpi: null };
   }
 
   entries = getHistoricalEntries(data);
@@ -217,8 +312,10 @@ function preFill () {
         setEditableCoin(token);
       }
 
-      if (typeof updateInputMinDate === 'function') {
-        updateInputMinDate();
+      if (typeof window !== 'undefined' && typeof window.updateInputMinDate === 'function') {
+        window.updateInputMinDate(true);
+      } else {
+        syncInvestDateMin(true, formatDateString(new Date()));
       }
       calculateEarnings();
     }
@@ -226,9 +323,9 @@ function preFill () {
 }
 
 function calculateEarnings() {
-  if (document.querySelector('.input-error')) {
-   document.querySelector('.input-error').classList.remove('input-error');
-  }
+  Array.from(document.getElementsByClassName('input-error')).forEach(function(element) {
+    element.classList.remove('input-error');
+  });
   Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
   document.getElementById('calculator-results').classList.remove('is-visible');
@@ -243,12 +340,23 @@ function calculateEarnings() {
       fiat: 'USD',
       today: new Date().toISOString()
   };
+  var todayDate = investment.today.split('T')[0];
+  var selectedMinDate;
+
+  applyInvestCoverageMinDates(todayDate);
+  selectedMinDate = getSelectedInvestMinDate(todayDate);
+
+  if (investment.date < selectedMinDate) {
+    handleError('date');
+    table.processing(false);
+    return;
+  }
 
   var historicalUrl = buildCryptoCompareHistoricalUrl(
     investment.tokenSymbol,
     investment.fiat,
     investment.date,
-    investment.today.split('T')[0]
+    todayDate
   );
 
   $.get(historicalUrl)
@@ -372,6 +480,14 @@ let table = $('#investment-table').DataTable({
 });
 
 function initInvestCalculator() {
+  var todayDate = formatDateString(new Date());
+
+  applyInvestCoverageMinDates(todayDate);
+  if (typeof window !== 'undefined' && typeof window.updateInputMinDate === 'function') {
+    window.updateInputMinDate(true);
+  } else {
+    syncInvestDateMin(true, todayDate);
+  }
   if (window.location.search) {
     preFill();
   }
@@ -385,7 +501,13 @@ if (typeof module !== 'undefined') {
     buildCryptoCompareHistoricalUrl: buildCryptoCompareHistoricalUrl,
     buildCurrentInvestment: buildCurrentInvestment,
     buildInvestmentRows: buildInvestmentRows,
+    applyInvestCoverageMinDates: applyInvestCoverageMinDates,
     calculateEarnings: calculateEarnings,
+    getCryptoCompareCoverageStartDate: getCryptoCompareCoverageStartDate,
+    getCryptoCompareHistodayLimit: getCryptoCompareHistodayLimit,
+    getDateDiffDays: getDateDiffDays,
+    getEffectiveInvestMinDate: getEffectiveInvestMinDate,
+    getSelectedInvestMinDate: getSelectedInvestMinDate,
     initInvestCalculator: initInvestCalculator,
     isValidInterval: isValidInterval,
     isSupportedPresetSymbol: isSupportedPresetSymbol,
@@ -394,6 +516,7 @@ if (typeof module !== 'undefined') {
     parseCurrentPriceResponse: parseCurrentPriceResponse,
     parseHistoricalResponse: parseHistoricalResponse,
     preFill: preFill,
-    setEditableCoin: setEditableCoin
+    setEditableCoin: setEditableCoin,
+    syncInvestDateMin: syncInvestDateMin
   };
 }

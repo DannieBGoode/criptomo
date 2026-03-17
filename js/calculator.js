@@ -329,7 +329,9 @@ function calculateEarnings() {
     var newDate = myDate[0] + '/' + myDate[1] + '/' + myDate[2];
     var timestamp = Math.floor(new Date(newDate).getTime() / 1000 );
 
-    document.querySelector('.input-error') ? document.querySelector('.input-error').classList.remove('input-error') : null;
+    Array.from(document.getElementsByClassName('input-error')).forEach(function(element) {
+      element.classList.remove('input-error');
+    });
     Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
     fetch('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
@@ -452,9 +454,9 @@ function initializeCalculatorExamples() {
     exampleCoins[i].addEventListener('click', function(){
       document.querySelector('.calculator-othercoins').value = this.innerText;
       document.querySelector('.editable').value = this.innerText;
-      if (document.querySelector('.input-error')) {
-        document.querySelector('.input-error').classList.remove('input-error');
-      }
+      Array.from(document.getElementsByClassName('input-error')).forEach(function(element) {
+        element.classList.remove('input-error');
+      });
     });
   }
 
@@ -463,9 +465,9 @@ function initializeCalculatorExamples() {
   for (i = 0; i < exampleDate.length; i++) {
     exampleDate[i].addEventListener('click', function(){
       document.querySelector('#invest-date').value = this.innerText;
-      if (document.querySelector('.input-error')) {
-        document.querySelector('.input-error').classList.remove('input-error');
-      }
+      Array.from(document.getElementsByClassName('input-error')).forEach(function(element) {
+        element.classList.remove('input-error');
+      });
     });
   }
 }

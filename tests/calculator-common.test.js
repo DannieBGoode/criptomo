@@ -4,7 +4,7 @@ describe('calculator-common.js', () => {
   beforeEach(() => {
     document.body.innerHTML = `
       <select id="invest-currency">
-        <option class="btc">BTC</option>
+        <option class="btc" min="2010-07-18">BTC</option>
         <option class="editable" min="2020-01-01">Other</option>
       </select>
       <input class="calculator-othercoins" />
@@ -30,27 +30,56 @@ describe('calculator-common.js', () => {
     expect(document.querySelector('.editable').value).toBe('DOGE');
   });
 
-  test('applies currency and date errors', () => {
+  test('applies exclusive currency and date errors', () => {
     const calculatorCommon = loadModule('../js/calculator-common.js');
 
     calculatorCommon.handleError('currency');
     expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(true);
-    expect(document.querySelector('.calculator-othercoins').classList.contains('input-error')).toBe(true);
+    expect(document.querySelector('#invest-currency').classList.contains('input-error')).toBe(true);
+    expect(document.querySelector('.calculator-othercoins').classList.contains('input-error')).toBe(false);
 
+    document.querySelector('#invest-currency').selectedIndex = 1;
+    calculatorCommon.handleInvestCurrencyChange();
     calculatorCommon.handleError('date');
+
     expect(document.querySelector('.date-error').classList.contains('is-visible')).toBe(true);
+    expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(false);
     expect(document.querySelector('#calculator-results').classList.contains('is-visible')).toBe(false);
+    expect(document.querySelector('#invest-date').classList.contains('input-error')).toBe(true);
+    expect(document.querySelector('#invest-currency').classList.contains('input-error')).toBe(false);
+    expect(document.querySelector('.calculator-othercoins').classList.contains('input-error')).toBe(false);
     expect(document.querySelector('.suggestedDate').textContent).toMatch(/\d{4}-\d{2}-\d{2}/);
   });
 
-  test('updates the minimum selectable date', () => {
+  test('highlights the editable coin input for custom currency errors', () => {
     const calculatorCommon = loadModule('../js/calculator-common.js');
     const select = document.querySelector('#invest-currency');
     select.selectedIndex = 1;
 
+    calculatorCommon.handleInvestCurrencyChange();
+    calculatorCommon.handleError('currency');
+
+    expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(true);
+    expect(document.querySelector('.calculator-othercoins').classList.contains('input-error')).toBe(true);
+    expect(document.querySelector('#invest-currency').classList.contains('input-error')).toBe(false);
+  });
+
+  test('updates the minimum selectable date and can preserve later valid dates', () => {
+    const calculatorCommon = loadModule('../js/calculator-common.js');
+    const select = document.querySelector('#invest-currency');
+
     calculatorCommon.updateInputMinDate();
 
+    expect(document.querySelector('#invest-date').min).toBe('2010-07-18');
+    expect(document.querySelector('#invest-date').value).toBe('2010-07-18');
+
+    select.options[0].selected = false;
+    select.options[1].selected = true;
+    document.querySelector('#invest-date').value = '2021-03-01';
+    calculatorCommon.updateInputMinDate(true);
+
     expect(document.querySelector('#invest-date').min).toBe('2020-01-01');
-    expect(document.querySelector('#invest-date').value).toBe('2020-01-01');
+    expect(document.querySelector('#invest-date').value).toBe('2021-03-01');
   });
 });
+

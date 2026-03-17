@@ -49,7 +49,18 @@ function buildInvestDom() {
     <table id="investment-table"></table>
     <input id="invest-date" value="2024-01-01" />
     <input id="invest-quantity" value="100" />
-    <select id="invest-currency"><option value="BTC" selected>Bitcoin</option></select>
+    <select id="invest-currency">
+      <option value="BTC" min="2010-07-18" selected>Bitcoin</option>
+      <option value="ETH" min="2015-08-08">Ethereum</option>
+      <option value="LTC" min="2013-09-15">Litecoin</option>
+      <option value="MIOTA" min="2017-06-14">IOTA</option>
+      <option value="XMR" min="2015-01-27">Monero</option>
+      <option value="ADA" min="2017-10-02">Cardano</option>
+      <option value="XRP" min="2015-01-30">Ripple</option>
+      <option class="editable">Other asset...</option>
+    </select>
+    <input class="calculator-othercoins" value="" />
+    <div class="calculator-othercoins"></div>
     <select id="invest-interval">
       <option value="1">1</option>
       <option value="7" selected>7</option>
@@ -63,7 +74,8 @@ function buildInvestDom() {
     <span id="result-tokentype"></span>
     <span id="result-fiat"></span>
     <span id="result-currentvalue"></span>
-    <div class="error" style="display:none"></div>
+    <div class="error coin-error" style="display:none"></div>
+    <div class="error date-error" style="display:none"></div>
   `;
   global.tableDataLang = {
     general: {},
