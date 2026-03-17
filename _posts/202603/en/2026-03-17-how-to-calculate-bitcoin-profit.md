@@ -45,6 +45,8 @@ ROI (%) = ((Current Value / Initial Investment) - 1) x 100
 
 Both metrics tell you something different. The first tells you how many dollars you gained or lost. The second tells you how efficient the investment was, which is especially useful for comparing different assets or different entry points over time.
 
+If you would rather skip the manual calculation, you can use the [Bitcoin profit calculator](/en/calculator/) directly.
+
 ## Worked example with Bitcoin
 
 Say you bought Bitcoin when it was trading at $10,000.

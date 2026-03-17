@@ -45,6 +45,8 @@ ROI (%) = ((Valor atual / Investimento inicial) - 1) x 100
 
 O primeiro número diz quanto dinheiro você ganhou ou perdeu. O segundo diz o quão eficiente foi o investimento, o que é útil quando você quer comparar diferentes ativos ou diferentes momentos de entrada.
 
+Se preferir não fazer as contas na mão, pode usar diretamente a [calculadora de lucro de Bitcoin](/pt/calculadora/).
+
 ## Exemplo passo a passo com Bitcoin
 
 Suponha que você comprou Bitcoin quando ele estava cotado a R$ 50.000 (ou equivalentemente $10.000, se preferir pensar em dólares).

@@ -45,6 +45,8 @@ ROI (%) = ((Aktueller Wert / Anfangsinvestition) - 1) x 100
 
 Der absolute Gewinn sagt dir, wie viel Geld du konkret gewonnen oder verloren hast. Der ROI sagt dir, wie effizient dein Kapital eingesetzt war -- nützlich, wenn du verschiedene Investments oder verschiedene Kaufzeitpunkte miteinander vergleichen willst.
 
+Wenn du die Rechnung lieber automatisch erledigen lassen möchtest, kannst du direkt den [Bitcoin-Gewinnrechner](/de/gewinnrechner/) nutzen.
+
 ## Rechenbeispiel mit Bitcoin
 
 Angenommen, du hast Bitcoin zu einem Preis von 10.000 Euro gekauft.
