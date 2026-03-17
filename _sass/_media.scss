@@ -93,6 +93,21 @@
         display: none;
     }
 
+    .dropdown-menu {
+        display: block;
+        position: static;
+        box-shadow: none;
+        min-width: 0;
+        background: transparent;
+        padding-left: 15px;
+    }
+
+    .has-dropdown > a {
+        pointer-events: none;
+        cursor: default;
+        color: #818181;
+    }
+
     .nav-menu li {
         border-bottom: 2px solid lighten( $mine-shaft, 4% );
         display: block;
