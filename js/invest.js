@@ -1,4 +1,5 @@
 let investment = {};
+var supportedPresetSymbols = ['BTC', 'ETH', 'LTC', 'MIOTA', 'XMR', 'ADA', 'XRP'];
 
 function addDays(date, days) {
     var result = new Date(date.valueOf());
@@ -92,19 +93,19 @@ function buildInvestmentRows(bpi, investmentData) {
   return results;
 }
 
-function buildCoindeskHistoricalUrl(startDate, endDate) {
+function buildCryptoCompareHistoricalUrl(tokenSymbol, fiat, startDate, endDate) {
   var startMs = new Date(startDate).getTime();
   var endMs = new Date(endDate).getTime();
-  var limit = Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2;
+  var limit = Math.max(2, Math.ceil((endMs - startMs) / (1000 * 60 * 60 * 24)) + 2);
   var toTs = Math.floor(endMs / 1000);
-  return 'https://data-api.coindesk.com/index/cc/v1/historical/days'
-    + '?market=sda&instrument=XBX-USD'
+  return 'https://min-api.cryptocompare.com/data/v2/histoday'
+    + '?fsym=' + encodeURIComponent(tokenSymbol)
+    + '&tsym=' + encodeURIComponent(fiat)
     + '&limit=' + limit
-    + '&groups=OHLC'
-    + '&to_ts=' + toTs;
+    + '&toTs=' + toTs;
 }
 
-function getCoindeskHistoricalEntries(data) {
+function getHistoricalEntries(data) {
   if (!data) { return null; }
   if (Array.isArray(data.Data)) { return data.Data; }
   if (data.Data && Array.isArray(data.Data.Data)) { return data.Data.Data; }
@@ -115,12 +116,22 @@ function hasValue(value) {
   return value !== null && value !== undefined;
 }
 
-function normalizeCoindeskResponse(data) {
-  var entries = getCoindeskHistoricalEntries(data);
-
-  if (!entries) { return null; }
-
+function normalizeHistoricalResponse(data) {
+  var entries;
   var bpi = {};
+
+  if (!data) {
+    return { error: 'date', bpi: null };
+  }
+  if (data.Response === 'Error') {
+    return { error: 'currency', bpi: null };
+  }
+
+  entries = getHistoricalEntries(data);
+  if (!entries) {
+    return { error: 'date', bpi: null };
+  }
+
   entries.forEach(function(entry) {
     var rawTimestamp = entry && (hasValue(entry.TIMESTAMP) ? entry.TIMESTAMP : (hasValue(entry.timestamp) ? entry.timestamp : entry.time));
     var rawClose = entry && (hasValue(entry.CLOSE) ? entry.CLOSE : entry.close);
@@ -132,11 +143,54 @@ function normalizeCoindeskResponse(data) {
       bpi[dateStr] = close;
     }
   });
-  return { bpi: bpi };
+
+  if (!Object.keys(bpi).length) {
+    return { error: 'date', bpi: null };
+  }
+
+  return { error: null, bpi: bpi };
+}
+
+function normalizeCoindeskResponse(data) {
+  var normalizedData = normalizeHistoricalResponse(data);
+
+  if (!normalizedData || normalizedData.error) {
+    return null;
+  }
+
+  return { bpi: normalizedData.bpi };
 }
 
 function isValidInterval(intervalParam) {
   return intervalParam === 9999 || intervalParam === 1 || intervalParam === 7 || intervalParam === 30 || intervalParam === 365;
+}
+
+function isSupportedPresetSymbol(tokenSymbol) {
+  return supportedPresetSymbols.indexOf(tokenSymbol) !== -1;
+}
+
+function setEditableCoin(tokenSymbol) {
+  var otherCoinsInput = document.querySelector('input.calculator-othercoins');
+  var otherCoinsContainer = document.querySelector('div.calculator-othercoins');
+  var investCurrency = document.getElementById('invest-currency');
+  var editableOption = investCurrency && investCurrency.querySelector('.editable');
+
+  if (!otherCoinsInput || !editableOption) {
+    return false;
+  }
+
+  otherCoinsInput.classList.add('visible');
+  if (otherCoinsContainer) {
+    otherCoinsContainer.classList.add('visible');
+  }
+  otherCoinsInput.value = tokenSymbol;
+  editableOption.value = tokenSymbol;
+  Array.from(investCurrency.options).forEach(function(option) {
+    option.selected = false;
+  });
+  editableOption.selected = true;
+
+  return true;
 }
 
 function preFill () {
@@ -152,12 +206,20 @@ function preFill () {
     const currency = currencyParam.toUpperCase();
     const token = tokenParam.toUpperCase();
 
-    if (currency === 'USD' && token === 'BTC' && isValidInterval(intervalParam)) {
+    if (currency === 'USD' && isValidInterval(intervalParam)) {
       document.getElementById('invest-quantity').value = invest;
-      document.getElementById('invest-currency').value = token;
       document.getElementById('invest-interval').value = intervalParam;
       document.getElementById('invest-date').value = date;
 
+      if (isSupportedPresetSymbol(token)) {
+        document.getElementById('invest-currency').value = token;
+      } else {
+        setEditableCoin(token);
+      }
+
+      if (typeof updateInputMinDate === 'function') {
+        updateInputMinDate();
+      }
       calculateEarnings();
     }
   }
@@ -182,27 +244,38 @@ function calculateEarnings() {
       today: new Date().toISOString()
   };
 
-  var historicalUrl = buildCoindeskHistoricalUrl(investment.date, investment.today.split('T')[0]);
+  var historicalUrl = buildCryptoCompareHistoricalUrl(
+    investment.tokenSymbol,
+    investment.fiat,
+    investment.date,
+    investment.today.split('T')[0]
+  );
 
   $.get(historicalUrl)
     .success(function (rawData) {
       const parsed = parseHistoricalResponse(rawData);
-      const data = normalizeCoindeskResponse(parsed);
-      const investmentDataArray = buildInvestmentRows(data && data.bpi, investment);
+      const data = normalizeHistoricalResponse(parsed);
+
+      if (data.error) {
+        handleError(data.error);
+        return;
+      }
+
+      const investmentDataArray = buildInvestmentRows(data.bpi, investment);
 
       if (!investmentDataArray.length) {
         handleError('date');
         return;
       }
 
-      $.get('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
+      $.get('https://min-api.cryptocompare.com/data/price?fsym=' + encodeURIComponent(investment.tokenSymbol) + '&tsyms=' + encodeURIComponent(investment.fiat))
         .success(function (priceData) {
           const latestResult = investmentDataArray[investmentDataArray.length - 1];
           const parsedCurrentPrice = parseCurrentPriceResponse(priceData, investment.fiat);
           const currentInvestment = buildCurrentInvestment(latestResult, parsedCurrentPrice, investment.today);
 
           if (!currentInvestment) {
-            handleError('date');
+            handleError(priceData && priceData.Response === 'Error' ? 'currency' : 'date');
             return;
           }
           investmentDataArray.push(currentInvestment);
@@ -308,15 +381,19 @@ initInvestCalculator();
 
 if (typeof module !== 'undefined') {
   module.exports = {
-    buildCoindeskHistoricalUrl: buildCoindeskHistoricalUrl,
+    buildCoindeskHistoricalUrl: buildCryptoCompareHistoricalUrl,
+    buildCryptoCompareHistoricalUrl: buildCryptoCompareHistoricalUrl,
     buildCurrentInvestment: buildCurrentInvestment,
     buildInvestmentRows: buildInvestmentRows,
     calculateEarnings: calculateEarnings,
     initInvestCalculator: initInvestCalculator,
     isValidInterval: isValidInterval,
+    isSupportedPresetSymbol: isSupportedPresetSymbol,
     normalizeCoindeskResponse: normalizeCoindeskResponse,
+    normalizeHistoricalResponse: normalizeHistoricalResponse,
     parseCurrentPriceResponse: parseCurrentPriceResponse,
     parseHistoricalResponse: parseHistoricalResponse,
-    preFill: preFill
+    preFill: preFill,
+    setEditableCoin: setEditableCoin
   };
 }

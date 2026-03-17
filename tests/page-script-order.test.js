@@ -9,6 +9,9 @@ describe('page script order', () => {
   test.each([
     ['_pages/es/invest.md', '/js/invest.js'],
     ['_pages/en/en-invest.md', '/js/invest.js'],
+    ['_pages/de/de-invest.md', '/js/invest.js'],
+    ['_pages/fr/fr-invest.md', '/js/invest.js'],
+    ['_pages/pt/pt-invest.md', '/js/invest.js'],
     ['_pages/es/icos.md', '/js/icos.js'],
     ['_pages/en/en-icos.md', '/js/icos.js'],
     ['_pages/es/marketcaps.md', '/js/marketcaps.js'],

@@ -101,6 +101,21 @@ const PRELUDE_SCRIPT = `<script>
     if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/price') {
       return { status: 200, body: { USD: 50000, EUR: 46000 } };
     }
+    if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/v2/histoday') {
+      return {
+        status: 200,
+        body: {
+          Data: {
+            Data: [
+              { time: 1418169600, close: 350 },
+              { time: 1418774400, close: 360 },
+              { time: 1419379200, close: 370 },
+              { time: 1419984000, close: 380 }
+            ]
+          }
+        }
+      };
+    }
     if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/pricehistorical') {
       return { status: 200, body: { BTC: { USD: 48000, EUR: 44000 } } };
     }

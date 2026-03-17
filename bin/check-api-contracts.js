@@ -173,30 +173,34 @@ function createContractChecks(now) {
       }
     },
     {
-      name: 'CoinDesk historical days',
-      provider: 'CoinDesk',
+      name: 'CryptoCompare daily history',
+      provider: 'CryptoCompare',
       run: async function () {
         const limit = 4;
         const toTs = Math.floor(Date.UTC(
           yesterday.getUTCFullYear(), yesterday.getUTCMonth(), yesterday.getUTCDate(), 12, 0, 0, 0
         ) / 1000);
-        const endpoint = 'https://data-api.coindesk.com/index/cc/v1/historical/days'
-          + '?market=sda&instrument=XBX-USD&limit=' + limit + '&groups=OHLC&to_ts=' + toTs;
-        const response = await requestJson('CoinDesk historical days', { url: endpoint });
-        const dataArr = response.data && response.data.Data;
+        const endpoint = buildCryptoCompareUrl('/data/v2/histoday', {
+          fsym: 'BTC',
+          limit: String(limit),
+          toTs: String(toTs),
+          tsym: 'USD'
+        });
+        const response = await requestJson('CryptoCompare daily history', { url: endpoint });
+        const dataArr = response.data && response.data.Data && response.data.Data.Data;
 
         if (!Array.isArray(dataArr) || !dataArr.length) {
           throw createCheckError('Data array is missing or empty.', { endpoint: endpoint, httpStatus: response.httpStatus });
         }
 
-        requireFiniteNumber(dataArr[0].TIMESTAMP, 'Data[0].TIMESTAMP', endpoint);
-        requireFiniteNumber(dataArr[0].CLOSE, 'Data[0].CLOSE', endpoint);
+        requireFiniteNumber(dataArr[0].time, 'Data.Data[0].time', endpoint);
+        requireFiniteNumber(dataArr[0].close, 'Data.Data[0].close', endpoint);
 
         return {
           durationMs: response.durationMs,
           endpoint: endpoint,
           httpStatus: response.httpStatus,
-          notes: 'Data array contains ' + dataArr.length + ' OHLC entries with TIMESTAMP and CLOSE.'
+          notes: 'Daily history contains ' + dataArr.length + ' OHLC entries with time and close.'
         };
       }
     },

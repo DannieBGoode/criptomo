@@ -30,7 +30,7 @@ faq:
   - question: "Kann ich den Gewinn für Kryptowährungen berechnen, die nicht in der Dropdown-Liste aufgeführt sind?"
     answer: "Ja. Wählen Sie \"Sonstige\" und geben Sie das genaue Ticker-Symbol ein (z. B. DOGE, SHIB, SOL, BNB). Nicht alle Coins sind garantiert in unserer Datenbank enthalten."
   - question: "Was ist der Unterschied zwischen diesem Rechner und dem erweiterten Rechner?"
-    answer: "Dieser Rechner zeigt Ihnen, wie viel eine einmalige vergangene Investition heute wert wäre. Der <a href=\"/en/investment/\">erweiterte Rechner</a> simuliert regelmäßige Investitionen (DCA) über einen bestimmten Zeitraum."
+    answer: "Dieser Rechner zeigt Ihnen, wie viel eine einmalige vergangene Investition heute wert wäre. Der <a href=\"/de/dca-rechner/\">erweiterte Rechner</a> simuliert regelmäßige Investitionen (DCA) über einen bestimmten Zeitraum."
   - question: "Warum kann ich das heutige Datum nicht als Kaufdatum auswählen?"
     answer: "Der Rechner basiert auf historischen Schlusskursen. Wenn die Märkte für den aktuellen Tag noch nicht geschlossen haben, sind die heutigen Preisdaten möglicherweise noch nicht verfügbar. Wählen Sie in diesem Fall das gestrige Datum."
   - question: "Berücksichtigt der Rechner Handelsgebühren?"
@@ -39,7 +39,7 @@ faq:
 
 <div style="margin-bottom: 10px">
     <div style="margin-top:-25px; display:none">
-        <small>For periodical investments please use our <a href="/investment">advanced calculator</a>.</small>
+        <small>Für regelmäßige Käufe nutzen Sie bitte unseren <a href="/de/dca-rechner/">DCA Rechner</a>.</small>
     </div>
 </div>
 <div class="calculator-block" data-recommendations-script="{{ site.baseurl }}/js/recommendations.js?{{site.time | date: '%s%N'}}">

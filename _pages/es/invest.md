@@ -39,15 +39,15 @@ jquery: true
         <div class="calculator-col-end">
 			<select id="invest-currency" onchange="updateInputMinDate()">
 				<option value="BTC"  min="2010-07-18">Bitcoin</option>
-				<option value="ETH"  min="2015-08-08" disabled>Ethereum</option>
-				<option value="LTC"  min="2013-09-15" disabled>Litecoin</option>
-                <option value="IOT"  min="2017-06-14" disabled>IOTA</option>
-				<option value="XMR"  min="2015-01-27" disabled>Monero</option>
-				<option value="DASH" min="2014-02-04" disabled>Dash</option>
-				<option value="XRP"  min="2015-01-30" disabled>Ripple</option>
-				<option class="editable" disabled>Otra moneda...</option>
+				<option value="ETH"  min="2015-08-08">Ethereum</option>
+				<option value="LTC"  min="2013-09-15">Litecoin</option>
+                <option value="MIOTA"  min="2017-06-14">IOTA</option>
+				<option value="XMR"  min="2015-01-27">Monero</option>
+				<option value="ADA" min="2017-10-02">Cardano</option>
+				<option value="XRP"  min="2015-01-30">Ripple</option>
+				<option class="editable">Otra moneda...</option>
 			</select>
-            <input width="150" class="calculator-othercoins" autofocus />
+            <input width="150" class="calculator-othercoins data-hj-allow" placeholder="XYZ" autofocus />
         </div>
     </div>
     <div class="calculator-othercoins"><span>Es posible que no todas las monedas estén soportadas por la API.</span></div>

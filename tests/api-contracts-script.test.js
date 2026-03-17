@@ -22,11 +22,13 @@ describe('live api contract runner', () => {
       .mockResolvedValueOnce(createJsonResponse({ USD: 50000 }))
       .mockResolvedValueOnce(createJsonResponse({ BTC: { USD: 48000 } }))
       .mockResolvedValueOnce(createJsonResponse({
-        Data: [
-          { TIMESTAMP: 1741305600, CLOSE: 99000 },
-          { TIMESTAMP: 1741392000, CLOSE: 100000 },
-          { TIMESTAMP: 1741478400, CLOSE: 101000 }
-        ]
+        Data: {
+          Data: [
+            { time: 1741305600, close: 99000 },
+            { time: 1741392000, close: 100000 },
+            { time: 1741478400, close: 101000 }
+          ]
+        }
       }))
       .mockResolvedValueOnce(createJsonResponse({
         data: [{
@@ -52,7 +54,7 @@ describe('live api contract runner', () => {
     global.fetch
       .mockResolvedValueOnce(createJsonResponse({ USD: 50000 }))
       .mockResolvedValueOnce(createJsonResponse({ BTC: { USD: 48000 } }))
-      .mockResolvedValueOnce(createJsonResponse({ Data: [{ TIMESTAMP: 1741478400, CLOSE: 101000 }] }))
+      .mockResolvedValueOnce(createJsonResponse({ Data: { Data: [{ time: 1741478400, close: 101000 }] } }))
       .mockResolvedValueOnce(createJsonResponse({ data: [{}] }));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-10T12:00:00.000Z') });
