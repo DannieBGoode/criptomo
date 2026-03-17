@@ -22,6 +22,17 @@ ref: calculator
 popular: true
 mailchimp_tracking: false
 body_class: calculator-page
+faq:
+  - question: "How is cryptocurrency profit calculated?"
+    answer: "Profit is calculated as: (Current Price − Purchase Price) × Amount of coins. The profit percentage is: ((Current Value / Initial Investment) − 1) × 100. For example, if you bought 1 BTC at $10,000 and today it's worth $60,000, your profit is $50,000 or 500%."
+  - question: "Can I calculate profit for cryptocurrencies not listed in the dropdown?"
+    answer: "Yes. Select \"Other asset\" and enter the exact ticker symbol (e.g. DOGE, SHIB, SOL, BNB). Not all coins are guaranteed to be in our database."
+  - question: "What is the difference between this calculator and the advanced calculator?"
+    answer: "This calculator tells you what a one-time past investment would be worth today. The advanced calculator (/investment) simulates periodic investments (DCA) over time."
+  - question: "Why can't I select today's date as the purchase date?"
+    answer: "The calculator relies on historical closing prices. If markets haven't closed yet for the current day, today's price data may not be available. In that case, select yesterday's date."
+  - question: "Does the calculator account for trading fees?"
+    answer: "No. The result shows the gross profit based on price change only. Real-world profits may be slightly lower after accounting for exchange trading fees (typically 0.1%–0.6%)."
 ---
 
 <div style="margin-bottom: 10px">
@@ -181,3 +192,17 @@ The Bitcoin profit calculator will provide the investment value and coin price b
 Note that if you choose a date prior to the creation of a particular cryptocurrency, the cryptocurrency calculator may display an error message indicating that the selected date is not found in our historical data.
 
 Additionally, the bitcoin converter / profit loss calculator allows you to choose between euros (EUR) or dollars (USD) when calculating your crypto profits, earnings, or investment exit fees from your cryptocurrency.
+
+## How Cryptocurrency Profit is Calculated
+
+The calculator uses historical price data to compute your profit using this formula:
+
+**Profit ($) = (Current Price − Purchase Price) × Number of Coins**
+
+**Profit (%) = ((Current Value / Initial Investment) − 1) × 100**
+
+For example: if you invested $1,000 in Bitcoin at $10,000 per BTC, you received 0.1 BTC. If Bitcoin is now $60,000, your 0.1 BTC is worth $6,000 — a profit of $5,000 or 500%.
+
+The calculator does not include trading fees or taxes. Results are for informational purposes only.
+
+{% include faq.html %}

@@ -21,6 +21,17 @@ popular: true
 lang: es
 mailchimp_tracking: false
 body_class: calculator-page
+faq:
+  - question: "¿Cómo se calcula el beneficio en criptomonedas?"
+    answer: "El beneficio se calcula así: (Precio actual − Precio de compra) × Cantidad de monedas. El porcentaje de ganancia es: ((Valor actual / Inversión inicial) − 1) × 100. Por ejemplo, si compraste 1 BTC a 10.000 $ y hoy vale 60.000 $, tu beneficio es de 50.000 $ o un 500%."
+  - question: "¿Puedo calcular el beneficio de criptomonedas que no aparecen en el menú desplegable?"
+    answer: "Sí. Selecciona \"Otra moneda\" e introduce el símbolo exacto del ticker (por ejemplo, DOGE, SHIB, SOL, BNB). No todas las monedas están garantizadas en nuestra base de datos."
+  - question: "¿Cuál es la diferencia entre esta calculadora y la calculadora avanzada?"
+    answer: "Esta calculadora te indica cuánto valdría hoy una inversión puntual realizada en el pasado. La calculadora avanzada (/inversion) simula inversiones periódicas (DCA) a lo largo del tiempo."
+  - question: "¿Por qué no puedo seleccionar la fecha de hoy como fecha de compra?"
+    answer: "La calculadora se basa en precios de cierre históricos. Si los mercados aún no han cerrado el día actual, es posible que los datos de precio de hoy no estén disponibles. En ese caso, selecciona la fecha de ayer."
+  - question: "¿La calculadora tiene en cuenta las comisiones de trading?"
+    answer: "No. El resultado muestra el beneficio bruto basado únicamente en la variación del precio. Los beneficios reales pueden ser ligeramente inferiores una vez descontadas las comisiones de los exchanges (normalmente entre el 0,1% y el 0,6%)."
 ---
 
 <div style="margin-bottom: 10px">
@@ -179,3 +190,17 @@ Al seleccionar la fecha de venta en la calculadora, es posible que no puedas ele
 Además, ten en cuenta que al simular las ganancias de una criptomoneda, es posible que elijas una fecha anterior a la creación de la misma. En caso de que esto ocurra, recibirás un mensaje de error indicando que la fecha seleccionada no está disponible en nuestro historial.
 
 Por último, el conversor y la calculadora de bitcoin te permiten elegir entre las monedas euros (EUR) o dólares (USD) al calcular tus ganancias.
+
+## Cómo se calcula el beneficio en criptomonedas
+
+La calculadora utiliza datos históricos de precios para calcular tu beneficio mediante esta fórmula:
+
+**Beneficio ($) = (Precio actual − Precio de compra) × Número de monedas**
+
+**Beneficio (%) = ((Valor actual / Inversión inicial) − 1) × 100**
+
+Por ejemplo: si invertiste 1.000 € en Bitcoin a 10.000 € por BTC, obtuviste 0,1 BTC. Si Bitcoin vale ahora 60.000 €, tus 0,1 BTC valen 6.000 € — un beneficio de 5.000 € o un 500%.
+
+La calculadora no incluye comisiones de trading ni impuestos. Los resultados son solo orientativos.
+
+{% include faq.html %}

@@ -24,6 +24,17 @@ mailchimp_tracking: false
 body_class: calculator-page
 redirect_from:
 - "/de/calculator/"
+faq:
+  - question: "Wie wird der Kryptowährungsgewinn berechnet?"
+    answer: "Der Gewinn berechnet sich wie folgt: (Aktueller Preis − Kaufpreis) × Anzahl der Coins. Der Gewinnprozentsatz beträgt: ((Aktueller Wert / Anfangsinvestition) − 1) × 100. Wenn Sie beispielsweise 1 BTC für 10.000 $ gekauft haben und er heute 60.000 $ wert ist, beträgt Ihr Gewinn 50.000 $ oder 500%."
+  - question: "Kann ich den Gewinn für Kryptowährungen berechnen, die nicht in der Dropdown-Liste aufgeführt sind?"
+    answer: "Ja. Wählen Sie \"Sonstige\" und geben Sie das genaue Ticker-Symbol ein (z. B. DOGE, SHIB, SOL, BNB). Nicht alle Coins sind garantiert in unserer Datenbank enthalten."
+  - question: "Was ist der Unterschied zwischen diesem Rechner und dem erweiterten Rechner?"
+    answer: "Dieser Rechner zeigt Ihnen, wie viel eine einmalige vergangene Investition heute wert wäre. Der erweiterte Rechner simuliert regelmäßige Investitionen (DCA) über einen bestimmten Zeitraum."
+  - question: "Warum kann ich das heutige Datum nicht als Kaufdatum auswählen?"
+    answer: "Der Rechner basiert auf historischen Schlusskursen. Wenn die Märkte für den aktuellen Tag noch nicht geschlossen haben, sind die heutigen Preisdaten möglicherweise noch nicht verfügbar. Wählen Sie in diesem Fall das gestrige Datum."
+  - question: "Berücksichtigt der Rechner Handelsgebühren?"
+    answer: "Nein. Das Ergebnis zeigt den Bruttogewinn, der ausschließlich auf der Preisänderung basiert. Reale Gewinne können nach Abzug der Handelsgebühren der Börsen (in der Regel 0,1%–0,6%) etwas geringer ausfallen."
 ---
 
 <div style="margin-bottom: 10px">
@@ -164,4 +175,18 @@ Um diesen Bitcoin-Rechner zu verwenden, um Ihre Krypto-Gewinne herauszufinden, g
 
 Sie können andere Kryptos auswählen, die nicht in der Dropdown-Liste enthalten sind. Geben Sie jedoch genau das Ticket ein, über das die Krypto verfügt. Geben Sie beispielsweise anstelle von DOGECOIN **DOGE** ein oder geben Sie anstelle von ETHEREUM **ETH** ein. Möglicherweise werden nicht alle Kryptowährungen von der API abgedeckt.
 
-Bei der Auswahl des Verkaufsdatums ist es je nach Uhrzeit möglicherweise nicht möglich, heute zu wählen, wenn die Märkte noch nicht als geschlossen registriert wurden. Wenn ja, wählen Sie bitte Gestern als Verkaufsdatum. 
+Bei der Auswahl des Verkaufsdatums ist es je nach Uhrzeit möglicherweise nicht möglich, heute zu wählen, wenn die Märkte noch nicht als geschlossen registriert wurden. Wenn ja, wählen Sie bitte Gestern als Verkaufsdatum.
+
+## So wird der Kryptowährungsgewinn berechnet
+
+Der Rechner verwendet historische Preisdaten, um Ihren Gewinn anhand dieser Formel zu berechnen:
+
+**Gewinn ($) = (Aktueller Preis − Kaufpreis) × Anzahl der Coins**
+
+**Gewinn (%) = ((Aktueller Wert / Anfangsinvestition) − 1) × 100**
+
+Beispiel: Wenn Sie 1.000 $ in Bitcoin zu einem Preis von 10.000 $ pro BTC investiert haben, erhielten Sie 0,1 BTC. Wenn Bitcoin jetzt 60.000 $ wert ist, sind Ihre 0,1 BTC 6.000 $ wert — ein Gewinn von 5.000 $ oder 500%.
+
+Der Rechner berücksichtigt keine Handelsgebühren oder Steuern. Die Ergebnisse dienen nur zu Informationszwecken.
+
+{% include faq.html %}

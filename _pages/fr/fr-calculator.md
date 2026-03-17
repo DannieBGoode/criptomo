@@ -23,6 +23,17 @@ mailchimp_tracking: false
 body_class: calculator-page
 redirect_from:
 - "/fr"
+faq:
+  - question: "Comment le bénéfice en crypto-monnaie est-il calculé ?"
+    answer: "Le bénéfice est calculé comme suit : (Prix actuel − Prix d'achat) × Quantité de pièces. Le pourcentage de profit est : ((Valeur actuelle / Investissement initial) − 1) × 100. Par exemple, si vous avez acheté 1 BTC à 10 000 $ et qu'il vaut aujourd'hui 60 000 $, votre bénéfice est de 50 000 $ soit 500%."
+  - question: "Puis-je calculer le bénéfice pour des crypto-monnaies qui ne figurent pas dans la liste déroulante ?"
+    answer: "Oui. Sélectionnez \"Autre actif\" et saisissez le symbole exact du ticker (ex. DOGE, SHIB, SOL, BNB). Toutes les pièces ne sont pas forcément présentes dans notre base de données."
+  - question: "Quelle est la différence entre cette calculatrice et la calculatrice avancée ?"
+    answer: "Cette calculatrice vous indique ce que vaudrait aujourd'hui un investissement ponctuel effectué dans le passé. La calculatrice avancée simule des investissements périodiques (DCA) dans le temps."
+  - question: "Pourquoi ne puis-je pas sélectionner la date d'aujourd'hui comme date d'achat ?"
+    answer: "La calculatrice s'appuie sur les prix de clôture historiques. Si les marchés n'ont pas encore clôturé pour la journée en cours, les données de prix d'aujourd'hui peuvent ne pas être disponibles. Dans ce cas, sélectionnez la date d'hier."
+  - question: "La calculatrice tient-elle compte des frais de trading ?"
+    answer: "Non. Le résultat affiche le bénéfice brut basé uniquement sur la variation du prix. Les bénéfices réels peuvent être légèrement inférieurs après déduction des frais de trading des exchanges (généralement entre 0,1% et 0,6%)."
 ---
 
 <div style="margin-bottom: 10px">
@@ -57,7 +68,7 @@ redirect_from:
 				<option value="XMR"  min="2015-01-27">Monero</option>
 				<option value="ADA" min="2017-10-02">Cardano</option>
 				<option value="XRP"  min="2015-01-30">Ripple</option>
-				<option class="editable">Autre atout...</option>
+				<option class="editable">Autre actif...</option>
 			</select>
             <input width="150" class="calculator-othercoins data-hj-allow" placeholder="XYZ" />
         </div>
@@ -162,4 +173,18 @@ Afin d'utiliser ce calculateur de bitcoins pour connaître vos bénéfices de cr
 
 Vous pouvez choisir d'autres cryptos non inclus dans la liste déroulante, mais assurez-vous de saisir le ticket exact de la crypto. Par exemple, au lieu de DOGECOIN, saisissez **DOGE**, ou au lieu de ETHEREUM, saisissez **ETH**. Il est possible que toutes les crypto-monnaies ne soient pas couvertes par l'API.
 
-Lors de la sélection de la date de vente, en fonction de l'heure, il peut ne pas être possible de choisir aujourd'hui si les marchés n'ont pas encore été enregistrés comme fermés. Si tel est le cas, veuillez choisir Hier comme date de vente. 
+Lors de la sélection de la date de vente, en fonction de l'heure, il peut ne pas être possible de choisir aujourd'hui si les marchés n'ont pas encore été enregistrés comme fermés. Si tel est le cas, veuillez choisir Hier comme date de vente.
+
+## Comment le bénéfice en crypto-monnaie est-il calculé
+
+Le calculateur utilise des données historiques de prix pour calculer votre bénéfice à l'aide de cette formule :
+
+**Bénéfice ($) = (Prix actuel − Prix d'achat) × Nombre de pièces**
+
+**Bénéfice (%) = ((Valeur actuelle / Investissement initial) − 1) × 100**
+
+Par exemple : si vous avez investi 1 000 $ dans Bitcoin à 10 000 $ par BTC, vous avez reçu 0,1 BTC. Si Bitcoin vaut maintenant 60 000 $, vos 0,1 BTC valent 6 000 $ — un bénéfice de 5 000 $ soit 500%.
+
+Le calculateur ne tient pas compte des frais de trading ni des impôts. Les résultats sont fournis à titre informatif uniquement.
+
+{% include faq.html %}

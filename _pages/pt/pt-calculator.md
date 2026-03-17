@@ -26,6 +26,17 @@ redirect_from:
 - "/br"
 - "/br/"
 - "/pt/calculator/"
+faq:
+  - question: "Como é calculado o lucro em criptomoedas?"
+    answer: "O lucro é calculado da seguinte forma: (Preço atual − Preço de compra) × Quantidade de moedas. O percentual de lucro é: ((Valor atual / Investimento inicial) − 1) × 100. Por exemplo, se você comprou 1 BTC a $ 10.000 e hoje vale $ 60.000, seu lucro é de $ 50.000 ou 500%."
+  - question: "Posso calcular o lucro de criptomoedas que não estão listadas no menu suspenso?"
+    answer: "Sim. Selecione \"Outro ativo\" e insira o símbolo exato do ticker (ex.: DOGE, SHIB, SOL, BNB). Nem todas as moedas têm garantia de estarem em nossa base de dados."
+  - question: "Qual é a diferença entre esta calculadora e a calculadora avançada?"
+    answer: "Esta calculadora mostra quanto valeria hoje um investimento único feito no passado. A calculadora avançada simula investimentos periódicos (DCA) ao longo do tempo."
+  - question: "Por que não consigo selecionar a data de hoje como data de compra?"
+    answer: "A calculadora depende de preços de fechamento históricos. Se os mercados ainda não fecharam no dia atual, os dados de preço de hoje podem não estar disponíveis. Nesse caso, selecione a data de ontem."
+  - question: "A calculadora leva em conta as taxas de negociação?"
+    answer: "Não. O resultado mostra o lucro bruto com base apenas na variação do preço. Os lucros reais podem ser ligeiramente menores após a dedução das taxas de negociação das exchanges (normalmente entre 0,1% e 0,6%)."
 ---
 
 <div style="margin-bottom: 10px">
@@ -100,7 +111,7 @@ redirect_from:
                             <td><span class="result-invest"></span></td>
                         </tr>
                         <tr>
-                            <th>Purchase Date</th>
+                            <th>Data de Compra</th>
                             <td><span class="result-date"></span></td>
                         </tr>
                         <tr>
@@ -108,7 +119,7 @@ redirect_from:
                             <td><span class="result-old-price"></span></td>
                         </tr>
                         <tr>
-                            <th>Assets Bought</th>
+                            <th>Criptomoedas Compradas</th>
                             <td><span class="result-tokencount"></span> <span class="result-tokentype"></span></td>
                         </tr>
                         <tr>
@@ -165,4 +176,18 @@ Para usar esta calculadora de bitcoin para descobrir seus lucros de criptografia
 
 Você pode escolher outras criptografias não incluídas na lista suspensa, mas certifique-se de inserir o bilhete exato que a criptografia possui. Por exemplo, em vez de DOGECOIN, digite **DOGE** ou, em vez de ETHEREUM, digite **ETH**. Pode ser possível que nem todas as criptomoedas sejam cobertas pela API.
 
-Ao selecionar a data de venda, dependendo do horário pode não ser possível escolher hoje se os mercados ainda não estiverem registrados como fechados. Em caso afirmativo, escolha Ontem como data de venda. 
+Ao selecionar a data de venda, dependendo do horário pode não ser possível escolher hoje se os mercados ainda não estiverem registrados como fechados. Em caso afirmativo, escolha Ontem como data de venda.
+
+## Como o lucro em criptomoedas é calculado
+
+A calculadora utiliza dados históricos de preços para calcular seu lucro com esta fórmula:
+
+**Lucro ($) = (Preço atual − Preço de compra) × Número de moedas**
+
+**Lucro (%) = ((Valor atual / Investimento inicial) − 1) × 100**
+
+Por exemplo: se você investiu $ 1.000 em Bitcoin a $ 10.000 por BTC, recebeu 0,1 BTC. Se o Bitcoin agora vale $ 60.000, seus 0,1 BTC valem $ 6.000 — um lucro de $ 5.000 ou 500%.
+
+A calculadora não inclui taxas de negociação nem impostos. Os resultados são apenas para fins informativos.
+
+{% include faq.html %}
