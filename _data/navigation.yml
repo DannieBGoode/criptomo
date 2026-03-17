@@ -12,7 +12,7 @@
   children:
     - text: Calculadora
       url: /calculadora/
-    - text: Inversión
+    - text: Calculadora DCA
       url: /inversion/
     - text: FIRE
       url: /calculadora-fire/

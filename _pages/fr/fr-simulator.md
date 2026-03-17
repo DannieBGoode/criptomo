@@ -51,7 +51,7 @@ mailchimp_tracking: false
     </div>
     <div class="calculator-form-row">
         <div class="calculator-col-start">
-            <label for="invest-target-price">Prix cible</label>
+            <label for="invest-target-price">Prix futur</label>
         </div>
         <div class="calculator-col-end">
             <input id="invest-target-price" type="number" value="100000" step="any" class="data-hj-allow">
@@ -67,6 +67,15 @@ mailchimp_tracking: false
 
     <div class="calculator-result-container">
         <button class="calculate-button" onclick="calculateSimulator()">Calculer</button>
+        <div class="simulator-placeholder">
+            <div class="simulator-placeholder-icon">
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                    <polyline points="16 7 22 7 22 13"></polyline>
+                </svg>
+            </div>
+            <p>Entrez vos données et appuyez sur <strong>Calculer</strong> pour voir votre simulation</p>
+        </div>
         <div id="simulator-results">
             <div id="simulator-results-table">
                 <table>
@@ -79,7 +88,7 @@ mailchimp_tracking: false
                         <td><span class="result-quantity"></span></td>
                     </tr>
                     <tr>
-                        <th>Prix actuel</th>
+                        <th class="label-current-price" data-prefix="Prix">Prix 1 BTC</th>
                         <td><span class="result-current-price"></span></td>
                     </tr>
                     <tr>
@@ -87,7 +96,7 @@ mailchimp_tracking: false
                         <td><span class="result-current-value"></span></td>
                     </tr>
                     <tr>
-                        <th>Prix cible</th>
+                        <th>Prix futur</th>
                         <td><span class="result-target-price"></span></td>
                     </tr>
                     <tr>

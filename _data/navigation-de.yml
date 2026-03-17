@@ -4,7 +4,7 @@
   children:
     - text: Gewinnrechner
       url: /de/gewinnrechner/
-    - text: Investition
+    - text: DCA Rechner
       url: /en/investment/
     - text: FIRE
       url: /en/fire-calculator/

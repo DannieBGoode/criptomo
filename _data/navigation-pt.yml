@@ -4,7 +4,7 @@
   children:
     - text: Calculadora
       url: /pt/calculadora/
-    - text: Investimento
+    - text: Calculadora DCA
       url: /en/investment/
     - text: FIRE
       url: /en/fire-calculator/

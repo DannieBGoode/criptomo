@@ -111,9 +111,10 @@ layout: compress
                     {% for child in link.children %}
                       {% if page.url == child.url %}{% assign is_current_parent = true %}{% endif %}
                     {% endfor %}
+                    {% assign parent_link = link.children | first %}
                     <li class="has-dropdown{% if is_current_parent %} nav-current{% endif %}">
-                      <a href="#">{{ link.text }}</a>
-                      <ul class="dropdown-menu">
+                      <a class="dropdown-toggle" aria-haspopup="true" href="{{ site.baseurl }}{{ parent_link.url }}">{{ link.text }}</a>
+                      <ul class="dropdown-menu" aria-label="{{ link.text }}">
                         {% for child in link.children %}
                           {% assign child_current = nil %}
                           {% if page.url == child.url %}{% assign child_current = 'nav-current' %}{% endif %}

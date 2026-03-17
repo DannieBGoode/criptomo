@@ -8,7 +8,7 @@
   children:
     - text: Profit Calculator
       url: /en/calculator/
-    - text: Investment
+    - text: DCA Calculator
       url: /en/investment/
     - text: FIRE
       url: /en/fire-calculator/

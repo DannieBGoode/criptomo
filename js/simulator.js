@@ -49,6 +49,12 @@ function paintSimulatorResults(coin, quantity, fiat, currentPrice, targetPrice) 
   var gain = futureValue - currentValue;
   var gainPct = currentValue > 0 ? ((futureValue / currentValue) - 1) * 100 : 0;
 
+  var currentPriceLabelEl = document.querySelector('.label-current-price');
+  if (currentPriceLabelEl) {
+    var prefix = currentPriceLabelEl.getAttribute('data-prefix') || '';
+    currentPriceLabelEl.textContent = prefix + ' 1 ' + coin;
+  }
+
   document.querySelector('.result-coin').textContent = coin;
   document.querySelector('.result-quantity').textContent = quantity;
   document.querySelector('.result-current-price').textContent = formatCurrency(currentPrice, fiat);
@@ -102,3 +108,18 @@ function calculateSimulator() {
       showSimulatorError();
     });
 }
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    formatCurrency: formatCurrency,
+    formatPercentage: formatPercentage,
+    getSimulatorCoin: getSimulatorCoin,
+    paintSimulatorResults: paintSimulatorResults,
+    showSimulatorLoading: showSimulatorLoading,
+    showSimulatorResults: showSimulatorResults,
+    showSimulatorError: showSimulatorError,
+    hideSimulatorError: hideSimulatorError,
+    calculateSimulator: calculateSimulator
+  };
+}
+
