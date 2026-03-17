@@ -27,7 +27,7 @@ faq:
   - question: "¿Puedo calcular el beneficio de criptomonedas que no aparecen en el menú desplegable?"
     answer: "Sí. Selecciona \"Otra moneda\" e introduce el símbolo exacto del ticker (por ejemplo, DOGE, SHIB, SOL, BNB). No todas las monedas están garantizadas en nuestra base de datos."
   - question: "¿Cuál es la diferencia entre esta calculadora y la calculadora avanzada?"
-    answer: "Esta calculadora te indica cuánto valdría hoy una inversión puntual realizada en el pasado. La calculadora avanzada (/inversion) simula inversiones periódicas (DCA) a lo largo del tiempo."
+    answer: "Esta calculadora te indica cuánto valdría hoy una inversión puntual realizada en el pasado. La <a href=\"/inversion/\">calculadora avanzada</a> simula inversiones periódicas (DCA) a lo largo del tiempo."
   - question: "¿Por qué no puedo seleccionar la fecha de hoy como fecha de compra?"
     answer: "La calculadora se basa en precios de cierre históricos. Si los mercados aún no han cerrado el día actual, es posible que los datos de precio de hoy no estén disponibles. En ese caso, selecciona la fecha de ayer."
   - question: "¿La calculadora tiene en cuenta las comisiones de trading?"

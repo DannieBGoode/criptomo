@@ -29,7 +29,7 @@ faq:
   - question: "Puis-je calculer le bénéfice pour des crypto-monnaies qui ne figurent pas dans la liste déroulante ?"
     answer: "Oui. Sélectionnez \"Autre actif\" et saisissez le symbole exact du ticker (ex. DOGE, SHIB, SOL, BNB). Toutes les pièces ne sont pas forcément présentes dans notre base de données."
   - question: "Quelle est la différence entre cette calculatrice et la calculatrice avancée ?"
-    answer: "Cette calculatrice vous indique ce que vaudrait aujourd'hui un investissement ponctuel effectué dans le passé. La calculatrice avancée simule des investissements périodiques (DCA) dans le temps."
+    answer: "Cette calculatrice vous indique ce que vaudrait aujourd'hui un investissement ponctuel effectué dans le passé. La <a href=\"/en/investment/\">calculatrice avancée</a> simule des investissements périodiques (DCA) dans le temps."
   - question: "Pourquoi ne puis-je pas sélectionner la date d'aujourd'hui comme date d'achat ?"
     answer: "La calculatrice s'appuie sur les prix de clôture historiques. Si les marchés n'ont pas encore clôturé pour la journée en cours, les données de prix d'aujourd'hui peuvent ne pas être disponibles. Dans ce cas, sélectionnez la date d'hier."
   - question: "La calculatrice tient-elle compte des frais de trading ?"

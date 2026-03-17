@@ -32,7 +32,7 @@ faq:
   - question: "Posso calcular o lucro de criptomoedas que não estão listadas no menu suspenso?"
     answer: "Sim. Selecione \"Outro ativo\" e insira o símbolo exato do ticker (ex.: DOGE, SHIB, SOL, BNB). Nem todas as moedas têm garantia de estarem em nossa base de dados."
   - question: "Qual é a diferença entre esta calculadora e a calculadora avançada?"
-    answer: "Esta calculadora mostra quanto valeria hoje um investimento único feito no passado. A calculadora avançada simula investimentos periódicos (DCA) ao longo do tempo."
+    answer: "Esta calculadora mostra quanto valeria hoje um investimento único feito no passado. A <a href=\"/en/investment/\">calculadora avançada</a> simula investimentos periódicos (DCA) ao longo do tempo."
   - question: "Por que não consigo selecionar a data de hoje como data de compra?"
     answer: "A calculadora depende de preços de fechamento históricos. Se os mercados ainda não fecharam no dia atual, os dados de preço de hoje podem não estar disponíveis. Nesse caso, selecione a data de ontem."
   - question: "A calculadora leva em conta as taxas de negociação?"

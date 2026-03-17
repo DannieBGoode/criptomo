@@ -28,7 +28,7 @@ faq:
   - question: "Can I calculate profit for cryptocurrencies not listed in the dropdown?"
     answer: "Yes. Select \"Other asset\" and enter the exact ticker symbol (e.g. DOGE, SHIB, SOL, BNB). Not all coins are guaranteed to be in our database."
   - question: "What is the difference between this calculator and the advanced calculator?"
-    answer: "This calculator tells you what a one-time past investment would be worth today. The advanced calculator (/investment) simulates periodic investments (DCA) over time."
+    answer: "This calculator tells you what a one-time past investment would be worth today. The <a href=\"/en/investment/\">advanced calculator</a> simulates periodic investments (DCA) over time."
   - question: "Why can't I select today's date as the purchase date?"
     answer: "The calculator relies on historical closing prices. If markets haven't closed yet for the current day, today's price data may not be available. In that case, select yesterday's date."
   - question: "Does the calculator account for trading fees?"
