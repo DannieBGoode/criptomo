@@ -117,8 +117,8 @@ layout: compress
                         {% for child in link.children %}
                           {% assign child_current = nil %}
                           {% if page.url == child.url %}{% assign child_current = 'nav-current' %}{% endif %}
-                          <li class="{{ child_current }}">
-                            <a class="{{ child_current }}" href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a>
+                          <li{% if child_current %} class="{{ child_current }}"{% endif %}>
+                            <a{% if child_current %} class="{{ child_current }}"{% endif %} href="{{ site.baseurl }}{{ child.url }}">{{ child.text }}</a>
                           </li>
                         {% endfor %}
                       </ul>
@@ -126,8 +126,8 @@ layout: compress
                   {% else %}
                     {% assign current = nil %}
                     {% if page.url == link.url %}{% assign current = 'nav-current' %}{% endif %}
-                    <li class="{{ current }}">
-                      <a class="{{ current }}" href="{{site.baseurl}}{{ link.url }}">{{ link.text }}</a>
+                    <li{% if current %} class="{{ current }}"{% endif %}>
+                      <a{% if current %} class="{{ current }}"{% endif %} href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
                     </li>
                   {% endif %}
                 {% endfor %}
