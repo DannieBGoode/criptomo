@@ -6,7 +6,7 @@ tags:
   - investing
 layout: post
 description: "Aprenda a calcular seu lucro em Bitcoin e criptomoedas com a fórmula exata, exemplos passo a passo e uma calculadora gratuita online."
-banner_image: pages/calculator.webp
+banner_image: 202603/calculator.webp
 lang: pt
 ref: how-to-calculate-bitcoin-profit
 popular: false

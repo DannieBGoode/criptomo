@@ -6,7 +6,7 @@ tags:
   - investing
 layout: post
 description: "Learn how to calculate your Bitcoin and cryptocurrency profit with the exact formula, worked examples, and a free online calculator."
-banner_image: pages/calculator.webp
+banner_image: 202603/calculator.webp
 lang: en
 ref: how-to-calculate-bitcoin-profit
 popular: false

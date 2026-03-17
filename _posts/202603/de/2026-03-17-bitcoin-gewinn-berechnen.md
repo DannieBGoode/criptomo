@@ -6,7 +6,7 @@ tags:
   - investing
 layout: post
 description: "So berechnest du deinen Bitcoin- und Krypto-Gewinn: die genaue Formel, ein Rechenbeispiel Schritt für Schritt und ein kostenloser Online-Rechner."
-banner_image: pages/calculator.webp
+banner_image: 202603/calculator.webp
 lang: de
 ref: how-to-calculate-bitcoin-profit
 popular: false

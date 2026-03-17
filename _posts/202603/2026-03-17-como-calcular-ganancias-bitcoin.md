@@ -6,7 +6,7 @@ tags:
   - investing
 layout: post
 description: "Aprende a calcular tus ganancias en Bitcoin y criptomonedas con la fórmula exacta, ejemplos paso a paso y una calculadora gratuita online."
-banner_image: pages/calculator.webp
+banner_image: 202603/calculator.webp
 lang: es
 ref: how-to-calculate-bitcoin-profit
 popular: false
