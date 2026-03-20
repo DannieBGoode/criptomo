@@ -44,11 +44,6 @@
       "image": {
         "@type": "ImageObject",
         "url": {{ _post_image_url | jsonify }}
-      }{% endif %}{% if page.rating and page.totalVotes %},
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": {{ page.rating | default: 4 | jsonify }},
-        "ratingCount": {{ page.totalVotes | default: 2 }}
       }{% endif %}
     }
   ]
