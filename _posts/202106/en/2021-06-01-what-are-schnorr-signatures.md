@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Learn what Schnorr signatures are, how they improve on ECDSA in Bitcoin, and why aggregating multisig keys boosts privacy, scalability, and lower fees.
 banner_image: 202106/schnorr.webp
-rating: 5
-TotalVotes: 16
 lang: en
 ref: schnorr
 ---

@@ -9,8 +9,6 @@ tags:
   - bitcoin
   - blockchain
 banner_image: /images/posts/image_2022-12-15_101922036.png
-rating: 5
-TotalVotes: 11
 popular: false
 ref: lightning-network
 lang: es

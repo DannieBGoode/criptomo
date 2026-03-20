@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Learn what Taproot is and how this Bitcoin soft fork improves privacy, scalability, and security by masking complex transactions alongside Schnorr signatures.
 banner_image: 202106/taproot.webp
-rating: 5
-TotalVotes: 12
 lang: en
 ref: taproot
 faq:

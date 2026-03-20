@@ -8,8 +8,6 @@ description: "Discover the different types of cryptocurrencies: Bitcoin, altcoin
 tags:
   - altcoins
 banner_image: https://criptomo.com/images/posts/201711/criptomonedas.jpg
-rating: 4
-TotalVotes: 2
 popular: false
 ref: crypto-types
 lang: en

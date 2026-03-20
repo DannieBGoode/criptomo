@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre la nueva calculadora de inversión en Bitcoin de Criptomo para simular el rendimiento de tu cartera con aportaciones constantes a lo largo del tiempo.
 banner_image: 201910/investment-blog.png
-rating: 5
-totalVotes: 6
 lang: es
 ---
 

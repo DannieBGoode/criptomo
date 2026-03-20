@@ -6,8 +6,6 @@ tags:
 layout: post
 description: "Découvrez ce qu'est Cardano ADA — la blockchain de troisième génération développée par des scientifiques pour résoudre les problèmes de scalabilité, d'interopérabilité et de durabilité de Bitcoin et Ethereum."
 banner_image: 201712/cardano.jpg
-rating: 4.75
-totalVotes: 3
 lang: fr
 ref: what-is-cardano
 faq:

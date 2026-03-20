@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Is the banking system a Ponzi scheme? Explore how fractional reserve banking works, why it can harm everyone, and how Bitcoin offers an alternative.
 banner_image: 202011/banking.webp
-rating: 5
-TotalVotes: 16
 lang: en
 ref: banking-ponzi
 ---

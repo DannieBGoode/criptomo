@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre por qué Bitcoin no es anónimo sino pseudónimo, cómo se pueden vincular direcciones a identidades reales y qué soluciones de privacidad existen.
 banner_image: 201806/anon.png
-rating: 5
-totalVotes: 2
 lang: es
 ---
 

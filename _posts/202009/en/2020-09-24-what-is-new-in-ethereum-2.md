@@ -7,8 +7,6 @@ tags:
 layout: post
 description: "Learn what Ethereum 2.0 brings: Proof of Stake consensus, sharding with 64 parallel chains, validators, and how the upgrade improves speed and energy use."
 banner_image: 202009/eth2.webp
-rating: 5
-TotalVotes: 11
 lang: en
 ref: new-eth2
 faq:

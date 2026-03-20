@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Discover what Cardano ADA is — the third-generation blockchain built by scientists to solve the scalability, interoperability, and sustainability problems of Bitcoin and Ethereum.
 banner_image: 201712/cardano.jpg
-rating: 4.75
-totalVotes: 3
 lang: en
 ref: what-is-cardano
 faq:

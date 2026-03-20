@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Learn how much money you need to retire using the 4% rule. Multiply annual expenses by 25 to find your financial independence number and retire on schedule.
 banner_image: 202109/retirement.webp
-rating: 5
-TotalVotes: 10
 ref: money-to-retire
 lang: en
 ---

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende los 5 principios clave para valorar criptomonedas antes de invertir. Whitepaper, equipo, tecnología y más criterios esenciales para evitar estafas.
 banner_image: 201801/investing.png
-rating: 5
-totalVotes: 1
 popular:  true
 lang: es
 faq:

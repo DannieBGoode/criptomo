@@ -5,7 +5,6 @@ tags:
 layout: post
 description: Learn what memecoins are, how Dogecoin and Shiba Inu became billion-dollar assets, and the key risks to know before investing in these volatile crypto tokens.
 banner_image: 202204/memecoins-cover.webp
-rating: 5
 Total Votes: 4
 ref: memecoins
 lang: en

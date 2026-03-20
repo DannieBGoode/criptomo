@@ -6,8 +6,6 @@ tags:
 description: Aprende qué es la fungibilidad, por qué Bitcoin no es completamente fungible debido al blockchain público y cómo Monero y otras monedas de privacidad intentan resolverlo.
 layout: post
 banner_image: 201809/monero.jpg
-rating: 5
-totalVotes: 5
 popular: true
 lang: es
 ---

@@ -8,8 +8,6 @@ description: Learn what Polkadot (DOT) is, how parachains and the Substrate fram
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_102434620.png
-rating: 4
-TotalVotes: 3
 popular: false
 ref: dot
 lang: en

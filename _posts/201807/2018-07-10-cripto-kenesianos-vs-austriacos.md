@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende qué separa a los cripto-austriacos de los cripto-keynesianos, cómo estas visiones económicas explican la división entre Bitcoin y Bitcoin Cash.
 banner_image: 201807/jimmy-song2.jpg
-rating: 5
-totalVotes: 1
 source: https://medium.com/@jimmysong/segwit2x-post-mortem-divorce-of-crypto-austrians-and-crypto-keynesians-87960b11ce4c
 sourceName: Medium
 lang: es

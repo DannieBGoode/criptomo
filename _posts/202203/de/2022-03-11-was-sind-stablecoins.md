@@ -5,8 +5,6 @@ tags:
 layout: post
 description: "Erfahre, was Stablecoins sind, wie sie ihre Preisbindung aufrechterhalten und welche vier Typen es gibt: Fiat-gedeckte, Dual-Currency, algorithmische und Leveraged-Loan-Stablecoins."
 banner_image: 202203/stablecoins.webp
-rating: 5
-TotalVotes: 10
 ref: stable-coins
 lang: de
 ---

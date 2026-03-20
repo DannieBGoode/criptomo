@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es una ICO, cómo funciona este mecanismo de financiación con criptomonedas, los riesgos de invertir y los casos más rentables de la historia.
 banner_image: 201802/ico.jpg
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué es una ICO en criptomonedas?"

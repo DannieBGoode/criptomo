@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende por qué el marketcap puede ser engañoso para valorar criptomonedas, cómo se calcula y qué otros indicadores debes considerar antes de invertir.
 banner_image: 201805/marketcap.jpg
-rating: 5
-totalVotes: 1
 lang: es
 ---
 

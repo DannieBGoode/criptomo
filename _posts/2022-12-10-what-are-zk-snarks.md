@@ -9,8 +9,6 @@ tags:
   - altcoins
   - technology
 banner_image: https://criptomo.com/images/posts/201803/wally.jpg
-rating: 4
-TotalVotes: 11
 popular: false
 ref: zk-snarks
 lang: en

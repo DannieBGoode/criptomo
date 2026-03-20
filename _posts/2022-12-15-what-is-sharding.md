@@ -9,8 +9,6 @@ tags:
   - ethereum
   - blockchain
 banner_image: /images/posts/image_2022-12-15_104657830.png
-rating: 5
-TotalVotes: 5
 popular: false
 ref: sharding
 lang: en

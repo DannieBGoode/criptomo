@@ -9,8 +9,6 @@ tags:
   - blockchain
   - ""
 banner_image: /images/posts/image_2022-12-10_235305341.png
-rating: 5
-TotalVotes: 17
 popular: false
 ref: state-channels
 lang: en

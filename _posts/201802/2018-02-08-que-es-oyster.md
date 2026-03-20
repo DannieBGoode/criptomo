@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Oyster Protocol y su token PRL, cómo ofrece almacenamiento anónimo en el Tangle de IOTA y sustituye la publicidad web. Comparativa con Storj y Siacoin.
 banner_image: 201802/oyster.jpg
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué es Oyster Protocol (PRL)?"

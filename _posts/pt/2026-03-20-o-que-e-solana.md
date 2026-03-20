@@ -7,8 +7,6 @@ description: "Descubra o que é Solana (SOL), seu mecanismo Proof of History, po
 tags:
   - altcoins
 banner_image: image_2022-12-21_200639063.png
-rating: 4
-TotalVotes: 11
 lang: pt
 ref: solana
 faq:

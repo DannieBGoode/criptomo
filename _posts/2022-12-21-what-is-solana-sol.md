@@ -8,8 +8,6 @@ description: Learn what Solana (SOL) is, how its Proof-of-History consensus achi
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-21_200639063.png
-rating: 4
-TotalVotes: 11
 popular: false
 ref: solana
 lang: en

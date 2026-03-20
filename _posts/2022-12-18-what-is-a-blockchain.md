@@ -8,8 +8,6 @@ description: Learn what a blockchain is, how decentralized ledger technology wor
 tags:
   - blockchain
 banner_image: /images/posts/image_2022-12-18_210353405.png
-rating: 4
-TotalVotes: 3
 popular: false
 ref: blockchain
 lang: en

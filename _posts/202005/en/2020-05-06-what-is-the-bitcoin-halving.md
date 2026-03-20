@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Learn what the Bitcoin halving is, why it cuts the block reward in half every four years, and how it historically drives BTC price increases.
 banner_image: 202005/bitcoin-halving.webp
-rating: 5
-totalVotes: 6
 lang: en
 ref: what-bitcoin-halving
 faq:

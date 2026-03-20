@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Learn what Tezos (XTZ) is, how its liquid Proof of Stake consensus works, and how it compares to Cardano. A beginner's guide to the self-governing blockchain.
 banner_image: 202002/tezos.jpg
-rating: 5
-totalVotes: 16
 lang: en
 faq:
   - question: "What is Tezos (XTZ)?"

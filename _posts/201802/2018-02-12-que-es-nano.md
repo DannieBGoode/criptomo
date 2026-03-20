@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Nano (XRB), antes Raiblocks, cómo funciona su tecnología block-lattice para lograr transacciones gratuitas e instantáneas y en qué se diferencia de Bitcoin.
 banner_image: 201802/xrb.jpg
-rating: 5
-totalVotes: 2
 lang: es
 faq:
   - question: "¿Qué es Nano (XRB)?"

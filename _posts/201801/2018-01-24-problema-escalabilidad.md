@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Explicación detallada del problema de escalabilidad de Bitcoin, por qué solo procesa 4-10 tps y cuáles son las soluciones propuestas frente a VISA o Mastercard.
 banner_image: 201801/bitcoin-scalability.jpg
-rating: 4.75
-totalVotes: 3
 lang: es
 faq:
   - question: "¿Cuántas transacciones por segundo puede procesar Bitcoin?"

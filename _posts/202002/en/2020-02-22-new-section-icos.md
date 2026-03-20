@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Discover our new ICO valuation section listing the initial coin offerings that raised the most capital and their current market value.
 banner_image: 202002/ico.webp
-rating: 4
-totalVotes: 4
 sitemap: false
 lang: en
 ---

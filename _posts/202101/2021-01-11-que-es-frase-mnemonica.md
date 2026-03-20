@@ -1,5 +1,4 @@
 ---
-totalVotes: 9
 layout: post
 published: true
 title: Qué es una frase mnemónica
@@ -8,8 +7,6 @@ description: Descubre qué es una frase mnemónica o seed, cómo protege tu clav
 tags:
   - bitcoin
 banner_image: 202101/mnemonic.webp
-rating: 5
-TotalVotes: 38
 popular: true
 ref: what-mnemonic
 lang: es

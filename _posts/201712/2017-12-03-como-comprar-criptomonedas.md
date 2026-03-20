@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Guía paso a paso para comprar Bitcoin y otras criptomonedas. Aprende a elegir un exchange, verificar tu identidad y proteger tus fondos en un wallet seguro.
 banner_image: 201712/exchange.jpg
-rating: 5
-totalVotes: 6
 lang: es
 faq:
   - question: "¿Cómo puedo comprar Bitcoin por primera vez?"

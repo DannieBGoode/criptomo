@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Aprende cómo guardar criptomonedas de forma segura. Comparamos hot wallets, cold wallets y hardware wallets como Ledger o Trezor para elegir la mejor opción.
 banner_image: 201711/bitcoin-wallet.jpg
-rating: 4.5
-totalVotes: 2
 lang: es
 faq:
   - question: "¿Cuál es la manera más segura de guardar criptomonedas?"

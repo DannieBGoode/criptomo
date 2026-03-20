@@ -5,8 +5,6 @@ tags:
 layout: post
 description: "Guía completa de la tarjeta Plutus: hasta un 8% de cashback en compras con criptomonedas ETH y PLU. Planes, perks y cómo sacarle el máximo partido."
 banner_image: 202206/plutus.webp
-rating: 5
-TotalVotes: 4
 ref: plutus
 lang: es
 popular: true

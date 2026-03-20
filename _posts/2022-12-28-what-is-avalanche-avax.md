@@ -8,8 +8,6 @@ description: Learn what Avalanche (AVAX) is, how its Snowflake consensus enables
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-28_111843814.png
-rating: 4
-TotalVotes: 2
 popular: false
 ref: avax
 lang: en

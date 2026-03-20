@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Aprende qué es un nodo completo de Bitcoin, qué funciones realiza, cómo verifica el blockchain y por qué ejecutar tu propio full node beneficia a toda la red.
 banner_image: 201808/node.jpg
-rating: 4.5
-totalVotes: 2
 lang: es
 ---
 

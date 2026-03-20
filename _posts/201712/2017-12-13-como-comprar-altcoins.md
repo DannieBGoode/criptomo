@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende cómo comprar altcoins en Binance con Bitcoin paso a paso. Cómo depositar, encontrar el par de trading correcto y retirar tus criptomonedas de forma segura.
 banner_image: 201712/coins.jpg
-rating: 5
-totalVotes: 3
 lang: es
 faq:
   - question: "¿Cómo puedo comprar altcoins que no están en Coinbase?"

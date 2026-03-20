@@ -9,8 +9,6 @@ tags:
   - altcoins
   - ""
 banner_image: /images/posts/image_2022-12-28_111843814.png
-rating: 4
-TotalVotes: 3
 popular: false
 ref: avax
 lang: es

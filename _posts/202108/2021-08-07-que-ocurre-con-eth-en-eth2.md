@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué ocurre con tus ETH al llegar Ethereum 2.0, cómo funciona la migración sin acción del usuario y las opciones de staking disponibles en la nueva red.
 banner_image: 202108/ethereum2.webp
-rating: 5
-TotalVotes: 10
 ref: eth-in-eth2
 lang: es
 ---

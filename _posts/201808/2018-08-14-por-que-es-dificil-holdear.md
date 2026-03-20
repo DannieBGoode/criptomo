@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué significa HODL, por qué es tan difícil aguantar en bear markets y cuáles son los factores psicológicos y económicos que dificultan mantener criptomonedas.
 banner_image: 201808/hodl.jpg
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué significa HODL en criptomonedas?"

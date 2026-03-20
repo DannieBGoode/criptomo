@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Guía completa para optimizar tus inversiones en CRO de Crypto.com usando DeFi. Aprende a hacer staking, delegar y maximizar recompensas en la Crypto DeFi Wallet.
 banner_image: 202201/defi-cover.webp
-rating: 5
-TotalVotes: 10
 ref: cro-defi
 lang: es
 faq:

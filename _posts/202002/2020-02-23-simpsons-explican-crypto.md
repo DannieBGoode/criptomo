@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Los Simpsons explican las criptomonedas en un episodio viral. Descubre cómo Bitcoin conquista la cultura popular con menciones en series de todo el mundo.
 banner_image: 202002/simpsons.webp
-rating: 5
-totalVotes: 3
 lang: es
 ---
 

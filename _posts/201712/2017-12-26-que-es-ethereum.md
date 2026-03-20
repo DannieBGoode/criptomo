@@ -1,5 +1,4 @@
 ---
-totalVotes: 2
 layout: post
 published: true
 title: Qué es Ethereum
@@ -8,8 +7,6 @@ description: Descubre qué es Ethereum, cómo funcionan los smart contracts y la
 tags:
   - altcoins
 banner_image: 201712/ethereum.jpg
-rating: 5
-TotalVotes: 4
 popular: false
 lang: es
 ref: what-is-ethereum

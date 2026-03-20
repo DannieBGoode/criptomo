@@ -8,8 +8,6 @@ description: Discover what gold-backed cryptocurrencies are, how they work, thei
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-15_111356053.png
-rating: 4
-TotalVotes: 12
 popular: false
 ref: gold-crypto
 lang: en

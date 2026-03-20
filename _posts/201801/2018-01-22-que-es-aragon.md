@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Aragon, la plataforma descentralizada sobre Ethereum para crear y gestionar DAOs con votaciones, nóminas y contabilidad sin intermediarios.
 banner_image: 201801/aragon.png
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué es Aragon?"

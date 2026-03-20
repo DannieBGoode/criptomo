@@ -9,8 +9,6 @@ tags:
   - bitcoin
   - blockchain
 banner_image: /images/posts/image_2022-12-14_154035529.png
-rating: 5
-TotalVotes: 13
 popular: false
 ref: segwit
 lang: en

@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Descubre todas las novedades de Ethereum 2.0, el cambio a Proof of Stake, el sharding para escalar la red y las mejoras en seguridad y eficiencia energética.
 banner_image: 202009/eth2.webp
-rating: 5
-totalVotes: 11
 lang: es
 ref: new-eth2
 ---

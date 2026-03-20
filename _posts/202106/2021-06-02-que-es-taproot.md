@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Descubre qué es Taproot, la mayor actualización de Bitcoin desde SegWit, cómo mejora la privacidad y escalabilidad y qué aporta a los smart contracts en BTC.
 banner_image: 202106/taproot.webp
-rating: 5
-TotalVotes: 12
 ref: taproot
 lang: es
 faq:

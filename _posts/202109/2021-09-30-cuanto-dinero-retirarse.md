@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Descubre cuánto dinero necesitas para retirarte usando la regla del 4% y el estudio Trinity. Calcula tu número FIRE y alcanza la independencia financiera anticipada.
 banner_image: 202109/retirement.webp
-rating: 5
-TotalVotes: 10
 ref: money-to-retire
 lang: es
 ---

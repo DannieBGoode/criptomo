@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Learn what happens to your ETH during the Ethereum 2.0 migration, why no action is needed, and how to stake ETH as a validator to earn rewards.
 banner_image: 202108/ethereum2.webp
-rating: 5
-TotalVotes: 10
 ref: eth-in-eth2
 lang: en
 ---

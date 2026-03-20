@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Complete guide to the Curve card. Learn how to use any bank card with Apple Pay, Google Pay, and combine it with Crypto.com for up to 9% cashback.
 banner_image: 202201/curve-card.webp
-rating: 5
-TotalVotes: 10
 ref: curve-card
 lang: en
 ---

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Lista completa de los hard forks de Bitcoin, por qué existen más de 74, cómo los poseedores de BTC reciben monedas nuevas y cómo evitar wallets fraudulentos en airdrops.
 banner_image: 201810/bitcoin-split.jpg
-rating: 5
-totalVotes: 6
 lang: es
 ---
 

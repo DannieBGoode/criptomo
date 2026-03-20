@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es DASH, la criptomoneda con transacciones privadas e instantáneas. Cómo funciona su gobernanza descentralizada y en qué se diferencia de Bitcoin.
 banner_image: 201802/dash.png
-rating: 4.75
-totalVotes: 3
 lang: es
 faq:
   - question: "¿Qué es DASH?"

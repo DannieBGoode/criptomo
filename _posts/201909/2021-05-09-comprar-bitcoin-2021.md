@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Guía completa para comprar Bitcoin en 2021 usando Coinbase. Aprende a crear tu cuenta, depositar dinero y realizar tu primera compra de BTC paso a paso.
 banner_image: 201909/bitcoin-2019.webp
-rating: 5
-totalVotes: 6
 redirect_from:
 - "/comprar-bitcoin-2020/"
 - "/comprar-bitcoin-2020"

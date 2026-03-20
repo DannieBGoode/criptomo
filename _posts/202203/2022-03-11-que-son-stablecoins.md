@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Descubre qué son las stablecoins, cómo mantienen su precio estable respecto al dólar u otros activos, sus diferentes tipos y por qué son esenciales en el ecosistema DeFi.
 banner_image: 202203/stablecoins.webp
-rating: 5
-TotalVotes: 10
 ref: stable-coins
 lang: es
 faq:

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: El fundador anónimo de Oyster Protocol explotó su propio smart contract para crear 3 millones de tokens y venderlos en KuCoin, obteniendo 300.000 dólares en horas.
 banner_image: 201810/oyster.jpg
-rating: 5
-totalVotes: 1
 lang: es
 ---
 

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Monero XMR, la criptomoneda privada que hace imposible rastrear transacciones. Aprende cómo funcionan Ring Signatures y Stealth Addresses.
 banner_image: 201801/monero.png
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué es Monero (XMR)?"

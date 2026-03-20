@@ -8,8 +8,6 @@ description: Learn what Binance Coin (BNB) is, how it works as a utility token o
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-18_204018288.png
-rating: 4
-TotalVotes: 11
 popular: false
 ref: bnb
 lang: en

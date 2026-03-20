@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende por qué el sistema bancario se parece a una estafa ponzi gracias a la reserva fraccionaria y cómo Bitcoin ofrece una alternativa descentralizada y segura.
 banner_image: 202011/banking.webp
-rating: 5
-totalVotes: 16
 lang: es
 ref: banking-ponzi
 ---

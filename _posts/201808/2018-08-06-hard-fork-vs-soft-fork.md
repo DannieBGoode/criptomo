@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Explicación detallada de qué es un hard fork y un soft fork en criptomonedas, sus diferencias, cuándo ocurren y ejemplos reales como Bitcoin Cash y Segwit.
 banner_image: 201808/fork.jpg
-rating: 5
-totalVotes: 7
 lang: es
 ---
 

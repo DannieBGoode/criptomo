@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es el problema de los generales bizantinos, por qué es fundamental en redes distribuidas y cómo Bitcoin lo resuelve mediante el algoritmo Proof of Work.
 banner_image: 201807/byzantine.jpg
-rating: 5
-totalVotes: 11
 lang: es
 ---
 

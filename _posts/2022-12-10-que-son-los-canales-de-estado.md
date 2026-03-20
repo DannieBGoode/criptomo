@@ -8,8 +8,6 @@ description: Aprende qué son los canales de estado, cómo permiten transaccione
 tags:
   - blockchain
 banner_image: /images/posts/image_2022-12-10_235305341.png
-rating: 5
-TotalVotes: 18
 popular: false
 ref: state-channels
 lang: es

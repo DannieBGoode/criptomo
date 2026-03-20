@@ -7,8 +7,6 @@ layout: post
 description: Descubre los principales casos de uso de IOTA en el internet de las cosas, vehículos autónomos, micropagos y smart cities gracias a su tecnología Tangle.
 author: daniel
 banner_image: 201804/iota.png
-rating: 5
-totalVotes: 1
 lang: es
 ---
 

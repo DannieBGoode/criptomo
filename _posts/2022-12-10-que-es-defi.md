@@ -9,8 +9,6 @@ tags:
   - finance
   - blockchain
 banner_image: /images/posts/image_2022-12-11_001327647.png
-rating: 4
-TotalVotes: 11
 popular: false
 redirect_from:
 - "/qué-es-defi"

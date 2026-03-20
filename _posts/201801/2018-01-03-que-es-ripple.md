@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Ripple XRP, la criptomoneda para pagos interbancarios. Aprende cómo funciona, sus diferencias con Bitcoin y por qué genera tanta controversia en el sector.
 banner_image: 201801/ripple-banks.jpg
-rating: 5
-totalVotes: 2
 lang: es
 faq:
   - question: "¿Qué es Ripple y para qué sirve?"

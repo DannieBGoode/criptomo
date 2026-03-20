@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Descubre qué son los memecoins, cómo Dogecoin nació como broma y se convirtió en fenómeno viral, y qué diferencia a estas criptomonedas del resto del mercado cripto.
 banner_image: 202204/memecoins-cover.webp
-rating: 5
-TotalVotes: 4
 ref: memecoins
 lang: es
 faq:

@@ -5,8 +5,6 @@ tags:
 layout: post
 description: "Aprenda o que são stablecoins, como mantêm sua paridade e os quatro tipos: lastreadas em fiat, moeda dupla, algorítmicas e empréstimos alavancados."
 banner_image: 202203/stablecoins.webp
-rating: 5
-TotalVotes: 10
 ref: stable-coins
 lang: pt
 ---

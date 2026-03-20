@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Litecoin LTC, la alternativa más rápida a Bitcoin. Aprende sobre su algoritmo Scrypt, su creador Charlie Lee y por qué se usa como plata digital.
 banner_image: 201801/litecoin.webp
-rating: 4.5
-totalVotes: 2
 lang: es
 faq:
   - question: "¿Qué es Litecoin (LTC)?"

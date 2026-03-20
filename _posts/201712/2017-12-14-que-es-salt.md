@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es SALT, la plataforma que permite pedir préstamos en fiat usando criptomonedas como garantía mediante smart contracts. Análisis completo con opinión final.
 banner_image: 201712/salt.jpg
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué es SALT Lending?"

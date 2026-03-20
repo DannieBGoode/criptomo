@@ -8,8 +8,6 @@ description: Learn what Chainlink is, how its decentralized oracle network conne
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-22_095836174.png
-rating: 5
-TotalVotes: 1
 popular: false
 ref: chainlink
 lang: en

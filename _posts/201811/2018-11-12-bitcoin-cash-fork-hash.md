@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Análisis de la guerra de hashes del hard fork de Bitcoin Cash en noviembre de 2018, la división en Bitcoin ABC y Bitcoin SV y el papel de Roger Ver y Craig Wright.
 banner_image: 201810/oyster.jpg
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué ocurrió con el hard fork de Bitcoin Cash en noviembre de 2018?"

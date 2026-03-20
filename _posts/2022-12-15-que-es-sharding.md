@@ -9,8 +9,6 @@ tags:
   - ethereum
   - technología
 banner_image: /images/posts/image_2022-12-15_104657830.png
-rating: 3
-TotalVotes: 4
 popular: false
 redirect_from:
 - "/qué-es-sharding"

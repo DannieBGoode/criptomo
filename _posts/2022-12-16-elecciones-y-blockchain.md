@@ -8,8 +8,6 @@ description: Descubre cómo blockchain podría transformar los sistemas de votac
 tags:
   - tecnologia
 banner_image: /images/posts/image_2022-12-16_104127206.png
-rating: 5
-TotalVotes: 3
 popular: false
 ref: voting
 lang: es

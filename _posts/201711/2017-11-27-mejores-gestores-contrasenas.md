@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es una contraseña segura y cuáles son los mejores gestores de contraseñas. Comparamos LastPass, 1Password, KeePass y Dashlane para proteger tus cuentas.
 banner_image: 201711/lastpass.jpg
-rating: 4
-totalVotes: 5
 lang: es
 ---
 

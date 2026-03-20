@@ -6,7 +6,6 @@ tags:
 layout: post
 description: Complete guide to cryptocurrency wallets. Learn what private keys and seeds are, how Ledger hardware wallets work, and which wallet type best fits your needs.
 banner_image: 202206/wallet.webp
-rating: 5
 Total Votes: 43
 ref: ledger-nano
 lang: en

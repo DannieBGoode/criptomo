@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre las altcoins más prometedoras de 2018. Analizamos Ethereum, Cardano, IOTA, Monero, Ripple y más para que sepas en cuáles vale la pena invertir este año.
 banner_image: 201711/altcoins.jpg
-rating: 5
-totalVotes: 3
 lang: es
 ---
 

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende qué es un wallet de criptomonedas, cómo funcionan las claves privadas y cuáles son los mejores tipos de carteras para guardar Bitcoin y altcoins.
 banner_image: 202206/wallet.webp
-rating: 5
-TotalVotes: 4
 ref: ledger-nano
 lang: es
 popular: true

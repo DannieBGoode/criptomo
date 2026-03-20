@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Explicación detallada del trilema de escalabilidad de Vitalik Buterin, el conflicto entre descentralización, seguridad y escalabilidad en Bitcoin y Ethereum.
 banner_image: 201806/buildings.jpg
-rating: 5
-totalVotes: 4
 lang: es
 faq:
   - question: "¿Qué es el trilema de escalabilidad de las criptomonedas?"

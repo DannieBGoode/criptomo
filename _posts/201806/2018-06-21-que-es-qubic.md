@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Qubic, el protocolo de IOTA para smart contracts, oráculos y alquiler de poder computacional que permite ejecutar cálculos directamente en el Tangle.
 banner_image: 201806/qubic.jpg
-rating: 5
-totalVotes: 4
 lang: es
 faq:
   - question: "¿Qué es Qubic?"

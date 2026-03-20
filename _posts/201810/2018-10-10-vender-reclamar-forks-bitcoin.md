@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Guía paso a paso para detectar, reclamar y vender los hard forks de Bitcoin asignados en tus direcciones BTC, con consejos de seguridad para evitar estafas.
 banner_image: 201810/forks.png
-rating: 5
-totalVotes: 6
 lang: es
 ---
 

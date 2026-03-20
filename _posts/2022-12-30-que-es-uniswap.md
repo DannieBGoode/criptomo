@@ -9,8 +9,6 @@ tags:
   - altcoins
   - ethereum
 banner_image: /images/posts/uniswap.webp
-rating: 5
-TotalVotes: 6
 popular: false
 ref: uniswap
 lang: es

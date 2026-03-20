@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Comparativa detallada entre EOS y Ethereum, sus diferencias en escalabilidad, smart contracts, gobernanza y costes. Descubre si EOS merece el título de Ethereum Killer.
 banner_image: 201806/boxing.jpg
-rating: 5
-totalVotes: 3
 lang: es
 ---
 

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre por qué el límite de 21 millones de bitcoins es suficiente para una economía global, cómo se calculó ese número y qué ocurre cuando se pierden bitcoins.
 banner_image: 201808/bitcoin-mining.jpg
-rating: 5
-totalVotes: 5
 lang: es
 ---
 

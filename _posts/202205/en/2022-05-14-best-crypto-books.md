@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Discover the best cryptocurrency books including The Bitcoin Standard, Mastering Bitcoin, Internet of Money, and more for beginners, investors, and developers.
 banner_image: 202205/books.webp
-rating: 5
-TotalVotes: 14
 ref: best-books
 lang: en
 ---

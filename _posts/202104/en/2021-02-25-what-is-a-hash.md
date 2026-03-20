@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Learn what a hash is, how hashing differs from encryption, and how Bitcoin and other cryptocurrencies use SHA-256 and asymmetric keys to secure the network.
 banner_image: 202104/hashing.webp
-rating: 5
-TotalVotes: 9
 lang: en
 faq:
   - question: "What is a hash in simple terms?"

@@ -8,8 +8,6 @@ description: Learn what Polygon (MATIC) is, how its sidechain approach reduces E
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_100609736.png
-rating: 4
-TotalVotes: 2
 popular: false
 ref: matic
 lang: en

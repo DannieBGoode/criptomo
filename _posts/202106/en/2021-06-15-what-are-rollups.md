@@ -5,7 +5,6 @@ tags:
 layout: post
 description: Learn what rollups are, how Optimistic and ZK-Rollups scale Ethereum as second-layer solutions, and why they reduce gas costs while keeping the chain secure.
 banner_image: 202106/rollup.webp
-rating: 5
 Total votes: 3
 lang: en
 ref: rollups

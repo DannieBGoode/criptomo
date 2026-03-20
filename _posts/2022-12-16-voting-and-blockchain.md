@@ -6,8 +6,6 @@ title: Voting and Blockchain
 date: 2022-Dec-16
 description: Discover how blockchain technology can make voting more secure, transparent, and accessible. Learn real-world use cases, benefits, and current challenges.
 banner_image: /images/posts/image_2022-12-16_104127206.png
-rating: 5
-TotalVotes: 3
 popular: false
 ref: voting
 lang: en

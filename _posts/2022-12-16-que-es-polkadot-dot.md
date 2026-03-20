@@ -8,8 +8,6 @@ description: Aprende qué es Polkadot (DOT), cómo funcionan sus parachains para
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-16_102434620.png
-rating: 4
-TotalVotes: 3
 popular: false
 ref: dot
 lang: es

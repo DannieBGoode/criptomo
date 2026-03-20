@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Learn how to optimize your CRO tokens across Crypto.com Earn, the Exchange, and the DeFi wallet to maximize staking returns and grow your crypto yield.
 banner_image: 202201/defi-cover.webp
-rating: 5
-TotalVotes: 10
 ref: cro-defi
 lang: en
 ---

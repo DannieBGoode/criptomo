@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende qué es un hash, cómo funcionan las funciones de hashing y el cifrado asimétrico, y por qué son fundamentales para la seguridad de Bitcoin y las criptomonedas.
 banner_image: 201807/hashing.png
-rating: 5
-totalVotes: 9
 lang: es
 faq:
   - question: "¿Qué es un hash en criptomonedas?"

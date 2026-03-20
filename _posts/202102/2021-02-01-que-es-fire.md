@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es el movimiento FIRE (Financial Independence Retire Early), cómo funciona la jubilación anticipada y qué estrategias de ahorro e inversión necesitas.
 banner_image: 202102/fire2.webp
-rating: 5
-totalVotes: 7
 lang: es
 ref: what-fire
 faq:

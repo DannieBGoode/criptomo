@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Explicación detallada de qué ocurre en Bitcoin cuando dos mineros encuentran un bloque simultáneamente y cómo la red resuelve automáticamente el conflicto.
 banner_image: 202006/btc-coin.webp
-rating: 4.5
-totalVotes: 11
 lang: es
 ref: two-blocks
 ---

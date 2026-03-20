@@ -1,5 +1,4 @@
 ---
-totalVotes: 2
 layout: post
 published: true
 title: "Qu'est-ce qu'Ethereum"
@@ -8,8 +7,6 @@ description: "Découvrez ce qu'est Ethereum, comment fonctionnent les smart cont
 tags:
   - altcoins
 banner_image: 201712/ethereum.jpg
-rating: 5
-TotalVotes: 4
 lang: fr
 ref: what-is-ethereum
 faq:

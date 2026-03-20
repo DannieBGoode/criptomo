@@ -7,8 +7,6 @@ description: Todo lo que necesitas saber sobre los rollups en Ethereum, qué son
 tags:
   - ethereum
 banner_image: 202106/rollup.webp
-rating: 5
-TotalVotes: 3
 popular: false
 ref: rollups
 lang: es

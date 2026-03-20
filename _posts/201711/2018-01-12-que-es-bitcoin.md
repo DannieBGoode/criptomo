@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Bitcoin, cómo funciona y quién lo creó. Aprende sobre minería, transacciones en blockchain y por qué es la criptomoneda más importante global.
 banner_image: 201711/bitcoin.png
-rating: 4.75
-totalVotes: 3
 lang: es
 faq:
   - question: "¿Qué es Bitcoin y cómo funciona?"

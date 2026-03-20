@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Aprende por qué Bitcoin no puede ser superado fácilmente como reserva de valor gracias a su suministro limitado, su red descentralizada y su comunidad de desarrolladores.
 banner_image: 202108/bitcoin.webp
-rating: 5
-TotalVotes: 10
 ref: btc-store-of-value
 lang: es
 ---

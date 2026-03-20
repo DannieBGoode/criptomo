@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Aprende qué es un NFT o token ERC721, cómo funcionan los tokens no fungibles en Ethereum y por qué representan activos digitales únicos e irremplazables.
 banner_image: 202102/erc721.webp
-rating: '5'
-totalVotes: '7'
 lang: es
 ref: what-nfts
 faq:

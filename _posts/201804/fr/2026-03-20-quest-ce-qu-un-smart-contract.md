@@ -6,8 +6,6 @@ tags:
 layout: post
 description: "Découvrez ce qu'est un smart contract, comment il fonctionne sur la blockchain, et comment des plateformes comme Ethereum, Solana et Polygon les utilisent en 2026 pour gérer des centaines de milliards dans la DeFi."
 banner_image: 201804/smart-contract-2026.webp
-rating: 5
-totalVotes: 1
 lang: fr
 ref: what-is-a-smart-contract
 faq:

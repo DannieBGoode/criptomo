@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Descubre cómo funciona el ataque del 51% en blockchain. Aprende qué ocurre si alguien controla la mayoría del poder computacional y por qué no amenaza a Bitcoin hoy.
 banner_image: 201712/attack.jpg
-rating: 4.75
-totalVotes: 4
 lang: es
 faq:
   - question: "¿Qué es el ataque del 51% en una blockchain?"

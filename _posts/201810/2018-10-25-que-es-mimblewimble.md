@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es MimbleWimble, el protocolo que mejora la privacidad y escalabilidad de Bitcoin eliminando datos de transacciones sin comprometer la seguridad de la red.
 banner_image: 201810/mimblewimble.jpg
-rating: 5
-totalVotes: 3
 lang: es
 faq:
   - question: "¿Qué es MimbleWimble?"

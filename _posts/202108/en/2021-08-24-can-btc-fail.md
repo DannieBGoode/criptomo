@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Discover why Bitcoin cannot easily be outperformed as a store of value. Learn about its limited supply, developer community, immutability, and security model.
 banner_image: 202108/bitcoin.webp
-rating: 5
-TotalVotes: 10
 ref: btc-store-of-value
 lang: en
 ---

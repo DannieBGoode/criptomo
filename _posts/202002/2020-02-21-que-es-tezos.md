@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Tezos (XTZ), cómo funciona su mecanismo Liquid Proof of Stake y en qué se diferencia de otras criptomonedas como Cardano o Ethereum.
 banner_image: 202002/tezos.jpg
-rating: 5
-totalVotes: 16
 lang: es
 faq:
   - question: "¿Qué es Tezos (XTZ)?"

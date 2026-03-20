@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Aprende cómo funciona una transacción en Bitcoin paso a paso, desde los UTXOs y la firma con clave privada hasta su confirmación final en el blockchain.
 banner_image: 201904/trx.png
-rating: 5
-totalVotes: 4
 lang: es
 ---
 

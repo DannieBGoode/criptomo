@@ -8,8 +8,6 @@ description: Aprende qué es Chainlink (LINK), cómo funciona su red de oráculo
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-22_095836174.png
-rating: 5
-TotalVotes: 1
 popular: false
 ref: chainlink
 lang: es

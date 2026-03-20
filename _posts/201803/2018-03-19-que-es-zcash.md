@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Zcash (ZEC), la criptomoneda que ofrece transacciones privadas mediante zero-knowledge proofs. Cómo funciona y diferencias con Bitcoin y Monero.
 banner_image: 201803/zcash.png
-rating: 5
-totalVotes: 3
 lang: es
 faq:
   - question: "¿Qué es Zcash (ZEC)?"

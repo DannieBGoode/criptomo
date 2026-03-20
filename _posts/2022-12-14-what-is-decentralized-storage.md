@@ -10,8 +10,6 @@ tags:
   - technology
   - security
 banner_image: /images/posts/image_2022-12-14_110708344.png
-rating: 5
-TotalVotes: 3
 popular: false
 ref: decentralized-storage
 lang: en

@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Descubre los mejores libros de criptomonedas, desde el whitepaper original de Satoshi hasta guías para invertir. Lecturas esenciales para entender Bitcoin.
 banner_image: 202205/books.webp
-rating: 5
-TotalVotes: 14
 ref: best-books
 lang: es
 ---

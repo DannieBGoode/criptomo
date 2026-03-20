@@ -6,8 +6,6 @@ tags:
 layout: post
 description: En la temporada 32, Los Simpsons muestran Bitcoin con valor infinito. Descubre este cameo viral y cómo la criptomoneda gana terreno en la cultura popular.
 banner_image: 202104/simpsons.webp
-rating: '5'
-totalVotes: '2'
 lang: es
 ---
 

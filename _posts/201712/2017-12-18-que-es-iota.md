@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es IOTA y el Tangle, alternativa al blockchain con cero tasas para micropagos en el Internet de las Cosas. Dónde comprarla y cómo almacenarla seguro.
 banner_image: 201712/iota.jpg
-rating: 5
-totalVotes: 1
 lang: es
 faq:
   - question: "¿Qué es IOTA y en qué se diferencia de Bitcoin?"

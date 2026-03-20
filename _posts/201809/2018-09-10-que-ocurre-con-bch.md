@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Análisis de la crisis de Bitcoin Cash, las razones detrás del hard fork de noviembre de 2018 y cómo Roger Ver, Craig Wright y Jihan Wu llevaron a BCH a dividirse.
 banner_image: 201809/bch.jpg
-rating: 5
-totalVotes: 5
 source: https://cryptoslate.com/a-three-headed-mess-bitcoin-cash-headed-toward-messy-three-way-split/
 sourceName: Cryptoslate
 lang: es

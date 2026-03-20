@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Complete guide to Crypto.com VISA cards. Learn how to earn up to 8% cashback, stake CRO for returns up to 12%, and compare all five card tiers.
 banner_image: 202201/crypto-cover.webp
-rating: 5
-totalVotes: 29
 lang: en
 ref: crypto-com
 faq:

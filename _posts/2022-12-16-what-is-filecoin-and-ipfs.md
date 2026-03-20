@@ -9,8 +9,6 @@ tags:
   - altcoins
   - ""
 banner_image: /images/posts/image_2022-12-16_135620104.png
-rating: 5
-TotalVotes: 11
 popular: false
 ref: filecoin
 lang: en

@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Discover 15 practical ideas to generate passive income, from real estate crowdfunding and index fund investing to blogs, YouTube channels, and P2P lending.
 banner_image: 202102/income.webp
-rating: 4.8
-TotalVotes: 19
 lang: en
 ref: passive-income
 ---

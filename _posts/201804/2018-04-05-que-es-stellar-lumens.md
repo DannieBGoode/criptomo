@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Stellar Lumens (XLM), cómo facilita transferencias inter-divisas con comisiones mínimas y por qué busca democratizar el acceso a servicios financieros globales.
 banner_image: 201804/stellar.png
-rating: 5
-totalVotes: 2
 lang: es
 faq:
   - question: "¿Qué es Stellar Lumens (XLM)?"

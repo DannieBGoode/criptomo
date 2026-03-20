@@ -5,8 +5,6 @@ tags:
 layout: post
 description: Aprende qué son las firmas Schnorr en Bitcoin, cómo mejoran la eficiencia y privacidad respecto a ECDSA y por qué son la base de la actualización Taproot.
 banner_image: 202106/schnorr.webp
-rating: 5
-TotalVotes: 16
 ref: schnorr
 lang: es
 faq:

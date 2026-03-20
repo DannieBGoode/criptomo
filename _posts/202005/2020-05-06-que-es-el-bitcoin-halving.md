@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es el Bitcoin halving, cada cuánto ocurre, cómo reduce la emisión de BTC y por qué históricamente ha impulsado el precio de Bitcoin al alza.
 banner_image: 202005/bitcoin-halving.webp
-rating: 5
-totalVotes: 6
 lang: es
 ref: what-bitcoin-halving
 faq:

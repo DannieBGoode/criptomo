@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre la nueva sección de ICOs de Criptomo con el listado de las ICOs más exitosas, cuánto dinero recaudaron y cuál es su valoración actual en el mercado.
 banner_image: 202002/ico.webp
-rating: 4
-totalVotes: 4
 sitemap: false
 lang: es
 ---

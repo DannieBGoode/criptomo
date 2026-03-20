@@ -1,5 +1,4 @@
 ---
-totalVotes: 2
 layout: post
 published: true
 title: Was ist Ethereum
@@ -8,8 +7,6 @@ description: Entdecke, was Ethereum ist, wie Smart Contracts und DApps funktioni
 tags:
   - altcoins
 banner_image: 201712/ethereum.jpg
-rating: 5
-TotalVotes: 4
 lang: de
 ref: what-is-ethereum
 faq:

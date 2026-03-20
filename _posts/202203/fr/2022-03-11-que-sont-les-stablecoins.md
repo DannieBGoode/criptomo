@@ -5,8 +5,6 @@ tags:
 layout: post
 description: "Découvrez ce que sont les stablecoins, comment ils maintiennent leur ancrage et les quatre types : adossés au fiat, double monnaie, algorithmiques et prêts à effet de levier."
 banner_image: 202203/stablecoins.webp
-rating: 5
-TotalVotes: 10
 ref: stable-coins
 lang: fr
 ---

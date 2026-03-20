@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Descubre qué es Cardano ADA, la criptomoneda de tercera generación creada por científicos para superar los problemas de escalabilidad de Bitcoin y Ethereum.
 banner_image: 201712/cardano.jpg
-rating: 4.75
-totalVotes: 3
 lang: es
 ref: what-is-cardano
 faq:

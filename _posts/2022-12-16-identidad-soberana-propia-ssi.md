@@ -9,8 +9,6 @@ tags:
   - altcoins
   - technología
 banner_image: /images/posts/image_2022-12-15_153112423.png
-rating: 5
-TotalVotes: 2
 popular: false
 ref: ssi
 lang: es

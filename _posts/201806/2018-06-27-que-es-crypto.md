@@ -6,8 +6,6 @@ tags:
 layout: post
 description: Guía completa de las tarjetas de débito VISA de Crypto.com, con hasta 8% de cashback, Netflix, Spotify y acceso a salas VIP. Comparativa de niveles y beneficios.
 banner_image: 202201/crypto-cover.webp
-rating: 5
-totalVotes: 19
 redirect_from:
 - "/que-es-monaco"
 - "/que-es-monaco/"

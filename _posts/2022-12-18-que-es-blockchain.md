@@ -8,8 +8,6 @@ description: Aprende qué es blockchain, cómo funciona esta tecnología de regi
 tags:
   - altcoins
 banner_image: /images/posts/image_2022-12-18_210353405.png
-rating: 4
-TotalVotes: 2
 popular: false
 ref: blockchain
 lang: es

@@ -8,8 +8,6 @@ tags:
   - bitcoin
 banner_image: /images/posts/image_2022-12-10_180746339.png
 netlifycms: true
-rating: 5
-TotalVotes: 17
 popular: false
 ref: gold-vs-bitcoin
 lang: en

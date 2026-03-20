@@ -7,8 +7,6 @@ tags:
 layout: post
 description: Aprende qué es Proof of Work, cómo los mineros validan transacciones en Bitcoin y por qué su elevado consumo energético genera debate en la comunidad cripto.
 banner_image: 201712/proof-of-work.jpg
-rating: 5
-totalVotes: 9
 lang: es
 faq:
   - question: "¿Qué es Proof of Work en Bitcoin?"
