@@ -10,9 +10,8 @@ banner_image_mobile: pages/calculator-mobile.webp
 banner_image_mobile_width: 450
 banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
 deferred_css: calculator-deferred
+schema: true
 css: calculator
-rating: 5
-totalVotes: 1
 comments: false
 sitemap: true
 ref: simulator

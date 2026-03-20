@@ -5,8 +5,6 @@ layout: page
 description: Calculadora DCA de criptomoedas. Invista regularmente em Bitcoin, Ethereum e outras criptomoedas e calcule o valor atual.
 banner_image: pages/investment.webp
 schema: true
-rating: 5
-totalVotes: 1
 sitemap: true
 lang: pt
 ref: invest

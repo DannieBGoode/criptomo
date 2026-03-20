@@ -5,8 +5,6 @@ layout: page
 description: DCA Rechner für Kryptowährungen. Investiere regelmäßig in Bitcoin, Ethereum und andere Kryptowährungen und berechne dein Ergebnis.
 banner_image: pages/investment.webp
 schema: true
-rating: 5
-totalVotes: 1
 sitemap: true
 lang: de
 ref: invest

@@ -6,8 +6,6 @@ description: "Cryptocurrency Investment Portfolio, invest periodically and calcu
   your earnings and Bitcoin profits. Bitcoin Savings Calculator. \U0001F4B5"
 banner_image: pages/investment.webp
 schema: true
-rating: 5
-totalVotes: 45
 sitemap: true
 lang: en
 redirect_from:

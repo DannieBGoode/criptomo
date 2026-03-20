@@ -1,23 +1,27 @@
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/",
-  "datePublished": "{{page.date}}",
-  "@type": "Review",
-  "itemReviewed": {
-    "@type": "Course",
-    "image": "{{site.url}}/images/{{page.banner_image}}",
-    "name": "{{ page.title |  truncate: 110 }}",
-    "description":"{{ page.description |  truncate: 110 }}"
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "@id": {{ site.url | append: page.url | append: "#webapp" | jsonify }},
+  "name": {{ page.title | truncate: 110 | jsonify }},
+  "url": {{ site.url | append: page.url | jsonify }},
+  "description": {{ page.description | strip_html | strip_newlines | truncate: 160 | jsonify }},
+  "applicationCategory": "FinanceApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript and a modern web browser.",
+  "inLanguage": {{ page.lang | default: site.locale | slice: 0, 2 | default: "es" | jsonify }},
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
   },
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "{{ page.rating | default: 4}}",
-    "ratingCount": {{ page.totalVotes | default: 2}}
-  },
-  "name": "{{ page.title | truncate: 110 }}",
-  "author": {
-    "@type": "Organization",
-    "name": "{{ site.title }}"
-  }
+  "publisher": {
+    "@id": {{ site.url | append: "/#organization" | jsonify }}
+  }{% if page.banner_image %},
+  "image": {
+    "@type": "ImageObject",
+    "url": {{ "/images/" | append: page.banner_image | prepend: site.url | jsonify }}
+  }{% endif %}
 }
 </script>

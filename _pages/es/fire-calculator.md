@@ -6,8 +6,6 @@ description: "\U0001F4B5 Calculadora online de (Independencia Financiera), FIRE,
   cuando te podrías jubilar ó retirar y obtener la independencia o libertad financiera."
 banner_image: pages/fi.webp
 schema: true
-rating: 5
-totalVotes: 15
 comments: false
 sitemap: true
 lang: es

@@ -5,8 +5,6 @@ layout: page
 description: Calculateur DCA crypto. Investissez régulièrement en Bitcoin, Ethereum et autres crypto-monnaies et calculez la valeur actuelle.
 banner_image: pages/investment.webp
 schema: true
-rating: 5
-totalVotes: 1
 sitemap: true
 lang: fr
 ref: invest

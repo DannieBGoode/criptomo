@@ -11,8 +11,6 @@ banner_image_mobile_width: 450
 banner_image_sizes: "(max-width: 480px) calc(100vw - 30px), 900px"
 deferred_css: calculator-deferred
 schema: true
-rating: 5
-totalVotes: 15
 comments: false
 sitemap: true
 css: calculator

@@ -6,8 +6,6 @@ description: Cartera de Inversión de Criptomonedas, invierte periodicamente y c
   tus ganancias de Bitcoin
 banner_image: pages/investment.webp
 schema: true
-rating: 5
-totalVotes: 25
 sitemap: true
 lang: es
 ref: invest

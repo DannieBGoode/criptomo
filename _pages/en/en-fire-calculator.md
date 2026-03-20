@@ -6,8 +6,6 @@ description: "\U0001F4B5 Online FI (Financial Independence) calculator, calculat
   when you could retire and obtain financial independence / freedom."
 banner_image: pages/fi.webp
 schema: true
-rating: 5
-totalVotes: 35
 comments: false
 sitemap: true
 lang: en
