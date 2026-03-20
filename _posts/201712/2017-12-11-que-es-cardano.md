@@ -9,6 +9,7 @@ banner_image: 201712/cardano.jpg
 rating: 4.75
 totalVotes: 3
 lang: es
+ref: what-is-cardano
 faq:
   - question: "¿Qué es Cardano (ADA)?"
     answer: "Cardano es una plataforma blockchain de tercera generación lanzada en 2017 por IOHK, cuya criptomoneda se llama ADA. Está construida desde cero con un enfoque académico y científico, a diferencia de muchas otras monedas que copian el código de Bitcoin."
@@ -89,7 +90,6 @@ El código sigue una filosofía Hack-Proof, que es el método que utiliza el ej�
 
 Por muy increíble que parezca, la mayor parte de los proyectos de Blockchain no siguen esta filosofía. No hay más que mirar al DAO, donde un simple error de programación al poner una línea de código antes que otra ocasionó semejante catástrofe en el mundo de Ethereum que se tuvo que crear una nueva moneda (Ethereum) que solucionara este problema y se intentó meter debajo de la alfombra a la moneda original (que se pasó a llamar Ethereum Classic y sigue siendo cotizada a un precio muy inferior).
 
-{% include video.html provider="youtube" id="-zftnG6BYu4" caption="Entrevista a Charles Hoskinson" %}
 
 ## Dónde Comprar Cardano (ADA)
 

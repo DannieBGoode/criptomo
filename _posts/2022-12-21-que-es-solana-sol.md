@@ -8,7 +8,7 @@ description: Descubre qué es Solana (SOL), su mecanismo Proof of History, por q
 tags:
   - altcoins
   - ""
-banner_image: /images/posts/image_2022-12-21_200639063.png
+banner_image: image_2022-12-21_200639063.png
 rating: 4
 TotalVotes: 11
 popular: false

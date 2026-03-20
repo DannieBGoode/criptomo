@@ -2,6 +2,7 @@
 title: CRIPTOMO
 title_separator: " - "
 timezone: UTC
+future: true
 collections:
   posts:
     title: Posts

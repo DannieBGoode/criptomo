@@ -12,6 +12,7 @@ rating: 5
 TotalVotes: 4
 popular: false
 lang: es
+ref: what-is-ethereum
 faq:
   - question: "¿Qué es Ethereum y en qué se diferencia de Bitcoin?"
     answer: "Ethereum es una plataforma blockchain que permite crear aplicaciones descentralizadas y contratos inteligentes, mientras que Bitcoin está diseñado principalmente como moneda digital. Ethereum usa Ether como moneda nativa para pagar la ejecución de esas aplicaciones."

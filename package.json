@@ -5,8 +5,10 @@
 		"test:api-contracts": "node bin/check-api-contracts.js",
 		"test:page-console": "node bin/check-page-console-errors.js",
 		"test:watch": "jest --watch",
-		"dev": "bundle exec ruby bin/jekyll-local.rb serve --incremental",
-		"start": "bundle exec ruby bin/jekyll-local.rb serve --incremental"
+		"dev": "node bin/dev.js",
+		"build": "bundle exec jekyll build",
+		"start": "node bin/dev.js",
+		"dev:incremental": "bundle exec ruby bin/jekyll-local.rb serve --incremental"
 	},
 	"devDependencies": {
 		"eslint": "^8.57.1",
