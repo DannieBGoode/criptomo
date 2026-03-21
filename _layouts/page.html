@@ -41,6 +41,9 @@ layout: default
                     {{content}}
                 </div><!-- .entry-content -->
             </article><!-- .post -->
+
+            {% include subscribe-form.html form_context='page-content' lang=page.lang %}
+
             {% if site.disqus and page.comments %}
                 {% include disqus.html %}
             {% endif %}
