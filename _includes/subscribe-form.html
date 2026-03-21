@@ -1,23 +1,26 @@
 <!-- Email subscribe form at the bottom of the page -->
 {% assign mailchimp_url = site.mailchimp.url | default: site.mailchimp_url_es %}
 {% if mailchimp_url %}
+    {% assign lang = include.lang | default: page.lang | default: site.locale | slice: 0,2 | default: "en" %}
+    {% assign form_context = include.form_context | default: 'content' %}
+    {% assign email_input_id = include.email_input_id | default: form_context | append: '-mce-EMAIL' %}
+    {% assign form_id = include.form_id | default: form_context | append: '-mc-embedded-subscribe-form' %}
+    {% assign form_name = include.form_name | default: form_id %}
 
     <section class="subscribe-form">
- 
-        {% assign translations =  site.data.translations.subscribe %}
+        {% assign translations = site.data.translations.subscribe %}
 
         <h3 class="subscribe-form-title">{{ translations.title[lang] }} {{ site.title }}</h3>
         <p>{{ translations.body[lang] }}</p>
         <div id="mc_embed_signup">
-            <form action="{{ mailchimp_url }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="{{ mailchimp_url }}" method="post" id="{{ form_id }}" name="{{ form_name }}" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ translations.placeholder[lang] }}" required>
-                    <input type="submit" value="{{ translations.button[lang] }}" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    <label class="screen-reader-text" for="{{ email_input_id }}">{{ translations.placeholder[lang] }}</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="{{ email_input_id }}" placeholder="{{ translations.placeholder[lang] }}" required>
+                    <input type="submit" value="{{ translations.button[lang] }}" name="subscribe" class="button">
                 </div>
-                {% include mailchimp_language_group.html lang=lang id_prefix='subscribe' %}
+                {% include mailchimp_language_group.html lang=lang id_prefix=form_context %}
             </form>
         </div>
     </section>
 {% endif %}
-
-
