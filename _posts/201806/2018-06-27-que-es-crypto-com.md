@@ -9,6 +9,7 @@ banner_image: 202201/crypto-cover.webp
 redirect_from:
 - "/que-es-monaco"
 - "/que-es-monaco/"
+- "/que-es-crypto/"
 lang: es
 ref: crypto-com
 faq:

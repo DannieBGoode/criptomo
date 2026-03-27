@@ -73,7 +73,7 @@ let articles = [
       "lang": "en"
    },
    {
-      "url": "https://criptomo.com/que-es-crypto/",
+      "url": "https://criptomo.com/que-es-crypto-com/",
       "lastmod": "2018-06-27T00:00:00+00:00",
       "title": "Qué es CRYPTO (CRO/MCO)",
       "description": "La tarjeta de crédito y débito de criptomonedas llamada CRYPTO, anteriormente conocida como Monaco (MCO) con cambios de divisas competitivos y fondos de inversión. Análisis y opiniones de CRO y MCO.",
@@ -82,7 +82,7 @@ let articles = [
       "lang": "es"
    },
    {
-      "url": "https://criptomo.com/what-is-crypto/",
+      "url": "https://criptomo.com/what-is-crypto-com/",
       "lastmod": "2020-01-11T00:00:00+00:00",
       "title": "What is CRYPTO (MCO/CRO)",
       "description": "The cryptocurrency credit and debit card called CRYPTO, formerly known as Monaco (MCO) with competitive currency exchanges and investment funds. Analysis and opinions of CRO and MCO.",

@@ -29,7 +29,7 @@ Por ejemplo, si tuviéramos un ordenador que podemos garantizar que va a estar o
 
 ## Crypto DeFi Wallet
 
-[Crypto.com](/que-es-crypto/) ofrece una aplicación adicional que se centra en mercados DeFi. Eso quiere decir, que han creado un ecosistema donde cualquier persona puede ofrecer sus servicios de validador para la criptomoneda que así deseen y se facilita la selección de validador y obtención de recompensas. Parte del ecosistema gira en torno a su criptomoneda CRO.
+[Crypto.com](/que-es-crypto-com/) ofrece una aplicación adicional que se centra en mercados DeFi. Eso quiere decir, que han creado un ecosistema donde cualquier persona puede ofrecer sus servicios de validador para la criptomoneda que así deseen y se facilita la selección de validador y obtención de recompensas. Parte del ecosistema gira en torno a su criptomoneda CRO.
 
 ### ERC-20 CRO vs CRO Nativa
 
@@ -40,9 +40,9 @@ Se trata de la primera que sacaron (se lanzó antes de que la blockchain de cryp
 Los tokens ERC-20 requieren de gas de Ethereum para realizar transacciones.
 
 #### La nueva: Blockchain Nativa
-La versión más moderna, que corre directamente sobre el blockchain oficial de [Crypto.com](/que-es-crypto/), tiene unas tasas de transacción mucho más bajas, por lo tanto es más barata para operar.
+La versión más moderna, que corre directamente sobre el blockchain oficial de [Crypto.com](/que-es-crypto-com/), tiene unas tasas de transacción mucho más bajas, por lo tanto es más barata para operar.
 
-Cuando envíamos fondos de nuestro wallet a la cartera DeFi de [Crypto.com](/que-es-crypto/) se nos da la opción de convertirla de ERC-20 a la versión nueva.
+Cuando envíamos fondos de nuestro wallet a la cartera DeFi de [Crypto.com](/que-es-crypto-com/) se nos da la opción de convertirla de ERC-20 a la versión nueva.
 
 
 ## Dónde podemos invertir los tokens CRO

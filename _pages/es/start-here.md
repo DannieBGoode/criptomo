@@ -74,6 +74,6 @@ Aprendamos a invertir mejor
 - [Z-Cash](/que-es-zcash)
 - [Stellar Lumens](/que-es-stellar-lumens)
 - [NEM](/que-es-nem/)
-- [Crypto.com](/que-es-crypto/)
+- [Crypto.com](/que-es-crypto-com/)
 - Guía de [cómo comprar Altcoins](/como-comprar-altcoins/)
 - [Qué es una ICO](/que-es-una-ico/)
