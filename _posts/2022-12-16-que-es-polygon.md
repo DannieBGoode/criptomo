@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 netlifycms: true
 title: Qué es Polygon (MATIC)

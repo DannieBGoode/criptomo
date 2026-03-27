@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+redirect_from: /what-is-solana-sol/
 title: What Is Solana (SOL)
 date: 2026-03-20 00:00:00 Z
 description: Discover what Solana (SOL) is, its Proof of History mechanism, why it can process thousands of transactions per second, and its role in the DeFi and dApps ecosystem.
