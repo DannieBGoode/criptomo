@@ -48,6 +48,14 @@ exclude:
 - vendor
 - .agents
 - .claude
+- artifacts
+- coverage
+- bin
+- tests
+- seo
+- docs
+- "gsc data dump"
+- "~partytown"
 tag-manager: true
 tag-manager-id: GTM-TV5P5BH
 partytown: false

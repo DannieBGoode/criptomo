@@ -17,7 +17,16 @@
     "priceCurrency": "USD"
   },
   "publisher": {
-    "@id": {{ site.url | append: "/#organization" | jsonify }}
+    "@type": "Organization",
+    "@id": {{ site.url | append: "/#organization" | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ site.url | append: "/images/logo.png" | jsonify }},
+      "width": 128,
+      "height": 32
+    }
   }{% if page.banner_image %},
   "image": {
     "@type": "ImageObject",

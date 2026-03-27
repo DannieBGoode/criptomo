@@ -55,7 +55,15 @@
 
 <meta name="author" content="{{ seo_author }}">
 
-<meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
+{% case page.lang %}
+  {% when "es" %}{% assign og_locale = "es_ES" %}
+  {% when "en" %}{% assign og_locale = "en_US" %}
+  {% when "de" %}{% assign og_locale = "de_DE" %}
+  {% when "fr" %}{% assign og_locale = "fr_FR" %}
+  {% when "pt" %}{% assign og_locale = "pt_BR" %}
+  {% else %}{% assign og_locale = "en_US" %}
+{% endcase %}
+<meta property="og:locale" content="{{ og_locale }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
@@ -85,9 +93,21 @@
 
 
 {% if page.layout == 'post' %}
-  {% assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.banner_image | prepend: '/images/posts/' %}
+  {% assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.banner_image %}
+  {% unless page_large_image contains '://' or page_large_image == blank %}
+    {% assign first_char = page_large_image | slice: 0 %}
+    {% unless first_char == '/' %}
+      {% assign page_large_image = page_large_image | prepend: '/images/posts/' %}
+    {% endunless %}
+  {% endunless %}
 {% elsif layout == 'page' %}
-  {% assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.banner_image | prepend: '/images/' %}
+  {% assign page_large_image = page.header.og_image | default: page.header.overlay_image | default: page.banner_image %}
+  {% unless page_large_image contains '://' or page_large_image == blank %}
+    {% assign first_char = page_large_image | slice: 0 %}
+    {% unless first_char == '/' %}
+      {% assign page_large_image = page_large_image | prepend: '/images/' %}
+    {% endunless %}
+  {% endunless %}
 {% endif %}
 {% unless page_large_image contains '://' %}
   {% assign page_large_image = page_large_image | absolute_url %}
@@ -96,9 +116,21 @@
 
 {% if page.banner_image %}
   {% if page.layout == 'post' %}
-    {% assign page_teaser_image = page.banner_image | default: site.og_image | prepend: '/images/posts/' %}
+    {% assign page_teaser_image = page.banner_image | default: site.og_image %}
+    {% unless page_teaser_image contains '://' %}
+      {% assign first_char_teaser = page_teaser_image | slice: 0 %}
+      {% unless first_char_teaser == '/' %}
+        {% assign page_teaser_image = page_teaser_image | prepend: '/images/posts/' %}
+      {% endunless %}
+    {% endunless %}
   {% elsif page.layout == 'page' %}
-    {% assign page_teaser_image = page.banner_image | default: site.og_image | prepend: '/images/' %}
+    {% assign page_teaser_image = page.banner_image | default: site.og_image %}
+    {% unless page_teaser_image contains '://' %}
+      {% assign first_char_teaser = page_teaser_image | slice: 0 %}
+      {% unless first_char_teaser == '/' %}
+        {% assign page_teaser_image = page_teaser_image | prepend: '/images/' %}
+      {% endunless %}
+    {% endunless %}
   {% endif %}
   {% unless page_teaser_image contains '://' %}
     {% assign page_teaser_image = page_teaser_image | absolute_url %}
