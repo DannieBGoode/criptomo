@@ -22,11 +22,14 @@
         }
     }
     form {
+        margin: 0 auto;
+        max-width: 420px;
+    }
+    .subscribe-form-fields {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
-        max-width: 420px;
+        gap: 10px;
         @media (max-width: 500px) {
             flex-direction: column;
         }
