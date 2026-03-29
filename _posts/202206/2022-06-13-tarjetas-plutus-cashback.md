@@ -8,6 +8,15 @@ banner_image: 202206/plutus.webp
 ref: plutus
 lang: es
 popular: true
+review:
+  item_name: "Plutus"
+  item_type: "WebApplication"
+  item_url: "https://plutus.it"
+  rating: 4
+  best: 5
+  worst: 1
+  body: "Plutus ofrece tarjetas de débito con hasta 8% de cashback en criptomonedas, una alternativa sólida para pagos diarios con recompensas cripto."
+  count: 1
 ---
 
 Podeis obtener la tarjeta y recibir $10 gratis con <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">el código DwlxOh</a>.

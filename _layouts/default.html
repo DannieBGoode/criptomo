@@ -24,6 +24,9 @@ layout: compress
     {% if page.layout == 'post' and page.how_to %}
     {% include schema_howto.html %}
     {% endif %}
+    {% if page.layout == 'post' and page.review %}
+    {% include schema_review.html %}
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
     {% if page.banner_image and page.show_banner_image != false %}

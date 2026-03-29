@@ -10,6 +10,15 @@ redirect_from:
 - "/what-is-crypto/"
 lang: en
 ref: crypto-com
+review:
+  item_name: "Crypto.com"
+  item_type: "WebApplication"
+  item_url: "https://crypto.com"
+  rating: 4
+  best: 5
+  worst: 1
+  body: "Crypto.com offers a complete ecosystem with debit cards, staking, and DeFi, though it requires CRO lockup for the best benefits."
+  count: 1
 faq:
   - question: "What is the Crypto.com VISA card?"
     answer: "The Crypto.com VISA card is a prepaid debit card with no annual fee that can be loaded with cryptocurrencies or fiat money and offers benefits like cashback between 1% and 8%, free Netflix, Spotify, and airport lounge access depending on the card tier."

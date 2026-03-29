@@ -29,6 +29,15 @@ how_to:
     text: "Vá a Financiar → Depósito → EUR, selecione Transferência bancária (SEPA) e copie o IBAN e a referência única que a Kraken apresenta. Faça a transferência pelo seu banco com a referência na descrição. Gratuito e chega em 1-2 dias úteis."
   - name: "Comprar Bitcoin"
     text: "Com euros na sua conta, vá a Comprar/Vender, selecione BTC/EUR, introduza o montante em euros e confirme uma ordem a mercado. A compra é concluída quase instantaneamente."
+review:
+  item_name: "Kraken"
+  item_type: "WebApplication"
+  item_url: "https://www.kraken.com"
+  rating: 4.5
+  best: 5
+  worst: 1
+  body: "Kraken é uma das exchanges mais seguras e regulamentadas, ideal para utilizadores europeus que procuram conformidade MiCA e taxas competitivas."
+  count: 1
 ---
 
 A Kraken é uma das exchanges de criptomoedas mais reguladas da Europa. Fundada em 2011 e com licença MiCA em toda a União Europeia, é uma das plataformas mais seguras para comprar Bitcoin e outras criptomoedas a partir de Portugal. Este guia explica exatamente como se registar, verificar a sua identidade e realizar a sua primeira compra, passo a passo.

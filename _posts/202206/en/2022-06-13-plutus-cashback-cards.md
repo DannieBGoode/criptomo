@@ -9,6 +9,15 @@ Total Votes: 4
 ref: plutus
 lang: en
 popular: true
+review:
+  item_name: "Plutus"
+  item_type: "WebApplication"
+  item_url: "https://plutus.it"
+  rating: 4
+  best: 5
+  worst: 1
+  body: "Plutus offers debit cards with up to 8% crypto cashback, a solid alternative for daily payments with crypto rewards."
+  count: 1
 ---
 
 You can get the card and receive $10 free with <a rel="nofollow" href="https://dex.plutus.it/auth/referee/signup?refId=DwlxOh">code DwlxOh</a>.

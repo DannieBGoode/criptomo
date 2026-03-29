@@ -7,6 +7,15 @@ description: "Guía completa sobre la tarjeta Curve: qué es, cómo combinarla c
 banner_image: 202201/curve-card.webp
 ref: curve-card
 lang: es
+review:
+  item_name: "Curve"
+  item_type: "WebApplication"
+  item_url: "https://www.curve.com"
+  rating: 4
+  best: 5
+  worst: 1
+  body: "Curve simplifica la gestión de tarjetas combinando múltiples tarjetas en una sola app, con funciones inteligentes y cashback adicional."
+  count: 1
 faq:
   - question: "¿Qué es la tarjeta Curve?"
     answer: "Curve es una tarjeta de débito física y aplicación financiera que permite cargar los pagos a otras tarjetas bancarias ya existentes. Actúa como intermediaria entre el comercio y las tarjetas del usuario."

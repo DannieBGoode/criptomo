@@ -12,6 +12,15 @@ redirect_from:
 - "/que-es-crypto/"
 lang: es
 ref: crypto-com
+review:
+  item_name: "Crypto.com"
+  item_type: "WebApplication"
+  item_url: "https://crypto.com"
+  rating: 4
+  best: 5
+  worst: 1
+  body: "Crypto.com ofrece un ecosistema completo con tarjetas de débito, staking y DeFi, aunque requiere bloqueo de CRO para los mejores beneficios."
+  count: 1
 faq:
   - question: "¿Qué es la tarjeta de débito VISA de Crypto.com?"
     answer: "Es una tarjeta de prepago sin costes anuales que permite pagar con criptomonedas y dinero fiat. Ofrece cashback de entre el 1% y el 8% según el nivel de tarjeta, además de beneficios como Spotify, Netflix o acceso a salas VIP en aeropuertos."

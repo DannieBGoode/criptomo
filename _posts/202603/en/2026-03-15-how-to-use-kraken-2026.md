@@ -29,6 +29,15 @@ how_to:
     text: "Go to Funding → Deposit → EUR, select Bank transfer (SEPA) and copy the IBAN and unique reference Kraken provides. Send the transfer from your bank with the reference in the payment description. Free and arrives in 1–2 business days."
   - name: "Buy Bitcoin"
     text: "With EUR in your account, go to Buy/Sell, select BTC/EUR, enter the amount in euros and confirm a market order. The purchase completes almost instantly."
+review:
+  item_name: "Kraken"
+  item_type: "WebApplication"
+  item_url: "https://www.kraken.com"
+  rating: 4.5
+  best: 5
+  worst: 1
+  body: "Kraken is one of the most secure and regulated exchanges, ideal for European users seeking MiCA compliance and competitive fees."
+  count: 1
 ---
 
 Kraken is one of the most regulated and trusted cryptocurrency exchanges in the world. Founded in 2011, it holds a MiCA licence across the European Union and has an unblemished security record — it has never been hacked. Whether you are buying Bitcoin for the first time or moving away from a less regulated platform, this guide walks you through every step.

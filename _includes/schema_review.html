@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": {{ page.review.item_type | default: "WebApplication" | jsonify }},
+    "name": {{ page.review.item_name | jsonify }},
+    "url": {{ page.review.item_url | jsonify }}
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": {{ page.review.rating }},
+    "bestRating": {{ page.review.best | default: 5 }},
+    "worstRating": {{ page.review.worst | default: 1 }}
+  },
+  "author": {
+    "@type": "Person",
+    "name": {{ site.data.authors[page.author].author_name | default: site.data.authors["daniel"].author_name | jsonify }}
+  },
+  "reviewBody": {{ page.review.body | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }}
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ page.review.rating }},
+    "bestRating": {{ page.review.best | default: 5 }},
+    "worstRating": {{ page.review.worst | default: 1 }},
+    "reviewCount": {{ page.review.count | default: 1 }}
+  }
+}
+</script>

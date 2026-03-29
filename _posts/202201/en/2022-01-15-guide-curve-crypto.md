@@ -7,6 +7,15 @@ description: Complete guide to the Curve card. Learn how to use any bank card wi
 banner_image: 202201/curve-card.webp
 ref: curve-card
 lang: en
+review:
+  item_name: "Curve"
+  item_type: "WebApplication"
+  item_url: "https://www.curve.com"
+  rating: 4
+  best: 5
+  worst: 1
+  body: "Curve simplifies card management by combining multiple cards into a single app, with smart features and additional cashback."
+  count: 1
 ---
 
 <style>

@@ -29,6 +29,15 @@ how_to:
     text: "Gehe zu Einzahlung → EUR, wähle Banküberweisung (SEPA) und kopiere die IBAN und die eindeutige Referenz, die Kraken anzeigt. Überweise den Betrag mit der Referenz im Verwendungszweck. Kostenlos, Eingang in 1–2 Werktagen."
   - name: "Bitcoin kaufen"
     text: "Mit Euro auf deinem Konto gehe zu Kaufen/Verkaufen, wähle BTC/EUR, gib den Betrag in Euro ein und bestätige eine Market-Order. Der Kauf ist nahezu sofort abgeschlossen."
+review:
+  item_name: "Kraken"
+  item_type: "WebApplication"
+  item_url: "https://www.kraken.com"
+  rating: 4.5
+  best: 5
+  worst: 1
+  body: "Kraken ist eine der sichersten und reguliertesten Börsen, ideal für europäische Nutzer, die MiCA-Konformität und wettbewerbsfähige Gebühren suchen."
+  count: 1
 ---
 
 Kraken ist eine der am stärksten regulierten Kryptobörsen Europas. Seit 2011 in Betrieb und mit einer vollständigen MiCA-Lizenz in der Europäischen Union ist Kraken eine der sichersten Plattformen für den Kauf von Bitcoin und anderen Kryptowährungen in Deutschland. Diese Anleitung erklärt Ihnen Schritt für Schritt, wie Sie sich registrieren, Ihre Identität verifizieren und Ihren ersten Kauf tätigen.

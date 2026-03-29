@@ -29,6 +29,15 @@ how_to:
     text: "Allez dans Financer → Dépôt → EUR, sélectionnez Virement bancaire (SEPA) et copiez l'IBAN et la référence unique affichés par Kraken. Effectuez le virement depuis votre banque avec la référence dans le libellé. Gratuit, arrivée en 1–2 jours ouvrables."
   - name: "Acheter du Bitcoin"
     text: "Avec des euros sur votre compte, allez dans Acheter/Vendre, sélectionnez BTC/EUR, saisissez le montant en euros et confirmez un ordre au prix du marché. L'achat est presque instantané."
+review:
+  item_name: "Kraken"
+  item_type: "WebApplication"
+  item_url: "https://www.kraken.com"
+  rating: 4.5
+  best: 5
+  worst: 1
+  body: "Kraken est l'une des plateformes les plus sécurisées et réglementées, idéale pour les utilisateurs européens recherchant la conformité MiCA et des frais compétitifs."
+  count: 1
 ---
 
 Kraken est l'une des plateformes d'échange de cryptomonnaies les plus régulées d'Europe. Fondé en 2011 et titulaire d'une licence MiCA dans toute l'Union européenne, c'est l'une des plateformes les plus sûres pour acheter du Bitcoin et d'autres cryptomonnaies depuis la France. Ce guide vous explique exactement comment vous inscrire, vérifier votre identité et effectuer votre premier achat, étape par étape.
