@@ -1,21 +1,30 @@
 ---
-title: "\U0001F4B5 Calculadora de FIRE"
+title: "Calculadora FIRE España: Independencia Financiera y Jubilación Anticipada"
 permalink: "/calculadora-fire/"
 layout: page
-description: "\U0001F4B5 Calculadora online de (Independencia Financiera), FIRE, calcula
-  cuando te podrías jubilar ó retirar y obtener la independencia o libertad financiera."
+description: "Calculadora FIRE online para España. Calcula cuándo podrías jubilarte anticipadamente, alcanzar la independencia financiera y dejar de trabajar según tus ingresos y gastos."
 banner_image: pages/fi.webp
 schema: true
 comments: false
 sitemap: true
 lang: es
 ref: fire-calculator
+faq:
+  - question: "¿Qué es la calculadora FIRE?"
+    answer: "Es una herramienta online que calcula cuántos años necesitas para alcanzar la independencia financiera (FIRE — Financial Independence, Retire Early) según tus ingresos, gastos, tasa de ahorro y rendimiento esperado de tus inversiones."
+  - question: "¿Cómo funciona el movimiento FIRE en España?"
+    answer: "El movimiento FIRE en España consiste en ahorrar e invertir agresivamente para acumular un patrimonio que genere rentas suficientes para cubrir tus gastos sin depender de un empleo. La edad legal de jubilación en España es 67 años, pero con FIRE puedes alcanzar la libertad financiera mucho antes."
+  - question: "¿Cuánto dinero necesito para jubilarme anticipadamente en España?"
+    answer: "Depende de tus gastos anuales. La regla del 4% sugiere que necesitas 25 veces tus gastos anuales. Si gastas 30.000€ al año, necesitarías 750.000€ invertidos. La calculadora te ayuda a calcular el número exacto según tu situación."
+  - question: "¿Qué tasa de ahorro necesito para alcanzar FIRE?"
+    answer: "Con una tasa de ahorro del 50% y un rendimiento del 7% anual, podrías alcanzar FIRE en unos 17 años. Con un 25% de ahorro, serían unos 32 años. Cuanto mayor sea tu tasa de ahorro, antes llegas."
+  - question: "¿Qué es la regla del 4% en la independencia financiera?"
+    answer: "La regla del 4% establece que puedes retirar un 4% de tu patrimonio invertido cada año sin agotar el capital durante al menos 30 años. Si tienes 750.000€ invertidos, podrías retirar 30.000€ anuales de forma sostenible."
 ---
 
-<small>
-    Calcula en cuántos años podrías jubilarte con la calculadora de Independencia Financiera FIRE.
-    Esta herramienta supone que todo el dinero ahorrado está generando rendimientos al porcentaje que elijas.
-</small>
+Calcula en cuántos años podrías alcanzar la **independencia financiera** y jubilarte anticipadamente en España con nuestra calculadora FIRE. Introduce tus ingresos, gastos y tasa de ahorro para obtener un plan personalizado. La herramienta supone que todo el dinero ahorrado está generando rendimientos al porcentaje que elijas.
+
+En España, la edad legal de jubilación es **67 años** (o 65 con 38,5 años cotizados). El movimiento FIRE plantea una alternativa: acumular un patrimonio suficiente para que tus inversiones cubran tus gastos, permitiéndote dejar de depender de un empleo mucho antes. Aprende más sobre [qué es FIRE y cómo funciona](/que-es-fire/).
 <div class="calculator-block  calculator-fi">
     <div class="calculator-form-row">
         <div class="calculator-col-start">
