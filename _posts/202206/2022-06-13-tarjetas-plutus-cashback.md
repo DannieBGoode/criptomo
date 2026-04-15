@@ -8,6 +8,13 @@ banner_image: 202206/plutus.webp
 ref: plutus
 lang: es
 popular: true
+crypto_ticker:
+  name: "Plutus"
+  ticker: "PLU"
+  description: "Tarjeta de débito con hasta 8% de cashback en criptomonedas ETH y PLU"
+  category: "Cryptocurrency Debit Card"
+  provider: "Plutus"
+  url: "https://plutus.it"
 review:
   item_name: "Plutus"
   item_type: "WebApplication"

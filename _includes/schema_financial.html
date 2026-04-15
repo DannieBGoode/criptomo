@@ -1,0 +1,18 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialProduct",
+  "name": {{ page.crypto_ticker.name | jsonify }},
+  "description": {{ page.crypto_ticker.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  {% if page.crypto_ticker.ticker %}"alternateName": {{ page.crypto_ticker.ticker | jsonify }},{% endif %}
+  {% if page.crypto_ticker.category %}"category": {{ page.crypto_ticker.category | jsonify }},{% endif %}
+  {% if page.crypto_ticker.url %}"additionalType": "https://schema.org/Currency",
+  "mainEntityOfPage": {{ page.crypto_ticker.url | jsonify }},{% endif %}
+  "provider": {
+    "@type": "Organization",
+    "name": {{ page.crypto_ticker.provider | default: page.crypto_ticker.name | jsonify }},
+    {% if page.crypto_ticker.url %}"url": {{ page.crypto_ticker.url | jsonify }}{% else %}"url": {{ page.url | absolute_url | jsonify }}{% endif %}
+  }
+}
+</script>

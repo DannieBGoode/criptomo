@@ -29,6 +29,12 @@ how_to:
     text: "Gehe zu Einzahlung → EUR, wähle Banküberweisung (SEPA) und kopiere die IBAN und die eindeutige Referenz, die Kraken anzeigt. Überweise den Betrag mit der Referenz im Verwendungszweck. Kostenlos, Eingang in 1–2 Werktagen."
   - name: "Bitcoin kaufen"
     text: "Mit Euro auf deinem Konto gehe zu Kaufen/Verkaufen, wähle BTC/EUR, gib den Betrag in Euro ein und bestätige eine Market-Order. Der Kauf ist nahezu sofort abgeschlossen."
+crypto_ticker:
+  name: "Kraken"
+  description: "MiCA-regulierte Kryptowährungsbörse in der Europäischen Union"
+  category: "Cryptocurrency Exchange"
+  provider: "Kraken"
+  url: "https://www.kraken.com"
 review:
   item_name: "Kraken"
   item_type: "WebApplication"

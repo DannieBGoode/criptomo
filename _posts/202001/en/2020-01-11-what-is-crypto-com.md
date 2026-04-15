@@ -10,6 +10,13 @@ redirect_from:
 - "/what-is-crypto/"
 lang: en
 ref: crypto-com
+crypto_ticker:
+  name: "Crypto.com"
+  ticker: "CRO"
+  description: "Cryptocurrency platform with VISA debit cards, staking, and DeFi"
+  category: "Cryptocurrency Exchange"
+  provider: "Crypto.com"
+  url: "https://crypto.com"
 review:
   item_name: "Crypto.com"
   item_type: "WebApplication"

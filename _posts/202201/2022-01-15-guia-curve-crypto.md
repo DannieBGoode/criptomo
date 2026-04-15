@@ -7,6 +7,12 @@ description: "Guía completa sobre la tarjeta Curve: qué es, cómo combinarla c
 banner_image: 202201/curve-card.webp
 ref: curve-card
 lang: es
+crypto_ticker:
+  name: "Curve"
+  description: "Aplicación fintech que combina múltiples tarjetas bancarias en una sola app"
+  category: "Financial Technology"
+  provider: "Curve"
+  url: "https://www.curve.com"
 review:
   item_name: "Curve"
   item_type: "WebApplication"

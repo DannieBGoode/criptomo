@@ -9,6 +9,13 @@ Total Votes: 4
 ref: plutus
 lang: en
 popular: true
+crypto_ticker:
+  name: "Plutus"
+  ticker: "PLU"
+  description: "Debit card with up to 8% crypto cashback in ETH and PLU"
+  category: "Cryptocurrency Debit Card"
+  provider: "Plutus"
+  url: "https://plutus.it"
 review:
   item_name: "Plutus"
   item_type: "WebApplication"

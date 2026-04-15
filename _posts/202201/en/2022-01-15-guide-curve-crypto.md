@@ -7,6 +7,12 @@ description: Complete guide to the Curve card. Learn how to use any bank card wi
 banner_image: 202201/curve-card.webp
 ref: curve-card
 lang: en
+crypto_ticker:
+  name: "Curve"
+  description: "Fintech app that combines multiple bank cards into a single app"
+  category: "Financial Technology"
+  provider: "Curve"
+  url: "https://www.curve.com"
 review:
   item_name: "Curve"
   item_type: "WebApplication"

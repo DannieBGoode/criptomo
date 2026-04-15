@@ -50,6 +50,7 @@ npm run eslint       # Lint js/**/*.js (excludes js/jquery.js and js/public/)
 - Preserve important front matter fields such as `layout`, `permalink`, `lang`, `ref`, `css`, and `jquery`.
 - Spanish pages usually live in `_pages/es/` and publish at root permalinks. Other locales publish under language-prefixed permalinks.
 - Posts are not organized one single way: some are flat in `_posts/`, others are grouped by year/month and sometimes by language subdirectory. Follow the nearby pattern instead of trying to normalize the tree.
+- **No cross-language internal links.** Each translation must only link to posts in the same language. If a same-language version of the target post does not exist, use plain text instead of a link. Never link a German post to a Spanish slug, etc.
 - Navigation and locale metadata live in `_data/navigation*.yml`, `_data/languages.yml`, and `_data/translations.yml`.
 - Older content includes non-ASCII prose. Make narrow edits and avoid unnecessary file rewrites that could damage encoding or punctuation.
 

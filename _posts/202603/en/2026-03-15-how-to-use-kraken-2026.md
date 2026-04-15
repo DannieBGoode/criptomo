@@ -29,6 +29,12 @@ how_to:
     text: "Go to Funding → Deposit → EUR, select Bank transfer (SEPA) and copy the IBAN and unique reference Kraken provides. Send the transfer from your bank with the reference in the payment description. Free and arrives in 1–2 business days."
   - name: "Buy Bitcoin"
     text: "With EUR in your account, go to Buy/Sell, select BTC/EUR, enter the amount in euros and confirm a market order. The purchase completes almost instantly."
+crypto_ticker:
+  name: "Kraken"
+  description: "MiCA-regulated cryptocurrency exchange in the European Union"
+  category: "Cryptocurrency Exchange"
+  provider: "Kraken"
+  url: "https://www.kraken.com"
 review:
   item_name: "Kraken"
   item_type: "WebApplication"

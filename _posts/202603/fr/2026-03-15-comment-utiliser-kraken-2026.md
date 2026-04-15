@@ -29,6 +29,12 @@ how_to:
     text: "Allez dans Financer → Dépôt → EUR, sélectionnez Virement bancaire (SEPA) et copiez l'IBAN et la référence unique affichés par Kraken. Effectuez le virement depuis votre banque avec la référence dans le libellé. Gratuit, arrivée en 1–2 jours ouvrables."
   - name: "Acheter du Bitcoin"
     text: "Avec des euros sur votre compte, allez dans Acheter/Vendre, sélectionnez BTC/EUR, saisissez le montant en euros et confirmez un ordre au prix du marché. L'achat est presque instantané."
+crypto_ticker:
+  name: "Kraken"
+  description: "Plateforme d'échange de cryptomonnaies régulée sous MiCA dans l'Union européenne"
+  category: "Cryptocurrency Exchange"
+  provider: "Kraken"
+  url: "https://www.kraken.com"
 review:
   item_name: "Kraken"
   item_type: "WebApplication"
