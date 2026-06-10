@@ -15,8 +15,8 @@ gem "bigdecimal" # required explicitly on Ruby 3.4+ for Liquid/Jekyll
 gem "csv" # required explicitly on Ruby 3.4+ for Jekyll
 gem "base64" # required explicitly on Ruby 3.4+ for safe_yaml/Jekyll
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem "wdm", "~> 0.1.0", platforms: [:mingw, :mswin, :x64_mingw]
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
 gem "webrick", "~> 1.7" # required for Ruby 3.x (removed from stdlib in 3.0)
 
 # If you have any plugins, put them here!
