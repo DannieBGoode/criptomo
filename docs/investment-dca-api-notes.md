@@ -48,7 +48,7 @@ This matches the rest of the repo's calculator stack and allows a single client-
 ### CryptoCompare
 
 - **Update 2026-06:** CoinDesk Data (CryptoCompare's owner) retired keyless access on 2026-05-21; every `min-api` call now requires an API key. The current free allowance is 11,000 calls/month.
-- Browser code therefore calls the Netlify Function proxy at `/api/market/*` (`netlify/functions/market-data.js`), which appends the key server-side from the `CRYPTOCOMPARE_API_KEY` Netlify environment variable and sets CDN cache headers (5 minutes for current prices, 1 day for historical data) so repeat lookups do not spend quota.
+- Browser code therefore calls the Netlify Function proxy at `/api/market/*` (`netlify/functions/market-data.js`), which appends the key server-side from the `CRYPTOCOMPARE_API_KEY` Netlify environment variable and sets CDN cache headers (5 minutes for current prices and same-day history, 1 year + `immutable` for closed past days — Netlify purges its cache on each deploy anyway) so repeat lookups do not spend quota.
 - The same key is stored as a GitHub Actions secret for the scheduled contract checks; `bin/check-api-contracts.js` redacts it from reports.
 
 ### CoinDesk

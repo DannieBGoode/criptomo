@@ -37,10 +37,11 @@ describe('market-data Netlify function', () => {
     expect(JSON.parse(result.body)).toEqual({ USD: 50000 });
   });
 
-  test('caches current prices briefly and historical data for a day', async () => {
+  test('caches current prices briefly and closed past days for a year', async () => {
     global.fetch
       .mockResolvedValueOnce(createUpstreamResponse({ USD: 50000 }))
-      .mockResolvedValueOnce(createUpstreamResponse({ BTC: { USD: 48000 } }));
+      .mockResolvedValueOnce(createUpstreamResponse({ BTC: { USD: 48000 } }))
+      .mockResolvedValueOnce(createUpstreamResponse({ Data: { Data: [] } }));
 
     const current = await marketData.handler({
       path: '/api/market/data/price',
@@ -50,9 +51,45 @@ describe('market-data Netlify function', () => {
       path: '/api/market/data/pricehistorical',
       queryStringParameters: { fsym: 'BTC', ts: '1500000000', tsyms: 'USD' }
     });
+    const dailyHistory = await marketData.handler({
+      path: '/api/market/data/v2/histoday',
+      queryStringParameters: {
+        fsym: 'BTC',
+        tsym: 'USD',
+        limit: '4',
+        toTs: String(Math.floor(Date.now() / 1000) - 3 * 86400)
+      }
+    });
 
     expect(current.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=300');
-    expect(historical.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=86400');
+    expect(historical.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=31536000');
+    expect(historical.headers['Netlify-CDN-Cache-Control']).toContain('immutable');
+    expect(dailyHistory.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=31536000');
+  });
+
+  test('keeps same-day or invalid historical timestamps on the short cache window', async () => {
+    const startOfTodayUtc = Math.floor(Date.now() / 86400000) * 86400;
+    global.fetch
+      .mockResolvedValueOnce(createUpstreamResponse({ BTC: { USD: 48000 } }))
+      .mockResolvedValueOnce(createUpstreamResponse({ Data: { Data: [] } }))
+      .mockResolvedValueOnce(createUpstreamResponse({ Data: { Data: [] } }));
+
+    const sameDayHistorical = await marketData.handler({
+      path: '/api/market/data/pricehistorical',
+      queryStringParameters: { fsym: 'BTC', ts: String(Math.floor(Date.now() / 1000)), tsyms: 'USD' }
+    });
+    const todayDailyHistory = await marketData.handler({
+      path: '/api/market/data/v2/histoday',
+      queryStringParameters: { fsym: 'BTC', tsym: 'USD', limit: '4', toTs: String(startOfTodayUtc) }
+    });
+    const missingTimestamp = await marketData.handler({
+      path: '/api/market/data/v2/histoday',
+      queryStringParameters: { fsym: 'BTC', tsym: 'USD', limit: '4' }
+    });
+
+    expect(sameDayHistorical.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=300');
+    expect(todayDailyHistory.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=300');
+    expect(missingTimestamp.headers['Netlify-CDN-Cache-Control']).toContain('s-maxage=300');
   });
 
   test('strips any client-supplied api_key before calling upstream', async () => {

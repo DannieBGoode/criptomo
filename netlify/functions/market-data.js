@@ -3,28 +3,54 @@
 // The browser calls /api/market/<path> (see netlify.toml); this function appends the
 // CRYPTOCOMPARE_API_KEY environment variable server-side so the key never reaches
 // page source. CDN cache headers keep repeat lookups from spending API quota:
-// current prices stay fresh within a five-minute window, while historical data
-// never changes and can sit in the durable cache for a day.
+// current prices stay fresh within a five-minute window, while lookups for closed
+// past days never change and can sit in the durable cache for a year. Netlify
+// purges its cache on every deploy, so the long TTL means "until the next deploy",
+// never a staleness risk.
 
 const UPSTREAM_ORIGIN = 'https://min-api.cryptocompare.com';
 const ROUTE_PREFIXES = ['/api/market', '/.netlify/functions/market-data'];
+const YEAR_SECONDS = 31536000;
 
 const CACHE_PROFILES = {
   current: {
     'Cache-Control': 'public, max-age=60',
     'Netlify-CDN-Cache-Control': 'public, durable, s-maxage=300'
   },
-  historical: {
-    'Cache-Control': 'public, max-age=3600',
-    'Netlify-CDN-Cache-Control': 'public, durable, s-maxage=86400'
+  immutableHistory: {
+    'Cache-Control': 'public, max-age=86400, immutable',
+    'Netlify-CDN-Cache-Control': 'public, durable, immutable, s-maxage=' + YEAR_SECONDS
   }
 };
 
+// Data for closed past days is immutable, but a timestamp on the current UTC day
+// still moves with the market (the day's candle is still running), so it only
+// gets the short current-price window. Invalid or missing timestamps mean the
+// upstream defaults to "now" and are treated the same way.
+function historicalCacheProfile(timestampParam) {
+  const timestamp = Number(timestampParam);
+  const startOfTodayUtcSeconds = Math.floor(Date.now() / 86400000) * 86400;
+
+  if (Number.isFinite(timestamp) && timestamp > 0 && timestamp < startOfTodayUtcSeconds) {
+    return CACHE_PROFILES.immutableHistory;
+  }
+
+  return CACHE_PROFILES.current;
+}
+
 const ALLOWED_ENDPOINTS = {
-  '/data/price': CACHE_PROFILES.current,
-  '/data/pricemulti': CACHE_PROFILES.current,
-  '/data/pricehistorical': CACHE_PROFILES.historical,
-  '/data/v2/histoday': CACHE_PROFILES.historical
+  '/data/price': function () {
+    return CACHE_PROFILES.current;
+  },
+  '/data/pricemulti': function () {
+    return CACHE_PROFILES.current;
+  },
+  '/data/pricehistorical': function (params) {
+    return historicalCacheProfile(params.ts);
+  },
+  '/data/v2/histoday': function (params) {
+    return historicalCacheProfile(params.toTs);
+  }
 };
 
 const JSON_CONTENT_TYPE = { 'Content-Type': 'application/json; charset=utf-8' };
@@ -71,15 +97,17 @@ function jsonError(statusCode, message) {
 
 async function handler(event) {
   const upstreamPath = getUpstreamPath(event && event.path);
-  const cacheHeaders = ALLOWED_ENDPOINTS[upstreamPath];
+  const resolveCacheHeaders = ALLOWED_ENDPOINTS[upstreamPath];
 
-  if (!cacheHeaders) {
+  if (!resolveCacheHeaders) {
     return jsonError(404, 'Unknown market data endpoint.');
   }
 
+  const queryStringParameters = (event && event.queryStringParameters) || {};
+  const cacheHeaders = resolveCacheHeaders(queryStringParameters);
   const upstreamUrl = buildUpstreamUrl(
     upstreamPath,
-    event && event.queryStringParameters,
+    queryStringParameters,
     process.env.CRYPTOCOMPARE_API_KEY
   );
 
