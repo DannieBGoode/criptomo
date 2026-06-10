@@ -312,7 +312,7 @@ describe('calculator.js and invest.js', () => {
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
 
-    expect($.get).toHaveBeenCalledWith(expect.stringContaining('min-api.cryptocompare.com/data/v2/histoday'));
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('/api/market/data/v2/histoday'));
     expect($.get).toHaveBeenCalledWith(expect.stringContaining('fsym=ETH'));
     expect($.get).toHaveBeenCalledWith(expect.stringContaining('tsym=USD'));
     expect(table.rows.add).toHaveBeenCalledWith(expect.arrayContaining([

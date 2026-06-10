@@ -380,7 +380,7 @@ function calculateEarnings() {
     });
     Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
-    fetch('https://min-api.cryptocompare.com/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
+    fetch('/api/market/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
       .then(parseProviderJson)
       .then((response) => {
         const currentPrice = parseCurrentPriceResponse(response, investment.fiat);
@@ -407,7 +407,7 @@ function calculateEarnings() {
         //     });
         // } else {
           // altcoin api
-          fetch('https://min-api.cryptocompare.com/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
+          fetch('/api/market/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
             .then(parseProviderJson)
             .then((data) => {
               const historicalPriceData = parseHistoricalPriceResponse(data, investment.tokenSymbol, investment.fiat);

@@ -32,6 +32,10 @@ function createCheckError(message, metadata) {
   return Object.assign(new Error(message), metadata);
 }
 
+function redactApiKey(value) {
+  return String(value === null || value === undefined ? '' : value).replace(/(api_key=)[^&\s"']+/gi, '$1REDACTED');
+}
+
 function ensureFetch() {
   if (typeof fetch !== 'function') {
     throw new Error('Global fetch is not available. Run this script with Node 18 or newer.');
@@ -248,7 +252,7 @@ async function runContractChecks(options) {
       const result = await check.run();
       results.push({
         durationMs: result.durationMs,
-        endpoint: result.endpoint,
+        endpoint: redactApiKey(result.endpoint),
         httpStatus: result.httpStatus,
         name: check.name,
         notes: result.notes,
@@ -258,8 +262,8 @@ async function runContractChecks(options) {
     } catch (error) {
       results.push({
         durationMs: null,
-        endpoint: error.endpoint || 'unknown',
-        error: error.message,
+        endpoint: redactApiKey(error.endpoint || 'unknown'),
+        error: redactApiKey(error.message),
         httpStatus: Number.isFinite(error.httpStatus) ? error.httpStatus : null,
         name: check.name,
         notes: '',

@@ -217,7 +217,7 @@ function buildInvestmentRows(bpi, investmentData) {
 function buildCryptoCompareHistoricalUrl(tokenSymbol, fiat, startDate, endDate) {
   var limit = getCryptoCompareHistodayLimit(startDate, endDate);
   var toTs = Math.floor(parseDateAsUtc(endDate).getTime() / 1000);
-  return 'https://min-api.cryptocompare.com/data/v2/histoday'
+  return '/api/market/data/v2/histoday'
     + '?fsym=' + encodeURIComponent(tokenSymbol)
     + '&tsym=' + encodeURIComponent(fiat)
     + '&limit=' + limit
@@ -413,7 +413,7 @@ function calculateEarnings() {
         return;
       }
 
-      $.get('https://min-api.cryptocompare.com/data/price?fsym=' + encodeURIComponent(investment.tokenSymbol) + '&tsyms=' + encodeURIComponent(investment.fiat))
+      $.get('/api/market/data/price?fsym=' + encodeURIComponent(investment.tokenSymbol) + '&tsyms=' + encodeURIComponent(investment.fiat))
         .success(function (priceData) {
           const latestResult = investmentDataArray[investmentDataArray.length - 1];
           const parsedCurrentPrice = parseCurrentPriceResponse(priceData, investment.fiat);

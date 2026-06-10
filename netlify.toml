@@ -1,0 +1,10 @@
+# Build settings live in the Netlify UI; this file only wires the market-data
+# proxy function and its public /api/market/* route.
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/market/*"
+  to = "/.netlify/functions/market-data/:splat"
+  status = 200

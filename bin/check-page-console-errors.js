@@ -97,11 +97,17 @@ const PRELUDE_SCRIPT = `<script>
 
   function getStubbedPayload(rawUrl) {
     var url = new URL(rawUrl, window.location.href);
+    var marketProxyPrefix = '/api/market';
+    var isMarketProxyCall = url.hostname === 'min-api.cryptocompare.com'
+      || (url.host === window.location.host && url.pathname.indexOf(marketProxyPrefix + '/') === 0);
+    var marketPath = url.pathname.indexOf(marketProxyPrefix + '/') === 0
+      ? url.pathname.slice(marketProxyPrefix.length)
+      : url.pathname;
 
-    if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/price') {
+    if (isMarketProxyCall && marketPath === '/data/price') {
       return { status: 200, body: { USD: 50000, EUR: 46000 } };
     }
-    if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/v2/histoday') {
+    if (isMarketProxyCall && marketPath === '/data/v2/histoday') {
       return {
         status: 200,
         body: {
@@ -116,10 +122,10 @@ const PRELUDE_SCRIPT = `<script>
         }
       };
     }
-    if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/pricehistorical') {
+    if (isMarketProxyCall && marketPath === '/data/pricehistorical') {
       return { status: 200, body: { BTC: { USD: 48000, EUR: 44000 } } };
     }
-    if (url.hostname === 'min-api.cryptocompare.com' && url.pathname === '/data/pricemulti') {
+    if (isMarketProxyCall && marketPath === '/data/pricemulti') {
       return { status: 200, body: { BTC: { USD: 50000 }, ETH: { USD: 2500 } } };
     }
     if (url.hostname === 'api.coindesk.com' && url.pathname === '/v1/bpi/historical/close.json') {

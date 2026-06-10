@@ -134,7 +134,7 @@ function calculateSimulator() {
 
   showSimulatorLoading();
 
-  var url = 'https://min-api.cryptocompare.com/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat);
+  var url = '/api/market/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat);
 
   fetch(url)
     .then(function(response) {

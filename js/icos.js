@@ -118,7 +118,7 @@ function calculateIcoGain(currentPrice, icoPrice) {
 
 function marketcapTableLoad() {
   table.processing( true );
-  let getUrl = 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=' + icos.join() + '&tsyms=USD';
+  let getUrl = '/api/market/data/pricemulti?fsyms=' + icos.join() + '&tsyms=USD';
   ICODataArray = [];
 
   $.get( getUrl, function ( response ) {
