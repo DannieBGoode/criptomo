@@ -90,7 +90,7 @@ Jekyll 4.3.4 static site. Content in Liquid templates, styles in SCSS (libsass v
 - **Kraken affiliate**: config in `_config.yml` under `kraken.affiliate_link` / `kraken.affiliate_code`; banner template at `_includes/calculator_affiliate_banner.html`
 - **Google Tag Manager**: GTM-TV5P5BH
 - **Disqus comments**: shortname `criptomo`
-- **Market data**: CryptoCompare and LiveCoinWatch APIs (API contracts tested via `npm run test:api-contracts`). CryptoCompare requires an API key since 2026-05-21: browser code must call the Netlify Function proxy at `/api/market/*` (see `netlify/functions/market-data.js` and `netlify.toml`) instead of `min-api.cryptocompare.com` directly. The key lives in the `CRYPTOCOMPARE_API_KEY` Netlify environment variable and GitHub Actions secret — never in the repo or page source.
+- **Market data**: CryptoCompare (via the Netlify Function proxy at `/api/market/*` — never call `min-api.cryptocompare.com` from page JS) and LiveCoinWatch. **Read `docs/market-data-apis.md` before touching anything that fetches prices** — it documents the proxy, API keys and quotas, caching, provider failure modes, and the validation checklist.
 
 ## Monetization
 
