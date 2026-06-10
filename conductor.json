@@ -2,7 +2,7 @@
   "scripts": {
     "setup": "export PATH=\"/opt/homebrew/opt/ruby/bin:/usr/local/opt/ruby/bin:$PATH\"; ruby -e 'abort(\"Ruby 3.2+ required; install Ruby 3.x first, for example with: brew install ruby\") unless Gem::Version.new(RUBY_VERSION) >= Gem::Version.new(\"3.2.0\")' && BUNDLER_VERSION=$(awk '/^BUNDLED WITH$/{getline; gsub(/^[[:space:]]+/, \"\"); print; exit}' Gemfile.lock) && (gem list -i bundler -v \"$BUNDLER_VERSION\" >/dev/null || gem install bundler -v \"$BUNDLER_VERSION\") && npm ci",
     "run": "export PATH=\"/opt/homebrew/opt/ruby/bin:/usr/local/opt/ruby/bin:$PATH\"; export BUNDLE_FROZEN=true; ruby -e 'abort(\"Ruby 3.2+ required; install Ruby 3.x first, for example with: brew install ruby\") unless Gem::Version.new(RUBY_VERSION) >= Gem::Version.new(\"3.2.0\")' && bundle exec ruby bin/jekyll-local.rb serve --incremental --host 127.0.0.1 --port ${CONDUCTOR_PORT:-4000}",
-    "archive": "export PATH=\"/opt/homebrew/opt/ruby/bin:/usr/local/opt/ruby/bin:$PATH\"; export BUNDLE_FROZEN=true; bundle exec jekyll clean || true"
+    "archive": "bash bin/conductor-archive-cleanup.sh"
   },
   "runScriptMode": "concurrent"
 }
