@@ -82,6 +82,7 @@ jquery: true
         <p>
             <span class="error coin-error">Diese Kryptowährung wird von unserem System nicht unterstützt.</span>
             <span class="error date-error">Für dieses Datum sind in unserem Verlauf keine Daten verfügbar.</span>
+            <span class="error api-error">Marktpreisdaten sind im Moment nicht verfügbar. Bitte versuchen Sie es in ein paar Minuten erneut.</span>
         </p>
     </div>
 </div>

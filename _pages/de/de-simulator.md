@@ -119,6 +119,10 @@ mailchimp_tracking: false
             <div>Denke daran, den Coin-Code anstelle des vollständigen Namens zu verwenden.</div>
             <div>Zum Beispiel: <a>DOGE</a>, <a>SHIB</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...</div>
         </div>
+        <div class="error api-error">
+            <span>Marktpreisdaten sind im Moment nicht verfügbar.</span>
+            <div>Bitte versuchen Sie es in ein paar Minuten erneut.</div>
+        </div>
     </div>
 
     {% include ads_calculator_banner.html %}

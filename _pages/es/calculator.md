@@ -152,6 +152,10 @@ faq:
                 <span>Esta fecha no está cubierta en nuestro historial.</span>
                 <div>Prueba con otra fecha, por ejemplo <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
+            <div class="error api-error">
+                <span>Los datos de mercado no están disponibles ahora mismo.</span>
+                <div>Inténtalo de nuevo en unos minutos.</div>
+            </div>
         </p>
 
         

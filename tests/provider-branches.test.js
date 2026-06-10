@@ -65,7 +65,7 @@ describe('provider edge branches', () => {
     let invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
 
-    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(global.handleError).toHaveBeenCalledWith('api');
     expect(table.processing).toHaveBeenLastCalledWith(false);
     expect(table.rows.add).not.toHaveBeenCalled();
 
@@ -92,7 +92,7 @@ describe('provider edge branches', () => {
     invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
 
-    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(global.handleError).toHaveBeenCalledWith('api');
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 

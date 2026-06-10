@@ -64,7 +64,53 @@ function parseCurrentPriceResponse(response, fiat) {
   return currentPrice;
 }
 
+function isCalculatorProviderApiError(data) {
+  if (typeof isProviderApiError === 'function') {
+    return isProviderApiError(data);
+  }
+
+  var err = data && data.Err;
+  var statusCode = Number(err && (err.http_status_code || err.status || err.code));
+  var message = String(
+    (err && err.message) ||
+    (data && (data.Message || data.message || data.error)) ||
+    ''
+  ).toLowerCase();
+
+  if (err && (Number.isFinite(statusCode) ? statusCode >= 400 : true)) {
+    return true;
+  }
+
+  return message.indexOf('api key') !== -1 ||
+    message.indexOf('unauthorized') !== -1 ||
+    message.indexOf('forbidden') !== -1 ||
+    message.indexOf('rate limit') !== -1 ||
+    message.indexOf('too many requests') !== -1 ||
+    message.indexOf('temporarily unavailable') !== -1 ||
+    message.indexOf('service unavailable') !== -1;
+}
+
+function getFetchErrorType(error) {
+  return error && error.calculatorErrorType ? error.calculatorErrorType : 'api';
+}
+
+function parseProviderJson(response) {
+  return response.json().then(function(data) {
+    if (response.ok === false || isCalculatorProviderApiError(data)) {
+      var error = new Error('Provider API error');
+      error.calculatorErrorType = 'api';
+      throw error;
+    }
+
+    return data;
+  });
+}
+
 function parseHistoricalPriceResponse(data, tokenSymbol, fiat) {
+  if (isCalculatorProviderApiError(data)) {
+    return { error: 'api', price: null };
+  }
+
   if (data && data.Response === 'Error') {
     return { error: 'currency', price: null };
   }
@@ -335,7 +381,7 @@ function calculateEarnings() {
     Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
     fetch('/api/market/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
-      .then(response => response.json())
+      .then(parseProviderJson)
       .then((response) => {
         const currentPrice = parseCurrentPriceResponse(response, investment.fiat);
 
@@ -362,7 +408,7 @@ function calculateEarnings() {
         // } else {
           // altcoin api
           fetch('/api/market/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
-            .then(data => data.json())
+            .then(parseProviderJson)
             .then((data) => {
               const historicalPriceData = parseHistoricalPriceResponse(data, investment.tokenSymbol, investment.fiat);
 
@@ -375,13 +421,13 @@ function calculateEarnings() {
               loading('off');
             })
             .catch(function () {
-              handleError('date');
+              handleError('api');
               loading('off');
             });
         // }
       })
-      .catch(function () {
-        handleError('date');
+      .catch(function (error) {
+        handleError(getFetchErrorType(error));
         loading('off');
       });
   } else {
@@ -504,6 +550,7 @@ if (typeof module !== 'undefined') {
     loadRecommendationArticles: loadRecommendationArticles,
     loadScriptOnce: loadScriptOnce,
     parseCurrentPriceResponse: parseCurrentPriceResponse,
+    parseProviderJson: parseProviderJson,
     parseHistoricalPriceResponse: parseHistoricalPriceResponse,
     preFill: preFill,
     shareOnSocial: shareOnSocial

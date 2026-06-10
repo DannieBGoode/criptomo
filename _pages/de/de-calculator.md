@@ -154,6 +154,10 @@ faq:
                 <span>Dieses Datum ist nicht in unserem Register.</span>
                 <div>Versuchen Sie es beispielsweise mit einem anderen Datum <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
+            <div class="error api-error">
+                <span>Marktpreisdaten sind im Moment nicht verfügbar.</span>
+                <div>Bitte versuchen Sie es in ein paar Minuten erneut.</div>
+            </div>
         </p>
     </div>
 

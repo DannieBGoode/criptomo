@@ -88,6 +88,47 @@ describe('calculator.js extra coverage', () => {
     expect(global.handleError).toHaveBeenCalledWith('currency');
   });
 
+  test('shows api error when provider returns auth/API failure payloads', async () => {
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 200 }) })
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({
+        Data: {},
+        Err: {
+          message: 'API key required',
+          http_status_code: 401
+        }
+      }) });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('api');
+  });
+
+  test('shows api error when provider responds with a failing HTTP status', async () => {
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({
+        ok: false,
+        json: jest.fn().mockResolvedValue({
+          Data: {},
+          Err: {
+            message: 'API key required',
+            http_status_code: 401
+          }
+        })
+      });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('api');
+  });
+
   test('marks negative returns and malformed current-price responses as errors', async () => {
     global.fetch = jest.fn()
       .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 100 }) })
@@ -275,4 +316,3 @@ describe('calculator.js extra coverage', () => {
     await expect(failingRecommendationPromise).resolves.toBe(false);
   });
 });
-

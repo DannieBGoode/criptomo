@@ -36,6 +36,7 @@ function buildSimulatorDom() {
         </table>
       </div>
       <div class="error coin-error"></div>
+      <div class="error api-error"></div>
     </div>
   `;
 }
@@ -272,6 +273,25 @@ describe('simulator.js', () => {
       expect(document.querySelector('#simulator-results').classList.contains('is-visible')).toBe(false);
     });
 
+    test('shows api-error when API returns an auth/provider error payload', async () => {
+      global.fetch = jest.fn().mockResolvedValue({
+        json: jest.fn().mockResolvedValue({
+          Data: {},
+          Err: {
+            message: 'API key required',
+            http_status_code: 401
+          }
+        })
+      });
+      const sim = loadModule('../js/simulator.js');
+      sim.calculateSimulator();
+      await flushPromises();
+      await flushPromises();
+      expect(document.querySelector('.api-error').classList.contains('is-visible')).toBe(true);
+      expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(false);
+      expect(document.querySelector('#simulator-results').classList.contains('is-visible')).toBe(false);
+    });
+
     test('shows error when API returns a price of zero', async () => {
       global.fetch = jest.fn().mockResolvedValue({
         json: jest.fn().mockResolvedValue({ USD: 0 })
@@ -289,7 +309,8 @@ describe('simulator.js', () => {
       sim.calculateSimulator();
       await flushPromises();
       await flushPromises();
-      expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(true);
+      expect(document.querySelector('.api-error').classList.contains('is-visible')).toBe(true);
+      expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(false);
     });
 
     test('paints results and shows simulator-results on a successful API response', async () => {

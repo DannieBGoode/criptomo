@@ -35,6 +35,16 @@ describe('calculator.js and invest.js', () => {
       error: 'currency',
       price: null
     });
+    expect(calculator.parseHistoricalPriceResponse({
+      Data: {},
+      Err: {
+        message: 'API key required',
+        http_status_code: 401
+      }
+    }, 'BTC', 'USD')).toEqual({
+      error: 'api',
+      price: null
+    });
     expect(calculator.parseHistoricalPriceResponse({ BTC: { USD: '100' } }, 'BTC', 'USD')).toEqual({
       error: null,
       price: 100
@@ -118,6 +128,16 @@ describe('calculator.js and invest.js', () => {
       Message: 'CCCAGG market does not exist for this coin pair (UNKNOWN-USD)'
     })).toEqual({
       error: 'currency',
+      bpi: null
+    });
+    expect(invest.normalizeHistoricalResponse({
+      Data: {},
+      Err: {
+        message: 'API key required',
+        http_status_code: 401
+      }
+    })).toEqual({
+      error: 'api',
       bpi: null
     });
     expect(invest.buildCryptoCompareHistoricalUrl('ETH', 'USD', '2024-01-01', '2024-01-10')).toContain('/data/v2/histoday');
@@ -324,6 +344,29 @@ describe('calculator.js and invest.js', () => {
     invest.calculateEarnings();
 
     expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(table.rows.add).not.toHaveBeenCalled();
+  });
+
+  test('invest.js reports provider API failures separately from date coverage', () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: {
+          Data: {},
+          Err: {
+            message: 'API key required',
+            http_status_code: 401
+          }
+        }
+      }
+    ]);
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+
+    expect(global.handleError).toHaveBeenCalledWith('api');
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
