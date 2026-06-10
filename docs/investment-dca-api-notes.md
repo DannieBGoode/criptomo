@@ -47,9 +47,9 @@ This matches the rest of the repo's calculator stack and allows a single client-
 
 ### CryptoCompare
 
-- Public endpoints work without a key for the current site behavior.
-- Rate limiting is still a risk. The repo already documents `CRYPTOCOMPARE_API_KEY` for server-side contract checks.
-- For production hardening, the next step would be a Netlify/server proxy that keeps any paid key out of browser source.
+- **Update 2026-06:** CoinDesk Data (CryptoCompare's owner) retired keyless access on 2026-05-21; every `min-api` call now requires an API key. The current free allowance is 11,000 calls/month.
+- Browser code therefore calls the Netlify Function proxy at `/api/market/*` (`netlify/functions/market-data.js`), which appends the key server-side from the `CRYPTOCOMPARE_API_KEY` Netlify environment variable and sets CDN cache headers (5 minutes for current prices, 1 day for historical data) so repeat lookups do not spend quota.
+- The same key is stored as a GitHub Actions secret for the scheduled contract checks; `bin/check-api-contracts.js` redacts it from reports.
 
 ### CoinDesk
 
@@ -58,4 +58,4 @@ This matches the rest of the repo's calculator stack and allows a single client-
 
 ## Main challenge
 
-This repository is a static Jekyll site. Any paid API key placed directly in page JavaScript would be public. That makes browser-safe public endpoints the practical default unless the project adds a proxy layer.
+This repository is a static Jekyll site. Any API key placed directly in page JavaScript would be public. Since CryptoCompare ended keyless access, the project uses the proxy layer described above: pages call same-origin `/api/market/*` routes and the Netlify Function holds the key.

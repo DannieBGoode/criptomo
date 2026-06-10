@@ -66,6 +66,39 @@ describe('live api contract runner', () => {
     expect(apiContracts.formatMarkdownReport(report)).toContain('Overall: FAIL');
   });
 
+  test('never leaks the CryptoCompare API key into reports', async () => {
+    process.env.CRYPTOCOMPARE_API_KEY = 'super-secret-key';
+    global.fetch
+      .mockResolvedValueOnce(createJsonResponse({ USD: 50000 }))
+      .mockResolvedValueOnce(createJsonResponse({ Response: 'Error' }, 401))
+      .mockResolvedValueOnce(createJsonResponse({
+        Data: {
+          Data: [
+            { time: 1741305600, close: 99000 },
+            { time: 1741392000, close: 100000 }
+          ]
+        }
+      }))
+      .mockResolvedValueOnce(createJsonResponse({
+        data: [{
+          cap: 1000000,
+          circulating: 19000000,
+          code: 'BTC',
+          name: 'Bitcoin',
+          price: 60000,
+          rank: 1
+        }]
+      }));
+
+    const report = await apiContracts.runContractChecks({ now: new Date('2026-03-10T12:00:00.000Z') });
+
+    expect(global.fetch.mock.calls[0][0]).toContain('api_key=super-secret-key');
+    expect(JSON.stringify(report)).not.toContain('super-secret-key');
+    expect(apiContracts.formatMarkdownReport(report)).not.toContain('super-secret-key');
+    expect(apiContracts.formatConsoleReport(report)).not.toContain('super-secret-key');
+    expect(report.results[0].endpoint).toContain('api_key=REDACTED');
+  });
+
   test('formats a readable console report with a fixed-width table', () => {
     const report = {
       generatedAt: '2026-03-10T12:00:00.000Z',
