@@ -13,6 +13,7 @@ describe('calculator-common.js', () => {
       <input id="invest-date" min="" value="2019-01-01" />
       <div class="coin-error error" style="display:none"></div>
       <div class="date-error error" style="display:none"><span class="suggestedDate"></span></div>
+      <div class="api-error error" style="display:none"></div>
       <div id="calculator-results" style="display:block"></div>
     `;
   });
@@ -51,6 +52,26 @@ describe('calculator-common.js', () => {
     expect(document.querySelector('.suggestedDate').textContent).toMatch(/\d{4}-\d{2}-\d{2}/);
   });
 
+  test('shows provider API errors without marking user inputs invalid', () => {
+    const calculatorCommon = loadModule('../js/calculator-common.js');
+
+    expect(calculatorCommon.isProviderApiError({
+      Data: {},
+      Err: {
+        message: 'API key required',
+        http_status_code: 401
+      }
+    })).toBe(true);
+
+    calculatorCommon.handleError('api');
+
+    expect(document.querySelector('.api-error').classList.contains('is-visible')).toBe(true);
+    expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(false);
+    expect(document.querySelector('.date-error').classList.contains('is-visible')).toBe(false);
+    expect(document.querySelector('#invest-date').classList.contains('input-error')).toBe(false);
+    expect(document.querySelector('#invest-currency').classList.contains('input-error')).toBe(false);
+  });
+
   test('highlights the editable coin input for custom currency errors', () => {
     const calculatorCommon = loadModule('../js/calculator-common.js');
     const select = document.querySelector('#invest-currency');
@@ -82,4 +103,3 @@ describe('calculator-common.js', () => {
     expect(document.querySelector('#invest-date').value).toBe('2021-03-01');
   });
 });
-

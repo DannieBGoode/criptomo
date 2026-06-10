@@ -16,8 +16,54 @@ function formatPercentage(pct) {
   return (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
 }
 
-function showSimulatorError() {
-  document.querySelector('.coin-error').classList.add('is-visible');
+function isSimulatorProviderApiError(data) {
+  if (typeof isProviderApiError === 'function') {
+    return isProviderApiError(data);
+  }
+
+  var err = data && data.Err;
+  var statusCode = Number(err && (err.http_status_code || err.status || err.code));
+  var message = String(
+    (err && err.message) ||
+    (data && (data.Message || data.message || data.error)) ||
+    ''
+  ).toLowerCase();
+
+  if (err && (Number.isFinite(statusCode) ? statusCode >= 400 : true)) {
+    return true;
+  }
+
+  return message.indexOf('api key') !== -1 ||
+    message.indexOf('unauthorized') !== -1 ||
+    message.indexOf('forbidden') !== -1 ||
+    message.indexOf('rate limit') !== -1 ||
+    message.indexOf('too many requests') !== -1 ||
+    message.indexOf('temporarily unavailable') !== -1 ||
+    message.indexOf('service unavailable') !== -1;
+}
+
+function parseSimulatorJson(response) {
+  return response.json().then(function(data) {
+    if (response.ok === false || isSimulatorProviderApiError(data)) {
+      var error = new Error('Provider API error');
+      error.calculatorErrorType = 'api';
+      throw error;
+    }
+
+    return data;
+  });
+}
+
+function showSimulatorError(type) {
+  var apiError = document.querySelector('.api-error');
+  var coinError = document.querySelector('.coin-error');
+
+  if (apiError) {
+    apiError.classList.toggle('is-visible', type === 'api');
+  }
+  if (coinError) {
+    coinError.classList.toggle('is-visible', type !== 'api');
+  }
   document.querySelector('#simulator-results').classList.remove('is-visible');
   document.querySelector('.calculator-loader-container').classList.remove('is-visible');
   document.querySelector('.calculator-result-container').classList.add('is-visible');
@@ -25,6 +71,9 @@ function showSimulatorError() {
 
 function hideSimulatorError() {
   document.querySelector('.coin-error').classList.remove('is-visible');
+  if (document.querySelector('.api-error')) {
+    document.querySelector('.api-error').classList.remove('is-visible');
+  }
   if (document.querySelector('.calculator-othercoins')) {
     document.querySelector('.calculator-othercoins').classList.remove('input-error');
   }
@@ -89,9 +138,13 @@ function calculateSimulator() {
 
   fetch(url)
     .then(function(response) {
-      return response.json();
+      return parseSimulatorJson(response);
     })
     .then(function(data) {
+      if (isSimulatorProviderApiError(data)) {
+        showSimulatorError('api');
+        return;
+      }
       if (data && data.Response === 'Error') {
         showSimulatorError();
         return;
@@ -105,7 +158,7 @@ function calculateSimulator() {
       showSimulatorResults();
     })
     .catch(function() {
-      showSimulatorError();
+      showSimulatorError('api');
     });
 }
 
@@ -114,7 +167,9 @@ if (typeof module !== 'undefined') {
     formatCurrency: formatCurrency,
     formatPercentage: formatPercentage,
     getSimulatorCoin: getSimulatorCoin,
+    isSimulatorProviderApiError: isSimulatorProviderApiError,
     paintSimulatorResults: paintSimulatorResults,
+    parseSimulatorJson: parseSimulatorJson,
     showSimulatorLoading: showSimulatorLoading,
     showSimulatorResults: showSimulatorResults,
     showSimulatorError: showSimulatorError,
@@ -122,4 +177,3 @@ if (typeof module !== 'undefined') {
     calculateSimulator: calculateSimulator
   };
 }
-

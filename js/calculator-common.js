@@ -48,6 +48,38 @@ function getCurrencyErrorTarget() {
   return investCurrency;
 }
 
+function isProviderApiError(data) {
+  var err = data && data.Err;
+  var statusCode = Number(err && (err.http_status_code || err.status || err.code));
+  var message = String(
+    (err && err.message) ||
+    (data && (data.Message || data.message || data.error)) ||
+    ''
+  ).toLowerCase();
+
+  if (err && (Number.isFinite(statusCode) ? statusCode >= 400 : true)) {
+    return true;
+  }
+
+  return message.indexOf('api key') !== -1 ||
+    message.indexOf('unauthorized') !== -1 ||
+    message.indexOf('forbidden') !== -1 ||
+    message.indexOf('rate limit') !== -1 ||
+    message.indexOf('too many requests') !== -1 ||
+    message.indexOf('temporarily unavailable') !== -1 ||
+    message.indexOf('service unavailable') !== -1;
+}
+
+function getAjaxErrorType(response) {
+  var status = Number(response && response.status);
+
+  if (Number.isFinite(status) && status >= 400) {
+    return 'api';
+  }
+
+  return 'api';
+}
+
 // handle errors and apply red colors
 function handleError(type) {
   clearCalculatorErrors();
@@ -60,6 +92,10 @@ function handleError(type) {
     }
     if (document.querySelector('.coin-error')) {
       document.querySelector('.coin-error').classList.add('is-visible');
+    }
+  } else if (type === 'api') {
+    if (document.querySelector('.api-error')) {
+      document.querySelector('.api-error').classList.add('is-visible');
     }
   } else {
     if (document.querySelector('#invest-date')) {
@@ -74,7 +110,9 @@ function handleError(type) {
       document.querySelector(".suggestedDate").innerHTML = suggestedDate.toISOString().split('T')[0];
     }
   }
-  document.querySelector('#calculator-results').classList.remove('is-visible');
+  if (document.querySelector('#calculator-results')) {
+    document.querySelector('#calculator-results').classList.remove('is-visible');
+  }
   
 }
 
@@ -112,10 +150,12 @@ initCalculatorCommon();
 if (typeof module !== 'undefined') {
   module.exports = {
     clearCalculatorErrors: clearCalculatorErrors,
+    getAjaxErrorType: getAjaxErrorType,
     getCurrencyErrorTarget: getCurrencyErrorTarget,
     handleError: handleError,
     handleInvestCurrencyChange: handleInvestCurrencyChange,
     initCalculatorCommon: initCalculatorCommon,
+    isProviderApiError: isProviderApiError,
     syncEditableCoinInput: syncEditableCoinInput,
     updateInputMinDate: updateInputMinDate
   };

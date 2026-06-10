@@ -37,6 +37,7 @@ function buildCalculatorDom() {
     <div class="gained-percentage"></div>
     <div class="error coin-error"><a>ETH</a></div>
     <div class="error date-error"><a>2024-02-02</a></div>
+    <div class="error api-error"></div>
     <input class="calculator-othercoins" />
     <div class="calculator-othercoins"></div>
     <input class="editable" />
@@ -76,6 +77,7 @@ function buildInvestDom() {
     <span id="result-currentvalue"></span>
     <div class="error coin-error" style="display:none"></div>
     <div class="error date-error" style="display:none"></div>
+    <div class="error api-error" style="display:none"></div>
   `;
   global.tableDataLang = {
     general: {},

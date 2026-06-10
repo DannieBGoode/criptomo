@@ -120,6 +120,40 @@ function parseCurrentPriceResponse(priceData, fiat) {
   return parsedCurrentPrice;
 }
 
+function isInvestProviderApiError(data) {
+  if (typeof isProviderApiError === 'function') {
+    return isProviderApiError(data);
+  }
+
+  var err = data && data.Err;
+  var statusCode = Number(err && (err.http_status_code || err.status || err.code));
+  var message = String(
+    (err && err.message) ||
+    (data && (data.Message || data.message || data.error)) ||
+    ''
+  ).toLowerCase();
+
+  if (err && (Number.isFinite(statusCode) ? statusCode >= 400 : true)) {
+    return true;
+  }
+
+  return message.indexOf('api key') !== -1 ||
+    message.indexOf('unauthorized') !== -1 ||
+    message.indexOf('forbidden') !== -1 ||
+    message.indexOf('rate limit') !== -1 ||
+    message.indexOf('too many requests') !== -1 ||
+    message.indexOf('temporarily unavailable') !== -1 ||
+    message.indexOf('service unavailable') !== -1;
+}
+
+function getInvestAjaxErrorType(response) {
+  if (typeof getAjaxErrorType === 'function') {
+    return getAjaxErrorType(response);
+  }
+
+  return 'api';
+}
+
 function buildCurrentInvestment(latestResult, currentPrice, today) {
   if (!latestResult || !Number.isFinite(currentPrice)) {
     return null;
@@ -217,6 +251,9 @@ function normalizeHistoricalResponse(data) {
 
   if (!data) {
     return { error: 'date', bpi: null };
+  }
+  if (isInvestProviderApiError(data)) {
+    return { error: 'api', bpi: null };
   }
   if (data.Response === 'Error') {
     return { error: getCryptoCompareHistoricalErrorType(data), bpi: null };
@@ -383,7 +420,11 @@ function calculateEarnings() {
           const currentInvestment = buildCurrentInvestment(latestResult, parsedCurrentPrice, investment.today);
 
           if (!currentInvestment) {
-            handleError(priceData && priceData.Response === 'Error' ? 'currency' : 'date');
+            if (isInvestProviderApiError(priceData)) {
+              handleError('api');
+            } else {
+              handleError(priceData && priceData.Response === 'Error' ? 'currency' : 'date');
+            }
             return;
           }
           investmentDataArray.push(currentInvestment);
@@ -407,15 +448,15 @@ function calculateEarnings() {
                         + '&date=' + document.getElementById('invest-date').value + '';
           history.replaceState({}, null, window.location.pathname + newParams);
         })
-        .error(function () {
-          handleError('date');
+        .error(function (response) {
+          handleError(getInvestAjaxErrorType(response));
         })
         .always(function () {
           table.processing( false );
         });
     })
-    .error(function () {
-      handleError('date');
+    .error(function (response) {
+      handleError(getInvestAjaxErrorType(response));
       table.processing( false );
     })
     .always(function () {
@@ -507,9 +548,11 @@ if (typeof module !== 'undefined') {
     getCryptoCompareHistodayLimit: getCryptoCompareHistodayLimit,
     getDateDiffDays: getDateDiffDays,
     getEffectiveInvestMinDate: getEffectiveInvestMinDate,
+    getInvestAjaxErrorType: getInvestAjaxErrorType,
     getSelectedInvestMinDate: getSelectedInvestMinDate,
     initInvestCalculator: initInvestCalculator,
     isValidInterval: isValidInterval,
+    isInvestProviderApiError: isInvestProviderApiError,
     isSupportedPresetSymbol: isSupportedPresetSymbol,
     normalizeCoindeskResponse: normalizeCoindeskResponse,
     normalizeHistoricalResponse: normalizeHistoricalResponse,

@@ -156,6 +156,10 @@ faq:
                 <span>Esta data não está em nosso cadastro.</span>
                 <div>Tente outra data, por exemplo <a class="suggestedDate">2022-05-01</a>.</div>
             </div>
+            <div class="error api-error">
+                <span>Os dados de preço do mercado não estão disponíveis neste momento.</span>
+                <div>Tente novamente em alguns minutos.</div>
+            </div>
         </p>
     </div>
 
