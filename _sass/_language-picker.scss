@@ -9,7 +9,7 @@
     background-color: transparent;
     border: 0;
     border-left: 2px solid $tundora;
-    color: #818181;
+    color: $gray-on-dark;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@
 
 #language-picker .language-picker__link {
     border-left: 0;
-    color: #818181;
+    color: $gray-on-dark;
     display: block;
     font-size: 12px;
     font-weight: bold;
@@ -122,7 +122,7 @@
 
     #language-picker .language-picker__link {
         border-left: 0;
-        color: #818181;
+        color: $gray-on-dark;
         padding: 15px 0;
         white-space: normal;
 

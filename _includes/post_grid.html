@@ -7,7 +7,7 @@
     {% endif %}
     {% if post.banner_image %}
         <a class="post-card-image-link" href="{{site.baseurl}}{{post.url}}">
-            <div class="post-card-image" style="background-image: url({{ imagePath }}{{ post.banner_image }})"></div>
+            <img class="post-card-image" src="{{ imagePath }}{{ post.banner_image }}" alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }}{% endif %}"{% if include.eager_first and forloop.first %} fetchpriority="high"{% else %} loading="lazy"{% endif %} />
         </a>
     {% endif %}
     <div class="post-card-content">

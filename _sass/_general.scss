@@ -257,7 +257,7 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-    background-color: $picton-blue;
+    background-color: $picton-blue-dark;
     border: 0;
     color: $white;
     font-size: 12px;
@@ -279,7 +279,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-    background-color: lighten( $picton-blue, 11% );
+    background-color: darken( $picton-blue-dark, 6% );
     outline: 0;
 }
 

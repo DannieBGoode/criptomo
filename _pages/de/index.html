@@ -17,11 +17,9 @@ lang: de
         <main class="site-main"> 
 
             <div class="grid-view">
-                {% for post in site.posts %}
-                {% if post.lang == page.lang %}
-                    {%  include post_grid.html %}
-                {% endif %}
-
+                {% assign localized_posts = site.posts | where: "lang", page.lang %}
+                {% for post in localized_posts %}
+                    {% include post_grid.html eager_first=true %}
                 {% endfor %}
             </div>
 

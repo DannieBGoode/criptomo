@@ -168,7 +168,7 @@
 }
 
 .read-more .more-link {
-    background-color: $picton-blue;
+    background-color: $picton-blue-dark;
     color: $white;
     display: inline-block;
     font-size: 12px;
@@ -184,7 +184,7 @@
 }
 
 .read-more .more-link:hover {
-    background-color: lighten( $picton-blue, 11% );
+    background-color: darken( $picton-blue-dark, 6% );
 }
 
 /* FAQ section */
@@ -391,7 +391,7 @@
 .archive-tags-list a,
 a.archive-top-link {
     background-color: $gallery;
-    color: #818181;
+    color: $chip-gray;
     display: inline-block;
     letter-spacing: 1px;
     line-height: 1.5;
@@ -429,7 +429,7 @@ a.archive-top-link:hover {
 }
 
 .archive-meta {
-    color: #818181;
+    color: $gray;
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 1.5;
@@ -469,7 +469,7 @@ a.archive-top-link:hover {
 
 .pagination {
     background-color: lighten( $mine-shaft, 4% );
-    color: #818181;
+    color: $gray-on-dark;
     font-size: 12px;
     letter-spacing: 1px;
     padding: 15px 60px;

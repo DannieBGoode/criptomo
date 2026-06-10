@@ -6,9 +6,12 @@
 /* Colors */
 $alabaster: #fafafa;
 $gallery: #ededed;
-$gray: #818181;
+$gray: #767676; /* 4.54:1 on white (WCAG AA) */
+$gray-on-dark: #aaaaaa; /* 4.6:1+ on #3d3d3d and #333 (WCAG AA) */
+$chip-gray: #696969; /* 4.69:1 on $gallery #ededed (WCAG AA) */
 $mine-shaft: #333333;
 $picton-blue: #22b3eb;
+$picton-blue-dark: #0f76a8; /* 5:1 with white text (WCAG AA) */
 $silver: #c6c6c6;
 $tundora: #474747;
 $white: #ffffff;

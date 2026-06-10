@@ -32,6 +32,10 @@ layout: compress
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+    {% unless page.mailchimp_tracking == false %}
+    <link rel="preconnect" href="https://chimpstatic.com">
+    <link rel="dns-prefetch" href="https://chimpstatic.com">
+    {% endunless %}
     {% if page.banner_image and page.show_banner_image != false %}
     {% assign _banner_width = page.banner_image_width | default: 600 %}
     {% assign _banner_prefix = page.banner_image | slice: 0, 4 %}
