@@ -1,5 +1,9 @@
 # DCA Calculator API Notes
 
+> Historical decision record for issue #82. For the current, repo-wide picture of all
+> market-data APIs (proxy, keys, limits, caching, failure modes), see
+> [market-data-apis.md](./market-data-apis.md).
+
 ## Goal
 
 Support the investment calculator (`/inversion/` and localized variants) with the same preset coin options as the simple calculator:
