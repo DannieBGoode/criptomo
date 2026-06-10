@@ -83,6 +83,7 @@ jquery: true
         <p>
             <span class="error coin-error">Esta criptomoneda no está cubierta por nuestro sistema.</span>
             <span class="error date-error">Esta fecha no está cubierta en nuestro historial.</span>
+            <span class="error api-error">Los datos de mercado no están disponibles ahora mismo. Inténtalo de nuevo en unos minutos.</span>
         </p>
     </div>
 </div>

@@ -119,6 +119,10 @@ mailchimp_tracking: false
             <div>Lembre-se de tentar com o código da moeda em vez do nome completo.</div>
             <div>Por exemplo: <a>DOGE</a>, <a>SHIB</a>, <a>DOT</a>, <a>FIL</a>, <a>TRX</a>, <a>BNB</a>...</div>
         </div>
+        <div class="error api-error">
+            <span>Os dados de preço do mercado não estão disponíveis neste momento.</span>
+            <div>Tente novamente em alguns minutos.</div>
+        </div>
     </div>
 
     {% include ads_calculator_banner.html %}
