@@ -46,7 +46,7 @@
 }
 
 .site-footer__description {
-    color: $gray;
+    color: $gray-on-dark;
     font-size: 13px;
     line-height: 1.45;
     margin: 0;
@@ -65,7 +65,7 @@
 }
 
 .site-footer__section-title {
-    color: $gray;
+    color: $gray-on-dark;
     font-size: 11px;
     letter-spacing: 0.16em;
     margin-bottom: 10px;
@@ -90,7 +90,7 @@
 
 .site-footer__link-list a,
 .site-footer__utility-list a {
-    color: $gray;
+    color: $gray-on-dark;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -113,7 +113,7 @@
 
 .site-footer__language-link {
     background: transparent;
-    color: $gray;
+    color: $gray-on-dark;
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
@@ -150,7 +150,7 @@
 }
 
 .site-footer__donate-copy {
-    color: $gray;
+    color: $gray-on-dark;
     font-size: 12px;
     line-height: 1.5;
     margin: 0 0 10px;
@@ -206,14 +206,14 @@
 }
 
 .site-footer__meta {
-    color: $gray;
+    color: $gray-on-dark;
     font-size: 12px;
     margin: 0;
 }
 
 .site-footer__meta a,
 .site-footer__top-link {
-    color: $gray;
+    color: $gray-on-dark;
     text-decoration: none;
 }
 

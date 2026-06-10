@@ -20,7 +20,7 @@ lang: es
                 {% assign current_page = paginator.page | default: 1 %}
                 {% assign page_offset = current_page | minus: 1 | times: posts_per_page %}
                 {% for post in localized_posts limit: posts_per_page offset: page_offset %}
-                    {% include post_grid.html %}
+                    {% include post_grid.html eager_first=true %}
                 {% endfor %}
             </div>
 
