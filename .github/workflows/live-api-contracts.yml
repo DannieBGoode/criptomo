@@ -2,6 +2,11 @@ name: Live API Contracts
 
 on:
   workflow_dispatch:
+    inputs:
+      include_cryptocompare:
+        description: Also check the CryptoCompare fallback endpoints (spends fallback quota)
+        type: boolean
+        default: false
   schedule:
     - cron: '17 6 * * *'
 
@@ -28,6 +33,8 @@ jobs:
       - name: Run live API contract checks
         env:
           CRYPTOCOMPARE_API_KEY: ${{ secrets.CRYPTOCOMPARE_API_KEY }}
+          LIVECOINWATCH_API_KEY: ${{ secrets.LIVECOINWATCH_API_KEY }}
+          API_CONTRACT_INCLUDE_CRYPTOCOMPARE: ${{ inputs.include_cryptocompare && '1' || '' }}
         run: npm run test:api-contracts
 
       - name: Upload contract report
