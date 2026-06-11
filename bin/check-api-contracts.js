@@ -3,7 +3,17 @@ const path = require('path');
 
 const DEFAULT_REPORT_DIR = path.join(process.cwd(), 'artifacts', 'api-contracts');
 const LEGACY_LIVECOINWATCH_URL = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=1&sort=rank&order=ascending&currency=USD';
-const LIVECOINWATCH_PRICE_LIST_URL = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=200&sort=rank&order=ascending&currency=USD';
+const LIVECOINWATCH_PRICE_LIST_LIMIT = 200;
+const LIVECOINWATCH_PRICE_LIST_MIN_DEPTH = 150;
+const LIVECOINWATCH_PRICE_LIST_CURRENCIES = ['USD', 'EUR'];
+const LIVECOINWATCH_PRESET_CODES = ['BTC', 'ETH', 'LTC', 'IOTA', 'XMR', 'ADA', 'XRP'];
+
+function buildLiveCoinWatchPriceListUrl(currency) {
+  return 'https://http-api.livecoinwatch.com/coins?offset=0&limit='
+    + LIVECOINWATCH_PRICE_LIST_LIMIT
+    + '&sort=rank&order=ascending&currency='
+    + encodeURIComponent(currency);
+}
 
 function addDays(date, days) {
   const result = new Date(date.valueOf());
@@ -66,6 +76,16 @@ function requireFiniteNumber(value, label, endpoint) {
 
   if (!Number.isFinite(parsedValue)) {
     throw createCheckError(label + ' is missing or not numeric.', { endpoint: endpoint });
+  }
+
+  return parsedValue;
+}
+
+function requirePositiveNumber(value, label, endpoint) {
+  const parsedValue = requireFiniteNumber(value, label, endpoint);
+
+  if (parsedValue <= 0) {
+    throw createCheckError(label + ' must be positive.', { endpoint: endpoint });
   }
 
   return parsedValue;
@@ -157,8 +177,27 @@ function createLiveCoinWatchHistoryCheck(now) {
         });
       }
 
-      requireFiniteNumber(points[0] && points[0].date, 'history[0].date', endpoint);
-      requireFiniteNumber(points[0] && points[0].rate, 'history[0].rate', endpoint);
+      let previousDate = null;
+      points.forEach(function (point, index) {
+        const pointDate = requireFiniteNumber(point && point.date, 'history[' + index + '].date', endpoint);
+        requirePositiveNumber(point && point.rate, 'history[' + index + '].rate', endpoint);
+
+        if (pointDate < startMs || pointDate > endMs) {
+          throw createCheckError('history[' + index + '].date is outside the requested range.', {
+            endpoint: endpoint,
+            httpStatus: response.httpStatus
+          });
+        }
+
+        if (previousDate !== null && pointDate <= previousDate) {
+          throw createCheckError('History dates must be strictly increasing.', {
+            endpoint: endpoint,
+            httpStatus: response.httpStatus
+          });
+        }
+
+        previousDate = pointDate;
+      });
 
       return {
         durationMs: response.durationMs,
@@ -176,6 +215,54 @@ function createLiveCoinWatchHistoryCheck(now) {
 // fallback. Set API_CONTRACT_INCLUDE_CRYPTOCOMPARE=1 to check it manually.
 function shouldCheckCryptoCompare() {
   return process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE === '1';
+}
+
+function createLiveCoinWatchPriceListCheck(currency) {
+  return {
+    name: 'LiveCoinWatch price list depth (' + currency + ')',
+    provider: 'LiveCoinWatch',
+    run: async function () {
+      const endpoint = buildLiveCoinWatchPriceListUrl(currency);
+      const response = await requestJson('LiveCoinWatch price list depth (' + currency + ')', { url: endpoint });
+      const coins = response.data && response.data.data;
+
+      if (!Array.isArray(coins) || coins.length < LIVECOINWATCH_PRICE_LIST_MIN_DEPTH) {
+        const received = Array.isArray(coins) ? coins.length : 'no';
+        throw createCheckError('Price list returned ' + received + ' coins; calculators expect the top ' + LIVECOINWATCH_PRICE_LIST_LIMIT + '.', {
+          endpoint: endpoint,
+          httpStatus: response.httpStatus
+        });
+      }
+
+      const missingCodes = [];
+      LIVECOINWATCH_PRESET_CODES.forEach(function (code) {
+        const coin = coins.find(function (candidate) {
+          return candidate && candidate.code === code;
+        });
+
+        if (!coin) {
+          missingCodes.push(code);
+          return;
+        }
+
+        requirePositiveNumber(coin.price, code + ' price', endpoint);
+      });
+
+      if (missingCodes.length) {
+        throw createCheckError('Preset coins missing from the top-' + LIVECOINWATCH_PRICE_LIST_LIMIT + ' list: ' + missingCodes.join(', ') + '.', {
+          endpoint: endpoint,
+          httpStatus: response.httpStatus
+        });
+      }
+
+      return {
+        durationMs: response.durationMs,
+        endpoint: endpoint,
+        httpStatus: response.httpStatus,
+        notes: 'Top-' + coins.length + ' ' + currency + ' price list includes all preset coins with positive prices.'
+      };
+    }
+  };
 }
 
 function createContractChecks(now) {
@@ -311,42 +398,7 @@ function createContractChecks(now) {
         };
       }
     },
-    {
-      name: 'LiveCoinWatch price list depth',
-      provider: 'LiveCoinWatch',
-      run: async function () {
-        const endpoint = LIVECOINWATCH_PRICE_LIST_URL;
-        const response = await requestJson('LiveCoinWatch price list depth', { url: endpoint });
-        const coins = response.data && response.data.data;
-
-        if (!Array.isArray(coins) || coins.length < 150) {
-          const received = Array.isArray(coins) ? coins.length : 'no';
-          throw createCheckError('Price list returned ' + received + ' coins; calculators expect the top 200.', {
-            endpoint: endpoint,
-            httpStatus: response.httpStatus
-          });
-        }
-
-        requireFiniteNumber(coins[0] && coins[0].price, 'data[0].price', endpoint);
-
-        const iota = coins.find(function (coin) { return coin && coin.code === 'IOTA'; });
-        if (!iota) {
-          throw createCheckError('IOTA is missing from the top-200 list; the MIOTA preset depends on it.', {
-            endpoint: endpoint,
-            httpStatus: response.httpStatus
-          });
-        }
-        requireFiniteNumber(iota.price, 'IOTA price', endpoint);
-
-        return {
-          durationMs: response.durationMs,
-          endpoint: endpoint,
-          httpStatus: response.httpStatus,
-          notes: 'Top-' + coins.length + ' price list includes IOTA with a numeric price.'
-        };
-      }
-    }
-  ];
+  ].concat(LIVECOINWATCH_PRICE_LIST_CURRENCIES.map(createLiveCoinWatchPriceListCheck));
 
   // The official-API check needs the key, so it only runs where the
   // LIVECOINWATCH_API_KEY secret is configured. In CI a missing key must be
