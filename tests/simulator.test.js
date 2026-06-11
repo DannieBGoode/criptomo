@@ -313,6 +313,40 @@ describe('simulator.js', () => {
       expect(document.querySelector('.coin-error').classList.contains('is-visible')).toBe(false);
     });
 
+    test('paints results when a rate-limit warning arrives alongside a valid price', async () => {
+      global.fetch = jest.fn().mockResolvedValue({
+        json: jest.fn().mockResolvedValue({
+          USD: 85000,
+          Message: 'You are over your rate limit please upgrade your account!',
+          HasWarning: true
+        })
+      });
+      const sim = loadModule('../js/simulator.js');
+      sim.calculateSimulator();
+      await flushPromises();
+      await flushPromises();
+
+      expect(document.querySelector('#simulator-results').classList.contains('is-visible')).toBe(true);
+      expect(document.querySelector('.api-error').classList.contains('is-visible')).toBe(false);
+    });
+
+    test('prefers the shared fetchCurrentPriceData helper when it is loaded', async () => {
+      global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 91000 });
+      try {
+        const sim = loadModule('../js/simulator.js');
+        sim.calculateSimulator();
+        await flushPromises();
+        await flushPromises();
+
+        expect(global.fetchCurrentPriceData).toHaveBeenCalledWith('BTC', 'USD');
+        expect(global.fetch).not.toHaveBeenCalled();
+        expect(document.querySelector('#simulator-results').classList.contains('is-visible')).toBe(true);
+        expect(document.querySelector('.result-current-price').textContent).toBe('USD 91,000.00');
+      } finally {
+        delete global.fetchCurrentPriceData;
+      }
+    });
+
     test('paints results and shows simulator-results on a successful API response', async () => {
       global.fetch = jest.fn().mockResolvedValue({
         json: jest.fn().mockResolvedValue({ USD: 85000 })

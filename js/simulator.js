@@ -42,15 +42,22 @@ function isSimulatorProviderApiError(data) {
     message.indexOf('service unavailable') !== -1;
 }
 
-function parseSimulatorJson(response) {
-  return response.json().then(function(data) {
-    if (response.ok === false || isSimulatorProviderApiError(data)) {
-      var error = new Error('Provider API error');
-      error.calculatorErrorType = 'api';
-      throw error;
-    }
+function fetchSimulatorPriceData(coin, fiat) {
+  if (typeof fetchCurrentPriceData === 'function') {
+    return fetchCurrentPriceData(coin, fiat);
+  }
 
-    return data;
+  var url = '/api/market/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat);
+  return fetch(url).then(function(response) {
+    return response.json().then(function(data) {
+      if (response.ok === false) {
+        var error = new Error('Provider API error');
+        error.calculatorErrorType = 'api';
+        throw error;
+      }
+
+      return data;
+    });
   });
 }
 
@@ -134,28 +141,21 @@ function calculateSimulator() {
 
   showSimulatorLoading();
 
-  var url = '/api/market/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat);
-
-  fetch(url)
-    .then(function(response) {
-      return parseSimulatorJson(response);
-    })
+  fetchSimulatorPriceData(coin, fiat)
     .then(function(data) {
+      // Usable data wins: over-quota "soft serve" responses pair a
+      // rate-limit Message with a valid price.
+      var currentPrice = parseFloat(data && data[fiat]);
+      if (Number.isFinite(currentPrice) && currentPrice > 0) {
+        paintSimulatorResults(coin, quantity, fiat, currentPrice, targetPrice);
+        showSimulatorResults();
+        return;
+      }
       if (isSimulatorProviderApiError(data)) {
         showSimulatorError('api');
         return;
       }
-      if (data && data.Response === 'Error') {
-        showSimulatorError();
-        return;
-      }
-      var currentPrice = parseFloat(data && data[fiat]);
-      if (!Number.isFinite(currentPrice) || currentPrice <= 0) {
-        showSimulatorError();
-        return;
-      }
-      paintSimulatorResults(coin, quantity, fiat, currentPrice, targetPrice);
-      showSimulatorResults();
+      showSimulatorError();
     })
     .catch(function() {
       showSimulatorError('api');
@@ -164,12 +164,12 @@ function calculateSimulator() {
 
 if (typeof module !== 'undefined') {
   module.exports = {
+    fetchSimulatorPriceData: fetchSimulatorPriceData,
     formatCurrency: formatCurrency,
     formatPercentage: formatPercentage,
     getSimulatorCoin: getSimulatorCoin,
     isSimulatorProviderApiError: isSimulatorProviderApiError,
     paintSimulatorResults: paintSimulatorResults,
-    parseSimulatorJson: parseSimulatorJson,
     showSimulatorLoading: showSimulatorLoading,
     showSimulatorResults: showSimulatorResults,
     showSimulatorError: showSimulatorError,

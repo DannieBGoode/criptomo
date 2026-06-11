@@ -154,6 +154,85 @@ function getInvestAjaxErrorType(response) {
   return 'api';
 }
 
+function fetchCryptoCompareInvestBpi(tokenSymbol, fiat, startDate, endDate) {
+  var historicalUrl = buildCryptoCompareHistoricalUrl(tokenSymbol, fiat, startDate, endDate);
+
+  return new Promise(function (resolve, reject) {
+    $.get(historicalUrl)
+      .success(function (rawData) {
+        resolve(normalizeHistoricalResponse(parseHistoricalResponse(rawData)));
+      })
+      .error(function (response) {
+        reject(response);
+      });
+  });
+}
+
+// The DCA walk only reads dates at the selected interval, so list them and
+// let the history helper skip chunks that contain none of them (a single
+// purchase needs 1 chunk, not the full range).
+function buildInvestNeededTimes(startDate, endDate, selectedInterval) {
+  var neededTimes = [];
+  var date = parseDateAsUtc(startDate);
+  var endMs = parseDateAsUtc(endDate).getTime();
+
+  while (date.getTime() <= endMs) {
+    neededTimes.push(date.getTime());
+    if (!Number.isFinite(selectedInterval) || selectedInterval <= 0) {
+      break;
+    }
+    date = addDays(date, selectedInterval);
+  }
+
+  return neededTimes;
+}
+
+function fetchInvestHistoricalBpi(tokenSymbol, fiat, startDate, endDate, selectedInterval) {
+  if (typeof fetchLiveCoinWatchHistory === 'function') {
+    var startMs = parseDateAsUtc(startDate).getTime();
+    var endMs = parseDateAsUtc(endDate).getTime();
+    var neededTimes = buildInvestNeededTimes(startDate, endDate, selectedInterval);
+
+    return fetchLiveCoinWatchHistory(tokenSymbol, fiat, startMs, endMs, neededTimes)
+      .then(function (bpi) {
+        // The first purchase date is what the whole calculation hangs on;
+        // if LiveCoinWatch has points but not that day (occasional gaps),
+        // give CryptoCompare a chance instead of failing with a date error.
+        if (!bpi[startDate]) {
+          var error = new Error('LiveCoinWatch history is missing the start date');
+          error.liveCoinWatchNoData = true;
+          throw error;
+        }
+        return { error: null, bpi: bpi };
+      })
+      .catch(function (lcwError) {
+        return fetchCryptoCompareInvestBpi(tokenSymbol, fiat, startDate, endDate)
+          .catch(function (ccError) {
+            // LiveCoinWatch answered "no data for that range" and
+            // CryptoCompare could not answer at all — report it as a date
+            // problem, not an API one.
+            if (lcwError && lcwError.liveCoinWatchNoData) {
+              return { error: 'date', bpi: null };
+            }
+            throw ccError;
+          });
+      });
+  }
+
+  return fetchCryptoCompareInvestBpi(tokenSymbol, fiat, startDate, endDate);
+}
+
+function fetchInvestPriceData(coin, fiat) {
+  if (typeof fetchCurrentPriceData === 'function') {
+    return fetchCurrentPriceData(coin, fiat);
+  }
+
+  return fetch('/api/market/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat))
+    .then(function(response) {
+      return response.json();
+    });
+}
+
 function buildCurrentInvestment(latestResult, currentPrice, today) {
   if (!latestResult || !Number.isFinite(currentPrice)) {
     return null;
@@ -245,6 +324,9 @@ function getCryptoCompareHistoricalErrorType(data) {
   return 'date';
 }
 
+// Usable data wins over error classification: CryptoCompare's over-quota
+// "soft serve" responses pair a rate-limit Message with perfectly valid
+// candles, so only classify an error when no entries can be extracted.
 function normalizeHistoricalResponse(data) {
   var entries;
   var bpi = {};
@@ -252,18 +334,8 @@ function normalizeHistoricalResponse(data) {
   if (!data) {
     return { error: 'date', bpi: null };
   }
-  if (isInvestProviderApiError(data)) {
-    return { error: 'api', bpi: null };
-  }
-  if (data.Response === 'Error') {
-    return { error: getCryptoCompareHistoricalErrorType(data), bpi: null };
-  }
 
-  entries = getHistoricalEntries(data);
-  if (!entries) {
-    return { error: 'date', bpi: null };
-  }
-
+  entries = getHistoricalEntries(data) || [];
   entries.forEach(function(entry) {
     var rawTimestamp = entry && (hasValue(entry.TIMESTAMP) ? entry.TIMESTAMP : (hasValue(entry.timestamp) ? entry.timestamp : entry.time));
     var rawClose = entry && (hasValue(entry.CLOSE) ? entry.CLOSE : entry.close);
@@ -276,11 +348,18 @@ function normalizeHistoricalResponse(data) {
     }
   });
 
-  if (!Object.keys(bpi).length) {
-    return { error: 'date', bpi: null };
+  if (Object.keys(bpi).length) {
+    return { error: null, bpi: bpi };
   }
 
-  return { error: null, bpi: bpi };
+  if (isInvestProviderApiError(data)) {
+    return { error: 'api', bpi: null };
+  }
+  if (data.Response === 'Error') {
+    return { error: getCryptoCompareHistoricalErrorType(data), bpi: null };
+  }
+
+  return { error: 'date', bpi: null };
 }
 
 function normalizeCoindeskResponse(data) {
@@ -389,18 +468,8 @@ function calculateEarnings() {
     return;
   }
 
-  var historicalUrl = buildCryptoCompareHistoricalUrl(
-    investment.tokenSymbol,
-    investment.fiat,
-    investment.date,
-    todayDate
-  );
-
-  $.get(historicalUrl)
-    .success(function (rawData) {
-      const parsed = parseHistoricalResponse(rawData);
-      const data = normalizeHistoricalResponse(parsed);
-
+  fetchInvestHistoricalBpi(investment.tokenSymbol, investment.fiat, investment.date, todayDate, investment.selectedInterval)
+    .then(function (data) {
       if (data.error) {
         handleError(data.error);
         return;
@@ -413,8 +482,8 @@ function calculateEarnings() {
         return;
       }
 
-      $.get('/api/market/data/price?fsym=' + encodeURIComponent(investment.tokenSymbol) + '&tsyms=' + encodeURIComponent(investment.fiat))
-        .success(function (priceData) {
+      fetchInvestPriceData(investment.tokenSymbol, investment.fiat)
+        .then(function (priceData) {
           const latestResult = investmentDataArray[investmentDataArray.length - 1];
           const parsedCurrentPrice = parseCurrentPriceResponse(priceData, investment.fiat);
           const currentInvestment = buildCurrentInvestment(latestResult, parsedCurrentPrice, investment.today);
@@ -448,18 +517,17 @@ function calculateEarnings() {
                         + '&date=' + document.getElementById('invest-date').value + '';
           history.replaceState({}, null, window.location.pathname + newParams);
         })
-        .error(function (response) {
-          handleError(getInvestAjaxErrorType(response));
+        .catch(function () {
+          handleError('api');
         })
-        .always(function () {
+        .then(function () {
           table.processing( false );
         });
     })
-    .error(function (response) {
+    .catch(function (response) {
       handleError(getInvestAjaxErrorType(response));
-      table.processing( false );
     })
-    .always(function () {
+    .then(function () {
       table.processing( false );
     });
 }
@@ -542,6 +610,10 @@ if (typeof module !== 'undefined') {
     buildCryptoCompareHistoricalUrl: buildCryptoCompareHistoricalUrl,
     buildCurrentInvestment: buildCurrentInvestment,
     buildInvestmentRows: buildInvestmentRows,
+    buildInvestNeededTimes: buildInvestNeededTimes,
+    fetchCryptoCompareInvestBpi: fetchCryptoCompareInvestBpi,
+    fetchInvestHistoricalBpi: fetchInvestHistoricalBpi,
+    fetchInvestPriceData: fetchInvestPriceData,
     applyInvestCoverageMinDates: applyInvestCoverageMinDates,
     calculateEarnings: calculateEarnings,
     getCryptoCompareCoverageStartDate: getCryptoCompareCoverageStartDate,

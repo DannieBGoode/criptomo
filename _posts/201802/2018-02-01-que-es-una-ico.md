@@ -48,7 +48,7 @@ Vivimos en un momento donde la ley no define nada al respecto. En teoría el tok
 
 En muchas ocasiones las ICOs son utilizadas por estafadores que invierten dinero en una página web moderna y un whitepaper o plagiado o lleno de ideas vagas y poco precisas para captar a gente motivada por la codicia y que no entiende muy bien los conceptos en los que está invirtiendo. **Muchas ICOs han recaudado bastante fondos y todavía años después no han entregado ningún proyecto.**
 
-En nuestra sección de [ICOs](/icos) se pueden encontrar una selección de distintas monedas que han realizado ICO en sus inicios aceptando BTC o ETH a cambio de sus tokens y el valor actual de dichos tokens. Por ejemplo Telegram realizó su propia ICO y recaudo $1,700,000,000.
+Muchas monedas conocidas realizaron una ICO en sus inicios aceptando BTC o ETH a cambio de sus tokens. Por ejemplo Telegram realizó su propia ICO y recaudo $1,700,000,000.
 
 
 ## Opinión

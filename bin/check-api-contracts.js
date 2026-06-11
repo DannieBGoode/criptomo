@@ -3,6 +3,7 @@ const path = require('path');
 
 const DEFAULT_REPORT_DIR = path.join(process.cwd(), 'artifacts', 'api-contracts');
 const LEGACY_LIVECOINWATCH_URL = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=1&sort=rank&order=ascending&currency=USD';
+const LIVECOINWATCH_PRICE_LIST_URL = 'https://http-api.livecoinwatch.com/coins?offset=0&limit=200&sort=rank&order=ascending&currency=USD';
 
 function addDays(date, days) {
   const result = new Date(date.valueOf());
@@ -44,6 +45,20 @@ function ensureFetch() {
 
 function summarizeBody(rawBody) {
   return String(rawBody || '').replace(/\s+/g, ' ').trim().slice(0, 200);
+}
+
+// CryptoCompare reports quota and contract errors as HTTP 200 with
+// Response: "Error" in the body, so surface that message before any
+// field validation turns it into a misleading "field is missing" error.
+function requireUpstreamSuccess(checkName, response, endpoint) {
+  const body = response.data;
+
+  if (body && body.Response === 'Error') {
+    throw createCheckError(checkName + ' returned an upstream error: ' + summarizeBody(body.Message || JSON.stringify(body)), {
+      endpoint: endpoint,
+      httpStatus: response.httpStatus
+    });
+  }
 }
 
 function requireFiniteNumber(value, label, endpoint) {
@@ -114,6 +129,55 @@ async function requestJson(checkName, request) {
   }
 }
 
+function createLiveCoinWatchHistoryCheck(now) {
+  return {
+    name: 'LiveCoinWatch official history (keyed)',
+    provider: 'LiveCoinWatch',
+    run: async function () {
+      const endpoint = 'https://api.livecoinwatch.com/coins/single/history';
+      const dayMs = 86400000;
+      const endMs = Math.floor(now.getTime() / dayMs) * dayMs;
+      const startMs = endMs - 100 * dayMs;
+      const response = await requestJson('LiveCoinWatch official history (keyed)', {
+        url: endpoint,
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': process.env.LIVECOINWATCH_API_KEY
+        },
+        body: JSON.stringify({ code: 'BTC', currency: 'USD', start: startMs, end: endMs, meta: false })
+      });
+      const points = response.data && response.data.history;
+
+      if (!Array.isArray(points) || points.length < 90) {
+        const received = Array.isArray(points) ? points.length : 'no';
+        throw createCheckError('100-day history returned ' + received + ' points; calculators expect ~daily resolution.', {
+          endpoint: endpoint,
+          httpStatus: response.httpStatus
+        });
+      }
+
+      requireFiniteNumber(points[0] && points[0].date, 'history[0].date', endpoint);
+      requireFiniteNumber(points[0] && points[0].rate, 'history[0].rate', endpoint);
+
+      return {
+        durationMs: response.durationMs,
+        endpoint: endpoint,
+        httpStatus: response.httpStatus,
+        notes: '100-day BTC history returned ' + points.length + ' points with date and rate.'
+      };
+    }
+  };
+}
+
+// CryptoCompare is fallback-only since the June 2026 LiveCoinWatch migration
+// and is not monitored by default — its free key allows just 100 calls/month,
+// and scheduled checks would spend the fallback's quota on watching the
+// fallback. Set API_CONTRACT_INCLUDE_CRYPTOCOMPARE=1 to check it manually.
+function shouldCheckCryptoCompare() {
+  return process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE === '1';
+}
+
 function createContractChecks(now) {
   const yesterday = addDays(now, -1);
   const historicalDate = addDays(now, -2);
@@ -127,13 +191,14 @@ function createContractChecks(now) {
     0
   ) / 1000);
 
-  return [
+  const cryptoCompareChecks = [
     {
       name: 'CryptoCompare current price',
       provider: 'CryptoCompare',
       run: async function () {
         const endpoint = buildCryptoCompareUrl('/data/price', { fsym: 'BTC', tsyms: 'USD' });
         const response = await requestJson('CryptoCompare current price', { url: endpoint });
+        requireUpstreamSuccess('CryptoCompare current price', response, endpoint);
         const usdPrice = requireFiniteNumber(response.data && response.data.USD, 'USD price', endpoint);
 
         if (usdPrice <= 0) {
@@ -158,6 +223,7 @@ function createContractChecks(now) {
           tsyms: 'USD'
         });
         const response = await requestJson('CryptoCompare historical price', { url: endpoint });
+        requireUpstreamSuccess('CryptoCompare historical price', response, endpoint);
         const historicalPrice = requireFiniteNumber(
           response.data && response.data.BTC && response.data.BTC.USD,
           'BTC.USD historical price',
@@ -191,10 +257,14 @@ function createContractChecks(now) {
           tsym: 'USD'
         });
         const response = await requestJson('CryptoCompare daily history', { url: endpoint });
+        requireUpstreamSuccess('CryptoCompare daily history', response, endpoint);
         const dataArr = response.data && response.data.Data && response.data.Data.Data;
 
         if (!Array.isArray(dataArr) || !dataArr.length) {
-          throw createCheckError('Data array is missing or empty.', { endpoint: endpoint, httpStatus: response.httpStatus });
+          throw createCheckError('Data array is missing or empty. Upstream body: ' + summarizeBody(JSON.stringify(response.data)), {
+            endpoint: endpoint,
+            httpStatus: response.httpStatus
+          });
         }
 
         requireFiniteNumber(dataArr[0].time, 'Data.Data[0].time', endpoint);
@@ -207,7 +277,10 @@ function createContractChecks(now) {
           notes: 'Daily history contains ' + dataArr.length + ' OHLC entries with time and close.'
         };
       }
-    },
+    }
+  ];
+
+  const checks = [
     {
       name: 'LiveCoinWatch legacy market list',
       provider: 'LiveCoinWatch',
@@ -237,8 +310,69 @@ function createContractChecks(now) {
           notes: 'Legacy market list still returns rank, price, cap, circulating, code, and name.'
         };
       }
+    },
+    {
+      name: 'LiveCoinWatch price list depth',
+      provider: 'LiveCoinWatch',
+      run: async function () {
+        const endpoint = LIVECOINWATCH_PRICE_LIST_URL;
+        const response = await requestJson('LiveCoinWatch price list depth', { url: endpoint });
+        const coins = response.data && response.data.data;
+
+        if (!Array.isArray(coins) || coins.length < 150) {
+          const received = Array.isArray(coins) ? coins.length : 'no';
+          throw createCheckError('Price list returned ' + received + ' coins; calculators expect the top 200.', {
+            endpoint: endpoint,
+            httpStatus: response.httpStatus
+          });
+        }
+
+        requireFiniteNumber(coins[0] && coins[0].price, 'data[0].price', endpoint);
+
+        const iota = coins.find(function (coin) { return coin && coin.code === 'IOTA'; });
+        if (!iota) {
+          throw createCheckError('IOTA is missing from the top-200 list; the MIOTA preset depends on it.', {
+            endpoint: endpoint,
+            httpStatus: response.httpStatus
+          });
+        }
+        requireFiniteNumber(iota.price, 'IOTA price', endpoint);
+
+        return {
+          durationMs: response.durationMs,
+          endpoint: endpoint,
+          httpStatus: response.httpStatus,
+          notes: 'Top-' + coins.length + ' price list includes IOTA with a numeric price.'
+        };
+      }
     }
   ];
+
+  // The official-API check needs the key, so it only runs where the
+  // LIVECOINWATCH_API_KEY secret is configured. In CI a missing key must be
+  // a red run, not a silently smaller check list — otherwise a renamed or
+  // expired secret leaves the primary history provider unmonitored while
+  // the schedule stays green.
+  if (process.env.LIVECOINWATCH_API_KEY) {
+    checks.push(createLiveCoinWatchHistoryCheck(now));
+  } else if (process.env.GITHUB_ACTIONS) {
+    checks.push({
+      name: 'LiveCoinWatch official history (keyed)',
+      provider: 'LiveCoinWatch',
+      run: async function () {
+        throw createCheckError('LIVECOINWATCH_API_KEY secret is missing in CI — the primary history provider is unmonitored.', {
+          endpoint: 'https://api.livecoinwatch.com/coins/single/history',
+          httpStatus: null
+        });
+      }
+    });
+  }
+
+  if (shouldCheckCryptoCompare()) {
+    return cryptoCompareChecks.concat(checks);
+  }
+
+  return checks;
 }
 
 async function runContractChecks(options) {

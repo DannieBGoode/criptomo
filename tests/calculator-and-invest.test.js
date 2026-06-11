@@ -22,6 +22,8 @@ describe('calculator.js and invest.js', () => {
 
   afterEach(() => {
     jest.useRealTimers();
+    delete global.fetchCurrentPriceData;
+    delete global.fetchLiveCoinWatchHistory;
   });
 
   test('calculator.js pure helpers normalize provider payloads and compute results', () => {
@@ -117,6 +119,22 @@ describe('calculator.js and invest.js', () => {
       }
     });
     expect(invest.normalizeHistoricalResponse({
+      Response: 'Success',
+      Message: 'You are over your rate limit please upgrade your account!',
+      HasWarning: true,
+      Type: 101,
+      Data: {
+        Data: [
+          { time: new Date('2024-01-22').getTime() / 1000, close: 75 }
+        ]
+      }
+    })).toEqual({
+      error: null,
+      bpi: {
+        '2024-01-22': 75
+      }
+    });
+    expect(invest.normalizeHistoricalResponse({
       Response: 'Error',
       Message: 'limit is larger than max value.'
     })).toEqual({
@@ -196,7 +214,98 @@ describe('calculator.js and invest.js', () => {
     expect(global.recommendArticles).toHaveBeenCalledWith('BTC');
   });
 
-  test('invest.js computes exact DCA investment rows and summary output', () => {
+  test('calculator.js takes the historical price from LiveCoinWatch when the helper is loaded', async () => {
+    buildCalculatorDom();
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 200 }) });
+    global.fetchLiveCoinWatchHistory = jest.fn().mockResolvedValue({ '2024-01-01': 100 });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.fetchLiveCoinWatchHistory).toHaveBeenCalledWith(
+      'BTC',
+      'USD',
+      Date.parse('2024-01-01T00:00:00Z'),
+      Date.parse('2024-01-01T00:00:00Z') + 86399999
+    );
+    expect(global.fetch).toHaveBeenCalledTimes(1);
+    expect(global.fetch.mock.calls[0][0]).not.toContain('pricehistorical');
+    expect(readText('.result-tokencount')).toBe('10.000');
+    expect(document.querySelector('#calculator-results').classList.contains('is-visible')).toBe(true);
+  });
+
+  test('calculator.js reports a date error when no provider has data for the date', async () => {
+    buildCalculatorDom();
+    const noData = new Error('LiveCoinWatch history is empty');
+    noData.liveCoinWatchNoData = true;
+    global.fetchLiveCoinWatchHistory = jest.fn().mockRejectedValue(noData);
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 200 }) })
+      .mockResolvedValueOnce({ ok: false, status: 401, json: jest.fn().mockResolvedValue({ Err: { message: 'API key required', http_status_code: 401 } }) });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(global.handleError).not.toHaveBeenCalledWith('api');
+  });
+
+  test('invest.js reports a date error when no provider has data for the range', async () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: { message: 'over quota' },
+        trigger: 'error',
+        invokeCallback: false
+      }
+    ]);
+    const noData = new Error('LiveCoinWatch history is empty');
+    noData.liveCoinWatchNoData = true;
+    global.fetchLiveCoinWatchHistory = jest.fn().mockRejectedValue(noData);
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(global.handleError).not.toHaveBeenCalledWith('api');
+    expect(table.rows.add).not.toHaveBeenCalled();
+  });
+
+  test('calculator.js serves rate-limited responses that still contain valid data', async () => {
+    buildCalculatorDom();
+    const softServeWarning = 'You are over your rate limit please upgrade your account!';
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 200, Message: softServeWarning, HasWarning: true }) })
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ BTC: { USD: 100 }, Message: softServeWarning, HasWarning: true }) });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.handleError).not.toHaveBeenCalled();
+    expect(readText('.result-tokencount')).toBe('10.000');
+    expect(document.querySelector('#calculator-results').classList.contains('is-visible')).toBe(true);
+
+    expect(calculator.parseHistoricalPriceResponse({
+      BTC: { USD: 30000 },
+      Message: softServeWarning,
+      HasWarning: true
+    }, 'BTC', 'USD')).toEqual({ error: null, price: 30000 });
+  });
+
+  test('invest.js computes exact DCA investment rows and summary output', async () => {
     jest.useFakeTimers();
     jest.setSystemTime(new Date('2024-01-15T12:00:00.000Z'));
 
@@ -212,14 +321,16 @@ describe('calculator.js and invest.js', () => {
             { TIMESTAMP: new Date('2024-01-15').getTime() / 1000, CLOSE: 50 }
           ]
         }
-      },
-      {
-        response: { USD: 300 }
       }
     ]);
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      json: jest.fn().mockResolvedValue({ USD: 300 })
+    });
 
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await jest.advanceTimersByTimeAsync(0);
     const columns = $.fn.DataTable.mock.calls[0][0].columns;
 
     expect(document.querySelector('#calculator-results').style.display).not.toBe('none');
@@ -263,28 +374,26 @@ describe('calculator.js and invest.js', () => {
     ]);
   });
 
-  test('invest.js reports malformed historical data instead of crashing', () => {
+  test('invest.js reports malformed historical data instead of crashing', async () => {
     buildInvestDom();
     const table = createDataTableStub();
     setupJQuery(table);
     setupGetQueue([
       {
         response: 'not-json'
-      },
-      {
-        response: { USD: 300 }
       }
     ]);
 
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await flushPromises();
 
     expect(invest.parseHistoricalResponse('not-json')).toBeNull();
     expect(global.handleError).toHaveBeenCalledWith('date');
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
-  test('invest.js uses CryptoCompare histoday for non-BTC assets and builds rows correctly', () => {
+  test('invest.js uses CryptoCompare histoday for non-BTC assets and builds rows correctly', async () => {
     jest.useFakeTimers();
     jest.setSystemTime(new Date('2024-01-15T12:00:00.000Z'));
 
@@ -303,14 +412,16 @@ describe('calculator.js and invest.js', () => {
             ]
           }
         }
-      },
-      {
-        response: { USD: 270 }
       }
     ]);
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      json: jest.fn().mockResolvedValue({ USD: 270 })
+    });
 
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await jest.advanceTimersByTimeAsync(0);
 
     expect($.get).toHaveBeenCalledWith(expect.stringContaining('/api/market/data/v2/histoday'));
     expect($.get).toHaveBeenCalledWith(expect.stringContaining('fsym=ETH'));
@@ -322,7 +433,7 @@ describe('calculator.js and invest.js', () => {
     ]));
   });
 
-  test('invest.js reports invalid current-price payloads', () => {
+  test('invest.js reports invalid current-price payloads', async () => {
     buildInvestDom();
     const table = createDataTableStub();
     setupJQuery(table);
@@ -334,20 +445,143 @@ describe('calculator.js and invest.js', () => {
             { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 }
           ]
         })
-      },
-      {
-        response: { EUR: 300 }
       }
     ]);
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      json: jest.fn().mockResolvedValue({ EUR: 300 })
+    });
 
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await flushPromises();
 
     expect(global.handleError).toHaveBeenCalledWith('date');
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
-  test('invest.js reports provider API failures separately from date coverage', () => {
+  test('invest.js builds rows from LiveCoinWatch history without touching CryptoCompare', async () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([]);
+    global.fetchLiveCoinWatchHistory = jest.fn().mockResolvedValue({
+      '2024-01-01': 100,
+      '2024-01-08': 200
+    });
+    global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 300 });
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    expect(global.fetchLiveCoinWatchHistory).toHaveBeenCalledWith(
+      'BTC',
+      'USD',
+      Date.parse('2024-01-01T00:00:00Z'),
+      expect.any(Number),
+      expect.arrayContaining([Date.parse('2024-01-01T00:00:00Z')])
+    );
+    expect($.get).not.toHaveBeenCalled();
+    expect(table.rows.add).toHaveBeenCalled();
+  });
+
+  test('invest.js requests only the purchase date for single-purchase calculations', async () => {
+    buildInvestDom();
+    document.getElementById('invest-interval').value = '9999';
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([]);
+    global.fetchLiveCoinWatchHistory = jest.fn().mockResolvedValue({ '2024-01-01': 100 });
+    global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 300 });
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    const neededTimes = global.fetchLiveCoinWatchHistory.mock.calls[0][4];
+    expect(neededTimes).toEqual([Date.parse('2024-01-01T00:00:00Z')]);
+    expect(table.rows.add).toHaveBeenCalled();
+  });
+
+  test('invest.js falls back to CryptoCompare when LiveCoinWatch lacks the start date', async () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: {
+          Data: [
+            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 100 },
+            { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 }
+          ]
+        }
+      }
+    ]);
+    global.fetchLiveCoinWatchHistory = jest.fn().mockResolvedValue({ '2024-01-08': 200 });
+    global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 300 });
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('/api/market/data/v2/histoday'));
+    expect(table.rows.add).toHaveBeenCalled();
+    expect(global.handleError).not.toHaveBeenCalled();
+  });
+
+  test('invest.js falls back to CryptoCompare histoday when LiveCoinWatch history fails', async () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: {
+          Data: [
+            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 100 },
+            { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 }
+          ]
+        }
+      }
+    ]);
+    global.fetchLiveCoinWatchHistory = jest.fn().mockRejectedValue(new Error('lcw down'));
+    global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 300 });
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    expect($.get).toHaveBeenCalledWith(expect.stringContaining('/api/market/data/v2/histoday'));
+    expect(table.rows.add).toHaveBeenCalled();
+  });
+
+  test('invest.js prefers the shared fetchCurrentPriceData helper for the current price', async () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: {
+          Data: [
+            { TIMESTAMP: new Date('2024-01-01').getTime() / 1000, CLOSE: 100 },
+            { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 }
+          ]
+        }
+      }
+    ]);
+    global.fetch = jest.fn();
+    global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 300 });
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    expect(global.fetchCurrentPriceData).toHaveBeenCalledWith('BTC', 'USD');
+    expect(global.fetch).not.toHaveBeenCalled();
+    expect(table.rows.add).toHaveBeenCalled();
+  });
+
+  test('invest.js reports provider API failures separately from date coverage', async () => {
     buildInvestDom();
     const table = createDataTableStub();
     setupJQuery(table);
@@ -365,6 +599,7 @@ describe('calculator.js and invest.js', () => {
 
     const invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await flushPromises();
 
     expect(global.handleError).toHaveBeenCalledWith('api');
     expect(table.rows.add).not.toHaveBeenCalled();

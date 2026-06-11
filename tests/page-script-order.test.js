@@ -12,8 +12,6 @@ describe('page script order', () => {
     ['_pages/de/de-invest.md', '/js/invest.js'],
     ['_pages/fr/fr-invest.md', '/js/invest.js'],
     ['_pages/pt/pt-invest.md', '/js/invest.js'],
-    ['_pages/es/icos.md', '/js/icos.js'],
-    ['_pages/en/en-icos.md', '/js/icos.js'],
     ['_pages/es/marketcaps.md', '/js/marketcaps.js'],
     ['_pages/en/en-marketcaps.md', '/js/marketcaps.js']
   ])('loads DataTables before %s page script', (relativePath, pageScriptPath) => {

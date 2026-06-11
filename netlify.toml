@@ -8,3 +8,15 @@
   from = "/api/market/*"
   to = "/.netlify/functions/market-data/:splat"
   status = 200
+
+# The ICO section was removed in June 2026; keep old links and indexed URLs
+# landing somewhere useful.
+[[redirects]]
+  from = "/icos/*"
+  to = "/calculadora/"
+  status = 301
+
+[[redirects]]
+  from = "/en/icos/*"
+  to = "/en/calculator/"
+  status = 301

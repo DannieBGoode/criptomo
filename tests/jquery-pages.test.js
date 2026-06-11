@@ -1,5 +1,5 @@
 const { loadModule } = require('./helpers/load-module');
-const { buildIcosDom, buildMarketcapsDom, createDataTableStub } = require('./helpers/page-builders');
+const { buildMarketcapsDom, createDataTableStub } = require('./helpers/page-builders');
 const { setupGet, setupJQuery } = require('./helpers/jquery-test-env');
 
 describe('jquery-driven page scripts', () => {
@@ -20,31 +20,6 @@ describe('jquery-driven page scripts', () => {
     filters.setActiveFilter(document.querySelector('#alt-filter'));
 
     expect(document.querySelector('#alt-filter').classList.contains('filter-active')).toBe(true);
-  });
-
-  test('icos.js formats values, renders gain states, and loads exact row data', () => {
-    buildIcosDom();
-    const table = createDataTableStub();
-    setupJQuery(table);
-    setupGet({ BTC: { USD: 100 } });
-
-    const icos = loadModule('../js/icos.js');
-    icos.marketcapTableLoad();
-    const columns = $.fn.DataTable.mock.calls[0][0].columns;
-
-    expect(icos.generateCurrencyValueHtml('10', 'USD')).toBe('$10');
-    expect(icos.calculateIcoGain(100, 0.5)).toBe('19900.000');
-    expect(icos.calculateIcoGain(100, 'X')).toBe('N/A');
-    expect(columns[1].render('btc', 'display')).toContain('btc.png');
-    expect(columns[2].render({ symbol: 'btc', name: 'Bitcoin' }, 'filter')).toBe('btc Bitcoin');
-    expect(columns[3].render(1000, 'display')).toBe('$1,000');
-    expect(columns[4].render(0.5, 'display')).toBe('$0.5');
-    expect(columns[5].render(100, 'display')).toBe('$100');
-    expect(columns[6].render('19900.000', 'display')).toContain('marketcaps-pricechange-positive');
-    expect(columns[6].render('N/A', 'display')).toContain('N/A');
-    expect(table.rows.add).toHaveBeenCalledWith([
-      [1, 'btc', { name: 'Bitcoin', symbol: 'btc' }, 1000, 0.5, 100, '19900.000', null]
-    ]);
   });
 
   test('marketcaps.js formats values and loads selected currency', () => {

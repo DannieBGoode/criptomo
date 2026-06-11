@@ -7,31 +7,6 @@
     </section><!-- .widget-text-->
     {% endif %}
 
-    <section class="widget widget-text marketcaps">
-        <p class="widget-title">Marketcaps</p>
-
-        {% for currency in site.data.sidebar-currencies limit:5 %}
-
-        <div title="{{ currency.id }}" class="sidebar-ticker" data-currency="{{ currency.id }}">
-            <div class="ticker-icon" style="background-image: url(/images/general/cryptocurrencies/{{ currency.icon }});"></div>
-            <span id="sidebar-ticker-{{currency.id}}" class="coinmarketcap-currency-widget">
-                <span class="ticker-price"></span>
-                <span class="{{ currency.id }}-ticker-price-change"></span>
-            </span>
-        </div>
-
-        {% endfor %}
-
-         <div class="sidebar-marketcaps-footer">
-            {% if page.lang == 'en' %}
-                {% assign marketcaps = '/marketcaps' %}
-            {% else %}
-                {% assign marketcaps = '/cotizaciones' %}
-            {% endif %}
-            <a href="{{ marketcaps }}" rel="nofollow">+ marketcaps</a>
-        </div>
-    </section>
-
     {% if page.lang %}
         {% assign lang = page.lang %}
     {% else %}

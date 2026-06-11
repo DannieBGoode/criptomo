@@ -42,13 +42,6 @@ function getTableDataLang(currentLang) {
       price: 'Precio',
       bet: 'Si esta moneda vuelve a máximo histórico, $1000 invertidos hoy serían: '
     };
-    data.icoColumns = {
-      name: 'Nombre',
-      raised: 'Recolectado',
-      price: 'Precio Actual',
-      icoPrice: 'Precio en ICO',
-      gains: 'Ganancias'
-    };
     data.global = {
       today: 'Hoy'
     };
@@ -88,13 +81,6 @@ function getTableDataLang(currentLang) {
       date: 'Date',
       price: 'Price',
       bet: 'If this coin returns to ATH, $1000 invested today would be: '
-    };
-    data.icoColumns = {
-      name: 'Name',
-      raised: 'Raised',
-      price: 'Curent Price',
-      icoPrice: 'ICO Price',
-      gains: 'Profits'
     };
     data.global = {
       today: 'Today'
