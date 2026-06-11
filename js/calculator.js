@@ -144,10 +144,19 @@ function fetchCalculatorHistoricalPrice(coin, fiat, dateStr, timestamp) {
       return { error: null, price: price };
     })
     .catch(function (lcwError) {
-      return cryptoComparePath().catch(function (ccError) {
-        // LiveCoinWatch answered "no data for that date" and CryptoCompare
-        // could not answer at all — that is a date problem, not an API one.
-        if (lcwError && lcwError.liveCoinWatchNoData) {
+      var lcwSaidNoData = Boolean(lcwError && lcwError.liveCoinWatchNoData);
+
+      return cryptoComparePath().then(function (result) {
+        // CryptoCompare resolving with an 'api' classification (e.g. its
+        // over-quota HTTP-200 error payload) means it could not actually
+        // answer either — LiveCoinWatch's authoritative "no data for that
+        // date" wins, so the user sees a date problem, not an API one.
+        if (result && result.error === 'api' && lcwSaidNoData) {
+          return { error: 'date', price: null };
+        }
+        return result;
+      }, function (ccError) {
+        if (lcwSaidNoData) {
           return { error: 'date', price: null };
         }
         throw ccError;

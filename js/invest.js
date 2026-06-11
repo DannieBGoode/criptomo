@@ -206,12 +206,20 @@ function fetchInvestHistoricalBpi(tokenSymbol, fiat, startDate, endDate, selecte
         return { error: null, bpi: bpi };
       })
       .catch(function (lcwError) {
+        var lcwSaidNoData = Boolean(lcwError && lcwError.liveCoinWatchNoData);
+
         return fetchCryptoCompareInvestBpi(tokenSymbol, fiat, startDate, endDate)
-          .catch(function (ccError) {
-            // LiveCoinWatch answered "no data for that range" and
-            // CryptoCompare could not answer at all — report it as a date
-            // problem, not an API one.
-            if (lcwError && lcwError.liveCoinWatchNoData) {
+          .then(function (result) {
+            // CryptoCompare resolving with an 'api' classification (e.g.
+            // its over-quota HTTP-200 error payload) means it could not
+            // actually answer either — LiveCoinWatch's authoritative
+            // "no data for that range" wins: date problem, not API.
+            if (result && result.error === 'api' && lcwSaidNoData) {
+              return { error: 'date', bpi: null };
+            }
+            return result;
+          }, function (ccError) {
+            if (lcwSaidNoData) {
               return { error: 'date', bpi: null };
             }
             throw ccError;

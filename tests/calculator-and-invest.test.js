@@ -281,6 +281,57 @@ describe('calculator.js and invest.js', () => {
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
+  test('calculator.js reports a date error when LCW has no data and CryptoCompare is over quota', async () => {
+    buildCalculatorDom();
+    const noData = new Error('LiveCoinWatch history is empty');
+    noData.liveCoinWatchNoData = true;
+    global.fetchLiveCoinWatchHistory = jest.fn().mockRejectedValue(noData);
+    global.fetch = jest.fn()
+      .mockResolvedValueOnce({ json: jest.fn().mockResolvedValue({ USD: 200 }) })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: jest.fn().mockResolvedValue({
+          Response: 'Error',
+          Message: 'You are over your rate limit please upgrade your account!',
+          Data: {}
+        })
+      });
+
+    const calculator = loadModule('../js/calculator.js');
+    calculator.calculateEarnings();
+    await flushPromises();
+    await flushPromises();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(global.handleError).not.toHaveBeenCalledWith('api');
+  });
+
+  test('invest.js reports a date error when LCW lacks the start date and CryptoCompare is over quota', async () => {
+    buildInvestDom();
+    const table = createDataTableStub();
+    setupJQuery(table);
+    setupGetQueue([
+      {
+        response: {
+          Response: 'Error',
+          Message: 'You are over your rate limit please upgrade your account!',
+          Data: {}
+        }
+      }
+    ]);
+    global.fetchLiveCoinWatchHistory = jest.fn().mockResolvedValue({ '2021-02-03': 0.00001 });
+    global.fetchCurrentPriceData = jest.fn().mockResolvedValue({ USD: 300 });
+
+    const invest = loadModule('../js/invest.js');
+    invest.calculateEarnings();
+    await flushPromises();
+
+    expect(global.handleError).toHaveBeenCalledWith('date');
+    expect(global.handleError).not.toHaveBeenCalledWith('api');
+    expect(table.rows.add).not.toHaveBeenCalled();
+  });
+
   test('calculator.js serves rate-limited responses that still contain valid data', async () => {
     buildCalculatorDom();
     const softServeWarning = 'You are over your rate limit please upgrade your account!';
