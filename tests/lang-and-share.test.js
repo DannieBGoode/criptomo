@@ -12,7 +12,7 @@ describe('lang.js and share-calculator-results.js', () => {
     const lang = loadModule('../js/lang.js');
 
     expect(lang.getTableDataLang('en').global.today).toBe('Today');
-    expect(lang.getTableDataLang('es').icoColumns.gains).toBe('Ganancias');
+    expect(lang.getTableDataLang('es').investmentColumns.date).toBe('Fecha');
     expect(lang.getTableDataLang('de').investmentColumns.date).toBe('Datum');
     expect(lang.getTableDataLang('fr').global.today).toBe("Aujourd'hui");
     expect(lang.getTableDataLang('pt').investmentColumns.totalSpent).toBe('Total investido');

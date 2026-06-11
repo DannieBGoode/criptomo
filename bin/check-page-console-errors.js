@@ -125,8 +125,14 @@ const PRELUDE_SCRIPT = `<script>
     if (isMarketProxyCall && marketPath === '/data/pricehistorical') {
       return { status: 200, body: { BTC: { USD: 48000, EUR: 44000 } } };
     }
-    if (isMarketProxyCall && marketPath === '/data/pricemulti') {
-      return { status: 200, body: { BTC: { USD: 50000 }, ETH: { USD: 2500 } } };
+    if (isMarketProxyCall && marketPath === '/lcw/history') {
+      var lcwStart = Number(url.searchParams.get('start'));
+      var lcwEnd = Number(url.searchParams.get('end'));
+      var lcwPoints = [];
+      for (var lcwT = lcwStart; lcwT <= lcwEnd && lcwPoints.length < 101; lcwT += 86400000) {
+        lcwPoints.push({ date: lcwT, rate: 350 + lcwPoints.length });
+      }
+      return { status: 200, body: { history: lcwPoints } };
     }
     if (url.hostname === 'api.coindesk.com' && url.pathname === '/v1/bpi/historical/close.json') {
       return {
@@ -154,6 +160,24 @@ const PRELUDE_SCRIPT = `<script>
             name: 'Bitcoin',
             price: 60000,
             rank: 1
+          }, {
+            cap: 300000,
+            circulating: 120000000,
+            code: 'ETH',
+            delta: { day: 1.01, hour: 1.001, week: 0.99, year: 1.2, second: 1.0 },
+            extremes: { all: { max: { date: '2024-01-01', usd: 4800 } } },
+            name: 'Ethereum',
+            price: 2500,
+            rank: 2
+          }, {
+            cap: 1500,
+            circulating: 2800000000,
+            code: 'IOTA',
+            delta: { day: 1.01, hour: 1.001, week: 0.99, year: 1.2, second: 1.0 },
+            extremes: { all: { max: { date: '2024-01-01', usd: 5.5 } } },
+            name: 'IOTA',
+            price: 0.5,
+            rank: 116
           }]
         }
       };

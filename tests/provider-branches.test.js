@@ -1,6 +1,10 @@
 const { loadModule } = require('./helpers/load-module');
-const { buildIcosDom, buildInvestDom, buildMarketcapsDom, createDataTableStub } = require('./helpers/page-builders');
+const { buildInvestDom, buildMarketcapsDom, createDataTableStub } = require('./helpers/page-builders');
 const { setupGet, setupGetQueue, setupJQuery } = require('./helpers/jquery-test-env');
+
+function flushPromises() {
+  return new Promise((resolve) => setTimeout(resolve, 0));
+}
 
 describe('provider edge branches', () => {
   beforeEach(() => {
@@ -9,11 +13,19 @@ describe('provider edge branches', () => {
     global.handleError = jest.fn();
   });
 
+  afterEach(() => {
+    delete global.fetchCurrentPriceData;
+  });
+
   test('invest preFill accepts valid USD params and ignores non-USD ones', () => {
     const table = createDataTableStub();
 
     buildInvestDom();
     setupJQuery(table);
+    global.fetch = jest.fn().mockResolvedValue({
+      ok: true,
+      json: jest.fn().mockResolvedValue({ USD: 300 })
+    });
     setupGetQueue([
       {
         response: {
@@ -22,9 +34,6 @@ describe('provider edge branches', () => {
             { TIMESTAMP: new Date('2024-01-31').getTime() / 1000, CLOSE: 200 }
           ]
         }
-      },
-      {
-        response: { USD: 300 }
       }
     ]);
     window.history.pushState({}, '', 'http://localhost/?invest=250&currency=usd&crypto=btc&interval=30&date=2024-01-01');
@@ -49,7 +58,7 @@ describe('provider edge branches', () => {
     expect($.get).not.toHaveBeenCalled();
   });
 
-  test('invest handles historical and current price error callbacks', () => {
+  test('invest handles historical and current price error callbacks', async () => {
     let table = createDataTableStub();
 
     buildInvestDom();
@@ -64,6 +73,7 @@ describe('provider edge branches', () => {
 
     let invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await flushPromises();
 
     expect(global.handleError).toHaveBeenCalledWith('api');
     expect(table.processing).toHaveBeenLastCalledWith(false);
@@ -81,18 +91,16 @@ describe('provider edge branches', () => {
             { TIMESTAMP: new Date('2024-01-08').getTime() / 1000, CLOSE: 200 }
           ]
         }
-      },
-      {
-        response: { message: 'price failed' },
-        trigger: 'error',
-        invokeCallback: false
       }
     ]);
+    global.fetch = jest.fn().mockRejectedValue(new Error('price failed'));
 
     invest = loadModule('../js/invest.js');
     invest.calculateEarnings();
+    await flushPromises();
 
     expect(global.handleError).toHaveBeenCalledWith('api');
+    expect(table.processing).toHaveBeenLastCalledWith(false);
     expect(table.rows.add).not.toHaveBeenCalled();
   });
 
@@ -136,35 +144,4 @@ describe('provider edge branches', () => {
     }, 'display')).toContain('USD');
   });
 
-  test('icos handles invalid provider payloads and fallback render branches', () => {
-    const table = createDataTableStub();
-
-    buildIcosDom();
-    setupJQuery(table);
-    setupGetQueue([
-      {
-        response: []
-      },
-      {
-        response: { message: 'failed' },
-        trigger: 'error',
-        invokeCallback: false
-      }
-    ]);
-
-    const icos = loadModule('../js/icos.js');
-    const columns = $.fn.DataTable.mock.calls[0][0].columns;
-
-    icos.marketcapTableLoad();
-    expect(document.querySelector('.api-error').style.display).not.toBe('none');
-    expect(table.rows.add).not.toHaveBeenCalled();
-
-    document.querySelector('.api-error').style.display = 'none';
-    icos.marketcapTableLoad();
-    expect(document.querySelector('.api-error').style.display).not.toBe('none');
-
-    expect(columns[6].render('-5.000', 'display')).toContain('marketcaps-pricechange-negative');
-    expect(columns[6].render('oops', 'sort')).toBe(Number.NEGATIVE_INFINITY);
-    expect(icos.calculateIcoGain(100, 0)).toBe('N/A');
-  });
 });

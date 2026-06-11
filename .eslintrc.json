@@ -12,7 +12,6 @@
     "isLocalStorageAvailable": "readonly",
     "handleError": "readonly",
     "iconsBaseUrl": "readonly",
-    "icos": "readonly",
     "marketcapsCoinsLimit": "readonly",
     "mobileAndTabletcheck": "readonly",
     "recommendArticles": "readonly",

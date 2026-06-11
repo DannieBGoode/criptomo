@@ -118,39 +118,8 @@ function buildMarketcapsDom() {
   global.toShortFormat = jest.fn().mockReturnValue('1-Jan-2024');
 }
 
-function buildIcosDom() {
-  document.body.innerHTML = `
-    <table id="marketcaps-table"></table>
-    <input id="marketcaps-filter-input" />
-    <select id="marketcaps-pagelength-select"><option>100</option></select>
-    <div class="api-error" style="display:none"></div>
-  `;
-  global.tableDataLang = {
-    general: {},
-    icoColumns: {
-      gains: 'Gains',
-      icoPrice: 'ICO',
-      name: 'Name',
-      price: 'Price',
-      raised: 'Raised'
-    }
-  };
-  global.coins = {
-    btc: {
-      icon: 'btc.png',
-      name: 'Bitcoin',
-      'ico-price': '0.5',
-      'ico-raised': '1000',
-      website: 'https://bitcoin.org'
-    }
-  };
-  global.iconsBaseUrl = 'https://img/';
-  global.icos = ['BTC'];
-}
-
 module.exports = {
   buildCalculatorDom: buildCalculatorDom,
-  buildIcosDom: buildIcosDom,
   buildInvestDom: buildInvestDom,
   buildMarketcapsDom: buildMarketcapsDom,
   createDataTableStub: createDataTableStub

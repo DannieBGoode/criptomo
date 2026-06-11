@@ -94,9 +94,12 @@ function getFetchErrorType(error) {
   return error && error.calculatorErrorType ? error.calculatorErrorType : 'api';
 }
 
-function parseProviderJson(response) {
+// Throws only on transport-level failure; payload-level problems are
+// classified by the data-first parsers so over-quota "soft serve" responses
+// (valid data + rate-limit Message) still render.
+function parseHistoricalProviderJson(response) {
   return response.json().then(function(data) {
-    if (response.ok === false || isCalculatorProviderApiError(data)) {
+    if (response.ok === false) {
       var error = new Error('Provider API error');
       error.calculatorErrorType = 'api';
       throw error;
@@ -106,7 +109,85 @@ function parseProviderJson(response) {
   });
 }
 
+// Historical price via the keyless-friendly LiveCoinWatch route when the
+// shared helper is loaded; the metered CryptoCompare endpoint is the
+// fallback for coins LiveCoinWatch doesn't carry (and for LCW outages).
+function fetchCalculatorHistoricalPrice(coin, fiat, dateStr, timestamp) {
+  function cryptoComparePath() {
+    return fetch('/api/market/data/pricehistorical?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat) + '&ts=' + timestamp)
+      .then(parseHistoricalProviderJson)
+      .then(function (data) {
+        return parseHistoricalPriceResponse(data, coin, fiat);
+      });
+  }
+
+  if (typeof fetchLiveCoinWatchHistory !== 'function') {
+    return cryptoComparePath();
+  }
+
+  var dayStartMs = Date.parse(dateStr + 'T00:00:00Z');
+
+  if (!Number.isFinite(dayStartMs)) {
+    return cryptoComparePath();
+  }
+
+  return fetchLiveCoinWatchHistory(coin, fiat, dayStartMs, dayStartMs + 86399999)
+    .then(function (bpi) {
+      var price = parseFloat(bpi[dateStr]);
+
+      if (!Number.isFinite(price) || price <= 0) {
+        var error = new Error('Day is missing from LiveCoinWatch history');
+        error.liveCoinWatchNoData = true;
+        throw error;
+      }
+
+      return { error: null, price: price };
+    })
+    .catch(function (lcwError) {
+      return cryptoComparePath().catch(function (ccError) {
+        // LiveCoinWatch answered "no data for that date" and CryptoCompare
+        // could not answer at all — that is a date problem, not an API one.
+        if (lcwError && lcwError.liveCoinWatchNoData) {
+          return { error: 'date', price: null };
+        }
+        throw ccError;
+      });
+    });
+}
+
+function fetchCalculatorPriceData(coin, fiat) {
+  if (typeof fetchCurrentPriceData === 'function') {
+    return fetchCurrentPriceData(coin, fiat);
+  }
+
+  return fetch('/api/market/data/price?fsym=' + encodeURIComponent(coin) + '&tsyms=' + encodeURIComponent(fiat))
+    .then(function(response) {
+      return response.json().then(function(data) {
+        if (parseCurrentPriceResponse(data, fiat) !== null) {
+          return data;
+        }
+
+        if (response.ok === false || isCalculatorProviderApiError(data)) {
+          var error = new Error('Provider API error');
+          error.calculatorErrorType = 'api';
+          throw error;
+        }
+
+        return data;
+      });
+    });
+}
+
+// Usable data wins over error classification: CryptoCompare's over-quota
+// "soft serve" responses pair a rate-limit Message with a valid price.
 function parseHistoricalPriceResponse(data, tokenSymbol, fiat) {
+  const tokenHistory = data && data[tokenSymbol];
+  const historicalPrice = parseFloat(tokenHistory && tokenHistory[fiat]);
+
+  if (Number.isFinite(historicalPrice) && historicalPrice !== 0) {
+    return { error: null, price: historicalPrice };
+  }
+
   if (isCalculatorProviderApiError(data)) {
     return { error: 'api', price: null };
   }
@@ -115,14 +196,7 @@ function parseHistoricalPriceResponse(data, tokenSymbol, fiat) {
     return { error: 'currency', price: null };
   }
 
-  const tokenHistory = data && data[tokenSymbol];
-  const historicalPrice = parseFloat(tokenHistory && tokenHistory[fiat]);
-
-  if (!Number.isFinite(historicalPrice) || historicalPrice === 0) {
-    return { error: 'date', price: null };
-  }
-
-  return { error: null, price: historicalPrice };
+  return { error: 'date', price: null };
 }
 
 function calculateInvestmentResults(oldValue, oldPrice, currentPrice) {
@@ -380,8 +454,7 @@ function calculateEarnings() {
     });
     Array.from(document.getElementsByClassName('error')).forEach(el => el.classList.remove('is-visible'));
 
-    fetch('/api/market/data/price?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat)
-      .then(parseProviderJson)
+    fetchCalculatorPriceData(investment.tokenSymbol, investment.fiat)
       .then((response) => {
         const currentPrice = parseCurrentPriceResponse(response, investment.fiat);
 
@@ -407,11 +480,8 @@ function calculateEarnings() {
         //     });
         // } else {
           // altcoin api
-          fetch('/api/market/data/pricehistorical?fsym=' + investment.tokenSymbol + '&tsyms=' + investment.fiat + '&ts=' + timestamp)
-            .then(parseProviderJson)
-            .then((data) => {
-              const historicalPriceData = parseHistoricalPriceResponse(data, investment.tokenSymbol, investment.fiat);
-
+          fetchCalculatorHistoricalPrice(investment.tokenSymbol, investment.fiat, investment.date, timestamp)
+            .then((historicalPriceData) => {
               if (historicalPriceData.error) {
                 handleError(historicalPriceData.error);
               } else {
@@ -542,6 +612,8 @@ if (typeof module !== 'undefined') {
     calculateEarnings: calculateEarnings,
     copyAffiliateCode: copyAffiliateCode,
     copyShareText: copyShareText,
+    fetchCalculatorHistoricalPrice: fetchCalculatorHistoricalPrice,
+    fetchCalculatorPriceData: fetchCalculatorPriceData,
     getShareUrl: getShareUrl,
     init: init,
     initAffiliateCopy: initAffiliateCopy,
@@ -550,7 +622,7 @@ if (typeof module !== 'undefined') {
     loadRecommendationArticles: loadRecommendationArticles,
     loadScriptOnce: loadScriptOnce,
     parseCurrentPriceResponse: parseCurrentPriceResponse,
-    parseProviderJson: parseProviderJson,
+    parseHistoricalProviderJson: parseHistoricalProviderJson,
     parseHistoricalPriceResponse: parseHistoricalPriceResponse,
     preFill: preFill,
     shareOnSocial: shareOnSocial

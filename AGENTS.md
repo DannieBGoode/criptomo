@@ -81,8 +81,8 @@ Jekyll 4.3.4 static site. Content in Liquid templates, styles in SCSS (libsass v
 ### JavaScript
 
 - Browser JavaScript in `js/*.js` is plain script code, not bundled modules. Many files expose `module.exports` only for Jest; preserve that testing pattern.
-- Runtime globals injected by Jekyll templates and declared as ESLint globals: `$`, `coins`, `Data`, `icos`, `mobileAndTabletcheck`, `handleError`, `isLocalStorageAvailable`, `iconsBaseUrl`, `marketcapsCoinsLimit`, `recommendArticles`, `tableDataLang`, `toShortFormat`. Check `.eslintrc.json` before introducing new globals.
-- Some pages rely on strict script ordering. DataTables CDN scripts must remain ahead of `invest.js`, `icos.js`, and `marketcaps.js` in the page source.
+- Runtime globals injected by Jekyll templates and declared as ESLint globals: `$`, `coins`, `Data`, `mobileAndTabletcheck`, `handleError`, `isLocalStorageAvailable`, `iconsBaseUrl`, `marketcapsCoinsLimit`, `recommendArticles`, `tableDataLang`, `toShortFormat`. Check `.eslintrc.json` before introducing new globals.
+- Some pages rely on strict script ordering. DataTables CDN scripts must remain ahead of `invest.js` and `marketcaps.js` in the page source.
 - When adding or updating JS tests, prefer reusing helpers in `tests/helpers/` instead of duplicating DOM setup.
 
 ## External Integrations

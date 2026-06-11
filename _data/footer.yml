@@ -52,8 +52,6 @@ es:
       url: /inversion/
     - label: FIRE
       url: /calculadora-fire/
-    - label: ICOs
-      url: /icos/
 
 en:
   eyebrow: "Research, tools, and long-term thinking"
@@ -85,8 +83,6 @@ en:
       url: /en/investment/
     - label: FIRE
       url: /en/fire-calculator/
-    - label: ICOs
-      url: /en/icos/
 
 de:
   eyebrow: "Recherche, Tools und langfristiges Denken"
