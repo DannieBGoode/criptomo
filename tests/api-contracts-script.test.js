@@ -11,9 +11,19 @@ function createJsonResponse(payload, status) {
 }
 
 function buildPriceListPayload() {
+  const presetCodesByRank = {
+    0: 'BTC',
+    1: 'ETH',
+    19: 'LTC',
+    39: 'XMR',
+    59: 'ADA',
+    79: 'XRP',
+    115: 'IOTA'
+  };
   const coins = [];
   for (let i = 0; i < 200; i++) {
-    coins.push({ code: i === 115 ? 'IOTA' : 'COIN' + i, price: i === 115 ? 0.5 : 10 + i, rank: i + 1 });
+    const code = presetCodesByRank[i] || 'COIN' + i;
+    coins.push({ code: code, price: code === 'IOTA' ? 0.5 : 10 + i, rank: i + 1 });
   }
   return { data: coins };
 }
@@ -57,14 +67,15 @@ describe('live api contract runner', () => {
           rank: 1
         }]
       }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
 
     expect(report.success).toBe(true);
-    expect(report.results).toHaveLength(5);
+    expect(report.results).toHaveLength(6);
     expect(report.results.every((result) => result.status === 'passed')).toBe(true);
-    expect(global.fetch).toHaveBeenCalledTimes(5);
+    expect(global.fetch).toHaveBeenCalledTimes(6);
     expect(apiContracts.formatMarkdownReport(report)).toContain('Overall: PASS');
   });
 
@@ -80,12 +91,13 @@ describe('live api contract runner', () => {
           rank: 1
         }]
       }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
 
     expect(report.success).toBe(true);
-    expect(report.results).toHaveLength(2);
+    expect(report.results).toHaveLength(3);
     expect(report.results.every((result) => result.provider === 'LiveCoinWatch')).toBe(true);
 
     process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE = '1';
@@ -95,16 +107,18 @@ describe('live api contract runner', () => {
       .mockResolvedValueOnce(createJsonResponse({ BTC: { USD: 48000 } }))
       .mockResolvedValueOnce(createJsonResponse({ Data: { Data: [{ time: 1741478400, close: 101000 }] } }))
       .mockResolvedValueOnce(createJsonResponse({ data: [{ cap: 1, circulating: 1, code: 'BTC', name: 'Bitcoin', price: 1, rank: 1 }] }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const forcedReport = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
-    expect(forcedReport.results).toHaveLength(5);
+    expect(forcedReport.results).toHaveLength(6);
   });
 
   test('fails the keyed history check in CI when the key secret is missing', async () => {
     process.env.GITHUB_ACTIONS = 'true';
     global.fetch
       .mockResolvedValueOnce(createJsonResponse({ data: [{ cap: 1, circulating: 1, code: 'BTC', name: 'Bitcoin', price: 1, rank: 1 }] }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
@@ -119,8 +133,9 @@ describe('live api contract runner', () => {
     process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE = '1';
     process.env.LIVECOINWATCH_API_KEY = 'lcw-test-key';
     const dailyPoints = [];
+    const firstHistoryPoint = Date.UTC(2025, 10, 29);
     for (let i = 0; i < 100; i++) {
-      dailyPoints.push({ date: 1700000000000 + i * 86400000, rate: 30000 + i });
+      dailyPoints.push({ date: firstHistoryPoint + i * 86400000, rate: 30000 + i });
     }
 
     global.fetch
@@ -129,21 +144,22 @@ describe('live api contract runner', () => {
       .mockResolvedValueOnce(createJsonResponse({ Data: { Data: [{ time: 1741478400, close: 101000 }] } }))
       .mockResolvedValueOnce(createJsonResponse({ data: [{ cap: 1, circulating: 1, code: 'BTC', name: 'Bitcoin', price: 1, rank: 1 }] }))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse({ history: dailyPoints }));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
     const historyResult = report.results.find((result) => result.name === 'LiveCoinWatch official history (keyed)');
 
-    expect(report.results).toHaveLength(6);
+    expect(report.results).toHaveLength(7);
     expect(historyResult.status).toBe('passed');
-    const [historyUrl, historyOptions] = global.fetch.mock.calls[5];
+    const [historyUrl, historyOptions] = global.fetch.mock.calls[6];
     expect(historyUrl).toBe('https://api.livecoinwatch.com/coins/single/history');
     expect(historyOptions.method).toBe('POST');
     expect(historyOptions.headers['x-api-key']).toBe('lcw-test-key');
     expect(JSON.stringify(report)).not.toContain('lcw-test-key');
   });
 
-  test('fails when the LiveCoinWatch price list is too shallow or missing IOTA', async () => {
+  test('fails when a LiveCoinWatch price list is too shallow or missing preset coins', async () => {
     process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE = '1';
     const shallowList = { data: [{ code: 'BTC', price: 60000, rank: 1 }] };
     const noIotaList = buildPriceListPayload();
@@ -157,7 +173,7 @@ describe('live api contract runner', () => {
       .mockResolvedValueOnce(createJsonResponse(shallowList));
 
     const shallowReport = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
-    const shallowResult = shallowReport.results.find((result) => result.name === 'LiveCoinWatch price list depth');
+    const shallowResult = shallowReport.results.find((result) => result.name === 'LiveCoinWatch price list depth (USD)');
 
     expect(shallowResult.status).toBe('failed');
     expect(shallowResult.error).toContain('top 200');
@@ -168,10 +184,11 @@ describe('live api contract runner', () => {
       .mockResolvedValueOnce(createJsonResponse({ BTC: { USD: 48000 } }))
       .mockResolvedValueOnce(createJsonResponse({ Data: { Data: [{ time: 1741478400, close: 101000 }] } }))
       .mockResolvedValueOnce(createJsonResponse({ data: [{ cap: 1, circulating: 1, code: 'BTC', name: 'Bitcoin', price: 1, rank: 1 }] }))
+      .mockResolvedValueOnce(createJsonResponse(noIotaList))
       .mockResolvedValueOnce(createJsonResponse(noIotaList));
 
     const noIotaReport = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
-    const noIotaResult = noIotaReport.results.find((result) => result.name === 'LiveCoinWatch price list depth');
+    const noIotaResult = noIotaReport.results.find((result) => result.name === 'LiveCoinWatch price list depth (USD)');
 
     expect(noIotaResult.status).toBe('failed');
     expect(noIotaResult.error).toContain('IOTA');
@@ -184,6 +201,7 @@ describe('live api contract runner', () => {
       .mockResolvedValueOnce(createJsonResponse({ BTC: { USD: 48000 } }))
       .mockResolvedValueOnce(createJsonResponse({ Data: { Data: [{ time: 1741478400, close: 101000 }] } }))
       .mockResolvedValueOnce(createJsonResponse({ data: [{}] }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
@@ -217,6 +235,7 @@ describe('live api contract runner', () => {
           rank: 1
         }]
       }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
@@ -255,6 +274,7 @@ describe('live api contract runner', () => {
           rank: 1
         }]
       }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
       .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
 
     const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });

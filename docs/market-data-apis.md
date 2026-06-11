@@ -135,11 +135,12 @@ everywhere, EUR on some pages).
   `calculator-common.js` translates; add new aliases there if presets change.
 - It could disappear without notice, like CoinDesk's free tier did. The daily
   contract job watches both the marketcaps shape (`limit=1`) and the calculators'
-  price list (`limit=200`, depth ≥150, IOTA present). If LiveCoinWatch dies, the
-  calculators silently degrade to CryptoCompare fallback — which the 100/month quota
-  cannot sustain, so treat a red LiveCoinWatch contract check as urgent. The official
-  LiveCoinWatch API (`api.livecoinwatch.com`) requires a key (free tier: 10k
-  credits/day) and is POST-based — it would need a proxy like the CryptoCompare one.
+  USD/EUR price lists (`limit=200`, depth ≥150, all preset coins present). If
+  LiveCoinWatch dies, the calculators silently degrade to CryptoCompare fallback —
+  which the 100/month quota cannot sustain, so treat a red LiveCoinWatch contract
+  check as urgent. The official LiveCoinWatch API (`api.livecoinwatch.com`) requires
+  a key (free tier: 10k credits/day) and is POST-based — it would need a proxy like
+  the CryptoCompare one.
 
 ## Monitoring
 
@@ -147,7 +148,8 @@ everywhere, EUR on some pages).
   06:17 UTC and on manual dispatch. It checks the real provider responses against the
   shapes the site depends on. A red run = provider drift — investigate before users
   notice. Scheduled runs check **LiveCoinWatch only**: the legacy market list,
-  the top-200 price list, and the keyed official-history check (the last only
+  the top-200 USD and EUR price lists for all preset coins (`BTC`, `ETH`, `LTC`,
+  `IOTA`, `XMR`, `ADA`, `XRP`), and the keyed official-history check (the last only
   where `LIVECOINWATCH_API_KEY` is set). The three CryptoCompare fallback checks
   are **off by default** — scheduled runs would spend the fallback's
   100-calls/month quota on watching the fallback. Run them on demand via the
