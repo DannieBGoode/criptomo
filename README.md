@@ -32,7 +32,7 @@ For more information check the [official Jekyll docs](https://jekyllrb.com/docs/
 * Run `npm run test:api-contracts` to verify the current external API contracts used by the repo.
 * The command writes a Markdown and JSON report to `artifacts/api-contracts/`.
 * A separate GitHub Actions workflow in `.github/workflows/live-api-contracts.yml` runs the same checks on a schedule and by manual dispatch, outside the normal PR test path.
-* CryptoCompare (CoinDesk Data) requires an API key since 2026-05-21, so the `CRYPTOCOMPARE_API_KEY` repository secret must stay configured for the scheduled job. The script redacts the key from its reports.
+* Scheduled runs check LiveCoinWatch (the primary provider); the `LIVECOINWATCH_API_KEY` repository secret must stay configured or the run fails. The CryptoCompare fallback checks run only on demand (workflow-dispatch checkbox or `API_CONTRACT_INCLUDE_CRYPTOCOMPARE=1`) and need `CRYPTOCOMPARE_API_KEY`. The script redacts keys from its reports. See `docs/market-data-apis.md` for the full provider architecture.
 
 ## Collaborate
 
