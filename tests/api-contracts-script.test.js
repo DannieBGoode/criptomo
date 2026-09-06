@@ -33,13 +33,17 @@ describe('live api contract runner', () => {
     delete process.env.CRYPTOCOMPARE_API_KEY;
     delete process.env.LIVECOINWATCH_API_KEY;
     delete process.env.API_CONTRACT_TIMEOUT_MS;
+    delete process.env.API_CONTRACT_RETRIES;
     delete process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE;
+    process.env.API_CONTRACT_RETRY_DELAY_MS = '0';
     delete process.env.GITHUB_ACTIONS;
     global.fetch = jest.fn();
   });
 
   afterEach(() => {
     delete process.env.API_CONTRACT_INCLUDE_CRYPTOCOMPARE;
+    delete process.env.API_CONTRACT_RETRIES;
+    delete process.env.API_CONTRACT_RETRY_DELAY_MS;
     delete process.env.GITHUB_ACTIONS;
   });
 
@@ -284,6 +288,63 @@ describe('live api contract runner', () => {
     expect(apiContracts.formatMarkdownReport(report)).not.toContain('super-secret-key');
     expect(apiContracts.formatConsoleReport(report)).not.toContain('super-secret-key');
     expect(report.results[0].endpoint).toContain('api_key=REDACTED');
+  });
+
+  test('retries a transport failure and passes when the retry succeeds', async () => {
+    global.fetch
+      .mockRejectedValueOnce(new Error('This operation was aborted'))
+      .mockResolvedValueOnce(createJsonResponse({ data: [{ cap: 1, circulating: 1, code: 'BTC', name: 'Bitcoin', price: 1, rank: 1 }] }))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
+
+    const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
+    const legacyResult = report.results.find((result) => result.name === 'LiveCoinWatch legacy market list');
+
+    expect(legacyResult.status).toBe('passed');
+    expect(report.success).toBe(true);
+    // One retried call plus one call for each of the three LiveCoinWatch checks.
+    expect(global.fetch).toHaveBeenCalledTimes(4);
+  });
+
+  test('gives up after the retry budget and reports the transport failure', async () => {
+    process.env.API_CONTRACT_RETRIES = '2';
+    global.fetch.mockRejectedValue(new Error('This operation was aborted'));
+
+    const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
+    const legacyResult = report.results.find((result) => result.name === 'LiveCoinWatch legacy market list');
+
+    expect(report.success).toBe(false);
+    expect(legacyResult.status).toBe('failed');
+    expect(legacyResult.error).toContain('request failed');
+    expect(legacyResult.error).toContain('aborted');
+    // Three attempts (one plus two retries) for each of the three LiveCoinWatch checks.
+    expect(global.fetch).toHaveBeenCalledTimes(9);
+  });
+
+  test('honours an explicit retry budget of zero', async () => {
+    process.env.API_CONTRACT_RETRIES = '0';
+    global.fetch.mockRejectedValue(new Error('This operation was aborted'));
+
+    const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
+
+    expect(report.success).toBe(false);
+    // One attempt for each of the three LiveCoinWatch checks, no retries.
+    expect(global.fetch).toHaveBeenCalledTimes(3);
+  });
+
+  test('does not retry when the provider answers with a contract failure', async () => {
+    global.fetch
+      .mockResolvedValueOnce(createJsonResponse({ message: 'boom' }, 500))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()))
+      .mockResolvedValueOnce(createJsonResponse(buildPriceListPayload()));
+
+    const report = await apiContracts.runContractChecks({ now: new Date('2026-03-09T12:00:00.000Z') });
+    const legacyResult = report.results.find((result) => result.name === 'LiveCoinWatch legacy market list');
+
+    expect(legacyResult.status).toBe('failed');
+    expect(legacyResult.httpStatus).toBe(500);
+    // A real HTTP answer is contract signal, so each check is attempted exactly once.
+    expect(global.fetch).toHaveBeenCalledTimes(3);
   });
 
   test('formats a readable console report with a fixed-width table', () => {

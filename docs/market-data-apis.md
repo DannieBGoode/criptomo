@@ -157,6 +157,14 @@ everywhere, EUR on some pages).
   or locally with `API_CONTRACT_INCLUDE_CRYPTOCOMPARE=1`.
 - A red **LiveCoinWatch** check is urgent: it is the primary provider, and the
   CryptoCompare fallback's 100-calls/month quota cannot carry production traffic.
+- Transport-level failures (connection errors, or a provider stalling past the
+  15s `API_CONTRACT_TIMEOUT_MS`) are retried once with a 500ms backoff before the
+  check is failed, so a single slow response no longer reds the workflow. Tune with
+  `API_CONTRACT_RETRIES` and `API_CONTRACT_RETRY_DELAY_MS` (`0` disables either).
+  Retries apply **only** to transport failures — any real HTTP status, malformed
+  payload, or failed shape assertion is contract signal and fails on the first
+  attempt. A red run therefore means either genuine drift or a provider that was
+  unreachable for every attempt.
 - Reports are uploaded as a **public artifact**, which is why
   `bin/check-api-contracts.js` redacts `api_key` from every endpoint/error it prints.
   Keep that property if you modify the script.
