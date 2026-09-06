@@ -91,8 +91,25 @@ function requirePositiveNumber(value, label, endpoint) {
   return parsedValue;
 }
 
-async function requestJson(checkName, request) {
-  ensureFetch();
+function readNonNegativeEnv(name, fallback) {
+  const rawValue = process.env[name];
+
+  if (!rawValue) {
+    return fallback;
+  }
+
+  const parsedValue = Number(rawValue);
+
+  return Number.isFinite(parsedValue) && parsedValue >= 0 ? parsedValue : fallback;
+}
+
+function delay(ms) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, ms);
+  });
+}
+
+async function attemptRequestJson(checkName, request) {
   const startedAt = Date.now();
   const controller = typeof AbortController === 'function' ? new AbortController() : null;
   const timeoutMs = Number(process.env.API_CONTRACT_TIMEOUT_MS) || 15000;
@@ -140,13 +157,43 @@ async function requestJson(checkName, request) {
 
     throw createCheckError(checkName + ' request failed: ' + error.message, {
       endpoint: request.url,
-      httpStatus: null
+      httpStatus: null,
+      retryable: true
     });
   } finally {
     if (timeoutId) {
       clearTimeout(timeoutId);
     }
   }
+}
+
+// The upstream providers occasionally stall past the request timeout, which
+// reddens the whole workflow without telling us anything about the contract.
+// Only transport-level failures are retried: any real HTTP answer, malformed
+// payload, or failed assertion is contract signal and must surface untouched.
+async function requestJson(checkName, request) {
+  ensureFetch();
+  const retries = readNonNegativeEnv('API_CONTRACT_RETRIES', 1);
+  const backoffMs = readNonNegativeEnv('API_CONTRACT_RETRY_DELAY_MS', 500);
+  let lastError = null;
+
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    if (attempt > 0 && backoffMs > 0) {
+      await delay(backoffMs * attempt);
+    }
+
+    try {
+      return await attemptRequestJson(checkName, request);
+    } catch (error) {
+      if (!error.retryable) {
+        throw error;
+      }
+
+      lastError = error;
+    }
+  }
+
+  throw lastError;
 }
 
 function createLiveCoinWatchHistoryCheck(now) {
