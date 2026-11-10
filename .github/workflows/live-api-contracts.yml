@@ -12,7 +12,8 @@ on:
 
 jobs:
   live-api-contracts:
-    runs-on: ubuntu-latest
+    # Same variable-based runner selection as SAM; clear the variable to revert.
+    runs-on: ${{ vars.CRIPTOMO_CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 10
     permissions:
       contents: read

@@ -1,0 +1,8 @@
+{
+  "name": "@criptomo/deepmerge",
+  "version": "4.3.1-patched.1",
+  "private": true,
+  "description": "Local security-patched deepmerge 4.3.1 for Jest",
+  "main": "index.js",
+  "license": "MIT"
+}
