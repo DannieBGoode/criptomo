@@ -16,7 +16,7 @@ For more information check the [official Jekyll docs](https://jekyllrb.com/docs/
 
 ## Development Guide
 
-* From the code source folder and run `bundle exec jekyll serve` to start a liveserver. Any changes to `_config.yml` will require to restart the server but other files can be edited while live.
+* From the code source folder, run `npm run dev` to start the local server through the project's Jekyll wrapper. Any changes to `_config.yml` will require restarting the server, but other files can be edited while live.
 * Changes can be seen in `http://127.0.0.1:4000/`
 * Any change pushed to the branch `master` will be automatically deployed to the production server via Netlify (permissions needed).
 
@@ -33,6 +33,7 @@ For more information check the [official Jekyll docs](https://jekyllrb.com/docs/
 * The command writes a Markdown and JSON report to `artifacts/api-contracts/`.
 * A separate GitHub Actions workflow in `.github/workflows/live-api-contracts.yml` runs the same checks on a schedule and by manual dispatch, outside the normal PR test path.
 * Scheduled runs check LiveCoinWatch (the primary provider); the `LIVECOINWATCH_API_KEY` repository secret must stay configured or the run fails. The CryptoCompare fallback checks run only on demand (workflow-dispatch checkbox or `API_CONTRACT_INCLUDE_CRYPTOCOMPARE=1`) and need `CRYPTOCOMPARE_API_KEY`. The script redacts keys from its reports. See `docs/market-data-apis.md` for the full provider architecture.
+* See [`docs/investment-dca-api-notes.md`](docs/investment-dca-api-notes.md) for the historical DCA calculator API decision record.
 
 ## Collaborate
 
